@@ -121,7 +121,8 @@ left out.
 - **It is a race.** In the Llamas the override comes at layers 14–16. Continent (readable from layer 8) and
   sentiment (11–12) form before it, and on prompts answered falsely the truth is in the workspace well above
   the baseline (continent 0.77–0.87 vs 0.38–0.44). Language and animal form at layers 14–15 and their readouts
-  do not beat the baseline: the context wins before the answer exists.
+  beat the baseline little (language 0.50 vs 0.33 in the base model, on 30 prompts) or not at all: the context
+  wins before the answer exists.
 - **Qwen3-8B overrides later** (layers 23–30 of 36) and its continent, sentiment and language labels form at
   layers 12–16, so all three have a window: the J-lens reads the true language on 91% of the prompts answered
   falsely (baseline 0.52), the true sentiment on 95% (0.51), the true continent on 82% (0.51). Qwen also
