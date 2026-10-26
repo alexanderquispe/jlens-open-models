@@ -36,6 +36,7 @@ from jlens_open.jspace import decompose, lens_atoms
 parser = argparse.ArgumentParser()
 parser.add_argument("--model", choices=list(MODELS), required=True)
 parser.add_argument("--device", default=None, help="cuda / mps / cpu (default: the first available)")
+parser.add_argument("--layers", default="::1", help="layers to patch, as start:stop:step (default: all)")
 parser.add_argument("--targets", type=int, default=3, help="countries B per prompt")
 args = parser.parse_args()
 
@@ -52,6 +53,7 @@ torch.manual_seed(0)
 rng = np.random.default_rng(0)
 lm = LensModel(args.model, args.device)
 L, dev = lm.n_blocks, lm.device
+LAYERS = list(range(L))[slice(*[int(x) if x else None for x in args.layers.split(":")])]
 
 lang_names = sorted({c[2] for c in COUNTRIES})
 lang_ids = [lm.tok.encode(" " + w, add_special_tokens=False)[0] for w in lang_names]
@@ -118,7 +120,7 @@ def run_patched(layer, position, deltas):
     for tidx in tgroups:
         pidx = tP_idx[tidx]
         d = torch.from_numpy(deltas[tidx].astype(np.float32)).to(dev)
-        _, logits = lm.run(torch.stack([prompts[i] for i in pidx]), deltas={layer: d}, positions=meta[position].to_numpy()[pidx])
+        _, logits = lm.run(torch.stack([prompts[i] for i in pidx]), deltas={layer: d}, positions=meta[position].to_numpy()[pidx], store=False)
         out[tidx] = logits[:, lang_ids].argmax(1).cpu().numpy()
     return out
 
@@ -128,7 +130,7 @@ gen = torch.Generator(device="cpu").manual_seed(1)
 rand_vecs = torch.randn(len(COUNTRIES), lm.d, generator=gen)
 rand_vecs = (rand_vecs / rand_vecs.norm(dim=1, keepdim=True)).numpy()
 tok_rows = [country_ids[COUNTRIES[c][0]][0] if c in single else 0 for c in range(len(COUNTRIES))]
-for layer in range(L):
+for layer in LAYERS:
     J_atoms = lens_atoms(lm, layer, True)
     vec = {"J-lens": J_atoms[tok_rows].float().cpu().numpy(),
            "logit lens": lens_atoms(lm, layer, False)[tok_rows].float().cpu().numpy(),

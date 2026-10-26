@@ -83,13 +83,14 @@ class LensModel:
         return {self.tok.encode(w, add_special_tokens=False)[0] for w in (word, " " + word)}
 
     @torch.no_grad()
-    def run(self, input_ids, deltas=None, positions=None):
+    def run(self, input_ids, deltas=None, positions=None, store=True):
         """Block outputs [n_blocks] of (batch, seq, d) in float32, and the last-position logits.
 
         deltas: optional {layer: (batch, d) tensor} added after that block at `positions`
-        (one index per row; default the last position).
+        (one index per row; default the last position). store=False skips the block outputs
+        (returns None for them), which makes patched runs faster.
         """
-        store = {}
+        outputs = {}
         rows = torch.arange(len(input_ids))
         positions = torch.full((len(input_ids),), input_ids.shape[1] - 1) if positions is None else torch.as_tensor(positions)
 
@@ -99,7 +100,8 @@ class LensModel:
                 if deltas is not None and layer in deltas:
                     hidden = hidden.clone()
                     hidden[rows, positions] += deltas[layer].to(hidden.dtype)
-                store[layer] = hidden.float()
+                if store:
+                    outputs[layer] = hidden.float()
                 if isinstance(output, tuple):
                     return (hidden,) + tuple(output[1:])
                 return hidden
@@ -112,7 +114,7 @@ class LensModel:
         finally:
             for h in handles:
                 h.remove()
-        return [store[i] for i in range(self.n_blocks)], logits
+        return ([outputs[i] for i in range(self.n_blocks)] if store else None), logits
 
     @torch.no_grad()
     def unembed(self, x):

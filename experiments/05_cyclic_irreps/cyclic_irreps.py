@@ -36,6 +36,7 @@ from jlens_open import MODELS, LensModel, irrep_basis, pair_energies
 parser = argparse.ArgumentParser()
 parser.add_argument("--model", choices=list(MODELS), required=True)
 parser.add_argument("--device", default=None, help="cuda / mps / cpu (default: the first available)")
+parser.add_argument("--layers", default="::1", help="layers to patch, as start:stop:step (default: all)")
 parser.add_argument("--concept", choices=["days", "months"], default="months")
 parser.add_argument("--position", choices=["start", "last"], default="start")
 args = parser.parse_args()
@@ -71,6 +72,7 @@ for name in NAMES:
     assert len(t) == 1, f"' {name}' is {len(t)} tokens"
     name_ids.append(t[0])
 L = lm.n_blocks
+LAYERS = list(range(L))[slice(*[int(x) if x else None for x in args.layers.split(":")])]
 
 rows, prompts = [], []
 for start in range(N):
@@ -133,7 +135,7 @@ def patched_logits(layer, deltas):
         idx = [i for i in idx if test[i]]
         if idx:
             d = torch.from_numpy(deltas[idx]).to(lm.device)
-            _, logits = lm.run(torch.stack([prompts[i] for i in idx]), deltas={layer: d}, positions=positions[idx])
+            _, logits = lm.run(torch.stack([prompts[i] for i in idx]), deltas={layer: d}, positions=positions[idx], store=False)
             out[idx] = logits[:, name_ids].cpu().numpy()
     return out[test]
 
@@ -142,7 +144,7 @@ patch_sets = {f"k={k}": [k] for k in FREQS}
 patch_sets["k=1,2"] = [1, 2]
 original = model_logits.argmax(1)[test]
 rot_rows = []
-for layer in range(L):
+for layer in LAYERS:
     x = acts[:, layer]
     centroids = np.stack([x[train & (labels == j)].mean(0) for j in range(N)])
     bases = {name: irrep_basis(centroids, ks) for name, ks in patch_sets.items()}
@@ -203,6 +205,7 @@ ax = axs[1, 1]
 heat = rot_table[[f"k={k}" for k in FREQS]].T.to_numpy()
 im = ax.imshow(heat, aspect="auto", cmap="viridis", vmin=0, vmax=max(heat.max(), 1e-3))
 ax.set_yticks(range(len(FREQS)), [f"k={k}" for k in FREQS])
+ax.set_xticks(range(len(rot_table.index))[::4], rot_table.index[::4])
 ax.set_title("Moved to target, by frequency", fontsize=9)
 fig.colorbar(im, ax=ax, fraction=0.04)
 for ax in (axs[0, 0], axs[0, 1], axs[1, 1]):

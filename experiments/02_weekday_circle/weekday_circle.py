@@ -161,7 +161,7 @@ def patched_day_logits(layer, deltas):
         idx = [i for i in idx if test[i]]
         if idx:
             d = torch.from_numpy(deltas[idx]).to(lm.device)
-            _, logits = lm.run(torch.stack([prompts[i] for i in idx]), deltas={layer: d}, positions=positions[idx])
+            _, logits = lm.run(torch.stack([prompts[i] for i in idx]), deltas={layer: d}, positions=positions[idx], store=False)
             out[idx] = logits[:, day_ids].cpu().numpy()
     return out[test]
 
