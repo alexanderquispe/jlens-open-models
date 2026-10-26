@@ -89,6 +89,28 @@ each cell below averages 9 prompts × 6 shifts (`results/llama3.1-8b_days_start_
   Two cycles cannot tell whether this is the number of values or the concept; other cycles (hours, letters,
   notes) would.
 
+## Results (Llama-3.1-8B, months, last token)
+
+At the last token the prompts are grouped by their answer month and the patch shifts the answer by *r*
+(`results/llama3.1-8b_months_last_rotation.csv`, every second layer). Nothing works before layer 18: the answer is
+not there yet.
+
+| Layer | 18 | 20 | 22 | 24 | 26 | 28 | 30 |
+|---|---|---|---|---|---|---|---|
+| all k (full centroid difference) | 0.35 | 0.47 | 0.79 | 0.90 | 0.95 | 0.99 | 1.00 |
+| k = 1 | 0.05 | 0.07 | 0.12 | 0.12 | 0.11 | 0.12 | 0.12 |
+| k = 1, 2 | 0.14 | 0.18 | 0.29 | 0.31 | 0.32 | 0.35 | 0.39 |
+| span of the 12 month-name lens directions | 0.00 | 0.01 | 0.12 | 0.29 | 0.58 | 0.76 | **0.99** |
+
+![Months, last token, Llama-3.1-8B](figures/llama3.1-8b_months_last.png)
+
+- **At the output position the answer moves into the J-space.** The month-name lens span (at most a third of the
+  patch norm) goes from nothing at layer 20 to 0.99 at layer 30, as for the days in experiment 02. The circle
+  stays at 0.12.
+- **The most regular circle is not the causal one.** At layers 18–24 the k = 1 polygon of the answer months is
+  close to a regular 12-gon (angle gaps spread by 0.10–0.14 of 2π/12, radii by 6–7%, against 0.21–0.39 and
+  8–20% at the month token), yet rotating along it moves at most 12% of the answers.
+
 ## Other models (months, month token, every second layer)
 
 | Model | Solves (held-out) | all k | k = 1 | k = 1, 2 | k = 2 … 6 (each) | lens span | random |
