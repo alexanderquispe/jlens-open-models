@@ -107,7 +107,8 @@ forms. For each task (`results/<model>_final.csv`, `_when_output_false.csv`, `<m
 - In both models the falsehood takes over at layers 12–14. When the true label is readable before that
   (continent from layer 8, sentiment from layers 9–11), it is in the workspace on most prompts the model then
   answers falsely. When it only forms at layers 14–15 (language, animal), the context wins first and there is
-  nothing to read: on those prompts the J-lens stays near chance at every layer.
+  little to read: on those prompts the J-lens picks the truth at most 0.29–0.50 of the time (chance 0.2), at
+  scattered layers and on 19–34 prompts.
 - So the "truth before the lie" is a race between when the model retrieves the answer and when it switches to
   the taught mapping, not a general property of false contexts. For sentiment, both lenses see the truth at
   layer 12 (0.81 each in the base model); for continents only the J-lens does.

@@ -15,7 +15,7 @@ and becomes the logit lens when *J_l = I*.
 | [03 · J-space](experiments/03_jspace) | How much of the residual stream do sparse combinations of J-lens vectors explain, and what breaks when they are ablated? | 7–11% of the variance (k = 10). Ablating it in layers 4–19 drops two-hop recall to 0.60–0.73; random directions with the same covariance remove the same variance and raise the loss as much, but recall stays at 0.90–0.98 |
 | [04 · Multihop swap](experiments/04_multihop_swap) | Is the intermediate entity the J-lens reads (*Lima → Peru → Spanish*) causally used? | Swapping the country's J-lens vector moves the answer in 59–80% of trials at the capital token (logit lens ≤ 14%, random 0%); the country enters the J-lens span at layer 5 |
 | [05 · Cyclic irreps](experiments/05_cyclic_irreps) | Which Fourier frequencies of the month representation carry "two months from January"? | The k = 1 circle moves 13–15% of answers, k = {1, 2} 40%, all frequencies 94–98%: the frequencies act jointly; the month-name lens span does nothing |
-| [06 · False context](experiments/06_false_context) | With false few-shot labels, is the truth in the workspace before the model says the falsehood? | On prompts answered with the false continent, the J-lens reads the true one in 69–87% at layers 7–11 (logit lens 24%); it fades at layers 12–18 |
+| [06 · False context](experiments/06_false_context) | With false few-shot labels, is the truth in the workspace before the model says the falsehood? | Only when the true label forms before the override at layers 12–14: on prompts answered falsely, the J-lens reads the true continent in 87% (layer 9) and the true sentiment in 81% (layer 12); labels that form at layers 14–15 (language, animal) are not there |
 
 ## Layout
 
