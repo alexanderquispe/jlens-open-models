@@ -109,3 +109,25 @@ stronger than in the base model (0.79–0.86 vs 0.68–0.78 at the capital token
 - Unlike Llama (J-lens median rank 6–22 at the last token, layers 20–26), Qwen's J-lens barely reads the country
   at the last token (median rank 38–201 at layers 24–30, in the top 10 for at most 20% of prompts), even though
   swapping it there works.
+
+## Results (OLMo-3-7B, every fourth layer)
+
+100% two-hop accuracy, 516 swap trials (`results/olmo-3-7b_swap.csv`; transformers 5.11).
+
+| Patch | Capital token, layers 0–16 | Last token, layers 20–28 |
+|---|---|---|
+| J-lens swap, α = 1 | **0.87–0.90** | 0.84–0.92 |
+| logit-lens swap, α = 1 | 0.03–0.15 | 0.81–0.86 |
+| random swap, α = 1 | 0.00–0.01 | 0.00 |
+| centroid swap (full) | 0.77–0.96 | 0.21–1.00 |
+| … its part in span(*v_A*, *v_B*) | **0.01–0.10** | 0.01–0.48 |
+
+![Swap results, OLMo-3-7B](figures/olmo-3-7b.png)
+
+- The J-lens swap is strongest here (0.87–0.90 at the capital token, already at layer 0) and the logit-lens swap
+  weak (≤ 0.15), as in Llama. The J-lens ranks the country 2nd–4th at the capital token from layer 4 on.
+- **But the natural difference between two countries barely lies in their J-lens span**: its in-span part moves
+  at most 0.10 at any layer (Llama 0.29–0.44, Qwen 0.31–0.45). In OLMo the J-lens direction of the country is
+  a strong causal handle when pushed with the scale of the activations, yet the countries' centroids differ
+  mostly outside the span of their lens vectors. "Readable and causal" does not imply "where the variation is".
+- The intermediate reaches the last token at layers 16–20 (of 32), as in Llama.
