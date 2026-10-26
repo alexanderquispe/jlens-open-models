@@ -7,7 +7,8 @@ Language Models"; reference code github.com/anthropics/jacobian-lens):
 
 h_l is the output of block l and h_final the output of the last block, before the final norm.
 The lenses are the ones Neuronpedia fitted with the reference code (neuronpedia/jacobian-lens on
-the HF Hub). As in the reference code (`force_bos=True`), every prompt starts with BOS.
+the HF Hub). As in the reference code (`force_bos=True`), every prompt starts with BOS when the
+tokenizer has one (Qwen's has none).
 """
 import torch
 from huggingface_hub import hf_hub_download
@@ -25,6 +26,22 @@ MODELS = {
     "llama3.1-8b": {
         "hf": "meta-llama/Llama-3.1-8B",
         "lens": "llama3.1-8b/jlens/Salesforce-wikitext/Llama-3.1-8B_jacobian_lens.pt",
+        "dtype": torch.bfloat16,
+    },
+    "llama3.1-8b-it": {
+        "hf": "meta-llama/Llama-3.1-8B-Instruct",
+        "lens": "llama3.1-8b-it/jlens/Salesforce-wikitext/Llama-3.1-8B-Instruct_jacobian_lens.pt",
+        "dtype": torch.bfloat16,
+    },
+    # The next two need transformers >= 5 (results here: 5.11)
+    "qwen3-8b": {
+        "hf": "Qwen/Qwen3-8B",
+        "lens": "qwen3-8b/jlens/Salesforce-wikitext/Qwen3-8B_jacobian_lens.pt",
+        "dtype": torch.bfloat16,
+    },
+    "olmo-3-7b": {
+        "hf": "allenai/Olmo-3-1025-7B",
+        "lens": "olmo-3-1025-7b/jlens/Salesforce-wikitext/Olmo-3-1025-7B_jacobian_lens.pt",
         "dtype": torch.bfloat16,
     },
 }
@@ -56,8 +73,9 @@ class LensModel:
 
     def encode(self, text):
         ids = self.tok(text).input_ids
-        if ids[0] != self.tok.bos_token_id:
-            ids = [self.tok.bos_token_id] + ids
+        bos = self.tok.bos_token_id
+        if bos is not None and ids[0] != bos:
+            ids = [bos] + ids
         return torch.tensor(ids)
 
     def first_token(self, word):

@@ -15,3 +15,15 @@ def circle_plane(centroids):
     c1 = np.fft.fft(centroids - centroids.mean(0), axis=0)[1]
     return np.linalg.qr(np.stack([c1.real, c1.imag], 1))[0]
 
+
+def irrep_basis(centroids, ks):
+    """Orthonormal basis of the span of the frequencies `ks` of the centroids (n, d): a plane per
+    k < n/2 and a line for k = n/2 (the real irreps of Z/n inside the regular representation)."""
+    n = len(centroids)
+    coeffs = np.fft.fft(centroids - centroids.mean(0), axis=0)
+    cols = []
+    for k in ks:
+        cols.append(coeffs[k].real)
+        if 2 * k != n:
+            cols.append(coeffs[k].imag)
+    return np.linalg.qr(np.stack(cols, 1))[0]
