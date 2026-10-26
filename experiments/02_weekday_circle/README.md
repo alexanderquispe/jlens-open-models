@@ -87,6 +87,12 @@ held-out ones). In layers 0–22 the circle plane moves 0.17–0.25 of the solve
 difference 0.52–0.65, the day lens span 0.00 and random directions at most 0.05; from layer 23 on, everything
 at most 0.08. Same picture, with the hand-off at layer 23 (of 36) instead of 18 (of 32), and a weaker circle.
 
+**OLMo-3-7B** (`engels`, `day`; transformers 5.11): it solves 71% of Engels' prompts (15 of the 21 held-out
+ones). In layers 0–18 the circle plane moves 0.26–0.41 of the solved prompts, the full centroid difference
+0.59–0.87, the day lens span 0.00 and random directions at most 0.01; from layer 19 on, everything at most
+0.09. Four models, same picture: the circle carries part of the answer at the day token, the day lens
+directions none.
+
 ## Caveats
 
 - Lens readouts at Engels' day token (position 14) are outside the lens fit, which skipped the first 16
