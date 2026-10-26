@@ -92,6 +92,29 @@ little up to layer 23 (two-hop ≥ 0.91, loss ≤ 2.70).
 - In the last bands the J-lens approaches the logit lens (J → I), and removing the top tokens removes the
   answer itself.
 
+## Results (Llama-3.1-8B-Instruct)
+
+Unablated: two-hop 0.99, one-hop 0.99, wikitext loss 2.57. Variance explained with k = 10: J-lens 0.07–0.11,
+J-lens covariance 0.04–0.08, isotropic 0.04, activation covariance 0.35–0.45 (layers 0–30). Ablation, k = 10
+(two-hop / one-hop / loss):
+
+| Band | J-lens | random, J-lens covariance | random, activation covariance |
+|---|---|---|---|
+| 0–3 | 0.98 / 0.96 / 3.25 | 0.99 / 0.99 / 3.19 | 0.80 / 0.99 / 8.60 |
+| 4–7 | 0.79 / 0.94 / 3.64 | 0.97 / 0.99 / 3.61 | 0.91 / 0.98 / 7.43 |
+| 8–11 | 0.80 / 0.82 / 3.19 | 0.96 / 0.99 / 3.21 | 0.95 / 0.98 / 7.27 |
+| 12–15 | 0.90 / 0.85 / 2.96 | 1.00 / 0.98 / 2.85 | 0.94 / 0.97 / 6.97 |
+| 16–19 | 0.54 / 0.48 / 2.93 | 0.97 / 0.81 / 2.72 | 0.96 / 0.98 / 6.66 |
+| 20–23 | 0.42 / 0.51 / 3.28 | 0.87 / 0.74 / 2.74 | 0.98 / 0.92 / 6.48 |
+| 24–27 | 0.08 / 0.06 / 3.90 | 0.97 / 0.87 / 2.73 | 0.99 / 1.00 / 6.19 |
+
+![J-space, Llama-3.1-8B-Instruct](figures/llama3.1-8b-it.png)
+
+The same dissociation as in the base model: up to layer 15 the J-lens-covariance control matches the J-lens
+ablation's loss (2.85–3.61 vs 2.96–3.64) but leaves recall at 0.96–1.00, while the J-lens ablation brings two-hop
+to 0.79–0.90 (and to 0.42–0.54 at layers 16–23). The instruction-tuned model is somewhat more robust in the early
+bands.
+
 ## Caveats
 
 - Accuracy is the argmax among the 33 languages, which can survive a broken full distribution (the activation
