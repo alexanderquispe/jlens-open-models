@@ -150,6 +150,36 @@ one-hop / loss):
 - Qwen's uncentered lens vectors fill a narrow cone (norm of the mean unit atom up to 0.92); uncentered, the
   J-lens explains only 0.01–0.04.
 
+## Results (OLMo-3-7B)
+
+Run with `transformers` 5.11. Unablated: two-hop 1.00, one-hop 0.99, wikitext loss 2.76. Variance explained with
+k = 10 (layers 0–30): J-lens 0.06–0.10, J-lens covariance 0.04–0.07, logit lens 0.04–0.09, isotropic 0.04,
+activation covariance 0.34–0.43, top-k PCA 0.16–0.29. Ablation, k = 10 (two-hop / one-hop / loss):
+
+| Band | J-lens | random, J-lens covariance | random, activation covariance |
+|---|---|---|---|
+| 0–3 | 0.97 / 0.99 / 2.88 | 0.99 / 0.98 / 2.88 | 0.77 / 0.94 / 9.15 |
+| 4–7 | 0.80 / 0.94 / 2.91 | 0.98 / 0.99 / 2.91 | 0.95 / 0.99 / 8.49 |
+| 8–11 | 0.87 / 0.96 / 2.89 | 0.97 / 0.99 / 2.88 | 0.97 / 0.99 / 7.07 |
+| 12–15 | 0.94 / 1.00 / 2.87 | 0.98 / 0.99 / 2.84 | 0.98 / 0.99 / 6.44 |
+| 16–19 | 0.91 / 0.98 / 2.99 | 0.99 / 1.00 / 2.85 | 0.95 / 0.99 / 6.48 |
+| 20–23 | 0.67 / 0.85 / 3.29 | 0.95 / 0.98 / 2.90 | 0.86 / 0.99 / 6.18 |
+| 24–27 | 0.24 / 0.36 / 3.96 | 0.98 / 0.97 / 2.91 | 0.92 / 1.00 / 6.19 |
+| 28–31 | 0.05 / 0.07 / 6.25 | 0.97 / 0.98 / 3.07 | 1.00 / 1.00 / 6.28 |
+| removed variance | 0.04–0.05 | 0.04 | 0.07–0.10 |
+
+![J-space, OLMo-3-7B](figures/olmo-3-7b.png)
+
+- **The Llama dissociation, with smaller effects.** In layers 4–23 the J-lens ablation brings two-hop to 0.67–0.94
+  while the J-lens-covariance control, with the same removed variance and the same loss up to layer 19
+  (2.84–2.91 vs 2.87–2.99), keeps it at 0.95–0.99. The activation-covariance ablation wrecks the loss (6.2–9.2)
+  and leaves two-hop at 0.86–1.00 from layer 4.
+- **Closer to the paper's multi-hop pattern.** Here one-hop barely moves (0.94–1.00 in bands 4–19, against
+  two-hop 0.80–0.94), unlike Llama and Qwen.
+- The J-lens explains 12–18% more than the J-lens-covariance control up to layer 14, and about twice as much
+  from layer 28 (0.09–0.10 vs 0.04–0.05). Uncentered, the lens vectors fill a narrow cone (norm of the mean unit
+  atom up to 0.93) and explain only 0.01–0.02.
+
 ## Caveats
 
 - Accuracy is the argmax among the 33 languages, which can survive a broken full distribution (the activation
