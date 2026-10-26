@@ -23,9 +23,12 @@ Outputs: `results/<model>_variance.csv` (layer × dictionary × k), `results/<mo
   cosine ≈ 0.99 with their mean, so they fill a narrow cone and nonnegative combinations of them explain
   almost nothing of the centered activations (< 1%). The main dictionaries are therefore centered over the
   vocabulary; the uncentered ones are reported too.
-- **Dictionaries**, all with one atom per vocabulary token: J-lens, logit lens (J = I), random isotropic, and
+- **Dictionaries**, all with one atom per vocabulary token: J-lens, logit lens (J = I), random isotropic,
   random with the activations' covariance (the chance level for a dictionary aligned with where activations
-  vary). Top-k PCA is shown as a reference (one fixed subspace, not a per-token choice).
+  vary), and random with the J-lens vectors' covariance (same second moments as the J-lens dictionary, so the
+  same directions of high downstream sensitivity, but no atom tied to a token). Top-k PCA is shown as a
+  reference (one fixed subspace, not a per-token choice). `--dicts` recomputes only the named dictionaries and
+  keeps the other rows of existing results (a partial run writes the same files as a full one).
 - **Data:** mean-centered activations at positions ≥ 16 of 16 wikitext paragraphs (128 tokens each;
   `data/wikitext_sample.json`, wikitext-103 test split, CC BY-SA 3.0).
 - **Ablation:** in a band of 4 layers, every position except BOS loses its k-atom component (k = 10, 25). Measured

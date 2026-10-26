@@ -6,9 +6,11 @@ J-lens vectors, the rows of W_U diag(g) J_l. They report that the J-space compon
 reasoning while leaving MMLU intact. Both claims are tested here on an open model, with the controls the
 group asked about (is 10% more than any large dictionary would give?):
 
-  A. Variance. Mean-centered activations on wikitext are decomposed by nonnegative matching pursuit on four
+  A. Variance. Mean-centered activations on wikitext are decomposed by nonnegative matching pursuit on five
      dictionaries of the same size (one atom per vocabulary token): J-lens vectors, logit-lens vectors
-     (J = I), random isotropic directions, and random directions shaped like the activations' covariance.
+     (J = I), random isotropic directions, random directions shaped like the activations' covariance, and
+     random directions shaped like the J-lens vectors' covariance (same second moments as the J-lens
+     dictionary, but no atom is tied to a token).
      Reported: the fraction of variance explained after k = 1..25 atoms, and by the top-k principal components.
      The lens vectors are centered over the vocabulary (a shift shared by all rows of W_U does not change the
      softmax); the uncentered J-lens and logit-lens dictionaries are reported too, with the norm of their mean
@@ -19,6 +21,7 @@ group asked about (is 10% more than any large dictionary would give?):
      intermediate entity), and the next-token loss on wikitext.
 
     python experiments/03_jspace/jspace.py --model llama3.1-8b
+    python experiments/03_jspace/jspace.py --model llama3.1-8b --dicts "random (J-lens covariance)"   # add one
 """
 import argparse
 import json
@@ -42,6 +45,8 @@ parser.add_argument("--device", default=None, help="cuda / mps / cpu (default: t
 parser.add_argument("--n-text", type=int, default=16, help="wikitext paragraphs (128 tokens each)")
 parser.add_argument("--band", type=int, default=4, help="layers per ablation band")
 parser.add_argument("--skip-ablation", action="store_true")
+parser.add_argument("--dicts", default=None,
+                    help="comma-separated dictionaries to (re)compute; rows of the others are kept from existing results")
 args = parser.parse_args()
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -52,7 +57,10 @@ os.makedirs(os.path.dirname(CSV_VAR), exist_ok=True)
 os.makedirs(os.path.dirname(FIG_OUT), exist_ok=True)
 SKIP = 16  # the lenses were fit without the first 16 positions
 K_MAX, K_ABLATE = 25, (10, 25)
-DICTS = ["J-lens", "logit lens", "random (isotropic)", "random (activation covariance)"]
+DICTS = ["J-lens", "logit lens", "random (isotropic)", "random (activation covariance)", "random (J-lens covariance)"]
+EXTRA = ["J-lens (uncentered)", "logit lens (uncentered)"]
+RUN = args.dicts.split(",") if args.dicts else DICTS + EXTRA
+assert set(RUN) <= set(DICTS + EXTRA), RUN
 
 torch.manual_seed(0)
 lm = LensModel(args.model, args.device)
@@ -70,10 +78,20 @@ print(f"{args.model}: {n_tokens} wikitext tokens per layer")
 mean = [a.mean(0) for a in acts]
 
 
-def cov_sqrt(layer):
+def sqrt_of(cov):
+    evals, evecs = torch.linalg.eigh(cov.cpu().double())
+    return (evecs * evals.clamp(min=0).sqrt()).T.float().to(dev)  # z @ sqrt_of(cov) ~ N(0, cov)
+
+
+def activation_cov(layer):
     x = acts[layer] - mean[layer]
-    evals, evecs = torch.linalg.eigh((x.T @ x / len(x)).cpu().double())
-    return (evecs * evals.clamp(min=0).sqrt()).T.float().to(dev)  # z @ cov_sqrt ~ N(0, cov)
+    return x.T @ x / len(x)
+
+
+def lens_cov(layer):
+    a = lens_atoms(lm, layer)
+    cov = sum(a[s : s + 16384].float().T @ a[s : s + 16384].float() for s in range(0, len(a), 16384))
+    return cov / len(a)
 
 
 def atoms_for(name, layer):
@@ -82,7 +100,20 @@ def atoms_for(name, layer):
         return lens_atoms(lm, layer, name.startswith("J-lens"), center="uncentered" not in name)
     if name == "random (isotropic)":
         return random_atoms(vocab, lm.d, dev, seed=1)
-    return random_atoms(vocab, lm.d, dev, seed=2, cov_sqrt=cov_sqrt(layer))
+    if name == "random (J-lens covariance)":
+        return random_atoms(vocab, lm.d, dev, seed=3, cov_sqrt=sqrt_of(lens_cov(layer)))
+    return random_atoms(vocab, lm.d, dev, seed=2, cov_sqrt=sqrt_of(activation_cov(layer)))
+
+
+def merged(df, path, first, first_order=None):
+    """With --dicts, add the rows of the other dictionaries from `path`. Rows are sorted by `first` (in
+    `first_order` if given), dictionary and k, so a partial run gives the same file as a full one."""
+    if args.dicts and os.path.exists(path):
+        old = pd.read_csv(path)
+        df = pd.concat([old[~old.dictionary.isin(RUN + ["none"])], df], ignore_index=True)
+    order = {d: i for i, d in enumerate(["none", "top-k PCA"] + DICTS + EXTRA)}
+    keys = pd.DataFrame({"a": df[first].map(first_order) if first_order else df[first], "b": df.dictionary.map(order), "c": df.k})
+    return df.loc[keys.sort_values(["a", "b", "c"], kind="stable").index].reset_index(drop=True)
 
 
 # A. Variance explained
@@ -90,10 +121,11 @@ var_rows = []
 for layer in range(L):
     x = acts[layer] - mean[layer]
     total = (x**2).sum().item()
-    pcs = torch.linalg.svdvals(x.cpu()) ** 2
-    for k in (1, 10, 16, 25):
-        var_rows.append({"layer": layer, "dictionary": "top-k PCA", "k": k, "explained": (pcs[:k].sum() / total).item()})
-    for name in DICTS + ["J-lens (uncentered)", "logit lens (uncentered)"]:
+    if not args.dicts:
+        pcs = torch.linalg.svdvals(x.cpu()) ** 2
+        for k in (1, 10, 16, 25):
+            var_rows.append({"layer": layer, "dictionary": "top-k PCA", "k": k, "explained": (pcs[:k].sum() / total).item()})
+    for name in RUN:
         atoms = atoms_for(name, layer)
         cone = atoms.float().mean(0).norm().item()
         _, coef, res = decompose(x, atoms, K_MAX)
@@ -102,8 +134,8 @@ for layer in range(L):
                              "mean unit atom norm": cone})
         del atoms
     print(f"variance: layer {layer} done", flush=True)
-var_df = pd.DataFrame(var_rows)
-var_df.to_csv(CSV_VAR, index=False)
+var_df = merged(pd.DataFrame(var_rows), CSV_VAR, "layer")
+var_df.to_csv(CSV_VAR, index=False, float_format="%.10g")
 pd.set_option("display.width", 250)
 for k in (10, 25):
     print(f"\nFraction of centered activation variance explained with k = {k}")
@@ -168,7 +200,7 @@ abl_rows = [{"band": "none", "dictionary": "none", "k": 0, "removed variance": 0
 print("\nunablated:", abl_rows[0], flush=True)
 bands = [list(range(s, min(s + args.band, L))) for s in range(0, L, args.band)]
 for band in bands:
-    for name in DICTS:
+    for name in [d for d in DICTS if d in RUN]:
         atoms = {l: atoms_for(name, l) for l in band}
         for k in K_ABLATE:
             stats = []
@@ -176,8 +208,8 @@ for band in bands:
             abl_rows.append({"band": f"{band[0]}-{band[-1]}", "dictionary": name, "k": k, "removed variance": np.mean(stats), **res})
             print(abl_rows[-1], flush=True)
         del atoms
-abl_df = pd.DataFrame(abl_rows)
-abl_df.to_csv(CSV_ABL, index=False)
+abl_df = merged(pd.DataFrame(abl_rows), CSV_ABL, "band", {"none": -1} | {f"{b[0]}-{b[-1]}": i for i, b in enumerate(bands)})
+abl_df.to_csv(CSV_ABL, index=False, float_format="%.10g")
 print("\nAblation (accuracy among languages; wikitext loss)")
 print(abl_df.round(3).to_string(index=False))
 
