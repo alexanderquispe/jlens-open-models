@@ -82,6 +82,11 @@ In layers 0–17 the circle plane moves 0.27–0.42 of the solved prompts, the f
 and the day lens span and random directions at most 0.02; from layer 18 on, all of them at most 0.19. The same
 picture as the base model.
 
+**Qwen3-8B** (`engels`, `day`; 36 layers, transformers 5.11): it solves 57% of Engels' prompts (10 of the 21
+held-out ones). In layers 0–22 the circle plane moves 0.17–0.25 of the solved prompts, the full centroid
+difference 0.52–0.65, the day lens span 0.00 and random directions at most 0.05; from layer 23 on, everything
+at most 0.08. Same picture, with the hand-off at layer 23 (of 36) instead of 18 (of 32), and a weaker circle.
+
 ## Caveats
 
 - Lens readouts at Engels' day token (position 14) are outside the lens fit, which skipped the first 16
