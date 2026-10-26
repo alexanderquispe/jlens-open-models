@@ -65,3 +65,22 @@ of trials whose answer becomes B's language (`results/llama3.1-8b_swap.csv`), as
   nonnegative decomposition of the centered activation (≤ 13% of prompts at the capital token before layer 21,
   20–48% at the last token from layer 17), even though the lens ranks the country second. How the swap's
   strength is chosen matters; with a fixed norm (α), the J-lens direction works.
+
+## Results (Llama-3.1-8B-Instruct, every second layer)
+
+98.8% two-hop accuracy, 510 swap trials (`results/llama3.1-8b-it_swap.csv`).
+
+| Patch | Capital token, layers 2–14 | Last token, layers 16–26 |
+|---|---|---|
+| J-lens swap, α = 1 | **0.79–0.86** | **0.75–0.98** |
+| logit-lens swap, α = 1 | 0.00–0.10 | 0.34–0.73 |
+| random swap, α = 1 | 0.00 | 0.00–0.01 |
+| centroid swap (full) | 0.89–0.97 | 0.06–0.97 |
+| … its part in span(*v_A*, *v_B*) | 0.01–0.40 (0.29–0.40 at layers 6–12) | 0.00–0.57 |
+
+![Swap results, Llama-3.1-8B-Instruct](figures/llama3.1-8b-it.png)
+
+Instruction tuning changes none of the conclusions: the J-lens direction swap is causal and the logit-lens one is
+not, the country enters the J-lens span at the capital token between layers 4 and 6 (in-span part 0.04 → 0.29;
+J-lens median rank 13 → 2), and it reaches the last token at layers 16–18. The J-lens swaps are a little
+stronger than in the base model (0.79–0.86 vs 0.68–0.78 at the capital token).
