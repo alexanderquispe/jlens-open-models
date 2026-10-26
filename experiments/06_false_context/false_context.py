@@ -7,10 +7,13 @@ does the true answer become verbalizable before the model outputs the false one,
 better or earlier than the logit lens? This is the situation of an agent fed adversarial context by another
 agent.
 
-Three tasks, each with true demonstrations and with false ones (labels permuted consistently):
-  parity     "Number: 37\nParity: odd"         even <-> odd
-  continent  "Country: France\nContinent: Europe"   Europe -> Asia -> Africa -> Europe
-  color      "Object: banana\nColor: yellow"        red -> yellow -> green -> blue -> white -> black -> red
+Six tasks, each with true demonstrations and with false ones (labels permuted consistently):
+  parity     "Number: 37\nParity: odd"                even <-> odd
+  continent  "Country: France\nContinent: Europe"     Europe -> Asia -> Africa -> Europe
+  color      "Object: banana\nColor: yellow"          red -> yellow -> green -> blue -> white -> black -> red
+  animal     "Animal: eagle\nClass: bird"             mammal -> bird -> fish -> insect -> reptile -> mammal
+  language   "Country: Brazil\nLanguage: Portuguese"  French -> Spanish -> German -> Portuguese -> Arabic -> French
+  sentiment  "Word: lovely\nSentiment: positive"      positive <-> negative
 At the last token of each query, every layer is read with both lenses, restricted to the task's labels:
 `true` = the lens picks the true label, `false` = it picks the permuted label the demonstrations teach.
 
@@ -58,6 +61,26 @@ COLORS = {
     "white": ["snow", "milk", "cloud", "sugar", "chalk"],
     "black": ["coal", "crow", "ink", "tar", "soot"],
 }
+ANIMALS = {
+    "mammal": ["dog", "cat", "horse", "cow", "whale", "lion", "elephant", "rabbit"],
+    "bird": ["eagle", "sparrow", "penguin", "owl", "parrot", "crow", "duck", "ostrich"],
+    "fish": ["salmon", "trout", "shark", "tuna", "cod", "goldfish", "carp", "herring"],
+    "insect": ["ant", "bee", "butterfly", "mosquito", "beetle", "fly", "wasp", "grasshopper"],
+    "reptile": ["snake", "lizard", "crocodile", "turtle", "iguana", "gecko", "alligator", "cobra"],
+}
+LANGUAGES = {
+    "French": ["France", "Senegal", "Haiti", "Mali", "Monaco", "Gabon"],
+    "Spanish": ["Spain", "Mexico", "Argentina", "Colombia", "Chile", "Peru", "Cuba"],
+    "German": ["Germany", "Austria", "Liechtenstein"],
+    "Portuguese": ["Portugal", "Brazil", "Angola", "Mozambique"],
+    "Arabic": ["Egypt", "Saudi Arabia", "Jordan", "Iraq", "Syria", "Libya"],
+}
+SENTIMENT = {
+    "positive": ["wonderful", "happy", "excellent", "beautiful", "joyful", "delightful", "brilliant", "lovely",
+                 "amazing", "pleasant", "cheerful", "fantastic", "kind", "generous", "peaceful"],
+    "negative": ["terrible", "sad", "awful", "ugly", "horrible", "miserable", "disgusting", "cruel", "painful",
+                 "angry", "nasty", "dreadful", "hateful", "gloomy", "boring"],
+}
 
 
 def cycle(labels):
@@ -76,6 +99,18 @@ TASKS = {
     "color": {
         "items": [(o, k) for k, os_ in COLORS.items() for o in os_],
         "labels": list(COLORS), "fmt": "Object: {}\nColor:",
+    },
+    "animal": {
+        "items": [(a, k) for k, as_ in ANIMALS.items() for a in as_],
+        "labels": list(ANIMALS), "fmt": "Animal: {}\nClass:",
+    },
+    "language": {
+        "items": [(c, k) for k, cs in LANGUAGES.items() for c in cs],
+        "labels": list(LANGUAGES), "fmt": "Country: {}\nLanguage:",
+    },
+    "sentiment": {
+        "items": [(w, k) for k, ws in SENTIMENT.items() for w in ws],
+        "labels": list(SENTIMENT), "fmt": "Word: {}\nSentiment:",
     },
 }
 
@@ -163,7 +198,9 @@ for task_name in TASKS:
     print(f"\n{task_name}, false demonstrations: lens picks the TRUE label (and the permuted one)")
     print(t.pivot_table(index="layer", columns="lens", values=["true", "false"]).round(3).to_string())
 
-fig, axs = plt.subplots(1, len(TASKS), figsize=(4 * len(TASKS), 3.2), sharey=True)
+n_rows = -(-len(TASKS) // 3)
+fig, axs = plt.subplots(n_rows, 3, figsize=(12, 3.2 * n_rows), sharey=True, squeeze=False)
+axs = axs.ravel()
 for ax, task_name in zip(axs, TASKS):
     for (condition, lens), style in {("false", "J-lens"): ("C3", "-"), ("false", "logit lens"): ("C3", "--"),
                                      ("true", "J-lens"): ("C0", "-"), ("true", "logit lens"): ("C0", "--")}.items():
