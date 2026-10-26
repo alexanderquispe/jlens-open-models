@@ -86,7 +86,7 @@ where it outputs the false continent**, the J-lens picks the true one:
 - **The override is sharper**: from 0.70 at layer 12 to 0.04 at layer 14, against a fade over layers 12–18 in
   the base model.
 
-## Six tasks, three models: the truth is there only if it forms before the override
+## Six tasks, four models: the truth is there only if it forms before the override
 
 The three tasks added later show when the result holds. For each model and task: how often the model follows the
 falsehood, the first layer from which the J-lens reads the true label with true demonstrations (≥ 0.6 for three
@@ -113,6 +113,10 @@ left out.
 | | language | 0.29 | 23 | 14 | – | **0.91** (15) | 0.78 (11) | 0.52 |
 | | animal | 0.48 | 57 | 23 | – | 0.56 (18) | 0.70 (14) | 0.30 |
 | | parity | 0.67 | 181 | 27 | 30 | 0.78 (17) | 0.76 (17) | 0.73 |
+| OLMo-3-7B | continent | 0.53 | 76 | 18 | – | **0.96** (11) | 0.49 (1) | 0.50 |
+| | sentiment | 0.46 | 41 | 14 | – | 0.78 (18) | 0.83 (10) | 0.68 |
+| | language | 0.24 | 19 | 17 | – | 0.74 (23) | 0.74 (5) | 0.74 |
+| | animal | 0.28 | 34 | 17 | – | 0.38 (9) | 0.41 (1) | 0.44 |
 
 ("–": the J-lens never picks the taught label on most false-demonstration prompts.)
 
@@ -127,6 +131,11 @@ left out.
   layers 12–16, so all three have a window: the J-lens reads the true language on 91% of the prompts answered
   falsely (baseline 0.52), the true sentiment on 95% (0.51), the true continent on 82% (0.51). Qwen also
   follows false demonstrations more (parity 0.67, sentiment 0.82).
+- **OLMo-3-7B** follows false demonstrations less (continent 0.53, sentiment 0.46, parity 0.01). Its continent
+  readout has two stages: a brief one at layer 11, where the J-lens reads the true continent on 96% of the 76
+  prompts answered falsely (baseline 0.50; the logit lens sees nothing), and the full retrieval at layer 18,
+  which comes after the false context has taken over (with false demonstrations the truth is read on 18% at
+  layer 18). The early stage is the one the J-lens catches.
 - **J-lens vs logit lens** depends on the task: for continents the J-lens wins in all three models (0.77–0.87 vs
   0.49–0.71); for sentiment in Llama-Instruct the logit lens does better (0.89 vs 0.68).
 - **Parity is not readable** before layer 27 in any model; its readouts match the constant-pick baseline.
