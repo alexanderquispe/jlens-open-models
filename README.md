@@ -75,8 +75,9 @@ Qwen3.5-122B-A10B. Most of the newer models need a newer `transformers` than the
 
 ## Open tasks
 
-1. **Newer `transformers`.** Qwen3.5/3.6, Gemma 3/4 and OLMo 3 need a newer version than 4.43.3 (Neuronpedia fit
-   its lenses with 5.x). Upgrade it and check that GPT-2 and Llama results do not change.
+1. **Newer `transformers`.** Qwen3, Qwen3.5/3.6, Gemma 3/4 and OLMo 3 need a newer version than 4.43.3 (Neuronpedia
+   fit its lenses with 5.x). Checked so far with 5.11 (in `.venv-tf5`): experiment 01 gives byte-identical CSVs
+   for GPT-2 small and Llama-3.1-8B. Moving the pin to 5.x would leave one environment.
 2. **Several GPUs.** Load models with `device_map="auto"` and keep each J on its block's device, for 70B and
    larger (Llama 3.3 70B, Qwen3.5-122B-A10B).
 3. **J++ lenses** (Ayonrinde and Lindsey), available for several models; their file format is not handled yet.
