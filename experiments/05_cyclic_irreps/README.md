@@ -61,3 +61,29 @@ the month has been moved to later positions.
   span of the 12 month-name lens vectors moves nothing at any layer, as for the days in experiment 02, while for
   countries in experiment 04 the lens span did 0.29–0.44 at the capital token from layer 5. Nameable entities
   live in the J-space; the cyclic quantity used for arithmetic does not.
+
+## Results (Llama-3.1-8B, days, day token)
+
+Engels' days prompt is hard for the model: it solves 51% of the 49 prompts and 9 of the 21 held-out ones, so
+each cell below averages 9 prompts × 6 shifts (`results/llama3.1-8b_days_start_rotation.csv`; chance 1/7).
+
+| Patch (layers 0–15) | Moves the answer | Patch norm / full norm |
+|---|---|---|
+| all k (full centroid difference) | 0.61–0.72 | 1 |
+| k = 1 (the circle) | **0.39–0.46** | 0.68–0.81 |
+| k = 1, 2 | 0.52–0.67 | 0.89–0.93 |
+| k = 2 | 0.00–0.07 | 0.49–0.56 |
+| k = 3 | 0.06–0.09 | 0.40–0.47 |
+| span of the 7 day-name lens directions | 0.00–0.02 | 0.14–0.22 |
+| random direction, k = 1 norm | 0.00–0.02 | 0.68–0.81 |
+
+![Days, day token, Llama-3.1-8B](figures/llama3.1-8b_days_start.png)
+
+- **For the days the circle does more of the work**: k = 1 gives 0.39–0.46 of the full 0.61–0.72 (about
+  60%), against 15% for the months. The k = 1 plane also holds more energy (48–67%, one-hot 33%) and is a
+  closer heptagon (angle gaps spread by 0.18–0.31 of 2π/7, radii by 13–19%).
+- Same pattern as the months otherwise: other frequencies alone do nearly nothing, k = {1, 2} together does more
+  than the sum, the lens span of the names does nothing, and every patch at the day token stops working at
+  layers 16–18.
+- Months vs days: the more values the cycle has, the less of the computation goes through the k = 1 circle
+  alone. A Llama with 12 months seems to use a code closer to a lookup than to a rotation.
