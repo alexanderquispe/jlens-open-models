@@ -12,6 +12,10 @@ and becomes the logit lens when *J_l = I*.
 |---|---|---|
 | [01 · Lens quality](experiments/01_lens_eval) | Does the J-lens surface intermediate concepts the logit lens misses? (replication) | pass@10 0.414 vs 0.277 on six prompt sets; the gap is in layers 15–23 |
 | [02 · Weekday circle](experiments/02_weekday_circle) | What does the J-lens see of the weekday circle of Engels et al. (2025)? | The circle moves the answer at the day token in layers 0–17, where the day lens directions do nothing; from layer 18 the answer is at the last token, where the lens reads it |
+| [03 · J-space](experiments/03_jspace) | How much of the residual stream do sparse combinations of J-lens vectors explain, and what breaks when they are ablated? | Pending |
+| [04 · Multihop swap](experiments/04_multihop_swap) | Is the intermediate entity the J-lens reads (*Lima → Peru → Spanish*) causally used? | Swapping the country's J-lens vector moves the answer in 59–80% of trials at the capital token (logit lens ≤ 14%, random 0%); the country enters the J-lens span at layer 5 |
+| [05 · Cyclic irreps](experiments/05_cyclic_irreps) | Which Fourier frequencies of the month representation carry "two months from January"? | The k = 1 circle moves 13–15% of answers, k = {1, 2} 40%, all frequencies 94–98%: the frequencies act jointly; the month-name lens span does nothing |
+| [06 · False context](experiments/06_false_context) | With false few-shot labels, is the truth in the workspace before the model says the falsehood? | On prompts answered with the false continent, the J-lens reads the true one in 69–87% at layers 7–11 (logit lens 24%); it fades at layers 12–18 |
 
 ## Layout
 
@@ -38,7 +42,16 @@ The device is picked automatically (CUDA, then MPS, then CPU) or set with `--dev
 
 ## Models
 
-Registered in `jlens_open/models.py` (`MODELS`): `gpt2-small` and `llama3.1-8b`. A model is added with one
+Registered in `jlens_open/models.py` (`MODELS`): `gpt2-small`, `llama3.1-8b`, `llama3.1-8b-it`, `qwen3-8b` and
+`olmo-3-7b`. The last two need `transformers` 5, kept for now in a second environment next to the pinned one:
+
+```bash
+uv venv --python 3.11 .venv-tf5
+uv pip install --python .venv-tf5/bin/python torch==2.8.0 transformers==5.11.0 numpy==1.26.4 pandas==2.2.2 matplotlib==3.9.2
+PYTHONPATH=. .venv-tf5/bin/python experiments/01_lens_eval/lens_eval.py --model qwen3-8b
+```
+
+A model is added with one
 entry: its Hugging Face id, the path of its lens in
 [`neuronpedia/jacobian-lens`](https://huggingface.co/neuronpedia/jacobian-lens), and the dtype the lens was fit
 in. `LensModel` handles GPT-2-style and Llama-style decoders.
