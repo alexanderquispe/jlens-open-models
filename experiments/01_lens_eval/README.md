@@ -59,7 +59,7 @@ pass@10, J-lens / logit lens (`results/<model>.csv`; Qwen3-8B and OLMo-3-7B with
 | **macro** | **0.414 / 0.277** | **0.421 / 0.318** | **0.246 / 0.291** | **0.354 / 0.292** |
 
 - The J-lens advantage replicates on Llama-Instruct and OLMo, carried by `order-ops` and `typo`. On multihop it
-  is gone in every model except base Llama.
+  is at most 0.02 in every model except base Llama (0.11).
 - **Qwen3-8B is the exception**: the J-lens loses on macro, mostly on `typo` (0.208 vs 0.583). The lens itself
   works on Qwen in experiments 04 and 06 (it reads the intermediate country and the true continent better than
   the logit lens), so this looks like a property of these prompt sets on Qwen, not a broken lens; worth a closer
