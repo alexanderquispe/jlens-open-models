@@ -86,40 +86,48 @@ where it outputs the false continent**, the J-lens picks the true one:
 - **The override is sharper**: from 0.70 at layer 12 to 0.04 at layer 14, against a fade over layers 12–18 in
   the base model.
 
-## Six tasks, both Llamas: the truth is there only if it forms before the override
+## Six tasks, three models: the truth is there only if it forms before the override
 
-The three tasks added later do not reproduce the continent result as such, and the reason is when the true label
-forms. For each task (`results/<model>_final.csv`, `_when_output_false.csv`, `<model>.csv`):
+The three tasks added later show when the result holds. For each model and task: how often the model follows the
+falsehood, the first layer from which the J-lens reads the true label with true demonstrations (≥ 0.6 for three
+consecutive layers), the layer from which it reads the taught label with false demonstrations (the override),
+and, on prompts the model answers falsely, how often each lens picks the true label at its best layer. The
+baseline is the best constant pick: the share of the most common true label among those prompts (a lens that
+picks one label for every prompt gets that much). Tasks where the model rarely follows the falsehood (color) are
+left out.
 
-| Model | Task | Follows the falsehood | Prompts answered falsely | J-lens reads the truth (true demos, ≥ 0.6) from layer | J-lens picks the truth on prompts answered falsely, best layer |
-|---|---|---|---|---|---|
-| base | continent | 0.62 | 89 | 8 | **0.87** (layer 9; chance 0.33) |
-| base | sentiment | 0.96 | 86 | 11 | **0.81** (layer 12; chance 0.5) |
-| base | language | 0.38 | 30 | 14 | 0.50 (layer 8; chance 0.2) |
-| base | animal | 0.27 | 32 | 15 | 0.44 (layer 1; chance 0.2) |
-| Instruct | continent | 0.64 | 92 | 8 | **0.77** (layer 11) |
-| Instruct | sentiment | 0.97 | 87 | 9 | **0.68** (layer 12) |
-| Instruct | language | 0.24 | 19 | 14 | 0.42 (layer 10) |
-| Instruct | animal | 0.28 | 34 | 15 | 0.29 (layer 9) |
-| Qwen3-8B | continent | 0.59 | 85 | 16 | **0.82** (layer 19) |
-| Qwen3-8B | sentiment | 0.82 | 74 | 4 | **0.95** (layer 14) |
-| Qwen3-8B | language | 0.29 | 23 | 14 | **0.91** (layer 15) |
-| Qwen3-8B | animal | 0.48 | 57 | 17 | 0.56 (layer 18; chance 0.2) |
-| Qwen3-8B | parity | 0.67 | 181 | 11 | 0.78 (layer 17; chance 0.5) |
+| Model | Task | Follows | Answered falsely | Truth readable from | Override from | J-lens best | Logit lens best | Baseline |
+|---|---|---|---|---|---|---|---|---|
+| Llama-3.1-8B | continent | 0.62 | 89 | 8 | 16 | **0.87** (9) | 0.49 (12) | 0.44 |
+| | sentiment | 0.96 | 86 | 11 | 14 | **0.81** (12) | 0.81 (12) | 0.51 |
+| | language | 0.38 | 30 | 14 | – | 0.50 (8) | 0.53 (13) | 0.33 |
+| | animal | 0.27 | 32 | 15 | – | 0.44 (1) | 0.50 (12) | 0.50 |
+| | parity | 0.19 | 52 | 27 | – | 0.60 (6) | 0.60 (7) | 0.58 |
+| Llama-3.1-8B-Instruct | continent | 0.64 | 92 | 8 | 14 | **0.77** (11) | 0.51 (9) | 0.38 |
+| | sentiment | 0.97 | 87 | 12 | 14 | 0.68 (12) | 0.89 (10) | 0.51 |
+| | language | 0.24 | 19 | 14 | – | 0.42 (10) | 0.42 (1) | 0.42 |
+| | animal | 0.28 | 34 | 15 | – | 0.29 (9) | 0.59 (16) | 0.68 |
+| | parity | 0.26 | 69 | 27 | – | 0.62 (2) | 0.78 (7) | 0.62 |
+| Qwen3-8B (36 layers) | continent | 0.59 | 85 | 16 | 23 | **0.82** (19) | 0.71 (12) | 0.51 |
+| | sentiment | 0.82 | 74 | 12 | 24 | **0.95** (14) | 0.78 (19) | 0.51 |
+| | language | 0.29 | 23 | 14 | – | **0.91** (15) | 0.78 (11) | 0.52 |
+| | animal | 0.48 | 57 | 23 | – | 0.56 (18) | 0.70 (14) | 0.30 |
+| | parity | 0.67 | 181 | 27 | 30 | 0.78 (17) | 0.76 (17) | 0.73 |
+
+("–": the J-lens never picks the taught label on most false-demonstration prompts.)
 
 ![False context, six tasks, Llama-3.1-8B](figures/llama3.1-8b.png)
 
-- In both models the falsehood takes over at layers 12–14. When the true label is readable before that
-  (continent from layer 8, sentiment from layers 9–11), it is in the workspace on most prompts the model then
-  answers falsely. When it only forms at layers 14–15 (language, animal), the context wins first and there is
-  little to read: on those prompts the J-lens picks the truth at most 0.29–0.50 of the time (chance 0.2), at
-  scattered layers and on 19–34 prompts.
-- So the "truth before the lie" is a race between when the model retrieves the answer and when it switches to
-  the taught mapping, not a general property of false contexts. For sentiment, both lenses see the truth at
-  layer 12 (0.81 each in the base model); for continents only the J-lens does.
-- With true demonstrations every task is answered correctly (98–100%), so the late-forming labels are known to
-  the model; they are just computed after the override layers.
-- **Qwen3-8B (36 layers) overrides later**, at layers 23–30, and its labels form at layers 4–17, so every task
-  has a window: on prompts it answers falsely, the J-lens reads the true language in 91% (layer 15), the true
-  sentiment in 95% (layer 14), the true continent in 82% (layer 19), even the true parity in 78% (layer 17).
-  Qwen also follows false demonstrations more (parity 0.67, sentiment 0.82). Same race, different timing.
+- **It is a race.** In the Llamas the override comes at layers 14–16. Continent (readable from layer 8) and
+  sentiment (11–12) form before it, and on prompts answered falsely the truth is in the workspace well above
+  the baseline (continent 0.77–0.87 vs 0.38–0.44). Language and animal form at layers 14–15 and their readouts
+  do not beat the baseline: the context wins before the answer exists.
+- **Qwen3-8B overrides later** (layers 23–30 of 36) and its continent, sentiment and language labels form at
+  layers 12–16, so all three have a window: the J-lens reads the true language on 91% of the prompts answered
+  falsely (baseline 0.52), the true sentiment on 95% (0.51), the true continent on 82% (0.51). Qwen also
+  follows false demonstrations more (parity 0.67, sentiment 0.82).
+- **J-lens vs logit lens** depends on the task: for continents the J-lens wins in all three models (0.77–0.87 vs
+  0.49–0.71); for sentiment in Llama-Instruct the logit lens does better (0.89 vs 0.68).
+- **Parity is not readable** before layer 27 in any model; its readouts match the constant-pick baseline.
+- With true demonstrations every task is answered correctly (98–100%), so the late-forming labels are known; they
+  are just computed after the override.
