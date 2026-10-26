@@ -115,6 +115,41 @@ ablation's loss (2.85–3.61 vs 2.96–3.64) but leaves recall at 0.96–1.00, w
 to 0.79–0.90 (and to 0.42–0.54 at layers 16–23). The instruction-tuned model is somewhat more robust in the early
 bands.
 
+## Results (Qwen3-8B)
+
+Run with `transformers` 5.11 (see the top-level README). Unablated: two-hop 0.96, one-hop 0.98, wikitext loss 2.98.
+Variance explained with k = 10 (layers 0–34): J-lens 0.07–0.11, J-lens covariance 0.04–0.11, logit lens
+0.03–0.10, isotropic 0.04, activation covariance 0.38–0.55, top-k PCA 0.17–0.38. Ablation, k = 10 (two-hop /
+one-hop / loss):
+
+| Band | J-lens | random, J-lens covariance | random, activation covariance |
+|---|---|---|---|
+| 0–3 | 0.96 / 0.99 / 3.15 | 0.96 / 0.98 / 3.19 | 0.35 / 0.41 / 9.78 |
+| 4–7 | 0.97 / 0.98 / 3.75 | 0.95 / 0.98 / 3.74 | 0.75 / 0.91 / 9.04 |
+| 8–11 | 0.92 / 0.95 / 3.46 | 0.96 / 0.99 / 3.49 | 0.70 / 0.68 / 8.24 |
+| 12–15 | 0.41 / 0.40 / 3.18 | 0.75 / 0.83 / 3.21 | 0.67 / 0.66 / 8.19 |
+| 16–19 | 0.56 / 0.63 / 3.14 | 0.84 / 0.91 / 3.10 | 0.66 / 0.85 / 7.96 |
+| 20–23 | 0.44 / 0.61 / 3.25 | 0.88 / 0.92 / 3.13 | 0.64 / 0.69 / 7.91 |
+| 24–27 | 0.37 / 0.33 / 3.41 | 0.86 / 0.89 / 3.12 | 0.92 / 0.99 / 7.29 |
+| 28–31 | 0.12 / 0.13 / 4.35 | 0.85 / 0.90 / 3.19 | 0.95 / 0.98 / 6.78 |
+| 32–35 | 0.05 / 0.05 / 7.86 | 0.91 / 0.91 / 3.36 | 0.95 / 0.99 / 6.53 |
+| removed variance | 0.04–0.06 | 0.04–0.06 | 0.09–0.20 |
+
+![J-space, Qwen3-8B](figures/qwen3-8b.png)
+
+- **Same direction, weaker dissociation.** In layers 12–23 the J-lens ablation brings two-hop to 0.41–0.56; the
+  J-lens-covariance control removes the same variance with the same loss (3.10–3.21 vs 3.14–3.25) and brings it
+  to 0.75–0.88. Unlike Llama, the control does hurt recall, so in Qwen part of the damage comes from the geometry
+  (where the output is sensitive) and part from the token alignment. Up to layer 11 neither ablation matters
+  (≥ 0.92).
+- **The J-lens's variance edge is its geometry up to layer 21.** The J-lens-covariance control explains nearly as
+  much (within 1–19%); the token-aligned atoms pull ahead from layer 22 and explain about twice as much from
+  layer 29 (0.09–0.11 vs 0.04–0.05).
+- **High-variance directions hurt recall here too.** The activation-covariance ablation wrecks the loss
+  (6.5–9.8) and, unlike in Llama, also lowers two-hop to 0.35–0.75 in bands 0–23.
+- Qwen's uncentered lens vectors fill a narrow cone (norm of the mean unit atom up to 0.92); uncentered, the
+  J-lens explains only 0.01–0.04.
+
 ## Caveats
 
 - Accuracy is the argmax among the 33 languages, which can survive a broken full distribution (the activation
