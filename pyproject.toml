@@ -1,0 +1,25 @@
+[project]
+name = "jlens-open"
+version = "0.1.0"
+description = "Jacobian lens experiments on open-weight models"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10,<3.13"
+# Exact versions behind the results in experiments/*/results (Python 3.11, Apple M5 Max / MPS).
+# Bumping transformers (newer models need it) changes numerics: rerun run_all.sh and check git diff.
+dependencies = [
+    "torch==2.8.0",
+    "transformers==4.43.3",
+    "huggingface_hub==0.24.5",
+    "hf_transfer==0.1.9",  # fast downloads, used by hpc/download.sbatch
+    "numpy==1.26.4",
+    "pandas==2.2.2",
+    "matplotlib==3.9.2",
+]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["jlens_open"]
