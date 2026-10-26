@@ -88,3 +88,13 @@ each cell below averages 9 prompts × 6 shifts (`results/llama3.1-8b_days_start_
 - Months vs days: the k = 1 circle carries about 60% of the effect for the 7 days and 15% for the 12 months.
   Two cycles cannot tell whether this is the number of values or the concept; other cycles (hours, letters,
   notes) would.
+
+## Other models (months, month token, every second layer)
+
+| Model | Solves (held-out) | all k | k = 1 | k = 1, 2 | k = 2 … 6 (each) | lens span | random |
+|---|---|---|---|---|---|---|---|
+| Llama-3.1-8B | 93.1% | 0.94–0.98 | 0.13–0.15 | 0.39–0.43 | ≤ 0.09 | 0.00 | 0.00 |
+| Llama-3.1-8B-Instruct | 80.6% | 0.80–0.84 | 0.11–0.13 | 0.32–0.37 | ≤ 0.08 | ≤ 0.01 | ≤ 0.01 |
+
+Ranges over layers 0–14 (`results/<model>_months_start_rotation.csv`). Instruction tuning leaves the picture
+unchanged: the k = 1 circle moves about one answer in eight, all frequencies together most of them.
