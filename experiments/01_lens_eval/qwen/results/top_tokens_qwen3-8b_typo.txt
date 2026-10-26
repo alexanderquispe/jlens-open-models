@@ -1,0 +1,81 @@
+qwen3-8b, typo: top-10 tokens of each lens
+
+### typo-language (intermediates ['language'])
+  L16 J     ['（', '。', '翻译', '，', '？', '学生', '语言', '【', ' �', '或者']
+  L16 logit [' Mandarin', '外语', 'programming', '英语', '综合素质', '汉语', ' languages', ' proficiency', ' fluent', '或多']
+  L19 J     ['翻译', '学生', '。', ' �', '，', '语言', '课程', '的', ' 文', '外语']
+  L19 logit [' Mandarin', ' fluent', '____', ' vocabulary', ' ______', '外语', ' ____', ' proficiency', 'yntax', ' flu']
+  L23 J     ['翻译', '语言', '。', '，', '外语', '汉语', '英语', '西班牙', '语法', '；']
+  L23 logit [' ______', '/language', '汉语', '外语', '____', ' ____', ' _______,', 'Spanish', ' Mandarin', '英语']
+  L26 J     ['。', '，', '．', '翻译', ',__', '；', '.', '语言', '____', '__.']
+  L26 logit [' ______', ' ____', '____', ' _______,', ' __________________', ' fluent', ' Mandarin', ' _____', ' proficiency', ' besides']
+
+### typo-government (intermediates ['government'])
+  L16 J     ['。\\', '。', '。\n\n', '的', '。\n', ' \\\r\n', '，', '.\r\n', ' �', ' �']
+  L16 logit ['佬', 'wide', '官员', '办公厅', '-sponsored', '-appointed', '_xyz', '.hu', ' Canada', 'atics']
+  L19 J     ['。\\', ' wich', ' seperate', ' canada', ' occured', ' canadian', '的', ' seper', ' thats', ' doesnt']
+  L19 logit ['edly', '-sponsored', '_xyz', '-funded', '諮', 'wide', 'aza', '相关政策', '/weather', '旗下的']
+  L23 J     ['.\r\n', '。\\', ' wich', ' canada', '.\r\n\r\n', ' seper', '。\n', ' seperate', ' canadian', '。']
+  L23 logit [' regarding', 'isky', 'arians', ',state', 'ís', ' officials', ' ____', '.\n\n\n\n\n\n\n\n\n\n', 'pra', '____']
+  L26 J     ['.\r\n', '.\r\n\r\n', '。\\', '。', '。\n', '。\n\n', ' wich', '，', '.\n\n\n\n\n\n\n\n', '。\r\n']
+  L26 logit [' regarding', ' officials', ' concerning', '官员', '办公厅', 'isky', ' aimed', 'Officials', ',state', '相关部门']
+
+### typo-across (intermediates ['across'])
+  L16 J     [' seperate', ' seper', ' alot', ' whats', ' wich', '”\n\n', ' [_', '。', ' everytime', '的']
+  L16 logit ['unner', 'peed', ' campus', 'aly', '/ex', '/in', '信箱', ' _____', '/down', 'aic']
+  L19 J     [' alot', ' seperate', ' wich', ' seper', ' teh', ' whats', 's', ' english', ' everytime', 'o']
+  L19 logit ['aly', 'ing', 'idor', 'es', '/platform', ' ______', ' crossing', '/part', '/out', '/back']
+  L23 J     [' seper', ' seperate', ' teh', ' wich', ' alot', ' everytime', '跨', ' europe', ' thats', ' isnt']
+  L23 logit [' campus', 'aly', 'ing', ' ______', '几步', ' wide', 'ed', '马路', 'es', 'aic']
+  L26 J     ['．', '。', '，', '.*/\n', '）\n\n', '）', '.', '），', '的', '】【']
+  L26 logit ['马路', ' campus', ' the', 'ing', 'aly', 'es', ' town', '长长的', 'ed', ' bridge']
+
+### typo-search (intermediates ['search'])
+  L16 J     [' wikipedia', ' google', ' youtube', ' whats', ' wich', ' everytime', ' doesnt', ' teh', ' isnt', ' wiki']
+  L16 logit ['/search', '.Submit', 'y', '/filter', '/link', '🔍', 'er', 'ron', ' Folder', ' button']
+  L19 J     [' google', ' whats', ' wich', ' wikipedia', ' youtube', ' everytime', ' thats', ' isnt', ' doesnt', ' chinese']
+  L19 logit ['ify', '/search', '钮', ',options', '_query', 'lite', '搜索', '_related', '_result', '_page']
+  L23 J     ['搜索', '查找', '查询', ' 查询', ' google', '搜', ' wich', '(Search', '百度', ' поиск']
+  L23 logit ['/search', '搜索', '(Search', '/Search', ' search', '.Search', ' searching', '.search', '_search', ' Search']
+  L26 J     ['搜索', ' 查询', '。', '查找', ' google', '查询', '.', ' wich', '。\n\n', '.\n\n']
+  L26 logit ['/search', '(Search', ' searching', '.Search', ' search', '搜索', '(search', '/Search', '按钮', '.search']
+
+### typo-address (intermediates ['address'])
+  L16 J     [' wich', ' adress', '住址', '地址', '居住', ' [_', ' everytime', ' informations', ' zipcode', ' �']
+  L16 logit ['/location', '/email', '/time', ' address', '/name', ' location', '/path', '_location', ' adress', '地址']
+  L19 J     [' wich', ' adress', '.', ' informations', '翻译', ' whats', 'your', ' english', ' �', '在']
+  L19 logit ['/email', '/time', '/name', ' address', ' (', '/location', '/port', 'dit', ' email', '_en']
+  L23 J     [' wich', ' adress', '.', '.Please', '.\n\n', '.\n', '.|', '翻译', '.\n\n\n\n\n\n\n\n', '写']
+  L23 logit [' address', '/email', '住址', ' adress', ' email', '-address', ' addresses', ' please', '/name', '地址']
+  L26 J     ['.', '.\n\n', '.\n', '.Please', '.\n\n\n\n\n\n\n\n', ' adress', '.|', '翻译', '.\r\n', '.\n\n\n\n\n\n\n\n\n\n']
+  L26 logit [' address', ' adress', '/email', '住址', ' email', ' please', ' addresses', '.Address', 'address', '.address']
+
+### typo-because (intermediates ['because'])
+  L16 J     ['。', '的', ' �', '因为', '要', ' �', '，', '他', '．', ' �']
+  L16 logit [' ______', ' reasons', '_has', 'wg', '什么原因', ' ____', '_take', '_cancel', ' _____', 'itat']
+  L19 J     ['____', ' ______', ' ___', ' __', '___', '是因为', '_____', '因为', ' ____', '________']
+  L19 logit [' reasons', '什么原因', '原因', '_due', ' ______', ' due', '的原因', 'due', '____', ' wegen']
+  L23 J     ['____', ' ______', ' ___', ' __', '________', '___', '（', '．', '他', '。']
+  L23 logit [' ______', '____', ' ____', ' __________________', ' _____', ' ___', ' _______,', ' __', ' __________________________________', ' they']
+  L26 J     ['____', ' ______', '________', ',__', ' __', '__.', '他', ' ___', '（', '_____']
+  L26 logit [' ______', '____', ' ____', ' traffic', ' he', ' they', ' __', ' there', ' _____', ' ___']
+
+### typo-until (intermediates ['until'])
+  L16 J     ['。\\', '的', '。', ' sunday', '，', ' wich', ' monday', ' seperate', '在', ' friday']
+  L16 logit ['晚上', '-hours', '深夜', '下班', '晚间', ' midnight', '凌晨', ' evenings', ' hours', ' dusk']
+  L19 J     [' sunday', ' monday', ' wich', ' everytime', ' friday', ' upto', '的', ' �', '。\\', ' september']
+  L19 logit ['until', ' until', ' midnight', ' tomorrow', '明年', '_utc', '一直到', '限り', 'ays', '_booking']
+  L23 J     ['直到', ' monday', '____', '。\\', 'until', '．', ' sunday', ' december', ' friday', ' until']
+  L23 logit [' midnight', ' until', 'until', '为止', '另行', '明年', ' tomorrow', '目前为止', '晚间', '_until']
+  L26 J     ['____', ' december', '．', ' December', ' midnight', ' monday', '（', ' ____', ' ______', ' January']
+  L26 logit [' midnight', '另行', ' Friday', ' December', ' Monday', ' tomorrow', ' noon', '深夜', ' completion', '____']
+
+### typo-people (intermediates ['people'])
+  L16 J     ['。', '，', '【', ' �', '的', '。\n', '。(', '、', ' �', '。（']
+  L16 logit ['hips', ' joe', '_of', 'ovation', '_manager', 'iles', '狂欢', 'ogue', '_managed', '围观']
+  L19 J     ['的', '，', '【', '是', '。', ' �', '在', '中', '一', '要']
+  L19 logit ['围观', '_today', 'hips', '____', '场面', 'men', '/media', '.old', '_managed', '⼒']
+  L23 J     ['。\n', '怎么', '。', '，', '哪', '如何', '的', '是', '。\n\n', '什么意思']
+  L23 logit [' ______', '____', ' ____', ' __________________', 'upo', '围观', '什么意思', ' _____', 'cott', '_today']
+  L26 J     ['，', '。\n', '。', '。\n\n', '．', '是', '？\n', '的', '这句话', '当']
+  L26 logit [' when', ' who', '____', ' attending', '_when', '\twhen', ' ______', ' ____', ' during', ',but']

@@ -60,7 +60,60 @@ pass@10, J-lens / logit lens (`results/<model>.csv`; Qwen3-8B and OLMo-3-7B with
 
 - The J-lens advantage replicates on Llama-Instruct and OLMo, carried by `order-ops` and `typo`. On multihop it
   is at most 0.02 in every model except base Llama (0.11).
-- **Qwen3-8B is the exception**: the J-lens loses on macro, mostly on `typo` (0.208 vs 0.583). The lens itself
-  works on Qwen in experiments 04 and 06 (it reads the intermediate country and the true continent better than
-  the logit lens), so this looks like a property of these prompt sets on Qwen, not a broken lens; worth a closer
-  look (the lens file has finite J's of normal scale, and our code applies it as the reference code does).
+- **Qwen3-8B is the exception**: the J-lens loses on macro, mostly on `typo` (0.208 vs 0.583). Most of the gap
+  comes from language: Qwen's J-lens reads many intermediates in Chinese (next section).
+
+## Why the J-lens loses on Qwen3-8B
+
+The lens matches the model and our code applies it correctly. Qwen's J-lens reads many intermediates in Chinese,
+which English targets miss; on `typo` it reads "misspelling" rather than the corrected word; and its KL is
+inflated by two massive dimensions of the residual stream. Scripts and outputs in `qwen/` (transformers 5.11):
+
+```bash
+PYTHONPATH=. .venv-tf5/bin/python experiments/01_lens_eval/qwen/chinese_targets.py --model qwen3-8b  # ~1 min
+# also lens_fidelity.py, jacobian_check.py, massive_dims.py, top_tokens.py (--set typo); ~7 min in all
+```
+
+**The stored J is the model's Jacobian** (`jacobian_check.py`). We recompute rows of J with autograd, using the
+reference estimator (cotangent at every position from 16 on) on six wikitext paragraphs and 16 random directions.
+Cosine with the stored J: 0.66, 0.83, 0.94 at layers 9, 18, 27 of Qwen; 0.76, 0.89, 0.97 at layers 8, 16, 24 of
+Llama. Six paragraphs give a noisy estimate, so early layers are lower in both. Using the J of layer l−1 or l+1
+does not help (`lens_fidelity.py`): on wikitext, all three variants have KL 14–22 to the model's output in
+layers 4–21, against 9–12.5 for the logit lens.
+
+**Qwen's J-lens reads intermediates in Chinese** (`chinese_targets.py`). We rescored association, multihop,
+multilingual and typo with Chinese translations of the intermediates (`qwen/zh_intermediates.json`, 363 words;
+ours, not checked by a native speaker). A Chinese word counts when it is one token, or when its first token has
+at least two characters (so 十 alone does not count for 十二月). pass@10, J-lens / logit lens:
+
+| Targets | Qwen3-8B | Llama-3.1-8B | OLMo-3-7B |
+|---|---|---|---|
+| English (table above) | 0.246 / 0.291 | 0.414 / 0.277 | 0.354 / 0.292 |
+| English or Chinese | **0.304 / 0.314** | 0.414 / 0.279 | 0.355 / 0.294 |
+| Chinese only (4 sets) | 0.281 / 0.249 | 0.032 / 0.127 | 0.010 / 0.077 |
+
+- On Qwen, multihop turns in the J-lens's favour (0.565 vs 0.516; Chinese only 0.392 vs 0.230). Intermediates
+  the J-lens finds only in Chinese include 火星 for Mars (*mars-color*, rank 8 at layer 24), 中国 for China
+  (*super-populous-capital*, layer 10) and 十月 for October (*holiday-halloween-monthnum*). In *amazon-language*,
+  巴西 (Brazil) is its rank-2 token at layer 15.
+- Llama's and OLMo's J-lenses almost never rank the Chinese words, so the gain on Qwen does not come from simply
+  adding targets.
+- The macro gap shrinks from −0.045 to −0.010. What remains is `typo` (0.479 vs 0.646), along with association and
+  multilingual (0.000 vs 0.039, 0.453 vs 0.491).
+
+**On `typo`, Qwen's J-lens reads "misspelling"** (`results/top_tokens_qwen3-8b_typo.txt`). At the misspelled
+word, its top tokens in layers 16–23 are other common misspellings (' wich', ' seperate', ' alot', ' adress',
+' teh') rather than the corrected word.
+
+**Two massive dimensions inflate the KL** (`massive_dims.py`).
+- Two coordinates of Qwen's final residual stream (2276 and 1838, mean |h| 782 and 664, against a median of 9)
+  hold 58% of its squared norm; in Llama the top two hold 4%.
+- Qwen's J has one dominant singular direction, with 41–69% of the squared Frobenius norm in layers 9–21 (Llama:
+  at most 15%). Its output vector lies 81–84% on those two coordinates.
+- Setting the two coordinates of J_l h_l to their mean in h_final halves the J-lens KL. At layer 18 it drops from
+  17.9 to 9.9, close to the logit lens's 10.2.
+- The same correction leaves the top 10 unchanged: the model's next token is in it 2% of the time either way.
+
+So the final RMSNorm explains the poor calibration, but not the ranking. On wikitext, Qwen's J-lens has the
+model's next token in its top 10 at most 5% of the time up to layer 21 (logit lens: up to 16%). Llama's J-lens
+beats the logit lens there in layers 5–19.
