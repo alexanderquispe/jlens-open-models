@@ -77,6 +77,11 @@ day tokens miss a feature that is two-dimensional and circular.
 **GPT-2 small** solves the `sequence` task (95%) but not Engels' prompt (14%, chance), so its `engels` results
 are not meaningful.
 
+**Llama-3.1-8B-Instruct** (`engels`, `day` only): it solves 37% of Engels' prompts (8 of the 21 held-out ones).
+In layers 0–17 the circle plane moves 0.27–0.42 of the solved prompts, the full centroid difference 0.48–0.62,
+and the day lens span and random directions at most 0.02; from layer 18 on, all of them at most 0.19. The same
+picture as the base model.
+
 ## Caveats
 
 - Lens readouts at Engels' day token (position 14) are outside the lens fit, which skipped the first 16
