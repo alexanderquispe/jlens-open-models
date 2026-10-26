@@ -136,7 +136,7 @@ left out.
   prompts answered falsely (baseline 0.50; the logit lens sees nothing), and the full retrieval at layer 18,
   which comes after the false context has taken over (with false demonstrations the truth is read on 18% at
   layer 18). The early stage is the one the J-lens catches.
-- **J-lens vs logit lens** depends on the task: for continents the J-lens wins in all three models (0.77–0.87 vs
+- **J-lens vs logit lens** depends on the task: for continents the J-lens wins in all four models (0.77–0.96 vs
   0.49–0.71); for sentiment in Llama-Instruct the logit lens does better (0.89 vs 0.68).
 - **Parity is not readable** before layer 27 in any model; its readouts match the constant-pick baseline.
 - With true demonstrations every task is answered correctly (98–100%), so the late-forming labels are known; they
