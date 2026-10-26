@@ -43,3 +43,24 @@ The J-lens advantage is in layers 15–23 (peak at layer 21: 0.25 vs 0.19 of int
 ![Lens eval by layer, Llama-3.1-8B](figures/llama3.1-8b.png)
 
 **GPT-2 small:** both lenses are near the floor (macro pass@10 0.139 J-lens vs 0.171 logit lens).
+
+## Other models
+
+pass@10, J-lens / logit lens (`results/<model>.csv`; Qwen3-8B and OLMo-3-7B with transformers 5.11):
+
+| Prompt set | Llama-3.1-8B | Llama-3.1-8B-Instruct | Qwen3-8B | OLMo-3-7B |
+|---|---|---|---|---|
+| multihop | 0.613 / 0.505 | 0.570 / 0.586 | 0.511 / 0.516 | 0.532 / 0.514 |
+| multilingual | 0.535 / 0.432 | 0.523 / 0.425 | 0.432 / 0.437 | 0.465 / 0.467 |
+| order-ops | 0.427 / 0.145 | 0.345 / 0.118 | 0.327 / 0.191 | 0.382 / 0.200 |
+| poetry | 0.061 / 0.041 | 0.122 / 0.163 | 0.000 / 0.000 | 0.031 / 0.041 |
+| association | 0.137 / 0.098 | 0.196 / 0.127 | 0.000 / 0.020 | 0.039 / 0.059 |
+| typo | 0.708 / 0.438 | 0.771 / 0.490 | 0.208 / 0.583 | 0.677 / 0.469 |
+| **macro** | **0.414 / 0.277** | **0.421 / 0.318** | **0.246 / 0.291** | **0.354 / 0.292** |
+
+- The J-lens advantage replicates on Llama-Instruct and OLMo, carried by `order-ops` and `typo`. On multihop it
+  is gone in every model except base Llama.
+- **Qwen3-8B is the exception**: the J-lens loses on macro, mostly on `typo` (0.208 vs 0.583). The lens itself
+  works on Qwen in experiments 04 and 06 (it reads the intermediate country and the true continent better than
+  the logit lens), so this looks like a property of these prompt sets on Qwen, not a broken lens; worth a closer
+  look (the lens file has finite J's of normal scale, and our code applies it as the reference code does).
