@@ -95,6 +95,10 @@ each cell below averages 9 prompts × 6 shifts (`results/llama3.1-8b_days_start_
 |---|---|---|---|---|---|---|---|
 | Llama-3.1-8B | 93.1% | 0.94–0.98 | 0.13–0.15 | 0.39–0.43 | ≤ 0.09 | 0.00 | 0.00 |
 | Llama-3.1-8B-Instruct | 80.6% | 0.80–0.84 | 0.11–0.13 | 0.32–0.37 | ≤ 0.08 | ≤ 0.01 | ≤ 0.01 |
+| Qwen3-8B (layers 0–20, every 4th) | 40.3% | 0.59–0.67 | 0.10–0.24 | 0.32–0.34 | ≤ 0.04 | ≤ 0.02 | ≤ 0.01 |
 
-Ranges over layers 0–14 (`results/<model>_months_start_rotation.csv`). Instruction tuning leaves the picture
-unchanged: the k = 1 circle moves about one answer in eight, all frequencies together most of them.
+Ranges over layers 0–14 for the Llamas (`results/<model>_months_start_rotation.csv`). Instruction tuning leaves
+the picture unchanged: the k = 1 circle moves about one answer in eight, all frequencies together most of them.
+Qwen3-8B solves only 40% of the held-out prompts (29), but shows the same pattern: k = {1, 2} carries about
+half of what the full difference does, every other frequency alone nothing, and the patches stop working at the
+month token between layers 20 and 24 (of 36).
