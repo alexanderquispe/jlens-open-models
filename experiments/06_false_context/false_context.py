@@ -176,8 +176,13 @@ for (task_name, i), p in picks.items():
         continue
     for lens in ("J-lens", "logit lens"):
         for layer in range(L):
-            cond_rows.append({"task": task_name, "lens": lens, "layer": layer, "true": p[lens][layer] == m["true"]})
-cond = pd.DataFrame(cond_rows).groupby(["task", "lens", "layer"]).agg(n=("true", "size"), true=("true", "mean")).reset_index()
+            cond_rows.append({"task": task_name, "lens": lens, "layer": layer, "true": p[lens][layer] == m["true"],
+                              "true label": m["true"]})
+cond_df = pd.DataFrame(cond_rows)
+cond = cond_df.groupby(["task", "lens", "layer"]).agg(n=("true", "size"), true=("true", "mean")).reset_index()
+# A lens that picks the same label on every prompt is right on the share of prompts with that true label, so the
+# best constant pick (the most common true label among these prompts) is the baseline to beat
+cond["majority baseline"] = cond.task.map(cond_df.groupby("task")["true label"].agg(lambda x: x.value_counts(normalize=True).max()))
 cond.to_csv(CSV_OUT.replace(".csv", "_when_output_false.csv"), index=False)
 
 df = pd.DataFrame(records)
