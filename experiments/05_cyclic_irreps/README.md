@@ -104,7 +104,7 @@ not there yet.
 
 ![Months, last token, Llama-3.1-8B](figures/llama3.1-8b_months_last.png)
 
-- **At the output position the answer moves into the J-space.** The month-name lens span (at most a third of the
+- **At the output position the answer moves into the J-space.** The month-name lens span (at most 37% of the
   patch norm) goes from nothing at layer 20 to 0.99 at layer 30, as for the days in experiment 02. The circle
   stays at 0.12.
 - **The most regular circle is not the causal one.** At layers 18–24 the k = 1 polygon of the answer months is
