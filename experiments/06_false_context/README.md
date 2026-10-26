@@ -15,13 +15,16 @@ Outputs: `results/<model>.csv` (task × condition × lens × layer), `results/<m
 
 ## Method
 
-Three tasks with 12 demonstrations each, true or with labels permuted consistently:
+Six tasks with 12 demonstrations each, true or with labels permuted consistently:
 
 | Task | Format | Permutation |
 |---|---|---|
 | parity | *Number: 37 / Parity: odd* (10–99) | even ↔ odd |
 | continent | *Country: France / Continent: Europe* (48 countries) | Europe → Asia → Africa → Europe |
 | color | *Object: banana / Color: yellow* (30 objects) | red → yellow → green → blue → white → black → red |
+| animal | *Animal: eagle / Class: bird* (40 animals) | mammal → bird → fish → insect → reptile → mammal |
+| language | *Country: Brazil / Language: Portuguese* (26 countries) | French → Spanish → German → Portuguese → Arabic → French |
+| sentiment | *Word: lovely / Sentiment: positive* (30 words) | positive ↔ negative |
 
 Three demonstration samples per query. At the query's last token, every layer is read with both lenses,
 restricted to the task's labels: *true* = the lens picks the true label, *false* = it picks the label the
@@ -30,6 +33,8 @@ demonstrations teach.
 `results/<model>_when_output_false.csv` repeats the readout only on false-demonstration prompts where the model
 outputs the taught (false) label: did the lens see the truth on the prompts where the model then says the
 falsehood?
+
+The tables for each model below cover the first three tasks (run first); the last section covers all six.
 
 ## Results (Llama-3.1-8B)
 
@@ -80,3 +85,31 @@ where it outputs the false continent**, the J-lens picks the true one:
   demonstrations (0.57–0.76 vs 0.62–0.78).
 - **The override is sharper**: from 0.70 at layer 12 to 0.04 at layer 14, against a fade over layers 12–18 in
   the base model.
+
+## Six tasks, both Llamas: the truth is there only if it forms before the override
+
+The three tasks added later do not reproduce the continent result as such, and the reason is when the true label
+forms. For each task (`results/<model>_final.csv`, `_when_output_false.csv`, `<model>.csv`):
+
+| Model | Task | Follows the falsehood | Prompts answered falsely | J-lens reads the truth (true demos, ≥ 0.6) from layer | J-lens picks the truth on prompts answered falsely, best layer |
+|---|---|---|---|---|---|
+| base | continent | 0.62 | 89 | 8 | **0.87** (layer 9; chance 0.33) |
+| base | sentiment | 0.96 | 86 | 11 | **0.81** (layer 12; chance 0.5) |
+| base | language | 0.38 | 30 | 14 | 0.50 (layer 8; chance 0.2) |
+| base | animal | 0.27 | 32 | 15 | 0.44 (layer 1; chance 0.2) |
+| Instruct | continent | 0.64 | 92 | 8 | **0.77** (layer 11) |
+| Instruct | sentiment | 0.97 | 87 | 9 | **0.68** (layer 12) |
+| Instruct | language | 0.24 | 19 | 14 | 0.42 (layer 10) |
+| Instruct | animal | 0.28 | 34 | 15 | 0.29 (layer 9) |
+
+![False context, six tasks, Llama-3.1-8B](figures/llama3.1-8b.png)
+
+- In both models the falsehood takes over at layers 12–14. When the true label is readable before that
+  (continent from layer 8, sentiment from layers 9–11), it is in the workspace on most prompts the model then
+  answers falsely. When it only forms at layers 14–15 (language, animal), the context wins first and there is
+  nothing to read: on those prompts the J-lens stays near chance at every layer.
+- So the "truth before the lie" is a race between when the model retrieves the answer and when it switches to
+  the taught mapping, not a general property of false contexts. For sentiment, both lenses see the truth at
+  layer 12 (0.81 each in the base model); for continents only the J-lens does.
+- With true demonstrations every task is answered correctly (98–100%), so the late-forming labels are known to
+  the model; they are just computed after the override layers.
