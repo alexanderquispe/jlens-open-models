@@ -184,8 +184,8 @@ ax.set_title(f"Irrep spectrum of the {args.concept} centroids", fontsize=9)
 ax.set_ylim(0, 1)
 ax.legend(fontsize=6, loc="lower right")
 ax = axs[0, 1]
-for name in [f"k={k}" for k in FREQS] + ["all k (full centroid difference)", "name lens span", "random direction, k=1 norm"]:
-    style = "-" if name.startswith("k=") else "--"
+for name in [f"k={k}" for k in FREQS] + ["k=1,2", "all k (full centroid difference)", "name lens span", "random direction, k=1 norm"]:
+    style = "-." if name == "k=1,2" else "-" if name.startswith("k=") else "--"
     ax.plot(rot_table.index, rot_table[name], style, marker="o", markersize=2, label=name)
 ax.axhline(1 / N, color="grey", linestyle=":", linewidth=0.8, label="chance")
 ax.set_title("Rotation by irrep (correct unpatched prompts)", fontsize=9)
