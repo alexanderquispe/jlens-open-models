@@ -61,3 +61,22 @@ last token pick the true continent with these frequencies (chance 1/3):
   computation, it overrides it later.
 - **Parity is not readable** with either lens before layer 27 (they pick the same label for every prompt), so
   this task says nothing about the workspace. Color: only 2 prompts output the false color, too few to condition on.
+
+## Results (Llama-3.1-8B-Instruct)
+
+With false demonstrations, the instruction-tuned model follows the falsehood on continents as often (0.64; true
+0.03) and resists it on parity (0.74 true) and colors (0.58 true, 0.09 false). On the **92 continent prompts
+where it outputs the false continent**, the J-lens picks the true one:
+
+| Layer | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 16 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| J-lens | 0.38 | 0.38 | 0.62 | 0.68 | 0.72 | **0.77** | 0.70 | 0.39 | 0.04 | 0.03 |
+| logit lens | 0.26 | 0.27 | 0.26 | 0.51 | 0.27 | 0.45 | 0.45 | 0.43 | 0.07 | 0.01 |
+
+![False context, Llama-3.1-8B-Instruct](figures/llama3.1-8b-it.png)
+
+- **Same picture after instruction tuning**: the truth is in the workspace at layers 8–12 on prompts the model
+  will answer falsely, and up to layer 11 the J-lens reads the true continent as often with false as with true
+  demonstrations (0.57–0.76 vs 0.62–0.78).
+- **The override is sharper**: from 0.70 at layer 12 to 0.04 at layer 14, against a fade over layers 12–18 in
+  the base model.
