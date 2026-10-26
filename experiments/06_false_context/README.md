@@ -101,6 +101,11 @@ forms. For each task (`results/<model>_final.csv`, `_when_output_false.csv`, `<m
 | Instruct | sentiment | 0.97 | 87 | 9 | **0.68** (layer 12) |
 | Instruct | language | 0.24 | 19 | 14 | 0.42 (layer 10) |
 | Instruct | animal | 0.28 | 34 | 15 | 0.29 (layer 9) |
+| Qwen3-8B | continent | 0.59 | 85 | 16 | **0.82** (layer 19) |
+| Qwen3-8B | sentiment | 0.82 | 74 | 4 | **0.95** (layer 14) |
+| Qwen3-8B | language | 0.29 | 23 | 14 | **0.91** (layer 15) |
+| Qwen3-8B | animal | 0.48 | 57 | 17 | 0.56 (layer 18; chance 0.2) |
+| Qwen3-8B | parity | 0.67 | 181 | 11 | 0.78 (layer 17; chance 0.5) |
 
 ![False context, six tasks, Llama-3.1-8B](figures/llama3.1-8b.png)
 
@@ -114,3 +119,7 @@ forms. For each task (`results/<model>_final.csv`, `_when_output_false.csv`, `<m
   layer 12 (0.81 each in the base model); for continents only the J-lens does.
 - With true demonstrations every task is answered correctly (98–100%), so the late-forming labels are known to
   the model; they are just computed after the override layers.
+- **Qwen3-8B (36 layers) overrides later**, at layers 23–30, and its labels form at layers 4–17, so every task
+  has a window: on prompts it answers falsely, the J-lens reads the true language in 91% (layer 15), the true
+  sentiment in 95% (layer 14), the true continent in 82% (layer 19), even the true parity in 78% (layer 17).
+  Qwen also follows false demonstrations more (parity 0.67, sentiment 0.82). Same race, different timing.
