@@ -27,6 +27,37 @@ Three demonstration samples per query. At the query's last token, every layer is
 restricted to the task's labels: *true* = the lens picks the true label, *false* = it picks the label the
 demonstrations teach.
 
-## Results
+`results/<model>_when_output_false.csv` repeats the readout only on false-demonstration prompts where the model
+outputs the taught (false) label: did the lens see the truth on the prompts where the model then says the
+falsehood?
 
-Pending (overnight run of 2026-10-25).
+## Results (Llama-3.1-8B)
+
+Model output with false demonstrations (`results/llama3.1-8b_final.csv`):
+
+| Task | Outputs the true label | Outputs the taught (false) label |
+|---|---|---|
+| parity | 0.81 | 0.19 |
+| continent | 0.21 | **0.62** |
+| color | 0.76 | 0.02 |
+
+Only the continent task makes the model follow the falsehood (with true demonstrations it is 98–100% right on
+all three). On the **89 continent prompts where it outputs the false continent**, the lenses at the query's
+last token pick the true continent with these frequencies (chance 1/3):
+
+| Layer | 5 | 7 | 8 | 9 | 10 | 11 | 12 | 14 | 16 | 18 | 24 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| J-lens | 0.51 | 0.69 | 0.76 | **0.87** | 0.76 | 0.78 | 0.48 | 0.38 | 0.25 | 0.09 | 0.09 |
+| logit lens | 0.24 | 0.24 | 0.24 | 0.24 | 0.24 | 0.24 | 0.49 | 0.16 | 0.19 | 0.22 | 0.16 |
+
+![False context, Llama-3.1-8B](figures/llama3.1-8b.png)
+
+- **The truth is in the workspace before the model says the falsehood.** In layers 7–11 the J-lens reads the true
+  continent on 69–87% of the prompts the model ends up answering falsely; the logit lens reads it on 24% (below
+  chance). The truth fades in layers 12–18, where the taught label takes over: Halawi et al.'s "critical layers",
+  seen here with the J-lens and not with the logit lens.
+- On all continent prompts with false demonstrations, the J-lens picks the true continent at layers 8–11 about
+  as often as with true demonstrations (0.67–0.78 vs 0.63–0.76): the false context does not change the early
+  computation, it overrides it later.
+- **Parity is not readable** with either lens before layer 27 (they pick the same label for every prompt), so
+  this task says nothing about the workspace. Color: only 2 prompts output the false color, too few to condition on.

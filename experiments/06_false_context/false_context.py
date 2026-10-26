@@ -85,6 +85,7 @@ rng = np.random.default_rng(0)
 
 records = []  # one per (prompt, layer, lens)
 final_rows = []
+picks = {}  # (task, prompt index) -> {lens: [pick per layer]}
 for task_name, task in TASKS.items():
     labels = task["labels"]
     label_ids = [lm.tok.encode(" " + w, add_special_tokens=False)[0] for w in labels]
@@ -126,7 +127,23 @@ for task_name, task in TASKS.items():
                     m = meta[i]
                     records.append({"task": task_name, "condition": m["condition"], "layer": layer, "lens": lens,
                                     "true": pick[b] == m["true"], "false": pick[b] == m["false"], "true_rank": rank[b]})
+                    picks.setdefault((task_name, i), {}).setdefault(lens, [None] * L)[layer] = pick[b]
+        for b, i in enumerate(idx):
+            picks[(task_name, i)]["meta"] = meta[i]
+            picks[(task_name, i)]["final"] = final[b]
     print(f"done: {task_name} ({len(prompts)} prompts)", flush=True)
+
+# Did the lens see the truth on the prompts where the model outputs the taught falsehood?
+cond_rows = []
+for (task_name, i), p in picks.items():
+    m = p["meta"]
+    if m["condition"] != "false" or p["final"] != m["false"]:
+        continue
+    for lens in ("J-lens", "logit lens"):
+        for layer in range(L):
+            cond_rows.append({"task": task_name, "lens": lens, "layer": layer, "true": p[lens][layer] == m["true"]})
+cond = pd.DataFrame(cond_rows).groupby(["task", "lens", "layer"]).agg(n=("true", "size"), true=("true", "mean")).reset_index()
+cond.to_csv(CSV_OUT.replace(".csv", "_when_output_false.csv"), index=False)
 
 df = pd.DataFrame(records)
 final_df = pd.DataFrame(final_rows)
@@ -138,6 +155,9 @@ final_summary.to_csv(CSV_OUT.replace(".csv", "_final.csv"))
 pd.set_option("display.width", 250)
 print("\nModel output among the labels (fraction true / fraction following the permuted demonstrations)")
 print(final_summary.round(3).to_string())
+print("\nOn prompts where the model outputs the taught (false) label: lens picks the TRUE label")
+print(cond.pivot_table(index="layer", columns=["task", "lens"], values="true").round(2).to_string())
+print(cond.groupby("task").n.first().to_string())
 for task_name in TASKS:
     t = summary[(summary.task == task_name) & (summary.condition == "false")]
     print(f"\n{task_name}, false demonstrations: lens picks the TRUE label (and the permuted one)")
@@ -151,6 +171,9 @@ for ax, task_name in zip(axs, TASKS):
         ax.plot(t.layer, t["true"], linestyle=style[1], color=style[0], label=f"{lens}, {condition} demos")
     f = final_summary.loc[(task_name, "false"), "final_true"]
     ax.axhline(f, color="C3", linestyle=":", linewidth=1, label="model output, false demos")
+    c = cond[(cond.task == task_name) & (cond.lens == "J-lens")]
+    if len(c):
+        ax.plot(c.layer, c["true"], color="C2", label=f"J-lens, prompts output false (n={c.n.iloc[0]})")
     ax.axhline(1 / len(TASKS[task_name]["labels"]), color="grey", linestyle=":", linewidth=0.8, label="chance")
     ax.set_title(f"{task_name}: lens picks the true label", fontsize=9)
     ax.set_xlabel("Layer (block output)", fontsize=8)
