@@ -47,6 +47,7 @@ parser.add_argument("--band", type=int, default=4, help="layers per ablation ban
 parser.add_argument("--skip-ablation", action="store_true")
 parser.add_argument("--dicts", default=None,
                     help="comma-separated dictionaries to (re)compute; rows of the others are kept from existing results")
+parser.add_argument("--plot-only", action="store_true", help="redraw the figure from existing results")
 args = parser.parse_args()
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -61,6 +62,41 @@ DICTS = ["J-lens", "logit lens", "random (isotropic)", "random (activation covar
 EXTRA = ["J-lens (uncentered)", "logit lens (uncentered)"]
 RUN = args.dicts.split(",") if args.dicts else DICTS + EXTRA
 assert set(RUN) <= set(DICTS + EXTRA), RUN
+
+
+def plot(var_df, abl_df):
+    """Variance explained (k = 25) and, after ablating k = 10 in each band, both accuracies and the wikitext loss."""
+    fig, axs = plt.subplots(1, 4, figsize=(17, 3.4))
+    ax = axs[0]
+    for name in DICTS + ["top-k PCA"]:
+        t = var_df[(var_df.dictionary == name) & (var_df.k == 25)]
+        ax.plot(t.layer, t.explained, marker="o", markersize=2, label=name)
+    ax.set_title("Centered variance explained, k = 25", fontsize=9)
+    ax.set_xlabel("Layer (block output)", fontsize=8)
+    ax.legend(fontsize=6)
+    base = abl_df[abl_df.dictionary == "none"].iloc[0]
+    band_names = [b for b in abl_df.band.unique() if b != "none"]
+    for ax, metric in zip(axs[1:], ["two-hop accuracy", "one-hop accuracy", "wikitext loss"]):
+        for name in DICTS:
+            t = abl_df[(abl_df.dictionary == name) & (abl_df.k == 10)]
+            ax.plot(t.band.map(band_names.index), t[metric], marker="o", markersize=3, label=name)
+        ax.axhline(base[metric], color="black", linestyle=":", linewidth=0.8, label="no ablation")
+        ax.set_xticks(range(len(band_names)), band_names, fontsize=6)
+        ax.set_title(f"{metric} after ablating k = 10 in a band", fontsize=9)
+        ax.set_xlabel("Ablated layers", fontsize=8)
+    axs[1].legend(fontsize=6)
+    for ax in axs:
+        ax.grid(linestyle="--", alpha=0.4)
+    fig.suptitle(args.model, fontsize=10)
+    plt.tight_layout()
+    # No CreationDate in the PDF, so that rerunning gives byte-identical files and git diff shows real changes only
+    fig.savefig(FIG_OUT, bbox_inches="tight", metadata={"CreationDate": None})
+    fig.savefig(FIG_OUT.replace(".pdf", ".png"), dpi=150, bbox_inches="tight")
+
+
+if args.plot_only:
+    plot(pd.read_csv(CSV_VAR), pd.read_csv(CSV_ABL))
+    raise SystemExit
 
 torch.manual_seed(0)
 lm = LensModel(args.model, args.device)
@@ -213,29 +249,5 @@ abl_df.to_csv(CSV_ABL, index=False, float_format="%.10g")
 print("\nAblation (accuracy among languages; wikitext loss)")
 print(abl_df.round(3).to_string(index=False))
 
-fig, axs = plt.subplots(1, 3, figsize=(13, 3.4))
-ax = axs[0]
-for name in DICTS + ["top-k PCA"]:
-    t = var_df[(var_df.dictionary == name) & (var_df.k == 25)]
-    ax.plot(t.layer, t.explained, marker="o", markersize=2, label=name)
-ax.set_title("Centered variance explained, k = 25", fontsize=9)
-ax.set_xlabel("Layer (block output)", fontsize=8)
-ax.legend(fontsize=6)
-for ax, metric in zip(axs[1:], ["two-hop accuracy", "one-hop accuracy"]):
-    base = abl_rows[0][metric]
-    for name in DICTS:
-        t = abl_df[(abl_df.dictionary == name) & (abl_df.k == 10)]
-        ax.plot(range(len(t)), t[metric], marker="o", markersize=3, label=name)
-    ax.axhline(base, color="black", linestyle=":", linewidth=0.8, label="no ablation")
-    ax.set_xticks(range(len(bands)), [f"{b[0]}-{b[-1]}" for b in bands], fontsize=6)
-    ax.set_title(f"{metric} after ablating k = 10 in a band", fontsize=9)
-    ax.set_xlabel("Ablated layers", fontsize=8)
-axs[1].legend(fontsize=6)
-for ax in axs:
-    ax.grid(linestyle="--", alpha=0.4)
-fig.suptitle(args.model, fontsize=10)
-plt.tight_layout()
-# No CreationDate in the PDF, so that rerunning gives byte-identical files and git diff shows real changes only
-fig.savefig(FIG_OUT, bbox_inches="tight", metadata={"CreationDate": None})
-fig.savefig(FIG_OUT.replace(".pdf", ".png"), dpi=150, bbox_inches="tight")
+plot(var_df, abl_df)
 print(f"\nSaved: {CSV_VAR}\n       {CSV_ABL}\n       {FIG_OUT}")
