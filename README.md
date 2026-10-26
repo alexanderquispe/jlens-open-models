@@ -33,8 +33,8 @@ uv sync                    # creates .venv with the pinned versions (or: python 
 source .venv/bin/activate
 huggingface-cli login      # Llama-3.1-8B is gated: accept Meta's license on its HF page first
 
-bash run_all.sh gpt2-small     # ~2 min on an M5 Max
-bash run_all.sh llama3.1-8b    # ~55 min on an M5 Max
+bash run_all.sh gpt2-small     # ~12 min on an M5 Max
+bash run_all.sh llama3.1-8b    # ~4.5 h on an M5 Max (LAYERS=::2 patches every second layer in 04 and 05)
 ```
 
 The device is picked automatically (CUDA, then MPS, then CPU) or set with `--device`. For the cluster, see
@@ -66,7 +66,7 @@ Qwen3.5-122B-A10B. Most of the newer models need a newer `transformers` than the
 
 - `main` always runs. Work on a branch and open a pull request; someone else reviews it before merging.
 - Each experiment lives in its own folder (see [experiments/README.md](experiments/README.md)). Changes to
-  `jlens_open/` affect everyone: after one, run `bash run_all.sh gpt2-small` (2 min) and check
+  `jlens_open/` affect everyone: after one, run `bash run_all.sh gpt2-small` (12 min) and check
   `git status experiments/`. On the same machine, rerunning GPT-2 gives byte-identical CSVs and figures, so any
   changed file is a changed result and the PR should say why. On a GPU, numbers can differ in the last digits
   (we saw 1e-16 on Llama); anything larger is a real change.

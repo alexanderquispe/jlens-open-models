@@ -1,0 +1,49 @@
+position,lens,layer,median,top10
+capital,J-lens,0,4.0,0.8197674418604651
+capital,J-lens,1,4.0,0.7093023255813954
+capital,J-lens,2,5.0,0.6918604651162791
+capital,J-lens,3,4.0,0.7674418604651163
+capital,J-lens,4,4.0,0.7034883720930233
+capital,J-lens,5,4.0,0.7848837209302325
+capital,J-lens,6,4.0,0.7790697674418605
+capital,J-lens,7,4.0,0.8081395348837209
+capital,J-lens,8,3.0,0.7906976744186046
+capital,J-lens,9,3.5,0.7965116279069767
+capital,J-lens,10,21.0,0.36046511627906974
+capital,J-lens,11,264.0,0.0
+capital,logit lens,0,12.0,0.46511627906976744
+capital,logit lens,1,28.5,0.3313953488372093
+capital,logit lens,2,28.5,0.27325581395348836
+capital,logit lens,3,42.5,0.2441860465116279
+capital,logit lens,4,64.0,0.10465116279069768
+capital,logit lens,5,62.0,0.06395348837209303
+capital,logit lens,6,69.5,0.046511627906976744
+capital,logit lens,7,112.5,0.0
+capital,logit lens,8,105.5,0.023255813953488372
+capital,logit lens,9,67.0,0.08139534883720931
+capital,logit lens,10,186.5,0.01744186046511628
+capital,logit lens,11,264.0,0.0
+last,J-lens,0,34227.0,0.0
+last,J-lens,1,31454.5,0.0
+last,J-lens,2,35468.0,0.0
+last,J-lens,3,21933.0,0.0
+last,J-lens,4,27812.0,0.0
+last,J-lens,5,24670.0,0.0
+last,J-lens,6,7647.0,0.0
+last,J-lens,7,3361.0,0.0
+last,J-lens,8,869.0,0.0
+last,J-lens,9,44.0,0.19186046511627908
+last,J-lens,10,35.0,0.19186046511627908
+last,J-lens,11,15.0,0.29651162790697677
+last,logit lens,0,20537.5,0.0
+last,logit lens,1,18156.5,0.0
+last,logit lens,2,15300.5,0.0
+last,logit lens,3,13434.0,0.0
+last,logit lens,4,9744.0,0.0
+last,logit lens,5,8838.0,0.0
+last,logit lens,6,3207.5,0.0
+last,logit lens,7,1546.5,0.0
+last,logit lens,8,387.0,0.005813953488372093
+last,logit lens,9,25.0,0.32558139534883723
+last,logit lens,10,25.0,0.2441860465116279
+last,logit lens,11,15.0,0.29651162790697677
