@@ -105,8 +105,10 @@ for task_name, task in TASKS.items():
                 meta.append({"task": task_name, "item": x, "seed": seed, "condition": condition,
                              "true": labels.index(y), "false": labels.index(perm[y])})
     by_len = pd.Series(range(len(prompts))).groupby([len(p) for p in prompts])
-    for _, idx in by_len:
-        idx = idx.to_list()
+    # Batches of at most 8: the model computes logits at every position (batch x ~500 x vocab), and larger
+    # batches exceed the size an MPS kernel accepts
+    batches = [g.to_list()[s : s + 8] for _, g in by_len for s in range(0, len(g), 8)]
+    for idx in batches:
         hs, logits = lm.run(torch.stack([prompts[i] for i in idx]))
         final = logits[:, label_ids].argmax(1).cpu().numpy()
         for b, i in enumerate(idx):
