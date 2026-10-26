@@ -85,5 +85,6 @@ each cell below averages 9 prompts × 6 shifts (`results/llama3.1-8b_days_start_
 - Same pattern as the months otherwise: other frequencies alone do nearly nothing, k = {1, 2} together does more
   than the sum, the lens span of the names does nothing, and every patch at the day token stops working at
   layers 16–18.
-- Months vs days: the more values the cycle has, the less of the computation goes through the k = 1 circle
-  alone. A Llama with 12 months seems to use a code closer to a lookup than to a rotation.
+- Months vs days: the k = 1 circle carries about 60% of the effect for the 7 days and 15% for the 12 months.
+  Two cycles cannot tell whether this is the number of values or the concept; other cycles (hours, letters,
+  notes) would.
