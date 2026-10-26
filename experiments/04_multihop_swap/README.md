@@ -106,5 +106,6 @@ stronger than in the base model (0.79–0.86 vs 0.68–0.78 at the capital token
   at layers 8–16 (0.76–0.78 vs 0.50–0.62).
 - The intermediate reaches the last token at layers 20–24 (capital-token swaps stop working at 24, last-token
   ones start), about two-thirds of the way through the model, as in Llama (16–18 of 32).
-- Unlike Llama, at the last token neither lens reads the country (J-lens median rank 116–764 at layers 24–30),
-  even though swapping it there works: the country is used without being verbalizable at that position.
+- Unlike Llama (J-lens median rank 6–22 at the last token, layers 20–26), Qwen's J-lens barely reads the country
+  at the last token (median rank 38–201 at layers 24–30, in the top 10 for at most 20% of prompts), even though
+  swapping it there works.
