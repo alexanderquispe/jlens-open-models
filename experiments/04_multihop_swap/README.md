@@ -84,3 +84,27 @@ Instruction tuning changes none of the conclusions: the J-lens direction swap is
 not, the country enters the J-lens span at the capital token between layers 4 and 6 (in-span part 0.04 → 0.29;
 J-lens median rank 13 → 2), and it reaches the last token at layers 16–18. The J-lens swaps are a little
 stronger than in the base model (0.79–0.86 vs 0.68–0.78 at the capital token).
+
+## Results (Qwen3-8B, 36 layers, every fourth layer)
+
+95.9% two-hop accuracy, 495 swap trials (`results/qwen3-8b_swap.csv`; transformers 5.11).
+
+| Patch | Capital token, layers 8–20 | Last token, layers 24–32 |
+|---|---|---|
+| J-lens swap, α = 1 | **0.76–0.79** | 0.84–0.96 |
+| logit-lens swap, α = 1 | 0.50–0.73 | 0.83–0.94 |
+| random swap, α = 1 | 0.00 | 0.00–0.01 |
+| centroid swap (full) | 0.89–0.91 | 0.66–0.96 |
+| … its part in span(*v_A*, *v_B*) | 0.01 at layer 8, 0.31–0.45 at 12–20 | 0.07–0.46 |
+
+![Swap results, Qwen3-8B](figures/qwen3-8b.png)
+
+- **J-lens directions are causal in Qwen too**, and the country enters their span between layers 8 and 12
+  (in-span part 0.01 → 0.45; J-lens median rank of the country at the capital token 80 at layer 8, 4 at layer 10).
+- **Qwen's logit lens is much closer to the J-lens** at the capital token than Llama's: its swap moves 0.50–0.73
+  (Llama ≤ 0.14), and it ranks the country 4th–20th at layers 12–15 (Llama: thousands). The J-lens still wins
+  at layers 8–16 (0.76–0.78 vs 0.50–0.62).
+- The intermediate reaches the last token at layers 20–24 (capital-token swaps stop working at 24, last-token
+  ones start), about two-thirds of the way through the model, as in Llama (16–18 of 32).
+- Unlike Llama, at the last token neither lens reads the country (J-lens median rank 116–764 at layers 24–30),
+  even though swapping it there works: the country is used without being verbalizable at that position.
