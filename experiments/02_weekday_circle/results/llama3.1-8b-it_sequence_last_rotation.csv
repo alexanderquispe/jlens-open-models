@@ -1,0 +1,769 @@
+layer,shift,patch,moved_to_target,moved_if_correct_unpatched
+0,1,circle plane (2-dim),0.03571428571428571,0.0
+0,1,"random direction, same norm",0.03571428571428571,0.0
+0,1,day lens span (6-dim),0.03571428571428571,0.0
+0,1,full centroid difference,0.03571428571428571,0.0
+0,2,circle plane (2-dim),0.026785714285714284,0.009433962264150943
+0,2,"random direction, same norm",0.017857142857142856,0.0
+0,2,day lens span (6-dim),0.026785714285714284,0.009433962264150943
+0,2,full centroid difference,0.026785714285714284,0.009433962264150943
+0,3,circle plane (2-dim),0.0,0.0
+0,3,"random direction, same norm",0.0,0.0
+0,3,day lens span (6-dim),0.0,0.0
+0,3,full centroid difference,0.0,0.0
+0,4,circle plane (2-dim),0.0,0.0
+0,4,"random direction, same norm",0.0,0.0
+0,4,day lens span (6-dim),0.0,0.0
+0,4,full centroid difference,0.0,0.0
+0,5,circle plane (2-dim),0.0,0.0
+0,5,"random direction, same norm",0.0,0.0
+0,5,day lens span (6-dim),0.0,0.0
+0,5,full centroid difference,0.0,0.0
+0,6,circle plane (2-dim),0.0,0.0
+0,6,"random direction, same norm",0.0,0.0
+0,6,day lens span (6-dim),0.0,0.0
+0,6,full centroid difference,0.0,0.0
+1,1,circle plane (2-dim),0.03571428571428571,0.0
+1,1,"random direction, same norm",0.03571428571428571,0.0
+1,1,day lens span (6-dim),0.03571428571428571,0.0
+1,1,full centroid difference,0.03571428571428571,0.0
+1,2,circle plane (2-dim),0.026785714285714284,0.009433962264150943
+1,2,"random direction, same norm",0.026785714285714284,0.009433962264150943
+1,2,day lens span (6-dim),0.017857142857142856,0.0
+1,2,full centroid difference,0.026785714285714284,0.009433962264150943
+1,3,circle plane (2-dim),0.0,0.0
+1,3,"random direction, same norm",0.0,0.0
+1,3,day lens span (6-dim),0.0,0.0
+1,3,full centroid difference,0.0,0.0
+1,4,circle plane (2-dim),0.0,0.0
+1,4,"random direction, same norm",0.0,0.0
+1,4,day lens span (6-dim),0.0,0.0
+1,4,full centroid difference,0.0,0.0
+1,5,circle plane (2-dim),0.0,0.0
+1,5,"random direction, same norm",0.0,0.0
+1,5,day lens span (6-dim),0.0,0.0
+1,5,full centroid difference,0.0,0.0
+1,6,circle plane (2-dim),0.0,0.0
+1,6,"random direction, same norm",0.0,0.0
+1,6,day lens span (6-dim),0.0,0.0
+1,6,full centroid difference,0.0,0.0
+2,1,circle plane (2-dim),0.03571428571428571,0.0
+2,1,"random direction, same norm",0.03571428571428571,0.0
+2,1,day lens span (6-dim),0.03571428571428571,0.0
+2,1,full centroid difference,0.03571428571428571,0.0
+2,2,circle plane (2-dim),0.026785714285714284,0.009433962264150943
+2,2,"random direction, same norm",0.026785714285714284,0.009433962264150943
+2,2,day lens span (6-dim),0.017857142857142856,0.0
+2,2,full centroid difference,0.017857142857142856,0.0
+2,3,circle plane (2-dim),0.0,0.0
+2,3,"random direction, same norm",0.0,0.0
+2,3,day lens span (6-dim),0.0,0.0
+2,3,full centroid difference,0.0,0.0
+2,4,circle plane (2-dim),0.0,0.0
+2,4,"random direction, same norm",0.0,0.0
+2,4,day lens span (6-dim),0.0,0.0
+2,4,full centroid difference,0.0,0.0
+2,5,circle plane (2-dim),0.0,0.0
+2,5,"random direction, same norm",0.0,0.0
+2,5,day lens span (6-dim),0.0,0.0
+2,5,full centroid difference,0.0,0.0
+2,6,circle plane (2-dim),0.0,0.0
+2,6,"random direction, same norm",0.0,0.0
+2,6,day lens span (6-dim),0.0,0.0
+2,6,full centroid difference,0.0,0.0
+3,1,circle plane (2-dim),0.03571428571428571,0.0
+3,1,"random direction, same norm",0.03571428571428571,0.0
+3,1,day lens span (6-dim),0.03571428571428571,0.0
+3,1,full centroid difference,0.03571428571428571,0.0
+3,2,circle plane (2-dim),0.017857142857142856,0.0
+3,2,"random direction, same norm",0.017857142857142856,0.0
+3,2,day lens span (6-dim),0.017857142857142856,0.0
+3,2,full centroid difference,0.017857142857142856,0.0
+3,3,circle plane (2-dim),0.0,0.0
+3,3,"random direction, same norm",0.0,0.0
+3,3,day lens span (6-dim),0.0,0.0
+3,3,full centroid difference,0.0,0.0
+3,4,circle plane (2-dim),0.0,0.0
+3,4,"random direction, same norm",0.0,0.0
+3,4,day lens span (6-dim),0.0,0.0
+3,4,full centroid difference,0.0,0.0
+3,5,circle plane (2-dim),0.0,0.0
+3,5,"random direction, same norm",0.0,0.0
+3,5,day lens span (6-dim),0.0,0.0
+3,5,full centroid difference,0.0,0.0
+3,6,circle plane (2-dim),0.0,0.0
+3,6,"random direction, same norm",0.0,0.0
+3,6,day lens span (6-dim),0.0,0.0
+3,6,full centroid difference,0.0,0.0
+4,1,circle plane (2-dim),0.03571428571428571,0.0
+4,1,"random direction, same norm",0.03571428571428571,0.0
+4,1,day lens span (6-dim),0.03571428571428571,0.0
+4,1,full centroid difference,0.03571428571428571,0.0
+4,2,circle plane (2-dim),0.017857142857142856,0.0
+4,2,"random direction, same norm",0.026785714285714284,0.009433962264150943
+4,2,day lens span (6-dim),0.017857142857142856,0.0
+4,2,full centroid difference,0.017857142857142856,0.0
+4,3,circle plane (2-dim),0.0,0.0
+4,3,"random direction, same norm",0.0,0.0
+4,3,day lens span (6-dim),0.0,0.0
+4,3,full centroid difference,0.0,0.0
+4,4,circle plane (2-dim),0.0,0.0
+4,4,"random direction, same norm",0.0,0.0
+4,4,day lens span (6-dim),0.0,0.0
+4,4,full centroid difference,0.0,0.0
+4,5,circle plane (2-dim),0.0,0.0
+4,5,"random direction, same norm",0.0,0.0
+4,5,day lens span (6-dim),0.0,0.0
+4,5,full centroid difference,0.0,0.0
+4,6,circle plane (2-dim),0.0,0.0
+4,6,"random direction, same norm",0.0,0.0
+4,6,day lens span (6-dim),0.0,0.0
+4,6,full centroid difference,0.0,0.0
+5,1,circle plane (2-dim),0.03571428571428571,0.0
+5,1,"random direction, same norm",0.03571428571428571,0.0
+5,1,day lens span (6-dim),0.03571428571428571,0.0
+5,1,full centroid difference,0.03571428571428571,0.0
+5,2,circle plane (2-dim),0.017857142857142856,0.0
+5,2,"random direction, same norm",0.026785714285714284,0.009433962264150943
+5,2,day lens span (6-dim),0.017857142857142856,0.0
+5,2,full centroid difference,0.017857142857142856,0.0
+5,3,circle plane (2-dim),0.0,0.0
+5,3,"random direction, same norm",0.0,0.0
+5,3,day lens span (6-dim),0.0,0.0
+5,3,full centroid difference,0.0,0.0
+5,4,circle plane (2-dim),0.0,0.0
+5,4,"random direction, same norm",0.0,0.0
+5,4,day lens span (6-dim),0.0,0.0
+5,4,full centroid difference,0.0,0.0
+5,5,circle plane (2-dim),0.0,0.0
+5,5,"random direction, same norm",0.0,0.0
+5,5,day lens span (6-dim),0.0,0.0
+5,5,full centroid difference,0.0,0.0
+5,6,circle plane (2-dim),0.0,0.0
+5,6,"random direction, same norm",0.0,0.0
+5,6,day lens span (6-dim),0.0,0.0
+5,6,full centroid difference,0.0,0.0
+6,1,circle plane (2-dim),0.03571428571428571,0.0
+6,1,"random direction, same norm",0.03571428571428571,0.0
+6,1,day lens span (6-dim),0.03571428571428571,0.0
+6,1,full centroid difference,0.03571428571428571,0.0
+6,2,circle plane (2-dim),0.017857142857142856,0.0
+6,2,"random direction, same norm",0.017857142857142856,0.0
+6,2,day lens span (6-dim),0.017857142857142856,0.0
+6,2,full centroid difference,0.017857142857142856,0.0
+6,3,circle plane (2-dim),0.0,0.0
+6,3,"random direction, same norm",0.0,0.0
+6,3,day lens span (6-dim),0.0,0.0
+6,3,full centroid difference,0.0,0.0
+6,4,circle plane (2-dim),0.0,0.0
+6,4,"random direction, same norm",0.0,0.0
+6,4,day lens span (6-dim),0.0,0.0
+6,4,full centroid difference,0.0,0.0
+6,5,circle plane (2-dim),0.0,0.0
+6,5,"random direction, same norm",0.0,0.0
+6,5,day lens span (6-dim),0.0,0.0
+6,5,full centroid difference,0.0,0.0
+6,6,circle plane (2-dim),0.0,0.0
+6,6,"random direction, same norm",0.0,0.0
+6,6,day lens span (6-dim),0.0,0.0
+6,6,full centroid difference,0.0,0.0
+7,1,circle plane (2-dim),0.03571428571428571,0.0
+7,1,"random direction, same norm",0.03571428571428571,0.0
+7,1,day lens span (6-dim),0.03571428571428571,0.0
+7,1,full centroid difference,0.03571428571428571,0.0
+7,2,circle plane (2-dim),0.017857142857142856,0.0
+7,2,"random direction, same norm",0.017857142857142856,0.0
+7,2,day lens span (6-dim),0.026785714285714284,0.009433962264150943
+7,2,full centroid difference,0.017857142857142856,0.0
+7,3,circle plane (2-dim),0.0,0.0
+7,3,"random direction, same norm",0.0,0.0
+7,3,day lens span (6-dim),0.0,0.0
+7,3,full centroid difference,0.0,0.0
+7,4,circle plane (2-dim),0.0,0.0
+7,4,"random direction, same norm",0.0,0.0
+7,4,day lens span (6-dim),0.0,0.0
+7,4,full centroid difference,0.0,0.0
+7,5,circle plane (2-dim),0.0,0.0
+7,5,"random direction, same norm",0.0,0.0
+7,5,day lens span (6-dim),0.0,0.0
+7,5,full centroid difference,0.0,0.0
+7,6,circle plane (2-dim),0.0,0.0
+7,6,"random direction, same norm",0.0,0.0
+7,6,day lens span (6-dim),0.0,0.0
+7,6,full centroid difference,0.0,0.0
+8,1,circle plane (2-dim),0.03571428571428571,0.0
+8,1,"random direction, same norm",0.03571428571428571,0.0
+8,1,day lens span (6-dim),0.03571428571428571,0.0
+8,1,full centroid difference,0.03571428571428571,0.0
+8,2,circle plane (2-dim),0.017857142857142856,0.0
+8,2,"random direction, same norm",0.026785714285714284,0.009433962264150943
+8,2,day lens span (6-dim),0.026785714285714284,0.009433962264150943
+8,2,full centroid difference,0.017857142857142856,0.0
+8,3,circle plane (2-dim),0.0,0.0
+8,3,"random direction, same norm",0.0,0.0
+8,3,day lens span (6-dim),0.0,0.0
+8,3,full centroid difference,0.0,0.0
+8,4,circle plane (2-dim),0.0,0.0
+8,4,"random direction, same norm",0.0,0.0
+8,4,day lens span (6-dim),0.0,0.0
+8,4,full centroid difference,0.0,0.0
+8,5,circle plane (2-dim),0.0,0.0
+8,5,"random direction, same norm",0.0,0.0
+8,5,day lens span (6-dim),0.0,0.0
+8,5,full centroid difference,0.0,0.0
+8,6,circle plane (2-dim),0.0,0.0
+8,6,"random direction, same norm",0.0,0.0
+8,6,day lens span (6-dim),0.0,0.0
+8,6,full centroid difference,0.0,0.0
+9,1,circle plane (2-dim),0.03571428571428571,0.0
+9,1,"random direction, same norm",0.03571428571428571,0.0
+9,1,day lens span (6-dim),0.03571428571428571,0.0
+9,1,full centroid difference,0.03571428571428571,0.0
+9,2,circle plane (2-dim),0.017857142857142856,0.0
+9,2,"random direction, same norm",0.017857142857142856,0.0
+9,2,day lens span (6-dim),0.017857142857142856,0.0
+9,2,full centroid difference,0.017857142857142856,0.0
+9,3,circle plane (2-dim),0.0,0.0
+9,3,"random direction, same norm",0.0,0.0
+9,3,day lens span (6-dim),0.0,0.0
+9,3,full centroid difference,0.0,0.0
+9,4,circle plane (2-dim),0.0,0.0
+9,4,"random direction, same norm",0.0,0.0
+9,4,day lens span (6-dim),0.0,0.0
+9,4,full centroid difference,0.0,0.0
+9,5,circle plane (2-dim),0.0,0.0
+9,5,"random direction, same norm",0.0,0.0
+9,5,day lens span (6-dim),0.0,0.0
+9,5,full centroid difference,0.0,0.0
+9,6,circle plane (2-dim),0.0,0.0
+9,6,"random direction, same norm",0.0,0.0
+9,6,day lens span (6-dim),0.0,0.0
+9,6,full centroid difference,0.0,0.0
+10,1,circle plane (2-dim),0.03571428571428571,0.0
+10,1,"random direction, same norm",0.03571428571428571,0.0
+10,1,day lens span (6-dim),0.03571428571428571,0.0
+10,1,full centroid difference,0.03571428571428571,0.0
+10,2,circle plane (2-dim),0.017857142857142856,0.0
+10,2,"random direction, same norm",0.017857142857142856,0.0
+10,2,day lens span (6-dim),0.026785714285714284,0.009433962264150943
+10,2,full centroid difference,0.017857142857142856,0.0
+10,3,circle plane (2-dim),0.0,0.0
+10,3,"random direction, same norm",0.0,0.0
+10,3,day lens span (6-dim),0.0,0.0
+10,3,full centroid difference,0.0,0.0
+10,4,circle plane (2-dim),0.0,0.0
+10,4,"random direction, same norm",0.0,0.0
+10,4,day lens span (6-dim),0.0,0.0
+10,4,full centroid difference,0.0,0.0
+10,5,circle plane (2-dim),0.0,0.0
+10,5,"random direction, same norm",0.0,0.0
+10,5,day lens span (6-dim),0.0,0.0
+10,5,full centroid difference,0.0,0.0
+10,6,circle plane (2-dim),0.0,0.0
+10,6,"random direction, same norm",0.0,0.0
+10,6,day lens span (6-dim),0.0,0.0
+10,6,full centroid difference,0.0,0.0
+11,1,circle plane (2-dim),0.03571428571428571,0.0
+11,1,"random direction, same norm",0.03571428571428571,0.0
+11,1,day lens span (6-dim),0.03571428571428571,0.0
+11,1,full centroid difference,0.044642857142857144,0.009433962264150943
+11,2,circle plane (2-dim),0.017857142857142856,0.0
+11,2,"random direction, same norm",0.017857142857142856,0.0
+11,2,day lens span (6-dim),0.026785714285714284,0.009433962264150943
+11,2,full centroid difference,0.017857142857142856,0.0
+11,3,circle plane (2-dim),0.0,0.0
+11,3,"random direction, same norm",0.0,0.0
+11,3,day lens span (6-dim),0.0,0.0
+11,3,full centroid difference,0.0,0.0
+11,4,circle plane (2-dim),0.0,0.0
+11,4,"random direction, same norm",0.0,0.0
+11,4,day lens span (6-dim),0.0,0.0
+11,4,full centroid difference,0.0,0.0
+11,5,circle plane (2-dim),0.0,0.0
+11,5,"random direction, same norm",0.0,0.0
+11,5,day lens span (6-dim),0.0,0.0
+11,5,full centroid difference,0.0,0.0
+11,6,circle plane (2-dim),0.0,0.0
+11,6,"random direction, same norm",0.0,0.0
+11,6,day lens span (6-dim),0.0,0.0
+11,6,full centroid difference,0.0,0.0
+12,1,circle plane (2-dim),0.044642857142857144,0.009433962264150943
+12,1,"random direction, same norm",0.03571428571428571,0.0
+12,1,day lens span (6-dim),0.03571428571428571,0.0
+12,1,full centroid difference,0.03571428571428571,0.0
+12,2,circle plane (2-dim),0.017857142857142856,0.0
+12,2,"random direction, same norm",0.026785714285714284,0.009433962264150943
+12,2,day lens span (6-dim),0.026785714285714284,0.009433962264150943
+12,2,full centroid difference,0.017857142857142856,0.0
+12,3,circle plane (2-dim),0.0,0.0
+12,3,"random direction, same norm",0.0,0.0
+12,3,day lens span (6-dim),0.0,0.0
+12,3,full centroid difference,0.0,0.0
+12,4,circle plane (2-dim),0.0,0.0
+12,4,"random direction, same norm",0.0,0.0
+12,4,day lens span (6-dim),0.0,0.0
+12,4,full centroid difference,0.0,0.0
+12,5,circle plane (2-dim),0.0,0.0
+12,5,"random direction, same norm",0.0,0.0
+12,5,day lens span (6-dim),0.0,0.0
+12,5,full centroid difference,0.0,0.0
+12,6,circle plane (2-dim),0.0,0.0
+12,6,"random direction, same norm",0.0,0.0
+12,6,day lens span (6-dim),0.0,0.0
+12,6,full centroid difference,0.0,0.0
+13,1,circle plane (2-dim),0.03571428571428571,0.0
+13,1,"random direction, same norm",0.03571428571428571,0.0
+13,1,day lens span (6-dim),0.03571428571428571,0.0
+13,1,full centroid difference,0.03571428571428571,0.0
+13,2,circle plane (2-dim),0.017857142857142856,0.0
+13,2,"random direction, same norm",0.026785714285714284,0.009433962264150943
+13,2,day lens span (6-dim),0.026785714285714284,0.009433962264150943
+13,2,full centroid difference,0.017857142857142856,0.0
+13,3,circle plane (2-dim),0.0,0.0
+13,3,"random direction, same norm",0.0,0.0
+13,3,day lens span (6-dim),0.0,0.0
+13,3,full centroid difference,0.0,0.0
+13,4,circle plane (2-dim),0.0,0.0
+13,4,"random direction, same norm",0.0,0.0
+13,4,day lens span (6-dim),0.0,0.0
+13,4,full centroid difference,0.0,0.0
+13,5,circle plane (2-dim),0.0,0.0
+13,5,"random direction, same norm",0.0,0.0
+13,5,day lens span (6-dim),0.0,0.0
+13,5,full centroid difference,0.0,0.0
+13,6,circle plane (2-dim),0.0,0.0
+13,6,"random direction, same norm",0.0,0.0
+13,6,day lens span (6-dim),0.0,0.0
+13,6,full centroid difference,0.0,0.0
+14,1,circle plane (2-dim),0.044642857142857144,0.009433962264150943
+14,1,"random direction, same norm",0.03571428571428571,0.0
+14,1,day lens span (6-dim),0.03571428571428571,0.0
+14,1,full centroid difference,0.044642857142857144,0.009433962264150943
+14,2,circle plane (2-dim),0.026785714285714284,0.009433962264150943
+14,2,"random direction, same norm",0.017857142857142856,0.0
+14,2,day lens span (6-dim),0.026785714285714284,0.009433962264150943
+14,2,full centroid difference,0.026785714285714284,0.009433962264150943
+14,3,circle plane (2-dim),0.0,0.0
+14,3,"random direction, same norm",0.0,0.0
+14,3,day lens span (6-dim),0.0,0.0
+14,3,full centroid difference,0.0,0.0
+14,4,circle plane (2-dim),0.0,0.0
+14,4,"random direction, same norm",0.0,0.0
+14,4,day lens span (6-dim),0.0,0.0
+14,4,full centroid difference,0.0,0.0
+14,5,circle plane (2-dim),0.0,0.0
+14,5,"random direction, same norm",0.0,0.0
+14,5,day lens span (6-dim),0.0,0.0
+14,5,full centroid difference,0.0,0.0
+14,6,circle plane (2-dim),0.0,0.0
+14,6,"random direction, same norm",0.0,0.0
+14,6,day lens span (6-dim),0.0,0.0
+14,6,full centroid difference,0.0,0.0
+15,1,circle plane (2-dim),0.044642857142857144,0.009433962264150943
+15,1,"random direction, same norm",0.03571428571428571,0.0
+15,1,day lens span (6-dim),0.03571428571428571,0.0
+15,1,full centroid difference,0.044642857142857144,0.009433962264150943
+15,2,circle plane (2-dim),0.017857142857142856,0.0
+15,2,"random direction, same norm",0.017857142857142856,0.0
+15,2,day lens span (6-dim),0.026785714285714284,0.009433962264150943
+15,2,full centroid difference,0.017857142857142856,0.0
+15,3,circle plane (2-dim),0.0,0.0
+15,3,"random direction, same norm",0.0,0.0
+15,3,day lens span (6-dim),0.0,0.0
+15,3,full centroid difference,0.0,0.0
+15,4,circle plane (2-dim),0.0,0.0
+15,4,"random direction, same norm",0.0,0.0
+15,4,day lens span (6-dim),0.0,0.0
+15,4,full centroid difference,0.0,0.0
+15,5,circle plane (2-dim),0.0,0.0
+15,5,"random direction, same norm",0.0,0.0
+15,5,day lens span (6-dim),0.0,0.0
+15,5,full centroid difference,0.0,0.0
+15,6,circle plane (2-dim),0.0,0.0
+15,6,"random direction, same norm",0.0,0.0
+15,6,day lens span (6-dim),0.0,0.0
+15,6,full centroid difference,0.0,0.0
+16,1,circle plane (2-dim),0.044642857142857144,0.009433962264150943
+16,1,"random direction, same norm",0.03571428571428571,0.0
+16,1,day lens span (6-dim),0.03571428571428571,0.0
+16,1,full centroid difference,0.044642857142857144,0.009433962264150943
+16,2,circle plane (2-dim),0.017857142857142856,0.0
+16,2,"random direction, same norm",0.026785714285714284,0.009433962264150943
+16,2,day lens span (6-dim),0.017857142857142856,0.0
+16,2,full centroid difference,0.017857142857142856,0.0
+16,3,circle plane (2-dim),0.0,0.0
+16,3,"random direction, same norm",0.0,0.0
+16,3,day lens span (6-dim),0.0,0.0
+16,3,full centroid difference,0.0,0.0
+16,4,circle plane (2-dim),0.0,0.0
+16,4,"random direction, same norm",0.0,0.0
+16,4,day lens span (6-dim),0.0,0.0
+16,4,full centroid difference,0.0,0.0
+16,5,circle plane (2-dim),0.0,0.0
+16,5,"random direction, same norm",0.0,0.0
+16,5,day lens span (6-dim),0.0,0.0
+16,5,full centroid difference,0.0,0.0
+16,6,circle plane (2-dim),0.0,0.0
+16,6,"random direction, same norm",0.0,0.0
+16,6,day lens span (6-dim),0.0,0.0
+16,6,full centroid difference,0.0,0.0
+17,1,circle plane (2-dim),0.044642857142857144,0.009433962264150943
+17,1,"random direction, same norm",0.03571428571428571,0.0
+17,1,day lens span (6-dim),0.03571428571428571,0.0
+17,1,full centroid difference,0.044642857142857144,0.009433962264150943
+17,2,circle plane (2-dim),0.017857142857142856,0.0
+17,2,"random direction, same norm",0.026785714285714284,0.009433962264150943
+17,2,day lens span (6-dim),0.017857142857142856,0.0
+17,2,full centroid difference,0.017857142857142856,0.0
+17,3,circle plane (2-dim),0.0,0.0
+17,3,"random direction, same norm",0.0,0.0
+17,3,day lens span (6-dim),0.0,0.0
+17,3,full centroid difference,0.0,0.0
+17,4,circle plane (2-dim),0.0,0.0
+17,4,"random direction, same norm",0.0,0.0
+17,4,day lens span (6-dim),0.0,0.0
+17,4,full centroid difference,0.0,0.0
+17,5,circle plane (2-dim),0.0,0.0
+17,5,"random direction, same norm",0.0,0.0
+17,5,day lens span (6-dim),0.0,0.0
+17,5,full centroid difference,0.0,0.0
+17,6,circle plane (2-dim),0.0,0.0
+17,6,"random direction, same norm",0.0,0.0
+17,6,day lens span (6-dim),0.0,0.0
+17,6,full centroid difference,0.0,0.0
+18,1,circle plane (2-dim),0.0625,0.02830188679245283
+18,1,"random direction, same norm",0.03571428571428571,0.0
+18,1,day lens span (6-dim),0.13392857142857142,0.10377358490566038
+18,1,full centroid difference,0.8928571428571429,0.8867924528301887
+18,2,circle plane (2-dim),0.0625,0.03773584905660377
+18,2,"random direction, same norm",0.026785714285714284,0.009433962264150943
+18,2,day lens span (6-dim),0.044642857142857144,0.018867924528301886
+18,2,full centroid difference,0.7053571428571429,0.7075471698113207
+18,3,circle plane (2-dim),0.05357142857142857,0.05660377358490566
+18,3,"random direction, same norm",0.0,0.0
+18,3,day lens span (6-dim),0.0,0.0
+18,3,full centroid difference,0.38392857142857145,0.37735849056603776
+18,4,circle plane (2-dim),0.017857142857142856,0.018867924528301886
+18,4,"random direction, same norm",0.0,0.0
+18,4,day lens span (6-dim),0.0,0.0
+18,4,full centroid difference,0.16071428571428573,0.16037735849056603
+18,5,circle plane (2-dim),0.03571428571428571,0.03773584905660377
+18,5,"random direction, same norm",0.0,0.0
+18,5,day lens span (6-dim),0.017857142857142856,0.018867924528301886
+18,5,full centroid difference,0.14285714285714285,0.14150943396226415
+18,6,circle plane (2-dim),0.008928571428571428,0.009433962264150943
+18,6,"random direction, same norm",0.0,0.0
+18,6,day lens span (6-dim),0.0,0.0
+18,6,full centroid difference,0.22321428571428573,0.2358490566037736
+19,1,circle plane (2-dim),0.08035714285714286,0.04716981132075472
+19,1,"random direction, same norm",0.03571428571428571,0.0
+19,1,day lens span (6-dim),0.16071428571428573,0.1320754716981132
+19,1,full centroid difference,0.875,0.8679245283018868
+19,2,circle plane (2-dim),0.07142857142857142,0.04716981132075472
+19,2,"random direction, same norm",0.017857142857142856,0.0
+19,2,day lens span (6-dim),0.044642857142857144,0.018867924528301886
+19,2,full centroid difference,0.7142857142857143,0.7075471698113207
+19,3,circle plane (2-dim),0.0625,0.0660377358490566
+19,3,"random direction, same norm",0.0,0.0
+19,3,day lens span (6-dim),0.0,0.0
+19,3,full centroid difference,0.4017857142857143,0.39622641509433965
+19,4,circle plane (2-dim),0.03571428571428571,0.03773584905660377
+19,4,"random direction, same norm",0.0,0.0
+19,4,day lens span (6-dim),0.0,0.0
+19,4,full centroid difference,0.17857142857142858,0.1792452830188679
+19,5,circle plane (2-dim),0.03571428571428571,0.03773584905660377
+19,5,"random direction, same norm",0.0,0.0
+19,5,day lens span (6-dim),0.017857142857142856,0.018867924528301886
+19,5,full centroid difference,0.14285714285714285,0.1320754716981132
+19,6,circle plane (2-dim),0.008928571428571428,0.009433962264150943
+19,6,"random direction, same norm",0.0,0.0
+19,6,day lens span (6-dim),0.0,0.0
+19,6,full centroid difference,0.23214285714285715,0.24528301886792453
+20,1,circle plane (2-dim),0.08928571428571429,0.05660377358490566
+20,1,"random direction, same norm",0.026785714285714284,0.0
+20,1,day lens span (6-dim),0.17857142857142858,0.1509433962264151
+20,1,full centroid difference,0.875,0.8679245283018868
+20,2,circle plane (2-dim),0.08928571428571429,0.0660377358490566
+20,2,"random direction, same norm",0.026785714285714284,0.009433962264150943
+20,2,day lens span (6-dim),0.044642857142857144,0.018867924528301886
+20,2,full centroid difference,0.6696428571428571,0.660377358490566
+20,3,circle plane (2-dim),0.05357142857142857,0.05660377358490566
+20,3,"random direction, same norm",0.0,0.0
+20,3,day lens span (6-dim),0.0,0.0
+20,3,full centroid difference,0.35714285714285715,0.3584905660377358
+20,4,circle plane (2-dim),0.026785714285714284,0.02830188679245283
+20,4,"random direction, same norm",0.0,0.0
+20,4,day lens span (6-dim),0.0,0.0
+20,4,full centroid difference,0.17857142857142858,0.1792452830188679
+20,5,circle plane (2-dim),0.026785714285714284,0.02830188679245283
+20,5,"random direction, same norm",0.0,0.0
+20,5,day lens span (6-dim),0.017857142857142856,0.018867924528301886
+20,5,full centroid difference,0.14285714285714285,0.14150943396226415
+20,6,circle plane (2-dim),0.008928571428571428,0.009433962264150943
+20,6,"random direction, same norm",0.0,0.0
+20,6,day lens span (6-dim),0.008928571428571428,0.009433962264150943
+20,6,full centroid difference,0.24107142857142858,0.25471698113207547
+21,1,circle plane (2-dim),0.11607142857142858,0.08490566037735849
+21,1,"random direction, same norm",0.03571428571428571,0.009433962264150943
+21,1,day lens span (6-dim),0.26785714285714285,0.24528301886792453
+21,1,full centroid difference,0.9017857142857143,0.9056603773584906
+21,2,circle plane (2-dim),0.20535714285714285,0.18867924528301888
+21,2,"random direction, same norm",0.03571428571428571,0.018867924528301886
+21,2,day lens span (6-dim),0.1875,0.16981132075471697
+21,2,full centroid difference,0.8214285714285714,0.8113207547169812
+21,3,circle plane (2-dim),0.26785714285714285,0.2641509433962264
+21,3,"random direction, same norm",0.0,0.0
+21,3,day lens span (6-dim),0.026785714285714284,0.02830188679245283
+21,3,full centroid difference,0.7678571428571429,0.7641509433962265
+21,4,circle plane (2-dim),0.07142857142857142,0.0660377358490566
+21,4,"random direction, same norm",0.0,0.0
+21,4,day lens span (6-dim),0.008928571428571428,0.009433962264150943
+21,4,full centroid difference,0.45535714285714285,0.46226415094339623
+21,5,circle plane (2-dim),0.026785714285714284,0.02830188679245283
+21,5,"random direction, same norm",0.0,0.0
+21,5,day lens span (6-dim),0.026785714285714284,0.02830188679245283
+21,5,full centroid difference,0.24107142857142858,0.2358490566037736
+21,6,circle plane (2-dim),0.008928571428571428,0.009433962264150943
+21,6,"random direction, same norm",0.0,0.0
+21,6,day lens span (6-dim),0.017857142857142856,0.018867924528301886
+21,6,full centroid difference,0.3125,0.3113207547169811
+22,1,circle plane (2-dim),0.09821428571428571,0.07547169811320754
+22,1,"random direction, same norm",0.03571428571428571,0.0
+22,1,day lens span (6-dim),0.6517857142857143,0.6509433962264151
+22,1,full centroid difference,0.9642857142857143,0.9622641509433962
+22,2,circle plane (2-dim),0.25,0.22641509433962265
+22,2,"random direction, same norm",0.017857142857142856,0.0
+22,2,day lens span (6-dim),0.6517857142857143,0.6320754716981132
+22,2,full centroid difference,0.9732142857142857,0.9716981132075472
+22,3,circle plane (2-dim),0.5446428571428571,0.5471698113207547
+22,3,"random direction, same norm",0.0,0.0
+22,3,day lens span (6-dim),0.5357142857142857,0.5283018867924528
+22,3,full centroid difference,0.9107142857142857,0.9056603773584906
+22,4,circle plane (2-dim),0.29464285714285715,0.2830188679245283
+22,4,"random direction, same norm",0.0,0.0
+22,4,day lens span (6-dim),0.26785714285714285,0.27358490566037735
+22,4,full centroid difference,0.9017857142857143,0.8962264150943396
+22,5,circle plane (2-dim),0.05357142857142857,0.04716981132075472
+22,5,"random direction, same norm",0.0,0.0
+22,5,day lens span (6-dim),0.10714285714285714,0.11320754716981132
+22,5,full centroid difference,0.8035714285714286,0.8301886792452831
+22,6,circle plane (2-dim),0.008928571428571428,0.009433962264150943
+22,6,"random direction, same norm",0.0,0.0
+22,6,day lens span (6-dim),0.10714285714285714,0.11320754716981132
+22,6,full centroid difference,0.7857142857142857,0.8113207547169812
+23,1,circle plane (2-dim),0.08035714285714286,0.04716981132075472
+23,1,"random direction, same norm",0.03571428571428571,0.0
+23,1,day lens span (6-dim),0.7410714285714286,0.7358490566037735
+23,1,full centroid difference,0.9732142857142857,0.9716981132075472
+23,2,circle plane (2-dim),0.25,0.2358490566037736
+23,2,"random direction, same norm",0.017857142857142856,0.0
+23,2,day lens span (6-dim),0.8214285714285714,0.8113207547169812
+23,2,full centroid difference,0.9732142857142857,0.9716981132075472
+23,3,circle plane (2-dim),0.5625,0.5660377358490566
+23,3,"random direction, same norm",0.0,0.0
+23,3,day lens span (6-dim),0.7232142857142857,0.7075471698113207
+23,3,full centroid difference,0.9553571428571429,0.9528301886792453
+23,4,circle plane (2-dim),0.3482142857142857,0.330188679245283
+23,4,"random direction, same norm",0.0,0.0
+23,4,day lens span (6-dim),0.4375,0.44339622641509435
+23,4,full centroid difference,0.9375,0.9339622641509434
+23,5,circle plane (2-dim),0.05357142857142857,0.04716981132075472
+23,5,"random direction, same norm",0.0,0.0
+23,5,day lens span (6-dim),0.25,0.25471698113207547
+23,5,full centroid difference,0.8482142857142857,0.8679245283018868
+23,6,circle plane (2-dim),0.008928571428571428,0.009433962264150943
+23,6,"random direction, same norm",0.0,0.0
+23,6,day lens span (6-dim),0.17857142857142858,0.18867924528301888
+23,6,full centroid difference,0.7946428571428571,0.8207547169811321
+24,1,circle plane (2-dim),0.07142857142857142,0.04716981132075472
+24,1,"random direction, same norm",0.03571428571428571,0.0
+24,1,day lens span (6-dim),0.9196428571428571,0.9245283018867925
+24,1,full centroid difference,0.9732142857142857,0.9716981132075472
+24,2,circle plane (2-dim),0.2767857142857143,0.25471698113207547
+24,2,"random direction, same norm",0.026785714285714284,0.009433962264150943
+24,2,day lens span (6-dim),0.9464285714285714,0.9433962264150944
+24,2,full centroid difference,0.9732142857142857,0.9716981132075472
+24,3,circle plane (2-dim),0.5178571428571429,0.5094339622641509
+24,3,"random direction, same norm",0.0,0.0
+24,3,day lens span (6-dim),0.8482142857142857,0.839622641509434
+24,3,full centroid difference,0.9285714285714286,0.9245283018867925
+24,4,circle plane (2-dim),0.4375,0.42452830188679247
+24,4,"random direction, same norm",0.0,0.0
+24,4,day lens span (6-dim),0.5803571428571429,0.5943396226415094
+24,4,full centroid difference,0.9375,0.9339622641509434
+24,5,circle plane (2-dim),0.0625,0.05660377358490566
+24,5,"random direction, same norm",0.0,0.0
+24,5,day lens span (6-dim),0.4375,0.44339622641509435
+24,5,full centroid difference,0.8571428571428571,0.8773584905660378
+24,6,circle plane (2-dim),0.008928571428571428,0.009433962264150943
+24,6,"random direction, same norm",0.0,0.0
+24,6,day lens span (6-dim),0.32142857142857145,0.33962264150943394
+24,6,full centroid difference,0.75,0.7735849056603774
+25,1,circle plane (2-dim),0.07142857142857142,0.04716981132075472
+25,1,"random direction, same norm",0.03571428571428571,0.0
+25,1,day lens span (6-dim),0.9375,0.9528301886792453
+25,1,full centroid difference,0.9821428571428571,0.9811320754716981
+25,2,circle plane (2-dim),0.25,0.22641509433962265
+25,2,"random direction, same norm",0.017857142857142856,0.0
+25,2,day lens span (6-dim),0.9910714285714286,0.9905660377358491
+25,2,full centroid difference,0.9821428571428571,0.9811320754716981
+25,3,circle plane (2-dim),0.5357142857142857,0.5471698113207547
+25,3,"random direction, same norm",0.0,0.0
+25,3,day lens span (6-dim),0.8839285714285714,0.8773584905660378
+25,3,full centroid difference,0.9642857142857143,0.9622641509433962
+25,4,circle plane (2-dim),0.42857142857142855,0.42452830188679247
+25,4,"random direction, same norm",0.0,0.0
+25,4,day lens span (6-dim),0.7232142857142857,0.7358490566037735
+25,4,full centroid difference,0.9553571428571429,0.9528301886792453
+25,5,circle plane (2-dim),0.08928571428571429,0.08490566037735849
+25,5,"random direction, same norm",0.0,0.0
+25,5,day lens span (6-dim),0.5267857142857143,0.5377358490566038
+25,5,full centroid difference,0.8303571428571429,0.8584905660377359
+25,6,circle plane (2-dim),0.008928571428571428,0.009433962264150943
+25,6,"random direction, same norm",0.0,0.0
+25,6,day lens span (6-dim),0.4375,0.46226415094339623
+25,6,full centroid difference,0.6875,0.7075471698113207
+26,1,circle plane (2-dim),0.08035714285714286,0.05660377358490566
+26,1,"random direction, same norm",0.044642857142857144,0.009433962264150943
+26,1,day lens span (6-dim),0.9553571428571429,0.9622641509433962
+26,1,full centroid difference,0.9821428571428571,0.9811320754716981
+26,2,circle plane (2-dim),0.23214285714285715,0.20754716981132076
+26,2,"random direction, same norm",0.026785714285714284,0.009433962264150943
+26,2,day lens span (6-dim),0.9910714285714286,0.9905660377358491
+26,2,full centroid difference,0.9732142857142857,0.9716981132075472
+26,3,circle plane (2-dim),0.4642857142857143,0.46226415094339623
+26,3,"random direction, same norm",0.0,0.0
+26,3,day lens span (6-dim),0.9196428571428571,0.9150943396226415
+26,3,full centroid difference,0.9732142857142857,0.9716981132075472
+26,4,circle plane (2-dim),0.39285714285714285,0.37735849056603776
+26,4,"random direction, same norm",0.0,0.0
+26,4,day lens span (6-dim),0.7857142857142857,0.7830188679245284
+26,4,full centroid difference,0.9285714285714286,0.9245283018867925
+26,5,circle plane (2-dim),0.08035714285714286,0.07547169811320754
+26,5,"random direction, same norm",0.0,0.0
+26,5,day lens span (6-dim),0.5892857142857143,0.6037735849056604
+26,5,full centroid difference,0.7946428571428571,0.8207547169811321
+26,6,circle plane (2-dim),0.008928571428571428,0.009433962264150943
+26,6,"random direction, same norm",0.0,0.0
+26,6,day lens span (6-dim),0.48214285714285715,0.5094339622641509
+26,6,full centroid difference,0.6875,0.7169811320754716
+27,1,circle plane (2-dim),0.08928571428571429,0.0660377358490566
+27,1,"random direction, same norm",0.03571428571428571,0.0
+27,1,day lens span (6-dim),0.9553571428571429,0.9622641509433962
+27,1,full centroid difference,0.9821428571428571,0.9811320754716981
+27,2,circle plane (2-dim),0.16071428571428573,0.1320754716981132
+27,2,"random direction, same norm",0.026785714285714284,0.009433962264150943
+27,2,day lens span (6-dim),0.9821428571428571,0.9811320754716981
+27,2,full centroid difference,0.9732142857142857,0.9716981132075472
+27,3,circle plane (2-dim),0.41964285714285715,0.41509433962264153
+27,3,"random direction, same norm",0.0,0.0
+27,3,day lens span (6-dim),0.9375,0.9339622641509434
+27,3,full centroid difference,0.9732142857142857,0.9716981132075472
+27,4,circle plane (2-dim),0.33035714285714285,0.32075471698113206
+27,4,"random direction, same norm",0.0,0.0
+27,4,day lens span (6-dim),0.8214285714285714,0.8207547169811321
+27,4,full centroid difference,0.9017857142857143,0.8962264150943396
+27,5,circle plane (2-dim),0.05357142857142857,0.05660377358490566
+27,5,"random direction, same norm",0.0,0.0
+27,5,day lens span (6-dim),0.625,0.6415094339622641
+27,5,full centroid difference,0.7767857142857143,0.7924528301886793
+27,6,circle plane (2-dim),0.0,0.0
+27,6,"random direction, same norm",0.0,0.0
+27,6,day lens span (6-dim),0.5089285714285714,0.5377358490566038
+27,6,full centroid difference,0.7142857142857143,0.7452830188679245
+28,1,circle plane (2-dim),0.08928571428571429,0.0660377358490566
+28,1,"random direction, same norm",0.03571428571428571,0.0
+28,1,day lens span (6-dim),0.9642857142857143,0.9716981132075472
+28,1,full centroid difference,0.9642857142857143,0.9716981132075472
+28,2,circle plane (2-dim),0.14285714285714285,0.11320754716981132
+28,2,"random direction, same norm",0.03571428571428571,0.018867924528301886
+28,2,day lens span (6-dim),0.9642857142857143,0.9622641509433962
+28,2,full centroid difference,0.9732142857142857,0.9716981132075472
+28,3,circle plane (2-dim),0.2857142857142857,0.27358490566037735
+28,3,"random direction, same norm",0.0,0.0
+28,3,day lens span (6-dim),0.9196428571428571,0.9150943396226415
+28,3,full centroid difference,0.9375,0.9339622641509434
+28,4,circle plane (2-dim),0.6160714285714286,0.6037735849056604
+28,4,"random direction, same norm",0.0,0.0
+28,4,day lens span (6-dim),0.8928571428571429,0.8867924528301887
+28,4,full centroid difference,0.9642857142857143,0.9622641509433962
+28,5,circle plane (2-dim),0.13392857142857142,0.1320754716981132
+28,5,"random direction, same norm",0.0,0.0
+28,5,day lens span (6-dim),0.9375,0.9339622641509434
+28,5,full centroid difference,0.9642857142857143,0.9622641509433962
+28,6,circle plane (2-dim),0.017857142857142856,0.018867924528301886
+28,6,"random direction, same norm",0.0,0.0
+28,6,day lens span (6-dim),0.9285714285714286,0.9528301886792453
+28,6,full centroid difference,0.9285714285714286,0.9528301886792453
+29,1,circle plane (2-dim),0.07142857142857142,0.04716981132075472
+29,1,"random direction, same norm",0.026785714285714284,0.0
+29,1,day lens span (6-dim),0.9553571428571429,0.9716981132075472
+29,1,full centroid difference,0.9553571428571429,0.9716981132075472
+29,2,circle plane (2-dim),0.13392857142857142,0.11320754716981132
+29,2,"random direction, same norm",0.026785714285714284,0.009433962264150943
+29,2,day lens span (6-dim),0.9553571428571429,0.9528301886792453
+29,2,full centroid difference,0.9732142857142857,0.9716981132075472
+29,3,circle plane (2-dim),0.3392857142857143,0.32075471698113206
+29,3,"random direction, same norm",0.0,0.0
+29,3,day lens span (6-dim),0.9285714285714286,0.9245283018867925
+29,3,full centroid difference,0.9375,0.9339622641509434
+29,4,circle plane (2-dim),0.5714285714285714,0.5754716981132075
+29,4,"random direction, same norm",0.0,0.0
+29,4,day lens span (6-dim),0.9196428571428571,0.9150943396226415
+29,4,full centroid difference,0.9375,0.9339622641509434
+29,5,circle plane (2-dim),0.125,0.12264150943396226
+29,5,"random direction, same norm",0.0,0.0
+29,5,day lens span (6-dim),0.9642857142857143,0.9622641509433962
+29,5,full centroid difference,0.9642857142857143,0.9622641509433962
+29,6,circle plane (2-dim),0.017857142857142856,0.018867924528301886
+29,6,"random direction, same norm",0.0,0.0
+29,6,day lens span (6-dim),0.9553571428571429,0.9716981132075472
+29,6,full centroid difference,0.9375,0.9622641509433962
+30,1,circle plane (2-dim),0.03571428571428571,0.009433962264150943
+30,1,"random direction, same norm",0.03571428571428571,0.0
+30,1,day lens span (6-dim),0.9553571428571429,0.9716981132075472
+30,1,full centroid difference,0.9553571428571429,0.9716981132075472
+30,2,circle plane (2-dim),0.125,0.10377358490566038
+30,2,"random direction, same norm",0.03571428571428571,0.009433962264150943
+30,2,day lens span (6-dim),0.9375,0.9339622641509434
+30,2,full centroid difference,0.9375,0.9339622641509434
+30,3,circle plane (2-dim),0.14285714285714285,0.1320754716981132
+30,3,"random direction, same norm",0.0,0.0
+30,3,day lens span (6-dim),0.9285714285714286,0.9245283018867925
+30,3,full centroid difference,0.9285714285714286,0.9245283018867925
+30,4,circle plane (2-dim),0.4642857142857143,0.4528301886792453
+30,4,"random direction, same norm",0.0,0.0
+30,4,day lens span (6-dim),0.9285714285714286,0.9245283018867925
+30,4,full centroid difference,0.9553571428571429,0.9528301886792453
+30,5,circle plane (2-dim),0.11607142857142858,0.11320754716981132
+30,5,"random direction, same norm",0.0,0.0
+30,5,day lens span (6-dim),1.0,1.0
+30,5,full centroid difference,1.0,1.0
+30,6,circle plane (2-dim),0.008928571428571428,0.009433962264150943
+30,6,"random direction, same norm",0.0,0.0
+30,6,day lens span (6-dim),0.9464285714285714,0.9716981132075472
+30,6,full centroid difference,0.9821428571428571,0.9905660377358491
+31,1,circle plane (2-dim),0.0625,0.03773584905660377
+31,1,"random direction, same norm",0.03571428571428571,0.0
+31,1,day lens span (6-dim),0.9553571428571429,0.9716981132075472
+31,1,full centroid difference,0.9553571428571429,0.9716981132075472
+31,2,circle plane (2-dim),0.10714285714285714,0.08490566037735849
+31,2,"random direction, same norm",0.026785714285714284,0.009433962264150943
+31,2,day lens span (6-dim),0.9375,0.9339622641509434
+31,2,full centroid difference,0.9375,0.9339622641509434
+31,3,circle plane (2-dim),0.16071428571428573,0.1509433962264151
+31,3,"random direction, same norm",0.0,0.0
+31,3,day lens span (6-dim),0.9285714285714286,0.9245283018867925
+31,3,full centroid difference,0.9285714285714286,0.9245283018867925
+31,4,circle plane (2-dim),0.45535714285714285,0.44339622641509435
+31,4,"random direction, same norm",0.0,0.0
+31,4,day lens span (6-dim),0.9464285714285714,0.9433962264150944
+31,4,full centroid difference,0.9553571428571429,0.9528301886792453
+31,5,circle plane (2-dim),0.11607142857142858,0.11320754716981132
+31,5,"random direction, same norm",0.0,0.0
+31,5,day lens span (6-dim),1.0,1.0
+31,5,full centroid difference,1.0,1.0
+31,6,circle plane (2-dim),0.008928571428571428,0.009433962264150943
+31,6,"random direction, same norm",0.0,0.0
+31,6,day lens span (6-dim),0.9642857142857143,0.9716981132075472
+31,6,full centroid difference,0.9642857142857143,0.9716981132075472

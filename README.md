@@ -89,7 +89,9 @@ Qwen3.5-122B-A10B. Most of the newer models need a newer `transformers` than the
 - On GPT-2, `LensModel` gives logits identical to Anthropic's `jlens` package.
 - Llama runs in bf16, the dtype its lens was fit in. Transformers 4.43.3 applies Llama 3.1's RoPE correctly
   (θ = 500000 with llama3 scaling). TransformerLens 2.3 does not, so it is not used here.
-- Results in `experiments/*/results` were produced on an Apple M5 Max (MPS); GPT-2 was also checked on CPU.
+- Results in `experiments/*/results` were produced on one NVIDIA L40S (Caltech cluster), with every layer patched
+  in 04 and 05. The numbers quoted in the READMEs come from earlier runs on an Apple M5 Max (MPS) and differ
+  slightly from these files.
 
 ## References
 

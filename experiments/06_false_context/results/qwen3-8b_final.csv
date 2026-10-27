@@ -1,5 +1,5 @@
 task,condition,final_true,final_false
-animal,false,0.15833333333333333,0.475
+animal,false,0.16666666666666666,0.475
 animal,true,1.0,0.0
 color,false,1.0,0.0
 color,true,1.0,0.0
@@ -7,7 +7,7 @@ continent,false,0.0763888888888889,0.5902777777777778
 continent,true,1.0,0.0
 language,false,0.16666666666666666,0.2948717948717949
 language,true,1.0,0.0
-parity,false,0.3296296296296296,0.6703703703703704
+parity,false,0.34444444444444444,0.6555555555555556
 parity,true,1.0,0.0
 sentiment,false,0.17777777777777778,0.8222222222222222
 sentiment,true,1.0,0.0

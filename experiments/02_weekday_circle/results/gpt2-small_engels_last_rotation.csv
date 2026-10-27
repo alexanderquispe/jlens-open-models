@@ -281,7 +281,7 @@ layer,shift,patch,moved_to_target,moved_if_correct_unpatched
 11,4,full centroid difference,0.19047619047619047,0.5
 11,5,circle plane (2-dim),0.09523809523809523,0.0
 11,5,"random direction, same norm",0.09523809523809523,0.0
-11,5,day lens span (6-dim),0.19047619047619047,0.0
+11,5,day lens span (6-dim),0.14285714285714285,0.0
 11,5,full centroid difference,0.14285714285714285,0.0
 11,6,circle plane (2-dim),0.14285714285714285,0.0
 11,6,"random direction, same norm",0.14285714285714285,0.0
