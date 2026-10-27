@@ -1,9 +1,9 @@
 task,condition,final_true,final_false
 animal,false,0.0,0.2833333333333333
 animal,true,1.0,0.0
-color,false,0.8777777777777778,0.011111111111111112
+color,false,0.8666666666666667,0.011111111111111112
 color,true,1.0,0.0
-continent,false,0.125,0.5277777777777778
+continent,false,0.125,0.5347222222222222
 continent,true,1.0,0.0
 language,false,0.21794871794871795,0.24358974358974358
 language,true,1.0,0.0
