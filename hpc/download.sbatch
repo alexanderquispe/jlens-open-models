@@ -1,5 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=jlens-download
+#SBATCH --account=safety_first
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=16G
 #SBATCH --time=06:00:00
