@@ -42,8 +42,9 @@ The device is picked automatically (CUDA, then MPS, then CPU) or set with `--dev
 
 ## Models
 
-Registered in `jlens_open/models.py` (`MODELS`): `gpt2-small`, `llama3.1-8b`, `llama3.1-8b-it`, `qwen3-8b` and
-`olmo-3-7b`. The last two need `transformers` 5, kept for now in a second environment next to the pinned one:
+Registered in `jlens_open/models.py` (`MODELS`): `gpt2-small`, `llama3.1-8b`, `llama3.1-8b-it`, `qwen3-8b`,
+`olmo-3-7b`, `qwen3-32b` and `olmo-3-32b`. The last four need `transformers` 5, kept for now in a second environment
+next to the pinned one:
 
 ```bash
 uv venv --python 3.11 .venv-tf5

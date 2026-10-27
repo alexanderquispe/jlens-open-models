@@ -33,7 +33,7 @@ MODELS = {
         "lens": "llama3.1-8b-it/jlens/Salesforce-wikitext/Llama-3.1-8B-Instruct_jacobian_lens.pt",
         "dtype": torch.bfloat16,
     },
-    # The next two need transformers >= 5 (results here: 5.11)
+    # The rest need transformers >= 5 (results here: 5.11)
     "qwen3-8b": {
         "hf": "Qwen/Qwen3-8B",
         "lens": "qwen3-8b/jlens/Salesforce-wikitext/Qwen3-8B_jacobian_lens.pt",
@@ -42,6 +42,17 @@ MODELS = {
     "olmo-3-7b": {
         "hf": "allenai/Olmo-3-1025-7B",
         "lens": "olmo-3-1025-7b/jlens/Salesforce-wikitext/Olmo-3-1025-7B_jacobian_lens.pt",
+        "dtype": torch.bfloat16,
+    },
+    # 65 GB of weights in bf16: one H200 (141 GB); an 80 GB H100 is too tight with the lens and activations
+    "qwen3-32b": {
+        "hf": "Qwen/Qwen3-32B",
+        "lens": "qwen3-32b/jlens/Salesforce-wikitext/Qwen3-32B_jacobian_lens.pt",
+        "dtype": torch.bfloat16,
+    },
+    "olmo-3-32b": {
+        "hf": "allenai/Olmo-3-1125-32B",
+        "lens": "olmo-3-1125-32b/jlens/Salesforce-wikitext/Olmo-3-1125-32B_jacobian_lens.pt",
         "dtype": torch.bfloat16,
     },
 }
