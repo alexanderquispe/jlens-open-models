@@ -43,7 +43,8 @@ The device is picked automatically (CUDA, then MPS, then CPU) or set with `--dev
 ## Models
 
 Registered in `jlens_open/models.py` (`MODELS`): `gpt2-small`, `llama3.1-8b`, `llama3.1-8b-it`, `qwen3-8b`,
-`olmo-3-7b`, `qwen3-32b` and `olmo-3-32b`. The last four need `transformers` 5, kept for now in a second environment
+`olmo-3-7b`, `qwen3-32b` and `olmo-3-32b`, plus two with lenses we fitted ourselves (see below): `gpt2-small-fit`
+and `mistral-7b`. The last four need `transformers` 5, kept for now in a second environment
 next to the pinned one:
 
 ```bash
@@ -62,6 +63,30 @@ As of 2026-10-25, Neuronpedia has J-lenses (fit on wikitext) for GPT-2 small, Py
 31B), Qwen2.5 7B Instruct, Qwen3 (1.7B to 32B), Qwen3.5 (0.8B to 27B), Qwen3.6 27B, OLMo 3 (7B, 32B) and
 gpt-oss-20b, and a pile-10k lens for DeepSeek-V4-Flash. Some models also have J++ lenses, including
 Qwen3.5-122B-A10B. Most of the newer models need a newer `transformers` than the one pinned here (see open tasks).
+
+### Fitting a lens
+
+For a model Neuronpedia does not cover, `jlens_open/fit.py` fits the J-lens with the estimator of the reference
+code and the recipe of Neuronpedia's lenses: WikiText-103 prompts cut to 128 tokens, Jacobians averaged over
+positions 16 and later, and a stop once one more prompt moves the mean by less than 0.2% (or at 1000 prompts). The
+model's entry points its lens to `$JLENS_SHARED/lenses/...`, where the fit writes it, in Neuronpedia's format:
+
+```bash
+sbatch --gres=gpu:nvidia_h200:1 --mem=192G hpc/gpu.sbatch env PYTHON=.venv-tf5/bin/python PYTHONPATH=. \
+  python -m jlens_open.fit mistral-7b --dim-batch 128 --max-prompts 500
+```
+
+Each prompt takes one forward pass and d / dim_batch backward passes; a checkpoint every 25 prompts lets an
+interrupted fit resume.
+
+- **GPT-2 small, as a check** (`gpt2-small-fit`): 359 prompts in fp32 until the 0.2% stop, a few minutes. Per
+  layer, cosine 0.996–0.9999 with Neuronpedia's lens; the remaining difference (about 10%) is close to what
+  sampling different prompts alone gives (about 7%). Experiment 01: pass@10 0.137 with our lens, 0.139 with theirs.
+- **Mistral-7B v0.1** (`mistral-7b`, not on Neuronpedia): 18 s per prompt on one H200 (about $5 for 500 prompts).
+  After 500 prompts one more prompt still moved the mean by 0.7%, so we stopped there rather than run to 1000
+  (Neuronpedia's Llama-3.1-8B lens has 539 prompts, its Llama-3.3-70B lens 125). Experiment 01: pass@10 0.470 vs
+  0.444 for the logit lens (multihop 0.780 vs 0.629). Swapping the country's J-lens vector at the capital
+  token (04) moves the answer in 64% of trials (logit lens 58%, random 1%). All six experiments: 37 min on one H200.
 
 ## Working together
 
@@ -82,7 +107,7 @@ Qwen3.5-122B-A10B. Most of the newer models need a newer `transformers` than the
 2. **Several GPUs.** Load models with `device_map="auto"` and keep each J on its block's device, for 70B and
    larger (Llama 3.3 70B, Qwen3.5-122B-A10B).
 3. **J++ lenses** (Ayonrinde and Lindsey), available for several models; their file format is not handled yet.
-4. **Fitting lenses** with the reference code for models Neuronpedia does not cover.
+4. ~~**Fitting lenses**~~ Done: `jlens_open/fit.py` (see Models).
 
 ## Notes
 
