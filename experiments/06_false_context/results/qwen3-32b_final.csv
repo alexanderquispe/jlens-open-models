@@ -1,0 +1,13 @@
+task,condition,final_true,final_false
+animal,false,0.11666666666666667,0.31666666666666665
+animal,true,1.0,0.0
+color,false,0.12222222222222222,0.1
+color,true,1.0,0.0
+continent,false,0.0,0.4861111111111111
+continent,true,1.0,0.0
+language,false,0.0641025641025641,0.3717948717948718
+language,true,1.0,0.0
+parity,false,0.5222222222222223,0.4777777777777778
+parity,true,1.0,0.0
+sentiment,false,0.0,1.0
+sentiment,true,1.0,0.0
