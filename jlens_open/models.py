@@ -8,16 +8,19 @@ Language Models"; reference code github.com/anthropics/jacobian-lens):
 h_l is the output of block l and h_final the output of the last block, before the final norm.
 The lenses are the ones Neuronpedia fitted with the reference code (neuronpedia/jacobian-lens on
 the HF Hub). As in the reference code (`force_bos=True`), every prompt starts with BOS when the
-tokenizer has one (Qwen's has none).
+tokenizer has one (Qwen's has none). For models Neuronpedia does not cover, we fit the lens ourselves with the same
+estimator and recipe (jlens_open/fit.py).
 """
 import json
+import os
 
 import torch
 from huggingface_hub import hf_hub_download
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 LENS_REPO = "neuronpedia/jacobian-lens"
-# Keys follow Neuronpedia's folder names; "lens" is the file inside LENS_REPO
+# Keys follow Neuronpedia's folder names; "lens" is the file inside LENS_REPO, or, for a lens we fitted, a path under
+# $JLENS_SHARED/lenses (the group's storage on the cluster)
 MODELS = {
     "gpt2-small": {
         "hf": "gpt2",
@@ -122,7 +125,28 @@ MODELS = {
         "lens": "qwen3.5-122b-a10b/jpp/Salesforce-wikitext/Qwen3.5-122B-A10B_jpp_lens.pt",
         "dtype": torch.bfloat16,
     },
+    # Lenses we fitted (python -m jlens_open.fit). gpt2-small-fit checks the fit against Neuronpedia's GPT-2 lens;
+    # Mistral-7B is the model of Engels et al. (2025), whose weekday and month circles experiments 02 and 05 study
+    "gpt2-small-fit": {
+        "hf": "gpt2",
+        "lens": "$JLENS_SHARED/lenses/gpt2-small/gpt2_jacobian_lens.pt",
+        "dtype": torch.float32,
+    },
+    "mistral-7b": {
+        "hf": "mistralai/Mistral-7B-v0.1",
+        "lens": "$JLENS_SHARED/lenses/mistral-7b/Mistral-7B-v0.1_jacobian_lens.pt",
+        "dtype": torch.bfloat16,
+    },
 }
+
+
+def lens_path(spec):
+    """Neuronpedia's lens, from the Hugging Face cache, or one we fitted, under $JLENS_SHARED/lenses."""
+    if not spec["lens"].startswith("$"):
+        return hf_hub_download(LENS_REPO, spec["lens"])
+    path = os.path.expandvars(spec["lens"])
+    assert not path.startswith("$"), f"set JLENS_SHARED to find {spec['lens']}"
+    return path
 
 
 def default_device():
@@ -153,7 +177,8 @@ def norm_gain(norm):
 
 
 class LensModel:
-    def __init__(self, name, device=None):
+    def __init__(self, name, device=None, lens=True):
+        """lens=False skips the lens (to fit one)."""
         spec = MODELS[name]
         self.name, self.dtype = name, spec["dtype"]
         self.device = device or default_device()
@@ -173,6 +198,7 @@ class LensModel:
         # keep the Llama-style text decoder in model.language_model
         decoder = self.model.transformer if hasattr(self.model, "transformer") else self.model.model
         decoder = getattr(decoder, "language_model", decoder)
+        self.decoder = decoder
         self.blocks = decoder.h if hasattr(decoder, "h") else decoder.layers
         self.norm = decoder.ln_f if hasattr(decoder, "ln_f") else decoder.norm
         self.n_blocks = len(self.blocks)
@@ -182,7 +208,10 @@ class LensModel:
         self.softcap = getattr(config, "final_logit_softcapping", None)  # Gemma: logits = c tanh(logits / c)
         if n_gpus > 1:
             print(f"{name}: blocks per GPU", [sum(next(b.parameters()).device.index == i for b in self.blocks) for i in range(n_gpus)])
-        lens = torch.load(hf_hub_download(LENS_REPO, spec["lens"]), weights_only=True)
+        if not lens:
+            self.J, self.n_lens_prompts = {}, 0
+            return
+        lens = torch.load(lens_path(spec), weights_only=True)
         # Blocks 0..n-2 have a J; the last block's output is h_final itself (J = I)
         self.J = {layer: m.float().to(self.device) for layer, m in lens["J"].items()}
         self.n_lens_prompts = lens["n_prompts"]

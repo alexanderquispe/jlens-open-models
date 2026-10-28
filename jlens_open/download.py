@@ -4,9 +4,9 @@
 """
 import argparse
 
-from huggingface_hub import hf_hub_download, snapshot_download
+from huggingface_hub import snapshot_download
 
-from .models import LENS_REPO, MODELS
+from .models import MODELS, lens_path
 
 parser = argparse.ArgumentParser(description="Download models and their lenses into the Hugging Face cache.")
 parser.add_argument("models", nargs="+", choices=list(MODELS))
@@ -17,4 +17,4 @@ for name in args.models:
     # Weights, config and tokenizer only: Meta's original checkpoint (original/*.pth) would add another 16 GB
     path = snapshot_download(spec["hf"], allow_patterns=["*.json", "*.safetensors", "*.txt", "*.model"])
     print(f"{name}: model in {path}")
-    print(f"{name}: lens in {hf_hub_download(LENS_REPO, spec['lens'])}")
+    print(f"{name}: lens in {lens_path(spec)}")  # a lens we fitted is not downloaded
