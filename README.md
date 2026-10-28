@@ -72,7 +72,7 @@ Qwen3.5-122B-A10B. Most of the newer models need a newer `transformers` than the
 
 ### Larger models
 
-Headline numbers of the runs on one H200 (Llama-3.1-8B on one L40S, for reference), all layers patched. J-lens /
+Headline numbers of the runs on one H200 (Llama-3.3-70B-Instruct on two, Llama-3.1-8B on one L40S for reference), all layers patched. J-lens /
 logit lens; for 02, the patches at the day token (best layer, Engels prompts / sequence prompts) along the k = 1
 circle plane / along the span of the day lens directions / in a random direction of the circle patch's norm:
 
@@ -86,9 +86,11 @@ circle plane / along the span of the day lens directions / in a random direction
 | Gemma-3-27B | 0.408 / 0.539 | 0.34 / **0.32** / 0.08 \| 0.21 / **0.44** / 0.01 | 0.86 / 0.92 (0.03) | 0.06 / 0.04 |
 | Gemma-4-31B | 0.406 / 0.500 | 0.42 / 0.09 / 0.17 \| 0.21 / 0.04 / 0.15 | 0.89 / 0.57 (0.06) | 0.04 / 0.10 |
 | Qwen3.6-27B | 0.321 / 0.449 | 0.32 / 0.01 / 0.00 \| 0.18 / 0.10 / 0.01 | 0.92 / 0.22 (0.00) | 0.18 / 0.08 |
+| Llama-3.3-70B-Instruct | 0.439 / 0.431 | 0.40 / 0.06 / 0.06 \| 0.20 / 0.02 / 0.01 | 0.89 / 0.54 (0.00) | 0.06 / 0.18 |
 
-- **01:** the J-lens beats the logit lens on Llama-3.1-8B and narrowly on Mistral and Qwen3-32B, but loses on the
-  other 27–32B models. J++ (below) wins everywhere it exists.
+- **01:** the J-lens beats the logit lens on Llama-3.1-8B and narrowly on Mistral, Qwen3-32B and
+  Llama-3.3-70B-Instruct, but loses on the other 27–32B models. Neuronpedia averaged the 70B lens over only 125
+  prompts, and one more prompt still moved it by about 1%, so a better-fitted lens might do better there. J++ (below) wins everywhere it exists.
 - **02:** the weekday circle moves the answer at the day token in every model (0.32–0.47), and the day lens
   directions do not, with one exception: on Gemma-3-27B their span moves it in layers 41–44 of 62 (0.32 and 0.44),
   late, where the circle itself does less (0.13–0.25).
