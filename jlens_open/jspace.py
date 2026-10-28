@@ -16,10 +16,10 @@ def lens_atoms(lm, layer, use_jacobian=True, center=True, chunk=16384):
     softmax unchanged, so that shared component carries no readout; uncentered, it dominates (in GPT-2 small
     the unit J-lens vectors have cosine ~0.99 with their mean) and the atoms fill a narrow cone."""
     W, g = lm.model.lm_head.weight, lm.gain
-    mean_row = sum(W[s : s + chunk].float().sum(0) for s in range(0, W.shape[0], chunk)) * g / W.shape[0]
+    mean_row = sum(W[s : s + chunk].to(lm.device).float().sum(0) for s in range(0, W.shape[0], chunk)) * g / W.shape[0]
     out = torch.empty(W.shape, dtype=torch.float16, device=lm.device)
     for s in range(0, W.shape[0], chunk):
-        w = W[s : s + chunk].float() * g
+        w = W[s : s + chunk].to(lm.device).float() * g
         if center:
             w = w - mean_row
         if use_jacobian and layer in lm.J:

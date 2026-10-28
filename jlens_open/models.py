@@ -10,6 +10,8 @@ The lenses are the ones Neuronpedia fitted with the reference code (neuronpedia/
 the HF Hub). As in the reference code (`force_bos=True`), every prompt starts with BOS when the
 tokenizer has one (Qwen's has none).
 """
+import json
+
 import torch
 from huggingface_hub import hf_hub_download
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -53,6 +55,13 @@ MODELS = {
     "olmo-3-32b": {
         "hf": "allenai/Olmo-3-1125-32B",
         "lens": "olmo-3-1125-32b/jlens/Salesforce-wikitext/Olmo-3-1125-32B_jacobian_lens.pt",
+        "dtype": torch.bfloat16,
+    },
+    # Also needs transformers 5: its tokenizer.json is too new for the tokenizers that 4.43 pins. 141 GB in bf16,
+    # plus 21 GB of lens in float32: two H200s (LensModel splits the blocks when it sees several GPUs)
+    "llama3.3-70b-it": {
+        "hf": "meta-llama/Llama-3.3-70B-Instruct",
+        "lens": "llama3.3-70b-it/jlens/Salesforce-wikitext/Llama-3.3-70B-Instruct_jacobian_lens.pt",
         "dtype": torch.bfloat16,
     },
     "qwen3-4b": {
@@ -104,6 +113,16 @@ def default_device():
     return "mps" if torch.backends.mps.is_available() else "cpu"
 
 
+def max_memory(hf_id, n_gpus):
+    """Weights per GPU for device_map="auto". The first GPU takes half a share, since it also holds the lenses
+    and the activations the experiments keep; the last takes what is left."""
+    with open(hf_hub_download(hf_id, "model.safetensors.index.json")) as f:
+        share = json.load(f)["metadata"]["total_size"] / (n_gpus - 0.5)
+    mem = {i: int(share * (0.5 if i == 0 else 1)) for i in range(n_gpus - 1)}
+    mem[n_gpus - 1] = int(0.9 * torch.cuda.get_device_properties(n_gpus - 1).total_memory)
+    return mem
+
+
 @torch.no_grad()
 def norm_gain(norm):
     """The gain g of the final norm, norm(x) = x / rms(x) * g: its weight, or 1 + weight for the zero-centred
@@ -121,7 +140,17 @@ class LensModel:
         self.name, self.dtype = name, spec["dtype"]
         self.device = device or default_device()
         self.tok = AutoTokenizer.from_pretrained(spec["hf"])
-        self.model = AutoModelForCausalLM.from_pretrained(spec["hf"], torch_dtype=self.dtype).to(self.device).eval()
+        n_gpus = torch.cuda.device_count() if self.device == "cuda" else 1
+        if n_gpus > 1:
+            # Blocks split across the GPUs; activations, lenses and logits stay on the first (self.device)
+            self.model = AutoModelForCausalLM.from_pretrained(
+                spec["hf"], torch_dtype=self.dtype, device_map="auto", max_memory=max_memory(spec["hf"], n_gpus)
+            ).eval()
+            placed = set(self.model.hf_device_map.values())
+            assert placed <= set(range(n_gpus)), f"weights offloaded off the GPUs: {placed}"
+            self.model.register_forward_hook(lambda module, inputs, out: setattr(out, "logits", out.logits.to(self.device)))
+        else:
+            self.model = AutoModelForCausalLM.from_pretrained(spec["hf"], torch_dtype=self.dtype).to(self.device).eval()
         # GPT-2 style (transformer.h, ln_f) or Llama style (model.layers, norm); multimodal checkpoints (Gemma 4)
         # keep the Llama-style text decoder in model.language_model
         decoder = self.model.transformer if hasattr(self.model, "transformer") else self.model.model
@@ -130,9 +159,11 @@ class LensModel:
         self.norm = decoder.ln_f if hasattr(decoder, "ln_f") else decoder.norm
         self.n_blocks = len(self.blocks)
         self.d = self.norm.weight.shape[0]
-        self.gain = norm_gain(self.norm)
+        self.gain = norm_gain(self.norm).to(self.device)
         config = getattr(self.model.config, "text_config", self.model.config)
         self.softcap = getattr(config, "final_logit_softcapping", None)  # Gemma: logits = c tanh(logits / c)
+        if n_gpus > 1:
+            print(f"{name}: blocks per GPU", [sum(next(b.parameters()).device.index == i for b in self.blocks) for i in range(n_gpus)])
         lens = torch.load(hf_hub_download(LENS_REPO, spec["lens"]), weights_only=True)
         # Blocks 0..n-2 have a J; the last block's output is h_final itself (J = I)
         self.J = {layer: m.float().to(self.device) for layer, m in lens["J"].items()}
@@ -166,9 +197,9 @@ class LensModel:
                 hidden = output[0] if isinstance(output, tuple) else output
                 if deltas is not None and layer in deltas:
                     hidden = hidden.clone()
-                    hidden[rows, positions] += deltas[layer].to(hidden.dtype)
+                    hidden[rows, positions] += deltas[layer].to(hidden.device, hidden.dtype)
                 if store:
-                    outputs[layer] = hidden.float()
+                    outputs[layer] = hidden.to(self.device).float()
                 if isinstance(output, tuple):
                     return (hidden,) + tuple(output[1:])
                 return hidden
@@ -185,10 +216,10 @@ class LensModel:
 
     @torch.no_grad()
     def unembed(self, x):
-        logits = self.model.lm_head(self.norm(x.to(self.dtype)))
+        logits = self.model.lm_head(self.norm(x.to(self.norm.weight.device, self.dtype)))
         if self.softcap:
             logits = torch.tanh(logits / self.softcap) * self.softcap
-        return logits.float()
+        return logits.float().to(self.device)
 
     def transport(self, x, layer, use_jacobian=True):
         """J_l x (the lens); the identity for the logit lens or for the last block."""
@@ -200,7 +231,7 @@ class LensModel:
     def lens_directions(self, token_ids, layer):
         """(len(token_ids), d) residual directions at `layer` that raise each token's lens logit
         (rows of W_U diag(g) J_l, with g the final norm's gain)."""
-        w = self.model.lm_head.weight[token_ids].float() * self.gain
+        w = self.model.lm_head.weight[token_ids].float().to(self.device) * self.gain
         if layer in self.J:
             w = w @ self.J[layer]
         return w.cpu().numpy()

@@ -75,9 +75,25 @@ source hpc/env.sh && source .venv/bin/activate
 
 An interactive session is billed until you `exit`, even while the GPU sits idle.
 
-Memory: Llama-3.1-8B in bf16 needs about 16 GB on the GPU plus 2 GB for its lens, so one H100 is plenty. Models
-of 70B and more need several GPUs, which `LensModel` does not support yet (see the open tasks in the top-level
-README).
+Memory: Llama-3.1-8B in bf16 needs about 16 GB on the GPU plus 2 GB for its lens, so one H100 is plenty. The
+32B models need one H200 and more host memory than the default 64 GB to load:
+
+```bash
+sbatch --gres=gpu:nvidia_h200:1 --mem=192G hpc/gpu.sbatch env PYTHON=.venv-tf5/bin/python PYTHONPATH=. bash run_all.sh qwen3-32b
+```
+
+Larger models need several GPUs. When a job sees more than one GPU, `LensModel` splits the blocks across them
+(the first GPU takes half a share, since it also holds the lenses, which are float32, and the activations the
+experiments keep) and returns everything on the first, so the experiments run unchanged. Llama-3.3-70B-Instruct
+(141 GB in bf16, 21 GB of lens) on two H200s:
+
+```bash
+sbatch --time=16:00:00 --gres=gpu:nvidia_h200:2 --mem=256G hpc/gpu.sbatch env PYTHON=.venv-tf5/bin/python PYTHONPATH=. bash run_all.sh llama3.3-70b-it
+```
+
+`.venv-tf5` needs `accelerate` too: `uv pip install --python .venv-tf5/bin/python accelerate==1.15.0`.
+
+The blocks run one after another, so two GPUs are not faster than one; they only add memory.
 
 ## GPUs and cost
 
