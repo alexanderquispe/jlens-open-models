@@ -73,6 +73,28 @@ MODELS = {
         "lens": "olmo-3-1125-32b/jpp/Salesforce-wikitext/Olmo-3-1125-32B_jpp_lens.pt",
         "dtype": torch.bfloat16,
     },
+    # Newer architectures (one H200 each): Gemma 4 is multimodal (text decoder in model.language_model) with a
+    # final logit softcap; Qwen3.6 mixes linear and full attention, and its final norm's gain is 1 + weight
+    "gemma-4-31b": {
+        "hf": "google/gemma-4-31B",
+        "lens": "gemma-4-31b/jlens/Salesforce-wikitext/gemma-4-31B_jacobian_lens.pt",
+        "dtype": torch.bfloat16,
+    },
+    "gemma-4-31b-jpp": {
+        "hf": "google/gemma-4-31B",
+        "lens": "gemma-4-31b/jpp/Salesforce-wikitext/gemma-4-31B_jpp_lens.pt",
+        "dtype": torch.bfloat16,
+    },
+    "qwen3.6-27b": {
+        "hf": "Qwen/Qwen3.6-27B",
+        "lens": "qwen3.6-27b/jlens/Salesforce-wikitext/Qwen3.6-27B_jacobian_lens_n1000.pt",
+        "dtype": torch.bfloat16,
+    },
+    "qwen3.6-27b-jpp": {
+        "hf": "Qwen/Qwen3.6-27B",
+        "lens": "qwen3.6-27b/jpp/Salesforce-wikitext/Qwen3.6-27B_jpp_lens.pt",
+        "dtype": torch.bfloat16,
+    },
 }
 
 
@@ -82,6 +104,17 @@ def default_device():
     return "mps" if torch.backends.mps.is_available() else "cpu"
 
 
+@torch.no_grad()
+def norm_gain(norm):
+    """The gain g of the final norm, norm(x) = x / rms(x) * g: its weight, or 1 + weight for the zero-centred
+    RMSNorm of Qwen3.5 (and Gemma 2/3). Told apart by normalizing a vector of ones, whose RMS is 1."""
+    w = norm.weight.float()
+    if "RMSNorm" not in type(norm).__name__:
+        return w
+    probe = norm(torch.ones_like(norm.weight)).float()
+    return w if (probe - w).abs().max() < (probe - 1 - w).abs().max() else 1 + w
+
+
 class LensModel:
     def __init__(self, name, device=None):
         spec = MODELS[name]
@@ -89,12 +122,17 @@ class LensModel:
         self.device = device or default_device()
         self.tok = AutoTokenizer.from_pretrained(spec["hf"])
         self.model = AutoModelForCausalLM.from_pretrained(spec["hf"], torch_dtype=self.dtype).to(self.device).eval()
-        # GPT-2 style (transformer.h, ln_f) or Llama style (model.layers, norm)
+        # GPT-2 style (transformer.h, ln_f) or Llama style (model.layers, norm); multimodal checkpoints (Gemma 4)
+        # keep the Llama-style text decoder in model.language_model
         decoder = self.model.transformer if hasattr(self.model, "transformer") else self.model.model
+        decoder = getattr(decoder, "language_model", decoder)
         self.blocks = decoder.h if hasattr(decoder, "h") else decoder.layers
         self.norm = decoder.ln_f if hasattr(decoder, "ln_f") else decoder.norm
         self.n_blocks = len(self.blocks)
-        self.d = self.model.config.hidden_size
+        self.d = self.norm.weight.shape[0]
+        self.gain = norm_gain(self.norm)
+        config = getattr(self.model.config, "text_config", self.model.config)
+        self.softcap = getattr(config, "final_logit_softcapping", None)  # Gemma: logits = c tanh(logits / c)
         lens = torch.load(hf_hub_download(LENS_REPO, spec["lens"]), weights_only=True)
         # Blocks 0..n-2 have a J; the last block's output is h_final itself (J = I)
         self.J = {layer: m.float().to(self.device) for layer, m in lens["J"].items()}
@@ -147,7 +185,10 @@ class LensModel:
 
     @torch.no_grad()
     def unembed(self, x):
-        return self.model.lm_head(self.norm(x.to(self.dtype))).float()
+        logits = self.model.lm_head(self.norm(x.to(self.dtype)))
+        if self.softcap:
+            logits = torch.tanh(logits / self.softcap) * self.softcap
+        return logits.float()
 
     def transport(self, x, layer, use_jacobian=True):
         """J_l x (the lens); the identity for the logit lens or for the last block."""
@@ -159,7 +200,7 @@ class LensModel:
     def lens_directions(self, token_ids, layer):
         """(len(token_ids), d) residual directions at `layer` that raise each token's lens logit
         (rows of W_U diag(g) J_l, with g the final norm's gain)."""
-        w = self.model.lm_head.weight[token_ids].float() * self.norm.weight.float()
+        w = self.model.lm_head.weight[token_ids].float() * self.gain
         if layer in self.J:
             w = w @ self.J[layer]
         return w.cpu().numpy()
