@@ -43,8 +43,8 @@ The device is picked automatically (CUDA, then MPS, then CPU) or set with `--dev
 ## Models
 
 Registered in `jlens_open/models.py` (`MODELS`): `gpt2-small`, `llama3.1-8b`, `llama3.1-8b-it`, `qwen3-8b`,
-`olmo-3-7b`, `qwen3-32b` and `olmo-3-32b`. The last four need `transformers` 5, kept for now in a second environment
-next to the pinned one:
+`olmo-3-7b`, `qwen3-32b`, `olmo-3-32b` and `qwen3-4b`, plus the J++ lenses `qwen3-4b-jpp` and `olmo-3-32b-jpp` (see
+below). All but the first three need `transformers` 5, kept for now in a second environment next to the pinned one:
 
 ```bash
 uv venv --python 3.11 .venv-tf5
@@ -62,6 +62,27 @@ As of 2026-10-25, Neuronpedia has J-lenses (fit on wikitext) for GPT-2 small, Py
 31B), Qwen2.5 7B Instruct, Qwen3 (1.7B to 32B), Qwen3.5 (0.8B to 27B), Qwen3.6 27B, OLMo 3 (7B, 32B) and
 gpt-oss-20b, and a pile-10k lens for DeepSeek-V4-Flash. Some models also have J++ lenses, including
 Qwen3.5-122B-A10B. Most of the newer models need a newer `transformers` than the one pinned here (see open tasks).
+
+### J++ lens
+
+Neuronpedia also has J++ lenses (Ayonrinde and Lindsey 2026) for several models, under `<model>/jpp/`. They have
+the same file format and the same readout as the J-lens, `unembed(J_l h)` on the output of block *l*, so no new
+code is needed: a model key ending in `-jpp` runs every experiment with the J++ lens in place of the J-lens, and
+the columns labelled "J-lens" in its results then hold J++. J-lens / J++ (logit lens in brackets where it applies),
+all layers patched:
+
+| | Qwen3-4B (one L40S) | OLMo-3-32B (one H200) |
+|---|---|---|
+| 01 pass@10, macro over six sets | 0.244 / **0.458** (0.326) | 0.406 / **0.633** (0.459) |
+| 01 pass@10, multihop | 0.495 / 0.690 (0.468) | 0.699 / 0.885 (0.713) |
+| 02 circle plane inside the day lens span (Engels prompts, best layer; random plane ≤ 0.002) | 0.08 / 0.19 | 0.03 / 0.06 |
+| 02 day lens span moves the answer at the day token (Engels prompts, best layer; random direction in brackets) | 0.12 / 0.13 (0.14) | 0.01 / 0.01 (0.01) |
+| 04 swap at the capital token, α = 1 (best layer) | 0.73 / 0.78 (0.66) | 0.95 / 0.94 (0.57) |
+| 06 on prompts answered falsely, truth read above the majority baseline (best layer, mean of the tasks) | 0.24 / 0.21 (−0.03) | −0.10 / 0.13 (0.07) |
+
+J++ reads intermediate concepts much better than the J-lens on both models. On OLMo-3-32B it reverses the J-lens's
+loss to the logit lens. The causal results do not change: J++ does not find the weekday circle at the day token
+either, and its swaps work as well as the J-lens's.
 
 ## Working together
 
@@ -81,7 +102,7 @@ Qwen3.5-122B-A10B. Most of the newer models need a newer `transformers` than the
    for GPT-2 small and Llama-3.1-8B. Moving the pin to 5.x would leave one environment.
 2. **Several GPUs.** Load models with `device_map="auto"` and keep each J on its block's device, for 70B and
    larger (Llama 3.3 70B, Qwen3.5-122B-A10B).
-3. **J++ lenses** (Ayonrinde and Lindsey), available for several models; their file format is not handled yet.
+3. ~~**J++ lenses**~~ Done: same file format as the J-lens, registered as `-jpp` models (see above).
 4. **Fitting lenses** with the reference code for models Neuronpedia does not cover.
 
 ## Notes
