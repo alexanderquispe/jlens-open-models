@@ -220,13 +220,13 @@ def evaluate(hooks=None):
 def ablation_hook(atoms, mu, k, stats):
     def f(module, inputs, output):
         hidden = output[0] if isinstance(output, tuple) else output
-        x = hidden[:, 1:].float()
+        x = hidden[:, 1:].to(mu.device).float()  # the block's GPU may not be the first one
         flat = x.reshape(-1, x.shape[-1]) - mu
         idx, coef, _ = decompose(flat, atoms, k)
         comp = component(idx, coef, atoms)
         stats.append(((comp**2).sum() / (flat**2).sum()).item())
         hidden = hidden.clone()
-        hidden[:, 1:] = (x - comp.reshape(x.shape)).to(hidden.dtype)
+        hidden[:, 1:] = (x - comp.reshape(x.shape)).to(hidden.device, hidden.dtype)
         return (hidden,) + tuple(output[1:]) if isinstance(output, tuple) else hidden
 
     return f
