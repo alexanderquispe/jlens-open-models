@@ -43,9 +43,11 @@ The device is picked automatically (CUDA, then MPS, then CPU) or set with `--dev
 ## Models
 
 Registered in `jlens_open/models.py` (`MODELS`): `gpt2-small`, `llama3.1-8b`, `llama3.1-8b-it`, `qwen3-8b`,
-`olmo-3-7b`, `qwen3-32b`, `olmo-3-32b` and `qwen3-4b`, plus the J++ lenses `qwen3-4b-jpp` and `olmo-3-32b-jpp` and two
-models with lenses we fitted ourselves, `gpt2-small-fit` and `mistral-7b` (see below). Everything but GPT-2 and
-Llama 3.1 was run with `transformers` 5, kept for now in a second environment next to the pinned one:
+`olmo-3-7b`, `qwen3-4b`, `qwen3-32b`, `olmo-3-32b`, `gemma-2-27b`, `gemma-3-27b`, `gemma-4-31b`, `qwen3.6-27b` and
+`llama3.3-70b-it`; the J++ lenses `qwen3-4b-jpp`, `olmo-3-32b-jpp`, `gemma-4-31b-jpp`, `qwen3.6-27b-jpp` and
+`qwen3.5-122b-a10b-jpp`; and two models with lenses we fitted ourselves, `gpt2-small-fit` and `mistral-7b` (see
+below). Everything but GPT-2 and Llama 3.1 8B was run with `transformers` 5, kept for now in a second environment
+next to the pinned one:
 
 ```bash
 uv venv --python 3.11 .venv-tf5
@@ -56,13 +58,42 @@ PYTHONPATH=. .venv-tf5/bin/python experiments/01_lens_eval/lens_eval.py --model 
 A model is added with one
 entry: its Hugging Face id, the path of its lens in
 [`neuronpedia/jacobian-lens`](https://huggingface.co/neuronpedia/jacobian-lens), and the dtype the lens was fit
-in. `LensModel` handles GPT-2-style and Llama-style decoders.
+in. `LensModel` handles GPT-2-style and Llama-style decoders, the multimodal checkpoints of Gemma 3 and 4 (text
+decoder only), the 1 + weight gain of the final norm (Gemma 2/3, Qwen3.5/3.6) and Gemma's final logit softcap.
+`python hpc/check_model.py <model>` checks a new entry on the GPU: unembedding the last block's output must give
+the model's own logits. On a machine with several GPUs, the blocks are split across them (`device_map="auto"`) and
+the lenses, activations and logits stay on the first; Llama-3.3-70B runs on two H200s.
 
 As of 2026-10-25, Neuronpedia has J-lenses (fit on wikitext) for GPT-2 small, Pythia-70M, Llama 3.1 8B
 (base and Instruct), Llama 3.3 70B Instruct, Gemma 2 (2B, 9B, 27B), Gemma 3 (270M to 27B), Gemma 4 (E2B, E4B,
 31B), Qwen2.5 7B Instruct, Qwen3 (1.7B to 32B), Qwen3.5 (0.8B to 27B), Qwen3.6 27B, OLMo 3 (7B, 32B) and
 gpt-oss-20b, and a pile-10k lens for DeepSeek-V4-Flash. Some models also have J++ lenses, including
 Qwen3.5-122B-A10B. Most of the newer models need a newer `transformers` than the one pinned here (see open tasks).
+
+### Larger models
+
+Headline numbers of the runs on one H200 (Llama-3.1-8B on one L40S, for reference), all layers patched. J-lens /
+logit lens; for 02, the patches at the day token (best layer, Engels prompts / sequence prompts) along the k = 1
+circle plane / along the span of the day lens directions / in a random direction of the circle patch's norm:
+
+| Model | 01 pass@10, macro | 02 circle / day lens span / random, Engels \| sequence | 04 swap at the capital (random) | 06 truth above baseline |
+|---|---|---|---|---|
+| Llama-3.1-8B | 0.412 / 0.275 | 0.39 / 0.10 / 0.12 \| 0.25 / 0.01 / 0.01 | 0.81 / 0.14 (0.01) | 0.16 / −0.04 |
+| Mistral-7B (our lens) | 0.470 / 0.444 | 0.40 / 0.06 / 0.06 \| 0.27 / 0.01 / 0.01 | 0.64 / 0.58 (0.01) | 0.02 / −0.05 |
+| Qwen3-32B | 0.278 / 0.260 | 0.32 / 0.06 / 0.07 \| 0.21 / 0.02 / 0.01 | 0.82 / 0.53 (0.01) | 0.40 / 0.39 |
+| OLMo-3-32B | 0.406 / 0.459 | 0.37 / 0.01 / 0.01 \| 0.20 / 0.01 / 0.01 | 0.95 / 0.57 (0.00) | −0.10 / 0.07 |
+| Gemma-2-27B | 0.357 / 0.387 | 0.47 / 0.03 / 0.03 \| 0.17 / 0.02 / 0.01 | 0.88 / 0.79 (0.02) | 0.03 / −0.03 |
+| Gemma-3-27B | 0.408 / 0.539 | 0.34 / **0.32** / 0.08 \| 0.21 / **0.44** / 0.01 | 0.86 / 0.92 (0.03) | 0.06 / 0.04 |
+| Gemma-4-31B | 0.406 / 0.500 | 0.42 / 0.09 / 0.17 \| 0.21 / 0.04 / 0.15 | 0.89 / 0.57 (0.06) | 0.04 / 0.10 |
+| Qwen3.6-27B | 0.321 / 0.449 | 0.32 / 0.01 / 0.00 \| 0.18 / 0.10 / 0.01 | 0.92 / 0.22 (0.00) | 0.18 / 0.08 |
+
+- **01:** the J-lens beats the logit lens on Llama-3.1-8B and narrowly on Mistral and Qwen3-32B, but loses on the
+  other 27–32B models. J++ (below) wins everywhere it exists.
+- **02:** the weekday circle moves the answer at the day token in every model (0.32–0.47), and the day lens
+  directions do not, with one exception: on Gemma-3-27B their span moves it in layers 41–44 of 62 (0.32 and 0.44),
+  late, where the circle itself does less (0.13–0.25).
+- **04:** swapping the country's J-lens vector at the capital token works in every model (0.64–0.95, random
+  ≤ 0.06); the logit lens ranges from 0.14 (Llama) to 0.92 (Gemma-3).
 
 ### J++ lens
 
@@ -72,18 +103,23 @@ code is needed: a model key ending in `-jpp` runs every experiment with the J++ 
 the columns labelled "J-lens" in its results then hold J++. J-lens / J++ (logit lens in brackets where it applies),
 all layers patched:
 
-| | Qwen3-4B (one L40S) | OLMo-3-32B (one H200) |
-|---|---|---|
-| 01 pass@10, macro over six sets | 0.244 / **0.458** (0.326) | 0.406 / **0.633** (0.459) |
-| 01 pass@10, multihop | 0.495 / 0.690 (0.468) | 0.699 / 0.885 (0.713) |
-| 02 circle plane inside the day lens span (Engels prompts, best layer; random plane ≤ 0.002) | 0.08 / 0.19 | 0.03 / 0.06 |
-| 02 day lens span moves the answer at the day token (Engels prompts, best layer; random direction in brackets) | 0.12 / 0.13 (0.14) | 0.01 / 0.01 (0.01) |
-| 04 swap at the capital token, α = 1 (best layer) | 0.73 / 0.78 (0.66) | 0.95 / 0.94 (0.57) |
-| 06 on prompts answered falsely, truth read above the majority baseline (best layer, mean of the tasks) | 0.24 / 0.21 (−0.03) | −0.10 / 0.13 (0.07) |
+| | Qwen3-4B (one L40S) | OLMo-3-32B | Gemma-4-31B | Qwen3.6-27B |
+|---|---|---|---|---|
+| 01 pass@10, macro over six sets | 0.244 / **0.458** (0.326) | 0.406 / **0.633** (0.459) | 0.406 / **0.551** (0.500) | 0.321 / **0.684** (0.449) |
+| 01 pass@10, multihop | 0.495 / 0.690 (0.468) | 0.699 / 0.885 (0.713) | 0.597 / 0.645 (0.643) | 0.618 / 0.862 (0.663) |
+| 02 circle plane inside the day lens span (Engels prompts, best layer; random plane ≤ 0.002) | 0.08 / 0.19 | 0.03 / 0.06 | 0.01 / 0.09 | 0.08 / 0.22 |
+| 02 day lens span moves the answer at the day token (Engels prompts, best layer; random direction in brackets) | 0.12 / 0.13 (0.14) | 0.01 / 0.01 (0.01) | 0.09 / 0.24 (0.17) | 0.01 / **0.89** (0.00) |
+| 04 swap at the capital token, α = 1 (best layer) | 0.73 / 0.78 (0.66) | 0.95 / 0.94 (0.57) | 0.89 / 0.93 (0.57) | 0.92 / 0.98 (0.22) |
+| 06 on prompts answered falsely, truth read above the majority baseline (best layer, mean of the tasks) | 0.24 / 0.21 (−0.03) | −0.10 / 0.13 (0.07) | 0.04 / −0.00 (0.10) | 0.18 / 0.22 (0.08) |
 
-J++ reads intermediate concepts much better than the J-lens on both models. On OLMo-3-32B it reverses the J-lens's
-loss to the logit lens. The causal results do not change: J++ does not find the weekday circle at the day token
-either, and its swaps work as well as the J-lens's.
+The 27–32B models ran on one H200. J++ reads intermediate concepts much better than the J-lens on all four
+models, and beats the logit lens where the J-lens loses to it (OLMo-3-32B, Gemma-4-31B, Qwen3.6-27B). Its swaps
+work as well as the J-lens's. On three models J++ does not find the weekday circle at the day token either, but on
+Qwen3.6-27B the span of its seven day directions moves the answer from day a to day a + r in layers 9–19 (best
+0.89 on the Engels prompts, 0.65 on the sequence prompts), more than the circle plane (≤ 0.32) and nearly as much
+as the full centroid difference (1.00); the J-lens's span does nothing there (≤ 0.01). The random control has the
+norm of the circle patch, not of the span patch, but a patch that moves the answer to the one intended day out of
+seven (chance 0.14) is more than a norm effect.
 
 ### Fitting a lens
 
@@ -125,8 +161,7 @@ interrupted fit resume.
 1. **Newer `transformers`.** Qwen3, Qwen3.5/3.6, Gemma 3/4 and OLMo 3 need a newer version than 4.43.3 (Neuronpedia
    fit its lenses with 5.x). Checked so far with 5.11 (in `.venv-tf5`): experiment 01 gives byte-identical CSVs
    for GPT-2 small and Llama-3.1-8B. Moving the pin to 5.x would leave one environment.
-2. **Several GPUs.** Load models with `device_map="auto"` and keep each J on its block's device, for 70B and
-   larger (Llama 3.3 70B, Qwen3.5-122B-A10B).
+2. ~~**Several GPUs**~~ Done: `device_map="auto"` across the GPUs of the job (see Models).
 3. ~~**J++ lenses**~~ Done: same file format as the J-lens, registered as `-jpp` models (see above).
 4. ~~**Fitting lenses**~~ Done: `jlens_open/fit.py` (see Models).
 
@@ -136,8 +171,8 @@ interrupted fit resume.
 - On GPT-2, `LensModel` gives logits identical to Anthropic's `jlens` package.
 - Llama runs in bf16, the dtype its lens was fit in. Transformers 4.43.3 applies Llama 3.1's RoPE correctly
   (θ = 500000 with llama3 scaling). TransformerLens 2.3 does not, so it is not used here.
-- Results in `experiments/*/results` were produced on one NVIDIA L40S (Caltech cluster), with every layer patched
-  in 04 and 05. The numbers quoted in the READMEs come from earlier runs on an Apple M5 Max (MPS) and differ
+- Results in `experiments/*/results` were produced on the Caltech cluster, with every layer patched in 04 and 05:
+  models up to 8B on one NVIDIA L40S, the larger ones on H200s (the commit of each result says which). The numbers quoted in the READMEs come from earlier runs on an Apple M5 Max (MPS) and differ
   slightly from these files.
 
 ## References
