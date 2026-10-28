@@ -1,0 +1,81 @@
+qwen3-32b, typo: top-10 tokens of each lens
+
+### typo-language (intermediates ['language'])
+  L28 J     ['...\n', '...\n\n\n', ' \n\n\n', ' \n', ' ...\n', '\n\n\n', '...\n\n', ' \n\n\n\n\n', ' \n\n\n\n', '\n']
+  L28 logit ['剧中', '-language', ' предоставлен', '出境', 'enty', '衽', 'ILITY', '授', 'MENT', '宥']
+  L35 J     [' \n', ' .\n', '...\n', '\n', '.\n', ' spanish', ' \n\n\n', ' incre', ' :\n', ' !\n']
+  L35 logit ['yla', '努力', '投入到', '不能再', ' Earl', ' languages', '-language', ' *__', '不论是', 'verts']
+  L41 J     [' spanish', 'e', ' russian', ' lang', ' \n', ' english', 'y', ' japanese', ' chinese', 'l']
+  L41 logit ['院长', '的语言', '脩', 'auge', '港澳', 'oload', '学校的', '⾔', 'Endian', '以便']
+  L47 J     ['____', ' ______', ' __', ' ___', ' ____', '翻译', '___', '________', '__', ' _____']
+  L47 logit ['这项', '衽', '这句话', ' nigeria', 'bsite', '(language', 'ofire', ' wida', '在学校', 'ㅗ']
+
+### typo-government (intermediates ['government'])
+  L28 J     [' councill', '其它', '...\\', ' canada', 'นโย', ' canadian', ' recieved', ' taxp', '部份', ' seperate']
+  L28 logit ['鸿', '有关部门', 'LOPT', '和社会', '限时', '官员', '下达', '/state', '相关部门', '沓']
+  L35 J     [' councill', 'นโย', ' taxp', 'คณะกรรม', ' seperate', 'อำนวยความ', ' recieved', ' seper', '部份', '其它']
+  L35 logit ['和社会', '下达', '宣布', ' Wizards', '鸿', '税务总局', '官员', '聋', '效', '宵']
+  L41 J     [' seperate', ' canadian', ' wich', ' alot', ' seper', ' canada', ' recieved', ' ещё', ' councill', '其它']
+  L41 logit ['加拿大', '咻', '渥', '⼒', ' Grain', '加拿', '官员', '区域性', 'Canada', '工作报告']
+  L47 J     ['.\n', '.', '.\n\n', ' \n', ' \n\n', '____', ',', '".\n', '".', ' ____']
+  L47 logit ['加拿', '加拿大', '的消息', 'Canada', '领导人', ' canada', 'ToDevice', '的各项', '留言板', '┗']
+
+### typo-across (intermediates ['across'])
+  L28 J     ['s', ' \xa0', ' ...\n', ' \xa0 \xa0', ' ..."\n', ' ...\\', '\xa0', ' ...\r\n', '\xa0\n', ' \xa0 \xa0 \xa0 \xa0']
+  L28 logit ['跨', ' across', '大街', 'es', '度过', '马路', '大陸', '过关', '网投', '发现自己']
+  L35 J     ['s', ' seper', ' seperate', '好象', '其它问题', ' alot', '部份', ' recieved', '什麽', ' lenght']
+  L35 logit ['酒店', 'セン', '网投', 'ないので', ' across', 'ogh', 'eworld', '�', '党和国家', 'ほと']
+  L41 J     [' seperate', ' seper', ' alot', ' recieved', ' wich', ' teh', 's', '部份', '好象', ' lenght']
+  L41 logit ['玟', '网投', 'es', 'word', ' the', '党和国家', '学校的', '我家', '邓小', 'era']
+  L47 J     [' seper', ' seperate', ' recieved', ' spanish', ' alot', ' wich', 'english', ' whats', ' teh', 's']
+  L47 logit ['sic', '玟', 'es', 's', ' the', '党和国家', '翥', '犯规', '創業', 'uars']
+
+### typo-search (intermediates ['search'])
+  L28 J     [' Erotische', ' Shemale', '！\n\n\n\n', ' fetisch', ' Prostitutas', '...\n\n\n', ' Notíc', '其它问题', ' Geile', ' everytime']
+  L28 logit ['OrCreate', '书记', '🔍', '.Search', '网上', 'ях', '�', '/search', '人才', 'udi']
+  L35 J     [' alot', ' seperate', ' everytime', ' Shemale', ' seper', ' councill', '其它问题', ' wich', ' recieved', ' Erotische']
+  L35 logit ['OrCreate', '🔍', '前世', 'fir', '阗', '宄', '书记', ' Fir', '院长', '名人']
+  L41 J     [' alot', ' seperate', ' wich', ' everytime', ' seper', ' recieved', ' monday', ' whats', ' adress', ' \n\n\n']
+  L41 logit ['OrCreate', '🔍', '名人', '钇', '唛', '知名企业', 'ら', 'oram', 'able', '的男人']
+  L47 J     ['.\n', '.', ' wich', '2', '1', '0', '3', '____', '.\n\n', '4']
+  L47 logit ['书记', '🔍', '钇', '殳', '榷', '包包', '唛', '岬', '知名企业', '家纺']
+
+### typo-address (intermediates ['address'])
+  L28 J     [' councill', ' Erotische', ' limburg', '部份', ' fetisch', ' Atatür', ' milfs', ' lenght', '其它问题', ' wich']
+  L28 logit ['住址', 'VENT', '居住', 'ses', '馔', 'х', ' address', '在哪里', '所在地', 'Vent']
+  L35 J     [' councill', ' wich', '部份', ' recieved', ' limburg', ' lenght', ' adress', ' seper', ' seperate', ' alot']
+  L35 logit ['住址', '所在地', 'VENT', 'ₑ', '住所', '居住', '橱', '在哪里', '巴拉', 'enta']
+  L41 J     [' wich', ' adress', ' recieved', ' seperate', ' seper', ' lenght', ' alot', '部份', ' aprox', ' informations']
+  L41 logit ['住址', '巴拉', '几家', '报告期内', '\\xe', 'Generation', 'ﬃ', 'Gs', '院院长', ' prof']
+  L47 J     ['.\n', '.', ' \n', ' adress', ' wich', '.\n\n', '1', '2', 'l', 'n']
+  L47 logit ['住址', '巴拉', 'pars', '家纺', '同志们', 'Gs', 'ӕ', '孥', '院院长', '址']
+
+### typo-because (intermediates ['because'])
+  L28 J     ['____', '什么原因', ' ``', ' they', '_____', '是因为', '他们', ' _____', '因为他们', ' ____']
+  L28 logit ['NSE', '其所', '其', '是因为', 'BAT', '它是', ' подготовк', '崇', '世纪', '好多']
+  L35 J     ['他们', '____', '什么原因', 'โรงพยา', 'เทคโน', '_____', '是因为', ' alot', 'เศรษ', ' they']
+  L35 logit ['BAT', '其所', '其', ' конкр', '敉', '₊', ' đâu', '多了', '要把', 'itm']
+  L41 J     ['____', '__', '___', '_____', ' _', '_', '3', '\\_', '1', '2']
+  L41 logit ['上班', '什么原因', '的原因', ' 마지', ' prolonged', '是因为', '%B', 'EventManager', '要把', 'واس']
+  L47 J     ['____', ' ____', ' ______', '_____', ' _____', ' ___', '________', ' __', '___', '____________']
+  L47 logit ['什么原因', '使用網路', 'ATS', '锇', ' 마지', '昨晚', '觌', 'uib', '🗣', 'WithError']
+
+### typo-until (intermediates ['until'])
+  L28 J     ['部份', ' seperate', ' councill', ' seper', '其它', '其它问题', ' ``(', ' everytime', ' limburg', ' recieved']
+  L28 logit ['垒', '底蕴', '让人们', '直到', '有一天', 'jh', 'cop', ' сохр', '真正做到', '抵']
+  L35 J     [' councill', ' seperate', ' seper', '部份', '其它', ' recieved', ' everytime', ' alot', ' lenght', '其它问题']
+  L35 logit ['我都', '直到', '_extent', '�建', 'ogh', '梢', 'lh', '都不', '为止', '缀']
+  L41 J     [' seperate', ' seper', ' wich', ' recieved', ' alot', ' everytime', ' lenght', ' disappe', '其它', ' atleast']
+  L41 logit ['我都', '.setBorder', ' until', '高潮', 'ubs', ' Söz', '刭', '�建', '学校的', 'unes']
+  L47 J     ['1', '2', '3', '.', '7', '4', '6', '.\n', '5', '8']
+  L47 logit ['我都', '预定', '市政府', '我市', ' until', ' Suff', '都很', '留言板', '�建', '市中心']
+
+### typo-people (intermediates ['people'])
+  L28 J     ['e', ' ...\r\n', 'a', '很多', ' �', ' who', ' \r\r\n', '甚至', ' ...\\', 'o']
+  L28 logit ['海内外', '棚', '执法', '场面', '潜', '围', '窟', '代表大会', 'FieldValue', ' masses']
+  L35 J     ['e', ' .\r\n', ' \r\n', ' who', 'a', 'y', '\u3000', ' seperate', ' seper', ' \r\r\n']
+  L35 logit ['代表大会', '摩', '-al', '因为你', 'ся', '侔', '窟', 'Controllers', '卫生', ' Hogan']
+  L41 J     ['1', '2', '0', '3', '5', '9', '4', '8', '6', '7']
+  L41 logit ['ся', '各行各业', 'BAT', '代表大会', '.Listener', '侔', '三四', '竞价', '鞫', 'NotFoundError']
+  L47 J     ['____', '.\n', '.', ' ____', '.\n\n', '1', '2', ' wich', '0', '，']
+  L47 logit ['充满了', '-liter', 'QueryString', '各行各业', ' Phrase', '因为你', ' anticipation', 'in', '可以说是', '欣赏']

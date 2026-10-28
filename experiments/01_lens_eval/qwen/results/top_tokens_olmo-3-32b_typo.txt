@@ -1,0 +1,81 @@
+olmo-3-32b, typo: top-10 tokens of each lens
+
+### typo-language (intermediates ['language'])
+  L28 J     [' english', ' language', '.', ' ,', ' English', ' ______', ' which', ' "', ' languages', ',']
+  L28 logit [' compulsory', ' mandatory', ' proficiency', ' flu', ' languages', ' taught', ' proficient', ' choice', ' fluent', ' Mandarin']
+  L35 J     [' languages', ' besides', ' Languages', ' language', ' english', ' Language', ' lang', ' flu', ' English', ' spanish']
+  L35 logit [' languages', ' besides', ' flu', ' proficiency', 'Languages', ' Languages', ' fluent', 'languages', ' language', ' foreign']
+  L41 J     [' languages', ' flu', ' besides', ' language', ' Languages', ' lang', ' english', ' which', ' fluent', ' English']
+  L41 logit [' flu', ' besides', ' languages', ' proficiency', ' proficient', ' fluent', ' foreign', ' before', ' Besides', ' spoken']
+  L47 J     [' besides', ' before', ' flu', ' aside', ' during', ' languages', ' spoken', '.', ' which', ' because']
+  L47 logit [' besides', ' flu', ' before', ' proficiency', ' chosen', ' fluent', ' proficient', ' Besides', ' spoken', ' foreign']
+
+### typo-government (intermediates ['government'])
+  L28 J     [' Canada', ' announced', ' announcement', ' Minister', ' Canadian', ' announce', ' Federal', ' seper', 'Canada', '.\n']
+  L28 logit [' announced', ' announcement', "'s", ' announce', ' announcing', ' Canada', ' agencies', ' officials', 'Canada', '.ca']
+  L35 J     [' Canada', ' announcement', ' announced', ' Canadian', ' canada', ' Minister', ' announce', 'Canada', ' announcing', ' seper']
+  L35 logit ["'s", ' Canada', ' announcement', ' agencies', ' announced', ' agency', ' ministers', ' announce', ' minister', ' Canadian']
+  L41 J     [' Canada', ' which', ' Canadian', ' Minister', ' wich', ' canada', 'which', '.\n', ' minister', 'Canada']
+  L41 logit ["'s", ' Canada', ' agency', ' which', ' agencies', ' ministry', ' amid', ' Canadian', ' minister', '’s']
+  L47 J     [' Minister', ' after', ' which', '.\n', ' ahead', ' wich', ' Canada', ' amid', ' minister', ' officials']
+  L47 logit [' amid', ' ahead', "'s", ' after', ' agency', ' agencies', ' ministry', ' minister', 'after', ' which']
+
+### typo-across (intermediates ['across'])
+  L28 J     [' seper', ' recieved', ' teh', ' seperate', ' walk', ' atleast', ' wich', ' upto', ' her', ' opp']
+  L28 logit ['walk', ' walked', ' slowly', ' walk', 'ed', ' door', 'stre', ' room', ' her', ' shaky']
+  L35 J     [' room', ' Room', ' seper', ' hallway', ' walk', ' seperate', ' recieved', ' rooms', ' teh', ' hall']
+  L35 logit [' room', ' Room', 'walk', 'room', ' walk', ' campus', ' ROOM', ' aisle', ' rooms', 'Room']
+  L41 J     [' room', ' Room', ' hallway', 'room', ' street', ' rooms', ' hotel', ' hall', ' town', 'Room']
+  L41 logit [' room', ' Room', 'room', ' hall', 'Room', ' rooms', ' ROOM', ' campus', ' hallway', ' aisle']
+  L47 J     [' room', ' hallway', ' campus', ' courtyard', ' hall', ' floor', ' Room', ' street', ' town', ' sidewalk']
+  L47 logit [' room', ' campus', ' hall', ' hallway', ' Room', ' town', ' floor', 'room', ' aisle', ' lobby']
+
+### typo-search (intermediates ['search'])
+  L28 J     [' teh', ' sucess', ' wich', ' google', ' recieved', ' alot', ' seper', ' succesfully', ' seperate', ' tras']
+  L28 logit [' button', ' search', '/search', '(search', 'ť', ' again', ' teh', ' result', ' query', ' results']
+  L35 J     [' search', ' teh', ' google', ' Search', ' .', ' button', '/search', ' sucess', ' wich', ' ..']
+  L35 logit [' search', ' button', ' again', '/search', '(search', ' searches', ' Search', ' searched', 'again', '(Search']
+  L41 J     [' google', ' button', ' search', ' teh', ' Search', ' again', '/search', ' .', '....', ' Google']
+  L41 logit [' button', ' again', ' search', 'again', ' engine', 'button', ' Again', ' google', '/search', 'Again']
+  L47 J     [' .', ' google', ' again', ' button', '.', ' teh', ' Again', ' search', ' Google', 'again']
+  L47 logit [' again', ' button', '.', 'again', ' Again', ' hoping', 'Again', ' expecting', ' engine', ' search']
+
+### typo-address (intermediates ['address'])
+  L28 J     [' adress', ' informations', ' please', ' wich', ' seper', ' atleast', ' seperate', ' Please', ' lenght', ' (']
+  L28 logit [' adress', ' informations', ' please', 'please', '(es', 'your', ' Please', 'Please', 'adress', ' below']
+  L35 J     [' adress', ' informations', ' below', ' wich', ' please', ' here', ' !\n\n', ' lenght', ' address', 'adress']
+  L35 logit [' below', ' adress', ' informations', 'adress', 'below', ' address', '(es', 'here', ' next', ' please']
+  L41 J     [' adress', ' informations', ' please', ' below', ' wich', ' here', 'adress', 'here', ' Please', ' lenght']
+  L41 logit [' below', ' please', ' here', ' adress', ' informations', ' address', 'here', ' on', ' Please', ' in']
+  L47 J     [' adress', ' below', ' informations', ' here', ' please', ' Below', 'below', ' wich', ' underneath', ' Please']
+  L47 logit [' below', ' here', ' on', ' clearly', ' please', ' adress', 'below', ' Below', ' in', ' informations']
+
+### typo-because (intermediates ['because'])
+  L28 J     [' ______', '?\n\n\n', ' delays', '?\n\n\n\n', ' _______,', ' ___', ' delay', '???\n\n', ' ____', ' he']
+  L28 logit [' he', ' delays', ' tard', ' ______', ' delay', ' traffic', ' overs', ' clocks', ' ___', 'he']
+  L35 J     [' traffic', ' Traffic', 'traffic', 'Traffic', ' ______', ' ___', ' parking', ' ____', ' congestion', ' tard']
+  L35 logit [' traffic', ' Traffic', 'Traffic', 'traffic', '_traffic', ' congestion', ' overs', ' traf', ' traff', ' delays']
+  L41 J     [' traffic', ' Traffic', 'traffic', 'Traffic', ' congestion', ' ______', ' ___', '_traffic', ' he', ' _____']
+  L41 logit [' traffic', ' Traffic', 'Traffic', 'traffic', ' congestion', '_traffic', ' traff', ' he', ' traf', ' congest']
+  L47 J     [' traffic', 'traffic', ' Traffic', ' he', 'Traffic', ' congestion', ' traf', ' ______', ' heavy', ' traff']
+  L47 logit [' traffic', ' he', ' Traffic', 'traffic', 'Traffic', ' traff', ' congestion', ' heavy', ' traf', '_traffic']
+
+### typo-until (intermediates ['until'])
+  L28 J     [' midnight', ' atleast', ' library', ' Library', ' seperate', ' upto', ' recieved', ' nights', ' christmas', ' tonight']
+  L28 logit [' midnight', ' library', ' Library', 'library', 'Library', ' librarian', ' dusk', ' late', '_library', 'ibrary']
+  L35 J     [' midnight', ' Midnight', ' late', ' bedtime', ' nightly', ' noon', ' night', ' dusk', ' atleast', ' tonight']
+  L35 logit [' midnight', ' late', ' Midnight', ' bedtime', ' dusk', ' closing', 'late', ' library', ' Late', ' noon']
+  L41 J     [' midnight', ' Midnight', ' closing', ' bedtime', ' late', ' Closing', ' noon', ' closure', ' Friday', ' closes']
+  L41 logit [' midnight', ' Midnight', ' closing', ' late', ' bedtime', ' Closing', ' closure', ' closes', ' closed', 'Closing']
+  L47 J     [' midnight', ' Midnight', ' closing', ' bedtime', ' late', ' Closing', ' Friday', ' noon', ' Christmas', ' December']
+  L47 logit [' midnight', ' Midnight', ' closing', ' bedtime', ' late', ' Closing', ' cur', ' closure', ' closes', 'Closing']
+
+### typo-people (intermediates ['people'])
+  L28 J     [' crowd', ' who', ' crowds', ' watching', ' crowded', ' seper', ' wich', ' alot', ' seated', ' cheering']
+  L28 logit [' gathered', ' spectators', ' attendance', ' seated', ' watching', ' crowded', ' cheering', ' Attendance', ' chanting', ' stadium']
+  L35 J     [' cheering', ' watching', ' chanting', ' who', ' eager', ' attendance', ' crowd', ' wich', ' attending', ' seated']
+  L35 logit [' chanting', ' attendance', ' cheering', ' spectators', ' eager', ' watching', ' Attendance', ' attending', ' seated', ' stadium']
+  L41 J     [' cheering', ' watching', ' eager', ' chanting', ' who', ' screaming', ' spectators', ' shouting', ' attending', ' excited']
+  L41 logit [' cheering', ' chanting', ' watching', ' gathered', ' eager', ' spectators', ' attending', ' attendance', ' who', ' Attendance']
+  L47 J     [' cheering', ' watching', ' chanting', ' eager', ' screaming', ' cheered', ' shouting', ' crowded', ' who', ' yelling']
+  L47 logit [' cheering', ' chanting', ' watching', ' eager', ' screaming', ' who', ' shouting', ' cheered', ' gathered', ' cheer']
