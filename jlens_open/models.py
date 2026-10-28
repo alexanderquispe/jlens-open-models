@@ -104,6 +104,24 @@ MODELS = {
         "lens": "qwen3.6-27b/jpp/Salesforce-wikitext/Qwen3.6-27B_jpp_lens.pt",
         "dtype": torch.bfloat16,
     },
+    # Gemma 2 (final logit softcap) and Gemma 3 (multimodal, like Gemma 4); both have the 1 + weight norm gain.
+    # Gemma 2's weights are stored in float32 (109 GB to download) and loaded in bf16
+    "gemma-2-27b": {
+        "hf": "google/gemma-2-27b",
+        "lens": "gemma-2-27b/jlens/Salesforce-wikitext/gemma-2-27b_jacobian_lens.pt",
+        "dtype": torch.bfloat16,
+    },
+    "gemma-3-27b": {
+        "hf": "google/gemma-3-27b-pt",
+        "lens": "gemma-3-27b/jlens/Salesforce-wikitext/gemma-3-27b-pt_jacobian_lens.pt",
+        "dtype": torch.bfloat16,
+    },
+    # Mixture of experts (256 experts, 10B active), with only a J++ lens. 250 GB in bf16: three H200s
+    "qwen3.5-122b-a10b-jpp": {
+        "hf": "Qwen/Qwen3.5-122B-A10B",
+        "lens": "qwen3.5-122b-a10b/jpp/Salesforce-wikitext/Qwen3.5-122B-A10B_jpp_lens.pt",
+        "dtype": torch.bfloat16,
+    },
 }
 
 
