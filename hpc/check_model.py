@@ -11,7 +11,7 @@ import torch
 from jlens_open.models import LensModel
 
 lm = LensModel(sys.argv[1])
-gain = "weight" if torch.equal(lm.gain, lm.norm.weight.float()) else "1 + weight"
+gain = "weight" if torch.equal(lm.gain, lm.norm.weight.float().to(lm.device)) else "1 + weight"
 print(f"{lm.name}: {lm.n_blocks} blocks, d = {lm.d}, final norm gain = {gain}, softcap = {lm.softcap}, "
       f"lens averaged over {lm.n_lens_prompts} prompts")
 
