@@ -88,8 +88,10 @@ experiments keep) and returns everything on the first, so the experiments run un
 (141 GB in bf16, 21 GB of lens) on two H200s:
 
 ```bash
-sbatch --time=16:00:00 --gres=gpu:nvidia_h200:2 --mem=256G hpc/gpu.sbatch bash run_all.sh llama3.3-70b-it
+sbatch --time=16:00:00 --gres=gpu:nvidia_h200:2 --mem=256G hpc/gpu.sbatch env PYTHON=.venv-tf5/bin/python PYTHONPATH=. bash run_all.sh llama3.3-70b-it
 ```
+
+`.venv-tf5` needs `accelerate` too: `uv pip install --python .venv-tf5/bin/python accelerate==1.15.0`.
 
 The blocks run one after another, so two GPUs are not faster than one; they only add memory.
 

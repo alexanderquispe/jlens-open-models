@@ -57,8 +57,8 @@ MODELS = {
         "lens": "olmo-3-1125-32b/jlens/Salesforce-wikitext/Olmo-3-1125-32B_jacobian_lens.pt",
         "dtype": torch.bfloat16,
     },
-    # transformers 4.43 is enough. 141 GB in bf16, plus 21 GB of lens in float32: two H200s (LensModel splits
-    # the blocks when it sees several GPUs)
+    # Also needs transformers 5: its tokenizer.json is too new for the tokenizers that 4.43 pins. 141 GB in bf16,
+    # plus 21 GB of lens in float32: two H200s (LensModel splits the blocks when it sees several GPUs)
     "llama3.3-70b-it": {
         "hf": "meta-llama/Llama-3.3-70B-Instruct",
         "lens": "llama3.3-70b-it/jlens/Salesforce-wikitext/Llama-3.3-70B-Instruct_jacobian_lens.pt",
