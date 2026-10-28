@@ -1,0 +1,241 @@
+position,lens,layer,median,top10
+capital,J-lens,0,90607.5,0.0
+capital,J-lens,1,71776.5,0.0
+capital,J-lens,2,137897.0,0.0
+capital,J-lens,3,21423.5,0.0
+capital,J-lens,4,35176.0,0.005813953488372093
+capital,J-lens,5,86126.0,0.0
+capital,J-lens,6,122913.0,0.0
+capital,J-lens,7,63957.5,0.0
+capital,J-lens,8,2734.5,0.040697674418604654
+capital,J-lens,9,51690.5,0.0
+capital,J-lens,10,809.0,0.01744186046511628
+capital,J-lens,11,204.5,0.08139534883720931
+capital,J-lens,12,589.0,0.03488372093023256
+capital,J-lens,13,6966.0,0.0
+capital,J-lens,14,5714.5,0.0
+capital,J-lens,15,166.0,0.13372093023255813
+capital,J-lens,16,9.0,0.5174418604651163
+capital,J-lens,17,10.5,0.5
+capital,J-lens,18,101.0,0.12790697674418605
+capital,J-lens,19,18.5,0.36046511627906974
+capital,J-lens,20,3.0,0.686046511627907
+capital,J-lens,21,47.5,0.20930232558139536
+capital,J-lens,22,847.5,0.01744186046511628
+capital,J-lens,23,1694.0,0.011627906976744186
+capital,J-lens,24,38.5,0.1569767441860465
+capital,J-lens,25,2.0,0.8604651162790697
+capital,J-lens,26,2.0,0.8895348837209303
+capital,J-lens,27,2.0,0.8837209302325582
+capital,J-lens,28,2.0,0.9127906976744186
+capital,J-lens,29,2.0,0.9011627906976745
+capital,J-lens,30,2.0,0.9011627906976745
+capital,J-lens,31,2.0,0.9069767441860465
+capital,J-lens,32,1.0,0.8953488372093024
+capital,J-lens,33,1.0,0.9186046511627907
+capital,J-lens,34,1.0,0.9418604651162791
+capital,J-lens,35,1.0,0.9418604651162791
+capital,J-lens,36,1.0,0.936046511627907
+capital,J-lens,37,1.0,0.9127906976744186
+capital,J-lens,38,2.0,0.8895348837209303
+capital,J-lens,39,39.5,0.08139534883720931
+capital,J-lens,40,141.0,0.0
+capital,J-lens,41,28.0,0.10465116279069768
+capital,J-lens,42,94.5,0.01744186046511628
+capital,J-lens,43,63.0,0.05813953488372093
+capital,J-lens,44,58.5,0.14534883720930233
+capital,J-lens,45,36.5,0.23255813953488372
+capital,J-lens,46,31.0,0.27906976744186046
+capital,J-lens,47,14.5,0.42441860465116277
+capital,J-lens,48,11.0,0.48255813953488375
+capital,J-lens,49,5.0,0.6918604651162791
+capital,J-lens,50,2.0,0.8430232558139535
+capital,J-lens,51,1.0,0.8546511627906976
+capital,J-lens,52,1.0,0.9593023255813954
+capital,J-lens,53,1.0,0.9418604651162791
+capital,J-lens,54,1.0,0.9651162790697675
+capital,J-lens,55,1.0,0.9534883720930233
+capital,J-lens,56,1.0,0.9767441860465116
+capital,J-lens,57,2.0,0.9534883720930233
+capital,J-lens,58,3.0,0.8662790697674418
+capital,J-lens,59,21.5,0.11627906976744186
+capital,logit lens,0,12715.5,0.0
+capital,logit lens,1,101772.0,0.32558139534883723
+capital,logit lens,2,97698.5,0.32558139534883723
+capital,logit lens,3,84193.0,0.3023255813953488
+capital,logit lens,4,79486.5,0.28488372093023256
+capital,logit lens,5,76782.5,0.10465116279069768
+capital,logit lens,6,76278.5,0.023255813953488372
+capital,logit lens,7,97583.5,0.0
+capital,logit lens,8,109025.5,0.0
+capital,logit lens,9,113230.5,0.0
+capital,logit lens,10,119249.5,0.0
+capital,logit lens,11,121989.0,0.0
+capital,logit lens,12,66890.0,0.0
+capital,logit lens,13,70830.0,0.0
+capital,logit lens,14,71853.5,0.0
+capital,logit lens,15,73664.5,0.0
+capital,logit lens,16,80770.0,0.0
+capital,logit lens,17,77717.5,0.0
+capital,logit lens,18,79105.0,0.0
+capital,logit lens,19,88494.0,0.0
+capital,logit lens,20,83855.5,0.0
+capital,logit lens,21,85208.5,0.0
+capital,logit lens,22,83313.0,0.0
+capital,logit lens,23,88798.0,0.0
+capital,logit lens,24,77160.0,0.0
+capital,logit lens,25,90055.0,0.0
+capital,logit lens,26,82122.5,0.0
+capital,logit lens,27,59948.5,0.0
+capital,logit lens,28,43464.5,0.0
+capital,logit lens,29,72475.5,0.0
+capital,logit lens,30,46330.0,0.0
+capital,logit lens,31,58119.5,0.0
+capital,logit lens,32,80740.5,0.0
+capital,logit lens,33,92367.5,0.0
+capital,logit lens,34,77201.0,0.0
+capital,logit lens,35,86803.5,0.0
+capital,logit lens,36,83498.5,0.0
+capital,logit lens,37,102841.5,0.0
+capital,logit lens,38,88704.5,0.0
+capital,logit lens,39,22017.0,0.0
+capital,logit lens,40,19196.5,0.0
+capital,logit lens,41,429.0,0.0
+capital,logit lens,42,758.5,0.0
+capital,logit lens,43,149.5,0.029069767441860465
+capital,logit lens,44,89.0,0.06395348837209303
+capital,logit lens,45,69.0,0.09302325581395349
+capital,logit lens,46,43.5,0.09883720930232558
+capital,logit lens,47,47.0,0.12209302325581395
+capital,logit lens,48,34.0,0.16279069767441862
+capital,logit lens,49,18.5,0.38372093023255816
+capital,logit lens,50,7.0,0.5813953488372093
+capital,logit lens,51,4.5,0.6046511627906976
+capital,logit lens,52,2.0,0.7965116279069767
+capital,logit lens,53,2.0,0.8081395348837209
+capital,logit lens,54,1.0,0.8837209302325582
+capital,logit lens,55,1.0,0.877906976744186
+capital,logit lens,56,1.0,0.8953488372093024
+capital,logit lens,57,2.0,0.9069767441860465
+capital,logit lens,58,2.0,0.7267441860465116
+capital,logit lens,59,21.5,0.11627906976744186
+last,J-lens,0,209751.0,0.0
+last,J-lens,1,189847.0,0.0
+last,J-lens,2,181351.5,0.0
+last,J-lens,3,130348.0,0.0
+last,J-lens,4,175276.0,0.0
+last,J-lens,5,150768.0,0.0
+last,J-lens,6,182663.0,0.0
+last,J-lens,7,138286.0,0.0
+last,J-lens,8,62856.0,0.0
+last,J-lens,9,59408.0,0.0
+last,J-lens,10,47621.5,0.0
+last,J-lens,11,31802.0,0.0
+last,J-lens,12,48368.5,0.0
+last,J-lens,13,55111.0,0.0
+last,J-lens,14,51112.5,0.0
+last,J-lens,15,40596.0,0.0
+last,J-lens,16,21383.0,0.0
+last,J-lens,17,25355.0,0.0
+last,J-lens,18,17149.0,0.0
+last,J-lens,19,2874.0,0.005813953488372093
+last,J-lens,20,3823.0,0.005813953488372093
+last,J-lens,21,9487.5,0.0
+last,J-lens,22,18014.5,0.0
+last,J-lens,23,12849.5,0.0
+last,J-lens,24,4332.0,0.0
+last,J-lens,25,720.0,0.023255813953488372
+last,J-lens,26,441.5,0.03488372093023256
+last,J-lens,27,389.0,0.023255813953488372
+last,J-lens,28,406.0,0.011627906976744186
+last,J-lens,29,414.0,0.023255813953488372
+last,J-lens,30,76.0,0.1744186046511628
+last,J-lens,31,52.5,0.20930232558139536
+last,J-lens,32,56.0,0.20930232558139536
+last,J-lens,33,43.5,0.27325581395348836
+last,J-lens,34,64.5,0.20348837209302326
+last,J-lens,35,105.5,0.13372093023255813
+last,J-lens,36,191.0,0.0
+last,J-lens,37,223.5,0.005813953488372093
+last,J-lens,38,627.5,0.0
+last,J-lens,39,835.0,0.0
+last,J-lens,40,2204.0,0.0
+last,J-lens,41,1998.5,0.0
+last,J-lens,42,971.0,0.0
+last,J-lens,43,538.5,0.0
+last,J-lens,44,445.5,0.005813953488372093
+last,J-lens,45,375.5,0.011627906976744186
+last,J-lens,46,269.0,0.01744186046511628
+last,J-lens,47,218.5,0.023255813953488372
+last,J-lens,48,185.0,0.046511627906976744
+last,J-lens,49,136.5,0.11046511627906977
+last,J-lens,50,72.0,0.22674418604651161
+last,J-lens,51,29.0,0.3081395348837209
+last,J-lens,52,11.0,0.4941860465116279
+last,J-lens,53,15.5,0.4186046511627907
+last,J-lens,54,9.0,0.5174418604651163
+last,J-lens,55,9.5,0.5174418604651163
+last,J-lens,56,66.0,0.0872093023255814
+last,J-lens,57,38.0,0.1686046511627907
+last,J-lens,58,18.0,0.3372093023255814
+last,J-lens,59,74.5,0.0
+last,logit lens,0,120913.5,0.0
+last,logit lens,1,1.0,0.5290697674418605
+last,logit lens,2,1.0,0.5058139534883721
+last,logit lens,3,31759.5,0.4186046511627907
+last,logit lens,4,30293.0,0.4069767441860465
+last,logit lens,5,49849.0,0.1686046511627907
+last,logit lens,6,56264.0,0.03488372093023256
+last,logit lens,7,56422.0,0.0
+last,logit lens,8,66331.0,0.005813953488372093
+last,logit lens,9,69387.5,0.0
+last,logit lens,10,79571.0,0.0
+last,logit lens,11,74887.5,0.0
+last,logit lens,12,37322.5,0.0
+last,logit lens,13,38750.0,0.0
+last,logit lens,14,38489.0,0.0
+last,logit lens,15,40812.5,0.0
+last,logit lens,16,46519.0,0.0
+last,logit lens,17,54022.5,0.0
+last,logit lens,18,54596.0,0.0
+last,logit lens,19,51320.5,0.0
+last,logit lens,20,45274.5,0.0
+last,logit lens,21,45524.0,0.0
+last,logit lens,22,47343.5,0.0
+last,logit lens,23,52218.5,0.0
+last,logit lens,24,48207.0,0.0
+last,logit lens,25,40292.5,0.0
+last,logit lens,26,54311.5,0.0
+last,logit lens,27,78180.5,0.0
+last,logit lens,28,65830.5,0.0
+last,logit lens,29,87525.0,0.0
+last,logit lens,30,59129.0,0.0
+last,logit lens,31,90790.5,0.0
+last,logit lens,32,124000.5,0.0
+last,logit lens,33,133778.0,0.0
+last,logit lens,34,123335.5,0.0
+last,logit lens,35,152008.0,0.0
+last,logit lens,36,153448.0,0.0
+last,logit lens,37,172539.5,0.0
+last,logit lens,38,176617.0,0.0
+last,logit lens,39,93369.5,0.0
+last,logit lens,40,104894.5,0.0
+last,logit lens,41,63028.0,0.0
+last,logit lens,42,15221.0,0.0
+last,logit lens,43,2112.0,0.0
+last,logit lens,44,1550.5,0.0
+last,logit lens,45,1335.0,0.0
+last,logit lens,46,679.0,0.0
+last,logit lens,47,741.0,0.0
+last,logit lens,48,618.5,0.01744186046511628
+last,logit lens,49,1035.5,0.011627906976744186
+last,logit lens,50,249.0,0.09883720930232558
+last,logit lens,51,117.0,0.1744186046511628
+last,logit lens,52,15.5,0.43023255813953487
+last,logit lens,53,21.5,0.3372093023255814
+last,logit lens,54,11.0,0.47674418604651164
+last,logit lens,55,14.0,0.43023255813953487
+last,logit lens,56,52.5,0.1686046511627907
+last,logit lens,57,40.5,0.2616279069767442
+last,logit lens,58,20.0,0.3313953488372093
+last,logit lens,59,74.5,0.0
