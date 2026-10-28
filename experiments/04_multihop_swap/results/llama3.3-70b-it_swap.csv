@@ -1,0 +1,2241 @@
+layer,position,patch,success,changed,patch_norm,A in J-space top16
+0,last,"J-lens swap, alpha=0.5",0.0,0.0,0.18169509,0.0
+0,last,"J-lens swap, alpha=1.0",0.0,0.0,0.36339018,0.0
+0,last,"J-lens swap, alpha=2.0",0.0,0.0,0.72678035,0.0
+0,last,"logit lens swap, alpha=0.5",0.0,0.0,0.21164332,0.0
+0,last,"logit lens swap, alpha=1.0",0.0,0.0,0.42328665,0.0
+0,last,"logit lens swap, alpha=2.0",0.0,0.0,0.8465733,0.0
+0,last,"random swap, alpha=0.5",0.0,0.0,0.2264973,0.0
+0,last,"random swap, alpha=1.0",0.0,0.0,0.4529946,0.0
+0,last,"random swap, alpha=2.0",0.0,0.0,0.9059892,0.0
+0,last,coordinate swap x1,0.0,0.0,0.0,0.0
+0,last,coordinate swap x4,0.0,0.0,0.0,0.0
+0,last,centroid swap,0.0,0.0,0.040648267,0.0
+0,last,"centroid swap, J-lens span part",0.0,0.0,0.00071992195,0.0
+0,last,"centroid swap, outside J-lens span",0.0,0.0,0.04064038,0.0
+0,capital,"J-lens swap, alpha=0.5",0.0,0.0,0.5078861,0.011764705882352941
+0,capital,"J-lens swap, alpha=1.0",0.0,0.00784313725490196,1.0157722,0.011764705882352941
+0,capital,"J-lens swap, alpha=2.0",0.0803921568627451,0.22941176470588234,2.0315444,0.011764705882352941
+0,capital,"logit lens swap, alpha=0.5",0.0,0.0,0.5915994,0.011764705882352941
+0,capital,"logit lens swap, alpha=1.0",0.00784313725490196,0.00980392156862745,1.1831988,0.011764705882352941
+0,capital,"logit lens swap, alpha=2.0",0.21568627450980393,0.2803921568627451,2.3663976,0.011764705882352941
+0,capital,"random swap, alpha=0.5",0.0,0.0,0.6331202,0.011764705882352941
+0,capital,"random swap, alpha=1.0",0.0,0.0,1.2662404,0.011764705882352941
+0,capital,"random swap, alpha=2.0",0.0,0.01568627450980392,2.5324807,0.011764705882352941
+0,capital,coordinate swap x1,0.0,0.0,0.000999234,0.011764705882352941
+0,capital,coordinate swap x4,0.0,0.0,0.003996936,0.011764705882352941
+0,capital,centroid swap,0.8,0.8862745098039215,1.280624,0.011764705882352941
+0,capital,"centroid swap, J-lens span part",0.0,0.0,0.040301908,0.011764705882352941
+0,capital,"centroid swap, outside J-lens span",0.7980392156862746,0.8823529411764706,1.279861,0.011764705882352941
+1,last,"J-lens swap, alpha=0.5",0.0,0.0,0.21178745,0.0
+1,last,"J-lens swap, alpha=1.0",0.0,0.0,0.4235749,0.0
+1,last,"J-lens swap, alpha=2.0",0.0,0.0,0.8471498,0.0
+1,last,"logit lens swap, alpha=0.5",0.0,0.0,0.2476391,0.0
+1,last,"logit lens swap, alpha=1.0",0.0,0.0,0.4952782,0.0
+1,last,"logit lens swap, alpha=2.0",0.0,0.0,0.9905564,0.0
+1,last,"random swap, alpha=0.5",0.0,0.0,0.26501942,0.0
+1,last,"random swap, alpha=1.0",0.0,0.0,0.53003883,0.0
+1,last,"random swap, alpha=2.0",0.0,0.0,1.0600777,0.0
+1,last,coordinate swap x1,0.0,0.0,0.0,0.0
+1,last,coordinate swap x4,0.0,0.0,0.0,0.0
+1,last,centroid swap,0.0,0.0,0.06850544,0.0
+1,last,"centroid swap, J-lens span part",0.0,0.0,0.0013912866,0.0
+1,last,"centroid swap, outside J-lens span",0.0,0.0,0.06848689,0.0
+1,capital,"J-lens swap, alpha=0.5",0.0,0.0,0.5402503,0.029411764705882353
+1,capital,"J-lens swap, alpha=1.0",0.0,0.00980392156862745,1.0805006,0.029411764705882353
+1,capital,"J-lens swap, alpha=2.0",0.06666666666666667,0.25882352941176473,2.1610012,0.029411764705882353
+1,capital,"logit lens swap, alpha=0.5",0.0,0.0,0.6317046,0.029411764705882353
+1,capital,"logit lens swap, alpha=1.0",0.00980392156862745,0.011764705882352941,1.2634093,0.029411764705882353
+1,capital,"logit lens swap, alpha=2.0",0.20588235294117646,0.26666666666666666,2.5268185,0.029411764705882353
+1,capital,"random swap, alpha=0.5",0.0,0.0,0.67604023,0.029411764705882353
+1,capital,"random swap, alpha=1.0",0.0,0.0,1.3520805,0.029411764705882353
+1,capital,"random swap, alpha=2.0",0.0,0.00784313725490196,2.704161,0.029411764705882353
+1,capital,coordinate swap x1,0.0,0.0,0.003053868,0.029411764705882353
+1,capital,coordinate swap x4,0.0,0.0,0.012215472,0.029411764705882353
+1,capital,centroid swap,0.8921568627450981,0.9215686274509803,1.3580679,0.029411764705882353
+1,capital,"centroid swap, J-lens span part",0.0,0.0,0.043713365,0.029411764705882353
+1,capital,"centroid swap, outside J-lens span",0.8980392156862745,0.9215686274509803,1.3572363,0.029411764705882353
+2,last,"J-lens swap, alpha=0.5",0.0,0.0,0.26145625,0.0
+2,last,"J-lens swap, alpha=1.0",0.0,0.0,0.5229125,0.0
+2,last,"J-lens swap, alpha=2.0",0.0,0.0,1.045825,0.0
+2,last,"logit lens swap, alpha=0.5",0.0,0.0,0.30651066,0.0
+2,last,"logit lens swap, alpha=1.0",0.0,0.0,0.6130213,0.0
+2,last,"logit lens swap, alpha=2.0",0.0,0.0,1.2260426,0.0
+2,last,"random swap, alpha=0.5",0.0,0.0,0.3280228,0.0
+2,last,"random swap, alpha=1.0",0.0,0.0,0.6560456,0.0
+2,last,"random swap, alpha=2.0",0.0,0.0,1.3120912,0.0
+2,last,coordinate swap x1,0.0,0.0,0.0,0.0
+2,last,coordinate swap x4,0.0,0.0,0.0,0.0
+2,last,centroid swap,0.0,0.0,0.10799217,0.0
+2,last,"centroid swap, J-lens span part",0.0,0.0,0.0025368975,0.0
+2,last,"centroid swap, outside J-lens span",0.0,0.0,0.10795118,0.0
+2,capital,"J-lens swap, alpha=0.5",0.0,0.0,0.5898718,0.01764705882352941
+2,capital,"J-lens swap, alpha=1.0",0.00392156862745098,0.00784313725490196,1.1797436,0.01764705882352941
+2,capital,"J-lens swap, alpha=2.0",0.10588235294117647,0.2823529411764706,2.3594873,0.01764705882352941
+2,capital,"logit lens swap, alpha=0.5",0.0,0.0,0.6915191,0.01764705882352941
+2,capital,"logit lens swap, alpha=1.0",0.00980392156862745,0.00980392156862745,1.3830382,0.01764705882352941
+2,capital,"logit lens swap, alpha=2.0",0.22549019607843138,0.28823529411764703,2.7660763,0.01764705882352941
+2,capital,"random swap, alpha=0.5",0.0,0.0,0.7400526,0.01764705882352941
+2,capital,"random swap, alpha=1.0",0.0,0.0,1.4801052,0.01764705882352941
+2,capital,"random swap, alpha=2.0",0.00196078431372549,0.00196078431372549,2.9602103,0.01764705882352941
+2,capital,coordinate swap x1,0.0,0.0,0.0018261119,0.01764705882352941
+2,capital,coordinate swap x4,0.0,0.0,0.0073044477,0.01764705882352941
+2,capital,centroid swap,0.9274509803921569,0.9352941176470588,1.4723343,0.01764705882352941
+2,capital,"centroid swap, J-lens span part",0.0,0.0,0.043888804,0.01764705882352941
+2,capital,"centroid swap, outside J-lens span",0.9274509803921569,0.9352941176470588,1.4715639,0.01764705882352941
+3,last,"J-lens swap, alpha=0.5",0.0,0.0,0.33003736,0.0
+3,last,"J-lens swap, alpha=1.0",0.0,0.0,0.6600747,0.0
+3,last,"J-lens swap, alpha=2.0",0.0,0.0,1.3201494,0.0
+3,last,"logit lens swap, alpha=0.5",0.0,0.0,0.38819182,0.0
+3,last,"logit lens swap, alpha=1.0",0.0,0.0,0.77638364,0.0
+3,last,"logit lens swap, alpha=2.0",0.0,0.0,1.5527673,0.0
+3,last,"random swap, alpha=0.5",0.0,0.0,0.41543666,0.0
+3,last,"random swap, alpha=1.0",0.0,0.0,0.8308733,0.0
+3,last,"random swap, alpha=2.0",0.0,0.0,1.6617466,0.0
+3,last,coordinate swap x1,0.0,0.0,0.0,0.0
+3,last,coordinate swap x4,0.0,0.0,0.0,0.0
+3,last,centroid swap,0.0,0.0,0.12852044,0.0
+3,last,"centroid swap, J-lens span part",0.0,0.0,0.002637005,0.0
+3,last,"centroid swap, outside J-lens span",0.0,0.0,0.12848346,0.0
+3,capital,"J-lens swap, alpha=0.5",0.0,0.0,0.6476913,0.029411764705882353
+3,capital,"J-lens swap, alpha=1.0",0.013725490196078431,0.027450980392156862,1.2953826,0.029411764705882353
+3,capital,"J-lens swap, alpha=2.0",0.1607843137254902,0.32745098039215687,2.5907652,0.029411764705882353
+3,capital,"logit lens swap, alpha=0.5",0.0,0.0,0.76181823,0.029411764705882353
+3,capital,"logit lens swap, alpha=1.0",0.027450980392156862,0.027450980392156862,1.5236365,0.029411764705882353
+3,capital,"logit lens swap, alpha=2.0",0.28431372549019607,0.3509803921568627,3.047273,0.029411764705882353
+3,capital,"random swap, alpha=0.5",0.0,0.0,0.81528574,0.029411764705882353
+3,capital,"random swap, alpha=1.0",0.0,0.0,1.6305715,0.029411764705882353
+3,capital,"random swap, alpha=2.0",0.0,0.0,3.261143,0.029411764705882353
+3,capital,coordinate swap x1,0.0,0.0,0.004110891,0.029411764705882353
+3,capital,coordinate swap x4,0.0,0.0,0.016443564,0.029411764705882353
+3,capital,centroid swap,0.9294117647058824,0.9372549019607843,1.6133045,0.029411764705882353
+3,capital,"centroid swap, J-lens span part",0.0,0.0,0.051538743,0.029411764705882353
+3,capital,"centroid swap, outside J-lens span",0.9294117647058824,0.9372549019607843,1.6123261,0.029411764705882353
+4,last,"J-lens swap, alpha=0.5",0.0,0.0,0.42634466,0.0
+4,last,"J-lens swap, alpha=1.0",0.0,0.0,0.8526893,0.0
+4,last,"J-lens swap, alpha=2.0",0.0,0.00196078431372549,1.7053787,0.0
+4,last,"logit lens swap, alpha=0.5",0.0,0.0,0.50479424,0.0
+4,last,"logit lens swap, alpha=1.0",0.0,0.0,1.0095885,0.0
+4,last,"logit lens swap, alpha=2.0",0.0,0.0,2.019177,0.0
+4,last,"random swap, alpha=0.5",0.0,0.0,0.5402227,0.0
+4,last,"random swap, alpha=1.0",0.0,0.0,1.0804454,0.0
+4,last,"random swap, alpha=2.0",0.0,0.0,2.1608908,0.0
+4,last,coordinate swap x1,0.0,0.0,0.0,0.0
+4,last,coordinate swap x4,0.0,0.0,0.0,0.0
+4,last,centroid swap,0.0,0.0,0.23743357,0.0
+4,last,"centroid swap, J-lens span part",0.0,0.0,0.0036267673,0.0
+4,last,"centroid swap, outside J-lens span",0.0,0.0,0.23739298,0.0
+4,capital,"J-lens swap, alpha=0.5",0.0,0.0,0.6922569,0.06470588235294118
+4,capital,"J-lens swap, alpha=1.0",0.013725490196078431,0.021568627450980392,1.3845139,0.06470588235294118
+4,capital,"J-lens swap, alpha=2.0",0.15490196078431373,0.3333333333333333,2.7690277,0.06470588235294118
+4,capital,"logit lens swap, alpha=0.5",0.0,0.0,0.8196357,0.06470588235294118
+4,capital,"logit lens swap, alpha=1.0",0.0196078431372549,0.0196078431372549,1.6392714,0.06470588235294118
+4,capital,"logit lens swap, alpha=2.0",0.2372549019607843,0.3137254901960784,3.2785428,0.06470588235294118
+4,capital,"random swap, alpha=0.5",0.0,0.0,0.87716097,0.06470588235294118
+4,capital,"random swap, alpha=1.0",0.0,0.0,1.7543219,0.06470588235294118
+4,capital,"random swap, alpha=2.0",0.0,0.0,3.5086439,0.06470588235294118
+4,capital,coordinate swap x1,0.0,0.0,0.008093351,0.06470588235294118
+4,capital,coordinate swap x4,0.0,0.0,0.032373402,0.06470588235294118
+4,capital,centroid swap,0.9352941176470588,0.9431372549019608,1.7144308,0.06470588235294118
+4,capital,"centroid swap, J-lens span part",0.0,0.0,0.059388515,0.06470588235294118
+4,capital,"centroid swap, outside J-lens span",0.9352941176470588,0.9431372549019608,1.7131859,0.06470588235294118
+5,last,"J-lens swap, alpha=0.5",0.0,0.0,0.48906812,0.0
+5,last,"J-lens swap, alpha=1.0",0.0,0.0,0.97813624,0.0
+5,last,"J-lens swap, alpha=2.0",0.0,0.0,1.9562725,0.0
+5,last,"logit lens swap, alpha=0.5",0.0,0.0,0.58675927,0.0
+5,last,"logit lens swap, alpha=1.0",0.0,0.0,1.1735185,0.0
+5,last,"logit lens swap, alpha=2.0",0.0,0.0,2.347037,0.0
+5,last,"random swap, alpha=0.5",0.0,0.0,0.62794036,0.0
+5,last,"random swap, alpha=1.0",0.0,0.0,1.2558807,0.0
+5,last,"random swap, alpha=2.0",0.0,0.0,2.5117614,0.0
+5,last,coordinate swap x1,0.0,0.0,0.0,0.0
+5,last,coordinate swap x4,0.0,0.0,0.0,0.0
+5,last,centroid swap,0.0,0.0,0.2574942,0.0
+5,last,"centroid swap, J-lens span part",0.0,0.0,0.00438085,0.0
+5,last,"centroid swap, outside J-lens span",0.0,0.0,0.2574394,0.0
+5,capital,"J-lens swap, alpha=0.5",0.0,0.0,0.7378197,0.08235294117647059
+5,capital,"J-lens swap, alpha=1.0",0.01568627450980392,0.027450980392156862,1.4756393,0.08235294117647059
+5,capital,"J-lens swap, alpha=2.0",0.16470588235294117,0.33725490196078434,2.9512787,0.08235294117647059
+5,capital,"logit lens swap, alpha=0.5",0.0,0.0,0.8851988,0.08235294117647059
+5,capital,"logit lens swap, alpha=1.0",0.011764705882352941,0.011764705882352941,1.7703975,0.08235294117647059
+5,capital,"logit lens swap, alpha=2.0",0.1588235294117647,0.19215686274509805,3.540795,0.08235294117647059
+5,capital,"random swap, alpha=0.5",0.0,0.0,0.9473256,0.08235294117647059
+5,capital,"random swap, alpha=1.0",0.0,0.0,1.8946512,0.08235294117647059
+5,capital,"random swap, alpha=2.0",0.0,0.0,3.7893023,0.08235294117647059
+5,capital,coordinate swap x1,0.0,0.0,0.01398466,0.08235294117647059
+5,capital,coordinate swap x4,0.0,0.0,0.05593864,0.08235294117647059
+5,capital,centroid swap,0.9392156862745098,0.9470588235294117,1.8328359,0.08235294117647059
+5,capital,"centroid swap, J-lens span part",0.0,0.0,0.07765295,0.08235294117647059
+5,capital,"centroid swap, outside J-lens span",0.9411764705882353,0.9490196078431372,1.8308816,0.08235294117647059
+6,last,"J-lens swap, alpha=0.5",0.0,0.0,0.535474,0.0
+6,last,"J-lens swap, alpha=1.0",0.0,0.0,1.070948,0.0
+6,last,"J-lens swap, alpha=2.0",0.0,0.0,2.141896,0.0
+6,last,"logit lens swap, alpha=0.5",0.0,0.0,0.64953566,0.0
+6,last,"logit lens swap, alpha=1.0",0.0,0.0,1.2990713,0.0
+6,last,"logit lens swap, alpha=2.0",0.0,0.0,2.5981426,0.0
+6,last,"random swap, alpha=0.5",0.0,0.0,0.6951227,0.0
+6,last,"random swap, alpha=1.0",0.0,0.0,1.3902454,0.0
+6,last,"random swap, alpha=2.0",0.0,0.0,2.7804909,0.0
+6,last,coordinate swap x1,0.0,0.0,0.0,0.0
+6,last,coordinate swap x4,0.0,0.0,0.0,0.0
+6,last,centroid swap,0.0,0.0,0.27044678,0.0
+6,last,"centroid swap, J-lens span part",0.0,0.0,0.005093197,0.0
+6,last,"centroid swap, outside J-lens span",0.0,0.0,0.2703785,0.0
+6,capital,"J-lens swap, alpha=0.5",0.0,0.0,0.7746961,0.17647058823529413
+6,capital,"J-lens swap, alpha=1.0",0.021568627450980392,0.06862745098039216,1.5493922,0.17647058823529413
+6,capital,"J-lens swap, alpha=2.0",0.2019607843137255,0.4372549019607843,3.0987844,0.17647058823529413
+6,capital,"logit lens swap, alpha=0.5",0.0,0.0,0.9397146,0.17647058823529413
+6,capital,"logit lens swap, alpha=1.0",0.013725490196078431,0.013725490196078431,1.8794292,0.17647058823529413
+6,capital,"logit lens swap, alpha=2.0",0.1803921568627451,0.24705882352941178,3.7588584,0.17647058823529413
+6,capital,"random swap, alpha=0.5",0.0,0.0,1.0056677,0.17647058823529413
+6,capital,"random swap, alpha=1.0",0.0,0.0,2.0113354,0.17647058823529413
+6,capital,"random swap, alpha=2.0",0.0,0.00196078431372549,4.0226707,0.17647058823529413
+6,capital,coordinate swap x1,0.0,0.0,0.036181767,0.17647058823529413
+6,capital,coordinate swap x4,0.0,0.0,0.14472707,0.17647058823529413
+6,capital,centroid swap,0.9431372549019608,0.9509803921568627,1.9333179,0.17647058823529413
+6,capital,"centroid swap, J-lens span part",0.0,0.0,0.098677784,0.17647058823529413
+6,capital,"centroid swap, outside J-lens span",0.9431372549019608,0.9509803921568627,1.9303366,0.17647058823529413
+7,last,"J-lens swap, alpha=0.5",0.0,0.0,0.5736287,0.0
+7,last,"J-lens swap, alpha=1.0",0.0,0.0,1.1472574,0.0
+7,last,"J-lens swap, alpha=2.0",0.0,0.0,2.294515,0.0
+7,last,"logit lens swap, alpha=0.5",0.0,0.0,0.7072228,0.0
+7,last,"logit lens swap, alpha=1.0",0.0,0.0,1.4144456,0.0
+7,last,"logit lens swap, alpha=2.0",0.0,0.0,2.8288913,0.0
+7,last,"random swap, alpha=0.5",0.0,0.0,0.75685847,0.0
+7,last,"random swap, alpha=1.0",0.0,0.0,1.5137169,0.0
+7,last,"random swap, alpha=2.0",0.0,0.0,3.0274339,0.0
+7,last,coordinate swap x1,0.0,0.0,0.0,0.0
+7,last,coordinate swap x4,0.0,0.0,0.0,0.0
+7,last,centroid swap,0.0,0.0,0.22823991,0.0
+7,last,"centroid swap, J-lens span part",0.0,0.0,0.0051736166,0.0
+7,last,"centroid swap, outside J-lens span",0.0,0.0,0.22816238,0.0
+7,capital,"J-lens swap, alpha=0.5",0.0,0.0,0.8215258,0.2
+7,capital,"J-lens swap, alpha=1.0",0.00392156862745098,0.00980392156862745,1.6430516,0.2
+7,capital,"J-lens swap, alpha=2.0",0.2803921568627451,0.4803921568627451,3.2861032,0.2
+7,capital,"logit lens swap, alpha=0.5",0.0,0.0,1.0128533,0.2
+7,capital,"logit lens swap, alpha=1.0",0.0058823529411764705,0.0058823529411764705,2.0257065,0.2
+7,capital,"logit lens swap, alpha=2.0",0.16862745098039217,0.21176470588235294,4.051413,0.2
+7,capital,"random swap, alpha=0.5",0.0,0.0,1.0839394,0.2
+7,capital,"random swap, alpha=1.0",0.0,0.0,2.1678789,0.2
+7,capital,"random swap, alpha=2.0",0.0,0.0,4.3357577,0.2
+7,capital,coordinate swap x1,0.0,0.0,0.049920633,0.2
+7,capital,coordinate swap x4,0.0,0.0,0.19968253,0.2
+7,capital,centroid swap,0.9450980392156862,0.9529411764705882,2.0884674,0.2
+7,capital,"centroid swap, J-lens span part",0.0,0.0,0.13460162,0.2
+7,capital,"centroid swap, outside J-lens span",0.9470588235294117,0.9549019607843138,2.0834825,0.2
+8,last,"J-lens swap, alpha=0.5",0.0,0.0,0.66229105,0.0
+8,last,"J-lens swap, alpha=1.0",0.0,0.0,1.3245821,0.0
+8,last,"J-lens swap, alpha=2.0",0.0,0.0,2.6491642,0.0
+8,last,"logit lens swap, alpha=0.5",0.0,0.0,0.8274979,0.0
+8,last,"logit lens swap, alpha=1.0",0.0,0.0,1.6549958,0.0
+8,last,"logit lens swap, alpha=2.0",0.0,0.0,3.3099916,0.0
+8,last,"random swap, alpha=0.5",0.0,0.0,0.885575,0.0
+8,last,"random swap, alpha=1.0",0.0,0.0,1.77115,0.0
+8,last,"random swap, alpha=2.0",0.0,0.0,3.5423,0.0
+8,last,coordinate swap x1,0.0,0.0,0.0,0.0
+8,last,coordinate swap x4,0.0,0.0,0.0,0.0
+8,last,centroid swap,0.0,0.0,0.26048255,0.0
+8,last,"centroid swap, J-lens span part",0.0,0.0,0.006332788,0.0
+8,last,"centroid swap, outside J-lens span",0.0,0.0,0.26038247,0.0
+8,capital,"J-lens swap, alpha=0.5",0.0,0.0,0.91419005,0.21176470588235294
+8,capital,"J-lens swap, alpha=1.0",0.01764705882352941,0.025490196078431372,1.8283801,0.21176470588235294
+8,capital,"J-lens swap, alpha=2.0",0.2647058823529412,0.42549019607843136,3.6567602,0.21176470588235294
+8,capital,"logit lens swap, alpha=0.5",0.0,0.0,1.1422325,0.21176470588235294
+8,capital,"logit lens swap, alpha=1.0",0.0058823529411764705,0.0058823529411764705,2.284465,0.21176470588235294
+8,capital,"logit lens swap, alpha=2.0",0.17058823529411765,0.21568627450980393,4.56893,0.21176470588235294
+8,capital,"random swap, alpha=0.5",0.0,0.0,1.2223992,0.21176470588235294
+8,capital,"random swap, alpha=1.0",0.0,0.0,2.4447985,0.21176470588235294
+8,capital,"random swap, alpha=2.0",0.0,0.0,4.889597,0.21176470588235294
+8,capital,coordinate swap x1,0.0,0.0,0.060929112,0.21176470588235294
+8,capital,coordinate swap x4,0.0,0.00196078431372549,0.24371645,0.21176470588235294
+8,capital,centroid swap,0.9509803921568627,0.9588235294117647,2.3511188,0.21176470588235294
+8,capital,"centroid swap, J-lens span part",0.0,0.0,0.17280056,0.21176470588235294
+8,capital,"centroid swap, outside J-lens span",0.9490196078431372,0.9568627450980393,2.3439195,0.21176470588235294
+9,last,"J-lens swap, alpha=0.5",0.0,0.0,0.7355489,0.0
+9,last,"J-lens swap, alpha=1.0",0.0,0.0,1.4710978,0.0
+9,last,"J-lens swap, alpha=2.0",0.0,0.0,2.9421957,0.0
+9,last,"logit lens swap, alpha=0.5",0.0,0.0,0.93282706,0.0
+9,last,"logit lens swap, alpha=1.0",0.0,0.0,1.8656541,0.0
+9,last,"logit lens swap, alpha=2.0",0.0,0.0,3.7313082,0.0
+9,last,"random swap, alpha=0.5",0.0,0.0,0.99829656,0.0
+9,last,"random swap, alpha=1.0",0.0,0.0,1.9965931,0.0
+9,last,"random swap, alpha=2.0",0.0,0.0,3.9931862,0.0
+9,last,coordinate swap x1,0.0,0.0,0.0,0.0
+9,last,coordinate swap x4,0.0,0.0,0.0,0.0
+9,last,centroid swap,0.0,0.0,0.30165258,0.0
+9,last,"centroid swap, J-lens span part",0.0,0.0,0.0067449934,0.0
+9,last,"centroid swap, outside J-lens span",0.0,0.0,0.3015561,0.0
+9,capital,"J-lens swap, alpha=0.5",0.0,0.0,1.0818192,0.29411764705882354
+9,capital,"J-lens swap, alpha=1.0",0.00196078431372549,0.00196078431372549,2.1636384,0.29411764705882354
+9,capital,"J-lens swap, alpha=2.0",0.21764705882352942,0.3862745098039216,4.3272767,0.29411764705882354
+9,capital,"logit lens swap, alpha=0.5",0.0,0.0,1.371969,0.29411764705882354
+9,capital,"logit lens swap, alpha=1.0",0.00392156862745098,0.00392156862745098,2.743938,0.29411764705882354
+9,capital,"logit lens swap, alpha=2.0",0.1392156862745098,0.20588235294117646,5.487876,0.29411764705882354
+9,capital,"random swap, alpha=0.5",0.0,0.0,1.4682591,0.29411764705882354
+9,capital,"random swap, alpha=1.0",0.0,0.0,2.9365182,0.29411764705882354
+9,capital,"random swap, alpha=2.0",0.0,0.00196078431372549,5.8730364,0.29411764705882354
+9,capital,coordinate swap x1,0.0,0.0,0.11449946,0.29411764705882354
+9,capital,coordinate swap x4,0.0,0.0,0.45799783,0.29411764705882354
+9,capital,centroid swap,0.9568627450980393,0.9647058823529412,2.8320277,0.29411764705882354
+9,capital,"centroid swap, J-lens span part",0.0,0.0,0.23858556,0.29411764705882354
+9,capital,"centroid swap, outside J-lens span",0.9529411764705882,0.9607843137254902,2.8208227,0.29411764705882354
+10,last,"J-lens swap, alpha=0.5",0.0,0.0,0.7800032,0.0
+10,last,"J-lens swap, alpha=1.0",0.0,0.0,1.5600064,0.0
+10,last,"J-lens swap, alpha=2.0",0.0,0.0,3.1200128,0.0
+10,last,"logit lens swap, alpha=0.5",0.0,0.0,1.0131994,0.0
+10,last,"logit lens swap, alpha=1.0",0.0,0.0,2.026399,0.0
+10,last,"logit lens swap, alpha=2.0",0.0,0.0,4.052798,0.0
+10,last,"random swap, alpha=0.5",0.0,0.0,1.0843097,0.0
+10,last,"random swap, alpha=1.0",0.0,0.0,2.1686194,0.0
+10,last,"random swap, alpha=2.0",0.0,0.0,4.337239,0.0
+10,last,coordinate swap x1,0.0,0.0,0.0,0.0
+10,last,coordinate swap x4,0.0,0.0,0.0,0.0
+10,last,centroid swap,0.0,0.0,0.37400514,0.0
+10,last,"centroid swap, J-lens span part",0.0,0.0,0.012966835,0.0
+10,last,"centroid swap, outside J-lens span",0.0,0.0,0.37374294,0.0
+10,capital,"J-lens swap, alpha=0.5",0.0,0.0,1.1286762,0.29411764705882354
+10,capital,"J-lens swap, alpha=1.0",0.00980392156862745,0.00980392156862745,2.2573524,0.29411764705882354
+10,capital,"J-lens swap, alpha=2.0",0.3176470588235294,0.46862745098039216,4.5147047,0.29411764705882354
+10,capital,"logit lens swap, alpha=0.5",0.0,0.0,1.4661148,0.29411764705882354
+10,capital,"logit lens swap, alpha=1.0",0.00392156862745098,0.00392156862745098,2.9322295,0.29411764705882354
+10,capital,"logit lens swap, alpha=2.0",0.1803921568627451,0.23921568627450981,5.864459,0.29411764705882354
+10,capital,"random swap, alpha=0.5",0.0,0.0,1.5690124,0.29411764705882354
+10,capital,"random swap, alpha=1.0",0.0,0.0,3.1380248,0.29411764705882354
+10,capital,"random swap, alpha=2.0",0.0,0.00196078431372549,6.2760496,0.29411764705882354
+10,capital,coordinate swap x1,0.0,0.0,0.12760495,0.29411764705882354
+10,capital,coordinate swap x4,0.00196078431372549,0.00196078431372549,0.5104198,0.29411764705882354
+10,capital,centroid swap,0.9588235294117647,0.9666666666666667,3.011447,0.29411764705882354
+10,capital,"centroid swap, J-lens span part",0.0,0.0,0.28182825,0.29411764705882354
+10,capital,"centroid swap, outside J-lens span",0.9529411764705882,0.9607843137254902,2.9969573,0.29411764705882354
+11,last,"J-lens swap, alpha=0.5",0.0,0.0,0.8661909,0.0
+11,last,"J-lens swap, alpha=1.0",0.0,0.0,1.7323818,0.0
+11,last,"J-lens swap, alpha=2.0",0.0,0.0,3.4647636,0.0
+11,last,"logit lens swap, alpha=0.5",0.0,0.0,1.1376848,0.0
+11,last,"logit lens swap, alpha=1.0",0.0,0.0,2.2753696,0.0
+11,last,"logit lens swap, alpha=2.0",0.0,0.0,4.5507393,0.0
+11,last,"random swap, alpha=0.5",0.0,0.0,1.2175322,0.0
+11,last,"random swap, alpha=1.0",0.0,0.0,2.4350643,0.0
+11,last,"random swap, alpha=2.0",0.0,0.0,4.8701286,0.0
+11,last,coordinate swap x1,0.0,0.0,0.0,0.0
+11,last,coordinate swap x4,0.0,0.0,0.0,0.0
+11,last,centroid swap,0.0,0.0,0.419107,0.0
+11,last,"centroid swap, J-lens span part",0.0,0.0,0.016060287,0.0
+11,last,"centroid swap, outside J-lens span",0.0,0.0,0.41874662,0.0
+11,capital,"J-lens swap, alpha=0.5",0.0,0.0,1.204111,0.2647058823529412
+11,capital,"J-lens swap, alpha=1.0",0.01568627450980392,0.01568627450980392,2.408222,0.2647058823529412
+11,capital,"J-lens swap, alpha=2.0",0.4,0.5823529411764706,4.816444,0.2647058823529412
+11,capital,"logit lens swap, alpha=0.5",0.0,0.0,1.5815207,0.2647058823529412
+11,capital,"logit lens swap, alpha=1.0",0.00784313725490196,0.00784313725490196,3.1630414,0.2647058823529412
+11,capital,"logit lens swap, alpha=2.0",0.2784313725490196,0.36470588235294116,6.3260827,0.2647058823529412
+11,capital,"random swap, alpha=0.5",0.0,0.0,1.692518,0.2647058823529412
+11,capital,"random swap, alpha=1.0",0.0,0.0,3.385036,0.2647058823529412
+11,capital,"random swap, alpha=2.0",0.0,0.00392156862745098,6.770072,0.2647058823529412
+11,capital,coordinate swap x1,0.0,0.0,0.12848417,0.2647058823529412
+11,capital,coordinate swap x4,0.0058823529411764705,0.0058823529411764705,0.5139367,0.2647058823529412
+11,capital,centroid swap,0.9588235294117647,0.9666666666666667,3.2314444,0.2647058823529412
+11,capital,"centroid swap, J-lens span part",0.0,0.0,0.31448528,0.2647058823529412
+11,capital,"centroid swap, outside J-lens span",0.9568627450980393,0.9647058823529412,3.2146528,0.2647058823529412
+12,last,"J-lens swap, alpha=0.5",0.0,0.0,0.97756255,0.0
+12,last,"J-lens swap, alpha=1.0",0.0,0.0,1.9551251,0.0
+12,last,"J-lens swap, alpha=2.0",0.0,0.00196078431372549,3.9102502,0.0
+12,last,"logit lens swap, alpha=0.5",0.0,0.0,1.3023506,0.0
+12,last,"logit lens swap, alpha=1.0",0.0,0.0,2.6047013,0.0
+12,last,"logit lens swap, alpha=2.0",0.0,0.0,5.2094026,0.0
+12,last,"random swap, alpha=0.5",0.0,0.0,1.3937548,0.0
+12,last,"random swap, alpha=1.0",0.0,0.0,2.7875097,0.0
+12,last,"random swap, alpha=2.0",0.0,0.0,5.5750194,0.0
+12,last,coordinate swap x1,0.0,0.0,0.0,0.0
+12,last,coordinate swap x4,0.0,0.0,0.0,0.0
+12,last,centroid swap,0.0,0.0,0.46087107,0.0
+12,last,"centroid swap, J-lens span part",0.0,0.0,0.016089387,0.0
+12,last,"centroid swap, outside J-lens span",0.0,0.0,0.4605262,0.0
+12,capital,"J-lens swap, alpha=0.5",0.0,0.0,1.2765024,0.2823529411764706
+12,capital,"J-lens swap, alpha=1.0",0.013725490196078431,0.01568627450980392,2.5530047,0.2823529411764706
+12,capital,"J-lens swap, alpha=2.0",0.5588235294117647,0.696078431372549,5.1060095,0.2823529411764706
+12,capital,"logit lens swap, alpha=0.5",0.0,0.0,1.7006111,0.2823529411764706
+12,capital,"logit lens swap, alpha=1.0",0.00980392156862745,0.013725490196078431,3.4012222,0.2823529411764706
+12,capital,"logit lens swap, alpha=2.0",0.4,0.5215686274509804,6.8024445,0.2823529411764706
+12,capital,"random swap, alpha=0.5",0.0,0.0,1.8199668,0.2823529411764706
+12,capital,"random swap, alpha=1.0",0.0,0.0,3.6399336,0.2823529411764706
+12,capital,"random swap, alpha=2.0",0.0,0.00784313725490196,7.279867,0.2823529411764706
+12,capital,coordinate swap x1,0.0,0.0,0.13654067,0.2823529411764706
+12,capital,coordinate swap x4,0.0,0.0,0.54616266,0.2823529411764706
+12,capital,centroid swap,0.9607843137254902,0.9686274509803922,3.4530346,0.2823529411764706
+12,capital,"centroid swap, J-lens span part",0.0,0.0,0.33685273,0.2823529411764706
+12,capital,"centroid swap, outside J-lens span",0.9588235294117647,0.9666666666666667,3.43507,0.2823529411764706
+13,last,"J-lens swap, alpha=0.5",0.0,0.0,1.1435307,0.0
+13,last,"J-lens swap, alpha=1.0",0.0,0.0,2.2870615,0.0
+13,last,"J-lens swap, alpha=2.0",0.0,0.00392156862745098,4.574123,0.0
+13,last,"logit lens swap, alpha=0.5",0.0,0.0,1.5431609,0.0
+13,last,"logit lens swap, alpha=1.0",0.0,0.0,3.0863218,0.0
+13,last,"logit lens swap, alpha=2.0",0.0,0.0,6.1726437,0.0
+13,last,"random swap, alpha=0.5",0.0,0.0,1.6514661,0.0
+13,last,"random swap, alpha=1.0",0.0,0.0,3.3029323,0.0
+13,last,"random swap, alpha=2.0",0.0,0.00196078431372549,6.6058645,0.0
+13,last,coordinate swap x1,0.0,0.0,0.0,0.0
+13,last,coordinate swap x4,0.0,0.0,0.0,0.0
+13,last,centroid swap,0.0,0.0,0.561556,0.0
+13,last,"centroid swap, J-lens span part",0.0,0.0,0.018949172,0.0
+13,last,"centroid swap, outside J-lens span",0.0,0.0,0.5611626,0.0
+13,capital,"J-lens swap, alpha=0.5",0.0,0.0,1.4442302,0.2823529411764706
+13,capital,"J-lens swap, alpha=1.0",0.043137254901960784,0.058823529411764705,2.8884604,0.2823529411764706
+13,capital,"J-lens swap, alpha=2.0",0.6196078431372549,0.7745098039215687,5.776921,0.2823529411764706
+13,capital,"logit lens swap, alpha=0.5",0.0,0.0,1.9489459,0.2823529411764706
+13,capital,"logit lens swap, alpha=1.0",0.029411764705882353,0.03333333333333333,3.8978918,0.2823529411764706
+13,capital,"logit lens swap, alpha=2.0",0.5470588235294118,0.6568627450980392,7.7957835,0.2823529411764706
+13,capital,"random swap, alpha=0.5",0.0,0.0,2.0857308,0.2823529411764706
+13,capital,"random swap, alpha=1.0",0.0,0.0,4.1714616,0.2823529411764706
+13,capital,"random swap, alpha=2.0",0.0,0.00784313725490196,8.342923,0.2823529411764706
+13,capital,coordinate swap x1,0.0,0.0,0.14398788,0.2823529411764706
+13,capital,coordinate swap x4,0.0,0.0,0.5759515,0.2823529411764706
+13,capital,centroid swap,0.9705882352941176,0.9784313725490196,3.6910186,0.2823529411764706
+13,capital,"centroid swap, J-lens span part",0.0,0.0,0.35227093,0.2823529411764706
+13,capital,"centroid swap, outside J-lens span",0.9666666666666667,0.9745098039215686,3.6726947,0.2823529411764706
+14,last,"J-lens swap, alpha=0.5",0.0,0.0,1.3228453,0.0
+14,last,"J-lens swap, alpha=1.0",0.0,0.00196078431372549,2.6456907,0.0
+14,last,"J-lens swap, alpha=2.0",0.0,0.00392156862745098,5.2913814,0.0
+14,last,"logit lens swap, alpha=0.5",0.0,0.0,1.8018516,0.0
+14,last,"logit lens swap, alpha=1.0",0.0,0.0,3.6037033,0.0
+14,last,"logit lens swap, alpha=2.0",0.0,0.0,7.2074065,0.0
+14,last,"random swap, alpha=0.5",0.0,0.0,1.9283128,0.0
+14,last,"random swap, alpha=1.0",0.0,0.0,3.8566256,0.0
+14,last,"random swap, alpha=2.0",0.0,0.00196078431372549,7.713251,0.0
+14,last,coordinate swap x1,0.0,0.0,0.0,0.0
+14,last,coordinate swap x4,0.0,0.0,0.0,0.0
+14,last,centroid swap,0.0,0.0,0.6184994,0.0
+14,last,"centroid swap, J-lens span part",0.0,0.0,0.01714394,0.0
+14,last,"centroid swap, outside J-lens span",0.0,0.0,0.6181965,0.0
+14,capital,"J-lens swap, alpha=0.5",0.0,0.0,1.4912941,0.2647058823529412
+14,capital,"J-lens swap, alpha=1.0",0.03725490196078431,0.047058823529411764,2.9825883,0.2647058823529412
+14,capital,"J-lens swap, alpha=2.0",0.6823529411764706,0.7980392156862746,5.9651766,0.2647058823529412
+14,capital,"logit lens swap, alpha=0.5",0.0,0.0,2.0312965,0.2647058823529412
+14,capital,"logit lens swap, alpha=1.0",0.0392156862745098,0.043137254901960784,4.062593,0.2647058823529412
+14,capital,"logit lens swap, alpha=2.0",0.611764705882353,0.7235294117647059,8.125186,0.2647058823529412
+14,capital,"random swap, alpha=0.5",0.0,0.0,2.1738608,0.2647058823529412
+14,capital,"random swap, alpha=1.0",0.0,0.0,4.3477216,0.2647058823529412
+14,capital,"random swap, alpha=2.0",0.0,0.00784313725490196,8.695443,0.2647058823529412
+14,capital,coordinate swap x1,0.0,0.0,0.14141616,0.2647058823529412
+14,capital,coordinate swap x4,0.00392156862745098,0.00392156862745098,0.56566465,0.2647058823529412
+14,capital,centroid swap,0.9705882352941176,0.9784313725490196,3.7569234,0.2647058823529412
+14,capital,"centroid swap, J-lens span part",0.0,0.0,0.36074507,0.2647058823529412
+14,capital,"centroid swap, outside J-lens span",0.9725490196078431,0.9803921568627451,3.7377763,0.2647058823529412
+15,last,"J-lens swap, alpha=0.5",0.0,0.0,1.4479617,0.0058823529411764705
+15,last,"J-lens swap, alpha=1.0",0.0,0.00196078431372549,2.8959234,0.0058823529411764705
+15,last,"J-lens swap, alpha=2.0",0.0,0.00392156862745098,5.7918468,0.0058823529411764705
+15,last,"logit lens swap, alpha=0.5",0.0,0.0,1.9986445,0.0058823529411764705
+15,last,"logit lens swap, alpha=1.0",0.0,0.0,3.997289,0.0058823529411764705
+15,last,"logit lens swap, alpha=2.0",0.00196078431372549,0.00784313725490196,7.994578,0.0058823529411764705
+15,last,"random swap, alpha=0.5",0.0,0.0,2.1389174,0.0058823529411764705
+15,last,"random swap, alpha=1.0",0.0,0.0,4.277835,0.0058823529411764705
+15,last,"random swap, alpha=2.0",0.0,0.00392156862745098,8.55567,0.0058823529411764705
+15,last,coordinate swap x1,0.0,0.0,0.000754024,0.0058823529411764705
+15,last,coordinate swap x4,0.0,0.0,0.003016096,0.0058823529411764705
+15,last,centroid swap,0.0,0.0,0.6705023,0.0058823529411764705
+15,last,"centroid swap, J-lens span part",0.0,0.0,0.02246991,0.0058823529411764705
+15,last,"centroid swap, outside J-lens span",0.0,0.0,0.6700208,0.0058823529411764705
+15,capital,"J-lens swap, alpha=0.5",0.0,0.0,1.5454136,0.3
+15,capital,"J-lens swap, alpha=1.0",0.050980392156862744,0.07254901960784314,3.0908272,0.3
+15,capital,"J-lens swap, alpha=2.0",0.7196078431372549,0.8274509803921568,6.1816545,0.3
+15,capital,"logit lens swap, alpha=0.5",0.0,0.0,2.133159,0.3
+15,capital,"logit lens swap, alpha=1.0",0.0784313725490196,0.08627450980392157,4.266318,0.3
+15,capital,"logit lens swap, alpha=2.0",0.6666666666666666,0.7647058823529411,8.532636,0.3
+15,capital,"random swap, alpha=0.5",0.0,0.0,2.2828724,0.3
+15,capital,"random swap, alpha=1.0",0.0,0.0,4.565745,0.3
+15,capital,"random swap, alpha=2.0",0.0,0.00980392156862745,9.13149,0.3
+15,capital,coordinate swap x1,0.0,0.0,0.15187763,0.3
+15,capital,coordinate swap x4,0.0,0.00196078431372549,0.6075105,0.3
+15,capital,centroid swap,0.9764705882352941,0.984313725490196,3.8547876,0.3
+15,capital,"centroid swap, J-lens span part",0.0,0.0,0.36849234,0.3
+15,capital,"centroid swap, outside J-lens span",0.9764705882352941,0.984313725490196,3.8354588,0.3
+16,last,"J-lens swap, alpha=0.5",0.0,0.0,1.6124147,0.0
+16,last,"J-lens swap, alpha=1.0",0.0,0.0,3.2248294,0.0
+16,last,"J-lens swap, alpha=2.0",0.0,0.00392156862745098,6.449659,0.0
+16,last,"logit lens swap, alpha=0.5",0.0,0.0,2.2324355,0.0
+16,last,"logit lens swap, alpha=1.0",0.0,0.0,4.464871,0.0
+16,last,"logit lens swap, alpha=2.0",0.00196078431372549,0.0058823529411764705,8.929742,0.0
+16,last,"random swap, alpha=0.5",0.0,0.0,2.3891168,0.0
+16,last,"random swap, alpha=1.0",0.0,0.00196078431372549,4.7782335,0.0
+16,last,"random swap, alpha=2.0",0.0,0.00392156862745098,9.556467,0.0
+16,last,coordinate swap x1,0.0,0.0,0.0,0.0
+16,last,coordinate swap x4,0.0,0.0,0.0,0.0
+16,last,centroid swap,0.0,0.0,0.7839928,0.0
+16,last,"centroid swap, J-lens span part",0.0,0.0,0.021466397,0.0
+16,last,"centroid swap, outside J-lens span",0.0,0.0,0.78361595,0.0
+16,capital,"J-lens swap, alpha=0.5",0.0,0.0,1.6681967,0.2823529411764706
+16,capital,"J-lens swap, alpha=1.0",0.03529411764705882,0.041176470588235294,3.3363934,0.2823529411764706
+16,capital,"J-lens swap, alpha=2.0",0.6745098039215687,0.7803921568627451,6.6727867,0.2823529411764706
+16,capital,"logit lens swap, alpha=0.5",0.0,0.0,2.3096676,0.2823529411764706
+16,capital,"logit lens swap, alpha=1.0",0.08235294117647059,0.08823529411764706,4.619335,0.2823529411764706
+16,capital,"logit lens swap, alpha=2.0",0.7019607843137254,0.7941176470588235,9.23867,0.2823529411764706
+16,capital,"random swap, alpha=0.5",0.0,0.0,2.471769,0.2823529411764706
+16,capital,"random swap, alpha=1.0",0.0,0.0,4.943538,0.2823529411764706
+16,capital,"random swap, alpha=2.0",0.0,0.00784313725490196,9.887076,0.2823529411764706
+16,capital,coordinate swap x1,0.0,0.0,0.16053942,0.2823529411764706
+16,capital,coordinate swap x4,0.0,0.0,0.6421577,0.2823529411764706
+16,capital,centroid swap,0.9803921568627451,0.9882352941176471,4.1634974,0.2823529411764706
+16,capital,"centroid swap, J-lens span part",0.0,0.0,0.40942976,0.2823529411764706
+16,capital,"centroid swap, outside J-lens span",0.9803921568627451,0.9882352941176471,4.141434,0.2823529411764706
+17,last,"J-lens swap, alpha=0.5",0.0,0.0,1.7715744,0.0
+17,last,"J-lens swap, alpha=1.0",0.0,0.0,3.5431488,0.0
+17,last,"J-lens swap, alpha=2.0",0.0,0.0058823529411764705,7.0862975,0.0
+17,last,"logit lens swap, alpha=0.5",0.0,0.0,2.461929,0.0
+17,last,"logit lens swap, alpha=1.0",0.0,0.0,4.923858,0.0
+17,last,"logit lens swap, alpha=2.0",0.00196078431372549,0.0058823529411764705,9.847716,0.0
+17,last,"random swap, alpha=0.5",0.0,0.0,2.6347172,0.0
+17,last,"random swap, alpha=1.0",0.0,0.0,5.2694345,0.0
+17,last,"random swap, alpha=2.0",0.0,0.00392156862745098,10.538869,0.0
+17,last,coordinate swap x1,0.0,0.0,0.0,0.0
+17,last,coordinate swap x4,0.0,0.0,0.0,0.0
+17,last,centroid swap,0.0,0.0,0.8632925,0.0
+17,last,"centroid swap, J-lens span part",0.0,0.0,0.02166861,0.0
+17,last,"centroid swap, outside J-lens span",0.0,0.0,0.86294234,0.0
+17,capital,"J-lens swap, alpha=0.5",0.0,0.0,1.8201809,0.2529411764705882
+17,capital,"J-lens swap, alpha=1.0",0.01764705882352941,0.021568627450980392,3.6403618,0.2529411764705882
+17,capital,"J-lens swap, alpha=2.0",0.6294117647058823,0.7431372549019608,7.2807236,0.2529411764705882
+17,capital,"logit lens swap, alpha=0.5",0.0,0.0,2.529477,0.2529411764705882
+17,capital,"logit lens swap, alpha=1.0",0.09803921568627451,0.11372549019607843,5.058954,0.2529411764705882
+17,capital,"logit lens swap, alpha=2.0",0.711764705882353,0.8156862745098039,10.117908,0.2529411764705882
+17,capital,"random swap, alpha=0.5",0.0,0.0,2.7070055,0.2529411764705882
+17,capital,"random swap, alpha=1.0",0.0,0.0,5.414011,0.2529411764705882
+17,capital,"random swap, alpha=2.0",0.0,0.00784313725490196,10.828022,0.2529411764705882
+17,capital,coordinate swap x1,0.0,0.0,0.16296627,0.2529411764705882
+17,capital,coordinate swap x4,0.0,0.0,0.65186507,0.2529411764705882
+17,capital,centroid swap,0.9784313725490196,0.9862745098039216,4.5749626,0.2529411764705882
+17,capital,"centroid swap, J-lens span part",0.0,0.0,0.4684088,0.2529411764705882
+17,capital,"centroid swap, outside J-lens span",0.9784313725490196,0.9862745098039216,4.5487375,0.2529411764705882
+18,last,"J-lens swap, alpha=0.5",0.0,0.0,1.835024,0.0
+18,last,"J-lens swap, alpha=1.0",0.0,0.0,3.670048,0.0
+18,last,"J-lens swap, alpha=2.0",0.0,0.0058823529411764705,7.340096,0.0
+18,last,"logit lens swap, alpha=0.5",0.0,0.0,2.552976,0.0
+18,last,"logit lens swap, alpha=1.0",0.0,0.0,5.105952,0.0
+18,last,"logit lens swap, alpha=2.0",0.00392156862745098,0.00784313725490196,10.211904,0.0
+18,last,"random swap, alpha=0.5",0.0,0.0,2.7321541,0.0
+18,last,"random swap, alpha=1.0",0.0,0.0,5.4643083,0.0
+18,last,"random swap, alpha=2.0",0.0,0.00392156862745098,10.928617,0.0
+18,last,coordinate swap x1,0.0,0.0,0.0,0.0
+18,last,coordinate swap x4,0.0,0.0,0.0,0.0
+18,last,centroid swap,0.0,0.0,0.93973833,0.0
+18,last,"centroid swap, J-lens span part",0.0,0.0,0.022237046,0.0
+18,last,"centroid swap, outside J-lens span",0.0,0.0,0.9393989,0.0
+18,capital,"J-lens swap, alpha=0.5",0.0,0.0,1.9056829,0.25882352941176473
+18,capital,"J-lens swap, alpha=1.0",0.013725490196078431,0.01568627450980392,3.8113658,0.25882352941176473
+18,capital,"J-lens swap, alpha=2.0",0.5901960784313726,0.6980392156862745,7.6227317,0.25882352941176473
+18,capital,"logit lens swap, alpha=0.5",0.00392156862745098,0.00392156862745098,2.6512804,0.25882352941176473
+18,capital,"logit lens swap, alpha=1.0",0.10392156862745099,0.13137254901960785,5.302561,0.25882352941176473
+18,capital,"logit lens swap, alpha=2.0",0.7411764705882353,0.8254901960784313,10.605122,0.25882352941176473
+18,capital,"random swap, alpha=0.5",0.0,0.0,2.8373578,0.25882352941176473
+18,capital,"random swap, alpha=1.0",0.0,0.0,5.6747155,0.25882352941176473
+18,capital,"random swap, alpha=2.0",0.0,0.0058823529411764705,11.349431,0.25882352941176473
+18,capital,coordinate swap x1,0.0,0.0,0.17292085,0.25882352941176473
+18,capital,coordinate swap x4,0.0,0.0,0.6916834,0.25882352941176473
+18,capital,centroid swap,0.9764705882352941,0.984313725490196,4.9608083,0.25882352941176473
+18,capital,"centroid swap, J-lens span part",0.0,0.0,0.52838576,0.25882352941176473
+18,capital,"centroid swap, outside J-lens span",0.9745098039215686,0.9823529411764705,4.9299655,0.25882352941176473
+19,last,"J-lens swap, alpha=0.5",0.0,0.0,1.8344456,0.0
+19,last,"J-lens swap, alpha=1.0",0.0,0.0,3.6688912,0.0
+19,last,"J-lens swap, alpha=2.0",0.0,0.00392156862745098,7.3377824,0.0
+19,last,"logit lens swap, alpha=0.5",0.0,0.0,2.5808377,0.0
+19,last,"logit lens swap, alpha=1.0",0.0,0.0,5.1616755,0.0
+19,last,"logit lens swap, alpha=2.0",0.00980392156862745,0.013725490196078431,10.323351,0.0
+19,last,"random swap, alpha=0.5",0.0,0.0,2.761971,0.0
+19,last,"random swap, alpha=1.0",0.0,0.00392156862745098,5.523942,0.0
+19,last,"random swap, alpha=2.0",0.0,0.0058823529411764705,11.047884,0.0
+19,last,coordinate swap x1,0.0,0.0,0.0,0.0
+19,last,coordinate swap x4,0.0,0.0,0.0,0.0
+19,last,centroid swap,0.0,0.0,1.0647218,0.0
+19,last,"centroid swap, J-lens span part",0.0,0.0,0.040666386,0.0
+19,last,"centroid swap, outside J-lens span",0.0,0.0,1.0637271,0.0
+19,capital,"J-lens swap, alpha=0.5",0.0,0.0,2.0240626,0.29411764705882354
+19,capital,"J-lens swap, alpha=1.0",0.03529411764705882,0.043137254901960784,4.0481253,0.29411764705882354
+19,capital,"J-lens swap, alpha=2.0",0.7137254901960784,0.7901960784313725,8.096251,0.29411764705882354
+19,capital,"logit lens swap, alpha=0.5",0.0,0.0,2.8476055,0.29411764705882354
+19,capital,"logit lens swap, alpha=1.0",0.12352941176470589,0.12745098039215685,5.695211,0.29411764705882354
+19,capital,"logit lens swap, alpha=2.0",0.792156862745098,0.8431372549019608,11.390422,0.29411764705882354
+19,capital,"random swap, alpha=0.5",0.0,0.0,3.047462,0.29411764705882354
+19,capital,"random swap, alpha=1.0",0.0,0.0,6.094924,0.29411764705882354
+19,capital,"random swap, alpha=2.0",0.0,0.0,12.189848,0.29411764705882354
+19,capital,coordinate swap x1,0.0,0.0,0.21695311,0.29411764705882354
+19,capital,coordinate swap x4,0.00392156862745098,0.00392156862745098,0.86781245,0.29411764705882354
+19,capital,centroid swap,0.9725490196078431,0.9803921568627451,5.50693,0.29411764705882354
+19,capital,"centroid swap, J-lens span part",0.0,0.0,0.6437739,0.29411764705882354
+19,capital,"centroid swap, outside J-lens span",0.9725490196078431,0.9803921568627451,5.465889,0.29411764705882354
+20,last,"J-lens swap, alpha=0.5",0.0,0.0,1.9056901,0.0058823529411764705
+20,last,"J-lens swap, alpha=1.0",0.0,0.0,3.8113801,0.0058823529411764705
+20,last,"J-lens swap, alpha=2.0",0.00196078431372549,0.0058823529411764705,7.6227603,0.0058823529411764705
+20,last,"logit lens swap, alpha=0.5",0.0,0.0,2.6768818,0.0058823529411764705
+20,last,"logit lens swap, alpha=1.0",0.0,0.0,5.3537636,0.0058823529411764705
+20,last,"logit lens swap, alpha=2.0",0.00784313725490196,0.013725490196078431,10.707527,0.0058823529411764705
+20,last,"random swap, alpha=0.5",0.0,0.0,2.864756,0.0058823529411764705
+20,last,"random swap, alpha=1.0",0.0,0.00392156862745098,5.729512,0.0058823529411764705
+20,last,"random swap, alpha=2.0",0.0,0.00784313725490196,11.459024,0.0058823529411764705
+20,last,coordinate swap x1,0.0,0.0,0.0016297336,0.0058823529411764705
+20,last,coordinate swap x4,0.0,0.0,0.0065189344,0.0058823529411764705
+20,last,centroid swap,0.0,0.0,1.160607,0.0058823529411764705
+20,last,"centroid swap, J-lens span part",0.0,0.0,0.04793601,0.0058823529411764705
+20,last,"centroid swap, outside J-lens span",0.0,0.0,1.1593481,0.0058823529411764705
+20,capital,"J-lens swap, alpha=0.5",0.0,0.0,2.24103,0.29411764705882354
+20,capital,"J-lens swap, alpha=1.0",0.07647058823529412,0.08823529411764706,4.48206,0.29411764705882354
+20,capital,"J-lens swap, alpha=2.0",0.7941176470588235,0.8549019607843137,8.96412,0.29411764705882354
+20,capital,"logit lens swap, alpha=0.5",0.0,0.0,3.1479268,0.29411764705882354
+20,capital,"logit lens swap, alpha=1.0",0.1980392156862745,0.20392156862745098,6.2958536,0.29411764705882354
+20,capital,"logit lens swap, alpha=2.0",0.8137254901960784,0.8529411764705882,12.591707,0.29411764705882354
+20,capital,"random swap, alpha=0.5",0.0,0.0,3.3688605,0.29411764705882354
+20,capital,"random swap, alpha=1.0",0.0,0.0,6.737721,0.29411764705882354
+20,capital,"random swap, alpha=2.0",0.0,0.00196078431372549,13.475442,0.29411764705882354
+20,capital,coordinate swap x1,0.0,0.0,0.24414824,0.29411764705882354
+20,capital,coordinate swap x4,0.00196078431372549,0.00196078431372549,0.97659296,0.29411764705882354
+20,capital,centroid swap,0.9686274509803922,0.9764705882352941,6.1892877,0.29411764705882354
+20,capital,"centroid swap, J-lens span part",0.0,0.0,0.74323505,0.29411764705882354
+20,capital,"centroid swap, outside J-lens span",0.9686274509803922,0.9764705882352941,6.141024,0.29411764705882354
+21,last,"J-lens swap, alpha=0.5",0.0,0.0,1.9992652,0.0058823529411764705
+21,last,"J-lens swap, alpha=1.0",0.0,0.0,3.9985304,0.0058823529411764705
+21,last,"J-lens swap, alpha=2.0",0.00196078431372549,0.0058823529411764705,7.997061,0.0058823529411764705
+21,last,"logit lens swap, alpha=0.5",0.0,0.0,2.8132062,0.0058823529411764705
+21,last,"logit lens swap, alpha=1.0",0.0,0.0,5.6264124,0.0058823529411764705
+21,last,"logit lens swap, alpha=2.0",0.01764705882352941,0.023529411764705882,11.252825,0.0058823529411764705
+21,last,"random swap, alpha=0.5",0.0,0.0,3.010648,0.0058823529411764705
+21,last,"random swap, alpha=1.0",0.0,0.00392156862745098,6.021296,0.0058823529411764705
+21,last,"random swap, alpha=2.0",0.0,0.0058823529411764705,12.042592,0.0058823529411764705
+21,last,coordinate swap x1,0.0,0.0,0.0014461201,0.0058823529411764705
+21,last,coordinate swap x4,0.0,0.0,0.0057844804,0.0058823529411764705
+21,last,centroid swap,0.0,0.0,1.3017702,0.0058823529411764705
+21,last,"centroid swap, J-lens span part",0.0,0.0,0.04948948,0.0058823529411764705
+21,last,"centroid swap, outside J-lens span",0.0,0.0,1.3005592,0.0058823529411764705
+21,capital,"J-lens swap, alpha=0.5",0.0,0.0,2.360828,0.3176470588235294
+21,capital,"J-lens swap, alpha=1.0",0.19019607843137254,0.22745098039215686,4.721656,0.3176470588235294
+21,capital,"J-lens swap, alpha=2.0",0.8490196078431372,0.884313725490196,9.443312,0.3176470588235294
+21,capital,"logit lens swap, alpha=0.5",0.0,0.0,3.3219683,0.3176470588235294
+21,capital,"logit lens swap, alpha=1.0",0.2823529411764706,0.2980392156862745,6.6439366,0.3176470588235294
+21,capital,"logit lens swap, alpha=2.0",0.8117647058823529,0.8588235294117647,13.287873,0.3176470588235294
+21,capital,"random swap, alpha=0.5",0.0,0.0,3.5551174,0.3176470588235294
+21,capital,"random swap, alpha=1.0",0.0,0.0,7.1102347,0.3176470588235294
+21,capital,"random swap, alpha=2.0",0.0,0.00196078431372549,14.220469,0.3176470588235294
+21,capital,coordinate swap x1,0.0,0.0,0.27197048,0.3176470588235294
+21,capital,coordinate swap x4,0.01764705882352941,0.0196078431372549,1.0878819,0.3176470588235294
+21,capital,centroid swap,0.9705882352941176,0.9784313725490196,6.5881805,0.3176470588235294
+21,capital,"centroid swap, J-lens span part",0.0,0.0,0.82276565,0.3176470588235294
+21,capital,"centroid swap, outside J-lens span",0.9686274509803922,0.9745098039215686,6.532752,0.3176470588235294
+22,last,"J-lens swap, alpha=0.5",0.0,0.0,2.1183028,0.12941176470588237
+22,last,"J-lens swap, alpha=1.0",0.0,0.0,4.2366056,0.12941176470588237
+22,last,"J-lens swap, alpha=2.0",0.0058823529411764705,0.013725490196078431,8.473211,0.12941176470588237
+22,last,"logit lens swap, alpha=0.5",0.0,0.0,2.9723775,0.12941176470588237
+22,last,"logit lens swap, alpha=1.0",0.0,0.0,5.944755,0.12941176470588237
+22,last,"logit lens swap, alpha=2.0",0.052941176470588235,0.06862745098039216,11.88951,0.12941176470588237
+22,last,"random swap, alpha=0.5",0.0,0.0,3.1809912,0.12941176470588237
+22,last,"random swap, alpha=1.0",0.0,0.00196078431372549,6.3619823,0.12941176470588237
+22,last,"random swap, alpha=2.0",0.0,0.0058823529411764705,12.723965,0.12941176470588237
+22,last,coordinate swap x1,0.0,0.0,0.043649685,0.12941176470588237
+22,last,coordinate swap x4,0.0,0.0,0.17459874,0.12941176470588237
+22,last,centroid swap,0.0,0.0,2.179155,0.12941176470588237
+22,last,"centroid swap, J-lens span part",0.0,0.0,0.18493159,0.12941176470588237
+22,last,"centroid swap, outside J-lens span",0.0,0.0,2.1705968,0.12941176470588237
+22,capital,"J-lens swap, alpha=0.5",0.0,0.0,2.5461721,0.3235294117647059
+22,capital,"J-lens swap, alpha=1.0",0.3941176470588235,0.43333333333333335,5.0923443,0.3235294117647059
+22,capital,"J-lens swap, alpha=2.0",0.8862745098039215,0.9058823529411765,10.184689,0.3235294117647059
+22,capital,"logit lens swap, alpha=0.5",0.00392156862745098,0.00392156862745098,3.5727592,0.3235294117647059
+22,capital,"logit lens swap, alpha=1.0",0.41568627450980394,0.4411764705882353,7.1455183,0.3235294117647059
+22,capital,"logit lens swap, alpha=2.0",0.792156862745098,0.8254901960784313,14.291037,0.3235294117647059
+22,capital,"random swap, alpha=0.5",0.0,0.0,3.8235095,0.3235294117647059
+22,capital,"random swap, alpha=1.0",0.0,0.0,7.647019,0.3235294117647059
+22,capital,"random swap, alpha=2.0",0.0,0.0,15.294038,0.3235294117647059
+22,capital,coordinate swap x1,0.0,0.0,0.29352367,0.3235294117647059
+22,capital,coordinate swap x4,0.021568627450980392,0.021568627450980392,1.1740947,0.3235294117647059
+22,capital,centroid swap,0.9607843137254902,0.9607843137254902,7.152143,0.3235294117647059
+22,capital,"centroid swap, J-lens span part",0.0,0.0,0.90508,0.3235294117647059
+22,capital,"centroid swap, outside J-lens span",0.9588235294117647,0.9588235294117647,7.091258,0.3235294117647059
+23,last,"J-lens swap, alpha=0.5",0.0,0.0,2.2050886,0.2
+23,last,"J-lens swap, alpha=1.0",0.0,0.0,4.410177,0.2
+23,last,"J-lens swap, alpha=2.0",0.01764705882352941,0.023529411764705882,8.820354,0.2
+23,last,"logit lens swap, alpha=0.5",0.0,0.0,3.0641837,0.2
+23,last,"logit lens swap, alpha=1.0",0.0,0.0,6.1283674,0.2
+23,last,"logit lens swap, alpha=2.0",0.12549019607843137,0.15098039215686274,12.256735,0.2
+23,last,"random swap, alpha=0.5",0.0,0.0,3.2792401,0.2
+23,last,"random swap, alpha=1.0",0.0,0.00392156862745098,6.5584803,0.2
+23,last,"random swap, alpha=2.0",0.0,0.00980392156862745,13.116961,0.2
+23,last,coordinate swap x1,0.0,0.0,0.06352672,0.2
+23,last,coordinate swap x4,0.0,0.0,0.25410688,0.2
+23,last,centroid swap,0.0,0.0,2.2006114,0.2
+23,last,"centroid swap, J-lens span part",0.0,0.0,0.19701652,0.2
+23,last,"centroid swap, outside J-lens span",0.0,0.0,2.191055,0.2
+23,capital,"J-lens swap, alpha=0.5",0.01568627450980392,0.01568627450980392,2.5630589,0.36470588235294116
+23,capital,"J-lens swap, alpha=1.0",0.6725490196078432,0.6980392156862745,5.1261177,0.36470588235294116
+23,capital,"J-lens swap, alpha=2.0",0.8941176470588236,0.907843137254902,10.252235,0.36470588235294116
+23,capital,"logit lens swap, alpha=0.5",0.013725490196078431,0.013725490196078431,3.5616179,0.36470588235294116
+23,capital,"logit lens swap, alpha=1.0",0.5098039215686274,0.5313725490196078,7.1232357,0.36470588235294116
+23,capital,"logit lens swap, alpha=2.0",0.796078431372549,0.8274509803921568,14.246471,0.36470588235294116
+23,capital,"random swap, alpha=0.5",0.0,0.0,3.8115861,0.36470588235294116
+23,capital,"random swap, alpha=1.0",0.0,0.0,7.6231723,0.36470588235294116
+23,capital,"random swap, alpha=2.0",0.0,0.00392156862745098,15.246345,0.36470588235294116
+23,capital,coordinate swap x1,0.0,0.0,0.32681283,0.36470588235294116
+23,capital,coordinate swap x4,0.09803921568627451,0.1,1.3072513,0.36470588235294116
+23,capital,centroid swap,0.9588235294117647,0.9588235294117647,7.0984235,0.36470588235294116
+23,capital,"centroid swap, J-lens span part",0.0,0.0,0.95793986,0.36470588235294116
+23,capital,"centroid swap, outside J-lens span",0.9529411764705882,0.9529411764705882,7.0297937,0.36470588235294116
+24,last,"J-lens swap, alpha=0.5",0.0,0.0,2.287715,0.17058823529411765
+24,last,"J-lens swap, alpha=1.0",0.0,0.0,4.57543,0.17058823529411765
+24,last,"J-lens swap, alpha=2.0",0.043137254901960784,0.06862745098039216,9.15086,0.17058823529411765
+24,last,"logit lens swap, alpha=0.5",0.0,0.0,3.1229057,0.17058823529411765
+24,last,"logit lens swap, alpha=1.0",0.00392156862745098,0.00392156862745098,6.2458115,0.17058823529411765
+24,last,"logit lens swap, alpha=2.0",0.1843137254901961,0.21176470588235294,12.491623,0.17058823529411765
+24,last,"random swap, alpha=0.5",0.0,0.0,3.3420837,0.17058823529411765
+24,last,"random swap, alpha=1.0",0.0,0.00392156862745098,6.6841674,0.17058823529411765
+24,last,"random swap, alpha=2.0",0.0,0.00980392156862745,13.368335,0.17058823529411765
+24,last,coordinate swap x1,0.0,0.0,0.055209234,0.17058823529411765
+24,last,coordinate swap x4,0.0,0.0,0.22083694,0.17058823529411765
+24,last,centroid swap,0.0,0.0,2.2413206,0.17058823529411765
+24,last,"centroid swap, J-lens span part",0.0,0.0,0.2234165,0.17058823529411765
+24,last,"centroid swap, outside J-lens span",0.0,0.0,2.2294602,0.17058823529411765
+24,capital,"J-lens swap, alpha=0.5",0.06666666666666667,0.07058823529411765,2.6167333,0.3411764705882353
+24,capital,"J-lens swap, alpha=1.0",0.8019607843137255,0.8274509803921568,5.2334666,0.3411764705882353
+24,capital,"J-lens swap, alpha=2.0",0.8960784313725491,0.9117647058823529,10.466933,0.3411764705882353
+24,capital,"logit lens swap, alpha=0.5",0.03137254901960784,0.03137254901960784,3.57204,0.3411764705882353
+24,capital,"logit lens swap, alpha=1.0",0.5431372549019607,0.5803921568627451,7.14408,0.3411764705882353
+24,capital,"logit lens swap, alpha=2.0",0.7843137254901961,0.8156862745098039,14.28816,0.3411764705882353
+24,capital,"random swap, alpha=0.5",0.0,0.0,3.8227406,0.3411764705882353
+24,capital,"random swap, alpha=1.0",0.0,0.0,7.645481,0.3411764705882353
+24,capital,"random swap, alpha=2.0",0.0,0.00196078431372549,15.290962,0.3411764705882353
+24,capital,coordinate swap x1,0.0,0.0,0.32218203,0.3411764705882353
+24,capital,coordinate swap x4,0.1607843137254902,0.16862745098039217,1.2887281,0.3411764705882353
+24,capital,centroid swap,0.9568627450980393,0.9568627450980393,7.114462,0.3411764705882353
+24,capital,"centroid swap, J-lens span part",0.0,0.0,1.024562,0.3411764705882353
+24,capital,"centroid swap, outside J-lens span",0.9509803921568627,0.9509803921568627,7.0365415,0.3411764705882353
+25,last,"J-lens swap, alpha=0.5",0.0,0.0,2.3508828,0.15294117647058825
+25,last,"J-lens swap, alpha=1.0",0.0,0.0,4.7017655,0.15294117647058825
+25,last,"J-lens swap, alpha=2.0",0.056862745098039215,0.0784313725490196,9.403531,0.15294117647058825
+25,last,"logit lens swap, alpha=0.5",0.0,0.0,3.1645982,0.15294117647058825
+25,last,"logit lens swap, alpha=1.0",0.011764705882352941,0.011764705882352941,6.3291965,0.15294117647058825
+25,last,"logit lens swap, alpha=2.0",0.2,0.22549019607843138,12.658393,0.15294117647058825
+25,last,"random swap, alpha=0.5",0.0,0.0,3.386702,0.15294117647058825
+25,last,"random swap, alpha=1.0",0.0,0.00196078431372549,6.773404,0.15294117647058825
+25,last,"random swap, alpha=2.0",0.0,0.00980392156862745,13.546808,0.15294117647058825
+25,last,coordinate swap x1,0.0,0.0,0.053441998,0.15294117647058825
+25,last,coordinate swap x4,0.0,0.0,0.21376799,0.15294117647058825
+25,last,centroid swap,0.0,0.0,2.2307246,0.15294117647058825
+25,last,"centroid swap, J-lens span part",0.0,0.0,0.24263273,0.15294117647058825
+25,last,"centroid swap, outside J-lens span",0.0,0.0,2.2166533,0.15294117647058825
+25,capital,"J-lens swap, alpha=0.5",0.1980392156862745,0.21568627450980393,2.6847196,0.3941176470588235
+25,capital,"J-lens swap, alpha=1.0",0.8803921568627451,0.8960784313725491,5.369439,0.3941176470588235
+25,capital,"J-lens swap, alpha=2.0",0.9019607843137255,0.9156862745098039,10.738878,0.3941176470588235
+25,capital,"logit lens swap, alpha=0.5",0.0392156862745098,0.0392156862745098,3.613986,0.3941176470588235
+25,capital,"logit lens swap, alpha=1.0",0.5294117647058824,0.5529411764705883,7.227972,0.3941176470588235
+25,capital,"logit lens swap, alpha=2.0",0.792156862745098,0.8294117647058824,14.455944,0.3941176470588235
+25,capital,"random swap, alpha=0.5",0.0,0.0,3.8676302,0.3941176470588235
+25,capital,"random swap, alpha=1.0",0.0,0.0,7.7352605,0.3941176470588235
+25,capital,"random swap, alpha=2.0",0.0,0.00392156862745098,15.470521,0.3941176470588235
+25,capital,coordinate swap x1,0.0,0.0,0.39120024,0.3941176470588235
+25,capital,coordinate swap x4,0.28627450980392155,0.2980392156862745,1.564801,0.3941176470588235
+25,capital,centroid swap,0.9647058823529412,0.9647058823529412,7.1768956,0.3941176470588235
+25,capital,"centroid swap, J-lens span part",0.00196078431372549,0.00196078431372549,1.1683675,0.3941176470588235
+25,capital,"centroid swap, outside J-lens span",0.9254901960784314,0.9254901960784314,7.0755763,0.3941176470588235
+26,last,"J-lens swap, alpha=0.5",0.0,0.0,2.4080074,0.23529411764705882
+26,last,"J-lens swap, alpha=1.0",0.0,0.0,4.816015,0.23529411764705882
+26,last,"J-lens swap, alpha=2.0",0.08627450980392157,0.12745098039215685,9.63203,0.23529411764705882
+26,last,"logit lens swap, alpha=0.5",0.0,0.0,3.1751282,0.23529411764705882
+26,last,"logit lens swap, alpha=1.0",0.011764705882352941,0.011764705882352941,6.3502564,0.23529411764705882
+26,last,"logit lens swap, alpha=2.0",0.21568627450980393,0.2627450980392157,12.700513,0.23529411764705882
+26,last,"random swap, alpha=0.5",0.0,0.0,3.3979712,0.23529411764705882
+26,last,"random swap, alpha=1.0",0.0,0.00196078431372549,6.7959423,0.23529411764705882
+26,last,"random swap, alpha=2.0",0.0,0.00980392156862745,13.591885,0.23529411764705882
+26,last,coordinate swap x1,0.0,0.0,0.086180605,0.23529411764705882
+26,last,coordinate swap x4,0.0,0.0,0.34472242,0.23529411764705882
+26,last,centroid swap,0.0,0.0,2.1745825,0.23529411764705882
+26,last,"centroid swap, J-lens span part",0.0,0.0,0.25511175,0.23529411764705882
+26,last,"centroid swap, outside J-lens span",0.0,0.0,2.1586561,0.23529411764705882
+26,capital,"J-lens swap, alpha=0.5",0.4137254901960784,0.42549019607843136,2.7305663,0.38235294117647056
+26,capital,"J-lens swap, alpha=1.0",0.8921568627450981,0.9019607843137255,5.4611325,0.38235294117647056
+26,capital,"J-lens swap, alpha=2.0",0.907843137254902,0.9176470588235294,10.922265,0.38235294117647056
+26,capital,"logit lens swap, alpha=0.5",0.043137254901960784,0.043137254901960784,3.6004453,0.38235294117647056
+26,capital,"logit lens swap, alpha=1.0",0.503921568627451,0.5450980392156862,7.2008905,0.38235294117647056
+26,capital,"logit lens swap, alpha=2.0",0.7725490196078432,0.8058823529411765,14.401781,0.38235294117647056
+26,capital,"random swap, alpha=0.5",0.0,0.0,3.853139,0.38235294117647056
+26,capital,"random swap, alpha=1.0",0.0,0.0,7.706278,0.38235294117647056
+26,capital,"random swap, alpha=2.0",0.0,0.0,15.412556,0.38235294117647056
+26,capital,coordinate swap x1,0.0,0.0,0.3697409,0.38235294117647056
+26,capital,coordinate swap x4,0.28823529411764703,0.296078431372549,1.4789636,0.38235294117647056
+26,capital,centroid swap,0.9666666666666667,0.9666666666666667,7.1375346,0.38235294117647056
+26,capital,"centroid swap, J-lens span part",0.01764705882352941,0.01764705882352941,1.3043242,0.38235294117647056
+26,capital,"centroid swap, outside J-lens span",0.8666666666666667,0.8666666666666667,7.011392,0.38235294117647056
+27,last,"J-lens swap, alpha=0.5",0.0,0.0,2.4985204,0.3
+27,last,"J-lens swap, alpha=1.0",0.00392156862745098,0.00392156862745098,4.9970407,0.3
+27,last,"J-lens swap, alpha=2.0",0.12352941176470589,0.14705882352941177,9.9940815,0.3
+27,last,"logit lens swap, alpha=0.5",0.0,0.0,3.2210119,0.3
+27,last,"logit lens swap, alpha=1.0",0.0196078431372549,0.0196078431372549,6.4420238,0.3
+27,last,"logit lens swap, alpha=2.0",0.21764705882352942,0.27450980392156865,12.8840475,0.3
+27,last,"random swap, alpha=0.5",0.0,0.0,3.4470754,0.3
+27,last,"random swap, alpha=1.0",0.0,0.0,6.8941507,0.3
+27,last,"random swap, alpha=2.0",0.00196078431372549,0.011764705882352941,13.788301,0.3
+27,last,coordinate swap x1,0.0,0.0,0.17695081,0.3
+27,last,coordinate swap x4,0.0,0.0,0.70780325,0.3
+27,last,centroid swap,0.0,0.0,2.3993957,0.3
+27,last,"centroid swap, J-lens span part",0.0,0.0,0.5218792,0.3
+27,last,"centroid swap, outside J-lens span",0.0,0.0,2.3395088,0.3
+27,capital,"J-lens swap, alpha=0.5",0.2,0.20588235294117646,2.8352234,0.4411764705882353
+27,capital,"J-lens swap, alpha=1.0",0.8098039215686275,0.8215686274509804,5.670447,0.4411764705882353
+27,capital,"J-lens swap, alpha=2.0",0.7980392156862746,0.807843137254902,11.340894,0.4411764705882353
+27,capital,"logit lens swap, alpha=0.5",0.0058823529411764705,0.0058823529411764705,3.6550786,0.4411764705882353
+27,capital,"logit lens swap, alpha=1.0",0.24313725490196078,0.27450980392156865,7.3101573,0.4411764705882353
+27,capital,"logit lens swap, alpha=2.0",0.5450980392156862,0.6039215686274509,14.620315,0.4411764705882353
+27,capital,"random swap, alpha=0.5",0.0,0.0,3.9116068,0.4411764705882353
+27,capital,"random swap, alpha=1.0",0.0,0.0,7.8232136,0.4411764705882353
+27,capital,"random swap, alpha=2.0",0.0,0.0,15.646427,0.4411764705882353
+27,capital,coordinate swap x1,0.0,0.0,0.4691685,0.4411764705882353
+27,capital,coordinate swap x4,0.30196078431372547,0.30980392156862746,1.876674,0.4411764705882353
+27,capital,centroid swap,0.9058823529411765,0.907843137254902,7.1593122,0.4411764705882353
+27,capital,"centroid swap, J-lens span part",0.0058823529411764705,0.0058823529411764705,1.589142,0.4411764705882353
+27,capital,"centroid swap, outside J-lens span",0.6843137254901961,0.6882352941176471,6.9732485,0.4411764705882353
+28,last,"J-lens swap, alpha=0.5",0.0,0.0,2.597165,0.28823529411764703
+28,last,"J-lens swap, alpha=1.0",0.01568627450980392,0.01568627450980392,5.19433,0.28823529411764703
+28,last,"J-lens swap, alpha=2.0",0.26666666666666666,0.30196078431372547,10.38866,0.28823529411764703
+28,last,"logit lens swap, alpha=0.5",0.0,0.0,3.3403158,0.28823529411764703
+28,last,"logit lens swap, alpha=1.0",0.01568627450980392,0.01568627450980392,6.6806316,0.28823529411764703
+28,last,"logit lens swap, alpha=2.0",0.22941176470588234,0.28627450980392155,13.361263,0.28823529411764703
+28,last,"random swap, alpha=0.5",0.0,0.00196078431372549,3.5747526,0.28823529411764703
+28,last,"random swap, alpha=1.0",0.0,0.00392156862745098,7.149505,0.28823529411764703
+28,last,"random swap, alpha=2.0",0.00196078431372549,0.00980392156862745,14.29901,0.28823529411764703
+28,last,coordinate swap x1,0.0,0.0,0.17393194,0.28823529411764703
+28,last,coordinate swap x4,0.0,0.0,0.69572777,0.28823529411764703
+28,last,centroid swap,0.0,0.0,2.3952217,0.28823529411764703
+28,last,"centroid swap, J-lens span part",0.0,0.0,0.5282142,0.28823529411764703
+28,last,"centroid swap, outside J-lens span",0.0,0.0,2.3336976,0.28823529411764703
+28,capital,"J-lens swap, alpha=0.5",0.14705882352941177,0.14901960784313725,2.9113612,0.3941176470588235
+28,capital,"J-lens swap, alpha=1.0",0.8196078431372549,0.8235294117647058,5.8227224,0.3941176470588235
+28,capital,"J-lens swap, alpha=2.0",0.8686274509803922,0.8725490196078431,11.645445,0.3941176470588235
+28,capital,"logit lens swap, alpha=0.5",0.0,0.0,3.744415,0.3941176470588235
+28,capital,"logit lens swap, alpha=1.0",0.1568627450980392,0.17450980392156862,7.48883,0.3941176470588235
+28,capital,"logit lens swap, alpha=2.0",0.4843137254901961,0.5431372549019607,14.97766,0.3941176470588235
+28,capital,"random swap, alpha=0.5",0.0,0.0,4.007213,0.3941176470588235
+28,capital,"random swap, alpha=1.0",0.0,0.0,8.014426,0.3941176470588235
+28,capital,"random swap, alpha=2.0",0.0,0.0,16.028852,0.3941176470588235
+28,capital,coordinate swap x1,0.0,0.0,0.43379697,0.3941176470588235
+28,capital,coordinate swap x4,0.2647058823529412,0.27058823529411763,1.7351879,0.3941176470588235
+28,capital,centroid swap,0.8960784313725491,0.8960784313725491,7.275631,0.3941176470588235
+28,capital,"centroid swap, J-lens span part",0.0058823529411764705,0.0058823529411764705,1.7377746,0.3941176470588235
+28,capital,"centroid swap, outside J-lens span",0.6568627450980392,0.6588235294117647,7.056888,0.3941176470588235
+29,last,"J-lens swap, alpha=0.5",0.00196078431372549,0.00196078431372549,2.696741,0.27058823529411763
+29,last,"J-lens swap, alpha=1.0",0.09411764705882353,0.09607843137254903,5.393482,0.27058823529411763
+29,last,"J-lens swap, alpha=2.0",0.4411764705882353,0.4823529411764706,10.786964,0.27058823529411763
+29,last,"logit lens swap, alpha=0.5",0.0,0.0,3.393849,0.27058823529411763
+29,last,"logit lens swap, alpha=1.0",0.025490196078431372,0.025490196078431372,6.787698,0.27058823529411763
+29,last,"logit lens swap, alpha=2.0",0.2980392156862745,0.3784313725490196,13.575396,0.27058823529411763
+29,last,"random swap, alpha=0.5",0.0,0.0,3.6320426,0.27058823529411763
+29,last,"random swap, alpha=1.0",0.0,0.00196078431372549,7.2640853,0.27058823529411763
+29,last,"random swap, alpha=2.0",0.0058823529411764705,0.01568627450980392,14.528171,0.27058823529411763
+29,last,coordinate swap x1,0.0,0.0,0.13765419,0.27058823529411763
+29,last,coordinate swap x4,0.0,0.0,0.55061674,0.27058823529411763
+29,last,centroid swap,0.0,0.0,2.2909956,0.27058823529411763
+29,last,"centroid swap, J-lens span part",0.0,0.0,0.44883814,0.27058823529411763
+29,last,"centroid swap, outside J-lens span",0.0,0.0,2.2445645,0.27058823529411763
+29,capital,"J-lens swap, alpha=0.5",0.296078431372549,0.30196078431372547,2.9254136,0.4117647058823529
+29,capital,"J-lens swap, alpha=1.0",0.8392156862745098,0.8431372549019608,5.850827,0.4117647058823529
+29,capital,"J-lens swap, alpha=2.0",0.8607843137254902,0.8647058823529412,11.701654,0.4117647058823529
+29,capital,"logit lens swap, alpha=0.5",0.00784313725490196,0.00784313725490196,3.681633,0.4117647058823529
+29,capital,"logit lens swap, alpha=1.0",0.14313725490196078,0.17254901960784313,7.363266,0.4117647058823529
+29,capital,"logit lens swap, alpha=2.0",0.4392156862745098,0.5137254901960784,14.726532,0.4117647058823529
+29,capital,"random swap, alpha=0.5",0.0,0.0,3.9400246,0.4117647058823529
+29,capital,"random swap, alpha=1.0",0.0,0.0,7.880049,0.4117647058823529
+29,capital,"random swap, alpha=2.0",0.0,0.0,15.760098,0.4117647058823529
+29,capital,coordinate swap x1,0.0,0.0,0.44689313,0.4117647058823529
+29,capital,coordinate swap x4,0.28823529411764703,0.29411764705882354,1.7875725,0.4117647058823529
+29,capital,centroid swap,0.8411764705882353,0.8411764705882353,7.0333457,0.4117647058823529
+29,capital,"centroid swap, J-lens span part",0.00980392156862745,0.00980392156862745,1.7194594,0.4117647058823529
+29,capital,"centroid swap, outside J-lens span",0.4823529411764706,0.49019607843137253,6.8117404,0.4117647058823529
+30,last,"J-lens swap, alpha=0.5",0.00392156862745098,0.00392156862745098,2.830053,0.3235294117647059
+30,last,"J-lens swap, alpha=1.0",0.08235294117647059,0.09019607843137255,5.660106,0.3235294117647059
+30,last,"J-lens swap, alpha=2.0",0.43333333333333335,0.4666666666666667,11.320212,0.3235294117647059
+30,last,"logit lens swap, alpha=0.5",0.0,0.0,3.514208,0.3235294117647059
+30,last,"logit lens swap, alpha=1.0",0.041176470588235294,0.043137254901960784,7.028416,0.3235294117647059
+30,last,"logit lens swap, alpha=2.0",0.40784313725490196,0.492156862745098,14.056832,0.3235294117647059
+30,last,"random swap, alpha=0.5",0.0,0.00196078431372549,3.7608492,0.3235294117647059
+30,last,"random swap, alpha=1.0",0.0,0.00392156862745098,7.5216985,0.3235294117647059
+30,last,"random swap, alpha=2.0",0.00392156862745098,0.01764705882352941,15.043397,0.3235294117647059
+30,last,coordinate swap x1,0.0,0.0,0.22198382,0.3235294117647059
+30,last,coordinate swap x4,0.00196078431372549,0.00196078431372549,0.8879353,0.3235294117647059
+30,last,centroid swap,0.0,0.0,2.6237707,0.3235294117647059
+30,last,"centroid swap, J-lens span part",0.0,0.0,0.79091233,0.3235294117647059
+30,last,"centroid swap, outside J-lens span",0.0,0.0,2.4984503,0.3235294117647059
+30,capital,"J-lens swap, alpha=0.5",0.14901960784313725,0.1568627450980392,2.9672875,0.4235294117647059
+30,capital,"J-lens swap, alpha=1.0",0.6901960784313725,0.711764705882353,5.934575,0.4235294117647059
+30,capital,"J-lens swap, alpha=2.0",0.6607843137254902,0.7019607843137254,11.86915,0.4235294117647059
+30,capital,"logit lens swap, alpha=0.5",0.0,0.0,3.6846182,0.4235294117647059
+30,capital,"logit lens swap, alpha=1.0",0.08627450980392157,0.09019607843137255,7.3692365,0.4235294117647059
+30,capital,"logit lens swap, alpha=2.0",0.35490196078431374,0.4215686274509804,14.738473,0.4235294117647059
+30,capital,"random swap, alpha=0.5",0.0,0.0,3.9432197,0.4235294117647059
+30,capital,"random swap, alpha=1.0",0.0,0.0,7.8864393,0.4235294117647059
+30,capital,"random swap, alpha=2.0",0.0,0.0,15.772879,0.4235294117647059
+30,capital,coordinate swap x1,0.0,0.0,0.44742158,0.4235294117647059
+30,capital,coordinate swap x4,0.2372549019607843,0.2411764705882353,1.7896863,0.4235294117647059
+30,capital,centroid swap,0.7529411764705882,0.7568627450980392,6.927603,0.4235294117647059
+30,capital,"centroid swap, J-lens span part",0.00392156862745098,0.00392156862745098,1.8282993,0.4235294117647059
+30,capital,"centroid swap, outside J-lens span",0.2607843137254902,0.26666666666666666,6.672706,0.4235294117647059
+31,last,"J-lens swap, alpha=0.5",0.00392156862745098,0.00392156862745098,2.8764596,0.3176470588235294
+31,last,"J-lens swap, alpha=1.0",0.10588235294117647,0.10980392156862745,5.752919,0.3176470588235294
+31,last,"J-lens swap, alpha=2.0",0.44509803921568625,0.4549019607843137,11.505838,0.3176470588235294
+31,last,"logit lens swap, alpha=0.5",0.0,0.0,3.5508204,0.3176470588235294
+31,last,"logit lens swap, alpha=1.0",0.050980392156862744,0.052941176470588235,7.1016407,0.3176470588235294
+31,last,"logit lens swap, alpha=2.0",0.4588235294117647,0.5372549019607843,14.203281,0.3176470588235294
+31,last,"random swap, alpha=0.5",0.0,0.00196078431372549,3.8000312,0.3176470588235294
+31,last,"random swap, alpha=1.0",0.0,0.00392156862745098,7.6000624,0.3176470588235294
+31,last,"random swap, alpha=2.0",0.00196078431372549,0.00784313725490196,15.200125,0.3176470588235294
+31,last,coordinate swap x1,0.0,0.0,0.21108483,0.3176470588235294
+31,last,coordinate swap x4,0.00392156862745098,0.00392156862745098,0.8443393,0.3176470588235294
+31,last,centroid swap,0.0,0.0,2.5586503,0.3176470588235294
+31,last,"centroid swap, J-lens span part",0.0,0.0,0.78222984,0.3176470588235294
+31,last,"centroid swap, outside J-lens span",0.0,0.0,2.4327226,0.3176470588235294
+31,capital,"J-lens swap, alpha=0.5",0.19215686274509805,0.2019607843137255,3.0443578,0.4235294117647059
+31,capital,"J-lens swap, alpha=1.0",0.7254901960784313,0.7294117647058823,6.0887156,0.4235294117647059
+31,capital,"J-lens swap, alpha=2.0",0.7647058823529411,0.7725490196078432,12.177431,0.4235294117647059
+31,capital,"logit lens swap, alpha=0.5",0.00196078431372549,0.00196078431372549,3.7580805,0.4235294117647059
+31,capital,"logit lens swap, alpha=1.0",0.08823529411764706,0.09607843137254903,7.516161,0.4235294117647059
+31,capital,"logit lens swap, alpha=2.0",0.3352941176470588,0.4137254901960784,15.032322,0.4235294117647059
+31,capital,"random swap, alpha=0.5",0.0,0.0,4.0218377,0.4235294117647059
+31,capital,"random swap, alpha=1.0",0.0,0.0,8.043675,0.4235294117647059
+31,capital,"random swap, alpha=2.0",0.0,0.0,16.08735,0.4235294117647059
+31,capital,coordinate swap x1,0.0,0.0,0.4482377,0.4235294117647059
+31,capital,coordinate swap x4,0.22941176470588234,0.23137254901960785,1.7929507,0.4235294117647059
+31,capital,centroid swap,0.7509803921568627,0.7568627450980392,6.8756337,0.4235294117647059
+31,capital,"centroid swap, J-lens span part",0.0,0.0,1.860095,0.4235294117647059
+31,capital,"centroid swap, outside J-lens span",0.24313725490196078,0.24509803921568626,6.609906,0.4235294117647059
+32,last,"J-lens swap, alpha=0.5",0.00392156862745098,0.00392156862745098,2.9472346,0.3235294117647059
+32,last,"J-lens swap, alpha=1.0",0.11764705882352941,0.12352941176470589,5.8944693,0.3235294117647059
+32,last,"J-lens swap, alpha=2.0",0.5058823529411764,0.5254901960784314,11.7889385,0.3235294117647059
+32,last,"logit lens swap, alpha=0.5",0.0,0.0,3.6234694,0.3235294117647059
+32,last,"logit lens swap, alpha=1.0",0.06470588235294118,0.07254901960784314,7.2469387,0.3235294117647059
+32,last,"logit lens swap, alpha=2.0",0.5509803921568628,0.6431372549019608,14.493877,0.3235294117647059
+32,last,"random swap, alpha=0.5",0.0,0.00196078431372549,3.877779,0.3235294117647059
+32,last,"random swap, alpha=1.0",0.0,0.00392156862745098,7.755558,0.3235294117647059
+32,last,"random swap, alpha=2.0",0.00196078431372549,0.011764705882352941,15.511116,0.3235294117647059
+32,last,coordinate swap x1,0.0,0.0,0.2175602,0.3235294117647059
+32,last,coordinate swap x4,0.00784313725490196,0.00784313725490196,0.8702408,0.3235294117647059
+32,last,centroid swap,0.0,0.0,2.5532115,0.3235294117647059
+32,last,"centroid swap, J-lens span part",0.0,0.0,0.81319255,0.3235294117647059
+32,last,"centroid swap, outside J-lens span",0.0,0.0,2.416496,0.3235294117647059
+32,capital,"J-lens swap, alpha=0.5",0.17647058823529413,0.18235294117647058,3.2358403,0.4117647058823529
+32,capital,"J-lens swap, alpha=1.0",0.696078431372549,0.7058823529411765,6.4716806,0.4117647058823529
+32,capital,"J-lens swap, alpha=2.0",0.7980392156862746,0.8019607843137255,12.943361,0.4117647058823529
+32,capital,"logit lens swap, alpha=0.5",0.0,0.0,3.9782944,0.4117647058823529
+32,capital,"logit lens swap, alpha=1.0",0.08431372549019608,0.09803921568627451,7.9565887,0.4117647058823529
+32,capital,"logit lens swap, alpha=2.0",0.3215686274509804,0.41568627450980394,15.9131775,0.4117647058823529
+32,capital,"random swap, alpha=0.5",0.0,0.0,4.257507,0.4117647058823529
+32,capital,"random swap, alpha=1.0",0.0,0.0,8.515014,0.4117647058823529
+32,capital,"random swap, alpha=2.0",0.0,0.0,17.030027,0.4117647058823529
+32,capital,coordinate swap x1,0.0,0.0,0.4488557,0.4117647058823529
+32,capital,coordinate swap x4,0.20392156862745098,0.20392156862745098,1.7954228,0.4117647058823529
+32,capital,centroid swap,0.7470588235294118,0.7549019607843137,7.0685267,0.4117647058823529
+32,capital,"centroid swap, J-lens span part",0.00196078431372549,0.00196078431372549,2.0106566,0.4117647058823529
+32,capital,"centroid swap, outside J-lens span",0.21176470588235294,0.2196078431372549,6.766328,0.4117647058823529
+33,last,"J-lens swap, alpha=0.5",0.0058823529411764705,0.0058823529411764705,2.973542,0.31176470588235294
+33,last,"J-lens swap, alpha=1.0",0.3764705882352941,0.38823529411764707,5.947084,0.31176470588235294
+33,last,"J-lens swap, alpha=2.0",0.7098039215686275,0.7254901960784313,11.894168,0.31176470588235294
+33,last,"logit lens swap, alpha=0.5",0.00196078431372549,0.00196078431372549,3.6062584,0.31176470588235294
+33,last,"logit lens swap, alpha=1.0",0.09411764705882353,0.10980392156862745,7.212517,0.31176470588235294
+33,last,"logit lens swap, alpha=2.0",0.6215686274509804,0.7196078431372549,14.425034,0.31176470588235294
+33,last,"random swap, alpha=0.5",0.0,0.0,3.8593602,0.31176470588235294
+33,last,"random swap, alpha=1.0",0.0,0.00392156862745098,7.7187204,0.31176470588235294
+33,last,"random swap, alpha=2.0",0.0,0.0058823529411764705,15.437441,0.31176470588235294
+33,last,coordinate swap x1,0.0,0.0,0.21215844,0.31176470588235294
+33,last,coordinate swap x4,0.011764705882352941,0.011764705882352941,0.84863377,0.31176470588235294
+33,last,centroid swap,0.00196078431372549,0.00196078431372549,2.6360624,0.31176470588235294
+33,last,"centroid swap, J-lens span part",0.0,0.0,0.9182898,0.31176470588235294
+33,last,"centroid swap, outside J-lens span",0.0,0.0,2.4663205,0.31176470588235294
+33,capital,"J-lens swap, alpha=0.5",0.16666666666666666,0.17254901960784313,3.3849428,0.47058823529411764
+33,capital,"J-lens swap, alpha=1.0",0.7156862745098039,0.7235294117647059,6.7698855,0.47058823529411764
+33,capital,"J-lens swap, alpha=2.0",0.692156862745098,0.7,13.539771,0.47058823529411764
+33,capital,"logit lens swap, alpha=0.5",0.00196078431372549,0.00196078431372549,4.1051984,0.47058823529411764
+33,capital,"logit lens swap, alpha=1.0",0.07647058823529412,0.09411764705882353,8.210397,0.47058823529411764
+33,capital,"logit lens swap, alpha=2.0",0.3352941176470588,0.43137254901960786,16.420794,0.47058823529411764
+33,capital,"random swap, alpha=0.5",0.0,0.0,4.3933177,0.47058823529411764
+33,capital,"random swap, alpha=1.0",0.0,0.0,8.786635,0.47058823529411764
+33,capital,"random swap, alpha=2.0",0.0,0.0,17.57327,0.47058823529411764
+33,capital,coordinate swap x1,0.0,0.0,0.53428483,0.47058823529411764
+33,capital,coordinate swap x4,0.23529411764705882,0.23921568627450981,2.1371393,0.47058823529411764
+33,capital,centroid swap,0.6627450980392157,0.6686274509803921,7.087529,0.47058823529411764
+33,capital,"centroid swap, J-lens span part",0.0,0.0,2.0340335,0.47058823529411764
+33,capital,"centroid swap, outside J-lens span",0.1627450980392157,0.17058823529411765,6.7796297,0.47058823529411764
+34,last,"J-lens swap, alpha=0.5",0.0058823529411764705,0.0058823529411764705,2.947002,0.3588235294117647
+34,last,"J-lens swap, alpha=1.0",0.5176470588235295,0.5254901960784314,5.894004,0.3588235294117647
+34,last,"J-lens swap, alpha=2.0",0.8980392156862745,0.9,11.788008,0.3588235294117647
+34,last,"logit lens swap, alpha=0.5",0.00196078431372549,0.00196078431372549,3.5240076,0.3588235294117647
+34,last,"logit lens swap, alpha=1.0",0.12549019607843137,0.1627450980392157,7.048015,0.3588235294117647
+34,last,"logit lens swap, alpha=2.0",0.6666666666666666,0.796078431372549,14.09603,0.3588235294117647
+34,last,"random swap, alpha=0.5",0.0,0.00392156862745098,3.7713366,0.3588235294117647
+34,last,"random swap, alpha=1.0",0.0,0.00392156862745098,7.542673,0.3588235294117647
+34,last,"random swap, alpha=2.0",0.0,0.00392156862745098,15.085346,0.3588235294117647
+34,last,coordinate swap x1,0.0,0.0,0.2419035,0.3588235294117647
+34,last,coordinate swap x4,0.011764705882352941,0.011764705882352941,0.967614,0.3588235294117647
+34,last,centroid swap,0.00196078431372549,0.00196078431372549,2.593163,0.3588235294117647
+34,last,"centroid swap, J-lens span part",0.0,0.0,0.89536035,0.3588235294117647
+34,last,"centroid swap, outside J-lens span",0.0,0.0,2.4291437,0.3588235294117647
+34,capital,"J-lens swap, alpha=0.5",0.14705882352941177,0.14901960784313725,3.5105808,0.4823529411764706
+34,capital,"J-lens swap, alpha=1.0",0.7137254901960784,0.7235294117647059,7.0211616,0.4823529411764706
+34,capital,"J-lens swap, alpha=2.0",0.7588235294117647,0.7607843137254902,14.042323,0.4823529411764706
+34,capital,"logit lens swap, alpha=0.5",0.0,0.0,4.197932,0.4823529411764706
+34,capital,"logit lens swap, alpha=1.0",0.054901960784313725,0.0803921568627451,8.395864,0.4823529411764706
+34,capital,"logit lens swap, alpha=2.0",0.3058823529411765,0.41568627450980394,16.791727,0.4823529411764706
+34,capital,"random swap, alpha=0.5",0.0,0.0,4.49256,0.4823529411764706
+34,capital,"random swap, alpha=1.0",0.0,0.0,8.98512,0.4823529411764706
+34,capital,"random swap, alpha=2.0",0.0,0.0,17.97024,0.4823529411764706
+34,capital,coordinate swap x1,0.0,0.0,0.5174577,0.4823529411764706
+34,capital,coordinate swap x4,0.1803921568627451,0.1843137254901961,2.069831,0.4823529411764706
+34,capital,centroid swap,0.6490196078431373,0.6529411764705882,7.218574,0.4823529411764706
+34,capital,"centroid swap, J-lens span part",0.0,0.0,2.1003788,0.4823529411764706
+34,capital,"centroid swap, outside J-lens span",0.1843137254901961,0.19019607843137254,6.896379,0.4823529411764706
+35,last,"J-lens swap, alpha=0.5",0.0058823529411764705,0.0058823529411764705,2.9502964,0.3588235294117647
+35,last,"J-lens swap, alpha=1.0",0.6176470588235294,0.6254901960784314,5.900593,0.3588235294117647
+35,last,"J-lens swap, alpha=2.0",0.9686274509803922,0.9705882352941176,11.801186,0.3588235294117647
+35,last,"logit lens swap, alpha=0.5",0.00196078431372549,0.00196078431372549,3.453024,0.3588235294117647
+35,last,"logit lens swap, alpha=1.0",0.15098039215686274,0.19215686274509805,6.906048,0.3588235294117647
+35,last,"logit lens swap, alpha=2.0",0.7137254901960784,0.8529411764705882,13.812096,0.3588235294117647
+35,last,"random swap, alpha=0.5",0.0,0.00392156862745098,3.695371,0.3588235294117647
+35,last,"random swap, alpha=1.0",0.0,0.00392156862745098,7.390742,0.3588235294117647
+35,last,"random swap, alpha=2.0",0.0,0.00784313725490196,14.781484,0.3588235294117647
+35,last,coordinate swap x1,0.0,0.0,0.2426781,0.3588235294117647
+35,last,coordinate swap x4,0.01764705882352941,0.01764705882352941,0.9707124,0.3588235294117647
+35,last,centroid swap,0.00392156862745098,0.00392156862745098,2.6047125,0.3588235294117647
+35,last,"centroid swap, J-lens span part",0.0,0.0,0.929934,0.3588235294117647
+35,last,"centroid swap, outside J-lens span",0.0,0.0,2.428125,0.3588235294117647
+35,capital,"J-lens swap, alpha=0.5",0.13333333333333333,0.13725490196078433,3.8474874,0.4647058823529412
+35,capital,"J-lens swap, alpha=1.0",0.7333333333333333,0.7470588235294118,7.694975,0.4647058823529412
+35,capital,"J-lens swap, alpha=2.0",0.7784313725490196,0.792156862745098,15.38995,0.4647058823529412
+35,capital,"logit lens swap, alpha=0.5",0.0,0.0,4.503096,0.4647058823529412
+35,capital,"logit lens swap, alpha=1.0",0.0392156862745098,0.054901960784313725,9.006192,0.4647058823529412
+35,capital,"logit lens swap, alpha=2.0",0.25882352941176473,0.37058823529411766,18.012384,0.4647058823529412
+35,capital,"random swap, alpha=0.5",0.0,0.0,4.8191414,0.4647058823529412
+35,capital,"random swap, alpha=1.0",0.0,0.0,9.638283,0.4647058823529412
+35,capital,"random swap, alpha=2.0",0.0,0.0,19.276566,0.4647058823529412
+35,capital,coordinate swap x1,0.0,0.0,0.55289906,0.4647058823529412
+35,capital,coordinate swap x4,0.18823529411764706,0.19411764705882353,2.2115963,0.4647058823529412
+35,capital,centroid swap,0.6470588235294118,0.6509803921568628,7.5831113,0.4647058823529412
+35,capital,"centroid swap, J-lens span part",0.0,0.0,2.2931027,0.4647058823529412
+35,capital,"centroid swap, outside J-lens span",0.1392156862745098,0.14313725490196078,7.2171607,0.4647058823529412
+36,last,"J-lens swap, alpha=0.5",0.01764705882352941,0.01764705882352941,3.1218965,0.4176470588235294
+36,last,"J-lens swap, alpha=1.0",0.8529411764705882,0.8549019607843137,6.243793,0.4176470588235294
+36,last,"J-lens swap, alpha=2.0",0.9921568627450981,0.996078431372549,12.487586,0.4176470588235294
+36,last,"logit lens swap, alpha=0.5",0.0058823529411764705,0.011764705882352941,3.5859485,0.4176470588235294
+36,last,"logit lens swap, alpha=1.0",0.28627450980392155,0.3568627450980392,7.171897,0.4176470588235294
+36,last,"logit lens swap, alpha=2.0",0.788235294117647,0.9215686274509803,14.343794,0.4176470588235294
+36,last,"random swap, alpha=0.5",0.0,0.00392156862745098,3.8376245,0.4176470588235294
+36,last,"random swap, alpha=1.0",0.0,0.00392156862745098,7.675249,0.4176470588235294
+36,last,"random swap, alpha=2.0",0.00196078431372549,0.00980392156862745,15.350498,0.4176470588235294
+36,last,coordinate swap x1,0.0,0.0,0.30249438,0.4176470588235294
+36,last,coordinate swap x4,0.0392156862745098,0.0392156862745098,1.2099775,0.4176470588235294
+36,last,centroid swap,0.00784313725490196,0.00784313725490196,2.6732981,0.4176470588235294
+36,last,"centroid swap, J-lens span part",0.0,0.0,0.93540597,0.4176470588235294
+36,last,"centroid swap, outside J-lens span",0.0,0.0,2.498835,0.4176470588235294
+36,capital,"J-lens swap, alpha=0.5",0.21372549019607842,0.21568627450980393,4.146702,0.4823529411764706
+36,capital,"J-lens swap, alpha=1.0",0.7705882352941177,0.7823529411764706,8.293404,0.4823529411764706
+36,capital,"J-lens swap, alpha=2.0",0.8392156862745098,0.8470588235294118,16.586807,0.4823529411764706
+36,capital,"logit lens swap, alpha=0.5",0.00196078431372549,0.00196078431372549,4.763085,0.4823529411764706
+36,capital,"logit lens swap, alpha=1.0",0.049019607843137254,0.07450980392156863,9.52617,0.4823529411764706
+36,capital,"logit lens swap, alpha=2.0",0.23333333333333334,0.34705882352941175,19.05234,0.4823529411764706
+36,capital,"random swap, alpha=0.5",0.0,0.0,5.0973773,0.4823529411764706
+36,capital,"random swap, alpha=1.0",0.0,0.0,10.194755,0.4823529411764706
+36,capital,"random swap, alpha=2.0",0.0,0.0,20.38951,0.4823529411764706
+36,capital,coordinate swap x1,0.0,0.0,0.5919022,0.4823529411764706
+36,capital,coordinate swap x4,0.17647058823529413,0.1803921568627451,2.3676088,0.4823529411764706
+36,capital,centroid swap,0.6666666666666666,0.6705882352941176,8.0178,0.4823529411764706
+36,capital,"centroid swap, J-lens span part",0.0,0.0,2.3566735,0.4823529411764706
+36,capital,"centroid swap, outside J-lens span",0.12352941176470589,0.12941176470588237,7.652793,0.4823529411764706
+37,last,"J-lens swap, alpha=0.5",0.35294117647058826,0.3607843137254902,3.6224298,0.4764705882352941
+37,last,"J-lens swap, alpha=1.0",0.9941176470588236,0.9941176470588236,7.2448597,0.4764705882352941
+37,last,"J-lens swap, alpha=2.0",0.9823529411764705,0.9980392156862745,14.489719,0.4764705882352941
+37,last,"logit lens swap, alpha=0.5",0.049019607843137254,0.06470588235294118,4.1401033,0.4764705882352941
+37,last,"logit lens swap, alpha=1.0",0.5450980392156862,0.6372549019607843,8.280207,0.4764705882352941
+37,last,"logit lens swap, alpha=2.0",0.8058823529411765,0.9470588235294117,16.560413,0.4764705882352941
+37,last,"random swap, alpha=0.5",0.0,0.00392156862745098,4.4306717,0.4764705882352941
+37,last,"random swap, alpha=1.0",0.0,0.00392156862745098,8.861343,0.4764705882352941
+37,last,"random swap, alpha=2.0",0.0,0.011764705882352941,17.722687,0.4764705882352941
+37,last,coordinate swap x1,0.0,0.0,0.5407985,0.4764705882352941
+37,last,coordinate swap x4,0.3411764705882353,0.3431372549019608,2.163194,0.4764705882352941
+37,last,centroid swap,0.9470588235294117,0.9529411764705882,4.7334137,0.4764705882352941
+37,last,"centroid swap, J-lens span part",0.03333333333333333,0.03333333333333333,2.399571,0.4764705882352941
+37,last,"centroid swap, outside J-lens span",0.03725490196078431,0.03725490196078431,4.070167,0.4764705882352941
+37,capital,"J-lens swap, alpha=0.5",0.0,0.0,4.388728,0.5705882352941176
+37,capital,"J-lens swap, alpha=1.0",0.0392156862745098,0.0392156862745098,8.777456,0.5705882352941176
+37,capital,"J-lens swap, alpha=2.0",0.13725490196078433,0.1392156862745098,17.554913,0.5705882352941176
+37,capital,"logit lens swap, alpha=0.5",0.0,0.0,5.015911,0.5705882352941176
+37,capital,"logit lens swap, alpha=1.0",0.00196078431372549,0.00196078431372549,10.031822,0.5705882352941176
+37,capital,"logit lens swap, alpha=2.0",0.00980392156862745,0.00980392156862745,20.063644,0.5705882352941176
+37,capital,"random swap, alpha=0.5",0.0,0.0,5.367948,0.5705882352941176
+37,capital,"random swap, alpha=1.0",0.0,0.0,10.735896,0.5705882352941176
+37,capital,"random swap, alpha=2.0",0.0,0.0,21.471792,0.5705882352941176
+37,capital,coordinate swap x1,0.0,0.0,0.74507654,0.5705882352941176
+37,capital,coordinate swap x4,0.00784313725490196,0.00784313725490196,2.9803061,0.5705882352941176
+37,capital,centroid swap,0.00980392156862745,0.00980392156862745,8.453916,0.5705882352941176
+37,capital,"centroid swap, J-lens span part",0.0,0.0,2.4658709,0.5705882352941176
+37,capital,"centroid swap, outside J-lens span",0.0,0.0,8.07825,0.5705882352941176
+38,last,"J-lens swap, alpha=0.5",0.4215686274509804,0.4294117647058823,3.7571068,0.5529411764705883
+38,last,"J-lens swap, alpha=1.0",0.996078431372549,0.996078431372549,7.5142136,0.5529411764705883
+38,last,"J-lens swap, alpha=2.0",0.9745098039215686,0.9980392156862745,15.028427,0.5529411764705883
+38,last,"logit lens swap, alpha=0.5",0.07647058823529412,0.11372549019607843,4.254204,0.5529411764705883
+38,last,"logit lens swap, alpha=1.0",0.5980392156862745,0.7235294117647059,8.508408,0.5529411764705883
+38,last,"logit lens swap, alpha=2.0",0.7784313725490196,0.9509803921568627,17.016815,0.5529411764705883
+38,last,"random swap, alpha=0.5",0.0,0.00392156862745098,4.55278,0.5529411764705883
+38,last,"random swap, alpha=1.0",0.0,0.00392156862745098,9.10556,0.5529411764705883
+38,last,"random swap, alpha=2.0",0.0,0.013725490196078431,18.21112,0.5529411764705883
+38,last,coordinate swap x1,0.0,0.0,0.6200862,0.5529411764705883
+38,last,coordinate swap x4,0.37058823529411766,0.37450980392156863,2.4803448,0.5529411764705883
+38,last,centroid swap,0.9509803921568627,0.9607843137254902,5.0010796,0.5529411764705883
+38,last,"centroid swap, J-lens span part",0.03137254901960784,0.03333333333333333,2.4409404,0.5529411764705883
+38,last,"centroid swap, outside J-lens span",0.07647058823529412,0.07647058823529412,4.356114,0.5529411764705883
+38,capital,"J-lens swap, alpha=0.5",0.0,0.0,4.7057185,0.6470588235294118
+38,capital,"J-lens swap, alpha=1.0",0.01568627450980392,0.01568627450980392,9.411437,0.6470588235294118
+38,capital,"J-lens swap, alpha=2.0",0.0803921568627451,0.08235294117647059,18.822874,0.6470588235294118
+38,capital,"logit lens swap, alpha=0.5",0.0,0.0,5.3283253,0.6470588235294118
+38,capital,"logit lens swap, alpha=1.0",0.0,0.0,10.656651,0.6470588235294118
+38,capital,"logit lens swap, alpha=2.0",0.00196078431372549,0.00196078431372549,21.313301,0.6470588235294118
+38,capital,"random swap, alpha=0.5",0.0,0.0,5.702288,0.6470588235294118
+38,capital,"random swap, alpha=1.0",0.0,0.0,11.404576,0.6470588235294118
+38,capital,"random swap, alpha=2.0",0.0,0.0,22.809153,0.6470588235294118
+38,capital,coordinate swap x1,0.0,0.0,0.8862646,0.6470588235294118
+38,capital,coordinate swap x4,0.00196078431372549,0.00196078431372549,3.5450585,0.6470588235294118
+38,capital,centroid swap,0.00196078431372549,0.00196078431372549,9.01687,0.6470588235294118
+38,capital,"centroid swap, J-lens span part",0.0,0.0,2.5784636,0.6470588235294118
+38,capital,"centroid swap, outside J-lens span",0.0,0.0,8.633016,0.6470588235294118
+39,last,"J-lens swap, alpha=0.5",0.5098039215686274,0.5215686274509804,3.9195805,0.6352941176470588
+39,last,"J-lens swap, alpha=1.0",0.996078431372549,0.996078431372549,7.839161,0.6352941176470588
+39,last,"J-lens swap, alpha=2.0",0.9588235294117647,0.9980392156862745,15.678322,0.6352941176470588
+39,last,"logit lens swap, alpha=0.5",0.1,0.1450980392156863,4.410436,0.6352941176470588
+39,last,"logit lens swap, alpha=1.0",0.6313725490196078,0.7803921568627451,8.820872,0.6352941176470588
+39,last,"logit lens swap, alpha=2.0",0.7725490196078432,0.9588235294117647,17.641745,0.6352941176470588
+39,last,"random swap, alpha=0.5",0.0,0.00392156862745098,4.719979,0.6352941176470588
+39,last,"random swap, alpha=1.0",0.0,0.00392156862745098,9.439958,0.6352941176470588
+39,last,"random swap, alpha=2.0",0.00196078431372549,0.0196078431372549,18.879915,0.6352941176470588
+39,last,coordinate swap x1,0.0,0.0,0.74455464,0.6352941176470588
+39,last,coordinate swap x4,0.44313725490196076,0.44509803921568625,2.9782186,0.6352941176470588
+39,last,centroid swap,0.9549019607843138,0.9666666666666667,5.356447,0.6352941176470588
+39,last,"centroid swap, J-lens span part",0.043137254901960784,0.045098039215686274,2.5235624,0.6352941176470588
+39,last,"centroid swap, outside J-lens span",0.0803921568627451,0.08235294117647059,4.7166896,0.6352941176470588
+39,capital,"J-lens swap, alpha=0.5",0.0,0.0,4.932192,0.6176470588235294
+39,capital,"J-lens swap, alpha=1.0",0.011764705882352941,0.011764705882352941,9.864384,0.6176470588235294
+39,capital,"J-lens swap, alpha=2.0",0.06666666666666667,0.06862745098039216,19.728767,0.6176470588235294
+39,capital,"logit lens swap, alpha=0.5",0.0,0.0,5.549859,0.6176470588235294
+39,capital,"logit lens swap, alpha=1.0",0.0,0.0,11.099718,0.6176470588235294
+39,capital,"logit lens swap, alpha=2.0",0.00196078431372549,0.00196078431372549,22.199436,0.6176470588235294
+39,capital,"random swap, alpha=0.5",0.0,0.0,5.9393697,0.6176470588235294
+39,capital,"random swap, alpha=1.0",0.0,0.0,11.878739,0.6176470588235294
+39,capital,"random swap, alpha=2.0",0.0,0.0,23.757479,0.6176470588235294
+39,capital,coordinate swap x1,0.0,0.0,0.90187055,0.6176470588235294
+39,capital,coordinate swap x4,0.0,0.0,3.6074822,0.6176470588235294
+39,capital,centroid swap,0.00392156862745098,0.00392156862745098,9.371842,0.6176470588235294
+39,capital,"centroid swap, J-lens span part",0.0,0.0,2.7073581,0.6176470588235294
+39,capital,"centroid swap, outside J-lens span",0.0,0.0,8.965043,0.6176470588235294
+40,last,"J-lens swap, alpha=0.5",0.6196078431372549,0.6431372549019608,4.1252666,0.6058823529411764
+40,last,"J-lens swap, alpha=1.0",0.996078431372549,0.996078431372549,8.250533,0.6058823529411764
+40,last,"J-lens swap, alpha=2.0",0.9450980392156862,0.9980392156862745,16.501066,0.6058823529411764
+40,last,"logit lens swap, alpha=0.5",0.1450980392156863,0.2,4.614288,0.6058823529411764
+40,last,"logit lens swap, alpha=1.0",0.6627450980392157,0.8235294117647058,9.228576,0.6058823529411764
+40,last,"logit lens swap, alpha=2.0",0.7764705882352941,0.9607843137254902,18.457151,0.6058823529411764
+40,last,"random swap, alpha=0.5",0.0,0.00196078431372549,4.9381375,0.6058823529411764
+40,last,"random swap, alpha=1.0",0.0,0.00392156862745098,9.876275,0.6058823529411764
+40,last,"random swap, alpha=2.0",0.00196078431372549,0.021568627450980392,19.75255,0.6058823529411764
+40,last,coordinate swap x1,0.0,0.0,0.72687566,0.6058823529411764
+40,last,coordinate swap x4,0.45294117647058824,0.4549019607843137,2.9075027,0.6058823529411764
+40,last,centroid swap,0.9529411764705882,0.9647058823529412,5.6418467,0.6058823529411764
+40,last,"centroid swap, J-lens span part",0.052941176470588235,0.056862745098039215,2.5652614,0.6058823529411764
+40,last,"centroid swap, outside J-lens span",0.0784313725490196,0.0803921568627451,5.0176573,0.6058823529411764
+40,capital,"J-lens swap, alpha=0.5",0.0,0.0,5.298623,0.6764705882352942
+40,capital,"J-lens swap, alpha=1.0",0.01568627450980392,0.01568627450980392,10.597246,0.6764705882352942
+40,capital,"J-lens swap, alpha=2.0",0.1784313725490196,0.18627450980392157,21.194492,0.6764705882352942
+40,capital,"logit lens swap, alpha=0.5",0.0,0.0,5.926738,0.6764705882352942
+40,capital,"logit lens swap, alpha=1.0",0.0,0.0,11.853476,0.6764705882352942
+40,capital,"logit lens swap, alpha=2.0",0.0,0.0,23.706951,0.6764705882352942
+40,capital,"random swap, alpha=0.5",0.0,0.0,6.3426995,0.6764705882352942
+40,capital,"random swap, alpha=1.0",0.0,0.0,12.685399,0.6764705882352942
+40,capital,"random swap, alpha=2.0",0.0,0.0,25.370798,0.6764705882352942
+40,capital,coordinate swap x1,0.0,0.0,1.0592848,0.6764705882352942
+40,capital,coordinate swap x4,0.0,0.0,4.237139,0.6764705882352942
+40,capital,centroid swap,0.00392156862745098,0.00392156862745098,10.017099,0.6764705882352942
+40,capital,"centroid swap, J-lens span part",0.0,0.0,2.840515,0.6764705882352942
+40,capital,"centroid swap, outside J-lens span",0.0,0.0,9.598845,0.6764705882352942
+41,last,"J-lens swap, alpha=0.5",0.707843137254902,0.7313725490196078,4.440389,0.6235294117647059
+41,last,"J-lens swap, alpha=1.0",0.9941176470588236,0.996078431372549,8.880778,0.6235294117647059
+41,last,"J-lens swap, alpha=2.0",0.9333333333333333,0.996078431372549,17.761557,0.6235294117647059
+41,last,"logit lens swap, alpha=0.5",0.2019607843137255,0.26666666666666666,4.9354405,0.6235294117647059
+41,last,"logit lens swap, alpha=1.0",0.6882352941176471,0.8549019607843137,9.870881,0.6235294117647059
+41,last,"logit lens swap, alpha=2.0",0.7568627450980392,0.9607843137254902,19.741762,0.6235294117647059
+41,last,"random swap, alpha=0.5",0.0,0.0,5.2818294,0.6235294117647059
+41,last,"random swap, alpha=1.0",0.0,0.00196078431372549,10.563659,0.6235294117647059
+41,last,"random swap, alpha=2.0",0.00196078431372549,0.0196078431372549,21.127317,0.6235294117647059
+41,last,coordinate swap x1,0.0,0.0,0.813414,0.6235294117647059
+41,last,coordinate swap x4,0.5215686274509804,0.5294117647058824,3.253656,0.6235294117647059
+41,last,centroid swap,0.9627450980392157,0.9725490196078431,6.366585,0.6235294117647059
+41,last,"centroid swap, J-lens span part",0.09411764705882353,0.09803921568627451,2.7589583,0.6235294117647059
+41,last,"centroid swap, outside J-lens span",0.15294117647058825,0.1588235294117647,5.730148,0.6235294117647059
+41,capital,"J-lens swap, alpha=0.5",0.0,0.0,5.672795,0.6470588235294118
+41,capital,"J-lens swap, alpha=1.0",0.0,0.0,11.34559,0.6470588235294118
+41,capital,"J-lens swap, alpha=2.0",0.13529411764705881,0.14705882352941177,22.69118,0.6470588235294118
+41,capital,"logit lens swap, alpha=0.5",0.0,0.0,6.305245,0.6470588235294118
+41,capital,"logit lens swap, alpha=1.0",0.0,0.0,12.61049,0.6470588235294118
+41,capital,"logit lens swap, alpha=2.0",0.0,0.0,25.22098,0.6470588235294118
+41,capital,"random swap, alpha=0.5",0.0,0.0,6.747772,0.6470588235294118
+41,capital,"random swap, alpha=1.0",0.0,0.0,13.495544,0.6470588235294118
+41,capital,"random swap, alpha=2.0",0.0,0.0,26.991089,0.6470588235294118
+41,capital,coordinate swap x1,0.0,0.0,1.0725733,0.6470588235294118
+41,capital,coordinate swap x4,0.0,0.0,4.290293,0.6470588235294118
+41,capital,centroid swap,0.00392156862745098,0.00392156862745098,10.744597,0.6470588235294118
+41,capital,"centroid swap, J-lens span part",0.0,0.0,2.9778373,0.6470588235294118
+41,capital,"centroid swap, outside J-lens span",0.0,0.0,10.317469,0.6470588235294118
+42,last,"J-lens swap, alpha=0.5",0.7431372549019608,0.7764705882352941,4.773634,0.6470588235294118
+42,last,"J-lens swap, alpha=1.0",0.9862745098039216,0.996078431372549,9.547268,0.6470588235294118
+42,last,"J-lens swap, alpha=2.0",0.8941176470588236,0.996078431372549,19.094536,0.6470588235294118
+42,last,"logit lens swap, alpha=0.5",0.28627450980392155,0.38235294117647056,5.337989,0.6470588235294118
+42,last,"logit lens swap, alpha=1.0",0.7098039215686275,0.8803921568627451,10.675978,0.6470588235294118
+42,last,"logit lens swap, alpha=2.0",0.7411764705882353,0.9627450980392157,21.351955,0.6470588235294118
+42,last,"random swap, alpha=0.5",0.0,0.00196078431372549,5.7126303,0.6470588235294118
+42,last,"random swap, alpha=1.0",0.0,0.00392156862745098,11.425261,0.6470588235294118
+42,last,"random swap, alpha=2.0",0.00392156862745098,0.0392156862745098,22.850521,0.6470588235294118
+42,last,coordinate swap x1,0.00196078431372549,0.00196078431372549,0.9190889,0.6470588235294118
+42,last,coordinate swap x4,0.5490196078431373,0.5607843137254902,3.6763556,0.6470588235294118
+42,last,centroid swap,0.996078431372549,1.0,7.481571,0.6470588235294118
+42,last,"centroid swap, J-lens span part",0.2372549019607843,0.2529411764705882,3.2791867,0.6470588235294118
+42,last,"centroid swap, outside J-lens span",0.4392156862745098,0.48823529411764705,6.7165985,0.6470588235294118
+42,capital,"J-lens swap, alpha=0.5",0.0,0.0,6.030642,0.6705882352941176
+42,capital,"J-lens swap, alpha=1.0",0.0,0.0,12.061284,0.6705882352941176
+42,capital,"J-lens swap, alpha=2.0",0.0,0.0,24.122568,0.6705882352941176
+42,capital,"logit lens swap, alpha=0.5",0.0,0.0,6.7436056,0.6705882352941176
+42,capital,"logit lens swap, alpha=1.0",0.0,0.0,13.487211,0.6705882352941176
+42,capital,"logit lens swap, alpha=2.0",0.0,0.0,26.974422,0.6705882352941176
+42,capital,"random swap, alpha=0.5",0.0,0.0,7.2168984,0.6705882352941176
+42,capital,"random swap, alpha=1.0",0.0,0.0,14.433797,0.6705882352941176
+42,capital,"random swap, alpha=2.0",0.0,0.0,28.867594,0.6705882352941176
+42,capital,coordinate swap x1,0.0,0.0,1.197976,0.6705882352941176
+42,capital,coordinate swap x4,0.0,0.0,4.791904,0.6705882352941176
+42,capital,centroid swap,0.0,0.0,11.616484,0.6705882352941176
+42,capital,"centroid swap, J-lens span part",0.0,0.0,3.3550835,0.6705882352941176
+42,capital,"centroid swap, outside J-lens span",0.0,0.0,11.114095,0.6705882352941176
+43,last,"J-lens swap, alpha=0.5",0.7823529411764706,0.8137254901960784,4.97716,0.6647058823529411
+43,last,"J-lens swap, alpha=1.0",0.9862745098039216,0.996078431372549,9.95432,0.6647058823529411
+43,last,"J-lens swap, alpha=2.0",0.8764705882352941,0.996078431372549,19.90864,0.6647058823529411
+43,last,"logit lens swap, alpha=0.5",0.3509803921568627,0.44509803921568625,5.558997,0.6647058823529411
+43,last,"logit lens swap, alpha=1.0",0.7137254901960784,0.884313725490196,11.117994,0.6647058823529411
+43,last,"logit lens swap, alpha=2.0",0.7254901960784313,0.9627450980392157,22.235989,0.6647058823529411
+43,last,"random swap, alpha=0.5",0.0,0.00196078431372549,5.9491496,0.6647058823529411
+43,last,"random swap, alpha=1.0",0.0,0.00392156862745098,11.898299,0.6647058823529411
+43,last,"random swap, alpha=2.0",0.0058823529411764705,0.060784313725490195,23.796598,0.6647058823529411
+43,last,coordinate swap x1,0.0,0.0,0.9759433,0.6647058823529411
+43,last,coordinate swap x4,0.5627450980392157,0.5745098039215686,3.9037733,0.6647058823529411
+43,last,centroid swap,0.996078431372549,1.0,7.941165,0.6647058823529411
+43,last,"centroid swap, J-lens span part",0.26666666666666666,0.29411764705882354,3.3711257,0.6647058823529411
+43,last,"centroid swap, outside J-lens span",0.403921568627451,0.4549019607843137,7.1829267,0.6647058823529411
+43,capital,"J-lens swap, alpha=0.5",0.0,0.0,6.2756047,0.6705882352941176
+43,capital,"J-lens swap, alpha=1.0",0.0,0.0,12.551209,0.6705882352941176
+43,capital,"J-lens swap, alpha=2.0",0.0,0.0,25.102419,0.6705882352941176
+43,capital,"logit lens swap, alpha=0.5",0.0,0.0,7.009232,0.6705882352941176
+43,capital,"logit lens swap, alpha=1.0",0.0,0.0,14.018464,0.6705882352941176
+43,capital,"logit lens swap, alpha=2.0",0.0,0.0,28.036928,0.6705882352941176
+43,capital,"random swap, alpha=0.5",0.0,0.0,7.5011683,0.6705882352941176
+43,capital,"random swap, alpha=1.0",0.0,0.0,15.0023365,0.6705882352941176
+43,capital,"random swap, alpha=2.0",0.0,0.0,30.004673,0.6705882352941176
+43,capital,coordinate swap x1,0.0,0.0,1.2391634,0.6705882352941176
+43,capital,coordinate swap x4,0.0,0.0,4.9566536,0.6705882352941176
+43,capital,centroid swap,0.0,0.0,12.111983,0.6705882352941176
+43,capital,"centroid swap, J-lens span part",0.0,0.0,3.4384804,0.6705882352941176
+43,capital,"centroid swap, outside J-lens span",0.0,0.0,11.606415,0.6705882352941176
+44,last,"J-lens swap, alpha=0.5",0.8196078431372549,0.8529411764705882,5.315788,0.6411764705882353
+44,last,"J-lens swap, alpha=1.0",0.9823529411764705,0.9941176470588236,10.631576,0.6411764705882353
+44,last,"J-lens swap, alpha=2.0",0.8588235294117647,0.9941176470588236,21.263151,0.6411764705882353
+44,last,"logit lens swap, alpha=0.5",0.4176470588235294,0.5411764705882353,5.9109664,0.6411764705882353
+44,last,"logit lens swap, alpha=1.0",0.7254901960784313,0.8921568627450981,11.821933,0.6411764705882353
+44,last,"logit lens swap, alpha=2.0",0.7215686274509804,0.9647058823529412,23.643866,0.6411764705882353
+44,last,"random swap, alpha=0.5",0.0,0.00392156862745098,6.3258214,0.6411764705882353
+44,last,"random swap, alpha=1.0",0.0,0.00392156862745098,12.651643,0.6411764705882353
+44,last,"random swap, alpha=2.0",0.00980392156862745,0.06862745098039216,25.303286,0.6411764705882353
+44,last,coordinate swap x1,0.0,0.00196078431372549,0.9803131,0.6411764705882353
+44,last,coordinate swap x4,0.5333333333333333,0.5529411764705883,3.9212525,0.6411764705882353
+44,last,centroid swap,0.996078431372549,1.0,8.521862,0.6411764705882353
+44,last,"centroid swap, J-lens span part",0.2980392156862745,0.32941176470588235,3.5442603,0.6411764705882353
+44,last,"centroid swap, outside J-lens span",0.3764705882352941,0.4294117647058823,7.7427263,0.6411764705882353
+44,capital,"J-lens swap, alpha=0.5",0.0,0.0,6.657209,0.6588235294117647
+44,capital,"J-lens swap, alpha=1.0",0.0,0.0,13.314418,0.6588235294117647
+44,capital,"J-lens swap, alpha=2.0",0.0,0.0,26.628836,0.6588235294117647
+44,capital,"logit lens swap, alpha=0.5",0.0,0.0,7.402579,0.6588235294117647
+44,capital,"logit lens swap, alpha=1.0",0.0,0.0,14.805158,0.6588235294117647
+44,capital,"logit lens swap, alpha=2.0",0.0,0.0,29.610315,0.6588235294117647
+44,capital,"random swap, alpha=0.5",0.0,0.0,7.922121,0.6588235294117647
+44,capital,"random swap, alpha=1.0",0.0,0.0,15.844242,0.6588235294117647
+44,capital,"random swap, alpha=2.0",0.0,0.0,31.688484,0.6588235294117647
+44,capital,coordinate swap x1,0.0,0.0,1.2958616,0.6588235294117647
+44,capital,coordinate swap x4,0.0,0.0,5.1834464,0.6588235294117647
+44,capital,centroid swap,0.0,0.0,12.723701,0.6588235294117647
+44,capital,"centroid swap, J-lens span part",0.0,0.0,3.6022527,0.6588235294117647
+44,capital,"centroid swap, outside J-lens span",0.0,0.0,12.19539,0.6588235294117647
+45,last,"J-lens swap, alpha=0.5",0.8431372549019608,0.8745098039215686,5.7039022,0.6411764705882353
+45,last,"J-lens swap, alpha=1.0",0.9725490196078431,0.9941176470588236,11.4078045,0.6411764705882353
+45,last,"J-lens swap, alpha=2.0",0.8607843137254902,0.9941176470588236,22.815609,0.6411764705882353
+45,last,"logit lens swap, alpha=0.5",0.47058823529411764,0.6039215686274509,6.311227,0.6411764705882353
+45,last,"logit lens swap, alpha=1.0",0.7235294117647059,0.8941176470588236,12.622454,0.6411764705882353
+45,last,"logit lens swap, alpha=2.0",0.7058823529411765,0.9666666666666667,25.244907,0.6411764705882353
+45,last,"random swap, alpha=0.5",0.0,0.00196078431372549,6.7541738,0.6411764705882353
+45,last,"random swap, alpha=1.0",0.0,0.0058823529411764705,13.5083475,0.6411764705882353
+45,last,"random swap, alpha=2.0",0.00980392156862745,0.07254901960784314,27.016695,0.6411764705882353
+45,last,coordinate swap x1,0.0,0.00196078431372549,1.0711453,0.6411764705882353
+45,last,coordinate swap x4,0.5588235294117647,0.5764705882352941,4.284581,0.6411764705882353
+45,last,centroid swap,0.9980392156862745,1.0,9.332071,0.6411764705882353
+45,last,"centroid swap, J-lens span part",0.3862745098039216,0.4294117647058823,3.8367364,0.6411764705882353
+45,last,"centroid swap, outside J-lens span",0.32941176470588235,0.3843137254901961,8.499402,0.6411764705882353
+45,capital,"J-lens swap, alpha=0.5",0.0,0.0,7.1026154,0.6352941176470588
+45,capital,"J-lens swap, alpha=1.0",0.0,0.0,14.205231,0.6352941176470588
+45,capital,"J-lens swap, alpha=2.0",0.0,0.0,28.410461,0.6352941176470588
+45,capital,"logit lens swap, alpha=0.5",0.0,0.0,7.8588676,0.6352941176470588
+45,capital,"logit lens swap, alpha=1.0",0.0,0.0,15.717735,0.6352941176470588
+45,capital,"logit lens swap, alpha=2.0",0.0,0.0,31.43547,0.6352941176470588
+45,capital,"random swap, alpha=0.5",0.0,0.0,8.410434,0.6352941176470588
+45,capital,"random swap, alpha=1.0",0.0,0.0,16.820868,0.6352941176470588
+45,capital,"random swap, alpha=2.0",0.0,0.0,33.641735,0.6352941176470588
+45,capital,coordinate swap x1,0.0,0.0,1.3340319,0.6352941176470588
+45,capital,coordinate swap x4,0.0,0.0,5.3361278,0.6352941176470588
+45,capital,centroid swap,0.0,0.0,13.4949255,0.6352941176470588
+45,capital,"centroid swap, J-lens span part",0.0,0.0,3.8978717,0.6352941176470588
+45,capital,"centroid swap, outside J-lens span",0.0,0.0,12.91176,0.6352941176470588
+46,last,"J-lens swap, alpha=0.5",0.8431372549019608,0.884313725490196,5.949076,0.6705882352941176
+46,last,"J-lens swap, alpha=1.0",0.9568627450980393,0.9901960784313726,11.898152,0.6705882352941176
+46,last,"J-lens swap, alpha=2.0",0.8509803921568627,0.9901960784313726,23.796305,0.6705882352941176
+46,last,"logit lens swap, alpha=0.5",0.49019607843137253,0.6196078431372549,6.567186,0.6705882352941176
+46,last,"logit lens swap, alpha=1.0",0.7294117647058823,0.8960784313725491,13.134372,0.6705882352941176
+46,last,"logit lens swap, alpha=2.0",0.7019607843137254,0.9647058823529412,26.268744,0.6705882352941176
+46,last,"random swap, alpha=0.5",0.0,0.00196078431372549,7.028098,0.6705882352941176
+46,last,"random swap, alpha=1.0",0.0,0.0058823529411764705,14.056196,0.6705882352941176
+46,last,"random swap, alpha=2.0",0.00980392156862745,0.08235294117647059,28.112392,0.6705882352941176
+46,last,coordinate swap x1,0.0,0.0058823529411764705,1.1428854,0.6705882352941176
+46,last,coordinate swap x4,0.5803921568627451,0.6019607843137255,4.571542,0.6705882352941176
+46,last,centroid swap,1.0,1.0,9.8857,0.6705882352941176
+46,last,"centroid swap, J-lens span part",0.4392156862745098,0.4843137254901961,4.025681,0.6705882352941176
+46,last,"centroid swap, outside J-lens span",0.3137254901960784,0.37254901960784315,9.021549,0.6705882352941176
+46,capital,"J-lens swap, alpha=0.5",0.0,0.0,7.431428,0.6647058823529411
+46,capital,"J-lens swap, alpha=1.0",0.0,0.0,14.862856,0.6647058823529411
+46,capital,"J-lens swap, alpha=2.0",0.0,0.0,29.725712,0.6647058823529411
+46,capital,"logit lens swap, alpha=0.5",0.0,0.0,8.203556,0.6647058823529411
+46,capital,"logit lens swap, alpha=1.0",0.0,0.0,16.407112,0.6647058823529411
+46,capital,"logit lens swap, alpha=2.0",0.0,0.0,32.814224,0.6647058823529411
+46,capital,"random swap, alpha=0.5",0.0,0.0,8.779314,0.6647058823529411
+46,capital,"random swap, alpha=1.0",0.0,0.0,17.558628,0.6647058823529411
+46,capital,"random swap, alpha=2.0",0.0,0.0,35.117256,0.6647058823529411
+46,capital,coordinate swap x1,0.0,0.0,1.4706204,0.6647058823529411
+46,capital,coordinate swap x4,0.0,0.0,5.8824816,0.6647058823529411
+46,capital,centroid swap,0.0,0.0,14.135679,0.6647058823529411
+46,capital,"centroid swap, J-lens span part",0.0,0.0,4.103473,0.6647058823529411
+46,capital,"centroid swap, outside J-lens span",0.0,0.0,13.519083,0.6647058823529411
+47,last,"J-lens swap, alpha=0.5",0.8549019607843137,0.8960784313725491,6.246944,0.6882352941176471
+47,last,"J-lens swap, alpha=1.0",0.9372549019607843,0.9882352941176471,12.493888,0.6882352941176471
+47,last,"J-lens swap, alpha=2.0",0.8431372549019608,0.9882352941176471,24.987776,0.6882352941176471
+47,last,"logit lens swap, alpha=0.5",0.503921568627451,0.6431372549019608,6.8570924,0.6882352941176471
+47,last,"logit lens swap, alpha=1.0",0.7352941176470589,0.9019607843137255,13.714185,0.6882352941176471
+47,last,"logit lens swap, alpha=2.0",0.6784313725490196,0.9607843137254902,27.42837,0.6882352941176471
+47,last,"random swap, alpha=0.5",0.0,0.0058823529411764705,7.3383512,0.6882352941176471
+47,last,"random swap, alpha=1.0",0.0,0.0058823529411764705,14.6767025,0.6882352941176471
+47,last,"random swap, alpha=2.0",0.01568627450980392,0.09215686274509804,29.353405,0.6882352941176471
+47,last,coordinate swap x1,0.00196078431372549,0.00980392156862745,1.2590346,0.6882352941176471
+47,last,coordinate swap x4,0.5980392156862745,0.6274509803921569,5.0361385,0.6882352941176471
+47,last,centroid swap,0.9980392156862745,1.0,10.464208,0.6882352941176471
+47,last,"centroid swap, J-lens span part",0.4745098039215686,0.5235294117647059,4.224056,0.6882352941176471
+47,last,"centroid swap, outside J-lens span",0.2607843137254902,0.32745098039215687,9.566117,0.6882352941176471
+47,capital,"J-lens swap, alpha=0.5",0.0,0.0,7.7955446,0.6941176470588235
+47,capital,"J-lens swap, alpha=1.0",0.0,0.0,15.591089,0.6941176470588235
+47,capital,"J-lens swap, alpha=2.0",0.0,0.0,31.182178,0.6941176470588235
+47,capital,"logit lens swap, alpha=0.5",0.0,0.0,8.556948,0.6941176470588235
+47,capital,"logit lens swap, alpha=1.0",0.0,0.0,17.113895,0.6941176470588235
+47,capital,"logit lens swap, alpha=2.0",0.0,0.0,34.22779,0.6941176470588235
+47,capital,"random swap, alpha=0.5",0.0,0.0,9.157509,0.6941176470588235
+47,capital,"random swap, alpha=1.0",0.0,0.0,18.315018,0.6941176470588235
+47,capital,"random swap, alpha=2.0",0.0,0.0,36.630035,0.6941176470588235
+47,capital,coordinate swap x1,0.0,0.0,1.6112049,0.6941176470588235
+47,capital,coordinate swap x4,0.0,0.0,6.4448195,0.6941176470588235
+47,capital,centroid swap,0.0,0.0,14.844661,0.6941176470588235
+47,capital,"centroid swap, J-lens span part",0.0,0.0,4.2952714,0.6941176470588235
+47,capital,"centroid swap, outside J-lens span",0.0,0.0,14.201944,0.6941176470588235
+48,last,"J-lens swap, alpha=0.5",0.8490196078431372,0.8941176470588236,6.573499,0.6882352941176471
+48,last,"J-lens swap, alpha=1.0",0.9215686274509803,0.9882352941176471,13.146998,0.6882352941176471
+48,last,"J-lens swap, alpha=2.0",0.8392156862745098,0.9882352941176471,26.293997,0.6882352941176471
+48,last,"logit lens swap, alpha=0.5",0.5137254901960784,0.6588235294117647,7.18768,0.6882352941176471
+48,last,"logit lens swap, alpha=1.0",0.7352941176470589,0.9019607843137255,14.37536,0.6882352941176471
+48,last,"logit lens swap, alpha=2.0",0.6686274509803921,0.9588235294117647,28.75072,0.6882352941176471
+48,last,"random swap, alpha=0.5",0.0,0.0058823529411764705,7.6921396,0.6882352941176471
+48,last,"random swap, alpha=1.0",0.0,0.0058823529411764705,15.384279,0.6882352941176471
+48,last,"random swap, alpha=2.0",0.011764705882352941,0.08823529411764706,30.768559,0.6882352941176471
+48,last,coordinate swap x1,0.00196078431372549,0.011764705882352941,1.2963619,0.6882352941176471
+48,last,coordinate swap x4,0.596078431372549,0.6333333333333333,5.1854477,0.6882352941176471
+48,last,centroid swap,1.0,1.0,11.091221,0.6882352941176471
+48,last,"centroid swap, J-lens span part",0.5098039215686274,0.5509803921568628,4.44073,0.6882352941176471
+48,last,"centroid swap, outside J-lens span",0.24705882352941178,0.3196078431372549,10.155246,0.6882352941176471
+48,capital,"J-lens swap, alpha=0.5",0.0,0.0,8.154253,0.6823529411764706
+48,capital,"J-lens swap, alpha=1.0",0.0,0.0,16.308506,0.6823529411764706
+48,capital,"J-lens swap, alpha=2.0",0.0,0.0,32.617012,0.6823529411764706
+48,capital,"logit lens swap, alpha=0.5",0.0,0.0,8.916126,0.6823529411764706
+48,capital,"logit lens swap, alpha=1.0",0.0,0.0,17.832253,0.6823529411764706
+48,capital,"logit lens swap, alpha=2.0",0.0,0.0,35.664505,0.6823529411764706
+48,capital,"random swap, alpha=0.5",0.0,0.0,9.541897,0.6823529411764706
+48,capital,"random swap, alpha=1.0",0.0,0.0,19.083794,0.6823529411764706
+48,capital,"random swap, alpha=2.0",0.0,0.0,38.167587,0.6823529411764706
+48,capital,coordinate swap x1,0.0,0.0,1.7097492,0.6823529411764706
+48,capital,coordinate swap x4,0.0,0.0,6.838997,0.6823529411764706
+48,capital,centroid swap,0.0,0.0,15.513532,0.6823529411764706
+48,capital,"centroid swap, J-lens span part",0.0,0.0,4.5044,0.6823529411764706
+48,capital,"centroid swap, outside J-lens span",0.0,0.0,14.836471,0.6823529411764706
+49,last,"J-lens swap, alpha=0.5",0.8529411764705882,0.903921568627451,6.9352365,0.6823529411764706
+49,last,"J-lens swap, alpha=1.0",0.9137254901960784,0.9901960784313726,13.870473,0.6823529411764706
+49,last,"J-lens swap, alpha=2.0",0.8274509803921568,0.9901960784313726,27.740946,0.6823529411764706
+49,last,"logit lens swap, alpha=0.5",0.5176470588235295,0.6705882352941176,7.553688,0.6823529411764706
+49,last,"logit lens swap, alpha=1.0",0.7215686274509804,0.9019607843137255,15.107376,0.6823529411764706
+49,last,"logit lens swap, alpha=2.0",0.6607843137254902,0.9568627450980393,30.214752,0.6823529411764706
+49,last,"random swap, alpha=0.5",0.0,0.00392156862745098,8.083836,0.6823529411764706
+49,last,"random swap, alpha=1.0",0.0,0.0058823529411764705,16.167671,0.6823529411764706
+49,last,"random swap, alpha=2.0",0.01764705882352941,0.1,32.335342,0.6823529411764706
+49,last,coordinate swap x1,0.00196078431372549,0.00980392156862745,1.4073,0.6823529411764706
+49,last,coordinate swap x4,0.5823529411764706,0.6274509803921569,5.6292,0.6823529411764706
+49,last,centroid swap,1.0,1.0,11.8224,0.6823529411764706
+49,last,"centroid swap, J-lens span part",0.5509803921568628,0.5980392156862745,4.7513223,0.6823529411764706
+49,last,"centroid swap, outside J-lens span",0.22941176470588234,0.30196078431372547,10.817246,0.6823529411764706
+49,capital,"J-lens swap, alpha=0.5",0.0,0.0,8.59595,0.7
+49,capital,"J-lens swap, alpha=1.0",0.0,0.0,17.1919,0.7
+49,capital,"J-lens swap, alpha=2.0",0.0,0.0,34.3838,0.7
+49,capital,"logit lens swap, alpha=0.5",0.0,0.0,9.362498,0.7
+49,capital,"logit lens swap, alpha=1.0",0.0,0.0,18.724997,0.7
+49,capital,"logit lens swap, alpha=2.0",0.0,0.0,37.449993,0.7
+49,capital,"random swap, alpha=0.5",0.0,0.0,10.019595,0.7
+49,capital,"random swap, alpha=1.0",0.0,0.0,20.03919,0.7
+49,capital,"random swap, alpha=2.0",0.0,0.0,40.07838,0.7
+49,capital,coordinate swap x1,0.0,0.0,1.876185,0.7
+49,capital,coordinate swap x4,0.0,0.0,7.50474,0.7
+49,capital,centroid swap,0.0,0.0,16.406078,0.7
+49,capital,"centroid swap, J-lens span part",0.0,0.0,4.863024,0.7
+49,capital,"centroid swap, outside J-lens span",0.0,0.0,15.660216,0.7
+50,last,"J-lens swap, alpha=0.5",0.8509803921568627,0.903921568627451,7.136849,0.6882352941176471
+50,last,"J-lens swap, alpha=1.0",0.9098039215686274,0.9882352941176471,14.273698,0.6882352941176471
+50,last,"J-lens swap, alpha=2.0",0.807843137254902,0.9882352941176471,28.547396,0.6882352941176471
+50,last,"logit lens swap, alpha=0.5",0.5254901960784314,0.6843137254901961,7.7579165,0.6882352941176471
+50,last,"logit lens swap, alpha=1.0",0.7156862745098039,0.9,15.515833,0.6882352941176471
+50,last,"logit lens swap, alpha=2.0",0.6509803921568628,0.9607843137254902,31.031666,0.6882352941176471
+50,last,"random swap, alpha=0.5",0.0,0.00392156862745098,8.302399,0.6882352941176471
+50,last,"random swap, alpha=1.0",0.0,0.00392156862745098,16.604797,0.6882352941176471
+50,last,"random swap, alpha=2.0",0.01764705882352941,0.11568627450980393,33.209595,0.6882352941176471
+50,last,coordinate swap x1,0.00392156862745098,0.013725490196078431,1.485433,0.6882352941176471
+50,last,coordinate swap x4,0.5901960784313726,0.6313725490196078,5.941732,0.6882352941176471
+50,last,centroid swap,1.0,1.0,12.2171545,0.6882352941176471
+50,last,"centroid swap, J-lens span part",0.5509803921568628,0.6019607843137255,4.867903,0.6882352941176471
+50,last,"centroid swap, outside J-lens span",0.23529411764705882,0.3137254901960784,11.195659,0.6882352941176471
+50,capital,"J-lens swap, alpha=0.5",0.0,0.0,8.879751,0.6882352941176471
+50,capital,"J-lens swap, alpha=1.0",0.0,0.0,17.759502,0.6882352941176471
+50,capital,"J-lens swap, alpha=2.0",0.0,0.0,35.519005,0.6882352941176471
+50,capital,"logit lens swap, alpha=0.5",0.0,0.0,9.652492,0.6882352941176471
+50,capital,"logit lens swap, alpha=1.0",0.0,0.0,19.304983,0.6882352941176471
+50,capital,"logit lens swap, alpha=2.0",0.0,0.0,38.609966,0.6882352941176471
+50,capital,"random swap, alpha=0.5",0.0,0.0,10.329942,0.6882352941176471
+50,capital,"random swap, alpha=1.0",0.0,0.0,20.659883,0.6882352941176471
+50,capital,"random swap, alpha=2.0",0.0,0.0,41.319767,0.6882352941176471
+50,capital,coordinate swap x1,0.0,0.0,1.9052987,0.6882352941176471
+50,capital,coordinate swap x4,0.0,0.0,7.621195,0.6882352941176471
+50,capital,centroid swap,0.0,0.0,16.981867,0.6882352941176471
+50,capital,"centroid swap, J-lens span part",0.0,0.0,5.026754,0.6882352941176471
+50,capital,"centroid swap, outside J-lens span",0.0,0.0,16.21233,0.6882352941176471
+51,last,"J-lens swap, alpha=0.5",0.8372549019607843,0.9058823529411765,7.4234385,0.7176470588235294
+51,last,"J-lens swap, alpha=1.0",0.8803921568627451,0.9882352941176471,14.846877,0.7176470588235294
+51,last,"J-lens swap, alpha=2.0",0.792156862745098,0.9882352941176471,29.693754,0.7176470588235294
+51,last,"logit lens swap, alpha=0.5",0.5392156862745098,0.6980392156862745,8.037063,0.7176470588235294
+51,last,"logit lens swap, alpha=1.0",0.7058823529411765,0.9,16.074125,0.7176470588235294
+51,last,"logit lens swap, alpha=2.0",0.6450980392156863,0.9568627450980393,32.14825,0.7176470588235294
+51,last,"random swap, alpha=0.5",0.0,0.00392156862745098,8.601135,0.7176470588235294
+51,last,"random swap, alpha=1.0",0.0,0.0058823529411764705,17.20227,0.7176470588235294
+51,last,"random swap, alpha=2.0",0.0196078431372549,0.12352941176470589,34.40454,0.7176470588235294
+51,last,coordinate swap x1,0.00196078431372549,0.013725490196078431,1.574782,0.7176470588235294
+51,last,coordinate swap x4,0.6098039215686275,0.6666666666666666,6.299128,0.7176470588235294
+51,last,centroid swap,0.9980392156862745,1.0,12.733606,0.7176470588235294
+51,last,"centroid swap, J-lens span part",0.5588235294117647,0.6137254901960785,5.041557,0.7176470588235294
+51,last,"centroid swap, outside J-lens span",0.23529411764705882,0.3215686274509804,11.681968,0.7176470588235294
+51,capital,"J-lens swap, alpha=0.5",0.0,0.0,9.207805,0.6882352941176471
+51,capital,"J-lens swap, alpha=1.0",0.0,0.0,18.41561,0.6882352941176471
+51,capital,"J-lens swap, alpha=2.0",0.0,0.0,36.83122,0.6882352941176471
+51,capital,"logit lens swap, alpha=0.5",0.0,0.0,9.968925,0.6882352941176471
+51,capital,"logit lens swap, alpha=1.0",0.0,0.0,19.93785,0.6882352941176471
+51,capital,"logit lens swap, alpha=2.0",0.0,0.0,39.8757,0.6882352941176471
+51,capital,"random swap, alpha=0.5",0.0,0.0,10.668585,0.6882352941176471
+51,capital,"random swap, alpha=1.0",0.0,0.0,21.33717,0.6882352941176471
+51,capital,"random swap, alpha=2.0",0.0,0.0,42.67434,0.6882352941176471
+51,capital,coordinate swap x1,0.0,0.0,1.9721683,0.6882352941176471
+51,capital,coordinate swap x4,0.0,0.0,7.8886733,0.6882352941176471
+51,capital,centroid swap,0.0,0.0,17.61402,0.6882352941176471
+51,capital,"centroid swap, J-lens span part",0.0,0.0,5.1589174,0.6882352941176471
+51,capital,"centroid swap, outside J-lens span",0.0,0.0,16.833153,0.6882352941176471
+52,last,"J-lens swap, alpha=0.5",0.8254901960784313,0.8960784313725491,7.868441,0.7647058823529411
+52,last,"J-lens swap, alpha=1.0",0.8921568627450981,0.9882352941176471,15.736882,0.7647058823529411
+52,last,"J-lens swap, alpha=2.0",0.803921568627451,0.9901960784313726,31.473764,0.7647058823529411
+52,last,"logit lens swap, alpha=0.5",0.5254901960784314,0.7019607843137254,8.461046,0.7647058823529411
+52,last,"logit lens swap, alpha=1.0",0.6843137254901961,0.8960784313725491,16.922092,0.7647058823529411
+52,last,"logit lens swap, alpha=2.0",0.6509803921568628,0.9549019607843138,33.844185,0.7647058823529411
+52,last,"random swap, alpha=0.5",0.0,0.00196078431372549,9.054877,0.7647058823529411
+52,last,"random swap, alpha=1.0",0.0,0.00392156862745098,18.109755,0.7647058823529411
+52,last,"random swap, alpha=2.0",0.013725490196078431,0.11568627450980393,36.21951,0.7647058823529411
+52,last,coordinate swap x1,0.0058823529411764705,0.0196078431372549,1.8087422,0.7647058823529411
+52,last,coordinate swap x4,0.6352941176470588,0.6941176470588235,7.2349687,0.7647058823529411
+52,last,centroid swap,1.0,1.0,13.559337,0.7647058823529411
+52,last,"centroid swap, J-lens span part",0.5607843137254902,0.615686274509804,5.425917,0.7647058823529411
+52,last,"centroid swap, outside J-lens span",0.2196078431372549,0.30392156862745096,12.413447,0.7647058823529411
+52,capital,"J-lens swap, alpha=0.5",0.0,0.0,9.711219,0.6882352941176471
+52,capital,"J-lens swap, alpha=1.0",0.0,0.0,19.422438,0.6882352941176471
+52,capital,"J-lens swap, alpha=2.0",0.0,0.0,38.844875,0.6882352941176471
+52,capital,"logit lens swap, alpha=0.5",0.0,0.0,10.442611,0.6882352941176471
+52,capital,"logit lens swap, alpha=1.0",0.0,0.0,20.885221,0.6882352941176471
+52,capital,"logit lens swap, alpha=2.0",0.0,0.0,41.770443,0.6882352941176471
+52,capital,"random swap, alpha=0.5",0.0,0.0,11.175515,0.6882352941176471
+52,capital,"random swap, alpha=1.0",0.0,0.0,22.35103,0.6882352941176471
+52,capital,"random swap, alpha=2.0",0.0,0.0,44.70206,0.6882352941176471
+52,capital,coordinate swap x1,0.0,0.0,2.1003823,0.6882352941176471
+52,capital,coordinate swap x4,0.0,0.0,8.401529,0.6882352941176471
+52,capital,centroid swap,0.0,0.0,18.621675,0.6882352941176471
+52,capital,"centroid swap, J-lens span part",0.0,0.0,5.52159,0.6882352941176471
+52,capital,"centroid swap, outside J-lens span",0.0,0.0,17.773876,0.6882352941176471
+53,last,"J-lens swap, alpha=0.5",0.8117647058823529,0.8862745098039215,8.293691,0.7058823529411765
+53,last,"J-lens swap, alpha=1.0",0.8803921568627451,0.9784313725490196,16.587381,0.7058823529411765
+53,last,"J-lens swap, alpha=2.0",0.8294117647058824,0.9862745098039216,33.174763,0.7058823529411765
+53,last,"logit lens swap, alpha=0.5",0.5254901960784314,0.7019607843137254,8.89459,0.7058823529411765
+53,last,"logit lens swap, alpha=1.0",0.6803921568627451,0.888235294117647,17.78918,0.7058823529411765
+53,last,"logit lens swap, alpha=2.0",0.6705882352941176,0.9431372549019608,35.57836,0.7058823529411765
+53,last,"random swap, alpha=0.5",0.0,0.00196078431372549,9.518847,0.7058823529411765
+53,last,"random swap, alpha=1.0",0.0,0.00196078431372549,19.037695,0.7058823529411765
+53,last,"random swap, alpha=2.0",0.00980392156862745,0.06862745098039216,38.07539,0.7058823529411765
+53,last,coordinate swap x1,0.00392156862745098,0.021568627450980392,1.7924544,0.7058823529411765
+53,last,coordinate swap x4,0.5764705882352941,0.6352941176470588,7.1698174,0.7058823529411765
+53,last,centroid swap,1.0,1.0,14.462745,0.7058823529411765
+53,last,"centroid swap, J-lens span part",0.5627450980392157,0.6313725490196078,5.81463,0.7058823529411765
+53,last,"centroid swap, outside J-lens span",0.23529411764705882,0.33137254901960783,13.226666,0.7058823529411765
+53,capital,"J-lens swap, alpha=0.5",0.0,0.0,10.11976,0.711764705882353
+53,capital,"J-lens swap, alpha=1.0",0.0,0.0,20.23952,0.711764705882353
+53,capital,"J-lens swap, alpha=2.0",0.0,0.0,40.47904,0.711764705882353
+53,capital,"logit lens swap, alpha=0.5",0.0,0.0,10.852961,0.711764705882353
+53,capital,"logit lens swap, alpha=1.0",0.0,0.0,21.705921,0.711764705882353
+53,capital,"logit lens swap, alpha=2.0",0.0,0.0,43.411842,0.711764705882353
+53,capital,"random swap, alpha=0.5",0.0,0.0,11.614665,0.711764705882353
+53,capital,"random swap, alpha=1.0",0.0,0.0,23.22933,0.711764705882353
+53,capital,"random swap, alpha=2.0",0.0,0.0,46.45866,0.711764705882353
+53,capital,coordinate swap x1,0.0,0.0,2.227892,0.711764705882353
+53,capital,coordinate swap x4,0.0,0.0,8.911568,0.711764705882353
+53,capital,centroid swap,0.0,0.0,19.360218,0.711764705882353
+53,capital,"centroid swap, J-lens span part",0.0,0.0,5.818859,0.711764705882353
+53,capital,"centroid swap, outside J-lens span",0.0,0.0,18.453289,0.711764705882353
+54,last,"J-lens swap, alpha=0.5",0.7666666666666667,0.8568627450980392,8.731407,0.6941176470588235
+54,last,"J-lens swap, alpha=1.0",0.8509803921568627,0.9725490196078431,17.462814,0.6941176470588235
+54,last,"J-lens swap, alpha=2.0",0.7941176470588235,0.9803921568627451,34.92563,0.6941176470588235
+54,last,"logit lens swap, alpha=0.5",0.5137254901960784,0.6941176470588235,9.3553505,0.6941176470588235
+54,last,"logit lens swap, alpha=1.0",0.6627450980392157,0.8764705882352941,18.710701,0.6941176470588235
+54,last,"logit lens swap, alpha=2.0",0.6529411764705882,0.9372549019607843,37.421402,0.6941176470588235
+54,last,"random swap, alpha=0.5",0.0,0.00196078431372549,10.011947,0.6941176470588235
+54,last,"random swap, alpha=1.0",0.0,0.00196078431372549,20.023893,0.6941176470588235
+54,last,"random swap, alpha=2.0",0.011764705882352941,0.06862745098039216,40.047787,0.6941176470588235
+54,last,coordinate swap x1,0.00392156862745098,0.025490196078431372,1.8604596,0.6941176470588235
+54,last,coordinate swap x4,0.5372549019607843,0.6058823529411764,7.4418383,0.6941176470588235
+54,last,centroid swap,1.0,1.0,15.526031,0.6941176470588235
+54,last,"centroid swap, J-lens span part",0.5313725490196078,0.6313725490196078,6.1462574,0.6941176470588235
+54,last,"centroid swap, outside J-lens span",0.2803921568627451,0.4,14.235476,0.6941176470588235
+54,capital,"J-lens swap, alpha=0.5",0.0,0.0,10.531997,0.7235294117647059
+54,capital,"J-lens swap, alpha=1.0",0.0,0.0,21.063993,0.7235294117647059
+54,capital,"J-lens swap, alpha=2.0",0.0,0.0,42.127987,0.7235294117647059
+54,capital,"logit lens swap, alpha=0.5",0.0,0.0,11.284611,0.7235294117647059
+54,capital,"logit lens swap, alpha=1.0",0.0,0.0,22.569221,0.7235294117647059
+54,capital,"logit lens swap, alpha=2.0",0.0,0.0,45.138443,0.7235294117647059
+54,capital,"random swap, alpha=0.5",0.0,0.0,12.076611,0.7235294117647059
+54,capital,"random swap, alpha=1.0",0.0,0.0,24.153221,0.7235294117647059
+54,capital,"random swap, alpha=2.0",0.0,0.0,48.306442,0.7235294117647059
+54,capital,coordinate swap x1,0.0,0.0,2.351032,0.7235294117647059
+54,capital,coordinate swap x4,0.0,0.0,9.404128,0.7235294117647059
+54,capital,centroid swap,0.0,0.0,20.280115,0.7235294117647059
+54,capital,"centroid swap, J-lens span part",0.0,0.0,6.182411,0.7235294117647059
+54,capital,"centroid swap, outside J-lens span",0.0,0.0,19.301447,0.7235294117647059
+55,last,"J-lens swap, alpha=0.5",0.7274509803921568,0.8352941176470589,9.170818,0.7411764705882353
+55,last,"J-lens swap, alpha=1.0",0.8294117647058824,0.9647058823529412,18.341637,0.7411764705882353
+55,last,"J-lens swap, alpha=2.0",0.7803921568627451,0.9764705882352941,36.683273,0.7411764705882353
+55,last,"logit lens swap, alpha=0.5",0.4980392156862745,0.7,9.818694,0.7411764705882353
+55,last,"logit lens swap, alpha=1.0",0.6549019607843137,0.8745098039215686,19.637388,0.7411764705882353
+55,last,"logit lens swap, alpha=2.0",0.6490196078431373,0.9352941176470588,39.274776,0.7411764705882353
+55,last,"random swap, alpha=0.5",0.0,0.00196078431372549,10.507811,0.7411764705882353
+55,last,"random swap, alpha=1.0",0.0,0.00392156862745098,21.015621,0.7411764705882353
+55,last,"random swap, alpha=2.0",0.00784313725490196,0.06666666666666667,42.031242,0.7411764705882353
+55,last,coordinate swap x1,0.0058823529411764705,0.029411764705882353,2.0667427,0.7411764705882353
+55,last,coordinate swap x4,0.5705882352941176,0.6509803921568628,8.266971,0.7411764705882353
+55,last,centroid swap,1.0,1.0,16.473038,0.7411764705882353
+55,last,"centroid swap, J-lens span part",0.5117647058823529,0.6215686274509804,6.560585,0.7411764705882353
+55,last,"centroid swap, outside J-lens span",0.33725490196078434,0.4725490196078431,15.088214,0.7411764705882353
+55,capital,"J-lens swap, alpha=0.5",0.0,0.0,10.906482,0.7294117647058823
+55,capital,"J-lens swap, alpha=1.0",0.0,0.0,21.812963,0.7294117647058823
+55,capital,"J-lens swap, alpha=2.0",0.0,0.0,43.625927,0.7294117647058823
+55,capital,"logit lens swap, alpha=0.5",0.0,0.0,11.676976,0.7294117647058823
+55,capital,"logit lens swap, alpha=1.0",0.0,0.0,23.353952,0.7294117647058823
+55,capital,"logit lens swap, alpha=2.0",0.0,0.0,46.707905,0.7294117647058823
+55,capital,"random swap, alpha=0.5",0.0,0.0,12.496513,0.7294117647058823
+55,capital,"random swap, alpha=1.0",0.0,0.0,24.993027,0.7294117647058823
+55,capital,"random swap, alpha=2.0",0.0,0.0,49.986053,0.7294117647058823
+55,capital,coordinate swap x1,0.0,0.0,2.4506826,0.7294117647058823
+55,capital,coordinate swap x4,0.0,0.0,9.802731,0.7294117647058823
+55,capital,centroid swap,0.0,0.0,20.893604,0.7294117647058823
+55,capital,"centroid swap, J-lens span part",0.0,0.0,6.3362174,0.7294117647058823
+55,capital,"centroid swap, outside J-lens span",0.0,0.0,19.897978,0.7294117647058823
+56,last,"J-lens swap, alpha=0.5",0.7235294117647059,0.8411764705882353,9.511669,0.7
+56,last,"J-lens swap, alpha=1.0",0.8117647058823529,0.9529411764705882,19.023338,0.7
+56,last,"J-lens swap, alpha=2.0",0.7803921568627451,0.9784313725490196,38.046677,0.7
+56,last,"logit lens swap, alpha=0.5",0.4843137254901961,0.6901960784313725,10.176026,0.7
+56,last,"logit lens swap, alpha=1.0",0.6450980392156863,0.8666666666666667,20.352053,0.7
+56,last,"logit lens swap, alpha=2.0",0.6450980392156863,0.9294117647058824,40.704105,0.7
+56,last,"random swap, alpha=0.5",0.0,0.00196078431372549,10.89022,0.7
+56,last,"random swap, alpha=1.0",0.0,0.00392156862745098,21.78044,0.7
+56,last,"random swap, alpha=2.0",0.00784313725490196,0.06470588235294118,43.56088,0.7
+56,last,coordinate swap x1,0.00784313725490196,0.025490196078431372,2.0013335,0.7
+56,last,coordinate swap x4,0.5235294117647059,0.6078431372549019,8.005334,0.7
+56,last,centroid swap,1.0,1.0,17.177397,0.7
+56,last,"centroid swap, J-lens span part",0.49411764705882355,0.6098039215686275,6.74723,0.7
+56,last,"centroid swap, outside J-lens span",0.34705882352941175,0.4803921568627451,15.773579,0.7
+56,capital,"J-lens swap, alpha=0.5",0.0,0.0,11.193513,0.7411764705882353
+56,capital,"J-lens swap, alpha=1.0",0.0,0.0,22.387026,0.7411764705882353
+56,capital,"J-lens swap, alpha=2.0",0.0,0.0,44.77405,0.7411764705882353
+56,capital,"logit lens swap, alpha=0.5",0.0,0.0,11.975341,0.7411764705882353
+56,capital,"logit lens swap, alpha=1.0",0.0,0.0,23.950682,0.7411764705882353
+56,capital,"logit lens swap, alpha=2.0",0.0,0.0,47.901363,0.7411764705882353
+56,capital,"random swap, alpha=0.5",0.0,0.0,12.815819,0.7411764705882353
+56,capital,"random swap, alpha=1.0",0.0,0.0,25.631638,0.7411764705882353
+56,capital,"random swap, alpha=2.0",0.0,0.0,51.263275,0.7411764705882353
+56,capital,coordinate swap x1,0.0,0.0,2.5219474,0.7411764705882353
+56,capital,coordinate swap x4,0.0,0.0,10.08779,0.7411764705882353
+56,capital,centroid swap,0.0,0.0,21.415018,0.7411764705882353
+56,capital,"centroid swap, J-lens span part",0.0,0.0,6.342365,0.7411764705882353
+56,capital,"centroid swap, outside J-lens span",0.0,0.0,20.443214,0.7411764705882353
+57,last,"J-lens swap, alpha=0.5",0.7,0.8254901960784313,9.852916,0.6941176470588235
+57,last,"J-lens swap, alpha=1.0",0.792156862745098,0.9490196078431372,19.705832,0.6941176470588235
+57,last,"J-lens swap, alpha=2.0",0.7686274509803922,0.9784313725490196,39.411663,0.6941176470588235
+57,last,"logit lens swap, alpha=0.5",0.49019607843137253,0.6803921568627451,10.518484,0.6941176470588235
+57,last,"logit lens swap, alpha=1.0",0.6392156862745098,0.8686274509803922,21.036968,0.6941176470588235
+57,last,"logit lens swap, alpha=2.0",0.6176470588235294,0.9215686274509803,42.073936,0.6941176470588235
+57,last,"random swap, alpha=0.5",0.0,0.00196078431372549,11.256713,0.6941176470588235
+57,last,"random swap, alpha=1.0",0.0,0.0058823529411764705,22.513426,0.6941176470588235
+57,last,"random swap, alpha=2.0",0.00980392156862745,0.060784313725490195,45.02685,0.6941176470588235
+57,last,coordinate swap x1,0.00392156862745098,0.021568627450980392,2.034768,0.6941176470588235
+57,last,coordinate swap x4,0.5098039215686274,0.5901960784313726,8.139072,0.6941176470588235
+57,last,centroid swap,1.0,1.0,17.910074,0.6941176470588235
+57,last,"centroid swap, J-lens span part",0.47843137254901963,0.6058823529411764,6.9537973,0.6941176470588235
+57,last,"centroid swap, outside J-lens span",0.34705882352941175,0.49019607843137253,16.481302,0.6941176470588235
+57,capital,"J-lens swap, alpha=0.5",0.0,0.0,11.504145,0.7411764705882353
+57,capital,"J-lens swap, alpha=1.0",0.0,0.0,23.00829,0.7411764705882353
+57,capital,"J-lens swap, alpha=2.0",0.0,0.0,46.01658,0.7411764705882353
+57,capital,"logit lens swap, alpha=0.5",0.0,0.0,12.281254,0.7411764705882353
+57,capital,"logit lens swap, alpha=1.0",0.0,0.0,24.562508,0.7411764705882353
+57,capital,"logit lens swap, alpha=2.0",0.0,0.0,49.125015,0.7411764705882353
+57,capital,"random swap, alpha=0.5",0.0,0.0,13.143203,0.7411764705882353
+57,capital,"random swap, alpha=1.0",0.0,0.0,26.286406,0.7411764705882353
+57,capital,"random swap, alpha=2.0",0.0,0.0,52.57281,0.7411764705882353
+57,capital,coordinate swap x1,0.0,0.0,2.5768425,0.7411764705882353
+57,capital,coordinate swap x4,0.0,0.0,10.30737,0.7411764705882353
+57,capital,centroid swap,0.0,0.0,21.933712,0.7411764705882353
+57,capital,"centroid swap, J-lens span part",0.0,0.0,6.4784265,0.7411764705882353
+57,capital,"centroid swap, outside J-lens span",0.0,0.0,20.944107,0.7411764705882353
+58,last,"J-lens swap, alpha=0.5",0.6647058823529411,0.8156862745098039,10.086094,0.6764705882352942
+58,last,"J-lens swap, alpha=1.0",0.7725490196078432,0.9509803921568627,20.172188,0.6764705882352942
+58,last,"J-lens swap, alpha=2.0",0.7647058823529411,0.9764705882352941,40.344376,0.6764705882352942
+58,last,"logit lens swap, alpha=0.5",0.48823529411764705,0.696078431372549,10.757072,0.6764705882352942
+58,last,"logit lens swap, alpha=1.0",0.6274509803921569,0.8529411764705882,21.514145,0.6764705882352942
+58,last,"logit lens swap, alpha=2.0",0.6137254901960785,0.9137254901960784,43.02829,0.6764705882352942
+58,last,"random swap, alpha=0.5",0.0,0.00196078431372549,11.512047,0.6764705882352942
+58,last,"random swap, alpha=1.0",0.0,0.00392156862745098,23.024094,0.6764705882352942
+58,last,"random swap, alpha=2.0",0.0058823529411764705,0.050980392156862744,46.048187,0.6764705882352942
+58,last,coordinate swap x1,0.00392156862745098,0.025490196078431372,1.9904621,0.6764705882352942
+58,last,coordinate swap x4,0.47058823529411764,0.5607843137254902,7.9618483,0.6764705882352942
+58,last,centroid swap,1.0,1.0,18.369072,0.6764705882352942
+58,last,"centroid swap, J-lens span part",0.4725490196078431,0.6078431372549019,7.049185,0.6764705882352942
+58,last,"centroid swap, outside J-lens span",0.34705882352941175,0.4980392156862745,16.939442,0.6764705882352942
+58,capital,"J-lens swap, alpha=0.5",0.0,0.0,11.759591,0.7294117647058823
+58,capital,"J-lens swap, alpha=1.0",0.0,0.0,23.519182,0.7294117647058823
+58,capital,"J-lens swap, alpha=2.0",0.0,0.0,47.038364,0.7294117647058823
+58,capital,"logit lens swap, alpha=0.5",0.0,0.0,12.541899,0.7294117647058823
+58,capital,"logit lens swap, alpha=1.0",0.0,0.0,25.083797,0.7294117647058823
+58,capital,"logit lens swap, alpha=2.0",0.0,0.0,50.167595,0.7294117647058823
+58,capital,"random swap, alpha=0.5",0.0,0.0,13.422139,0.7294117647058823
+58,capital,"random swap, alpha=1.0",0.0,0.0,26.844278,0.7294117647058823
+58,capital,"random swap, alpha=2.0",0.0,0.0,53.688557,0.7294117647058823
+58,capital,coordinate swap x1,0.0,0.0,2.5732226,0.7294117647058823
+58,capital,coordinate swap x4,0.0,0.0,10.292891,0.7294117647058823
+58,capital,centroid swap,0.0,0.0,22.353487,0.7294117647058823
+58,capital,"centroid swap, J-lens span part",0.0,0.0,6.5365005,0.7294117647058823
+58,capital,"centroid swap, outside J-lens span",0.0,0.0,21.365652,0.7294117647058823
+59,last,"J-lens swap, alpha=0.5",0.6509803921568628,0.8137254901960784,10.35641,0.5705882352941176
+59,last,"J-lens swap, alpha=1.0",0.7725490196078432,0.9352941176470588,20.71282,0.5705882352941176
+59,last,"J-lens swap, alpha=2.0",0.7549019607843137,0.9666666666666667,41.42564,0.5705882352941176
+59,last,"logit lens swap, alpha=0.5",0.4745098039215686,0.6784313725490196,11.034489,0.5705882352941176
+59,last,"logit lens swap, alpha=1.0",0.6254901960784314,0.8470588235294118,22.068977,0.5705882352941176
+59,last,"logit lens swap, alpha=2.0",0.6176470588235294,0.903921568627451,44.137955,0.5705882352941176
+59,last,"random swap, alpha=0.5",0.0,0.00196078431372549,11.808932,0.5705882352941176
+59,last,"random swap, alpha=1.0",0.0,0.00392156862745098,23.617865,0.5705882352941176
+59,last,"random swap, alpha=2.0",0.00392156862745098,0.0392156862745098,47.23573,0.5705882352941176
+59,last,coordinate swap x1,0.00392156862745098,0.023529411764705882,1.7664716,0.5705882352941176
+59,last,coordinate swap x4,0.3764705882352941,0.45098039215686275,7.0658865,0.5705882352941176
+59,last,centroid swap,1.0,1.0,18.903708,0.5705882352941176
+59,last,"centroid swap, J-lens span part",0.46078431372549017,0.5941176470588235,7.120904,0.5705882352941176
+59,last,"centroid swap, outside J-lens span",0.3607843137254902,0.5137254901960784,17.483984,0.5705882352941176
+59,capital,"J-lens swap, alpha=0.5",0.0,0.0,12.116789,0.7352941176470589
+59,capital,"J-lens swap, alpha=1.0",0.0,0.0,24.233578,0.7352941176470589
+59,capital,"J-lens swap, alpha=2.0",0.0,0.0,48.467155,0.7352941176470589
+59,capital,"logit lens swap, alpha=0.5",0.0,0.0,12.910128,0.7352941176470589
+59,capital,"logit lens swap, alpha=1.0",0.0,0.0,25.820255,0.7352941176470589
+59,capital,"logit lens swap, alpha=2.0",0.0,0.0,51.64051,0.7352941176470589
+59,capital,"random swap, alpha=0.5",0.0,0.0,13.816213,0.7352941176470589
+59,capital,"random swap, alpha=1.0",0.0,0.0,27.632425,0.7352941176470589
+59,capital,"random swap, alpha=2.0",0.0,0.0,55.26485,0.7352941176470589
+59,capital,coordinate swap x1,0.0,0.0,2.6356049,0.7352941176470589
+59,capital,coordinate swap x4,0.0,0.0,10.542419,0.7352941176470589
+59,capital,centroid swap,0.0,0.0,22.83765,0.7352941176470589
+59,capital,"centroid swap, J-lens span part",0.0,0.0,6.6431675,0.7352941176470589
+59,capital,"centroid swap, outside J-lens span",0.0,0.0,21.839872,0.7352941176470589
+60,last,"J-lens swap, alpha=0.5",0.6392156862745098,0.8058823529411765,10.671944,0.5176470588235295
+60,last,"J-lens swap, alpha=1.0",0.7607843137254902,0.9294117647058824,21.343887,0.5176470588235295
+60,last,"J-lens swap, alpha=2.0",0.703921568627451,0.9666666666666667,42.687775,0.5176470588235295
+60,last,"logit lens swap, alpha=0.5",0.48823529411764705,0.6843137254901961,11.356192,0.5176470588235295
+60,last,"logit lens swap, alpha=1.0",0.6274509803921569,0.8470588235294118,22.712383,0.5176470588235295
+60,last,"logit lens swap, alpha=2.0",0.6196078431372549,0.9058823529411765,45.424767,0.5176470588235295
+60,last,"random swap, alpha=0.5",0.0,0.00196078431372549,12.153215,0.5176470588235295
+60,last,"random swap, alpha=1.0",0.0,0.0058823529411764705,24.30643,0.5176470588235295
+60,last,"random swap, alpha=2.0",0.00392156862745098,0.0392156862745098,48.61286,0.5176470588235295
+60,last,coordinate swap x1,0.00196078431372549,0.01568627450980392,1.6581526,0.5176470588235295
+60,last,coordinate swap x4,0.3352941176470588,0.3980392156862745,6.6326103,0.5176470588235295
+60,last,centroid swap,0.9980392156862745,1.0,19.487999,0.5176470588235295
+60,last,"centroid swap, J-lens span part",0.44901960784313727,0.5941176470588235,7.212443,0.5176470588235295
+60,last,"centroid swap, outside J-lens span",0.3588235294117647,0.5176470588235295,18.075253,0.5176470588235295
+60,capital,"J-lens swap, alpha=0.5",0.0,0.0,12.414287,0.7294117647058823
+60,capital,"J-lens swap, alpha=1.0",0.0,0.0,24.828573,0.7294117647058823
+60,capital,"J-lens swap, alpha=2.0",0.0,0.0,49.657146,0.7294117647058823
+60,capital,"logit lens swap, alpha=0.5",0.0,0.0,13.210247,0.7294117647058823
+60,capital,"logit lens swap, alpha=1.0",0.0,0.0,26.420494,0.7294117647058823
+60,capital,"logit lens swap, alpha=2.0",0.0,0.0,52.84099,0.7294117647058823
+60,capital,"random swap, alpha=0.5",0.0,0.0,14.137395,0.7294117647058823
+60,capital,"random swap, alpha=1.0",0.0,0.0,28.27479,0.7294117647058823
+60,capital,"random swap, alpha=2.0",0.0,0.0,56.54958,0.7294117647058823
+60,capital,coordinate swap x1,0.0,0.0,2.6539707,0.7294117647058823
+60,capital,coordinate swap x4,0.0,0.0,10.615883,0.7294117647058823
+60,capital,centroid swap,0.0,0.0,23.335144,0.7294117647058823
+60,capital,"centroid swap, J-lens span part",0.0,0.0,6.7102337,0.7294117647058823
+60,capital,"centroid swap, outside J-lens span",0.0,0.0,22.339579,0.7294117647058823
+61,last,"J-lens swap, alpha=0.5",0.6098039215686275,0.792156862745098,10.995504,0.49411764705882355
+61,last,"J-lens swap, alpha=1.0",0.7509803921568627,0.9215686274509803,21.991009,0.49411764705882355
+61,last,"J-lens swap, alpha=2.0",0.6843137254901961,0.9627450980392157,43.982018,0.49411764705882355
+61,last,"logit lens swap, alpha=0.5",0.4803921568627451,0.6843137254901961,11.706566,0.49411764705882355
+61,last,"logit lens swap, alpha=1.0",0.6039215686274509,0.8313725490196079,23.413132,0.49411764705882355
+61,last,"logit lens swap, alpha=2.0",0.6078431372549019,0.9019607843137255,46.826263,0.49411764705882355
+61,last,"random swap, alpha=0.5",0.0,0.00196078431372549,12.528178,0.49411764705882355
+61,last,"random swap, alpha=1.0",0.0,0.00392156862745098,25.056356,0.49411764705882355
+61,last,"random swap, alpha=2.0",0.00392156862745098,0.041176470588235294,50.112713,0.49411764705882355
+61,last,coordinate swap x1,0.00196078431372549,0.00784313725490196,1.6091484,0.49411764705882355
+61,last,coordinate swap x4,0.307843137254902,0.37058823529411766,6.4365935,0.49411764705882355
+61,last,centroid swap,0.9980392156862745,1.0,20.222828,0.49411764705882355
+61,last,"centroid swap, J-lens span part",0.43529411764705883,0.5823529411764706,7.367003,0.49411764705882355
+61,last,"centroid swap, outside J-lens span",0.3568627450980392,0.5215686274509804,18.801819,0.49411764705882355
+61,capital,"J-lens swap, alpha=0.5",0.0,0.0,12.670356,0.7058823529411765
+61,capital,"J-lens swap, alpha=1.0",0.0,0.0,25.340712,0.7058823529411765
+61,capital,"J-lens swap, alpha=2.0",0.0,0.0,50.681423,0.7058823529411765
+61,capital,"logit lens swap, alpha=0.5",0.0,0.0,13.489726,0.7058823529411765
+61,capital,"logit lens swap, alpha=1.0",0.0,0.0,26.979452,0.7058823529411765
+61,capital,"logit lens swap, alpha=2.0",0.0,0.0,53.958904,0.7058823529411765
+61,capital,"random swap, alpha=0.5",0.0,0.0,14.436489,0.7058823529411765
+61,capital,"random swap, alpha=1.0",0.0,0.0,28.872978,0.7058823529411765
+61,capital,"random swap, alpha=2.0",0.0,0.0,57.745956,0.7058823529411765
+61,capital,coordinate swap x1,0.0,0.0,2.667964,0.7058823529411765
+61,capital,coordinate swap x4,0.0,0.0,10.671856,0.7058823529411765
+61,capital,centroid swap,0.0,0.0,23.846289,0.7058823529411765
+61,capital,"centroid swap, J-lens span part",0.0,0.0,6.858951,0.7058823529411765
+61,capital,"centroid swap, outside J-lens span",0.0,0.0,22.82711,0.7058823529411765
+62,last,"J-lens swap, alpha=0.5",0.6019607843137255,0.7823529411764706,11.263909,0.5117647058823529
+62,last,"J-lens swap, alpha=1.0",0.7254901960784313,0.9215686274509803,22.527819,0.5117647058823529
+62,last,"J-lens swap, alpha=2.0",0.6607843137254902,0.9647058823529412,45.055637,0.5117647058823529
+62,last,"logit lens swap, alpha=0.5",0.4823529411764706,0.6862745098039216,11.973709,0.5117647058823529
+62,last,"logit lens swap, alpha=1.0",0.6058823529411764,0.8333333333333334,23.947418,0.5117647058823529
+62,last,"logit lens swap, alpha=2.0",0.6078431372549019,0.9019607843137255,47.894836,0.5117647058823529
+62,last,"random swap, alpha=0.5",0.0,0.00196078431372549,12.814073,0.5117647058823529
+62,last,"random swap, alpha=1.0",0.0,0.00196078431372549,25.628145,0.5117647058823529
+62,last,"random swap, alpha=2.0",0.00392156862745098,0.03333333333333333,51.25629,0.5117647058823529
+62,last,coordinate swap x1,0.00392156862745098,0.00980392156862745,1.6516206,0.5117647058823529
+62,last,coordinate swap x4,0.30980392156862746,0.37450980392156863,6.6064825,0.5117647058823529
+62,last,centroid swap,1.0,1.0,20.758183,0.5117647058823529
+62,last,"centroid swap, J-lens span part",0.42745098039215684,0.5705882352941176,7.3774004,0.5117647058823529
+62,last,"centroid swap, outside J-lens span",0.36666666666666664,0.5215686274509804,19.370426,0.5117647058823529
+62,capital,"J-lens swap, alpha=0.5",0.0,0.0,12.925166,0.7176470588235294
+62,capital,"J-lens swap, alpha=1.0",0.0,0.0,25.850332,0.7176470588235294
+62,capital,"J-lens swap, alpha=2.0",0.0,0.0,51.700665,0.7176470588235294
+62,capital,"logit lens swap, alpha=0.5",0.0,0.0,13.739653,0.7176470588235294
+62,capital,"logit lens swap, alpha=1.0",0.0,0.0,27.479305,0.7176470588235294
+62,capital,"logit lens swap, alpha=2.0",0.0,0.0,54.95861,0.7176470588235294
+62,capital,"random swap, alpha=0.5",0.0,0.0,14.703956,0.7176470588235294
+62,capital,"random swap, alpha=1.0",0.0,0.0,29.407911,0.7176470588235294
+62,capital,"random swap, alpha=2.0",0.0,0.0,58.815823,0.7176470588235294
+62,capital,coordinate swap x1,0.0,0.0,2.7479994,0.7176470588235294
+62,capital,coordinate swap x4,0.0,0.0,10.991998,0.7176470588235294
+62,capital,centroid swap,0.0,0.0,24.328299,0.7176470588235294
+62,capital,"centroid swap, J-lens span part",0.0,0.0,6.9506254,0.7176470588235294
+62,capital,"centroid swap, outside J-lens span",0.0,0.0,23.302313,0.7176470588235294
+63,last,"J-lens swap, alpha=0.5",0.6039215686274509,0.7784313725490196,11.597791,0.5529411764705883
+63,last,"J-lens swap, alpha=1.0",0.692156862745098,0.9117647058823529,23.195581,0.5529411764705883
+63,last,"J-lens swap, alpha=2.0",0.6,0.9627450980392157,46.391163,0.5529411764705883
+63,last,"logit lens swap, alpha=0.5",0.47058823529411764,0.6745098039215687,12.278043,0.5529411764705883
+63,last,"logit lens swap, alpha=1.0",0.5745098039215686,0.8215686274509804,24.556086,0.5529411764705883
+63,last,"logit lens swap, alpha=2.0",0.5686274509803921,0.9,49.11217,0.5529411764705883
+63,last,"random swap, alpha=0.5",0.0,0.00196078431372549,13.139763,0.5529411764705883
+63,last,"random swap, alpha=1.0",0.0,0.00196078431372549,26.279526,0.5529411764705883
+63,last,"random swap, alpha=2.0",0.00196078431372549,0.03333333333333333,52.55905,0.5529411764705883
+63,last,coordinate swap x1,0.00392156862745098,0.013725490196078431,1.8237035,0.5529411764705883
+63,last,coordinate swap x4,0.3392156862745098,0.4137254901960784,7.294814,0.5529411764705883
+63,last,centroid swap,1.0,1.0,21.32761,0.5529411764705883
+63,last,"centroid swap, J-lens span part",0.4196078431372549,0.5529411764705883,7.5420437,0.5529411764705883
+63,last,"centroid swap, outside J-lens span",0.3862745098039216,0.5372549019607843,19.915579,0.5529411764705883
+63,capital,"J-lens swap, alpha=0.5",0.0,0.0,13.217305,0.7529411764705882
+63,capital,"J-lens swap, alpha=1.0",0.0,0.0,26.43461,0.7529411764705882
+63,capital,"J-lens swap, alpha=2.0",0.0,0.0,52.86922,0.7529411764705882
+63,capital,"logit lens swap, alpha=0.5",0.0,0.0,13.992547,0.7529411764705882
+63,capital,"logit lens swap, alpha=1.0",0.0,0.0,27.985094,0.7529411764705882
+63,capital,"logit lens swap, alpha=2.0",0.0,0.0,55.97019,0.7529411764705882
+63,capital,"random swap, alpha=0.5",0.0,0.0,14.974601,0.7529411764705882
+63,capital,"random swap, alpha=1.0",0.0,0.0,29.949202,0.7529411764705882
+63,capital,"random swap, alpha=2.0",0.0,0.0,59.898403,0.7529411764705882
+63,capital,coordinate swap x1,0.0,0.0,2.8424406,0.7529411764705882
+63,capital,coordinate swap x4,0.0,0.0,11.369762,0.7529411764705882
+63,capital,centroid swap,0.0,0.0,24.733505,0.7529411764705882
+63,capital,"centroid swap, J-lens span part",0.0,0.0,7.0433383,0.7529411764705882
+63,capital,"centroid swap, outside J-lens span",0.0,0.0,23.69838,0.7529411764705882
+64,last,"J-lens swap, alpha=0.5",0.592156862745098,0.7686274509803922,11.875422,0.5411764705882353
+64,last,"J-lens swap, alpha=1.0",0.6803921568627451,0.9117647058823529,23.750843,0.5411764705882353
+64,last,"J-lens swap, alpha=2.0",0.5803921568627451,0.9588235294117647,47.501686,0.5411764705882353
+64,last,"logit lens swap, alpha=0.5",0.47058823529411764,0.6725490196078432,12.535272,0.5411764705882353
+64,last,"logit lens swap, alpha=1.0",0.5705882352941176,0.8235294117647058,25.070543,0.5411764705882353
+64,last,"logit lens swap, alpha=2.0",0.5568627450980392,0.8941176470588236,50.141087,0.5411764705882353
+64,last,"random swap, alpha=0.5",0.0,0.00196078431372549,13.415049,0.5411764705882353
+64,last,"random swap, alpha=1.0",0.0,0.00196078431372549,26.830097,0.5411764705882353
+64,last,"random swap, alpha=2.0",0.00784313725490196,0.041176470588235294,53.660194,0.5411764705882353
+64,last,coordinate swap x1,0.00196078431372549,0.011764705882352941,1.8312514,0.5411764705882353
+64,last,coordinate swap x4,0.3196078431372549,0.4,7.3250055,0.5411764705882353
+64,last,centroid swap,1.0,1.0,21.760704,0.5411764705882353
+64,last,"centroid swap, J-lens span part",0.4176470588235294,0.5529411764705883,7.5903387,0.5411764705882353
+64,last,"centroid swap, outside J-lens span",0.3980392156862745,0.5509803921568628,20.35771,0.5411764705882353
+64,capital,"J-lens swap, alpha=0.5",0.0,0.0,13.487731,0.7647058823529411
+64,capital,"J-lens swap, alpha=1.0",0.0,0.0,26.975462,0.7647058823529411
+64,capital,"J-lens swap, alpha=2.0",0.0,0.0,53.950924,0.7647058823529411
+64,capital,"logit lens swap, alpha=0.5",0.0,0.0,14.237168,0.7647058823529411
+64,capital,"logit lens swap, alpha=1.0",0.0,0.0,28.474337,0.7647058823529411
+64,capital,"logit lens swap, alpha=2.0",0.0,0.0,56.948673,0.7647058823529411
+64,capital,"random swap, alpha=0.5",0.0,0.0,15.23639,0.7647058823529411
+64,capital,"random swap, alpha=1.0",0.0,0.0,30.47278,0.7647058823529411
+64,capital,"random swap, alpha=2.0",0.0,0.0,60.94556,0.7647058823529411
+64,capital,coordinate swap x1,0.0,0.0,2.951447,0.7647058823529411
+64,capital,coordinate swap x4,0.0,0.0,11.805788,0.7647058823529411
+64,capital,centroid swap,0.0,0.0,25.060825,0.7647058823529411
+64,capital,"centroid swap, J-lens span part",0.0,0.0,7.0770116,0.7647058823529411
+64,capital,"centroid swap, outside J-lens span",0.0,0.0,24.028664,0.7647058823529411
+65,last,"J-lens swap, alpha=0.5",0.5647058823529412,0.7588235294117647,12.184415,0.5352941176470588
+65,last,"J-lens swap, alpha=1.0",0.611764705882353,0.8960784313725491,24.36883,0.5352941176470588
+65,last,"J-lens swap, alpha=2.0",0.5411764705882353,0.9568627450980393,48.73766,0.5352941176470588
+65,last,"logit lens swap, alpha=0.5",0.45294117647058824,0.6568627450980392,12.885977,0.5352941176470588
+65,last,"logit lens swap, alpha=1.0",0.5372549019607843,0.803921568627451,25.771954,0.5352941176470588
+65,last,"logit lens swap, alpha=2.0",0.5215686274509804,0.8980392156862745,51.543907,0.5352941176470588
+65,last,"random swap, alpha=0.5",0.0,0.00196078431372549,13.790367,0.5352941176470588
+65,last,"random swap, alpha=1.0",0.0,0.00392156862745098,27.580734,0.5352941176470588
+65,last,"random swap, alpha=2.0",0.011764705882352941,0.058823529411764705,55.16147,0.5352941176470588
+65,last,coordinate swap x1,0.00196078431372549,0.011764705882352941,1.7820057,0.5352941176470588
+65,last,coordinate swap x4,0.2980392156862745,0.37058823529411766,7.1280227,0.5352941176470588
+65,last,centroid swap,1.0,1.0,22.419514,0.5352941176470588
+65,last,"centroid swap, J-lens span part",0.41568627450980394,0.5490196078431373,7.7195415,0.5352941176470588
+65,last,"centroid swap, outside J-lens span",0.4019607843137255,0.5470588235294118,21.010319,0.5352941176470588
+65,capital,"J-lens swap, alpha=0.5",0.0,0.0,13.720453,0.7176470588235294
+65,capital,"J-lens swap, alpha=1.0",0.0,0.0,27.440907,0.7176470588235294
+65,capital,"J-lens swap, alpha=2.0",0.0,0.0,54.881813,0.7176470588235294
+65,capital,"logit lens swap, alpha=0.5",0.0,0.0,14.510458,0.7176470588235294
+65,capital,"logit lens swap, alpha=1.0",0.0,0.0,29.020916,0.7176470588235294
+65,capital,"logit lens swap, alpha=2.0",0.0,0.0,58.041832,0.7176470588235294
+65,capital,"random swap, alpha=0.5",0.0,0.0,15.52886,0.7176470588235294
+65,capital,"random swap, alpha=1.0",0.0,0.0,31.05772,0.7176470588235294
+65,capital,"random swap, alpha=2.0",0.0,0.0,62.11544,0.7176470588235294
+65,capital,coordinate swap x1,0.0,0.0,2.8925767,0.7176470588235294
+65,capital,coordinate swap x4,0.0,0.0,11.570307,0.7176470588235294
+65,capital,centroid swap,0.0,0.0,25.485035,0.7176470588235294
+65,capital,"centroid swap, J-lens span part",0.0,0.0,7.1823106,0.7176470588235294
+65,capital,"centroid swap, outside J-lens span",0.0,0.0,24.439419,0.7176470588235294
+66,last,"J-lens swap, alpha=0.5",0.5686274509803921,0.7666666666666667,12.487423,0.5529411764705883
+66,last,"J-lens swap, alpha=1.0",0.611764705882353,0.9019607843137255,24.974846,0.5529411764705883
+66,last,"J-lens swap, alpha=2.0",0.503921568627451,0.9490196078431372,49.94969,0.5529411764705883
+66,last,"logit lens swap, alpha=0.5",0.45294117647058824,0.6549019607843137,13.200577,0.5529411764705883
+66,last,"logit lens swap, alpha=1.0",0.5137254901960784,0.796078431372549,26.401154,0.5529411764705883
+66,last,"logit lens swap, alpha=2.0",0.49411764705882355,0.8901960784313725,52.802307,0.5529411764705883
+66,last,"random swap, alpha=0.5",0.0,0.0,14.127046,0.5529411764705883
+66,last,"random swap, alpha=1.0",0.0,0.00392156862745098,28.254091,0.5529411764705883
+66,last,"random swap, alpha=2.0",0.00980392156862745,0.06666666666666667,56.508183,0.5529411764705883
+66,last,coordinate swap x1,0.00196078431372549,0.011764705882352941,1.8225,0.5529411764705883
+66,last,coordinate swap x4,0.296078431372549,0.37058823529411766,7.29,0.5529411764705883
+66,last,centroid swap,1.0,1.0,22.896036,0.5529411764705883
+66,last,"centroid swap, J-lens span part",0.40980392156862744,0.5313725490196078,7.767039,0.5529411764705883
+66,last,"centroid swap, outside J-lens span",0.40980392156862744,0.5549019607843138,21.498085,0.5529411764705883
+66,capital,"J-lens swap, alpha=0.5",0.0,0.0,13.983313,0.7058823529411765
+66,capital,"J-lens swap, alpha=1.0",0.0,0.0,27.966625,0.7058823529411765
+66,capital,"J-lens swap, alpha=2.0",0.0,0.0,55.93325,0.7058823529411765
+66,capital,"logit lens swap, alpha=0.5",0.0,0.0,14.781895,0.7058823529411765
+66,capital,"logit lens swap, alpha=1.0",0.0,0.0,29.56379,0.7058823529411765
+66,capital,"logit lens swap, alpha=2.0",0.0,0.0,59.12758,0.7058823529411765
+66,capital,"random swap, alpha=0.5",0.0,0.0,15.819347,0.7058823529411765
+66,capital,"random swap, alpha=1.0",0.0,0.0,31.638695,0.7058823529411765
+66,capital,"random swap, alpha=2.0",0.0,0.0,63.27739,0.7058823529411765
+66,capital,coordinate swap x1,0.0,0.0,2.9076684,0.7058823529411765
+66,capital,coordinate swap x4,0.0,0.0,11.630673,0.7058823529411765
+66,capital,centroid swap,0.0,0.0,25.91003,0.7058823529411765
+66,capital,"centroid swap, J-lens span part",0.0,0.0,7.2850013,0.7058823529411765
+66,capital,"centroid swap, outside J-lens span",0.0,0.0,24.852224,0.7058823529411765
+67,last,"J-lens swap, alpha=0.5",0.5745098039215686,0.7705882352941177,12.74802,0.5235294117647059
+67,last,"J-lens swap, alpha=1.0",0.5862745098039216,0.8980392156862745,25.49604,0.5235294117647059
+67,last,"J-lens swap, alpha=2.0",0.503921568627451,0.9490196078431372,50.99208,0.5235294117647059
+67,last,"logit lens swap, alpha=0.5",0.45294117647058824,0.6647058823529411,13.461711,0.5235294117647059
+67,last,"logit lens swap, alpha=1.0",0.503921568627451,0.7941176470588235,26.923422,0.5235294117647059
+67,last,"logit lens swap, alpha=2.0",0.49607843137254903,0.8941176470588236,53.846844,0.5235294117647059
+67,last,"random swap, alpha=0.5",0.0,0.00196078431372549,14.406507,0.5235294117647059
+67,last,"random swap, alpha=1.0",0.0,0.0058823529411764705,28.813013,0.5235294117647059
+67,last,"random swap, alpha=2.0",0.011764705882352941,0.07450980392156863,57.626026,0.5235294117647059
+67,last,coordinate swap x1,0.00392156862745098,0.011764705882352941,1.7725728,0.5235294117647059
+67,last,coordinate swap x4,0.27647058823529413,0.34901960784313724,7.090291,0.5235294117647059
+67,last,centroid swap,1.0,1.0,23.313366,0.5235294117647059
+67,last,"centroid swap, J-lens span part",0.4117647058823529,0.5392156862745098,7.7922287,0.5235294117647059
+67,last,"centroid swap, outside J-lens span",0.40980392156862744,0.5568627450980392,21.932552,0.5235294117647059
+67,capital,"J-lens swap, alpha=0.5",0.0,0.0,14.350691,0.7352941176470589
+67,capital,"J-lens swap, alpha=1.0",0.0,0.0,28.701382,0.7352941176470589
+67,capital,"J-lens swap, alpha=2.0",0.0,0.0,57.402763,0.7352941176470589
+67,capital,"logit lens swap, alpha=0.5",0.0,0.0,15.154107,0.7352941176470589
+67,capital,"logit lens swap, alpha=1.0",0.0,0.0,30.308214,0.7352941176470589
+67,capital,"logit lens swap, alpha=2.0",0.0,0.0,60.61643,0.7352941176470589
+67,capital,"random swap, alpha=0.5",0.0,0.0,16.217682,0.7352941176470589
+67,capital,"random swap, alpha=1.0",0.0,0.0,32.435364,0.7352941176470589
+67,capital,"random swap, alpha=2.0",0.0,0.0,64.87073,0.7352941176470589
+67,capital,coordinate swap x1,0.0,0.0,3.0589771,0.7352941176470589
+67,capital,coordinate swap x4,0.0,0.0,12.2359085,0.7352941176470589
+67,capital,centroid swap,0.0,0.0,26.387878,0.7352941176470589
+67,capital,"centroid swap, J-lens span part",0.0,0.0,7.298701,0.7352941176470589
+67,capital,"centroid swap, outside J-lens span",0.0,0.0,25.34635,0.7352941176470589
+68,last,"J-lens swap, alpha=0.5",0.5725490196078431,0.7686274509803922,13.020938,0.49411764705882355
+68,last,"J-lens swap, alpha=1.0",0.5882352941176471,0.8862745098039215,26.041876,0.49411764705882355
+68,last,"J-lens swap, alpha=2.0",0.5098039215686274,0.9372549019607843,52.08375,0.49411764705882355
+68,last,"logit lens swap, alpha=0.5",0.45294117647058824,0.6627450980392157,13.743729,0.49411764705882355
+68,last,"logit lens swap, alpha=1.0",0.5058823529411764,0.7941176470588235,27.487457,0.49411764705882355
+68,last,"logit lens swap, alpha=2.0",0.5,0.8823529411764706,54.974915,0.49411764705882355
+68,last,"random swap, alpha=0.5",0.0,0.00196078431372549,14.708318,0.49411764705882355
+68,last,"random swap, alpha=1.0",0.0,0.0058823529411764705,29.416636,0.49411764705882355
+68,last,"random swap, alpha=2.0",0.00784313725490196,0.0392156862745098,58.83327,0.49411764705882355
+68,last,coordinate swap x1,0.00784313725490196,0.011764705882352941,1.749989,0.49411764705882355
+68,last,coordinate swap x4,0.26666666666666666,0.32745098039215687,6.999956,0.49411764705882355
+68,last,centroid swap,1.0,1.0,23.825985,0.49411764705882355
+68,last,"centroid swap, J-lens span part",0.4117647058823529,0.5372549019607843,7.9153504,0.49411764705882355
+68,last,"centroid swap, outside J-lens span",0.41568627450980394,0.5568627450980392,22.431664,0.49411764705882355
+68,capital,"J-lens swap, alpha=0.5",0.0,0.0,14.780247,0.7588235294117647
+68,capital,"J-lens swap, alpha=1.0",0.0,0.0,29.560493,0.7588235294117647
+68,capital,"J-lens swap, alpha=2.0",0.0,0.0,59.120987,0.7588235294117647
+68,capital,"logit lens swap, alpha=0.5",0.0,0.0,15.600696,0.7588235294117647
+68,capital,"logit lens swap, alpha=1.0",0.0,0.0,31.201391,0.7588235294117647
+68,capital,"logit lens swap, alpha=2.0",0.0,0.0,62.402782,0.7588235294117647
+68,capital,"random swap, alpha=0.5",0.0,0.0,16.695616,0.7588235294117647
+68,capital,"random swap, alpha=1.0",0.0,0.0,33.39123,0.7588235294117647
+68,capital,"random swap, alpha=2.0",0.0,0.0,66.78246,0.7588235294117647
+68,capital,coordinate swap x1,0.0,0.0,3.223641,0.7588235294117647
+68,capital,coordinate swap x4,0.0,0.0,12.894564,0.7588235294117647
+68,capital,centroid swap,0.0,0.0,26.787281,0.7588235294117647
+68,capital,"centroid swap, J-lens span part",0.0,0.0,7.456454,0.7588235294117647
+68,capital,"centroid swap, outside J-lens span",0.0,0.0,25.71631,0.7588235294117647
+69,last,"J-lens swap, alpha=0.5",0.592156862745098,0.788235294117647,13.437751,0.49411764705882355
+69,last,"J-lens swap, alpha=1.0",0.5627450980392157,0.888235294117647,26.875502,0.49411764705882355
+69,last,"J-lens swap, alpha=2.0",0.48823529411764705,0.9392156862745098,53.751003,0.49411764705882355
+69,last,"logit lens swap, alpha=0.5",0.46078431372549017,0.6725490196078432,14.162207,0.49411764705882355
+69,last,"logit lens swap, alpha=1.0",0.5078431372549019,0.8,28.324413,0.49411764705882355
+69,last,"logit lens swap, alpha=2.0",0.48823529411764705,0.888235294117647,56.648827,0.49411764705882355
+69,last,"random swap, alpha=0.5",0.0,0.00196078431372549,15.156167,0.49411764705882355
+69,last,"random swap, alpha=1.0",0.0,0.0058823529411764705,30.312334,0.49411764705882355
+69,last,"random swap, alpha=2.0",0.00980392156862745,0.047058823529411764,60.62467,0.49411764705882355
+69,last,coordinate swap x1,0.00392156862745098,0.00784313725490196,1.7781985,0.49411764705882355
+69,last,coordinate swap x4,0.2568627450980392,0.31176470588235294,7.112794,0.49411764705882355
+69,last,centroid swap,1.0,1.0,24.489775,0.49411764705882355
+69,last,"centroid swap, J-lens span part",0.40980392156862744,0.5450980392156862,8.073515,0.49411764705882355
+69,last,"centroid swap, outside J-lens span",0.403921568627451,0.5509803921568628,23.072687,0.49411764705882355
+69,capital,"J-lens swap, alpha=0.5",0.0,0.0,15.242279,0.7588235294117647
+69,capital,"J-lens swap, alpha=1.0",0.0,0.0,30.484558,0.7588235294117647
+69,capital,"J-lens swap, alpha=2.0",0.0,0.0,60.969116,0.7588235294117647
+69,capital,"logit lens swap, alpha=0.5",0.0,0.0,16.064022,0.7588235294117647
+69,capital,"logit lens swap, alpha=1.0",0.0,0.0,32.128044,0.7588235294117647
+69,capital,"logit lens swap, alpha=2.0",0.0,0.0,64.25609,0.7588235294117647
+69,capital,"random swap, alpha=0.5",0.0,0.0,17.19146,0.7588235294117647
+69,capital,"random swap, alpha=1.0",0.0,0.0,34.38292,0.7588235294117647
+69,capital,"random swap, alpha=2.0",0.0,0.0,68.76584,0.7588235294117647
+69,capital,coordinate swap x1,0.0,0.0,3.275644,0.7588235294117647
+69,capital,coordinate swap x4,0.0,0.0,13.102576,0.7588235294117647
+69,capital,centroid swap,0.0,0.0,27.351936,0.7588235294117647
+69,capital,"centroid swap, J-lens span part",0.0,0.0,7.6934295,0.7588235294117647
+69,capital,"centroid swap, outside J-lens span",0.0,0.0,26.23333,0.7588235294117647
+70,last,"J-lens swap, alpha=0.5",0.5823529411764706,0.7823529411764706,13.739634,0.5058823529411764
+70,last,"J-lens swap, alpha=1.0",0.5450980392156862,0.8803921568627451,27.479267,0.5058823529411764
+70,last,"J-lens swap, alpha=2.0",0.4745098039215686,0.9431372549019608,54.958534,0.5058823529411764
+70,last,"logit lens swap, alpha=0.5",0.4568627450980392,0.6705882352941176,14.485874,0.5058823529411764
+70,last,"logit lens swap, alpha=1.0",0.5078431372549019,0.8,28.971748,0.5058823529411764
+70,last,"logit lens swap, alpha=2.0",0.48823529411764705,0.8803921568627451,57.943497,0.5058823529411764
+70,last,"random swap, alpha=0.5",0.0,0.00196078431372549,15.50255,0.5058823529411764
+70,last,"random swap, alpha=1.0",0.0,0.0058823529411764705,31.0051,0.5058823529411764
+70,last,"random swap, alpha=2.0",0.00980392156862745,0.050980392156862744,62.0102,0.5058823529411764
+70,last,coordinate swap x1,0.0058823529411764705,0.011764705882352941,1.8173112,0.5058823529411764
+70,last,coordinate swap x4,0.26666666666666666,0.3215686274509804,7.2692447,0.5058823529411764
+70,last,centroid swap,1.0,1.0,24.893133,0.5058823529411764
+70,last,"centroid swap, J-lens span part",0.40784313725490196,0.5352941176470588,8.185568,0.5058823529411764
+70,last,"centroid swap, outside J-lens span",0.42549019607843136,0.5627450980392157,23.458542,0.5058823529411764
+70,capital,"J-lens swap, alpha=0.5",0.0,0.0,15.662529,0.7529411764705882
+70,capital,"J-lens swap, alpha=1.0",0.0,0.0,31.325058,0.7529411764705882
+70,capital,"J-lens swap, alpha=2.0",0.0,0.0,62.650116,0.7529411764705882
+70,capital,"logit lens swap, alpha=0.5",0.0,0.0,16.513208,0.7529411764705882
+70,capital,"logit lens swap, alpha=1.0",0.0,0.0,33.026417,0.7529411764705882
+70,capital,"logit lens swap, alpha=2.0",0.0,0.0,66.05283,0.7529411764705882
+70,capital,"random swap, alpha=0.5",0.0,0.0,17.672173,0.7529411764705882
+70,capital,"random swap, alpha=1.0",0.0,0.0,35.344345,0.7529411764705882
+70,capital,"random swap, alpha=2.0",0.0,0.0,70.68869,0.7529411764705882
+70,capital,coordinate swap x1,0.0,0.0,3.3842878,0.7529411764705882
+70,capital,coordinate swap x4,0.0,0.0,13.537151,0.7529411764705882
+70,capital,centroid swap,0.0,0.0,27.942087,0.7529411764705882
+70,capital,"centroid swap, J-lens span part",0.0,0.0,7.9482937,0.7529411764705882
+70,capital,"centroid swap, outside J-lens span",0.0,0.0,26.77269,0.7529411764705882
+71,last,"J-lens swap, alpha=0.5",0.5666666666666667,0.7803921568627451,14.307687,0.49411764705882355
+71,last,"J-lens swap, alpha=1.0",0.503921568627451,0.8627450980392157,28.615374,0.49411764705882355
+71,last,"J-lens swap, alpha=2.0",0.4176470588235294,0.9411764705882353,57.230747,0.49411764705882355
+71,last,"logit lens swap, alpha=0.5",0.4568627450980392,0.6725490196078432,15.074528,0.49411764705882355
+71,last,"logit lens swap, alpha=1.0",0.47843137254901963,0.7843137254901961,30.149055,0.49411764705882355
+71,last,"logit lens swap, alpha=2.0",0.4627450980392157,0.8784313725490196,60.29811,0.49411764705882355
+71,last,"random swap, alpha=0.5",0.0,0.00196078431372549,16.132517,0.49411764705882355
+71,last,"random swap, alpha=1.0",0.0,0.00392156862745098,32.265034,0.49411764705882355
+71,last,"random swap, alpha=2.0",0.011764705882352941,0.052941176470588235,64.53007,0.49411764705882355
+71,last,coordinate swap x1,0.00392156862745098,0.00980392156862745,1.8474231,0.49411764705882355
+71,last,coordinate swap x4,0.2607843137254902,0.3137254901960784,7.3896923,0.49411764705882355
+71,last,centroid swap,1.0,1.0,25.887463,0.49411764705882355
+71,last,"centroid swap, J-lens span part",0.40784313725490196,0.5431372549019607,8.470268,0.49411764705882355
+71,last,"centroid swap, outside J-lens span",0.42745098039215684,0.5627450980392157,24.405476,0.49411764705882355
+71,capital,"J-lens swap, alpha=0.5",0.0,0.0,16.237976,0.7470588235294118
+71,capital,"J-lens swap, alpha=1.0",0.0,0.0,32.475952,0.7470588235294118
+71,capital,"J-lens swap, alpha=2.0",0.0,0.0,64.951904,0.7470588235294118
+71,capital,"logit lens swap, alpha=0.5",0.0,0.0,17.108276,0.7470588235294118
+71,capital,"logit lens swap, alpha=1.0",0.0,0.0,34.216553,0.7470588235294118
+71,capital,"logit lens swap, alpha=2.0",0.0,0.0,68.433105,0.7470588235294118
+71,capital,"random swap, alpha=0.5",0.0,0.0,18.309002,0.7470588235294118
+71,capital,"random swap, alpha=1.0",0.0,0.0,36.618004,0.7470588235294118
+71,capital,"random swap, alpha=2.0",0.0,0.0,73.23601,0.7470588235294118
+71,capital,coordinate swap x1,0.0,0.0,3.5787163,0.7470588235294118
+71,capital,coordinate swap x4,0.0,0.0,14.314865,0.7470588235294118
+71,capital,centroid swap,0.0,0.0,28.746378,0.7470588235294118
+71,capital,"centroid swap, J-lens span part",0.0,0.0,8.306557,0.7470588235294118
+71,capital,"centroid swap, outside J-lens span",0.0,0.0,27.50355,0.7470588235294118
+72,last,"J-lens swap, alpha=0.5",0.5725490196078431,0.7843137254901961,14.731772,0.48823529411764705
+72,last,"J-lens swap, alpha=1.0",0.5078431372549019,0.8627450980392157,29.463545,0.48823529411764705
+72,last,"J-lens swap, alpha=2.0",0.4196078431372549,0.9352941176470588,58.92709,0.48823529411764705
+72,last,"logit lens swap, alpha=0.5",0.4549019607843137,0.6705882352941176,15.486413,0.48823529411764705
+72,last,"logit lens swap, alpha=1.0",0.4803921568627451,0.792156862745098,30.972826,0.48823529411764705
+72,last,"logit lens swap, alpha=2.0",0.46078431372549017,0.8862745098039215,61.945652,0.48823529411764705
+72,last,"random swap, alpha=0.5",0.0,0.00196078431372549,16.57331,0.48823529411764705
+72,last,"random swap, alpha=1.0",0.0,0.00392156862745098,33.14662,0.48823529411764705
+72,last,"random swap, alpha=2.0",0.011764705882352941,0.058823529411764705,66.29324,0.48823529411764705
+72,last,coordinate swap x1,0.0058823529411764705,0.0058823529411764705,1.8679416,0.48823529411764705
+72,last,coordinate swap x4,0.2411764705882353,0.2980392156862745,7.4717665,0.48823529411764705
+72,last,centroid swap,1.0,1.0,26.518812,0.48823529411764705
+72,last,"centroid swap, J-lens span part",0.4117647058823529,0.5549019607843138,8.566379,0.48823529411764705
+72,last,"centroid swap, outside J-lens span",0.4235294117647059,0.5705882352941176,25.039543,0.48823529411764705
+72,capital,"J-lens swap, alpha=0.5",0.0,0.0,16.905275,0.7705882352941177
+72,capital,"J-lens swap, alpha=1.0",0.0,0.0,33.81055,0.7705882352941177
+72,capital,"J-lens swap, alpha=2.0",0.0,0.0,67.6211,0.7705882352941177
+72,capital,"logit lens swap, alpha=0.5",0.0,0.0,17.771255,0.7705882352941177
+72,capital,"logit lens swap, alpha=1.0",0.0,0.0,35.54251,0.7705882352941177
+72,capital,"logit lens swap, alpha=2.0",0.0,0.0,71.08502,0.7705882352941177
+72,capital,"random swap, alpha=0.5",0.0,0.0,19.018513,0.7705882352941177
+72,capital,"random swap, alpha=1.0",0.0,0.0,38.037025,0.7705882352941177
+72,capital,"random swap, alpha=2.0",0.0,0.0,76.07405,0.7705882352941177
+72,capital,coordinate swap x1,0.0,0.0,3.745726,0.7705882352941177
+72,capital,coordinate swap x4,0.0,0.0,14.982904,0.7705882352941177
+72,capital,centroid swap,0.0,0.0,29.439463,0.7705882352941177
+72,capital,"centroid swap, J-lens span part",0.0,0.0,8.520299,0.7705882352941177
+72,capital,"centroid swap, outside J-lens span",0.0,0.0,28.161995,0.7705882352941177
+73,last,"J-lens swap, alpha=0.5",0.5666666666666667,0.7843137254901961,15.243584,0.5117647058823529
+73,last,"J-lens swap, alpha=1.0",0.48627450980392156,0.8529411764705882,30.487167,0.5117647058823529
+73,last,"J-lens swap, alpha=2.0",0.3588235294117647,0.9215686274509803,60.974335,0.5117647058823529
+73,last,"logit lens swap, alpha=0.5",0.4588235294117647,0.6745098039215687,15.948846,0.5117647058823529
+73,last,"logit lens swap, alpha=1.0",0.47058823529411764,0.792156862745098,31.897692,0.5117647058823529
+73,last,"logit lens swap, alpha=2.0",0.4588235294117647,0.8803921568627451,63.795383,0.5117647058823529
+73,last,"random swap, alpha=0.5",0.0,0.00196078431372549,17.068201,0.5117647058823529
+73,last,"random swap, alpha=1.0",0.0,0.00392156862745098,34.136402,0.5117647058823529
+73,last,"random swap, alpha=2.0",0.011764705882352941,0.052941176470588235,68.272804,0.5117647058823529
+73,last,coordinate swap x1,0.0058823529411764705,0.011764705882352941,2.0598202,0.5117647058823529
+73,last,coordinate swap x4,0.2568627450980392,0.3137254901960784,8.239281,0.5117647058823529
+73,last,centroid swap,1.0,1.0,27.278446,0.5117647058823529
+73,last,"centroid swap, J-lens span part",0.40784313725490196,0.5509803921568628,8.800283,0.5117647058823529
+73,last,"centroid swap, outside J-lens span",0.4294117647058823,0.5745098039215686,25.75872,0.5117647058823529
+73,capital,"J-lens swap, alpha=0.5",0.0,0.0,17.198648,0.7705882352941177
+73,capital,"J-lens swap, alpha=1.0",0.0,0.0,34.397297,0.7705882352941177
+73,capital,"J-lens swap, alpha=2.0",0.0,0.0,68.79459,0.7705882352941177
+73,capital,"logit lens swap, alpha=0.5",0.0,0.0,17.994362,0.7705882352941177
+73,capital,"logit lens swap, alpha=1.0",0.0,0.0,35.988724,0.7705882352941177
+73,capital,"logit lens swap, alpha=2.0",0.0,0.0,71.97745,0.7705882352941177
+73,capital,"random swap, alpha=0.5",0.0,0.0,19.25728,0.7705882352941177
+73,capital,"random swap, alpha=1.0",0.0,0.0,38.51456,0.7705882352941177
+73,capital,"random swap, alpha=2.0",0.0,0.0,77.02912,0.7705882352941177
+73,capital,coordinate swap x1,0.0,0.0,3.9346318,0.7705882352941177
+73,capital,coordinate swap x4,0.0,0.0,15.738527,0.7705882352941177
+73,capital,centroid swap,0.0,0.0,29.22037,0.7705882352941177
+73,capital,"centroid swap, J-lens span part",0.0,0.0,8.846271,0.7705882352941177
+73,capital,"centroid swap, outside J-lens span",0.0,0.0,27.832142,0.7705882352941177
+74,last,"J-lens swap, alpha=0.5",0.5745098039215686,0.7862745098039216,15.901946,0.5411764705882353
+74,last,"J-lens swap, alpha=1.0",0.4803921568627451,0.8588235294117647,31.803892,0.5411764705882353
+74,last,"J-lens swap, alpha=2.0",0.33137254901960783,0.9176470588235294,63.607784,0.5411764705882353
+74,last,"logit lens swap, alpha=0.5",0.4647058823529412,0.6823529411764706,16.659666,0.5411764705882353
+74,last,"logit lens swap, alpha=1.0",0.4725490196078431,0.7901960784313725,33.319332,0.5411764705882353
+74,last,"logit lens swap, alpha=2.0",0.4647058823529412,0.8823529411764706,66.638664,0.5411764705882353
+74,last,"random swap, alpha=0.5",0.0,0.00196078431372549,17.82891,0.5411764705882353
+74,last,"random swap, alpha=1.0",0.0,0.00392156862745098,35.65782,0.5411764705882353
+74,last,"random swap, alpha=2.0",0.011764705882352941,0.054901960784313725,71.31564,0.5411764705882353
+74,last,coordinate swap x1,0.0058823529411764705,0.013725490196078431,2.2422884,0.5411764705882353
+74,last,coordinate swap x4,0.27647058823529413,0.34705882352941175,8.969153,0.5411764705882353
+74,last,centroid swap,1.0,1.0,28.405931,0.5411764705882353
+74,last,"centroid swap, J-lens span part",0.4117647058823529,0.5549019607843138,9.290733,0.5411764705882353
+74,last,"centroid swap, outside J-lens span",0.4215686274509804,0.5705882352941176,26.77223,0.5411764705882353
+74,capital,"J-lens swap, alpha=0.5",0.0,0.0,17.92862,0.7588235294117647
+74,capital,"J-lens swap, alpha=1.0",0.0,0.0,35.85724,0.7588235294117647
+74,capital,"J-lens swap, alpha=2.0",0.0,0.0,71.71448,0.7588235294117647
+74,capital,"logit lens swap, alpha=0.5",0.0,0.0,18.782911,0.7588235294117647
+74,capital,"logit lens swap, alpha=1.0",0.0,0.0,37.565823,0.7588235294117647
+74,capital,"logit lens swap, alpha=2.0",0.0,0.0,75.131645,0.7588235294117647
+74,capital,"random swap, alpha=0.5",0.0,0.0,20.101171,0.7588235294117647
+74,capital,"random swap, alpha=1.0",0.0,0.0,40.202343,0.7588235294117647
+74,capital,"random swap, alpha=2.0",0.0,0.0,80.404686,0.7588235294117647
+74,capital,coordinate swap x1,0.0,0.0,4.008784,0.7588235294117647
+74,capital,coordinate swap x4,0.0,0.0,16.035135,0.7588235294117647
+74,capital,centroid swap,0.0,0.0,29.885069,0.7588235294117647
+74,capital,"centroid swap, J-lens span part",0.0,0.0,9.206911,0.7588235294117647
+74,capital,"centroid swap, outside J-lens span",0.0,0.0,28.414675,0.7588235294117647
+75,last,"J-lens swap, alpha=0.5",0.5705882352941176,0.7862745098039216,16.890274,0.5411764705882353
+75,last,"J-lens swap, alpha=1.0",0.43529411764705883,0.8588235294117647,33.78055,0.5411764705882353
+75,last,"J-lens swap, alpha=2.0",0.3176470588235294,0.9156862745098039,67.5611,0.5411764705882353
+75,last,"logit lens swap, alpha=0.5",0.47058823529411764,0.696078431372549,17.868275,0.5411764705882353
+75,last,"logit lens swap, alpha=1.0",0.4568627450980392,0.796078431372549,35.73655,0.5411764705882353
+75,last,"logit lens swap, alpha=2.0",0.4627450980392157,0.8862745098039215,71.4731,0.5411764705882353
+75,last,"random swap, alpha=0.5",0.0,0.00196078431372549,19.122343,0.5411764705882353
+75,last,"random swap, alpha=1.0",0.0,0.00392156862745098,38.244686,0.5411764705882353
+75,last,"random swap, alpha=2.0",0.011764705882352941,0.054901960784313725,76.48937,0.5411764705882353
+75,last,coordinate swap x1,0.00196078431372549,0.00784313725490196,2.3293748,0.5411764705882353
+75,last,coordinate swap x4,0.2823529411764706,0.3568627450980392,9.317499,0.5411764705882353
+75,last,centroid swap,1.0,1.0,29.962906,0.5411764705882353
+75,last,"centroid swap, J-lens span part",0.3843137254901961,0.515686274509804,9.630985,0.5411764705882353
+75,last,"centroid swap, outside J-lens span",0.4294117647058823,0.5784313725490197,28.31199,0.5411764705882353
+75,capital,"J-lens swap, alpha=0.5",0.0,0.0,18.535946,0.7235294117647059
+75,capital,"J-lens swap, alpha=1.0",0.0,0.0,37.07189,0.7235294117647059
+75,capital,"J-lens swap, alpha=2.0",0.0,0.0,74.14378,0.7235294117647059
+75,capital,"logit lens swap, alpha=0.5",0.0,0.0,19.609238,0.7235294117647059
+75,capital,"logit lens swap, alpha=1.0",0.0,0.0,39.218475,0.7235294117647059
+75,capital,"logit lens swap, alpha=2.0",0.0,0.0,78.43695,0.7235294117647059
+75,capital,"random swap, alpha=0.5",0.0,0.0,20.985493,0.7235294117647059
+75,capital,"random swap, alpha=1.0",0.0,0.0,41.970985,0.7235294117647059
+75,capital,"random swap, alpha=2.0",0.0,0.0,83.94197,0.7235294117647059
+75,capital,coordinate swap x1,0.0,0.0,3.4343665,0.7235294117647059
+75,capital,coordinate swap x4,0.0,0.0,13.737466,0.7235294117647059
+75,capital,centroid swap,0.0,0.0,30.48735,0.7235294117647059
+75,capital,"centroid swap, J-lens span part",0.0,0.0,7.9777064,0.7235294117647059
+75,capital,"centroid swap, outside J-lens span",0.0,0.0,29.415327,0.7235294117647059
+76,last,"J-lens swap, alpha=0.5",0.6058823529411764,0.8313725490196079,17.933111,0.4823529411764706
+76,last,"J-lens swap, alpha=1.0",0.6431372549019608,0.9058823529411765,35.866222,0.4823529411764706
+76,last,"J-lens swap, alpha=2.0",0.6039215686274509,0.9588235294117647,71.732445,0.4823529411764706
+76,last,"logit lens swap, alpha=0.5",0.5176470588235295,0.7431372549019608,18.956013,0.4823529411764706
+76,last,"logit lens swap, alpha=1.0",0.6215686274509804,0.8627450980392157,37.912025,0.4823529411764706
+76,last,"logit lens swap, alpha=2.0",0.6352941176470588,0.9235294117647059,75.82405,0.4823529411764706
+76,last,"random swap, alpha=0.5",0.0,0.00196078431372549,20.28642,0.4823529411764706
+76,last,"random swap, alpha=1.0",0.0,0.00392156862745098,40.57284,0.4823529411764706
+76,last,"random swap, alpha=2.0",0.013725490196078431,0.06666666666666667,81.14568,0.4823529411764706
+76,last,coordinate swap x1,0.00392156862745098,0.00392156862745098,2.2476053,0.4823529411764706
+76,last,coordinate swap x4,0.3,0.35490196078431374,8.990421,0.4823529411764706
+76,last,centroid swap,1.0,1.0,31.73463,0.4823529411764706
+76,last,"centroid swap, J-lens span part",0.3784313725490196,0.5588235294117647,10.048534,0.4823529411764706
+76,last,"centroid swap, outside J-lens span",0.4215686274509804,0.6078431372549019,30.055574,0.4823529411764706
+76,capital,"J-lens swap, alpha=0.5",0.0,0.0,19.814556,0.711764705882353
+76,capital,"J-lens swap, alpha=1.0",0.0,0.0,39.629112,0.711764705882353
+76,capital,"J-lens swap, alpha=2.0",0.0,0.0,79.258224,0.711764705882353
+76,capital,"logit lens swap, alpha=0.5",0.0,0.0,20.944775,0.711764705882353
+76,capital,"logit lens swap, alpha=1.0",0.0,0.0,41.88955,0.711764705882353
+76,capital,"logit lens swap, alpha=2.0",0.0,0.0,83.7791,0.711764705882353
+76,capital,"random swap, alpha=0.5",0.0,0.0,22.414762,0.711764705882353
+76,capital,"random swap, alpha=1.0",0.0,0.0,44.829525,0.711764705882353
+76,capital,"random swap, alpha=2.0",0.0,0.0,89.65905,0.711764705882353
+76,capital,coordinate swap x1,0.0,0.0,3.518176,0.711764705882353
+76,capital,coordinate swap x4,0.0,0.0,14.072704,0.711764705882353
+76,capital,centroid swap,0.0,0.0,32.088802,0.711764705882353
+76,capital,"centroid swap, J-lens span part",0.0,0.0,8.411537,0.711764705882353
+76,capital,"centroid swap, outside J-lens span",0.0,0.0,30.956118,0.711764705882353
+77,last,"J-lens swap, alpha=0.5",0.6333333333333333,0.8490196078431372,19.234325,0.5823529411764706
+77,last,"J-lens swap, alpha=1.0",0.703921568627451,0.9274509803921569,38.46865,0.5823529411764706
+77,last,"J-lens swap, alpha=2.0",0.6862745098039216,0.9647058823529412,76.9373,0.5823529411764706
+77,last,"logit lens swap, alpha=0.5",0.5294117647058824,0.7568627450980392,20.230652,0.5823529411764706
+77,last,"logit lens swap, alpha=1.0",0.6764705882352942,0.8823529411764706,40.461304,0.5823529411764706
+77,last,"logit lens swap, alpha=2.0",0.7196078431372549,0.9352941176470588,80.92261,0.5823529411764706
+77,last,"random swap, alpha=0.5",0.0,0.00196078431372549,21.65052,0.5823529411764706
+77,last,"random swap, alpha=1.0",0.0,0.0058823529411764705,43.30104,0.5823529411764706
+77,last,"random swap, alpha=2.0",0.013725490196078431,0.08235294117647059,86.60208,0.5823529411764706
+77,last,coordinate swap x1,0.011764705882352941,0.023529411764705882,2.937489,0.5823529411764706
+77,last,coordinate swap x4,0.3784313725490196,0.46862745098039216,11.749956,0.5823529411764706
+77,last,centroid swap,1.0,1.0,33.89735,0.5823529411764706
+77,last,"centroid swap, J-lens span part",0.3627450980392157,0.5705882352941176,10.555253,0.5823529411764706
+77,last,"centroid swap, outside J-lens span",0.41568627450980394,0.6098039215686275,32.164867,0.5823529411764706
+77,capital,"J-lens swap, alpha=0.5",0.0,0.0,21.402317,0.6882352941176471
+77,capital,"J-lens swap, alpha=1.0",0.0,0.0,42.804634,0.6882352941176471
+77,capital,"J-lens swap, alpha=2.0",0.0,0.0,85.60927,0.6882352941176471
+77,capital,"logit lens swap, alpha=0.5",0.0,0.0,22.51094,0.6882352941176471
+77,capital,"logit lens swap, alpha=1.0",0.0,0.0,45.02188,0.6882352941176471
+77,capital,"logit lens swap, alpha=2.0",0.0,0.0,90.04376,0.6882352941176471
+77,capital,"random swap, alpha=0.5",0.0,0.0,24.09085,0.6882352941176471
+77,capital,"random swap, alpha=1.0",0.0,0.0,48.1817,0.6882352941176471
+77,capital,"random swap, alpha=2.0",0.0,0.0,96.3634,0.6882352941176471
+77,capital,coordinate swap x1,0.0,0.0,3.658298,0.6882352941176471
+77,capital,coordinate swap x4,0.0,0.0,14.633192,0.6882352941176471
+77,capital,centroid swap,0.0,0.0,33.447304,0.6882352941176471
+77,capital,"centroid swap, J-lens span part",0.0,0.0,8.748449,0.6882352941176471
+77,capital,"centroid swap, outside J-lens span",0.0,0.0,32.27137,0.6882352941176471
+78,last,"J-lens swap, alpha=0.5",0.6176470588235294,0.8352941176470589,21.718107,0.5529411764705883
+78,last,"J-lens swap, alpha=1.0",0.7196078431372549,0.9019607843137255,43.436214,0.5529411764705883
+78,last,"J-lens swap, alpha=2.0",0.7294117647058823,0.9529411764705882,86.87243,0.5529411764705883
+78,last,"logit lens swap, alpha=0.5",0.5980392156862745,0.8156862745098039,22.974442,0.5529411764705883
+78,last,"logit lens swap, alpha=1.0",0.7058823529411765,0.8960784313725491,45.948883,0.5529411764705883
+78,last,"logit lens swap, alpha=2.0",0.7705882352941177,0.9372549019607843,91.897766,0.5529411764705883
+78,last,"random swap, alpha=0.5",0.0,0.0058823529411764705,24.58688,0.5529411764705883
+78,last,"random swap, alpha=1.0",0.0,0.00784313725490196,49.17376,0.5529411764705883
+78,last,"random swap, alpha=2.0",0.011764705882352941,0.08431372549019608,98.34752,0.5529411764705883
+78,last,coordinate swap x1,0.00196078431372549,0.013725490196078431,2.8448274,0.5529411764705883
+78,last,coordinate swap x4,0.33137254901960783,0.4137254901960784,11.37931,0.5529411764705883
+78,last,centroid swap,1.0,1.0,38.286415,0.5529411764705883
+78,last,"centroid swap, J-lens span part",0.34509803921568627,0.5803921568627451,11.440799,0.5529411764705883
+78,last,"centroid swap, outside J-lens span",0.4215686274509804,0.6450980392156863,36.493763,0.5529411764705883
+78,capital,"J-lens swap, alpha=0.5",0.0,0.0,24.247078,0.6647058823529411
+78,capital,"J-lens swap, alpha=1.0",0.0,0.0,48.494156,0.6647058823529411
+78,capital,"J-lens swap, alpha=2.0",0.0,0.0,96.98831,0.6647058823529411
+78,capital,"logit lens swap, alpha=0.5",0.0,0.0,25.64971,0.6647058823529411
+78,capital,"logit lens swap, alpha=1.0",0.0,0.0,51.29942,0.6647058823529411
+78,capital,"logit lens swap, alpha=2.0",0.0,0.0,102.59884,0.6647058823529411
+78,capital,"random swap, alpha=0.5",0.0,0.0,27.449907,0.6647058823529411
+78,capital,"random swap, alpha=1.0",0.0,0.0,54.899815,0.6647058823529411
+78,capital,"random swap, alpha=2.0",0.0,0.0,109.79963,0.6647058823529411
+78,capital,coordinate swap x1,0.0,0.0,3.7651587,0.6647058823529411
+78,capital,coordinate swap x4,0.0,0.0,15.060635,0.6647058823529411
+78,capital,centroid swap,0.0,0.0,36.294754,0.6647058823529411
+78,capital,"centroid swap, J-lens span part",0.0,0.0,9.2954,0.6647058823529411
+78,capital,"centroid swap, outside J-lens span",0.0,0.0,35.070198,0.6647058823529411
+79,last,"J-lens swap, alpha=0.5",0.6529411764705882,0.8745098039215686,31.241186,0.7058823529411765
+79,last,"J-lens swap, alpha=1.0",0.7666666666666667,0.9117647058823529,62.482372,0.7058823529411765
+79,last,"J-lens swap, alpha=2.0",0.7901960784313725,0.9568627450980393,124.964745,0.7058823529411765
+79,last,"logit lens swap, alpha=0.5",0.6529411764705882,0.8745098039215686,31.241186,0.7058823529411765
+79,last,"logit lens swap, alpha=1.0",0.7666666666666667,0.9117647058823529,62.482372,0.7058823529411765
+79,last,"logit lens swap, alpha=2.0",0.7901960784313725,0.9568627450980393,124.964745,0.7058823529411765
+79,last,"random swap, alpha=0.5",0.0,0.00196078431372549,33.433815,0.7058823529411765
+79,last,"random swap, alpha=1.0",0.00392156862745098,0.01764705882352941,66.86763,0.7058823529411765
+79,last,"random swap, alpha=2.0",0.00980392156862745,0.09019607843137255,133.73526,0.7058823529411765
+79,last,coordinate swap x1,0.013725490196078431,0.049019607843137254,4.687419,0.7058823529411765
+79,last,coordinate swap x4,0.4470588235294118,0.5823529411764706,18.749676,0.7058823529411765
+79,last,centroid swap,1.0,1.0,50.502895,0.7058823529411765
+79,last,"centroid swap, J-lens span part",0.3058823529411765,0.5686274509803921,12.369161,0.7058823529411765
+79,last,"centroid swap, outside J-lens span",0.4392156862745098,0.6882352941176471,48.92988,0.7058823529411765
+79,capital,"J-lens swap, alpha=0.5",0.0,0.0,32.759293,0.7176470588235294
+79,capital,"J-lens swap, alpha=1.0",0.0,0.0,65.518585,0.7176470588235294
+79,capital,"J-lens swap, alpha=2.0",0.0,0.0,131.03717,0.7176470588235294
+79,capital,"logit lens swap, alpha=0.5",0.0,0.0,32.759293,0.7176470588235294
+79,capital,"logit lens swap, alpha=1.0",0.0,0.0,65.518585,0.7176470588235294
+79,capital,"logit lens swap, alpha=2.0",0.0,0.0,131.03717,0.7176470588235294
+79,capital,"random swap, alpha=0.5",0.0,0.0,35.05847,0.7176470588235294
+79,capital,"random swap, alpha=1.0",0.0,0.0,70.11694,0.7176470588235294
+79,capital,"random swap, alpha=2.0",0.0,0.0,140.23389,0.7176470588235294
+79,capital,coordinate swap x1,0.0,0.0,5.0005536,0.7176470588235294
+79,capital,coordinate swap x4,0.0,0.0,20.002214,0.7176470588235294
+79,capital,centroid swap,0.0,0.0,45.614937,0.7176470588235294
+79,capital,"centroid swap, J-lens span part",0.0,0.0,9.870841,0.7176470588235294
+79,capital,"centroid swap, outside J-lens span",0.0,0.0,44.51916,0.7176470588235294
