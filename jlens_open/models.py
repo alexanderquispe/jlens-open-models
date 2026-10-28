@@ -55,6 +55,24 @@ MODELS = {
         "lens": "olmo-3-1125-32b/jlens/Salesforce-wikitext/Olmo-3-1125-32B_jacobian_lens.pt",
         "dtype": torch.bfloat16,
     },
+    "qwen3-4b": {
+        "hf": "Qwen/Qwen3-4B",
+        "lens": "qwen3-4b/jlens/Salesforce-wikitext/Qwen3-4B_jacobian_lens.pt",
+        "dtype": torch.bfloat16,
+    },
+    # J++ lenses (Ayonrinde and Lindsey 2026): same file format and readout as the J-lens, unembed(h @ J_l^T) on the
+    # block output, fit with Jacobian filtering. A "-jpp" model runs every experiment with the J++ lens in place
+    # of the J-lens (the columns labelled "J-lens" then hold the J++ lens)
+    "qwen3-4b-jpp": {
+        "hf": "Qwen/Qwen3-4B",
+        "lens": "qwen3-4b/jpp/Salesforce-wikitext/Qwen3-4B_jpp_lens.pt",
+        "dtype": torch.bfloat16,
+    },
+    "olmo-3-32b-jpp": {
+        "hf": "allenai/Olmo-3-1125-32B",
+        "lens": "olmo-3-1125-32b/jpp/Salesforce-wikitext/Olmo-3-1125-32B_jpp_lens.pt",
+        "dtype": torch.bfloat16,
+    },
 }
 
 
