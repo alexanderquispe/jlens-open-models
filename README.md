@@ -68,8 +68,12 @@ Qwen3.5-122B-A10B. Most of the newer models need a newer `transformers` than the
 - Each experiment lives in its own folder (see [experiments/README.md](experiments/README.md)). Changes to
   `jlens_open/` affect everyone: after one, run `bash run_all.sh gpt2-small` (12 min) and check
   `git status experiments/`. On the same machine, rerunning GPT-2 gives byte-identical CSVs and figures, so any
-  changed file is a changed result and the PR should say why. On a GPU, numbers can differ in the last digits
-  (we saw 1e-16 on Llama); anything larger is a real change.
+  changed file is a changed result and the PR should say why. Across machines, compare like with like: the
+  committed results come from an M5 Max, and on a GPU the last digits differ (we saw 1e-16 on Llama), which
+  steps that pick top-k atoms or rank tokens can amplify. GPT-2 small on an L40S gave identical CSVs for 01,
+  moved ranks and accuracies in 02, 04, 05 and 06 by at most one rank or one prompt, and changed 03 more
+  (wikitext loss up to 0.06, recall by up to 5 of 172 prompts) and the name-lens-span patch in 05 (patch norm
+  about 2%), with the same conclusions.
 - Never commit model weights, lenses, activations or tokens. Large files go to `$JLENS_SHARED` on the cluster.
 - The environment is pinned in `pyproject.toml` and `uv.lock`. Add dependencies with `uv add`.
 
