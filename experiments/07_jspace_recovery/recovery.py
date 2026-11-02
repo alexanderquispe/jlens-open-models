@@ -553,9 +553,10 @@ if not args.skip_recovery:
         + t["activation layer"].map(lambda l: "" if pd.isna(l) else f" (acts {int(l)})")
     for noise in RUN_NOISES:
         eq = rec[(rec.noise == noise) & (rec.weights == "equal")].assign(dictionary=label)
-        for metric in ("recall", "recall within all steps", OCC):
-            print(f"\n{metric} ({noise} noise, equal weights), by dictionary and s (rows: k)")
-            print(eq.pivot_table(index="k", columns=["dictionary", "share s"], values=metric).round(2).to_string())
+        if len(eq):  # nothing planted yet with --native-only on a new model
+            for metric in ("recall", "recall within all steps", OCC):
+                print(f"\n{metric} ({noise} noise, equal weights), by dictionary and s (rows: k)")
+                print(eq.pivot_table(index="k", columns=["dictionary", "share s"], values=metric).round(2).to_string())
         native = rec[(rec.noise == noise) & (rec.k == 0)].assign(dictionary=label)
         if len(native):
             print(f"\noccupancy of the {noise} noise alone (up to {NATIVE_STEPS} steps; explained after 25 steps)")
