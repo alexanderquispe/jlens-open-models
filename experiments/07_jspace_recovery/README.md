@@ -135,14 +135,18 @@ k picks:
   noise; those curves are shown only for completeness.)
 
 **Planted into real activations** (same CSV, `noise` = `activations` or `activation covariance`; one H100,
-61 minutes). On the activations alone, with nothing planted:
+61 minutes for the planted grid, 90 seconds for the noises alone). First the noises alone, with nothing planted
+(1,024 samples each; median occupancy over samples, 25th–75th percentiles in brackets):
 
-| Dictionary | Layer 8 | Layer 16 | Layer 20 | Layer 24 |
+| | Layer 8 | Layer 16 | Layer 20 | Layer 24 |
 |---|---|---|---|---|
-| J-lens: occupancy (median over tokens) | 17 (12) | 22 (17) | 18 (15) | 20 (16) |
-| J-lens: share of *\|y\|²* explained in 25 steps | 0.120 | 0.123 | 0.131 | 0.142 |
-| logit lens: occupancy | 2 | 5 | 12 | 24 |
-| random: share explained in 25 steps | 0.087 | 0.087 | 0.087 | 0.087 |
+| J-lens occupancy, activations | 12 (9–16) | 17 (13–22) | 16 (11–21) | 16 (10–23) |
+| J-lens occupancy, Gaussian with their covariance | 13 (10–16) | 15 (11–20) | 10 (6–15) | 7 (4–11) |
+| logit-lens occupancy, activations | 1 | 3 | 9 | 15 |
+| logit-lens occupancy, Gaussian | 1 | 1 | 1 | 1 |
+| J-lens share of *\|y\|²* explained in 25 steps, activations | 0.121 | 0.124 | 0.134 | 0.147 |
+| the same, Gaussian | 0.113 | 0.104 | 0.095 | 0.090 |
+| random dictionary (the control), either noise | 0.087 | 0.087 | 0.087 | 0.087 |
 
 Equal weights, *s* = 0.1, recall among the first k picks, isotropic / activation covariance / activations:
 
@@ -156,10 +160,18 @@ Equal weights, *s* = 0.1, recall among the first k picks, isotropic / activation
 | logit lens (activations of layer 24) | 1.00 / 1.00 / 0.94 | 0.98 / 0.98 / 0.85 | 0.57 / 0.61 / 0.54 | 0.99 / 0.99 / 0.71 |
 | random (activations of layer 16) | 1.00 / 1.00 / 1.00 | 0.99 / 0.98 / 0.98 | 0.63 / 0.63 / 0.62 | 1.00 / 1.00 / 1.00 |
 
-- **The activations alone give an occupancy near the paper's.** The rule reports 17–22 for the J-lens at layers
-  8–24, close to the paper's ≈ 25, well below the 100-step cap. But in 25 steps the J-lens explains only 12–14% of
-  *|y|²*, against 8.7% for the random dictionary. The logit lens has few words of its own in the middle layers
-  (occupancy 2–5 at layers 8–16) and more near the output (24 at layer 24).
+- **The activations alone give an occupancy of 12–17** for the J-lens at layers 8–24 (the paper: ≈ 25 on a model
+  of unknown width; the pooled rule gives 17–22), well below the 100-step cap. In 25 steps the J-lens explains
+  12–15% of *|y|²*, against 8.7% for the random dictionary. The logit lens has few words of its own in the middle
+  layers (1–3 at layers 8–16) and more near the output (15 at layer 24).
+- **A Gaussian with the activations' covariance, which has no words, gives the same occupancy at layers 8–16 but
+  not at 20–24.** At layers 8 and 16 it gives 13 and 15 against 12 and 17, with nearly the same spread: there the
+  rule cannot tell the activations from their second-order statistics. At layers 20 and 24 it gives 10 and 7
+  against 16 and 16: the activations carry 6–9 more above-chance J-lens vectors than their covariance accounts
+  for. The variance explained says the same more sharply: of the J-lens's excess over the random dictionary on the
+  activations (0.034–0.059 of *|y|²*), the Gaussian's excess over the random dictionary on the Gaussian reproduces
+  78% at layer 8, 48% at 16, 17% at 20 and 6% at 24. The logit
+  lens finds nothing in the Gaussian (1 at every layer) but 9–15 vectors in the activations of layers 20–24.
 - **Planted words compete with the activation's own.** In layers 16–24 the J-lens finds 79–81% of 5 planted words
   among its first 5 picks and all 5 in 20–28% of trials (isotropic: 99–100% and 96–99%). Most of the others come
   a few steps later (94–98% within 15 picks). Noise with the activations' covariance costs less at k = 5
@@ -171,15 +183,16 @@ Equal weights, *s* = 0.1, recall among the first k picks, isotropic / activation
 - **The occupancy still does not count the planted words.** With equal weights and any planted k from 50 to 400,
   the median occupancy at layer 16 is 22–24 at *s* = 0.05, 26–27 at *s* = 0.1 and 35–38 at *s* = 0.2 (isotropic:
   9, 15–17, 26–31). Layers 20 and 24 give 18–21 at *s* = 0.05 and 23–28 at *s* = 0.1. At low shares the output
-  stays near the occupancy of the activations alone instead of falling with *s* as in isotropic noise. At layer 8
+  stays at or above the occupancy of the activations alone (12–17) instead of falling with *s* as in isotropic
+  noise. At layer 8
   it is 14–20 for every such k and *s* ≤ 0.2.
 - **With words planted, a Gaussian with the activations' covariance gives nearly the same occupancy at layers 8–16,
   less at layers 20–24.** At layer 16: 21–23, 26–28 and 35–36 at *s* = 0.05, 0.1 and 0.2 (activations: 22–24,
   26–27, 35–38); at layer 8, 14–21 (activations 14–20). At layers 20–24 and *s* = 0.05 the Gaussian gives 12–17
-  against 18–21 for the activations: there, the activations carry something the rule picks up beyond their
-  covariance. Where the two agree, the rule's output is set by the activations' covariance (how much of their
-  variance lies along J-lens directions), which a Gaussian without sparse words shares, and is not evidence of
-  how many sparse words are present.
+  against 18–21 for the activations, the same split as with nothing planted. Where the two agree, the rule's
+  output is set by the activations' covariance (how much of their variance lies along J-lens directions), which a
+  Gaussian without sparse words shares, and is not evidence of how many sparse words are present. The baseline
+  that separates words from second-order structure is this Gaussian, not the random isotropic dictionary.
 
 ## Caveats
 
