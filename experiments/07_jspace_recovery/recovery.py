@@ -3,8 +3,8 @@
 Gurnee et al. (2026) read an activation as a nonnegative combination of at most k ~ 25 J-lens vectors, one per
 vocabulary token, found by a greedy pursuit. With far more vectors than dimensions (Llama-3.1-8B: 128,256 in
 4096), is that reading stable, does the pursuit find it, and is the occupancy of ~25 a property of the model or
-of the measurement? Both parts use only the unembedding, the final norm's gain and the lens (the model is
-loaded for its weights but never run):
+of the measurement? Part A and part B with isotropic noise use only the unembedding, the final norm's gain and
+the lens (the model is loaded for its weights; it runs only for the activation noises of part B):
 
   A. Geometry, at every layer with a lens. For the decoder's unit atoms (centered over the vocabulary, as in
      experiment 03) of the J-lens, the logit lens and a random isotropic dictionary:
@@ -21,11 +21,20 @@ loaded for its weights but never run):
      k right; and the occupancy the paper's stopping rule reports, read as: the first step at which the
      dictionary's gain in explained |y|^2 falls below a random isotropic dictionary's gain on the same y. For
      equal weights and isotropic noise, a back-of-envelope puts that step near s d / ((1 - s) 2 ln N).
+     --noise picks what the planted words are added to, at the same share s:
+       - isotropic: Gaussian noise;
+       - activation covariance: Gaussian noise with the covariance of real activations at the layer;
+       - activations: real activations at the layer (centered block outputs on wikitext, positions >= 16), which
+         carry their own J-space words. Here the rule is also applied to the activations alone (k = 0, s = 0).
+     The activation noises are drawn at each J-lens layer, and the logit-lens and random dictionaries are run on
+     the activations of each of those layers.
 
     python experiments/07_jspace_recovery/recovery.py --model llama3.1-8b
+    python experiments/07_jspace_recovery/recovery.py --model llama3.1-8b --skip-geometry --noise "activation covariance,activations"
     python experiments/07_jspace_recovery/recovery.py --model llama3.1-8b --plot-only
 """
 import argparse
+import json
 import math
 import os
 import time
@@ -49,6 +58,9 @@ parser.add_argument("--layers", default=None, help="comma-separated layers for p
 parser.add_argument("--ks", default="5,10,25,50,100,200,400", help="planted atoms per trial")
 parser.add_argument("--shares", default="1,0.5,0.2,0.1,0.05", help="planted share s of |y|^2")
 parser.add_argument("--trials", type=int, default=128, help="trials per (dictionary, weights, s, k)")
+parser.add_argument("--noise", default="isotropic",
+                    help="comma-separated: isotropic, activation covariance, activations; rows of the others are kept from existing results")
+parser.add_argument("--n-text", type=int, default=64, help="wikitext paragraphs (128 tokens each) for the activation noises")
 parser.add_argument("--skip-geometry", action="store_true", help="part B only (keeps existing part A results)")
 parser.add_argument("--skip-recovery", action="store_true", help="part A only (keeps existing part B results)")
 parser.add_argument("--plot-only", action="store_true", help="redraw the figure from existing results")
@@ -64,15 +76,25 @@ THRESHOLDS = (0.9, 0.95, 0.99)
 QS = np.concatenate([np.linspace(0, 0.98, 50), [0.99, 0.995, 0.999, 0.9995, 0.9999, 1.0]])
 CONTROL_SEED = 11  # random dictionary of the stopping rule (seed 1 is the "random (isotropic)" dictionary, as in 03)
 PROFILES = ("equal", "lognormal")
+NOISES = ("isotropic", "activation covariance", "activations")
 KS = [int(k) for k in args.ks.split(",")]
 SHARES = [float(s) for s in args.shares.split(",")]
+RUN_NOISES = args.noise.split(",")
+assert set(RUN_NOISES) <= set(NOISES), RUN_NOISES
+WIKITEXT = os.path.join(HERE, "../03_jspace/data/wikitext_sample.json")  # the paragraphs of experiment 03
+SKIP = 16  # the lenses were fit without the first 16 positions
+NATIVE_STEPS = 100  # steps of the pursuit on the activations alone
 BLUES = ["#6da7ec", "#2a78d6", "#184f95", "#0d366b"]  # J-lens layers, shallow to deep
 LOGIT, RANDOM = "#1baf7a", "#8c8c8c"
 
 
-def rows_of(df, name, layer):
-    """Rows of one dictionary; layer None for the ones that do not depend on the layer."""
-    return df[(df.dictionary == name) & (df.layer.isna() if layer is None else df.layer == layer)]
+def rows_of(df, name, layer, noise="isotropic", act_layer=None):
+    """Rows of one dictionary (layer None for the ones that do not depend on the layer); in the recovery results,
+    with one noise and, for the activation noises, the layer the activations come from."""
+    t = df[(df.dictionary == name) & (df.layer.isna() if layer is None else df.layer == layer)]
+    if "noise" in t:
+        t = t[t.noise == noise]
+    return t if act_layer is None else t[t["activation layer"] == act_layer]
 
 
 def instance_style(name, layer, layers):
@@ -83,12 +105,14 @@ def instance_style(name, layer, layers):
 
 def plot(geo, dist, dup, rec):
     """Row 1: geometry (nearest neighbours, spectrum, near-duplicates across layers). Row 2: recovery and
-    occupancy against the number of planted atoms."""
+    occupancy against the number of planted atoms, isotropic noise. Row 3 (if run): the activation noises."""
     layers = sorted(int(l) for l in rec[rec.dictionary == "J-lens"].layer.unique())
     mid = layers[len(layers) // 2 - 1] if len(layers) > 1 else layers[0]
     instances = [("J-lens", l) for l in layers] + [("logit lens", None), ("random (isotropic)", None)]
     oranges = dict(zip(sorted(SHARES), plt.cm.Oranges(np.linspace(0.35, 0.95, len(SHARES)))))
-    fig, axs = plt.subplots(2, 3, figsize=(16, 8.6))
+    s_real = min(SHARES, key=lambda s: abs(s - 0.1))
+    extra = "noise" in rec and (rec.noise != "isotropic").any()
+    fig, axs = plt.subplots(3 if extra else 2, 3, figsize=(16, 13 if extra else 8.6))
 
     ax = axs[0, 0]
     for name, layer in instances:
@@ -155,7 +179,6 @@ def plot(geo, dist, dup, rec):
     ax.legend(handles=share_lines + dict_lines + [Line2D([], [], color="black", linewidth=0.8, label="occupancy = k")], fontsize=6)
 
     ax = axs[1, 1]
-    s_real = min(SHARES, key=lambda s: abs(s - 0.1))
     for name, layer in instances:
         t = rows_of(eq, name, layer)
         t = t[t["share s"] == s_real].sort_values("k")
@@ -167,6 +190,58 @@ def plot(geo, dist, dup, rec):
     ax.set_title(f"Recall at s = {s_real:g} (dotted: up to a near-duplicate)", fontsize=9)
     ax.set_xlabel("Planted atoms k", fontsize=8)
     ax.legend(fontsize=6)
+
+    if extra:
+        ax = axs[2, 0]
+        for name, layer in instances:
+            t = rows_of(eq, name, layer, "activations", layer if name == "J-lens" else mid)
+            t = t[t["share s"] == s_real].sort_values("k")
+            style = instance_style(name, layer, layers)
+            if name != "J-lens":
+                style["label"] += f" (activations of layer {mid})"
+            ax.plot(t.k, t["recall"], marker="o", markersize=2, **style)
+            ax.plot(t.k, t["recall within all steps"], linestyle=":", color=style["color"])
+        ax.set_title(f"Planted into real activations, s = {s_real:g} (dotted: among all picks)", fontsize=9)
+        ax.set_ylabel("Recall", fontsize=8)
+        ax.legend(fontsize=6)
+
+        ax = axs[2, 1]
+        noise_styles = {"isotropic": "-", "activation covariance": "--", "activations": ":"}
+        for name, layer, color in (("J-lens", mid, BLUES[1]), ("random (isotropic)", None, RANDOM)):
+            for noise, style in noise_styles.items():
+                t = rows_of(eq, name, layer, noise, None if noise == "isotropic" else mid)
+                t = t[t["share s"] == s_real].sort_values("k")
+                ax.plot(t.k, t["recall"], color=color, linestyle=style, marker="o", markersize=2)
+        ax.set_title(f"Recall at s = {s_real:g}, by noise (activations of layer {mid})", fontsize=9)
+        ax.legend(handles=[Line2D([], [], color=BLUES[1], label=f"J-lens, layer {mid}"), Line2D([], [], color=RANDOM, label="random (isotropic)")]
+                  + [Line2D([], [], color="black", linestyle=st, label=f"noise: {n}") for n, st in noise_styles.items()], fontsize=6)
+
+        ax = axs[2, 2]
+        for noise, style in (("activations", "-"), ("activation covariance", "--")):
+            for s in SHARES:
+                if s < 1:
+                    t = rows_of(eq, "J-lens", mid, noise, mid)
+                    t = t[t["share s"] == s].sort_values("k")
+                    ax.plot(t.k, t["occupancy"], color=oranges[s], linestyle=style, marker="o", markersize=2)
+        ax.plot(KS, KS, color="black", linewidth=0.8)
+        native = rows_of(rec, "J-lens", mid, "activations", mid)
+        native = native[native.k == 0]
+        handles = [Line2D([], [], color=oranges[s], label=f"s = {s:g}") for s in sorted(SHARES) if s < 1]
+        handles += [Line2D([], [], color="black", linestyle="-", label="noise: activations"),
+                    Line2D([], [], color="black", linestyle="--", label="noise: activation covariance"),
+                    Line2D([], [], color="black", linewidth=0.8, label="occupancy = k")]
+        if len(native):
+            ax.axhline(native["occupancy"].iloc[0], color="black", linestyle=":", linewidth=1)
+            handles.append(Line2D([], [], color="black", linestyle=":", label="activations alone"))
+        ax.set_yscale("log")
+        ax.set_title(f"Occupancy from the stopping rule, J-lens layer {mid}", fontsize=9)
+        ax.set_ylabel("Reported occupancy", fontsize=8)
+        ax.legend(handles=handles, fontsize=6)
+        for ax in axs[2]:
+            ax.set_xscale("log")
+            ax.set_xlabel("Planted atoms k", fontsize=8)
+        for ax in axs[2, :2]:
+            ax.set_ylim(0, 1.05)
     for ax in axs.flat:
         ax.grid(linestyle="--", alpha=0.4)
     fig.suptitle(f"{args.model}: N = {int(g.N):,} atoms in d = {int(g.d)}", fontsize=10)
@@ -320,13 +395,40 @@ if not args.skip_geometry:
 
 # B. Plant and recover
 @torch.no_grad()
-def plant(atoms, k, share, profile, seed):
+def activations(layers):
+    """Centered block outputs at positions >= SKIP of the wikitext paragraphs, {layer: (tokens, d)} on the device."""
+    with open(WIKITEXT) as f:
+        paragraphs = json.load(f)["paragraphs"]
+    ids = torch.stack([t for t in (lm.encode(p)[:128] for p in paragraphs) if len(t) == 128][: args.n_text])
+    acts = {l: [] for l in layers}
+    for s in range(0, len(ids), 8):
+        hs, _ = lm.run(ids[s : s + 8])
+        for l in layers:
+            acts[l].append(hs[l][:, SKIP:].reshape(-1, d))
+        del hs
+    acts = {l: torch.cat(a) for l, a in acts.items()}
+    return {l: a - a.mean(0) for l, a in acts.items()}
+
+
+def sqrt_of(cov):
+    """S with z @ S ~ N(0, cov) for z ~ N(0, I), as in experiment 03."""
+    evals, evecs = torch.linalg.eigh(cov.double())
+    return (evecs * evals.clamp(min=0).sqrt()).T.float()
+
+
+@torch.no_grad()
+def plant(atoms, k, share, profile, seed, noise="isotropic", act_layer=None):
     """y (trials, d) and the planted indices (trials, k). The cell's seed fixes the indices, weights and noise, so
-    every dictionary sees the same trials (in index space)."""
+    every dictionary and every noise sees the same planted atoms (in index space)."""
     gen = torch.Generator().manual_seed(seed)
     idx = torch.rand(args.trials, N, generator=gen).topk(k, dim=1).indices
     w = torch.ones(args.trials, k) if profile == "equal" else torch.randn(args.trials, k, generator=gen).exp()
-    noise = torch.randn(args.trials, d, generator=gen).to(dev)
+    if noise == "activations":
+        noise = acts[act_layer][torch.randperm(len(acts[act_layer]), generator=gen)[: args.trials].to(dev)].clone()
+    else:
+        noise = torch.randn(args.trials, d, generator=gen).to(dev)
+        if act_layer is not None:
+            noise = noise @ cov_sqrt[act_layer]
     idx, w = idx.to(dev), w.to(dev)
     signal = (w[..., None] * atoms[idx].float()).sum(1)
     if share < 1:
@@ -341,44 +443,89 @@ def first_below(gain, gain_ctrl, steps):
     return torch.where(below.any(-1), below.float().argmax(-1) + 1, torch.full(below.shape[:-1], steps + 1, device=below.device))
 
 
+def gains(y, res):
+    """Gain in explained |y|^2 at each step (trials, steps), from the squared residual norms after each step."""
+    total = (y**2).sum(1, keepdim=True)
+    return torch.cat([total, res[:, :-1]], 1) - res
+
+
 if not args.skip_recovery:
     L = lm.n_blocks
     layers = [int(l) for l in args.layers.split(",")] if args.layers else sorted({L // 4, L // 2, 5 * L // 8, 3 * L // 4} & set(lm.J))
+    if set(RUN_NOISES) - {"isotropic"}:
+        acts = activations(layers)
+        cov_sqrt = {l: sqrt_of(a.T @ a / len(a)) for l, a in acts.items()}
+        print(f"activations: {len(acts[layers[0]])} wikitext tokens per layer", flush=True)
     control = random_atoms(N, d, dev, seed=CONTROL_SEED)
     rec_rows = []
-    for name, layer in [("J-lens", l) for l in layers] + [("logit lens", None), ("random (isotropic)", None)]:
-        t0 = time.time()
-        atoms = atoms_for(name, layer)
-        for pi, profile in enumerate(PROFILES):
-            for si, share in enumerate(SHARES):
-                for ki, k in enumerate(KS):
-                    y, idx = plant(atoms, k, share, profile, seed=1_000_000 * pi + 1000 * si + ki)
-                    steps = k + max(10, k // 4)
-                    picked, _, res = decompose(y, atoms, steps)
-                    _, _, res_ctrl = decompose(y, control, steps)
-                    total = (y**2).sum(1, keepdim=True)
-                    gain = torch.cat([total, res[:, :-1]], 1) - res
-                    gain_ctrl = torch.cat([total, res_ctrl[:, :-1]], 1) - res_ctrl
-                    sel = picked[:, :k]
-                    hit = (sel[:, :, None] == idx[:, None, :]).any(1)  # (trials, k): planted atom among the first k picks
-                    near = (atoms[sel].float() @ atoms[idx].float().transpose(1, 2)).max(1).values >= DUP
-                    occ = first_below(gain.mean(0), gain_ctrl.mean(0), steps).item()
-                    rec_rows.append({"dictionary": name, "layer": layer, "weights": profile, "share s": share, "k": k, "steps": steps,
-                                     "recall": hit.float().mean().item(), "recall up to near-duplicates": near.float().mean().item(),
-                                     "all k right": hit.all(1).float().mean().item(),
-                                     "explained at k": (1 - res[:, k - 1] / total[:, 0]).mean().item(),
-                                     "occupancy": occ, "occupancy censored": occ > steps,
-                                     "occupancy (median over trials)": first_below(gain, gain_ctrl, steps).float().median().item(),
-                                     "predicted occupancy": share * d / ((1 - share) * 2 * math.log(N)) if share < 1 else float("nan")})
-            print(f"recovery: {name}{'' if layer is None else f', layer {layer}'}, {profile} weights done ({time.time() - t0:.0f} s)", flush=True)
-        del atoms
+    for noise in RUN_NOISES:
+        if noise == "isotropic":
+            instances = [("J-lens", l, None) for l in layers] + [("logit lens", None, None), ("random (isotropic)", None, None)]
+        else:
+            instances = [(name, l if name == "J-lens" else None, l) for l in layers for name in ("J-lens", "logit lens", "random (isotropic)")]
+        for name, layer, act_layer in instances:
+            t0 = time.time()
+            atoms = atoms_for(name, layer)
+            base = {"noise": noise, "dictionary": name, "layer": layer, "activation layer": act_layer}
+            if noise == "activations":
+                # The rule on the activations alone: their own J-space words, before anything is planted
+                gen = torch.Generator().manual_seed(999)
+                x = acts[act_layer][torch.randperm(len(acts[act_layer]), generator=gen)[: args.trials].to(dev)]
+                _, _, res = decompose(x, atoms, NATIVE_STEPS)
+                _, _, res_ctrl = decompose(x, control, NATIVE_STEPS)
+                gain, gain_ctrl = gains(x, res), gains(x, res_ctrl)
+                occ = first_below(gain.mean(0), gain_ctrl.mean(0), NATIVE_STEPS).item()
+                rec_rows.append(base | {"weights": "none", "share s": 0.0, "k": 0, "steps": NATIVE_STEPS,
+                                        "explained at k": (1 - res[:, 24] / (x**2).sum(1)).mean().item(),  # after 25 steps
+                                        "occupancy": occ, "occupancy censored": occ > NATIVE_STEPS,
+                                        "occupancy (median over trials)": first_below(gain, gain_ctrl, NATIVE_STEPS).float().median().item()})
+            for pi, profile in enumerate(PROFILES):
+                for si, share in enumerate(SHARES):
+                    if share == 1 and noise != "isotropic":
+                        continue  # nothing is added at s = 1: the isotropic rows
+                    for ki, k in enumerate(KS):
+                        y, idx = plant(atoms, k, share, profile, 1_000_000 * pi + 1000 * si + ki, noise, act_layer)
+                        steps = k + max(10, k // 4)
+                        picked, _, res = decompose(y, atoms, steps)
+                        _, _, res_ctrl = decompose(y, control, steps)
+                        gain, gain_ctrl = gains(y, res), gains(y, res_ctrl)
+                        sel = picked[:, :k]
+                        hit = (sel[:, :, None] == idx[:, None, :]).any(1)  # (trials, k): planted atom among the first k picks
+                        near = (atoms[sel].float() @ atoms[idx].float().transpose(1, 2)).max(1).values >= DUP
+                        occ = first_below(gain.mean(0), gain_ctrl.mean(0), steps).item()
+                        rec_rows.append(base | {"weights": profile, "share s": share, "k": k, "steps": steps,
+                                                "recall": hit.float().mean().item(), "recall up to near-duplicates": near.float().mean().item(),
+                                                "all k right": hit.all(1).float().mean().item(),
+                                                "explained at k": (1 - res[:, k - 1] / (y**2).sum(1)).mean().item(),
+                                                "occupancy": occ, "occupancy censored": occ > steps,
+                                                "occupancy (median over trials)": first_below(gain, gain_ctrl, steps).float().median().item(),
+                                                "predicted occupancy": share * d / ((1 - share) * 2 * math.log(N)) if share < 1 else float("nan"),
+                                                "recall within all steps": (picked[:, :, None] == idx[:, None, :]).any(1).float().mean().item()})
+                print(f"recovery, {noise} noise: {name}{'' if layer is None else f', layer {layer}'}"
+                      f"{'' if act_layer is None else f' (activations of layer {act_layer})'}, {profile} weights done ({time.time() - t0:.0f} s)", flush=True)
+            del atoms
     rec = pd.DataFrame(rec_rows)
+    if os.path.exists(CSV["recovery"]):
+        # Keep the rows of the other noises (results written before the noise column existed are isotropic)
+        old = pd.read_csv(CSV["recovery"])
+        if "noise" not in old:
+            old.insert(0, "noise", "isotropic")
+            old.insert(3, "activation layer", float("nan"))
+        rec = pd.concat([old[~old.noise.isin(RUN_NOISES)], rec], ignore_index=True)
+    rec = rec.iloc[rec.noise.map(NOISES.index).argsort(kind="stable")].reset_index(drop=True)
     rec.to_csv(CSV["recovery"], index=False, float_format="%.6g")
     pd.set_option("display.width", 250)
-    eq = rec[rec.weights == "equal"].assign(dictionary=lambda t: t.dictionary + t.layer.map(lambda l: "" if pd.isna(l) else f" {int(l)}"))
-    for metric in ("recall", "recall up to near-duplicates", "occupancy"):
-        print(f"\n{metric} (equal weights), by dictionary and s (rows: k)")
-        print(eq.pivot_table(index="k", columns=["dictionary", "share s"], values=metric).round(2).to_string())
+    label = lambda t: t.dictionary + t.layer.map(lambda l: "" if pd.isna(l) else f" {int(l)}") \
+        + t["activation layer"].map(lambda l: "" if pd.isna(l) else f" (acts {int(l)})")
+    for noise in RUN_NOISES:
+        eq = rec[(rec.noise == noise) & (rec.weights == "equal")].assign(dictionary=label)
+        for metric in ("recall", "recall within all steps", "occupancy"):
+            print(f"\n{metric} ({noise} noise, equal weights), by dictionary and s (rows: k)")
+            print(eq.pivot_table(index="k", columns=["dictionary", "share s"], values=metric).round(2).to_string())
+        native = rec[(rec.noise == noise) & (rec.k == 0)].assign(dictionary=label)
+        if len(native):
+            print(f"\noccupancy of the activations alone (up to {NATIVE_STEPS} steps; explained after 25 steps)")
+            print(native[["dictionary", "occupancy", "occupancy censored", "occupancy (median over trials)", "explained at k"]].round(3).to_string(index=False))
 
 if all(os.path.exists(p) for p in CSV.values()):
     plot(*(pd.read_csv(CSV[p]) for p in ("geometry", "distributions", "duplicates", "recovery")))
