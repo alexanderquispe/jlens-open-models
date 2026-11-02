@@ -1,0 +1,3697 @@
+dictionary,layer,quantity,q,value
+logit lens,,nearest-neighbour cosine,0,0.0772095
+logit lens,,nearest-neighbour cosine,0.02,0.173352
+logit lens,,nearest-neighbour cosine,0.04,0.199463
+logit lens,,nearest-neighbour cosine,0.06,0.219727
+logit lens,,nearest-neighbour cosine,0.08,0.236938
+logit lens,,nearest-neighbour cosine,0.1,0.252441
+logit lens,,nearest-neighbour cosine,0.12,0.266846
+logit lens,,nearest-neighbour cosine,0.14,0.281494
+logit lens,,nearest-neighbour cosine,0.16,0.295654
+logit lens,,nearest-neighbour cosine,0.18,0.309082
+logit lens,,nearest-neighbour cosine,0.2,0.322754
+logit lens,,nearest-neighbour cosine,0.22,0.335693
+logit lens,,nearest-neighbour cosine,0.24,0.348145
+logit lens,,nearest-neighbour cosine,0.26,0.360596
+logit lens,,nearest-neighbour cosine,0.28,0.372559
+logit lens,,nearest-neighbour cosine,0.3,0.383789
+logit lens,,nearest-neighbour cosine,0.32,0.395264
+logit lens,,nearest-neighbour cosine,0.34,0.406982
+logit lens,,nearest-neighbour cosine,0.36,0.418457
+logit lens,,nearest-neighbour cosine,0.38,0.430176
+logit lens,,nearest-neighbour cosine,0.4,0.441895
+logit lens,,nearest-neighbour cosine,0.42,0.453125
+logit lens,,nearest-neighbour cosine,0.44,0.464355
+logit lens,,nearest-neighbour cosine,0.46,0.475586
+logit lens,,nearest-neighbour cosine,0.48,0.487305
+logit lens,,nearest-neighbour cosine,0.5,0.498535
+logit lens,,nearest-neighbour cosine,0.52,0.510254
+logit lens,,nearest-neighbour cosine,0.54,0.521973
+logit lens,,nearest-neighbour cosine,0.56,0.53418
+logit lens,,nearest-neighbour cosine,0.58,0.546387
+logit lens,,nearest-neighbour cosine,0.6,0.558594
+logit lens,,nearest-neighbour cosine,0.62,0.570312
+logit lens,,nearest-neighbour cosine,0.64,0.583008
+logit lens,,nearest-neighbour cosine,0.66,0.59668
+logit lens,,nearest-neighbour cosine,0.68,0.609375
+logit lens,,nearest-neighbour cosine,0.7,0.623047
+logit lens,,nearest-neighbour cosine,0.72,0.635742
+logit lens,,nearest-neighbour cosine,0.74,0.648438
+logit lens,,nearest-neighbour cosine,0.76,0.661621
+logit lens,,nearest-neighbour cosine,0.78,0.674316
+logit lens,,nearest-neighbour cosine,0.8,0.687988
+logit lens,,nearest-neighbour cosine,0.82,0.702637
+logit lens,,nearest-neighbour cosine,0.84,0.717285
+logit lens,,nearest-neighbour cosine,0.86,0.73291
+logit lens,,nearest-neighbour cosine,0.88,0.748535
+logit lens,,nearest-neighbour cosine,0.9,0.764648
+logit lens,,nearest-neighbour cosine,0.92,0.782227
+logit lens,,nearest-neighbour cosine,0.94,0.802734
+logit lens,,nearest-neighbour cosine,0.96,0.824707
+logit lens,,nearest-neighbour cosine,0.98,0.854004
+logit lens,,nearest-neighbour cosine,0.99,0.877441
+logit lens,,nearest-neighbour cosine,0.995,0.896484
+logit lens,,nearest-neighbour cosine,0.999,1
+logit lens,,nearest-neighbour cosine,0.9995,1
+logit lens,,nearest-neighbour cosine,0.9999,1
+logit lens,,nearest-neighbour cosine,1,1
+logit lens,,eigenvalue,0,0.0358673
+logit lens,,eigenvalue,0.02,0.361834
+logit lens,,eigenvalue,0.04,0.448578
+logit lens,,eigenvalue,0.06,0.506221
+logit lens,,eigenvalue,0.08,0.551659
+logit lens,,eigenvalue,0.1,0.586728
+logit lens,,eigenvalue,0.12,0.615973
+logit lens,,eigenvalue,0.14,0.641248
+logit lens,,eigenvalue,0.16,0.663907
+logit lens,,eigenvalue,0.18,0.684715
+logit lens,,eigenvalue,0.2,0.703742
+logit lens,,eigenvalue,0.22,0.722416
+logit lens,,eigenvalue,0.24,0.740067
+logit lens,,eigenvalue,0.26,0.756976
+logit lens,,eigenvalue,0.28,0.773534
+logit lens,,eigenvalue,0.3,0.79001
+logit lens,,eigenvalue,0.32,0.805818
+logit lens,,eigenvalue,0.34,0.82193
+logit lens,,eigenvalue,0.36,0.837203
+logit lens,,eigenvalue,0.38,0.852883
+logit lens,,eigenvalue,0.4,0.868301
+logit lens,,eigenvalue,0.42,0.883825
+logit lens,,eigenvalue,0.44,0.89943
+logit lens,,eigenvalue,0.46,0.914974
+logit lens,,eigenvalue,0.48,0.930922
+logit lens,,eigenvalue,0.5,0.946571
+logit lens,,eigenvalue,0.52,0.962626
+logit lens,,eigenvalue,0.54,0.978632
+logit lens,,eigenvalue,0.56,0.995193
+logit lens,,eigenvalue,0.58,1.01161
+logit lens,,eigenvalue,0.6,1.02837
+logit lens,,eigenvalue,0.62,1.04611
+logit lens,,eigenvalue,0.64,1.06368
+logit lens,,eigenvalue,0.66,1.08209
+logit lens,,eigenvalue,0.68,1.10061
+logit lens,,eigenvalue,0.7,1.11995
+logit lens,,eigenvalue,0.72,1.13962
+logit lens,,eigenvalue,0.74,1.16013
+logit lens,,eigenvalue,0.76,1.18156
+logit lens,,eigenvalue,0.78,1.20409
+logit lens,,eigenvalue,0.8,1.22782
+logit lens,,eigenvalue,0.82,1.25291
+logit lens,,eigenvalue,0.84,1.27994
+logit lens,,eigenvalue,0.86,1.30934
+logit lens,,eigenvalue,0.88,1.34111
+logit lens,,eigenvalue,0.9,1.37827
+logit lens,,eigenvalue,0.92,1.42092
+logit lens,,eigenvalue,0.94,1.47521
+logit lens,,eigenvalue,0.96,1.5545
+logit lens,,eigenvalue,0.98,1.71179
+logit lens,,eigenvalue,0.99,1.95479
+logit lens,,eigenvalue,0.995,2.37494
+logit lens,,eigenvalue,0.999,4.79559
+logit lens,,eigenvalue,0.9995,8.26127
+logit lens,,eigenvalue,0.9999,54.5833
+logit lens,,eigenvalue,1,83.4343
+random (isotropic),,nearest-neighbour cosine,0,0.058197
+random (isotropic),,nearest-neighbour cosine,0.02,0.062561
+random (isotropic),,nearest-neighbour cosine,0.04,0.0632935
+random (isotropic),,nearest-neighbour cosine,0.06,0.0637817
+random (isotropic),,nearest-neighbour cosine,0.08,0.0641479
+random (isotropic),,nearest-neighbour cosine,0.1,0.0645142
+random (isotropic),,nearest-neighbour cosine,0.12,0.0648193
+random (isotropic),,nearest-neighbour cosine,0.14,0.0650635
+random (isotropic),,nearest-neighbour cosine,0.16,0.0653076
+random (isotropic),,nearest-neighbour cosine,0.18,0.0655518
+random (isotropic),,nearest-neighbour cosine,0.2,0.0657959
+random (isotropic),,nearest-neighbour cosine,0.22,0.065979
+random (isotropic),,nearest-neighbour cosine,0.24,0.0662231
+random (isotropic),,nearest-neighbour cosine,0.26,0.0664062
+random (isotropic),,nearest-neighbour cosine,0.28,0.0665894
+random (isotropic),,nearest-neighbour cosine,0.3,0.0668335
+random (isotropic),,nearest-neighbour cosine,0.32,0.0670166
+random (isotropic),,nearest-neighbour cosine,0.34,0.0671997
+random (isotropic),,nearest-neighbour cosine,0.36,0.0673828
+random (isotropic),,nearest-neighbour cosine,0.38,0.0675659
+random (isotropic),,nearest-neighbour cosine,0.4,0.067749
+random (isotropic),,nearest-neighbour cosine,0.42,0.0679321
+random (isotropic),,nearest-neighbour cosine,0.44,0.0681152
+random (isotropic),,nearest-neighbour cosine,0.46,0.0682983
+random (isotropic),,nearest-neighbour cosine,0.48,0.0684814
+random (isotropic),,nearest-neighbour cosine,0.5,0.0687256
+random (isotropic),,nearest-neighbour cosine,0.52,0.0689087
+random (isotropic),,nearest-neighbour cosine,0.54,0.0690918
+random (isotropic),,nearest-neighbour cosine,0.56,0.0693359
+random (isotropic),,nearest-neighbour cosine,0.58,0.069519
+random (isotropic),,nearest-neighbour cosine,0.6,0.0697632
+random (isotropic),,nearest-neighbour cosine,0.62,0.0699463
+random (isotropic),,nearest-neighbour cosine,0.64,0.0701904
+random (isotropic),,nearest-neighbour cosine,0.66,0.0704346
+random (isotropic),,nearest-neighbour cosine,0.68,0.0706787
+random (isotropic),,nearest-neighbour cosine,0.7,0.0709229
+random (isotropic),,nearest-neighbour cosine,0.72,0.071167
+random (isotropic),,nearest-neighbour cosine,0.74,0.0714722
+random (isotropic),,nearest-neighbour cosine,0.76,0.0717773
+random (isotropic),,nearest-neighbour cosine,0.78,0.0720825
+random (isotropic),,nearest-neighbour cosine,0.8,0.0724487
+random (isotropic),,nearest-neighbour cosine,0.82,0.0728149
+random (isotropic),,nearest-neighbour cosine,0.84,0.0732422
+random (isotropic),,nearest-neighbour cosine,0.86,0.0737305
+random (isotropic),,nearest-neighbour cosine,0.88,0.0742798
+random (isotropic),,nearest-neighbour cosine,0.9,0.0748291
+random (isotropic),,nearest-neighbour cosine,0.92,0.0755615
+random (isotropic),,nearest-neighbour cosine,0.94,0.0765381
+random (isotropic),,nearest-neighbour cosine,0.96,0.0777588
+random (isotropic),,nearest-neighbour cosine,0.98,0.0797729
+random (isotropic),,nearest-neighbour cosine,0.99,0.081665
+random (isotropic),,nearest-neighbour cosine,0.995,0.0836624
+random (isotropic),,nearest-neighbour cosine,0.999,0.0881958
+random (isotropic),,nearest-neighbour cosine,0.9995,0.0905151
+random (isotropic),,nearest-neighbour cosine,0.9999,0.0942383
+random (isotropic),,nearest-neighbour cosine,1,0.102051
+random (isotropic),,eigenvalue,0,0.67605
+random (isotropic),,eigenvalue,0.02,0.7038
+random (isotropic),,eigenvalue,0.04,0.721642
+random (isotropic),,eigenvalue,0.06,0.737061
+random (isotropic),,eigenvalue,0.08,0.751121
+random (isotropic),,eigenvalue,0.1,0.764615
+random (isotropic),,eigenvalue,0.12,0.777115
+random (isotropic),,eigenvalue,0.14,0.789303
+random (isotropic),,eigenvalue,0.16,0.801131
+random (isotropic),,eigenvalue,0.18,0.813338
+random (isotropic),,eigenvalue,0.2,0.824479
+random (isotropic),,eigenvalue,0.22,0.835774
+random (isotropic),,eigenvalue,0.24,0.846795
+random (isotropic),,eigenvalue,0.26,0.858145
+random (isotropic),,eigenvalue,0.28,0.869074
+random (isotropic),,eigenvalue,0.3,0.87971
+random (isotropic),,eigenvalue,0.32,0.890602
+random (isotropic),,eigenvalue,0.34,0.90163
+random (isotropic),,eigenvalue,0.36,0.9124
+random (isotropic),,eigenvalue,0.38,0.923296
+random (isotropic),,eigenvalue,0.4,0.934068
+random (isotropic),,eigenvalue,0.42,0.945138
+random (isotropic),,eigenvalue,0.44,0.956007
+random (isotropic),,eigenvalue,0.46,0.967085
+random (isotropic),,eigenvalue,0.48,0.978121
+random (isotropic),,eigenvalue,0.5,0.989294
+random (isotropic),,eigenvalue,0.52,1.00049
+random (isotropic),,eigenvalue,0.54,1.01195
+random (isotropic),,eigenvalue,0.56,1.02339
+random (isotropic),,eigenvalue,0.58,1.03487
+random (isotropic),,eigenvalue,0.6,1.04653
+random (isotropic),,eigenvalue,0.62,1.05834
+random (isotropic),,eigenvalue,0.64,1.07051
+random (isotropic),,eigenvalue,0.66,1.0825
+random (isotropic),,eigenvalue,0.68,1.09515
+random (isotropic),,eigenvalue,0.7,1.10767
+random (isotropic),,eigenvalue,0.72,1.12052
+random (isotropic),,eigenvalue,0.74,1.13369
+random (isotropic),,eigenvalue,0.76,1.14722
+random (isotropic),,eigenvalue,0.78,1.16089
+random (isotropic),,eigenvalue,0.8,1.17506
+random (isotropic),,eigenvalue,0.82,1.18963
+random (isotropic),,eigenvalue,0.84,1.20451
+random (isotropic),,eigenvalue,0.86,1.22054
+random (isotropic),,eigenvalue,0.88,1.23681
+random (isotropic),,eigenvalue,0.9,1.25435
+random (isotropic),,eigenvalue,0.92,1.27287
+random (isotropic),,eigenvalue,0.94,1.29309
+random (isotropic),,eigenvalue,0.96,1.31571
+random (isotropic),,eigenvalue,0.98,1.34261
+random (isotropic),,eigenvalue,0.99,1.36021
+random (isotropic),,eigenvalue,0.995,1.37109
+random (isotropic),,eigenvalue,0.999,1.38455
+random (isotropic),,eigenvalue,0.9995,1.38598
+random (isotropic),,eigenvalue,0.9999,1.39015
+random (isotropic),,eigenvalue,1,1.39041
+J-lens,0,nearest-neighbour cosine,0,0.348877
+J-lens,0,nearest-neighbour cosine,0.02,0.54541
+J-lens,0,nearest-neighbour cosine,0.04,0.579102
+J-lens,0,nearest-neighbour cosine,0.06,0.602051
+J-lens,0,nearest-neighbour cosine,0.08,0.620605
+J-lens,0,nearest-neighbour cosine,0.1,0.635254
+J-lens,0,nearest-neighbour cosine,0.12,0.648438
+J-lens,0,nearest-neighbour cosine,0.14,0.660156
+J-lens,0,nearest-neighbour cosine,0.16,0.67041
+J-lens,0,nearest-neighbour cosine,0.18,0.680664
+J-lens,0,nearest-neighbour cosine,0.2,0.689941
+J-lens,0,nearest-neighbour cosine,0.22,0.69873
+J-lens,0,nearest-neighbour cosine,0.24,0.707031
+J-lens,0,nearest-neighbour cosine,0.26,0.714844
+J-lens,0,nearest-neighbour cosine,0.28,0.722168
+J-lens,0,nearest-neighbour cosine,0.3,0.729492
+J-lens,0,nearest-neighbour cosine,0.32,0.736816
+J-lens,0,nearest-neighbour cosine,0.34,0.743164
+J-lens,0,nearest-neighbour cosine,0.36,0.749512
+J-lens,0,nearest-neighbour cosine,0.38,0.756348
+J-lens,0,nearest-neighbour cosine,0.4,0.762695
+J-lens,0,nearest-neighbour cosine,0.42,0.768555
+J-lens,0,nearest-neighbour cosine,0.44,0.774902
+J-lens,0,nearest-neighbour cosine,0.46,0.780762
+J-lens,0,nearest-neighbour cosine,0.48,0.786133
+J-lens,0,nearest-neighbour cosine,0.5,0.791992
+J-lens,0,nearest-neighbour cosine,0.52,0.797363
+J-lens,0,nearest-neighbour cosine,0.54,0.802734
+J-lens,0,nearest-neighbour cosine,0.56,0.808594
+J-lens,0,nearest-neighbour cosine,0.58,0.814453
+J-lens,0,nearest-neighbour cosine,0.6,0.819824
+J-lens,0,nearest-neighbour cosine,0.62,0.825195
+J-lens,0,nearest-neighbour cosine,0.64,0.830566
+J-lens,0,nearest-neighbour cosine,0.66,0.836426
+J-lens,0,nearest-neighbour cosine,0.68,0.841797
+J-lens,0,nearest-neighbour cosine,0.7,0.847656
+J-lens,0,nearest-neighbour cosine,0.72,0.853516
+J-lens,0,nearest-neighbour cosine,0.74,0.859375
+J-lens,0,nearest-neighbour cosine,0.76,0.865723
+J-lens,0,nearest-neighbour cosine,0.78,0.87207
+J-lens,0,nearest-neighbour cosine,0.8,0.878418
+J-lens,0,nearest-neighbour cosine,0.82,0.885254
+J-lens,0,nearest-neighbour cosine,0.84,0.892578
+J-lens,0,nearest-neighbour cosine,0.86,0.899902
+J-lens,0,nearest-neighbour cosine,0.88,0.907715
+J-lens,0,nearest-neighbour cosine,0.9,0.915527
+J-lens,0,nearest-neighbour cosine,0.92,0.924316
+J-lens,0,nearest-neighbour cosine,0.94,0.934082
+J-lens,0,nearest-neighbour cosine,0.96,0.945801
+J-lens,0,nearest-neighbour cosine,0.98,0.962402
+J-lens,0,nearest-neighbour cosine,0.99,0.977051
+J-lens,0,nearest-neighbour cosine,0.995,0.989258
+J-lens,0,nearest-neighbour cosine,0.999,1
+J-lens,0,nearest-neighbour cosine,0.9995,1
+J-lens,0,nearest-neighbour cosine,0.9999,1
+J-lens,0,nearest-neighbour cosine,1,1
+J-lens,0,eigenvalue,0,8.35149e-07
+J-lens,0,eigenvalue,0.02,7.36529e-06
+J-lens,0,eigenvalue,0.04,1.97973e-05
+J-lens,0,eigenvalue,0.06,4.16967e-05
+J-lens,0,eigenvalue,0.08,7.19988e-05
+J-lens,0,eigenvalue,0.1,0.000112592
+J-lens,0,eigenvalue,0.12,0.000164301
+J-lens,0,eigenvalue,0.14,0.000228469
+J-lens,0,eigenvalue,0.16,0.000304275
+J-lens,0,eigenvalue,0.18,0.000391209
+J-lens,0,eigenvalue,0.2,0.000495442
+J-lens,0,eigenvalue,0.22,0.000617932
+J-lens,0,eigenvalue,0.24,0.000756172
+J-lens,0,eigenvalue,0.26,0.000919357
+J-lens,0,eigenvalue,0.28,0.00110166
+J-lens,0,eigenvalue,0.3,0.00130889
+J-lens,0,eigenvalue,0.32,0.00154604
+J-lens,0,eigenvalue,0.34,0.00181665
+J-lens,0,eigenvalue,0.36,0.00212175
+J-lens,0,eigenvalue,0.38,0.00247191
+J-lens,0,eigenvalue,0.4,0.00287275
+J-lens,0,eigenvalue,0.42,0.0033157
+J-lens,0,eigenvalue,0.44,0.00383602
+J-lens,0,eigenvalue,0.46,0.00440829
+J-lens,0,eigenvalue,0.48,0.0050762
+J-lens,0,eigenvalue,0.5,0.00583173
+J-lens,0,eigenvalue,0.52,0.00670264
+J-lens,0,eigenvalue,0.54,0.00768958
+J-lens,0,eigenvalue,0.56,0.00888052
+J-lens,0,eigenvalue,0.58,0.010215
+J-lens,0,eigenvalue,0.6,0.0118103
+J-lens,0,eigenvalue,0.62,0.0136297
+J-lens,0,eigenvalue,0.64,0.015824
+J-lens,0,eigenvalue,0.66,0.0183168
+J-lens,0,eigenvalue,0.68,0.0214388
+J-lens,0,eigenvalue,0.7,0.0252003
+J-lens,0,eigenvalue,0.72,0.0296227
+J-lens,0,eigenvalue,0.74,0.0352162
+J-lens,0,eigenvalue,0.76,0.0421792
+J-lens,0,eigenvalue,0.78,0.051068
+J-lens,0,eigenvalue,0.8,0.0625002
+J-lens,0,eigenvalue,0.82,0.0779951
+J-lens,0,eigenvalue,0.84,0.0988707
+J-lens,0,eigenvalue,0.86,0.128598
+J-lens,0,eigenvalue,0.88,0.173304
+J-lens,0,eigenvalue,0.9,0.244888
+J-lens,0,eigenvalue,0.92,0.371114
+J-lens,0,eigenvalue,0.94,0.621781
+J-lens,0,eigenvalue,0.96,1.27392
+J-lens,0,eigenvalue,0.98,4.3376
+J-lens,0,eigenvalue,0.99,11.2696
+J-lens,0,eigenvalue,0.995,26.1398
+J-lens,0,eigenvalue,0.999,124.564
+J-lens,0,eigenvalue,0.9995,415.649
+J-lens,0,eigenvalue,0.9999,754.918
+J-lens,0,eigenvalue,1,881.081
+J-lens,1,nearest-neighbour cosine,0,0.367188
+J-lens,1,nearest-neighbour cosine,0.02,0.544434
+J-lens,1,nearest-neighbour cosine,0.04,0.578125
+J-lens,1,nearest-neighbour cosine,0.06,0.601074
+J-lens,1,nearest-neighbour cosine,0.08,0.619141
+J-lens,1,nearest-neighbour cosine,0.1,0.634766
+J-lens,1,nearest-neighbour cosine,0.12,0.647461
+J-lens,1,nearest-neighbour cosine,0.14,0.658691
+J-lens,1,nearest-neighbour cosine,0.16,0.669434
+J-lens,1,nearest-neighbour cosine,0.18,0.679199
+J-lens,1,nearest-neighbour cosine,0.2,0.688965
+J-lens,1,nearest-neighbour cosine,0.22,0.697266
+J-lens,1,nearest-neighbour cosine,0.24,0.705566
+J-lens,1,nearest-neighbour cosine,0.26,0.713379
+J-lens,1,nearest-neighbour cosine,0.28,0.721191
+J-lens,1,nearest-neighbour cosine,0.3,0.728516
+J-lens,1,nearest-neighbour cosine,0.32,0.735352
+J-lens,1,nearest-neighbour cosine,0.34,0.742188
+J-lens,1,nearest-neighbour cosine,0.36,0.748535
+J-lens,1,nearest-neighbour cosine,0.38,0.754883
+J-lens,1,nearest-neighbour cosine,0.4,0.76123
+J-lens,1,nearest-neighbour cosine,0.42,0.767578
+J-lens,1,nearest-neighbour cosine,0.44,0.773438
+J-lens,1,nearest-neighbour cosine,0.46,0.779297
+J-lens,1,nearest-neighbour cosine,0.48,0.785156
+J-lens,1,nearest-neighbour cosine,0.5,0.791016
+J-lens,1,nearest-neighbour cosine,0.52,0.796387
+J-lens,1,nearest-neighbour cosine,0.54,0.801758
+J-lens,1,nearest-neighbour cosine,0.56,0.807617
+J-lens,1,nearest-neighbour cosine,0.58,0.812988
+J-lens,1,nearest-neighbour cosine,0.6,0.818359
+J-lens,1,nearest-neighbour cosine,0.62,0.824219
+J-lens,1,nearest-neighbour cosine,0.64,0.82959
+J-lens,1,nearest-neighbour cosine,0.66,0.834961
+J-lens,1,nearest-neighbour cosine,0.68,0.84082
+J-lens,1,nearest-neighbour cosine,0.7,0.846191
+J-lens,1,nearest-neighbour cosine,0.72,0.852051
+J-lens,1,nearest-neighbour cosine,0.74,0.858398
+J-lens,1,nearest-neighbour cosine,0.76,0.864258
+J-lens,1,nearest-neighbour cosine,0.78,0.870605
+J-lens,1,nearest-neighbour cosine,0.8,0.877441
+J-lens,1,nearest-neighbour cosine,0.82,0.883789
+J-lens,1,nearest-neighbour cosine,0.84,0.890625
+J-lens,1,nearest-neighbour cosine,0.86,0.897949
+J-lens,1,nearest-neighbour cosine,0.88,0.905762
+J-lens,1,nearest-neighbour cosine,0.9,0.913574
+J-lens,1,nearest-neighbour cosine,0.92,0.922852
+J-lens,1,nearest-neighbour cosine,0.94,0.932617
+J-lens,1,nearest-neighbour cosine,0.96,0.943848
+J-lens,1,nearest-neighbour cosine,0.98,0.960449
+J-lens,1,nearest-neighbour cosine,0.99,0.976562
+J-lens,1,nearest-neighbour cosine,0.995,0.989258
+J-lens,1,nearest-neighbour cosine,0.999,1
+J-lens,1,nearest-neighbour cosine,0.9995,1
+J-lens,1,nearest-neighbour cosine,0.9999,1
+J-lens,1,nearest-neighbour cosine,1,1
+J-lens,1,eigenvalue,0,7.33426e-07
+J-lens,1,eigenvalue,0.02,6.47648e-06
+J-lens,1,eigenvalue,0.04,1.70647e-05
+J-lens,1,eigenvalue,0.06,3.49314e-05
+J-lens,1,eigenvalue,0.08,6.04206e-05
+J-lens,1,eigenvalue,0.1,9.4297e-05
+J-lens,1,eigenvalue,0.12,0.000138635
+J-lens,1,eigenvalue,0.14,0.000191396
+J-lens,1,eigenvalue,0.16,0.000254898
+J-lens,1,eigenvalue,0.18,0.000330483
+J-lens,1,eigenvalue,0.2,0.000417687
+J-lens,1,eigenvalue,0.22,0.000518686
+J-lens,1,eigenvalue,0.24,0.000638794
+J-lens,1,eigenvalue,0.26,0.00077711
+J-lens,1,eigenvalue,0.28,0.000932647
+J-lens,1,eigenvalue,0.3,0.00110846
+J-lens,1,eigenvalue,0.32,0.00131311
+J-lens,1,eigenvalue,0.34,0.00154082
+J-lens,1,eigenvalue,0.36,0.00180216
+J-lens,1,eigenvalue,0.38,0.00210114
+J-lens,1,eigenvalue,0.4,0.00244296
+J-lens,1,eigenvalue,0.42,0.00282791
+J-lens,1,eigenvalue,0.44,0.00328167
+J-lens,1,eigenvalue,0.46,0.00378709
+J-lens,1,eigenvalue,0.48,0.0043558
+J-lens,1,eigenvalue,0.5,0.00502152
+J-lens,1,eigenvalue,0.52,0.00578557
+J-lens,1,eigenvalue,0.54,0.00667414
+J-lens,1,eigenvalue,0.56,0.0076973
+J-lens,1,eigenvalue,0.58,0.00888361
+J-lens,1,eigenvalue,0.6,0.0103134
+J-lens,1,eigenvalue,0.62,0.011945
+J-lens,1,eigenvalue,0.64,0.0139194
+J-lens,1,eigenvalue,0.66,0.0162435
+J-lens,1,eigenvalue,0.68,0.0190045
+J-lens,1,eigenvalue,0.7,0.0224283
+J-lens,1,eigenvalue,0.72,0.0266599
+J-lens,1,eigenvalue,0.74,0.031801
+J-lens,1,eigenvalue,0.76,0.0385257
+J-lens,1,eigenvalue,0.78,0.04682
+J-lens,1,eigenvalue,0.8,0.0577513
+J-lens,1,eigenvalue,0.82,0.0727795
+J-lens,1,eigenvalue,0.84,0.0927842
+J-lens,1,eigenvalue,0.86,0.121807
+J-lens,1,eigenvalue,0.88,0.166838
+J-lens,1,eigenvalue,0.9,0.239438
+J-lens,1,eigenvalue,0.92,0.366602
+J-lens,1,eigenvalue,0.94,0.628611
+J-lens,1,eigenvalue,0.96,1.33538
+J-lens,1,eigenvalue,0.98,4.50558
+J-lens,1,eigenvalue,0.99,11.2894
+J-lens,1,eigenvalue,0.995,25.7454
+J-lens,1,eigenvalue,0.999,126.464
+J-lens,1,eigenvalue,0.9995,408.192
+J-lens,1,eigenvalue,0.9999,750.049
+J-lens,1,eigenvalue,1,911.922
+J-lens,2,nearest-neighbour cosine,0,0.371338
+J-lens,2,nearest-neighbour cosine,0.02,0.532715
+J-lens,2,nearest-neighbour cosine,0.04,0.564453
+J-lens,2,nearest-neighbour cosine,0.06,0.586426
+J-lens,2,nearest-neighbour cosine,0.08,0.604492
+J-lens,2,nearest-neighbour cosine,0.1,0.619141
+J-lens,2,nearest-neighbour cosine,0.12,0.632324
+J-lens,2,nearest-neighbour cosine,0.14,0.644043
+J-lens,2,nearest-neighbour cosine,0.16,0.654785
+J-lens,2,nearest-neighbour cosine,0.18,0.664551
+J-lens,2,nearest-neighbour cosine,0.2,0.674316
+J-lens,2,nearest-neighbour cosine,0.22,0.683105
+J-lens,2,nearest-neighbour cosine,0.24,0.690918
+J-lens,2,nearest-neighbour cosine,0.26,0.699219
+J-lens,2,nearest-neighbour cosine,0.28,0.706543
+J-lens,2,nearest-neighbour cosine,0.3,0.713867
+J-lens,2,nearest-neighbour cosine,0.32,0.720703
+J-lens,2,nearest-neighbour cosine,0.34,0.727539
+J-lens,2,nearest-neighbour cosine,0.36,0.734863
+J-lens,2,nearest-neighbour cosine,0.38,0.741211
+J-lens,2,nearest-neighbour cosine,0.4,0.747559
+J-lens,2,nearest-neighbour cosine,0.42,0.753906
+J-lens,2,nearest-neighbour cosine,0.44,0.760254
+J-lens,2,nearest-neighbour cosine,0.46,0.766602
+J-lens,2,nearest-neighbour cosine,0.48,0.772949
+J-lens,2,nearest-neighbour cosine,0.5,0.778809
+J-lens,2,nearest-neighbour cosine,0.52,0.784668
+J-lens,2,nearest-neighbour cosine,0.54,0.790527
+J-lens,2,nearest-neighbour cosine,0.56,0.796387
+J-lens,2,nearest-neighbour cosine,0.58,0.802246
+J-lens,2,nearest-neighbour cosine,0.6,0.808105
+J-lens,2,nearest-neighbour cosine,0.62,0.813965
+J-lens,2,nearest-neighbour cosine,0.64,0.819824
+J-lens,2,nearest-neighbour cosine,0.66,0.825684
+J-lens,2,nearest-neighbour cosine,0.68,0.831543
+J-lens,2,nearest-neighbour cosine,0.7,0.837891
+J-lens,2,nearest-neighbour cosine,0.72,0.84375
+J-lens,2,nearest-neighbour cosine,0.74,0.850098
+J-lens,2,nearest-neighbour cosine,0.76,0.856934
+J-lens,2,nearest-neighbour cosine,0.78,0.863281
+J-lens,2,nearest-neighbour cosine,0.8,0.870117
+J-lens,2,nearest-neighbour cosine,0.82,0.877441
+J-lens,2,nearest-neighbour cosine,0.84,0.884277
+J-lens,2,nearest-neighbour cosine,0.86,0.89209
+J-lens,2,nearest-neighbour cosine,0.88,0.900098
+J-lens,2,nearest-neighbour cosine,0.9,0.908691
+J-lens,2,nearest-neighbour cosine,0.92,0.917969
+J-lens,2,nearest-neighbour cosine,0.94,0.928223
+J-lens,2,nearest-neighbour cosine,0.96,0.94043
+J-lens,2,nearest-neighbour cosine,0.98,0.95752
+J-lens,2,nearest-neighbour cosine,0.99,0.973633
+J-lens,2,nearest-neighbour cosine,0.995,0.987793
+J-lens,2,nearest-neighbour cosine,0.999,1
+J-lens,2,nearest-neighbour cosine,0.9995,1
+J-lens,2,nearest-neighbour cosine,0.9999,1
+J-lens,2,nearest-neighbour cosine,1,1
+J-lens,2,eigenvalue,0,5.19627e-07
+J-lens,2,eigenvalue,0.02,5.47281e-06
+J-lens,2,eigenvalue,0.04,1.35833e-05
+J-lens,2,eigenvalue,0.06,2.6432e-05
+J-lens,2,eigenvalue,0.08,4.62926e-05
+J-lens,2,eigenvalue,0.1,7.12703e-05
+J-lens,2,eigenvalue,0.12,0.000102391
+J-lens,2,eigenvalue,0.14,0.000142126
+J-lens,2,eigenvalue,0.16,0.000189445
+J-lens,2,eigenvalue,0.18,0.00024505
+J-lens,2,eigenvalue,0.2,0.000311969
+J-lens,2,eigenvalue,0.22,0.000388998
+J-lens,2,eigenvalue,0.24,0.000480914
+J-lens,2,eigenvalue,0.26,0.000583332
+J-lens,2,eigenvalue,0.28,0.000704371
+J-lens,2,eigenvalue,0.3,0.000840028
+J-lens,2,eigenvalue,0.32,0.000997034
+J-lens,2,eigenvalue,0.34,0.00117705
+J-lens,2,eigenvalue,0.36,0.00138716
+J-lens,2,eigenvalue,0.38,0.00162284
+J-lens,2,eigenvalue,0.4,0.00189708
+J-lens,2,eigenvalue,0.42,0.00220761
+J-lens,2,eigenvalue,0.44,0.00256788
+J-lens,2,eigenvalue,0.46,0.00298221
+J-lens,2,eigenvalue,0.48,0.00345843
+J-lens,2,eigenvalue,0.5,0.00401788
+J-lens,2,eigenvalue,0.52,0.00466715
+J-lens,2,eigenvalue,0.54,0.00540376
+J-lens,2,eigenvalue,0.56,0.00624701
+J-lens,2,eigenvalue,0.58,0.00727466
+J-lens,2,eigenvalue,0.6,0.00848691
+J-lens,2,eigenvalue,0.62,0.00991458
+J-lens,2,eigenvalue,0.64,0.0116694
+J-lens,2,eigenvalue,0.66,0.0137192
+J-lens,2,eigenvalue,0.68,0.0162381
+J-lens,2,eigenvalue,0.7,0.0193209
+J-lens,2,eigenvalue,0.72,0.0230705
+J-lens,2,eigenvalue,0.74,0.0277881
+J-lens,2,eigenvalue,0.76,0.0339567
+J-lens,2,eigenvalue,0.78,0.0418193
+J-lens,2,eigenvalue,0.8,0.0522218
+J-lens,2,eigenvalue,0.82,0.0660232
+J-lens,2,eigenvalue,0.84,0.0858312
+J-lens,2,eigenvalue,0.86,0.113971
+J-lens,2,eigenvalue,0.88,0.157673
+J-lens,2,eigenvalue,0.9,0.230973
+J-lens,2,eigenvalue,0.92,0.363143
+J-lens,2,eigenvalue,0.94,0.649999
+J-lens,2,eigenvalue,0.96,1.4019
+J-lens,2,eigenvalue,0.98,4.9415
+J-lens,2,eigenvalue,0.99,12.3539
+J-lens,2,eigenvalue,0.995,27.0463
+J-lens,2,eigenvalue,0.999,138.799
+J-lens,2,eigenvalue,0.9995,343.326
+J-lens,2,eigenvalue,0.9999,736.952
+J-lens,2,eigenvalue,1,937.883
+J-lens,3,nearest-neighbour cosine,0,0.356689
+J-lens,3,nearest-neighbour cosine,0.02,0.525879
+J-lens,3,nearest-neighbour cosine,0.04,0.556152
+J-lens,3,nearest-neighbour cosine,0.06,0.57666
+J-lens,3,nearest-neighbour cosine,0.08,0.59375
+J-lens,3,nearest-neighbour cosine,0.1,0.60791
+J-lens,3,nearest-neighbour cosine,0.12,0.620117
+J-lens,3,nearest-neighbour cosine,0.14,0.631348
+J-lens,3,nearest-neighbour cosine,0.16,0.64209
+J-lens,3,nearest-neighbour cosine,0.18,0.651367
+J-lens,3,nearest-neighbour cosine,0.2,0.660645
+J-lens,3,nearest-neighbour cosine,0.22,0.669434
+J-lens,3,nearest-neighbour cosine,0.24,0.677734
+J-lens,3,nearest-neighbour cosine,0.26,0.685547
+J-lens,3,nearest-neighbour cosine,0.28,0.692871
+J-lens,3,nearest-neighbour cosine,0.3,0.700195
+J-lens,3,nearest-neighbour cosine,0.32,0.70752
+J-lens,3,nearest-neighbour cosine,0.34,0.714355
+J-lens,3,nearest-neighbour cosine,0.36,0.721191
+J-lens,3,nearest-neighbour cosine,0.38,0.728027
+J-lens,3,nearest-neighbour cosine,0.4,0.734863
+J-lens,3,nearest-neighbour cosine,0.42,0.740723
+J-lens,3,nearest-neighbour cosine,0.44,0.74707
+J-lens,3,nearest-neighbour cosine,0.46,0.753418
+J-lens,3,nearest-neighbour cosine,0.48,0.759766
+J-lens,3,nearest-neighbour cosine,0.5,0.765625
+J-lens,3,nearest-neighbour cosine,0.52,0.771973
+J-lens,3,nearest-neighbour cosine,0.54,0.77832
+J-lens,3,nearest-neighbour cosine,0.56,0.784668
+J-lens,3,nearest-neighbour cosine,0.58,0.790527
+J-lens,3,nearest-neighbour cosine,0.6,0.796875
+J-lens,3,nearest-neighbour cosine,0.62,0.802734
+J-lens,3,nearest-neighbour cosine,0.64,0.809082
+J-lens,3,nearest-neighbour cosine,0.66,0.814941
+J-lens,3,nearest-neighbour cosine,0.68,0.821289
+J-lens,3,nearest-neighbour cosine,0.7,0.828125
+J-lens,3,nearest-neighbour cosine,0.72,0.834961
+J-lens,3,nearest-neighbour cosine,0.74,0.841797
+J-lens,3,nearest-neighbour cosine,0.76,0.848633
+J-lens,3,nearest-neighbour cosine,0.78,0.855469
+J-lens,3,nearest-neighbour cosine,0.8,0.862305
+J-lens,3,nearest-neighbour cosine,0.82,0.870117
+J-lens,3,nearest-neighbour cosine,0.84,0.877441
+J-lens,3,nearest-neighbour cosine,0.86,0.885742
+J-lens,3,nearest-neighbour cosine,0.88,0.894043
+J-lens,3,nearest-neighbour cosine,0.9,0.902344
+J-lens,3,nearest-neighbour cosine,0.92,0.912598
+J-lens,3,nearest-neighbour cosine,0.94,0.922852
+J-lens,3,nearest-neighbour cosine,0.96,0.935547
+J-lens,3,nearest-neighbour cosine,0.98,0.95459
+J-lens,3,nearest-neighbour cosine,0.99,0.97168
+J-lens,3,nearest-neighbour cosine,0.995,0.986328
+J-lens,3,nearest-neighbour cosine,0.999,1
+J-lens,3,nearest-neighbour cosine,0.9995,1
+J-lens,3,nearest-neighbour cosine,0.9999,1
+J-lens,3,nearest-neighbour cosine,1,1
+J-lens,3,eigenvalue,0,2.24578e-07
+J-lens,3,eigenvalue,0.02,4.98262e-06
+J-lens,3,eigenvalue,0.04,1.19832e-05
+J-lens,3,eigenvalue,0.06,2.37158e-05
+J-lens,3,eigenvalue,0.08,4.09136e-05
+J-lens,3,eigenvalue,0.1,6.3518e-05
+J-lens,3,eigenvalue,0.12,9.22631e-05
+J-lens,3,eigenvalue,0.14,0.000127972
+J-lens,3,eigenvalue,0.16,0.000170503
+J-lens,3,eigenvalue,0.18,0.000222058
+J-lens,3,eigenvalue,0.2,0.000282217
+J-lens,3,eigenvalue,0.22,0.000352153
+J-lens,3,eigenvalue,0.24,0.000435867
+J-lens,3,eigenvalue,0.26,0.000532423
+J-lens,3,eigenvalue,0.28,0.000641528
+J-lens,3,eigenvalue,0.3,0.000768016
+J-lens,3,eigenvalue,0.32,0.000918309
+J-lens,3,eigenvalue,0.34,0.00108708
+J-lens,3,eigenvalue,0.36,0.00128202
+J-lens,3,eigenvalue,0.38,0.0015076
+J-lens,3,eigenvalue,0.4,0.00176798
+J-lens,3,eigenvalue,0.42,0.00206949
+J-lens,3,eigenvalue,0.44,0.00241421
+J-lens,3,eigenvalue,0.46,0.00281872
+J-lens,3,eigenvalue,0.48,0.00327707
+J-lens,3,eigenvalue,0.5,0.00381558
+J-lens,3,eigenvalue,0.52,0.00444858
+J-lens,3,eigenvalue,0.54,0.00518597
+J-lens,3,eigenvalue,0.56,0.0060558
+J-lens,3,eigenvalue,0.58,0.00705931
+J-lens,3,eigenvalue,0.6,0.00830694
+J-lens,3,eigenvalue,0.62,0.00975656
+J-lens,3,eigenvalue,0.64,0.0114723
+J-lens,3,eigenvalue,0.66,0.0136138
+J-lens,3,eigenvalue,0.68,0.016182
+J-lens,3,eigenvalue,0.7,0.0193749
+J-lens,3,eigenvalue,0.72,0.0233887
+J-lens,3,eigenvalue,0.74,0.0283571
+J-lens,3,eigenvalue,0.76,0.0345779
+J-lens,3,eigenvalue,0.78,0.0429399
+J-lens,3,eigenvalue,0.8,0.0536219
+J-lens,3,eigenvalue,0.82,0.0686142
+J-lens,3,eigenvalue,0.84,0.0891592
+J-lens,3,eigenvalue,0.86,0.120114
+J-lens,3,eigenvalue,0.88,0.1678
+J-lens,3,eigenvalue,0.9,0.247199
+J-lens,3,eigenvalue,0.92,0.397725
+J-lens,3,eigenvalue,0.94,0.727668
+J-lens,3,eigenvalue,0.96,1.59081
+J-lens,3,eigenvalue,0.98,5.37266
+J-lens,3,eigenvalue,0.99,13.068
+J-lens,3,eigenvalue,0.995,28.2267
+J-lens,3,eigenvalue,0.999,140.428
+J-lens,3,eigenvalue,0.9995,327.929
+J-lens,3,eigenvalue,0.9999,685.185
+J-lens,3,eigenvalue,1,886.459
+J-lens,4,nearest-neighbour cosine,0,0.351074
+J-lens,4,nearest-neighbour cosine,0.02,0.48999
+J-lens,4,nearest-neighbour cosine,0.04,0.517578
+J-lens,4,nearest-neighbour cosine,0.06,0.536621
+J-lens,4,nearest-neighbour cosine,0.08,0.552246
+J-lens,4,nearest-neighbour cosine,0.1,0.566406
+J-lens,4,nearest-neighbour cosine,0.12,0.579102
+J-lens,4,nearest-neighbour cosine,0.14,0.589844
+J-lens,4,nearest-neighbour cosine,0.16,0.600586
+J-lens,4,nearest-neighbour cosine,0.18,0.609863
+J-lens,4,nearest-neighbour cosine,0.2,0.619141
+J-lens,4,nearest-neighbour cosine,0.22,0.627441
+J-lens,4,nearest-neighbour cosine,0.24,0.63623
+J-lens,4,nearest-neighbour cosine,0.26,0.644531
+J-lens,4,nearest-neighbour cosine,0.28,0.652344
+J-lens,4,nearest-neighbour cosine,0.3,0.660645
+J-lens,4,nearest-neighbour cosine,0.32,0.667969
+J-lens,4,nearest-neighbour cosine,0.34,0.675293
+J-lens,4,nearest-neighbour cosine,0.36,0.682617
+J-lens,4,nearest-neighbour cosine,0.38,0.689453
+J-lens,4,nearest-neighbour cosine,0.4,0.696289
+J-lens,4,nearest-neighbour cosine,0.42,0.703125
+J-lens,4,nearest-neighbour cosine,0.44,0.709961
+J-lens,4,nearest-neighbour cosine,0.46,0.716797
+J-lens,4,nearest-neighbour cosine,0.48,0.723145
+J-lens,4,nearest-neighbour cosine,0.5,0.72998
+J-lens,4,nearest-neighbour cosine,0.52,0.736328
+J-lens,4,nearest-neighbour cosine,0.54,0.743652
+J-lens,4,nearest-neighbour cosine,0.56,0.750488
+J-lens,4,nearest-neighbour cosine,0.58,0.757324
+J-lens,4,nearest-neighbour cosine,0.6,0.764648
+J-lens,4,nearest-neighbour cosine,0.62,0.771973
+J-lens,4,nearest-neighbour cosine,0.64,0.778809
+J-lens,4,nearest-neighbour cosine,0.66,0.786621
+J-lens,4,nearest-neighbour cosine,0.68,0.793945
+J-lens,4,nearest-neighbour cosine,0.7,0.801758
+J-lens,4,nearest-neighbour cosine,0.72,0.80957
+J-lens,4,nearest-neighbour cosine,0.74,0.817871
+J-lens,4,nearest-neighbour cosine,0.76,0.825684
+J-lens,4,nearest-neighbour cosine,0.78,0.833984
+J-lens,4,nearest-neighbour cosine,0.8,0.841797
+J-lens,4,nearest-neighbour cosine,0.82,0.850586
+J-lens,4,nearest-neighbour cosine,0.84,0.858887
+J-lens,4,nearest-neighbour cosine,0.86,0.868164
+J-lens,4,nearest-neighbour cosine,0.88,0.877441
+J-lens,4,nearest-neighbour cosine,0.9,0.887207
+J-lens,4,nearest-neighbour cosine,0.92,0.897949
+J-lens,4,nearest-neighbour cosine,0.94,0.910645
+J-lens,4,nearest-neighbour cosine,0.96,0.925293
+J-lens,4,nearest-neighbour cosine,0.98,0.946289
+J-lens,4,nearest-neighbour cosine,0.99,0.966309
+J-lens,4,nearest-neighbour cosine,0.995,0.983887
+J-lens,4,nearest-neighbour cosine,0.999,1
+J-lens,4,nearest-neighbour cosine,0.9995,1
+J-lens,4,nearest-neighbour cosine,0.9999,1
+J-lens,4,nearest-neighbour cosine,1,1
+J-lens,4,eigenvalue,0,7.5922e-07
+J-lens,4,eigenvalue,0.02,5.04482e-06
+J-lens,4,eigenvalue,0.04,1.24282e-05
+J-lens,4,eigenvalue,0.06,2.54262e-05
+J-lens,4,eigenvalue,0.08,4.369e-05
+J-lens,4,eigenvalue,0.1,6.82176e-05
+J-lens,4,eigenvalue,0.12,9.98416e-05
+J-lens,4,eigenvalue,0.14,0.000139135
+J-lens,4,eigenvalue,0.16,0.000187405
+J-lens,4,eigenvalue,0.18,0.000244134
+J-lens,4,eigenvalue,0.2,0.000311878
+J-lens,4,eigenvalue,0.22,0.000392525
+J-lens,4,eigenvalue,0.24,0.000485397
+J-lens,4,eigenvalue,0.26,0.000596558
+J-lens,4,eigenvalue,0.28,0.000722438
+J-lens,4,eigenvalue,0.3,0.000869782
+J-lens,4,eigenvalue,0.32,0.00104126
+J-lens,4,eigenvalue,0.34,0.00123542
+J-lens,4,eigenvalue,0.36,0.00146828
+J-lens,4,eigenvalue,0.38,0.00173405
+J-lens,4,eigenvalue,0.4,0.00204202
+J-lens,4,eigenvalue,0.42,0.00240079
+J-lens,4,eigenvalue,0.44,0.00281516
+J-lens,4,eigenvalue,0.46,0.00330018
+J-lens,4,eigenvalue,0.48,0.00386595
+J-lens,4,eigenvalue,0.5,0.00451952
+J-lens,4,eigenvalue,0.52,0.00529792
+J-lens,4,eigenvalue,0.54,0.00619259
+J-lens,4,eigenvalue,0.56,0.0072723
+J-lens,4,eigenvalue,0.58,0.00851943
+J-lens,4,eigenvalue,0.6,0.0100333
+J-lens,4,eigenvalue,0.62,0.0118226
+J-lens,4,eigenvalue,0.64,0.014007
+J-lens,4,eigenvalue,0.66,0.0166992
+J-lens,4,eigenvalue,0.68,0.0199423
+J-lens,4,eigenvalue,0.7,0.0239516
+J-lens,4,eigenvalue,0.72,0.0290055
+J-lens,4,eigenvalue,0.74,0.0353223
+J-lens,4,eigenvalue,0.76,0.0434842
+J-lens,4,eigenvalue,0.78,0.0537907
+J-lens,4,eigenvalue,0.8,0.0680978
+J-lens,4,eigenvalue,0.82,0.0876713
+J-lens,4,eigenvalue,0.84,0.11517
+J-lens,4,eigenvalue,0.86,0.155565
+J-lens,4,eigenvalue,0.88,0.218896
+J-lens,4,eigenvalue,0.9,0.32729
+J-lens,4,eigenvalue,0.92,0.527382
+J-lens,4,eigenvalue,0.94,0.954388
+J-lens,4,eigenvalue,0.96,2.08384
+J-lens,4,eigenvalue,0.98,6.46747
+J-lens,4,eigenvalue,0.99,15.0557
+J-lens,4,eigenvalue,0.995,30.4692
+J-lens,4,eigenvalue,0.999,144.417
+J-lens,4,eigenvalue,0.9995,248.936
+J-lens,4,eigenvalue,0.9999,580.362
+J-lens,4,eigenvalue,1,775.079
+J-lens,5,nearest-neighbour cosine,0,0.336182
+J-lens,5,nearest-neighbour cosine,0.02,0.480957
+J-lens,5,nearest-neighbour cosine,0.04,0.507812
+J-lens,5,nearest-neighbour cosine,0.06,0.527832
+J-lens,5,nearest-neighbour cosine,0.08,0.543945
+J-lens,5,nearest-neighbour cosine,0.1,0.558594
+J-lens,5,nearest-neighbour cosine,0.12,0.570801
+J-lens,5,nearest-neighbour cosine,0.14,0.58252
+J-lens,5,nearest-neighbour cosine,0.16,0.592773
+J-lens,5,nearest-neighbour cosine,0.18,0.602539
+J-lens,5,nearest-neighbour cosine,0.2,0.612305
+J-lens,5,nearest-neighbour cosine,0.22,0.621094
+J-lens,5,nearest-neighbour cosine,0.24,0.629883
+J-lens,5,nearest-neighbour cosine,0.26,0.638184
+J-lens,5,nearest-neighbour cosine,0.28,0.645996
+J-lens,5,nearest-neighbour cosine,0.3,0.653809
+J-lens,5,nearest-neighbour cosine,0.32,0.661621
+J-lens,5,nearest-neighbour cosine,0.34,0.668945
+J-lens,5,nearest-neighbour cosine,0.36,0.675781
+J-lens,5,nearest-neighbour cosine,0.38,0.683594
+J-lens,5,nearest-neighbour cosine,0.4,0.69043
+J-lens,5,nearest-neighbour cosine,0.42,0.697266
+J-lens,5,nearest-neighbour cosine,0.44,0.704102
+J-lens,5,nearest-neighbour cosine,0.46,0.710449
+J-lens,5,nearest-neighbour cosine,0.48,0.717285
+J-lens,5,nearest-neighbour cosine,0.5,0.724121
+J-lens,5,nearest-neighbour cosine,0.52,0.730957
+J-lens,5,nearest-neighbour cosine,0.54,0.738281
+J-lens,5,nearest-neighbour cosine,0.56,0.745117
+J-lens,5,nearest-neighbour cosine,0.58,0.751953
+J-lens,5,nearest-neighbour cosine,0.6,0.759277
+J-lens,5,nearest-neighbour cosine,0.62,0.766113
+J-lens,5,nearest-neighbour cosine,0.64,0.773926
+J-lens,5,nearest-neighbour cosine,0.66,0.781738
+J-lens,5,nearest-neighbour cosine,0.68,0.789062
+J-lens,5,nearest-neighbour cosine,0.7,0.796875
+J-lens,5,nearest-neighbour cosine,0.72,0.805176
+J-lens,5,nearest-neighbour cosine,0.74,0.813477
+J-lens,5,nearest-neighbour cosine,0.76,0.821777
+J-lens,5,nearest-neighbour cosine,0.78,0.830078
+J-lens,5,nearest-neighbour cosine,0.8,0.838867
+J-lens,5,nearest-neighbour cosine,0.82,0.847656
+J-lens,5,nearest-neighbour cosine,0.84,0.856445
+J-lens,5,nearest-neighbour cosine,0.86,0.866211
+J-lens,5,nearest-neighbour cosine,0.88,0.875488
+J-lens,5,nearest-neighbour cosine,0.9,0.885742
+J-lens,5,nearest-neighbour cosine,0.92,0.896484
+J-lens,5,nearest-neighbour cosine,0.94,0.90918
+J-lens,5,nearest-neighbour cosine,0.96,0.924316
+J-lens,5,nearest-neighbour cosine,0.98,0.945801
+J-lens,5,nearest-neighbour cosine,0.99,0.965332
+J-lens,5,nearest-neighbour cosine,0.995,0.983887
+J-lens,5,nearest-neighbour cosine,0.999,1
+J-lens,5,nearest-neighbour cosine,0.9995,1
+J-lens,5,nearest-neighbour cosine,0.9999,1
+J-lens,5,nearest-neighbour cosine,1,1
+J-lens,5,eigenvalue,0,4.85724e-07
+J-lens,5,eigenvalue,0.02,4.56881e-06
+J-lens,5,eigenvalue,0.04,1.11035e-05
+J-lens,5,eigenvalue,0.06,2.21137e-05
+J-lens,5,eigenvalue,0.08,3.82878e-05
+J-lens,5,eigenvalue,0.1,5.92093e-05
+J-lens,5,eigenvalue,0.12,8.72597e-05
+J-lens,5,eigenvalue,0.14,0.000121937
+J-lens,5,eigenvalue,0.16,0.000164213
+J-lens,5,eigenvalue,0.18,0.000215784
+J-lens,5,eigenvalue,0.2,0.000276209
+J-lens,5,eigenvalue,0.22,0.000348961
+J-lens,5,eigenvalue,0.24,0.000436052
+J-lens,5,eigenvalue,0.26,0.000535902
+J-lens,5,eigenvalue,0.28,0.000655131
+J-lens,5,eigenvalue,0.3,0.000790324
+J-lens,5,eigenvalue,0.32,0.000950535
+J-lens,5,eigenvalue,0.34,0.001141
+J-lens,5,eigenvalue,0.36,0.00135616
+J-lens,5,eigenvalue,0.38,0.00161631
+J-lens,5,eigenvalue,0.4,0.00191581
+J-lens,5,eigenvalue,0.42,0.0022653
+J-lens,5,eigenvalue,0.44,0.00266798
+J-lens,5,eigenvalue,0.46,0.00314897
+J-lens,5,eigenvalue,0.48,0.00370358
+J-lens,5,eigenvalue,0.5,0.00437756
+J-lens,5,eigenvalue,0.52,0.00515153
+J-lens,5,eigenvalue,0.54,0.00605444
+J-lens,5,eigenvalue,0.56,0.00717983
+J-lens,5,eigenvalue,0.58,0.00849459
+J-lens,5,eigenvalue,0.6,0.0100614
+J-lens,5,eigenvalue,0.62,0.011975
+J-lens,5,eigenvalue,0.64,0.0143469
+J-lens,5,eigenvalue,0.66,0.0171295
+J-lens,5,eigenvalue,0.68,0.0206834
+J-lens,5,eigenvalue,0.7,0.0250124
+J-lens,5,eigenvalue,0.72,0.030487
+J-lens,5,eigenvalue,0.74,0.037615
+J-lens,5,eigenvalue,0.76,0.0466759
+J-lens,5,eigenvalue,0.78,0.0584533
+J-lens,5,eigenvalue,0.8,0.0747736
+J-lens,5,eigenvalue,0.82,0.0969216
+J-lens,5,eigenvalue,0.84,0.128602
+J-lens,5,eigenvalue,0.86,0.176396
+J-lens,5,eigenvalue,0.88,0.250405
+J-lens,5,eigenvalue,0.9,0.3732
+J-lens,5,eigenvalue,0.92,0.604711
+J-lens,5,eigenvalue,0.94,1.09375
+J-lens,5,eigenvalue,0.96,2.29729
+J-lens,5,eigenvalue,0.98,6.66806
+J-lens,5,eigenvalue,0.99,15.0261
+J-lens,5,eigenvalue,0.995,30.8113
+J-lens,5,eigenvalue,0.999,146.271
+J-lens,5,eigenvalue,0.9995,227.771
+J-lens,5,eigenvalue,0.9999,579.178
+J-lens,5,eigenvalue,1,793.548
+J-lens,6,nearest-neighbour cosine,0,0.314941
+J-lens,6,nearest-neighbour cosine,0.02,0.471924
+J-lens,6,nearest-neighbour cosine,0.04,0.502441
+J-lens,6,nearest-neighbour cosine,0.06,0.523926
+J-lens,6,nearest-neighbour cosine,0.08,0.541211
+J-lens,6,nearest-neighbour cosine,0.1,0.556641
+J-lens,6,nearest-neighbour cosine,0.12,0.570312
+J-lens,6,nearest-neighbour cosine,0.14,0.582031
+J-lens,6,nearest-neighbour cosine,0.16,0.593262
+J-lens,6,nearest-neighbour cosine,0.18,0.603516
+J-lens,6,nearest-neighbour cosine,0.2,0.613281
+J-lens,6,nearest-neighbour cosine,0.22,0.622559
+J-lens,6,nearest-neighbour cosine,0.24,0.631348
+J-lens,6,nearest-neighbour cosine,0.26,0.639648
+J-lens,6,nearest-neighbour cosine,0.28,0.647949
+J-lens,6,nearest-neighbour cosine,0.3,0.655762
+J-lens,6,nearest-neighbour cosine,0.32,0.664062
+J-lens,6,nearest-neighbour cosine,0.34,0.671387
+J-lens,6,nearest-neighbour cosine,0.36,0.678711
+J-lens,6,nearest-neighbour cosine,0.38,0.686035
+J-lens,6,nearest-neighbour cosine,0.4,0.693359
+J-lens,6,nearest-neighbour cosine,0.42,0.700195
+J-lens,6,nearest-neighbour cosine,0.44,0.707031
+J-lens,6,nearest-neighbour cosine,0.46,0.713379
+J-lens,6,nearest-neighbour cosine,0.48,0.720215
+J-lens,6,nearest-neighbour cosine,0.5,0.727051
+J-lens,6,nearest-neighbour cosine,0.52,0.733887
+J-lens,6,nearest-neighbour cosine,0.54,0.740723
+J-lens,6,nearest-neighbour cosine,0.56,0.747559
+J-lens,6,nearest-neighbour cosine,0.58,0.754395
+J-lens,6,nearest-neighbour cosine,0.6,0.76123
+J-lens,6,nearest-neighbour cosine,0.62,0.768555
+J-lens,6,nearest-neighbour cosine,0.64,0.776367
+J-lens,6,nearest-neighbour cosine,0.66,0.783691
+J-lens,6,nearest-neighbour cosine,0.68,0.791504
+J-lens,6,nearest-neighbour cosine,0.7,0.799316
+J-lens,6,nearest-neighbour cosine,0.72,0.807129
+J-lens,6,nearest-neighbour cosine,0.74,0.81543
+J-lens,6,nearest-neighbour cosine,0.76,0.82373
+J-lens,6,nearest-neighbour cosine,0.78,0.833008
+J-lens,6,nearest-neighbour cosine,0.8,0.841797
+J-lens,6,nearest-neighbour cosine,0.82,0.850586
+J-lens,6,nearest-neighbour cosine,0.84,0.859375
+J-lens,6,nearest-neighbour cosine,0.86,0.868652
+J-lens,6,nearest-neighbour cosine,0.88,0.878418
+J-lens,6,nearest-neighbour cosine,0.9,0.88916
+J-lens,6,nearest-neighbour cosine,0.92,0.899902
+J-lens,6,nearest-neighbour cosine,0.94,0.912109
+J-lens,6,nearest-neighbour cosine,0.96,0.926758
+J-lens,6,nearest-neighbour cosine,0.98,0.947754
+J-lens,6,nearest-neighbour cosine,0.99,0.966797
+J-lens,6,nearest-neighbour cosine,0.995,0.984863
+J-lens,6,nearest-neighbour cosine,0.999,1
+J-lens,6,nearest-neighbour cosine,0.9995,1
+J-lens,6,nearest-neighbour cosine,0.9999,1
+J-lens,6,nearest-neighbour cosine,1,1
+J-lens,6,eigenvalue,0,2.66861e-07
+J-lens,6,eigenvalue,0.02,4.44757e-06
+J-lens,6,eigenvalue,0.04,1.07587e-05
+J-lens,6,eigenvalue,0.06,2.13424e-05
+J-lens,6,eigenvalue,0.08,3.64658e-05
+J-lens,6,eigenvalue,0.1,5.71543e-05
+J-lens,6,eigenvalue,0.12,8.42516e-05
+J-lens,6,eigenvalue,0.14,0.000118866
+J-lens,6,eigenvalue,0.16,0.000160886
+J-lens,6,eigenvalue,0.18,0.000211634
+J-lens,6,eigenvalue,0.2,0.000275366
+J-lens,6,eigenvalue,0.22,0.000348684
+J-lens,6,eigenvalue,0.24,0.000439524
+J-lens,6,eigenvalue,0.26,0.000543584
+J-lens,6,eigenvalue,0.28,0.000667202
+J-lens,6,eigenvalue,0.3,0.000814994
+J-lens,6,eigenvalue,0.32,0.000987326
+J-lens,6,eigenvalue,0.34,0.00118984
+J-lens,6,eigenvalue,0.36,0.0014275
+J-lens,6,eigenvalue,0.38,0.00171067
+J-lens,6,eigenvalue,0.4,0.00204589
+J-lens,6,eigenvalue,0.42,0.00243296
+J-lens,6,eigenvalue,0.44,0.00289539
+J-lens,6,eigenvalue,0.46,0.00344394
+J-lens,6,eigenvalue,0.48,0.00407359
+J-lens,6,eigenvalue,0.5,0.00485835
+J-lens,6,eigenvalue,0.52,0.0057762
+J-lens,6,eigenvalue,0.54,0.00686712
+J-lens,6,eigenvalue,0.56,0.00812293
+J-lens,6,eigenvalue,0.58,0.00969888
+J-lens,6,eigenvalue,0.6,0.0116261
+J-lens,6,eigenvalue,0.62,0.0139065
+J-lens,6,eigenvalue,0.64,0.0167262
+J-lens,6,eigenvalue,0.66,0.0200815
+J-lens,6,eigenvalue,0.68,0.0243561
+J-lens,6,eigenvalue,0.7,0.0297185
+J-lens,6,eigenvalue,0.72,0.0363964
+J-lens,6,eigenvalue,0.74,0.0449816
+J-lens,6,eigenvalue,0.76,0.0562476
+J-lens,6,eigenvalue,0.78,0.0705657
+J-lens,6,eigenvalue,0.8,0.0903874
+J-lens,6,eigenvalue,0.82,0.117572
+J-lens,6,eigenvalue,0.84,0.155751
+J-lens,6,eigenvalue,0.86,0.212676
+J-lens,6,eigenvalue,0.88,0.301109
+J-lens,6,eigenvalue,0.9,0.450321
+J-lens,6,eigenvalue,0.92,0.710408
+J-lens,6,eigenvalue,0.94,1.23394
+J-lens,6,eigenvalue,0.96,2.42553
+J-lens,6,eigenvalue,0.98,6.71017
+J-lens,6,eigenvalue,0.99,14.5506
+J-lens,6,eigenvalue,0.995,28.2193
+J-lens,6,eigenvalue,0.999,141.083
+J-lens,6,eigenvalue,0.9995,218.252
+J-lens,6,eigenvalue,0.9999,608.04
+J-lens,6,eigenvalue,1,843.921
+J-lens,7,nearest-neighbour cosine,0,0.310791
+J-lens,7,nearest-neighbour cosine,0.02,0.469238
+J-lens,7,nearest-neighbour cosine,0.04,0.5
+J-lens,7,nearest-neighbour cosine,0.06,0.521973
+J-lens,7,nearest-neighbour cosine,0.08,0.539551
+J-lens,7,nearest-neighbour cosine,0.1,0.555176
+J-lens,7,nearest-neighbour cosine,0.12,0.568848
+J-lens,7,nearest-neighbour cosine,0.14,0.581055
+J-lens,7,nearest-neighbour cosine,0.16,0.592773
+J-lens,7,nearest-neighbour cosine,0.18,0.603027
+J-lens,7,nearest-neighbour cosine,0.2,0.612793
+J-lens,7,nearest-neighbour cosine,0.22,0.622559
+J-lens,7,nearest-neighbour cosine,0.24,0.631348
+J-lens,7,nearest-neighbour cosine,0.26,0.640137
+J-lens,7,nearest-neighbour cosine,0.28,0.648438
+J-lens,7,nearest-neighbour cosine,0.3,0.656738
+J-lens,7,nearest-neighbour cosine,0.32,0.664551
+J-lens,7,nearest-neighbour cosine,0.34,0.672363
+J-lens,7,nearest-neighbour cosine,0.36,0.679688
+J-lens,7,nearest-neighbour cosine,0.38,0.6875
+J-lens,7,nearest-neighbour cosine,0.4,0.694336
+J-lens,7,nearest-neighbour cosine,0.42,0.701172
+J-lens,7,nearest-neighbour cosine,0.44,0.708008
+J-lens,7,nearest-neighbour cosine,0.46,0.714844
+J-lens,7,nearest-neighbour cosine,0.48,0.72168
+J-lens,7,nearest-neighbour cosine,0.5,0.728516
+J-lens,7,nearest-neighbour cosine,0.52,0.735352
+J-lens,7,nearest-neighbour cosine,0.54,0.742188
+J-lens,7,nearest-neighbour cosine,0.56,0.748535
+J-lens,7,nearest-neighbour cosine,0.58,0.755859
+J-lens,7,nearest-neighbour cosine,0.6,0.763184
+J-lens,7,nearest-neighbour cosine,0.62,0.77002
+J-lens,7,nearest-neighbour cosine,0.64,0.777344
+J-lens,7,nearest-neighbour cosine,0.66,0.784668
+J-lens,7,nearest-neighbour cosine,0.68,0.79248
+J-lens,7,nearest-neighbour cosine,0.7,0.800293
+J-lens,7,nearest-neighbour cosine,0.72,0.808105
+J-lens,7,nearest-neighbour cosine,0.74,0.816406
+J-lens,7,nearest-neighbour cosine,0.76,0.825195
+J-lens,7,nearest-neighbour cosine,0.78,0.833984
+J-lens,7,nearest-neighbour cosine,0.8,0.843262
+J-lens,7,nearest-neighbour cosine,0.82,0.852051
+J-lens,7,nearest-neighbour cosine,0.84,0.86084
+J-lens,7,nearest-neighbour cosine,0.86,0.870605
+J-lens,7,nearest-neighbour cosine,0.88,0.880371
+J-lens,7,nearest-neighbour cosine,0.9,0.891113
+J-lens,7,nearest-neighbour cosine,0.92,0.901855
+J-lens,7,nearest-neighbour cosine,0.94,0.914062
+J-lens,7,nearest-neighbour cosine,0.96,0.928223
+J-lens,7,nearest-neighbour cosine,0.98,0.947754
+J-lens,7,nearest-neighbour cosine,0.99,0.966797
+J-lens,7,nearest-neighbour cosine,0.995,0.984375
+J-lens,7,nearest-neighbour cosine,0.999,1
+J-lens,7,nearest-neighbour cosine,0.9995,1
+J-lens,7,nearest-neighbour cosine,0.9999,1
+J-lens,7,nearest-neighbour cosine,1,1
+J-lens,7,eigenvalue,0,2.97259e-07
+J-lens,7,eigenvalue,0.02,4.56111e-06
+J-lens,7,eigenvalue,0.04,1.11302e-05
+J-lens,7,eigenvalue,0.06,2.23267e-05
+J-lens,7,eigenvalue,0.08,3.91131e-05
+J-lens,7,eigenvalue,0.1,6.14767e-05
+J-lens,7,eigenvalue,0.12,9.09821e-05
+J-lens,7,eigenvalue,0.14,0.000129358
+J-lens,7,eigenvalue,0.16,0.00017627
+J-lens,7,eigenvalue,0.18,0.000232666
+J-lens,7,eigenvalue,0.2,0.000302182
+J-lens,7,eigenvalue,0.22,0.000386946
+J-lens,7,eigenvalue,0.24,0.000488423
+J-lens,7,eigenvalue,0.26,0.000608616
+J-lens,7,eigenvalue,0.28,0.000754144
+J-lens,7,eigenvalue,0.3,0.00092361
+J-lens,7,eigenvalue,0.32,0.0011229
+J-lens,7,eigenvalue,0.34,0.00136081
+J-lens,7,eigenvalue,0.36,0.00163927
+J-lens,7,eigenvalue,0.38,0.00197001
+J-lens,7,eigenvalue,0.4,0.00236623
+J-lens,7,eigenvalue,0.42,0.00283
+J-lens,7,eigenvalue,0.44,0.00338238
+J-lens,7,eigenvalue,0.46,0.00403284
+J-lens,7,eigenvalue,0.48,0.00482226
+J-lens,7,eigenvalue,0.5,0.0057168
+J-lens,7,eigenvalue,0.52,0.00682785
+J-lens,7,eigenvalue,0.54,0.00810327
+J-lens,7,eigenvalue,0.56,0.00966788
+J-lens,7,eigenvalue,0.58,0.0115645
+J-lens,7,eigenvalue,0.6,0.0138412
+J-lens,7,eigenvalue,0.62,0.0166322
+J-lens,7,eigenvalue,0.64,0.0199768
+J-lens,7,eigenvalue,0.66,0.0241556
+J-lens,7,eigenvalue,0.68,0.0293095
+J-lens,7,eigenvalue,0.7,0.0354818
+J-lens,7,eigenvalue,0.72,0.0435887
+J-lens,7,eigenvalue,0.74,0.0536457
+J-lens,7,eigenvalue,0.76,0.0667676
+J-lens,7,eigenvalue,0.78,0.0838233
+J-lens,7,eigenvalue,0.8,0.10664
+J-lens,7,eigenvalue,0.82,0.137966
+J-lens,7,eigenvalue,0.84,0.181453
+J-lens,7,eigenvalue,0.86,0.24634
+J-lens,7,eigenvalue,0.88,0.342207
+J-lens,7,eigenvalue,0.9,0.501701
+J-lens,7,eigenvalue,0.92,0.772465
+J-lens,7,eigenvalue,0.94,1.29573
+J-lens,7,eigenvalue,0.96,2.48133
+J-lens,7,eigenvalue,0.98,6.46976
+J-lens,7,eigenvalue,0.99,13.7952
+J-lens,7,eigenvalue,0.995,27.898
+J-lens,7,eigenvalue,0.999,142.721
+J-lens,7,eigenvalue,0.9995,211.184
+J-lens,7,eigenvalue,0.9999,620.601
+J-lens,7,eigenvalue,1,885.013
+J-lens,8,nearest-neighbour cosine,0,0.314453
+J-lens,8,nearest-neighbour cosine,0.02,0.469238
+J-lens,8,nearest-neighbour cosine,0.04,0.501465
+J-lens,8,nearest-neighbour cosine,0.06,0.525391
+J-lens,8,nearest-neighbour cosine,0.08,0.544434
+J-lens,8,nearest-neighbour cosine,0.1,0.561035
+J-lens,8,nearest-neighbour cosine,0.12,0.575684
+J-lens,8,nearest-neighbour cosine,0.14,0.588379
+J-lens,8,nearest-neighbour cosine,0.16,0.601074
+J-lens,8,nearest-neighbour cosine,0.18,0.611816
+J-lens,8,nearest-neighbour cosine,0.2,0.62207
+J-lens,8,nearest-neighbour cosine,0.22,0.631836
+J-lens,8,nearest-neighbour cosine,0.24,0.641113
+J-lens,8,nearest-neighbour cosine,0.26,0.649902
+J-lens,8,nearest-neighbour cosine,0.28,0.658203
+J-lens,8,nearest-neighbour cosine,0.3,0.666504
+J-lens,8,nearest-neighbour cosine,0.32,0.674805
+J-lens,8,nearest-neighbour cosine,0.34,0.682617
+J-lens,8,nearest-neighbour cosine,0.36,0.689941
+J-lens,8,nearest-neighbour cosine,0.38,0.697266
+J-lens,8,nearest-neighbour cosine,0.4,0.704102
+J-lens,8,nearest-neighbour cosine,0.42,0.710938
+J-lens,8,nearest-neighbour cosine,0.44,0.717773
+J-lens,8,nearest-neighbour cosine,0.46,0.724609
+J-lens,8,nearest-neighbour cosine,0.48,0.731445
+J-lens,8,nearest-neighbour cosine,0.5,0.737793
+J-lens,8,nearest-neighbour cosine,0.52,0.744629
+J-lens,8,nearest-neighbour cosine,0.54,0.751465
+J-lens,8,nearest-neighbour cosine,0.56,0.757812
+J-lens,8,nearest-neighbour cosine,0.58,0.764648
+J-lens,8,nearest-neighbour cosine,0.6,0.771484
+J-lens,8,nearest-neighbour cosine,0.62,0.77832
+J-lens,8,nearest-neighbour cosine,0.64,0.785645
+J-lens,8,nearest-neighbour cosine,0.66,0.792969
+J-lens,8,nearest-neighbour cosine,0.68,0.800293
+J-lens,8,nearest-neighbour cosine,0.7,0.807617
+J-lens,8,nearest-neighbour cosine,0.72,0.81543
+J-lens,8,nearest-neighbour cosine,0.74,0.823242
+J-lens,8,nearest-neighbour cosine,0.76,0.832031
+J-lens,8,nearest-neighbour cosine,0.78,0.84082
+J-lens,8,nearest-neighbour cosine,0.8,0.849609
+J-lens,8,nearest-neighbour cosine,0.82,0.858398
+J-lens,8,nearest-neighbour cosine,0.84,0.867676
+J-lens,8,nearest-neighbour cosine,0.86,0.876465
+J-lens,8,nearest-neighbour cosine,0.88,0.886719
+J-lens,8,nearest-neighbour cosine,0.9,0.896484
+J-lens,8,nearest-neighbour cosine,0.92,0.907227
+J-lens,8,nearest-neighbour cosine,0.94,0.918945
+J-lens,8,nearest-neighbour cosine,0.96,0.932617
+J-lens,8,nearest-neighbour cosine,0.98,0.951172
+J-lens,8,nearest-neighbour cosine,0.99,0.968262
+J-lens,8,nearest-neighbour cosine,0.995,0.985352
+J-lens,8,nearest-neighbour cosine,0.999,1
+J-lens,8,nearest-neighbour cosine,0.9995,1
+J-lens,8,nearest-neighbour cosine,0.9999,1
+J-lens,8,nearest-neighbour cosine,1,1
+J-lens,8,eigenvalue,0,1.58262e-07
+J-lens,8,eigenvalue,0.02,4.78881e-06
+J-lens,8,eigenvalue,0.04,1.18251e-05
+J-lens,8,eigenvalue,0.06,2.42171e-05
+J-lens,8,eigenvalue,0.08,4.20388e-05
+J-lens,8,eigenvalue,0.1,6.77027e-05
+J-lens,8,eigenvalue,0.12,0.00010018
+J-lens,8,eigenvalue,0.14,0.000142447
+J-lens,8,eigenvalue,0.16,0.000195245
+J-lens,8,eigenvalue,0.18,0.000260566
+J-lens,8,eigenvalue,0.2,0.000339094
+J-lens,8,eigenvalue,0.22,0.000436567
+J-lens,8,eigenvalue,0.24,0.000553052
+J-lens,8,eigenvalue,0.26,0.000693545
+J-lens,8,eigenvalue,0.28,0.000862897
+J-lens,8,eigenvalue,0.3,0.00106054
+J-lens,8,eigenvalue,0.32,0.00130103
+J-lens,8,eigenvalue,0.34,0.00158268
+J-lens,8,eigenvalue,0.36,0.00191756
+J-lens,8,eigenvalue,0.38,0.00231427
+J-lens,8,eigenvalue,0.4,0.0027779
+J-lens,8,eigenvalue,0.42,0.0033228
+J-lens,8,eigenvalue,0.44,0.0040007
+J-lens,8,eigenvalue,0.46,0.00477674
+J-lens,8,eigenvalue,0.48,0.00570415
+J-lens,8,eigenvalue,0.5,0.00681778
+J-lens,8,eigenvalue,0.52,0.00814012
+J-lens,8,eigenvalue,0.54,0.00967568
+J-lens,8,eigenvalue,0.56,0.0115609
+J-lens,8,eigenvalue,0.58,0.0138274
+J-lens,8,eigenvalue,0.6,0.0165198
+J-lens,8,eigenvalue,0.62,0.0197782
+J-lens,8,eigenvalue,0.64,0.0237346
+J-lens,8,eigenvalue,0.66,0.0286555
+J-lens,8,eigenvalue,0.68,0.034558
+J-lens,8,eigenvalue,0.7,0.0419474
+J-lens,8,eigenvalue,0.72,0.0513189
+J-lens,8,eigenvalue,0.74,0.0630049
+J-lens,8,eigenvalue,0.76,0.0775843
+J-lens,8,eigenvalue,0.78,0.0970504
+J-lens,8,eigenvalue,0.8,0.121862
+J-lens,8,eigenvalue,0.82,0.156177
+J-lens,8,eigenvalue,0.84,0.202932
+J-lens,8,eigenvalue,0.86,0.271258
+J-lens,8,eigenvalue,0.88,0.369604
+J-lens,8,eigenvalue,0.9,0.530114
+J-lens,8,eigenvalue,0.92,0.804841
+J-lens,8,eigenvalue,0.94,1.31309
+J-lens,8,eigenvalue,0.96,2.44869
+J-lens,8,eigenvalue,0.98,5.99608
+J-lens,8,eigenvalue,0.99,12.7806
+J-lens,8,eigenvalue,0.995,26.7895
+J-lens,8,eigenvalue,0.999,137.059
+J-lens,8,eigenvalue,0.9995,211.012
+J-lens,8,eigenvalue,0.9999,671.768
+J-lens,8,eigenvalue,1,974.664
+J-lens,9,nearest-neighbour cosine,0,0.284424
+J-lens,9,nearest-neighbour cosine,0.02,0.431396
+J-lens,9,nearest-neighbour cosine,0.04,0.461426
+J-lens,9,nearest-neighbour cosine,0.06,0.483154
+J-lens,9,nearest-neighbour cosine,0.08,0.500977
+J-lens,9,nearest-neighbour cosine,0.1,0.516602
+J-lens,9,nearest-neighbour cosine,0.12,0.530273
+J-lens,9,nearest-neighbour cosine,0.14,0.542969
+J-lens,9,nearest-neighbour cosine,0.16,0.555176
+J-lens,9,nearest-neighbour cosine,0.18,0.566406
+J-lens,9,nearest-neighbour cosine,0.2,0.57666
+J-lens,9,nearest-neighbour cosine,0.22,0.586426
+J-lens,9,nearest-neighbour cosine,0.24,0.595703
+J-lens,9,nearest-neighbour cosine,0.26,0.604492
+J-lens,9,nearest-neighbour cosine,0.28,0.613281
+J-lens,9,nearest-neighbour cosine,0.3,0.62207
+J-lens,9,nearest-neighbour cosine,0.32,0.630371
+J-lens,9,nearest-neighbour cosine,0.34,0.638672
+J-lens,9,nearest-neighbour cosine,0.36,0.646484
+J-lens,9,nearest-neighbour cosine,0.38,0.654297
+J-lens,9,nearest-neighbour cosine,0.4,0.661621
+J-lens,9,nearest-neighbour cosine,0.42,0.669922
+J-lens,9,nearest-neighbour cosine,0.44,0.677734
+J-lens,9,nearest-neighbour cosine,0.46,0.685059
+J-lens,9,nearest-neighbour cosine,0.48,0.692383
+J-lens,9,nearest-neighbour cosine,0.5,0.700684
+J-lens,9,nearest-neighbour cosine,0.52,0.708496
+J-lens,9,nearest-neighbour cosine,0.54,0.716309
+J-lens,9,nearest-neighbour cosine,0.56,0.724121
+J-lens,9,nearest-neighbour cosine,0.58,0.731934
+J-lens,9,nearest-neighbour cosine,0.6,0.739746
+J-lens,9,nearest-neighbour cosine,0.62,0.748047
+J-lens,9,nearest-neighbour cosine,0.64,0.756348
+J-lens,9,nearest-neighbour cosine,0.66,0.764648
+J-lens,9,nearest-neighbour cosine,0.68,0.772949
+J-lens,9,nearest-neighbour cosine,0.7,0.781738
+J-lens,9,nearest-neighbour cosine,0.72,0.790527
+J-lens,9,nearest-neighbour cosine,0.74,0.799316
+J-lens,9,nearest-neighbour cosine,0.76,0.808594
+J-lens,9,nearest-neighbour cosine,0.78,0.817871
+J-lens,9,nearest-neighbour cosine,0.8,0.827148
+J-lens,9,nearest-neighbour cosine,0.82,0.836426
+J-lens,9,nearest-neighbour cosine,0.84,0.846191
+J-lens,9,nearest-neighbour cosine,0.86,0.855957
+J-lens,9,nearest-neighbour cosine,0.88,0.865234
+J-lens,9,nearest-neighbour cosine,0.9,0.875
+J-lens,9,nearest-neighbour cosine,0.92,0.885742
+J-lens,9,nearest-neighbour cosine,0.94,0.897461
+J-lens,9,nearest-neighbour cosine,0.96,0.913086
+J-lens,9,nearest-neighbour cosine,0.98,0.936523
+J-lens,9,nearest-neighbour cosine,0.99,0.960449
+J-lens,9,nearest-neighbour cosine,0.995,0.981445
+J-lens,9,nearest-neighbour cosine,0.999,1
+J-lens,9,nearest-neighbour cosine,0.9995,1
+J-lens,9,nearest-neighbour cosine,0.9999,1
+J-lens,9,nearest-neighbour cosine,1,1
+J-lens,9,eigenvalue,0,1.27723e-06
+J-lens,9,eigenvalue,0.02,6.22813e-06
+J-lens,9,eigenvalue,0.04,1.76648e-05
+J-lens,9,eigenvalue,0.06,3.80434e-05
+J-lens,9,eigenvalue,0.08,6.85782e-05
+J-lens,9,eigenvalue,0.1,0.000112682
+J-lens,9,eigenvalue,0.12,0.000171411
+J-lens,9,eigenvalue,0.14,0.000242559
+J-lens,9,eigenvalue,0.16,0.000336492
+J-lens,9,eigenvalue,0.18,0.000453104
+J-lens,9,eigenvalue,0.2,0.000594977
+J-lens,9,eigenvalue,0.22,0.000774041
+J-lens,9,eigenvalue,0.24,0.000977597
+J-lens,9,eigenvalue,0.26,0.00123683
+J-lens,9,eigenvalue,0.28,0.00154107
+J-lens,9,eigenvalue,0.3,0.00190639
+J-lens,9,eigenvalue,0.32,0.00232726
+J-lens,9,eigenvalue,0.34,0.00284402
+J-lens,9,eigenvalue,0.36,0.00345307
+J-lens,9,eigenvalue,0.38,0.00419009
+J-lens,9,eigenvalue,0.4,0.00503027
+J-lens,9,eigenvalue,0.42,0.00603118
+J-lens,9,eigenvalue,0.44,0.00721402
+J-lens,9,eigenvalue,0.46,0.00865933
+J-lens,9,eigenvalue,0.48,0.0102812
+J-lens,9,eigenvalue,0.5,0.0122765
+J-lens,9,eigenvalue,0.52,0.0145816
+J-lens,9,eigenvalue,0.54,0.0173605
+J-lens,9,eigenvalue,0.56,0.0206119
+J-lens,9,eigenvalue,0.58,0.0245675
+J-lens,9,eigenvalue,0.6,0.0291626
+J-lens,9,eigenvalue,0.62,0.0347926
+J-lens,9,eigenvalue,0.64,0.0415385
+J-lens,9,eigenvalue,0.66,0.0496127
+J-lens,9,eigenvalue,0.68,0.0593505
+J-lens,9,eigenvalue,0.7,0.0715666
+J-lens,9,eigenvalue,0.72,0.0867097
+J-lens,9,eigenvalue,0.74,0.105412
+J-lens,9,eigenvalue,0.76,0.12872
+J-lens,9,eigenvalue,0.78,0.158435
+J-lens,9,eigenvalue,0.8,0.196492
+J-lens,9,eigenvalue,0.82,0.247002
+J-lens,9,eigenvalue,0.84,0.317797
+J-lens,9,eigenvalue,0.86,0.411657
+J-lens,9,eigenvalue,0.88,0.546601
+J-lens,9,eigenvalue,0.9,0.761321
+J-lens,9,eigenvalue,0.92,1.0989
+J-lens,9,eigenvalue,0.94,1.74465
+J-lens,9,eigenvalue,0.96,3.0397
+J-lens,9,eigenvalue,0.98,6.91576
+J-lens,9,eigenvalue,0.99,13.9343
+J-lens,9,eigenvalue,0.995,27.5796
+J-lens,9,eigenvalue,0.999,136.132
+J-lens,9,eigenvalue,0.9995,207.554
+J-lens,9,eigenvalue,0.9999,516.617
+J-lens,9,eigenvalue,1,713.56
+J-lens,10,nearest-neighbour cosine,0,0.277832
+J-lens,10,nearest-neighbour cosine,0.02,0.423096
+J-lens,10,nearest-neighbour cosine,0.04,0.453613
+J-lens,10,nearest-neighbour cosine,0.06,0.47583
+J-lens,10,nearest-neighbour cosine,0.08,0.494141
+J-lens,10,nearest-neighbour cosine,0.1,0.509766
+J-lens,10,nearest-neighbour cosine,0.12,0.524414
+J-lens,10,nearest-neighbour cosine,0.14,0.537109
+J-lens,10,nearest-neighbour cosine,0.16,0.549316
+J-lens,10,nearest-neighbour cosine,0.18,0.560498
+J-lens,10,nearest-neighbour cosine,0.2,0.571289
+J-lens,10,nearest-neighbour cosine,0.22,0.581055
+J-lens,10,nearest-neighbour cosine,0.24,0.590332
+J-lens,10,nearest-neighbour cosine,0.26,0.599609
+J-lens,10,nearest-neighbour cosine,0.28,0.608398
+J-lens,10,nearest-neighbour cosine,0.3,0.616699
+J-lens,10,nearest-neighbour cosine,0.32,0.625
+J-lens,10,nearest-neighbour cosine,0.34,0.633301
+J-lens,10,nearest-neighbour cosine,0.36,0.64209
+J-lens,10,nearest-neighbour cosine,0.38,0.649902
+J-lens,10,nearest-neighbour cosine,0.4,0.658203
+J-lens,10,nearest-neighbour cosine,0.42,0.666016
+J-lens,10,nearest-neighbour cosine,0.44,0.673828
+J-lens,10,nearest-neighbour cosine,0.46,0.681641
+J-lens,10,nearest-neighbour cosine,0.48,0.689453
+J-lens,10,nearest-neighbour cosine,0.5,0.697266
+J-lens,10,nearest-neighbour cosine,0.52,0.705566
+J-lens,10,nearest-neighbour cosine,0.54,0.713379
+J-lens,10,nearest-neighbour cosine,0.56,0.721191
+J-lens,10,nearest-neighbour cosine,0.58,0.729492
+J-lens,10,nearest-neighbour cosine,0.6,0.737793
+J-lens,10,nearest-neighbour cosine,0.62,0.745605
+J-lens,10,nearest-neighbour cosine,0.64,0.753906
+J-lens,10,nearest-neighbour cosine,0.66,0.762207
+J-lens,10,nearest-neighbour cosine,0.68,0.770996
+J-lens,10,nearest-neighbour cosine,0.7,0.780273
+J-lens,10,nearest-neighbour cosine,0.72,0.788574
+J-lens,10,nearest-neighbour cosine,0.74,0.797852
+J-lens,10,nearest-neighbour cosine,0.76,0.807129
+J-lens,10,nearest-neighbour cosine,0.78,0.816406
+J-lens,10,nearest-neighbour cosine,0.8,0.825684
+J-lens,10,nearest-neighbour cosine,0.82,0.834961
+J-lens,10,nearest-neighbour cosine,0.84,0.844727
+J-lens,10,nearest-neighbour cosine,0.86,0.854004
+J-lens,10,nearest-neighbour cosine,0.88,0.86377
+J-lens,10,nearest-neighbour cosine,0.9,0.873535
+J-lens,10,nearest-neighbour cosine,0.92,0.883789
+J-lens,10,nearest-neighbour cosine,0.94,0.895996
+J-lens,10,nearest-neighbour cosine,0.96,0.911133
+J-lens,10,nearest-neighbour cosine,0.98,0.936035
+J-lens,10,nearest-neighbour cosine,0.99,0.959473
+J-lens,10,nearest-neighbour cosine,0.995,0.981934
+J-lens,10,nearest-neighbour cosine,0.999,1
+J-lens,10,nearest-neighbour cosine,0.9995,1
+J-lens,10,nearest-neighbour cosine,0.9999,1
+J-lens,10,nearest-neighbour cosine,1,1
+J-lens,10,eigenvalue,0,1.2037e-06
+J-lens,10,eigenvalue,0.02,7.55289e-06
+J-lens,10,eigenvalue,0.04,2.35805e-05
+J-lens,10,eigenvalue,0.06,5.31053e-05
+J-lens,10,eigenvalue,0.08,9.6033e-05
+J-lens,10,eigenvalue,0.1,0.000159832
+J-lens,10,eigenvalue,0.12,0.000243138
+J-lens,10,eigenvalue,0.14,0.000352685
+J-lens,10,eigenvalue,0.16,0.000491716
+J-lens,10,eigenvalue,0.18,0.000662742
+J-lens,10,eigenvalue,0.2,0.000870838
+J-lens,10,eigenvalue,0.22,0.00112981
+J-lens,10,eigenvalue,0.24,0.00144489
+J-lens,10,eigenvalue,0.26,0.0018173
+J-lens,10,eigenvalue,0.28,0.00226121
+J-lens,10,eigenvalue,0.3,0.00279227
+J-lens,10,eigenvalue,0.32,0.00341193
+J-lens,10,eigenvalue,0.34,0.00416541
+J-lens,10,eigenvalue,0.36,0.00504022
+J-lens,10,eigenvalue,0.38,0.00608269
+J-lens,10,eigenvalue,0.4,0.00730075
+J-lens,10,eigenvalue,0.42,0.00873543
+J-lens,10,eigenvalue,0.44,0.0104091
+J-lens,10,eigenvalue,0.46,0.0123746
+J-lens,10,eigenvalue,0.48,0.0146766
+J-lens,10,eigenvalue,0.5,0.0173581
+J-lens,10,eigenvalue,0.52,0.0205414
+J-lens,10,eigenvalue,0.54,0.0242874
+J-lens,10,eigenvalue,0.56,0.0286759
+J-lens,10,eigenvalue,0.58,0.0338362
+J-lens,10,eigenvalue,0.6,0.0400066
+J-lens,10,eigenvalue,0.62,0.0471535
+J-lens,10,eigenvalue,0.64,0.0557541
+J-lens,10,eigenvalue,0.66,0.0659619
+J-lens,10,eigenvalue,0.68,0.0785193
+J-lens,10,eigenvalue,0.7,0.0936068
+J-lens,10,eigenvalue,0.72,0.112084
+J-lens,10,eigenvalue,0.74,0.135094
+J-lens,10,eigenvalue,0.76,0.16248
+J-lens,10,eigenvalue,0.78,0.197557
+J-lens,10,eigenvalue,0.8,0.241813
+J-lens,10,eigenvalue,0.82,0.299698
+J-lens,10,eigenvalue,0.84,0.377792
+J-lens,10,eigenvalue,0.86,0.48205
+J-lens,10,eigenvalue,0.88,0.628357
+J-lens,10,eigenvalue,0.9,0.846904
+J-lens,10,eigenvalue,0.92,1.20039
+J-lens,10,eigenvalue,0.94,1.80084
+J-lens,10,eigenvalue,0.96,3.04462
+J-lens,10,eigenvalue,0.98,6.65772
+J-lens,10,eigenvalue,0.99,13.4953
+J-lens,10,eigenvalue,0.995,27.2544
+J-lens,10,eigenvalue,0.999,136.631
+J-lens,10,eigenvalue,0.9995,203.427
+J-lens,10,eigenvalue,0.9999,512.342
+J-lens,10,eigenvalue,1,707.063
+J-lens,11,nearest-neighbour cosine,0,0.272217
+J-lens,11,nearest-neighbour cosine,0.02,0.405029
+J-lens,11,nearest-neighbour cosine,0.04,0.434814
+J-lens,11,nearest-neighbour cosine,0.06,0.45752
+J-lens,11,nearest-neighbour cosine,0.08,0.47583
+J-lens,11,nearest-neighbour cosine,0.1,0.491943
+J-lens,11,nearest-neighbour cosine,0.12,0.506836
+J-lens,11,nearest-neighbour cosine,0.14,0.520508
+J-lens,11,nearest-neighbour cosine,0.16,0.532227
+J-lens,11,nearest-neighbour cosine,0.18,0.543945
+J-lens,11,nearest-neighbour cosine,0.2,0.554688
+J-lens,11,nearest-neighbour cosine,0.22,0.56543
+J-lens,11,nearest-neighbour cosine,0.24,0.575195
+J-lens,11,nearest-neighbour cosine,0.26,0.584961
+J-lens,11,nearest-neighbour cosine,0.28,0.594238
+J-lens,11,nearest-neighbour cosine,0.3,0.603027
+J-lens,11,nearest-neighbour cosine,0.32,0.611816
+J-lens,11,nearest-neighbour cosine,0.34,0.620605
+J-lens,11,nearest-neighbour cosine,0.36,0.629395
+J-lens,11,nearest-neighbour cosine,0.38,0.637695
+J-lens,11,nearest-neighbour cosine,0.4,0.646484
+J-lens,11,nearest-neighbour cosine,0.42,0.654785
+J-lens,11,nearest-neighbour cosine,0.44,0.663086
+J-lens,11,nearest-neighbour cosine,0.46,0.671387
+J-lens,11,nearest-neighbour cosine,0.48,0.679688
+J-lens,11,nearest-neighbour cosine,0.5,0.688477
+J-lens,11,nearest-neighbour cosine,0.52,0.696289
+J-lens,11,nearest-neighbour cosine,0.54,0.70459
+J-lens,11,nearest-neighbour cosine,0.56,0.712402
+J-lens,11,nearest-neighbour cosine,0.58,0.721191
+J-lens,11,nearest-neighbour cosine,0.6,0.729492
+J-lens,11,nearest-neighbour cosine,0.62,0.738281
+J-lens,11,nearest-neighbour cosine,0.64,0.746582
+J-lens,11,nearest-neighbour cosine,0.66,0.755371
+J-lens,11,nearest-neighbour cosine,0.68,0.76416
+J-lens,11,nearest-neighbour cosine,0.7,0.772949
+J-lens,11,nearest-neighbour cosine,0.72,0.782227
+J-lens,11,nearest-neighbour cosine,0.74,0.791504
+J-lens,11,nearest-neighbour cosine,0.76,0.800293
+J-lens,11,nearest-neighbour cosine,0.78,0.810059
+J-lens,11,nearest-neighbour cosine,0.8,0.819824
+J-lens,11,nearest-neighbour cosine,0.82,0.829102
+J-lens,11,nearest-neighbour cosine,0.84,0.838867
+J-lens,11,nearest-neighbour cosine,0.86,0.849121
+J-lens,11,nearest-neighbour cosine,0.88,0.858398
+J-lens,11,nearest-neighbour cosine,0.9,0.868164
+J-lens,11,nearest-neighbour cosine,0.92,0.878906
+J-lens,11,nearest-neighbour cosine,0.94,0.890625
+J-lens,11,nearest-neighbour cosine,0.96,0.905762
+J-lens,11,nearest-neighbour cosine,0.98,0.929199
+J-lens,11,nearest-neighbour cosine,0.99,0.955078
+J-lens,11,nearest-neighbour cosine,0.995,0.979846
+J-lens,11,nearest-neighbour cosine,0.999,1
+J-lens,11,nearest-neighbour cosine,0.9995,1
+J-lens,11,nearest-neighbour cosine,0.9999,1
+J-lens,11,nearest-neighbour cosine,1,1
+J-lens,11,eigenvalue,0,1.68233e-06
+J-lens,11,eigenvalue,0.02,1.09416e-05
+J-lens,11,eigenvalue,0.04,3.97411e-05
+J-lens,11,eigenvalue,0.06,9.11441e-05
+J-lens,11,eigenvalue,0.08,0.000170278
+J-lens,11,eigenvalue,0.1,0.000281269
+J-lens,11,eigenvalue,0.12,0.000424838
+J-lens,11,eigenvalue,0.14,0.00060921
+J-lens,11,eigenvalue,0.16,0.000854311
+J-lens,11,eigenvalue,0.18,0.0011448
+J-lens,11,eigenvalue,0.2,0.00149868
+J-lens,11,eigenvalue,0.22,0.00192107
+J-lens,11,eigenvalue,0.24,0.00242754
+J-lens,11,eigenvalue,0.26,0.00303919
+J-lens,11,eigenvalue,0.28,0.00375147
+J-lens,11,eigenvalue,0.3,0.00460524
+J-lens,11,eigenvalue,0.32,0.00557814
+J-lens,11,eigenvalue,0.34,0.00671429
+J-lens,11,eigenvalue,0.36,0.00808709
+J-lens,11,eigenvalue,0.38,0.00963409
+J-lens,11,eigenvalue,0.4,0.011472
+J-lens,11,eigenvalue,0.42,0.0136006
+J-lens,11,eigenvalue,0.44,0.0160304
+J-lens,11,eigenvalue,0.46,0.0188561
+J-lens,11,eigenvalue,0.48,0.0221596
+J-lens,11,eigenvalue,0.5,0.0260442
+J-lens,11,eigenvalue,0.52,0.0304767
+J-lens,11,eigenvalue,0.54,0.0356665
+J-lens,11,eigenvalue,0.56,0.0416958
+J-lens,11,eigenvalue,0.58,0.0488161
+J-lens,11,eigenvalue,0.6,0.0571785
+J-lens,11,eigenvalue,0.62,0.0667559
+J-lens,11,eigenvalue,0.64,0.0783097
+J-lens,11,eigenvalue,0.66,0.0918362
+J-lens,11,eigenvalue,0.68,0.107812
+J-lens,11,eigenvalue,0.7,0.127385
+J-lens,11,eigenvalue,0.72,0.150241
+J-lens,11,eigenvalue,0.74,0.178278
+J-lens,11,eigenvalue,0.76,0.214253
+J-lens,11,eigenvalue,0.78,0.257085
+J-lens,11,eigenvalue,0.8,0.310918
+J-lens,11,eigenvalue,0.82,0.378257
+J-lens,11,eigenvalue,0.84,0.468832
+J-lens,11,eigenvalue,0.86,0.587325
+J-lens,11,eigenvalue,0.88,0.755326
+J-lens,11,eigenvalue,0.9,0.98877
+J-lens,11,eigenvalue,0.92,1.35486
+J-lens,11,eigenvalue,0.94,1.96312
+J-lens,11,eigenvalue,0.96,3.16702
+J-lens,11,eigenvalue,0.98,6.58923
+J-lens,11,eigenvalue,0.99,13.5234
+J-lens,11,eigenvalue,0.995,27.1552
+J-lens,11,eigenvalue,0.999,117.168
+J-lens,11,eigenvalue,0.9995,192.015
+J-lens,11,eigenvalue,0.9999,499.141
+J-lens,11,eigenvalue,1,694.342
+J-lens,12,nearest-neighbour cosine,0,0.269531
+J-lens,12,nearest-neighbour cosine,0.02,0.38916
+J-lens,12,nearest-neighbour cosine,0.04,0.421387
+J-lens,12,nearest-neighbour cosine,0.06,0.445312
+J-lens,12,nearest-neighbour cosine,0.08,0.465088
+J-lens,12,nearest-neighbour cosine,0.1,0.482422
+J-lens,12,nearest-neighbour cosine,0.12,0.497803
+J-lens,12,nearest-neighbour cosine,0.14,0.511719
+J-lens,12,nearest-neighbour cosine,0.16,0.524902
+J-lens,12,nearest-neighbour cosine,0.18,0.536621
+J-lens,12,nearest-neighbour cosine,0.2,0.547852
+J-lens,12,nearest-neighbour cosine,0.22,0.558594
+J-lens,12,nearest-neighbour cosine,0.24,0.568848
+J-lens,12,nearest-neighbour cosine,0.26,0.57876
+J-lens,12,nearest-neighbour cosine,0.28,0.588379
+J-lens,12,nearest-neighbour cosine,0.3,0.597656
+J-lens,12,nearest-neighbour cosine,0.32,0.606445
+J-lens,12,nearest-neighbour cosine,0.34,0.615723
+J-lens,12,nearest-neighbour cosine,0.36,0.624512
+J-lens,12,nearest-neighbour cosine,0.38,0.632812
+J-lens,12,nearest-neighbour cosine,0.4,0.641602
+J-lens,12,nearest-neighbour cosine,0.42,0.649902
+J-lens,12,nearest-neighbour cosine,0.44,0.658691
+J-lens,12,nearest-neighbour cosine,0.46,0.666504
+J-lens,12,nearest-neighbour cosine,0.48,0.675293
+J-lens,12,nearest-neighbour cosine,0.5,0.683594
+J-lens,12,nearest-neighbour cosine,0.52,0.691406
+J-lens,12,nearest-neighbour cosine,0.54,0.699707
+J-lens,12,nearest-neighbour cosine,0.56,0.708496
+J-lens,12,nearest-neighbour cosine,0.58,0.716309
+J-lens,12,nearest-neighbour cosine,0.6,0.725098
+J-lens,12,nearest-neighbour cosine,0.62,0.733887
+J-lens,12,nearest-neighbour cosine,0.64,0.742676
+J-lens,12,nearest-neighbour cosine,0.66,0.751465
+J-lens,12,nearest-neighbour cosine,0.68,0.760254
+J-lens,12,nearest-neighbour cosine,0.7,0.769531
+J-lens,12,nearest-neighbour cosine,0.72,0.778809
+J-lens,12,nearest-neighbour cosine,0.74,0.788086
+J-lens,12,nearest-neighbour cosine,0.76,0.797363
+J-lens,12,nearest-neighbour cosine,0.78,0.807129
+J-lens,12,nearest-neighbour cosine,0.8,0.816895
+J-lens,12,nearest-neighbour cosine,0.82,0.82666
+J-lens,12,nearest-neighbour cosine,0.84,0.835938
+J-lens,12,nearest-neighbour cosine,0.86,0.845703
+J-lens,12,nearest-neighbour cosine,0.88,0.855957
+J-lens,12,nearest-neighbour cosine,0.9,0.866211
+J-lens,12,nearest-neighbour cosine,0.92,0.876953
+J-lens,12,nearest-neighbour cosine,0.94,0.888672
+J-lens,12,nearest-neighbour cosine,0.96,0.90332
+J-lens,12,nearest-neighbour cosine,0.98,0.92627
+J-lens,12,nearest-neighbour cosine,0.99,0.952148
+J-lens,12,nearest-neighbour cosine,0.995,0.979358
+J-lens,12,nearest-neighbour cosine,0.999,1
+J-lens,12,nearest-neighbour cosine,0.9995,1
+J-lens,12,nearest-neighbour cosine,0.9999,1
+J-lens,12,nearest-neighbour cosine,1,1
+J-lens,12,eigenvalue,0,1.77664e-06
+J-lens,12,eigenvalue,0.02,2.19768e-05
+J-lens,12,eigenvalue,0.04,8.66369e-05
+J-lens,12,eigenvalue,0.06,0.00019589
+J-lens,12,eigenvalue,0.08,0.00036163
+J-lens,12,eigenvalue,0.1,0.000583924
+J-lens,12,eigenvalue,0.12,0.000867422
+J-lens,12,eigenvalue,0.14,0.00122045
+J-lens,12,eigenvalue,0.16,0.00164887
+J-lens,12,eigenvalue,0.18,0.00217927
+J-lens,12,eigenvalue,0.2,0.00279288
+J-lens,12,eigenvalue,0.22,0.00351591
+J-lens,12,eigenvalue,0.24,0.00435947
+J-lens,12,eigenvalue,0.26,0.00535735
+J-lens,12,eigenvalue,0.28,0.00651734
+J-lens,12,eigenvalue,0.3,0.00787942
+J-lens,12,eigenvalue,0.32,0.00942482
+J-lens,12,eigenvalue,0.34,0.0112119
+J-lens,12,eigenvalue,0.36,0.0132201
+J-lens,12,eigenvalue,0.38,0.0156191
+J-lens,12,eigenvalue,0.4,0.0183482
+J-lens,12,eigenvalue,0.42,0.0213705
+J-lens,12,eigenvalue,0.44,0.0249376
+J-lens,12,eigenvalue,0.46,0.0290549
+J-lens,12,eigenvalue,0.48,0.0337225
+J-lens,12,eigenvalue,0.5,0.0390301
+J-lens,12,eigenvalue,0.52,0.045362
+J-lens,12,eigenvalue,0.54,0.0524953
+J-lens,12,eigenvalue,0.56,0.0607278
+J-lens,12,eigenvalue,0.58,0.0701433
+J-lens,12,eigenvalue,0.6,0.0810338
+J-lens,12,eigenvalue,0.62,0.093871
+J-lens,12,eigenvalue,0.64,0.108356
+J-lens,12,eigenvalue,0.66,0.125884
+J-lens,12,eigenvalue,0.68,0.146368
+J-lens,12,eigenvalue,0.7,0.170464
+J-lens,12,eigenvalue,0.72,0.199087
+J-lens,12,eigenvalue,0.74,0.233642
+J-lens,12,eigenvalue,0.76,0.274546
+J-lens,12,eigenvalue,0.78,0.326447
+J-lens,12,eigenvalue,0.8,0.386914
+J-lens,12,eigenvalue,0.82,0.465074
+J-lens,12,eigenvalue,0.84,0.566641
+J-lens,12,eigenvalue,0.86,0.696864
+J-lens,12,eigenvalue,0.88,0.868774
+J-lens,12,eigenvalue,0.9,1.12085
+J-lens,12,eigenvalue,0.92,1.48893
+J-lens,12,eigenvalue,0.94,2.08804
+J-lens,12,eigenvalue,0.96,3.20582
+J-lens,12,eigenvalue,0.98,6.44011
+J-lens,12,eigenvalue,0.99,12.7431
+J-lens,12,eigenvalue,0.995,25.3552
+J-lens,12,eigenvalue,0.999,108.824
+J-lens,12,eigenvalue,0.9995,182.234
+J-lens,12,eigenvalue,0.9999,502.134
+J-lens,12,eigenvalue,1,709.769
+J-lens,13,nearest-neighbour cosine,0,0.219971
+J-lens,13,nearest-neighbour cosine,0.02,0.349121
+J-lens,13,nearest-neighbour cosine,0.04,0.381592
+J-lens,13,nearest-neighbour cosine,0.06,0.405762
+J-lens,13,nearest-neighbour cosine,0.08,0.425537
+J-lens,13,nearest-neighbour cosine,0.1,0.443115
+J-lens,13,nearest-neighbour cosine,0.12,0.45874
+J-lens,13,nearest-neighbour cosine,0.14,0.4729
+J-lens,13,nearest-neighbour cosine,0.16,0.486328
+J-lens,13,nearest-neighbour cosine,0.18,0.498535
+J-lens,13,nearest-neighbour cosine,0.2,0.510254
+J-lens,13,nearest-neighbour cosine,0.22,0.521484
+J-lens,13,nearest-neighbour cosine,0.24,0.532227
+J-lens,13,nearest-neighbour cosine,0.26,0.542969
+J-lens,13,nearest-neighbour cosine,0.28,0.553223
+J-lens,13,nearest-neighbour cosine,0.3,0.563477
+J-lens,13,nearest-neighbour cosine,0.32,0.573242
+J-lens,13,nearest-neighbour cosine,0.34,0.583008
+J-lens,13,nearest-neighbour cosine,0.36,0.591797
+J-lens,13,nearest-neighbour cosine,0.38,0.600586
+J-lens,13,nearest-neighbour cosine,0.4,0.609863
+J-lens,13,nearest-neighbour cosine,0.42,0.618652
+J-lens,13,nearest-neighbour cosine,0.44,0.626953
+J-lens,13,nearest-neighbour cosine,0.46,0.635742
+J-lens,13,nearest-neighbour cosine,0.48,0.64502
+J-lens,13,nearest-neighbour cosine,0.5,0.653809
+J-lens,13,nearest-neighbour cosine,0.52,0.663086
+J-lens,13,nearest-neighbour cosine,0.54,0.671875
+J-lens,13,nearest-neighbour cosine,0.56,0.680664
+J-lens,13,nearest-neighbour cosine,0.58,0.689941
+J-lens,13,nearest-neighbour cosine,0.6,0.699707
+J-lens,13,nearest-neighbour cosine,0.62,0.708984
+J-lens,13,nearest-neighbour cosine,0.64,0.71875
+J-lens,13,nearest-neighbour cosine,0.66,0.728027
+J-lens,13,nearest-neighbour cosine,0.68,0.737793
+J-lens,13,nearest-neighbour cosine,0.7,0.747559
+J-lens,13,nearest-neighbour cosine,0.72,0.757812
+J-lens,13,nearest-neighbour cosine,0.74,0.767578
+J-lens,13,nearest-neighbour cosine,0.76,0.777344
+J-lens,13,nearest-neighbour cosine,0.78,0.787109
+J-lens,13,nearest-neighbour cosine,0.8,0.796875
+J-lens,13,nearest-neighbour cosine,0.82,0.806641
+J-lens,13,nearest-neighbour cosine,0.84,0.816895
+J-lens,13,nearest-neighbour cosine,0.86,0.827148
+J-lens,13,nearest-neighbour cosine,0.88,0.836426
+J-lens,13,nearest-neighbour cosine,0.9,0.84668
+J-lens,13,nearest-neighbour cosine,0.92,0.858398
+J-lens,13,nearest-neighbour cosine,0.94,0.871094
+J-lens,13,nearest-neighbour cosine,0.96,0.886719
+J-lens,13,nearest-neighbour cosine,0.98,0.912109
+J-lens,13,nearest-neighbour cosine,0.99,0.941406
+J-lens,13,nearest-neighbour cosine,0.995,0.973633
+J-lens,13,nearest-neighbour cosine,0.999,1
+J-lens,13,nearest-neighbour cosine,0.9995,1
+J-lens,13,nearest-neighbour cosine,0.9999,1
+J-lens,13,nearest-neighbour cosine,1,1
+J-lens,13,eigenvalue,0,2.18683e-06
+J-lens,13,eigenvalue,0.02,7.23216e-05
+J-lens,13,eigenvalue,0.04,0.000290055
+J-lens,13,eigenvalue,0.06,0.000638153
+J-lens,13,eigenvalue,0.08,0.00110276
+J-lens,13,eigenvalue,0.1,0.00168374
+J-lens,13,eigenvalue,0.12,0.00238209
+J-lens,13,eigenvalue,0.14,0.00325928
+J-lens,13,eigenvalue,0.16,0.00422998
+J-lens,13,eigenvalue,0.18,0.00539521
+J-lens,13,eigenvalue,0.2,0.00674821
+J-lens,13,eigenvalue,0.22,0.00831633
+J-lens,13,eigenvalue,0.24,0.0100752
+J-lens,13,eigenvalue,0.26,0.0121165
+J-lens,13,eigenvalue,0.28,0.0144109
+J-lens,13,eigenvalue,0.3,0.0170587
+J-lens,13,eigenvalue,0.32,0.0200464
+J-lens,13,eigenvalue,0.34,0.0234004
+J-lens,13,eigenvalue,0.36,0.027219
+J-lens,13,eigenvalue,0.38,0.0315201
+J-lens,13,eigenvalue,0.4,0.0364123
+J-lens,13,eigenvalue,0.42,0.0418865
+J-lens,13,eigenvalue,0.44,0.0481689
+J-lens,13,eigenvalue,0.46,0.0552263
+J-lens,13,eigenvalue,0.48,0.063246
+J-lens,13,eigenvalue,0.5,0.071968
+J-lens,13,eigenvalue,0.52,0.0822479
+J-lens,13,eigenvalue,0.54,0.0936435
+J-lens,13,eigenvalue,0.56,0.106804
+J-lens,13,eigenvalue,0.58,0.12177
+J-lens,13,eigenvalue,0.6,0.138927
+J-lens,13,eigenvalue,0.62,0.157913
+J-lens,13,eigenvalue,0.64,0.180166
+J-lens,13,eigenvalue,0.66,0.205379
+J-lens,13,eigenvalue,0.68,0.234789
+J-lens,13,eigenvalue,0.7,0.268509
+J-lens,13,eigenvalue,0.72,0.30886
+J-lens,13,eigenvalue,0.74,0.354885
+J-lens,13,eigenvalue,0.76,0.410954
+J-lens,13,eigenvalue,0.78,0.475741
+J-lens,13,eigenvalue,0.8,0.556283
+J-lens,13,eigenvalue,0.82,0.653862
+J-lens,13,eigenvalue,0.84,0.778032
+J-lens,13,eigenvalue,0.86,0.930148
+J-lens,13,eigenvalue,0.88,1.13631
+J-lens,13,eigenvalue,0.9,1.41621
+J-lens,13,eigenvalue,0.92,1.82439
+J-lens,13,eigenvalue,0.94,2.47649
+J-lens,13,eigenvalue,0.96,3.62348
+J-lens,13,eigenvalue,0.98,6.80241
+J-lens,13,eigenvalue,0.99,12.4699
+J-lens,13,eigenvalue,0.995,22.417
+J-lens,13,eigenvalue,0.999,102.324
+J-lens,13,eigenvalue,0.9995,160.414
+J-lens,13,eigenvalue,0.9999,404.251
+J-lens,13,eigenvalue,1,554.722
+J-lens,14,nearest-neighbour cosine,0,0.200806
+J-lens,14,nearest-neighbour cosine,0.02,0.320068
+J-lens,14,nearest-neighbour cosine,0.04,0.352051
+J-lens,14,nearest-neighbour cosine,0.06,0.376465
+J-lens,14,nearest-neighbour cosine,0.08,0.397217
+J-lens,14,nearest-neighbour cosine,0.1,0.415283
+J-lens,14,nearest-neighbour cosine,0.12,0.432373
+J-lens,14,nearest-neighbour cosine,0.14,0.44751
+J-lens,14,nearest-neighbour cosine,0.16,0.461914
+J-lens,14,nearest-neighbour cosine,0.18,0.475342
+J-lens,14,nearest-neighbour cosine,0.2,0.488037
+J-lens,14,nearest-neighbour cosine,0.22,0.5
+J-lens,14,nearest-neighbour cosine,0.24,0.511719
+J-lens,14,nearest-neighbour cosine,0.26,0.523438
+J-lens,14,nearest-neighbour cosine,0.28,0.533691
+J-lens,14,nearest-neighbour cosine,0.3,0.544434
+J-lens,14,nearest-neighbour cosine,0.32,0.554688
+J-lens,14,nearest-neighbour cosine,0.34,0.564453
+J-lens,14,nearest-neighbour cosine,0.36,0.57373
+J-lens,14,nearest-neighbour cosine,0.38,0.583008
+J-lens,14,nearest-neighbour cosine,0.4,0.592285
+J-lens,14,nearest-neighbour cosine,0.42,0.601562
+J-lens,14,nearest-neighbour cosine,0.44,0.61084
+J-lens,14,nearest-neighbour cosine,0.46,0.619629
+J-lens,14,nearest-neighbour cosine,0.48,0.628418
+J-lens,14,nearest-neighbour cosine,0.5,0.637695
+J-lens,14,nearest-neighbour cosine,0.52,0.646973
+J-lens,14,nearest-neighbour cosine,0.54,0.655762
+J-lens,14,nearest-neighbour cosine,0.56,0.665039
+J-lens,14,nearest-neighbour cosine,0.58,0.674316
+J-lens,14,nearest-neighbour cosine,0.6,0.683594
+J-lens,14,nearest-neighbour cosine,0.62,0.693359
+J-lens,14,nearest-neighbour cosine,0.64,0.703125
+J-lens,14,nearest-neighbour cosine,0.66,0.712891
+J-lens,14,nearest-neighbour cosine,0.68,0.722656
+J-lens,14,nearest-neighbour cosine,0.7,0.73291
+J-lens,14,nearest-neighbour cosine,0.72,0.743652
+J-lens,14,nearest-neighbour cosine,0.74,0.753418
+J-lens,14,nearest-neighbour cosine,0.76,0.763672
+J-lens,14,nearest-neighbour cosine,0.78,0.773438
+J-lens,14,nearest-neighbour cosine,0.8,0.78418
+J-lens,14,nearest-neighbour cosine,0.82,0.794434
+J-lens,14,nearest-neighbour cosine,0.84,0.804688
+J-lens,14,nearest-neighbour cosine,0.86,0.81543
+J-lens,14,nearest-neighbour cosine,0.88,0.826172
+J-lens,14,nearest-neighbour cosine,0.9,0.836914
+J-lens,14,nearest-neighbour cosine,0.92,0.848145
+J-lens,14,nearest-neighbour cosine,0.94,0.861328
+J-lens,14,nearest-neighbour cosine,0.96,0.876465
+J-lens,14,nearest-neighbour cosine,0.98,0.899902
+J-lens,14,nearest-neighbour cosine,0.99,0.929199
+J-lens,14,nearest-neighbour cosine,0.995,0.966797
+J-lens,14,nearest-neighbour cosine,0.999,1
+J-lens,14,nearest-neighbour cosine,0.9995,1
+J-lens,14,nearest-neighbour cosine,0.9999,1
+J-lens,14,nearest-neighbour cosine,1,1
+J-lens,14,eigenvalue,0,2.51587e-06
+J-lens,14,eigenvalue,0.02,0.000279773
+J-lens,14,eigenvalue,0.04,0.000953617
+J-lens,14,eigenvalue,0.06,0.00184088
+J-lens,14,eigenvalue,0.08,0.00288849
+J-lens,14,eigenvalue,0.1,0.00409429
+J-lens,14,eigenvalue,0.12,0.00547992
+J-lens,14,eigenvalue,0.14,0.00709459
+J-lens,14,eigenvalue,0.16,0.00891215
+J-lens,14,eigenvalue,0.18,0.0110169
+J-lens,14,eigenvalue,0.2,0.0133804
+J-lens,14,eigenvalue,0.22,0.0160505
+J-lens,14,eigenvalue,0.24,0.01897
+J-lens,14,eigenvalue,0.26,0.022211
+J-lens,14,eigenvalue,0.28,0.0259266
+J-lens,14,eigenvalue,0.3,0.0301193
+J-lens,14,eigenvalue,0.32,0.0345824
+J-lens,14,eigenvalue,0.34,0.0397999
+J-lens,14,eigenvalue,0.36,0.0454912
+J-lens,14,eigenvalue,0.38,0.0518498
+J-lens,14,eigenvalue,0.4,0.0590848
+J-lens,14,eigenvalue,0.42,0.06697
+J-lens,14,eigenvalue,0.44,0.0757591
+J-lens,14,eigenvalue,0.46,0.0858523
+J-lens,14,eigenvalue,0.48,0.0967188
+J-lens,14,eigenvalue,0.5,0.109022
+J-lens,14,eigenvalue,0.52,0.122927
+J-lens,14,eigenvalue,0.54,0.138649
+J-lens,14,eigenvalue,0.56,0.155951
+J-lens,14,eigenvalue,0.58,0.175232
+J-lens,14,eigenvalue,0.6,0.197313
+J-lens,14,eigenvalue,0.62,0.222439
+J-lens,14,eigenvalue,0.64,0.250319
+J-lens,14,eigenvalue,0.66,0.282405
+J-lens,14,eigenvalue,0.68,0.318765
+J-lens,14,eigenvalue,0.7,0.360362
+J-lens,14,eigenvalue,0.72,0.409215
+J-lens,14,eigenvalue,0.74,0.46505
+J-lens,14,eigenvalue,0.76,0.529167
+J-lens,14,eigenvalue,0.78,0.607837
+J-lens,14,eigenvalue,0.8,0.701201
+J-lens,14,eigenvalue,0.82,0.811939
+J-lens,14,eigenvalue,0.84,0.949607
+J-lens,14,eigenvalue,0.86,1.12173
+J-lens,14,eigenvalue,0.88,1.3485
+J-lens,14,eigenvalue,0.9,1.64069
+J-lens,14,eigenvalue,0.92,2.07934
+J-lens,14,eigenvalue,0.94,2.75384
+J-lens,14,eigenvalue,0.96,3.92497
+J-lens,14,eigenvalue,0.98,6.87732
+J-lens,14,eigenvalue,0.99,11.5537
+J-lens,14,eigenvalue,0.995,19.6726
+J-lens,14,eigenvalue,0.999,83.0322
+J-lens,14,eigenvalue,0.9995,128.537
+J-lens,14,eigenvalue,0.9999,357.992
+J-lens,14,eigenvalue,1,484.433
+J-lens,15,nearest-neighbour cosine,0,0.181274
+J-lens,15,nearest-neighbour cosine,0.02,0.292236
+J-lens,15,nearest-neighbour cosine,0.04,0.323486
+J-lens,15,nearest-neighbour cosine,0.06,0.347168
+J-lens,15,nearest-neighbour cosine,0.08,0.367676
+J-lens,15,nearest-neighbour cosine,0.1,0.386475
+J-lens,15,nearest-neighbour cosine,0.12,0.404199
+J-lens,15,nearest-neighbour cosine,0.14,0.421143
+J-lens,15,nearest-neighbour cosine,0.16,0.436768
+J-lens,15,nearest-neighbour cosine,0.18,0.451147
+J-lens,15,nearest-neighbour cosine,0.2,0.465332
+J-lens,15,nearest-neighbour cosine,0.22,0.478271
+J-lens,15,nearest-neighbour cosine,0.24,0.490479
+J-lens,15,nearest-neighbour cosine,0.26,0.501953
+J-lens,15,nearest-neighbour cosine,0.28,0.513184
+J-lens,15,nearest-neighbour cosine,0.3,0.523926
+J-lens,15,nearest-neighbour cosine,0.32,0.53418
+J-lens,15,nearest-neighbour cosine,0.34,0.543945
+J-lens,15,nearest-neighbour cosine,0.36,0.554199
+J-lens,15,nearest-neighbour cosine,0.38,0.563965
+J-lens,15,nearest-neighbour cosine,0.4,0.573242
+J-lens,15,nearest-neighbour cosine,0.42,0.58252
+J-lens,15,nearest-neighbour cosine,0.44,0.591309
+J-lens,15,nearest-neighbour cosine,0.46,0.600586
+J-lens,15,nearest-neighbour cosine,0.48,0.609375
+J-lens,15,nearest-neighbour cosine,0.5,0.618164
+J-lens,15,nearest-neighbour cosine,0.52,0.627441
+J-lens,15,nearest-neighbour cosine,0.54,0.636719
+J-lens,15,nearest-neighbour cosine,0.56,0.645508
+J-lens,15,nearest-neighbour cosine,0.58,0.654785
+J-lens,15,nearest-neighbour cosine,0.6,0.664062
+J-lens,15,nearest-neighbour cosine,0.62,0.67334
+J-lens,15,nearest-neighbour cosine,0.64,0.683105
+J-lens,15,nearest-neighbour cosine,0.66,0.692871
+J-lens,15,nearest-neighbour cosine,0.68,0.702637
+J-lens,15,nearest-neighbour cosine,0.7,0.712891
+J-lens,15,nearest-neighbour cosine,0.72,0.722656
+J-lens,15,nearest-neighbour cosine,0.74,0.733398
+J-lens,15,nearest-neighbour cosine,0.76,0.743652
+J-lens,15,nearest-neighbour cosine,0.78,0.754395
+J-lens,15,nearest-neighbour cosine,0.8,0.765137
+J-lens,15,nearest-neighbour cosine,0.82,0.776367
+J-lens,15,nearest-neighbour cosine,0.84,0.787109
+J-lens,15,nearest-neighbour cosine,0.86,0.797852
+J-lens,15,nearest-neighbour cosine,0.88,0.809082
+J-lens,15,nearest-neighbour cosine,0.9,0.819824
+J-lens,15,nearest-neighbour cosine,0.92,0.831543
+J-lens,15,nearest-neighbour cosine,0.94,0.844238
+J-lens,15,nearest-neighbour cosine,0.96,0.86084
+J-lens,15,nearest-neighbour cosine,0.98,0.885254
+J-lens,15,nearest-neighbour cosine,0.99,0.916016
+J-lens,15,nearest-neighbour cosine,0.995,0.958496
+J-lens,15,nearest-neighbour cosine,0.999,1
+J-lens,15,nearest-neighbour cosine,0.9995,1
+J-lens,15,nearest-neighbour cosine,0.9999,1
+J-lens,15,nearest-neighbour cosine,1,1
+J-lens,15,eigenvalue,0,2.61705e-06
+J-lens,15,eigenvalue,0.02,0.00102259
+J-lens,15,eigenvalue,0.04,0.00306607
+J-lens,15,eigenvalue,0.06,0.00545711
+J-lens,15,eigenvalue,0.08,0.00799066
+J-lens,15,eigenvalue,0.1,0.0107455
+J-lens,15,eigenvalue,0.12,0.0138179
+J-lens,15,eigenvalue,0.14,0.0170727
+J-lens,15,eigenvalue,0.16,0.0207722
+J-lens,15,eigenvalue,0.18,0.0247168
+J-lens,15,eigenvalue,0.2,0.028957
+J-lens,15,eigenvalue,0.22,0.0338035
+J-lens,15,eigenvalue,0.24,0.0390319
+J-lens,15,eigenvalue,0.26,0.0446304
+J-lens,15,eigenvalue,0.28,0.050748
+J-lens,15,eigenvalue,0.3,0.0577059
+J-lens,15,eigenvalue,0.32,0.0650354
+J-lens,15,eigenvalue,0.34,0.0732295
+J-lens,15,eigenvalue,0.36,0.0820315
+J-lens,15,eigenvalue,0.38,0.0919825
+J-lens,15,eigenvalue,0.4,0.102592
+J-lens,15,eigenvalue,0.42,0.114799
+J-lens,15,eigenvalue,0.44,0.127533
+J-lens,15,eigenvalue,0.46,0.141858
+J-lens,15,eigenvalue,0.48,0.157468
+J-lens,15,eigenvalue,0.5,0.174873
+J-lens,15,eigenvalue,0.52,0.193675
+J-lens,15,eigenvalue,0.54,0.214662
+J-lens,15,eigenvalue,0.56,0.238353
+J-lens,15,eigenvalue,0.58,0.263158
+J-lens,15,eigenvalue,0.6,0.292229
+J-lens,15,eigenvalue,0.62,0.323538
+J-lens,15,eigenvalue,0.64,0.359159
+J-lens,15,eigenvalue,0.66,0.398588
+J-lens,15,eigenvalue,0.68,0.442804
+J-lens,15,eigenvalue,0.7,0.492543
+J-lens,15,eigenvalue,0.72,0.549057
+J-lens,15,eigenvalue,0.74,0.61404
+J-lens,15,eigenvalue,0.76,0.690117
+J-lens,15,eigenvalue,0.78,0.776748
+J-lens,15,eigenvalue,0.8,0.879942
+J-lens,15,eigenvalue,0.82,1.00081
+J-lens,15,eigenvalue,0.84,1.14472
+J-lens,15,eigenvalue,0.86,1.32862
+J-lens,15,eigenvalue,0.88,1.56436
+J-lens,15,eigenvalue,0.9,1.86814
+J-lens,15,eigenvalue,0.92,2.29465
+J-lens,15,eigenvalue,0.94,2.94827
+J-lens,15,eigenvalue,0.96,4.11014
+J-lens,15,eigenvalue,0.98,6.74196
+J-lens,15,eigenvalue,0.99,10.1525
+J-lens,15,eigenvalue,0.995,16.4102
+J-lens,15,eigenvalue,0.999,73.7869
+J-lens,15,eigenvalue,0.9995,113.281
+J-lens,15,eigenvalue,0.9999,282.097
+J-lens,15,eigenvalue,1,366.185
+J-lens,16,nearest-neighbour cosine,0,0.161743
+J-lens,16,nearest-neighbour cosine,0.02,0.268799
+J-lens,16,nearest-neighbour cosine,0.04,0.299805
+J-lens,16,nearest-neighbour cosine,0.06,0.323242
+J-lens,16,nearest-neighbour cosine,0.08,0.343994
+J-lens,16,nearest-neighbour cosine,0.1,0.362549
+J-lens,16,nearest-neighbour cosine,0.12,0.381104
+J-lens,16,nearest-neighbour cosine,0.14,0.39917
+J-lens,16,nearest-neighbour cosine,0.16,0.416504
+J-lens,16,nearest-neighbour cosine,0.18,0.432373
+J-lens,16,nearest-neighbour cosine,0.2,0.447266
+J-lens,16,nearest-neighbour cosine,0.22,0.460938
+J-lens,16,nearest-neighbour cosine,0.24,0.474121
+J-lens,16,nearest-neighbour cosine,0.26,0.486572
+J-lens,16,nearest-neighbour cosine,0.28,0.498535
+J-lens,16,nearest-neighbour cosine,0.3,0.509766
+J-lens,16,nearest-neighbour cosine,0.32,0.520996
+J-lens,16,nearest-neighbour cosine,0.34,0.531738
+J-lens,16,nearest-neighbour cosine,0.36,0.541992
+J-lens,16,nearest-neighbour cosine,0.38,0.551758
+J-lens,16,nearest-neighbour cosine,0.4,0.561523
+J-lens,16,nearest-neighbour cosine,0.42,0.571289
+J-lens,16,nearest-neighbour cosine,0.44,0.580566
+J-lens,16,nearest-neighbour cosine,0.46,0.589844
+J-lens,16,nearest-neighbour cosine,0.48,0.598633
+J-lens,16,nearest-neighbour cosine,0.5,0.607422
+J-lens,16,nearest-neighbour cosine,0.52,0.616699
+J-lens,16,nearest-neighbour cosine,0.54,0.625977
+J-lens,16,nearest-neighbour cosine,0.56,0.634766
+J-lens,16,nearest-neighbour cosine,0.58,0.643066
+J-lens,16,nearest-neighbour cosine,0.6,0.652344
+J-lens,16,nearest-neighbour cosine,0.62,0.661621
+J-lens,16,nearest-neighbour cosine,0.64,0.671387
+J-lens,16,nearest-neighbour cosine,0.66,0.681152
+J-lens,16,nearest-neighbour cosine,0.68,0.690918
+J-lens,16,nearest-neighbour cosine,0.7,0.701172
+J-lens,16,nearest-neighbour cosine,0.72,0.711426
+J-lens,16,nearest-neighbour cosine,0.74,0.72168
+J-lens,16,nearest-neighbour cosine,0.76,0.732422
+J-lens,16,nearest-neighbour cosine,0.78,0.743164
+J-lens,16,nearest-neighbour cosine,0.8,0.753906
+J-lens,16,nearest-neighbour cosine,0.82,0.764648
+J-lens,16,nearest-neighbour cosine,0.84,0.775391
+J-lens,16,nearest-neighbour cosine,0.86,0.787109
+J-lens,16,nearest-neighbour cosine,0.88,0.797852
+J-lens,16,nearest-neighbour cosine,0.9,0.809082
+J-lens,16,nearest-neighbour cosine,0.92,0.821777
+J-lens,16,nearest-neighbour cosine,0.94,0.833984
+J-lens,16,nearest-neighbour cosine,0.96,0.850098
+J-lens,16,nearest-neighbour cosine,0.98,0.873047
+J-lens,16,nearest-neighbour cosine,0.99,0.899902
+J-lens,16,nearest-neighbour cosine,0.995,0.945312
+J-lens,16,nearest-neighbour cosine,0.999,1
+J-lens,16,nearest-neighbour cosine,0.9995,1
+J-lens,16,nearest-neighbour cosine,0.9999,1
+J-lens,16,nearest-neighbour cosine,1,1
+J-lens,16,eigenvalue,0,2.73214e-06
+J-lens,16,eigenvalue,0.02,0.00267668
+J-lens,16,eigenvalue,0.04,0.00739517
+J-lens,16,eigenvalue,0.06,0.0122006
+J-lens,16,eigenvalue,0.08,0.0169238
+J-lens,16,eigenvalue,0.1,0.0218814
+J-lens,16,eigenvalue,0.12,0.0270067
+J-lens,16,eigenvalue,0.14,0.0325043
+J-lens,16,eigenvalue,0.16,0.0382897
+J-lens,16,eigenvalue,0.18,0.0444372
+J-lens,16,eigenvalue,0.2,0.0510923
+J-lens,16,eigenvalue,0.22,0.0582809
+J-lens,16,eigenvalue,0.24,0.065984
+J-lens,16,eigenvalue,0.26,0.0741696
+J-lens,16,eigenvalue,0.28,0.083146
+J-lens,16,eigenvalue,0.3,0.092853
+J-lens,16,eigenvalue,0.32,0.103509
+J-lens,16,eigenvalue,0.34,0.114855
+J-lens,16,eigenvalue,0.36,0.127345
+J-lens,16,eigenvalue,0.38,0.140209
+J-lens,16,eigenvalue,0.4,0.154644
+J-lens,16,eigenvalue,0.42,0.170197
+J-lens,16,eigenvalue,0.44,0.186665
+J-lens,16,eigenvalue,0.46,0.205171
+J-lens,16,eigenvalue,0.48,0.225624
+J-lens,16,eigenvalue,0.5,0.246952
+J-lens,16,eigenvalue,0.52,0.270483
+J-lens,16,eigenvalue,0.54,0.296103
+J-lens,16,eigenvalue,0.56,0.324624
+J-lens,16,eigenvalue,0.58,0.354668
+J-lens,16,eigenvalue,0.6,0.38896
+J-lens,16,eigenvalue,0.62,0.427099
+J-lens,16,eigenvalue,0.64,0.467269
+J-lens,16,eigenvalue,0.66,0.51283
+J-lens,16,eigenvalue,0.68,0.563371
+J-lens,16,eigenvalue,0.7,0.618755
+J-lens,16,eigenvalue,0.72,0.68239
+J-lens,16,eigenvalue,0.74,0.753227
+J-lens,16,eigenvalue,0.76,0.835395
+J-lens,16,eigenvalue,0.78,0.925133
+J-lens,16,eigenvalue,0.8,1.0347
+J-lens,16,eigenvalue,0.82,1.15835
+J-lens,16,eigenvalue,0.84,1.30763
+J-lens,16,eigenvalue,0.86,1.48848
+J-lens,16,eigenvalue,0.88,1.71815
+J-lens,16,eigenvalue,0.9,2.01893
+J-lens,16,eigenvalue,0.92,2.43643
+J-lens,16,eigenvalue,0.94,3.04859
+J-lens,16,eigenvalue,0.96,4.10881
+J-lens,16,eigenvalue,0.98,6.56719
+J-lens,16,eigenvalue,0.99,9.63361
+J-lens,16,eigenvalue,0.995,14.126
+J-lens,16,eigenvalue,0.999,58.1095
+J-lens,16,eigenvalue,0.9995,88.8029
+J-lens,16,eigenvalue,0.9999,216.369
+J-lens,16,eigenvalue,1,266.524
+J-lens,17,nearest-neighbour cosine,0,0.146851
+J-lens,17,nearest-neighbour cosine,0.02,0.245483
+J-lens,17,nearest-neighbour cosine,0.04,0.276367
+J-lens,17,nearest-neighbour cosine,0.06,0.300122
+J-lens,17,nearest-neighbour cosine,0.08,0.321777
+J-lens,17,nearest-neighbour cosine,0.1,0.341309
+J-lens,17,nearest-neighbour cosine,0.12,0.360352
+J-lens,17,nearest-neighbour cosine,0.14,0.378418
+J-lens,17,nearest-neighbour cosine,0.16,0.396729
+J-lens,17,nearest-neighbour cosine,0.18,0.413574
+J-lens,17,nearest-neighbour cosine,0.2,0.429443
+J-lens,17,nearest-neighbour cosine,0.22,0.444824
+J-lens,17,nearest-neighbour cosine,0.24,0.45874
+J-lens,17,nearest-neighbour cosine,0.26,0.471924
+J-lens,17,nearest-neighbour cosine,0.28,0.484131
+J-lens,17,nearest-neighbour cosine,0.3,0.496338
+J-lens,17,nearest-neighbour cosine,0.32,0.507812
+J-lens,17,nearest-neighbour cosine,0.34,0.519043
+J-lens,17,nearest-neighbour cosine,0.36,0.529785
+J-lens,17,nearest-neighbour cosine,0.38,0.540527
+J-lens,17,nearest-neighbour cosine,0.4,0.55127
+J-lens,17,nearest-neighbour cosine,0.42,0.561523
+J-lens,17,nearest-neighbour cosine,0.44,0.571777
+J-lens,17,nearest-neighbour cosine,0.46,0.582031
+J-lens,17,nearest-neighbour cosine,0.48,0.592285
+J-lens,17,nearest-neighbour cosine,0.5,0.602051
+J-lens,17,nearest-neighbour cosine,0.52,0.611328
+J-lens,17,nearest-neighbour cosine,0.54,0.621094
+J-lens,17,nearest-neighbour cosine,0.56,0.630371
+J-lens,17,nearest-neighbour cosine,0.58,0.639648
+J-lens,17,nearest-neighbour cosine,0.6,0.649414
+J-lens,17,nearest-neighbour cosine,0.62,0.658203
+J-lens,17,nearest-neighbour cosine,0.64,0.66748
+J-lens,17,nearest-neighbour cosine,0.66,0.677246
+J-lens,17,nearest-neighbour cosine,0.68,0.6875
+J-lens,17,nearest-neighbour cosine,0.7,0.697266
+J-lens,17,nearest-neighbour cosine,0.72,0.707031
+J-lens,17,nearest-neighbour cosine,0.74,0.717285
+J-lens,17,nearest-neighbour cosine,0.76,0.727051
+J-lens,17,nearest-neighbour cosine,0.78,0.736816
+J-lens,17,nearest-neighbour cosine,0.8,0.747559
+J-lens,17,nearest-neighbour cosine,0.82,0.757812
+J-lens,17,nearest-neighbour cosine,0.84,0.768066
+J-lens,17,nearest-neighbour cosine,0.86,0.777832
+J-lens,17,nearest-neighbour cosine,0.88,0.788086
+J-lens,17,nearest-neighbour cosine,0.9,0.799316
+J-lens,17,nearest-neighbour cosine,0.92,0.810547
+J-lens,17,nearest-neighbour cosine,0.94,0.822754
+J-lens,17,nearest-neighbour cosine,0.96,0.837891
+J-lens,17,nearest-neighbour cosine,0.98,0.859863
+J-lens,17,nearest-neighbour cosine,0.99,0.885254
+J-lens,17,nearest-neighbour cosine,0.995,0.929199
+J-lens,17,nearest-neighbour cosine,0.999,1
+J-lens,17,nearest-neighbour cosine,0.9995,1
+J-lens,17,nearest-neighbour cosine,0.9999,1
+J-lens,17,nearest-neighbour cosine,1,1
+J-lens,17,eigenvalue,0,2.40098e-06
+J-lens,17,eigenvalue,0.02,0.00548429
+J-lens,17,eigenvalue,0.04,0.014757
+J-lens,17,eigenvalue,0.06,0.0237054
+J-lens,17,eigenvalue,0.08,0.0323222
+J-lens,17,eigenvalue,0.1,0.0408609
+J-lens,17,eigenvalue,0.12,0.0493323
+J-lens,17,eigenvalue,0.14,0.0577485
+J-lens,17,eigenvalue,0.16,0.0668751
+J-lens,17,eigenvalue,0.18,0.0761669
+J-lens,17,eigenvalue,0.2,0.08637
+J-lens,17,eigenvalue,0.22,0.0965725
+J-lens,17,eigenvalue,0.24,0.107673
+J-lens,17,eigenvalue,0.26,0.119334
+J-lens,17,eigenvalue,0.28,0.13164
+J-lens,17,eigenvalue,0.3,0.144976
+J-lens,17,eigenvalue,0.32,0.159149
+J-lens,17,eigenvalue,0.34,0.174445
+J-lens,17,eigenvalue,0.36,0.190502
+J-lens,17,eigenvalue,0.38,0.20792
+J-lens,17,eigenvalue,0.4,0.226481
+J-lens,17,eigenvalue,0.42,0.246603
+J-lens,17,eigenvalue,0.44,0.268271
+J-lens,17,eigenvalue,0.46,0.291184
+J-lens,17,eigenvalue,0.48,0.316277
+J-lens,17,eigenvalue,0.5,0.342888
+J-lens,17,eigenvalue,0.52,0.371895
+J-lens,17,eigenvalue,0.54,0.403758
+J-lens,17,eigenvalue,0.56,0.438081
+J-lens,17,eigenvalue,0.58,0.474884
+J-lens,17,eigenvalue,0.6,0.514439
+J-lens,17,eigenvalue,0.62,0.558616
+J-lens,17,eigenvalue,0.64,0.60598
+J-lens,17,eigenvalue,0.66,0.658658
+J-lens,17,eigenvalue,0.68,0.715963
+J-lens,17,eigenvalue,0.7,0.778561
+J-lens,17,eigenvalue,0.72,0.849816
+J-lens,17,eigenvalue,0.74,0.928319
+J-lens,17,eigenvalue,0.76,1.01453
+J-lens,17,eigenvalue,0.78,1.11523
+J-lens,17,eigenvalue,0.8,1.22713
+J-lens,17,eigenvalue,0.82,1.35412
+J-lens,17,eigenvalue,0.84,1.50875
+J-lens,17,eigenvalue,0.86,1.68644
+J-lens,17,eigenvalue,0.88,1.90241
+J-lens,17,eigenvalue,0.9,2.17687
+J-lens,17,eigenvalue,0.92,2.54354
+J-lens,17,eigenvalue,0.94,3.06482
+J-lens,17,eigenvalue,0.96,3.94965
+J-lens,17,eigenvalue,0.98,5.92342
+J-lens,17,eigenvalue,0.99,8.43787
+J-lens,17,eigenvalue,0.995,11.6161
+J-lens,17,eigenvalue,0.999,41.266
+J-lens,17,eigenvalue,0.9995,67.5836
+J-lens,17,eigenvalue,0.9999,147.593
+J-lens,17,eigenvalue,1,182.683
+J-lens,18,nearest-neighbour cosine,0,0.138306
+J-lens,18,nearest-neighbour cosine,0.02,0.235229
+J-lens,18,nearest-neighbour cosine,0.04,0.266602
+J-lens,18,nearest-neighbour cosine,0.06,0.290527
+J-lens,18,nearest-neighbour cosine,0.08,0.312744
+J-lens,18,nearest-neighbour cosine,0.1,0.333008
+J-lens,18,nearest-neighbour cosine,0.12,0.352783
+J-lens,18,nearest-neighbour cosine,0.14,0.37085
+J-lens,18,nearest-neighbour cosine,0.16,0.38916
+J-lens,18,nearest-neighbour cosine,0.18,0.406982
+J-lens,18,nearest-neighbour cosine,0.2,0.422852
+J-lens,18,nearest-neighbour cosine,0.22,0.438232
+J-lens,18,nearest-neighbour cosine,0.24,0.452148
+J-lens,18,nearest-neighbour cosine,0.26,0.465576
+J-lens,18,nearest-neighbour cosine,0.28,0.478027
+J-lens,18,nearest-neighbour cosine,0.3,0.490723
+J-lens,18,nearest-neighbour cosine,0.32,0.502441
+J-lens,18,nearest-neighbour cosine,0.34,0.51416
+J-lens,18,nearest-neighbour cosine,0.36,0.525879
+J-lens,18,nearest-neighbour cosine,0.38,0.537109
+J-lens,18,nearest-neighbour cosine,0.4,0.54834
+J-lens,18,nearest-neighbour cosine,0.42,0.559082
+J-lens,18,nearest-neighbour cosine,0.44,0.569824
+J-lens,18,nearest-neighbour cosine,0.46,0.580566
+J-lens,18,nearest-neighbour cosine,0.48,0.59082
+J-lens,18,nearest-neighbour cosine,0.5,0.601562
+J-lens,18,nearest-neighbour cosine,0.52,0.611816
+J-lens,18,nearest-neighbour cosine,0.54,0.62207
+J-lens,18,nearest-neighbour cosine,0.56,0.632324
+J-lens,18,nearest-neighbour cosine,0.58,0.642578
+J-lens,18,nearest-neighbour cosine,0.6,0.652344
+J-lens,18,nearest-neighbour cosine,0.62,0.662598
+J-lens,18,nearest-neighbour cosine,0.64,0.672363
+J-lens,18,nearest-neighbour cosine,0.66,0.682129
+J-lens,18,nearest-neighbour cosine,0.68,0.691895
+J-lens,18,nearest-neighbour cosine,0.7,0.70166
+J-lens,18,nearest-neighbour cosine,0.72,0.711426
+J-lens,18,nearest-neighbour cosine,0.74,0.721191
+J-lens,18,nearest-neighbour cosine,0.76,0.730957
+J-lens,18,nearest-neighbour cosine,0.78,0.740234
+J-lens,18,nearest-neighbour cosine,0.8,0.750488
+J-lens,18,nearest-neighbour cosine,0.82,0.759766
+J-lens,18,nearest-neighbour cosine,0.84,0.769531
+J-lens,18,nearest-neighbour cosine,0.86,0.778809
+J-lens,18,nearest-neighbour cosine,0.88,0.788086
+J-lens,18,nearest-neighbour cosine,0.9,0.79834
+J-lens,18,nearest-neighbour cosine,0.92,0.808594
+J-lens,18,nearest-neighbour cosine,0.94,0.819824
+J-lens,18,nearest-neighbour cosine,0.96,0.833984
+J-lens,18,nearest-neighbour cosine,0.98,0.85498
+J-lens,18,nearest-neighbour cosine,0.99,0.87793
+J-lens,18,nearest-neighbour cosine,0.995,0.919922
+J-lens,18,nearest-neighbour cosine,0.999,1
+J-lens,18,nearest-neighbour cosine,0.9995,1
+J-lens,18,nearest-neighbour cosine,0.9999,1
+J-lens,18,nearest-neighbour cosine,1,1
+J-lens,18,eigenvalue,0,2.38618e-06
+J-lens,18,eigenvalue,0.02,0.00776814
+J-lens,18,eigenvalue,0.04,0.0205402
+J-lens,18,eigenvalue,0.06,0.0326803
+J-lens,18,eigenvalue,0.08,0.0442906
+J-lens,18,eigenvalue,0.1,0.0552876
+J-lens,18,eigenvalue,0.12,0.0662896
+J-lens,18,eigenvalue,0.14,0.0770505
+J-lens,18,eigenvalue,0.16,0.0882733
+J-lens,18,eigenvalue,0.18,0.0996519
+J-lens,18,eigenvalue,0.2,0.111421
+J-lens,18,eigenvalue,0.22,0.123594
+J-lens,18,eigenvalue,0.24,0.136589
+J-lens,18,eigenvalue,0.26,0.150059
+J-lens,18,eigenvalue,0.28,0.164291
+J-lens,18,eigenvalue,0.3,0.179216
+J-lens,18,eigenvalue,0.32,0.195505
+J-lens,18,eigenvalue,0.34,0.212791
+J-lens,18,eigenvalue,0.36,0.230495
+J-lens,18,eigenvalue,0.38,0.249889
+J-lens,18,eigenvalue,0.4,0.270652
+J-lens,18,eigenvalue,0.42,0.292543
+J-lens,18,eigenvalue,0.44,0.315748
+J-lens,18,eigenvalue,0.46,0.341243
+J-lens,18,eigenvalue,0.48,0.368881
+J-lens,18,eigenvalue,0.5,0.39734
+J-lens,18,eigenvalue,0.52,0.428919
+J-lens,18,eigenvalue,0.54,0.461821
+J-lens,18,eigenvalue,0.56,0.498654
+J-lens,18,eigenvalue,0.58,0.537482
+J-lens,18,eigenvalue,0.6,0.580419
+J-lens,18,eigenvalue,0.62,0.625522
+J-lens,18,eigenvalue,0.64,0.676502
+J-lens,18,eigenvalue,0.66,0.730201
+J-lens,18,eigenvalue,0.68,0.789852
+J-lens,18,eigenvalue,0.7,0.855302
+J-lens,18,eigenvalue,0.72,0.927475
+J-lens,18,eigenvalue,0.74,1.00716
+J-lens,18,eigenvalue,0.76,1.09724
+J-lens,18,eigenvalue,0.78,1.19732
+J-lens,18,eigenvalue,0.8,1.30879
+J-lens,18,eigenvalue,0.82,1.44035
+J-lens,18,eigenvalue,0.84,1.58749
+J-lens,18,eigenvalue,0.86,1.76435
+J-lens,18,eigenvalue,0.88,1.97904
+J-lens,18,eigenvalue,0.9,2.24876
+J-lens,18,eigenvalue,0.92,2.5956
+J-lens,18,eigenvalue,0.94,3.08956
+J-lens,18,eigenvalue,0.96,3.88755
+J-lens,18,eigenvalue,0.98,5.49519
+J-lens,18,eigenvalue,0.99,7.49098
+J-lens,18,eigenvalue,0.995,10.0231
+J-lens,18,eigenvalue,0.999,35.8321
+J-lens,18,eigenvalue,0.9995,57.8672
+J-lens,18,eigenvalue,0.9999,118.993
+J-lens,18,eigenvalue,1,143.182
+J-lens,19,nearest-neighbour cosine,0,0.129028
+J-lens,19,nearest-neighbour cosine,0.02,0.226196
+J-lens,19,nearest-neighbour cosine,0.04,0.259082
+J-lens,19,nearest-neighbour cosine,0.06,0.283691
+J-lens,19,nearest-neighbour cosine,0.08,0.305908
+J-lens,19,nearest-neighbour cosine,0.1,0.326904
+J-lens,19,nearest-neighbour cosine,0.12,0.347168
+J-lens,19,nearest-neighbour cosine,0.14,0.365723
+J-lens,19,nearest-neighbour cosine,0.16,0.383789
+J-lens,19,nearest-neighbour cosine,0.18,0.401611
+J-lens,19,nearest-neighbour cosine,0.2,0.418213
+J-lens,19,nearest-neighbour cosine,0.22,0.433105
+J-lens,19,nearest-neighbour cosine,0.24,0.44751
+J-lens,19,nearest-neighbour cosine,0.26,0.460693
+J-lens,19,nearest-neighbour cosine,0.28,0.473633
+J-lens,19,nearest-neighbour cosine,0.3,0.487061
+J-lens,19,nearest-neighbour cosine,0.32,0.499023
+J-lens,19,nearest-neighbour cosine,0.34,0.51123
+J-lens,19,nearest-neighbour cosine,0.36,0.523438
+J-lens,19,nearest-neighbour cosine,0.38,0.535156
+J-lens,19,nearest-neighbour cosine,0.4,0.546875
+J-lens,19,nearest-neighbour cosine,0.42,0.558105
+J-lens,19,nearest-neighbour cosine,0.44,0.568848
+J-lens,19,nearest-neighbour cosine,0.46,0.580078
+J-lens,19,nearest-neighbour cosine,0.48,0.59082
+J-lens,19,nearest-neighbour cosine,0.5,0.602539
+J-lens,19,nearest-neighbour cosine,0.52,0.613281
+J-lens,19,nearest-neighbour cosine,0.54,0.624023
+J-lens,19,nearest-neighbour cosine,0.56,0.634766
+J-lens,19,nearest-neighbour cosine,0.58,0.645508
+J-lens,19,nearest-neighbour cosine,0.6,0.656738
+J-lens,19,nearest-neighbour cosine,0.62,0.666992
+J-lens,19,nearest-neighbour cosine,0.64,0.677246
+J-lens,19,nearest-neighbour cosine,0.66,0.687988
+J-lens,19,nearest-neighbour cosine,0.68,0.697949
+J-lens,19,nearest-neighbour cosine,0.7,0.708008
+J-lens,19,nearest-neighbour cosine,0.72,0.717773
+J-lens,19,nearest-neighbour cosine,0.74,0.727539
+J-lens,19,nearest-neighbour cosine,0.76,0.737305
+J-lens,19,nearest-neighbour cosine,0.78,0.746582
+J-lens,19,nearest-neighbour cosine,0.8,0.755859
+J-lens,19,nearest-neighbour cosine,0.82,0.765137
+J-lens,19,nearest-neighbour cosine,0.84,0.773926
+J-lens,19,nearest-neighbour cosine,0.86,0.783203
+J-lens,19,nearest-neighbour cosine,0.88,0.79248
+J-lens,19,nearest-neighbour cosine,0.9,0.80127
+J-lens,19,nearest-neighbour cosine,0.92,0.810547
+J-lens,19,nearest-neighbour cosine,0.94,0.820801
+J-lens,19,nearest-neighbour cosine,0.96,0.833008
+J-lens,19,nearest-neighbour cosine,0.98,0.852539
+J-lens,19,nearest-neighbour cosine,0.99,0.873535
+J-lens,19,nearest-neighbour cosine,0.995,0.910156
+J-lens,19,nearest-neighbour cosine,0.999,1
+J-lens,19,nearest-neighbour cosine,0.9995,1
+J-lens,19,nearest-neighbour cosine,0.9999,1
+J-lens,19,nearest-neighbour cosine,1,1
+J-lens,19,eigenvalue,0,2.46635e-06
+J-lens,19,eigenvalue,0.02,0.00986648
+J-lens,19,eigenvalue,0.04,0.0252691
+J-lens,19,eigenvalue,0.06,0.040149
+J-lens,19,eigenvalue,0.08,0.0543384
+J-lens,19,eigenvalue,0.1,0.0678994
+J-lens,19,eigenvalue,0.12,0.0807508
+J-lens,19,eigenvalue,0.14,0.0932589
+J-lens,19,eigenvalue,0.16,0.105947
+J-lens,19,eigenvalue,0.18,0.118596
+J-lens,19,eigenvalue,0.2,0.131956
+J-lens,19,eigenvalue,0.22,0.145658
+J-lens,19,eigenvalue,0.24,0.15991
+J-lens,19,eigenvalue,0.26,0.174819
+J-lens,19,eigenvalue,0.28,0.190349
+J-lens,19,eigenvalue,0.3,0.206874
+J-lens,19,eigenvalue,0.32,0.224212
+J-lens,19,eigenvalue,0.34,0.242282
+J-lens,19,eigenvalue,0.36,0.261899
+J-lens,19,eigenvalue,0.38,0.282248
+J-lens,19,eigenvalue,0.4,0.303998
+J-lens,19,eigenvalue,0.42,0.327564
+J-lens,19,eigenvalue,0.44,0.352271
+J-lens,19,eigenvalue,0.46,0.378793
+J-lens,19,eigenvalue,0.48,0.40712
+J-lens,19,eigenvalue,0.5,0.437808
+J-lens,19,eigenvalue,0.52,0.471142
+J-lens,19,eigenvalue,0.54,0.506304
+J-lens,19,eigenvalue,0.56,0.54471
+J-lens,19,eigenvalue,0.58,0.585245
+J-lens,19,eigenvalue,0.6,0.629629
+J-lens,19,eigenvalue,0.62,0.677068
+J-lens,19,eigenvalue,0.64,0.728954
+J-lens,19,eigenvalue,0.66,0.785572
+J-lens,19,eigenvalue,0.68,0.845714
+J-lens,19,eigenvalue,0.7,0.913123
+J-lens,19,eigenvalue,0.72,0.988061
+J-lens,19,eigenvalue,0.74,1.06725
+J-lens,19,eigenvalue,0.76,1.15949
+J-lens,19,eigenvalue,0.78,1.25792
+J-lens,19,eigenvalue,0.8,1.3709
+J-lens,19,eigenvalue,0.82,1.50269
+J-lens,19,eigenvalue,0.84,1.6487
+J-lens,19,eigenvalue,0.86,1.82029
+J-lens,19,eigenvalue,0.88,2.03293
+J-lens,19,eigenvalue,0.9,2.29358
+J-lens,19,eigenvalue,0.92,2.61817
+J-lens,19,eigenvalue,0.94,3.07398
+J-lens,19,eigenvalue,0.96,3.78384
+J-lens,19,eigenvalue,0.98,5.219
+J-lens,19,eigenvalue,0.99,6.87323
+J-lens,19,eigenvalue,0.995,9.21184
+J-lens,19,eigenvalue,0.999,30.6243
+J-lens,19,eigenvalue,0.9995,49.761
+J-lens,19,eigenvalue,0.9999,96.3221
+J-lens,19,eigenvalue,1,113.331
+J-lens,20,nearest-neighbour cosine,0,0.118347
+J-lens,20,nearest-neighbour cosine,0.02,0.220947
+J-lens,20,nearest-neighbour cosine,0.04,0.253906
+J-lens,20,nearest-neighbour cosine,0.06,0.279297
+J-lens,20,nearest-neighbour cosine,0.08,0.302246
+J-lens,20,nearest-neighbour cosine,0.1,0.323242
+J-lens,20,nearest-neighbour cosine,0.12,0.343506
+J-lens,20,nearest-neighbour cosine,0.14,0.361816
+J-lens,20,nearest-neighbour cosine,0.16,0.379395
+J-lens,20,nearest-neighbour cosine,0.18,0.397461
+J-lens,20,nearest-neighbour cosine,0.2,0.413574
+J-lens,20,nearest-neighbour cosine,0.22,0.428735
+J-lens,20,nearest-neighbour cosine,0.24,0.443604
+J-lens,20,nearest-neighbour cosine,0.26,0.457031
+J-lens,20,nearest-neighbour cosine,0.28,0.470459
+J-lens,20,nearest-neighbour cosine,0.3,0.483398
+J-lens,20,nearest-neighbour cosine,0.32,0.496338
+J-lens,20,nearest-neighbour cosine,0.34,0.508789
+J-lens,20,nearest-neighbour cosine,0.36,0.521484
+J-lens,20,nearest-neighbour cosine,0.38,0.533203
+J-lens,20,nearest-neighbour cosine,0.4,0.54541
+J-lens,20,nearest-neighbour cosine,0.42,0.557617
+J-lens,20,nearest-neighbour cosine,0.44,0.568359
+J-lens,20,nearest-neighbour cosine,0.46,0.57959
+J-lens,20,nearest-neighbour cosine,0.48,0.59082
+J-lens,20,nearest-neighbour cosine,0.5,0.602539
+J-lens,20,nearest-neighbour cosine,0.52,0.614258
+J-lens,20,nearest-neighbour cosine,0.54,0.625488
+J-lens,20,nearest-neighbour cosine,0.56,0.636719
+J-lens,20,nearest-neighbour cosine,0.58,0.647461
+J-lens,20,nearest-neighbour cosine,0.6,0.658691
+J-lens,20,nearest-neighbour cosine,0.62,0.669434
+J-lens,20,nearest-neighbour cosine,0.64,0.680176
+J-lens,20,nearest-neighbour cosine,0.66,0.690918
+J-lens,20,nearest-neighbour cosine,0.68,0.701172
+J-lens,20,nearest-neighbour cosine,0.7,0.710938
+J-lens,20,nearest-neighbour cosine,0.72,0.721191
+J-lens,20,nearest-neighbour cosine,0.74,0.731445
+J-lens,20,nearest-neighbour cosine,0.76,0.740723
+J-lens,20,nearest-neighbour cosine,0.78,0.750488
+J-lens,20,nearest-neighbour cosine,0.8,0.759766
+J-lens,20,nearest-neighbour cosine,0.82,0.768555
+J-lens,20,nearest-neighbour cosine,0.84,0.777832
+J-lens,20,nearest-neighbour cosine,0.86,0.786621
+J-lens,20,nearest-neighbour cosine,0.88,0.79541
+J-lens,20,nearest-neighbour cosine,0.9,0.803711
+J-lens,20,nearest-neighbour cosine,0.92,0.8125
+J-lens,20,nearest-neighbour cosine,0.94,0.821777
+J-lens,20,nearest-neighbour cosine,0.96,0.833496
+J-lens,20,nearest-neighbour cosine,0.98,0.850098
+J-lens,20,nearest-neighbour cosine,0.99,0.868164
+J-lens,20,nearest-neighbour cosine,0.995,0.90332
+J-lens,20,nearest-neighbour cosine,0.999,1
+J-lens,20,nearest-neighbour cosine,0.9995,1
+J-lens,20,nearest-neighbour cosine,0.9999,1
+J-lens,20,nearest-neighbour cosine,1,1
+J-lens,20,eigenvalue,0,2.56161e-06
+J-lens,20,eigenvalue,0.02,0.0112871
+J-lens,20,eigenvalue,0.04,0.0295124
+J-lens,20,eigenvalue,0.06,0.0470884
+J-lens,20,eigenvalue,0.08,0.0638879
+J-lens,20,eigenvalue,0.1,0.0793006
+J-lens,20,eigenvalue,0.12,0.0940566
+J-lens,20,eigenvalue,0.14,0.108216
+J-lens,20,eigenvalue,0.16,0.122095
+J-lens,20,eigenvalue,0.18,0.136224
+J-lens,20,eigenvalue,0.2,0.150839
+J-lens,20,eigenvalue,0.22,0.165642
+J-lens,20,eigenvalue,0.24,0.181106
+J-lens,20,eigenvalue,0.26,0.196931
+J-lens,20,eigenvalue,0.28,0.213511
+J-lens,20,eigenvalue,0.3,0.231291
+J-lens,20,eigenvalue,0.32,0.24956
+J-lens,20,eigenvalue,0.34,0.268586
+J-lens,20,eigenvalue,0.36,0.289111
+J-lens,20,eigenvalue,0.38,0.310917
+J-lens,20,eigenvalue,0.4,0.334045
+J-lens,20,eigenvalue,0.42,0.357971
+J-lens,20,eigenvalue,0.44,0.384276
+J-lens,20,eigenvalue,0.46,0.412203
+J-lens,20,eigenvalue,0.48,0.442053
+J-lens,20,eigenvalue,0.5,0.473861
+J-lens,20,eigenvalue,0.52,0.507728
+J-lens,20,eigenvalue,0.54,0.544351
+J-lens,20,eigenvalue,0.56,0.583382
+J-lens,20,eigenvalue,0.58,0.625126
+J-lens,20,eigenvalue,0.6,0.669842
+J-lens,20,eigenvalue,0.62,0.718144
+J-lens,20,eigenvalue,0.64,0.771528
+J-lens,20,eigenvalue,0.66,0.829553
+J-lens,20,eigenvalue,0.68,0.891778
+J-lens,20,eigenvalue,0.7,0.958608
+J-lens,20,eigenvalue,0.72,1.03161
+J-lens,20,eigenvalue,0.74,1.11415
+J-lens,20,eigenvalue,0.76,1.20326
+J-lens,20,eigenvalue,0.78,1.30021
+J-lens,20,eigenvalue,0.8,1.41025
+J-lens,20,eigenvalue,0.82,1.5364
+J-lens,20,eigenvalue,0.84,1.68052
+J-lens,20,eigenvalue,0.86,1.84653
+J-lens,20,eigenvalue,0.88,2.04783
+J-lens,20,eigenvalue,0.9,2.29173
+J-lens,20,eigenvalue,0.92,2.60579
+J-lens,20,eigenvalue,0.94,3.03182
+J-lens,20,eigenvalue,0.96,3.69187
+J-lens,20,eigenvalue,0.98,4.96816
+J-lens,20,eigenvalue,0.99,6.62095
+J-lens,20,eigenvalue,0.995,8.67295
+J-lens,20,eigenvalue,0.999,27.1969
+J-lens,20,eigenvalue,0.9995,42.6142
+J-lens,20,eigenvalue,0.9999,82.7712
+J-lens,20,eigenvalue,1,94.5741
+J-lens,21,nearest-neighbour cosine,0,0.109619
+J-lens,21,nearest-neighbour cosine,0.02,0.216443
+J-lens,21,nearest-neighbour cosine,0.04,0.25
+J-lens,21,nearest-neighbour cosine,0.06,0.276123
+J-lens,21,nearest-neighbour cosine,0.08,0.298584
+J-lens,21,nearest-neighbour cosine,0.1,0.320068
+J-lens,21,nearest-neighbour cosine,0.12,0.339844
+J-lens,21,nearest-neighbour cosine,0.14,0.358154
+J-lens,21,nearest-neighbour cosine,0.16,0.375732
+J-lens,21,nearest-neighbour cosine,0.18,0.393555
+J-lens,21,nearest-neighbour cosine,0.2,0.409424
+J-lens,21,nearest-neighbour cosine,0.22,0.424561
+J-lens,21,nearest-neighbour cosine,0.24,0.439209
+J-lens,21,nearest-neighbour cosine,0.26,0.452881
+J-lens,21,nearest-neighbour cosine,0.28,0.466309
+J-lens,21,nearest-neighbour cosine,0.3,0.480225
+J-lens,21,nearest-neighbour cosine,0.32,0.493652
+J-lens,21,nearest-neighbour cosine,0.34,0.506348
+J-lens,21,nearest-neighbour cosine,0.36,0.519531
+J-lens,21,nearest-neighbour cosine,0.38,0.531738
+J-lens,21,nearest-neighbour cosine,0.4,0.543945
+J-lens,21,nearest-neighbour cosine,0.42,0.556152
+J-lens,21,nearest-neighbour cosine,0.44,0.56748
+J-lens,21,nearest-neighbour cosine,0.46,0.579102
+J-lens,21,nearest-neighbour cosine,0.48,0.590332
+J-lens,21,nearest-neighbour cosine,0.5,0.602539
+J-lens,21,nearest-neighbour cosine,0.52,0.614258
+J-lens,21,nearest-neighbour cosine,0.54,0.625977
+J-lens,21,nearest-neighbour cosine,0.56,0.636719
+J-lens,21,nearest-neighbour cosine,0.58,0.647949
+J-lens,21,nearest-neighbour cosine,0.6,0.658691
+J-lens,21,nearest-neighbour cosine,0.62,0.669922
+J-lens,21,nearest-neighbour cosine,0.64,0.680664
+J-lens,21,nearest-neighbour cosine,0.66,0.690918
+J-lens,21,nearest-neighbour cosine,0.68,0.702148
+J-lens,21,nearest-neighbour cosine,0.7,0.712402
+J-lens,21,nearest-neighbour cosine,0.72,0.722656
+J-lens,21,nearest-neighbour cosine,0.74,0.73291
+J-lens,21,nearest-neighbour cosine,0.76,0.741699
+J-lens,21,nearest-neighbour cosine,0.78,0.751465
+J-lens,21,nearest-neighbour cosine,0.8,0.760742
+J-lens,21,nearest-neighbour cosine,0.82,0.77002
+J-lens,21,nearest-neighbour cosine,0.84,0.778809
+J-lens,21,nearest-neighbour cosine,0.86,0.787109
+J-lens,21,nearest-neighbour cosine,0.88,0.79541
+J-lens,21,nearest-neighbour cosine,0.9,0.803711
+J-lens,21,nearest-neighbour cosine,0.92,0.8125
+J-lens,21,nearest-neighbour cosine,0.94,0.821631
+J-lens,21,nearest-neighbour cosine,0.96,0.83252
+J-lens,21,nearest-neighbour cosine,0.98,0.848145
+J-lens,21,nearest-neighbour cosine,0.99,0.865234
+J-lens,21,nearest-neighbour cosine,0.995,0.899768
+J-lens,21,nearest-neighbour cosine,0.999,1
+J-lens,21,nearest-neighbour cosine,0.9995,1
+J-lens,21,nearest-neighbour cosine,0.9999,1
+J-lens,21,nearest-neighbour cosine,1,1
+J-lens,21,eigenvalue,0,2.39223e-06
+J-lens,21,eigenvalue,0.02,0.0126561
+J-lens,21,eigenvalue,0.04,0.0342701
+J-lens,21,eigenvalue,0.06,0.0554343
+J-lens,21,eigenvalue,0.08,0.0757267
+J-lens,21,eigenvalue,0.1,0.0944489
+J-lens,21,eigenvalue,0.12,0.111685
+J-lens,21,eigenvalue,0.14,0.127994
+J-lens,21,eigenvalue,0.16,0.144362
+J-lens,21,eigenvalue,0.18,0.16086
+J-lens,21,eigenvalue,0.2,0.176987
+J-lens,21,eigenvalue,0.22,0.193525
+J-lens,21,eigenvalue,0.24,0.21065
+J-lens,21,eigenvalue,0.26,0.228204
+J-lens,21,eigenvalue,0.28,0.246428
+J-lens,21,eigenvalue,0.3,0.265519
+J-lens,21,eigenvalue,0.32,0.284947
+J-lens,21,eigenvalue,0.34,0.30585
+J-lens,21,eigenvalue,0.36,0.328193
+J-lens,21,eigenvalue,0.38,0.35128
+J-lens,21,eigenvalue,0.4,0.376362
+J-lens,21,eigenvalue,0.42,0.401732
+J-lens,21,eigenvalue,0.44,0.430125
+J-lens,21,eigenvalue,0.46,0.459432
+J-lens,21,eigenvalue,0.48,0.490984
+J-lens,21,eigenvalue,0.5,0.524583
+J-lens,21,eigenvalue,0.52,0.559919
+J-lens,21,eigenvalue,0.54,0.59807
+J-lens,21,eigenvalue,0.56,0.639617
+J-lens,21,eigenvalue,0.58,0.683403
+J-lens,21,eigenvalue,0.6,0.730783
+J-lens,21,eigenvalue,0.62,0.780557
+J-lens,21,eigenvalue,0.64,0.834969
+J-lens,21,eigenvalue,0.66,0.893804
+J-lens,21,eigenvalue,0.68,0.956138
+J-lens,21,eigenvalue,0.7,1.0248
+J-lens,21,eigenvalue,0.72,1.0996
+J-lens,21,eigenvalue,0.74,1.18005
+J-lens,21,eigenvalue,0.76,1.26783
+J-lens,21,eigenvalue,0.78,1.36172
+J-lens,21,eigenvalue,0.8,1.47261
+J-lens,21,eigenvalue,0.82,1.58942
+J-lens,21,eigenvalue,0.84,1.7239
+J-lens,21,eigenvalue,0.86,1.87807
+J-lens,21,eigenvalue,0.88,2.05801
+J-lens,21,eigenvalue,0.9,2.27546
+J-lens,21,eigenvalue,0.92,2.55208
+J-lens,21,eigenvalue,0.94,2.92731
+J-lens,21,eigenvalue,0.96,3.48645
+J-lens,21,eigenvalue,0.98,4.52628
+J-lens,21,eigenvalue,0.99,5.84502
+J-lens,21,eigenvalue,0.995,7.55108
+J-lens,21,eigenvalue,0.999,24.3459
+J-lens,21,eigenvalue,0.9995,38.5472
+J-lens,21,eigenvalue,0.9999,70.4842
+J-lens,21,eigenvalue,1,78.2316
+J-lens,22,nearest-neighbour cosine,0,0.103088
+J-lens,22,nearest-neighbour cosine,0.02,0.213867
+J-lens,22,nearest-neighbour cosine,0.04,0.247803
+J-lens,22,nearest-neighbour cosine,0.06,0.274414
+J-lens,22,nearest-neighbour cosine,0.08,0.297363
+J-lens,22,nearest-neighbour cosine,0.1,0.318359
+J-lens,22,nearest-neighbour cosine,0.12,0.337646
+J-lens,22,nearest-neighbour cosine,0.14,0.356201
+J-lens,22,nearest-neighbour cosine,0.16,0.374023
+J-lens,22,nearest-neighbour cosine,0.18,0.390869
+J-lens,22,nearest-neighbour cosine,0.2,0.406982
+J-lens,22,nearest-neighbour cosine,0.22,0.422363
+J-lens,22,nearest-neighbour cosine,0.24,0.436035
+J-lens,22,nearest-neighbour cosine,0.26,0.450195
+J-lens,22,nearest-neighbour cosine,0.28,0.464111
+J-lens,22,nearest-neighbour cosine,0.3,0.477783
+J-lens,22,nearest-neighbour cosine,0.32,0.491211
+J-lens,22,nearest-neighbour cosine,0.34,0.504883
+J-lens,22,nearest-neighbour cosine,0.36,0.518066
+J-lens,22,nearest-neighbour cosine,0.38,0.530762
+J-lens,22,nearest-neighbour cosine,0.4,0.542969
+J-lens,22,nearest-neighbour cosine,0.42,0.555176
+J-lens,22,nearest-neighbour cosine,0.44,0.567383
+J-lens,22,nearest-neighbour cosine,0.46,0.579102
+J-lens,22,nearest-neighbour cosine,0.48,0.59082
+J-lens,22,nearest-neighbour cosine,0.5,0.602539
+J-lens,22,nearest-neighbour cosine,0.52,0.614746
+J-lens,22,nearest-neighbour cosine,0.54,0.626465
+J-lens,22,nearest-neighbour cosine,0.56,0.637695
+J-lens,22,nearest-neighbour cosine,0.58,0.649414
+J-lens,22,nearest-neighbour cosine,0.6,0.660156
+J-lens,22,nearest-neighbour cosine,0.62,0.671875
+J-lens,22,nearest-neighbour cosine,0.64,0.683105
+J-lens,22,nearest-neighbour cosine,0.66,0.694336
+J-lens,22,nearest-neighbour cosine,0.68,0.705078
+J-lens,22,nearest-neighbour cosine,0.7,0.716309
+J-lens,22,nearest-neighbour cosine,0.72,0.727051
+J-lens,22,nearest-neighbour cosine,0.74,0.736816
+J-lens,22,nearest-neighbour cosine,0.76,0.746582
+J-lens,22,nearest-neighbour cosine,0.78,0.756836
+J-lens,22,nearest-neighbour cosine,0.8,0.766113
+J-lens,22,nearest-neighbour cosine,0.82,0.775391
+J-lens,22,nearest-neighbour cosine,0.84,0.78418
+J-lens,22,nearest-neighbour cosine,0.86,0.792969
+J-lens,22,nearest-neighbour cosine,0.88,0.801758
+J-lens,22,nearest-neighbour cosine,0.9,0.810059
+J-lens,22,nearest-neighbour cosine,0.92,0.818848
+J-lens,22,nearest-neighbour cosine,0.94,0.828125
+J-lens,22,nearest-neighbour cosine,0.96,0.838867
+J-lens,22,nearest-neighbour cosine,0.98,0.853516
+J-lens,22,nearest-neighbour cosine,0.99,0.867676
+J-lens,22,nearest-neighbour cosine,0.995,0.893066
+J-lens,22,nearest-neighbour cosine,0.999,1
+J-lens,22,nearest-neighbour cosine,0.9995,1
+J-lens,22,nearest-neighbour cosine,0.9999,1
+J-lens,22,nearest-neighbour cosine,1,1
+J-lens,22,eigenvalue,0,2.30395e-06
+J-lens,22,eigenvalue,0.02,0.0140345
+J-lens,22,eigenvalue,0.04,0.0375347
+J-lens,22,eigenvalue,0.06,0.0609913
+J-lens,22,eigenvalue,0.08,0.0832428
+J-lens,22,eigenvalue,0.1,0.104427
+J-lens,22,eigenvalue,0.12,0.123632
+J-lens,22,eigenvalue,0.14,0.141981
+J-lens,22,eigenvalue,0.16,0.160082
+J-lens,22,eigenvalue,0.18,0.178128
+J-lens,22,eigenvalue,0.2,0.195378
+J-lens,22,eigenvalue,0.22,0.213254
+J-lens,22,eigenvalue,0.24,0.23115
+J-lens,22,eigenvalue,0.26,0.250351
+J-lens,22,eigenvalue,0.28,0.269889
+J-lens,22,eigenvalue,0.3,0.289878
+J-lens,22,eigenvalue,0.32,0.310584
+J-lens,22,eigenvalue,0.34,0.332543
+J-lens,22,eigenvalue,0.36,0.355296
+J-lens,22,eigenvalue,0.38,0.37992
+J-lens,22,eigenvalue,0.4,0.405273
+J-lens,22,eigenvalue,0.42,0.432527
+J-lens,22,eigenvalue,0.44,0.460599
+J-lens,22,eigenvalue,0.46,0.491346
+J-lens,22,eigenvalue,0.48,0.523961
+J-lens,22,eigenvalue,0.5,0.557791
+J-lens,22,eigenvalue,0.52,0.594968
+J-lens,22,eigenvalue,0.54,0.63382
+J-lens,22,eigenvalue,0.56,0.676065
+J-lens,22,eigenvalue,0.58,0.720215
+J-lens,22,eigenvalue,0.6,0.76833
+J-lens,22,eigenvalue,0.62,0.820691
+J-lens,22,eigenvalue,0.64,0.875304
+J-lens,22,eigenvalue,0.66,0.934694
+J-lens,22,eigenvalue,0.68,0.997882
+J-lens,22,eigenvalue,0.7,1.06516
+J-lens,22,eigenvalue,0.72,1.14016
+J-lens,22,eigenvalue,0.74,1.21903
+J-lens,22,eigenvalue,0.76,1.30448
+J-lens,22,eigenvalue,0.78,1.40107
+J-lens,22,eigenvalue,0.8,1.50556
+J-lens,22,eigenvalue,0.82,1.62068
+J-lens,22,eigenvalue,0.84,1.74625
+J-lens,22,eigenvalue,0.86,1.8963
+J-lens,22,eigenvalue,0.88,2.06617
+J-lens,22,eigenvalue,0.9,2.26695
+J-lens,22,eigenvalue,0.92,2.51633
+J-lens,22,eigenvalue,0.94,2.85539
+J-lens,22,eigenvalue,0.96,3.36477
+J-lens,22,eigenvalue,0.98,4.31251
+J-lens,22,eigenvalue,0.99,5.55344
+J-lens,22,eigenvalue,0.995,7.0076
+J-lens,22,eigenvalue,0.999,20.0372
+J-lens,22,eigenvalue,0.9995,33.4211
+J-lens,22,eigenvalue,0.9999,60.2346
+J-lens,22,eigenvalue,1,69.0284
+J-lens,23,nearest-neighbour cosine,0,0.102783
+J-lens,23,nearest-neighbour cosine,0.02,0.213379
+J-lens,23,nearest-neighbour cosine,0.04,0.247925
+J-lens,23,nearest-neighbour cosine,0.06,0.274658
+J-lens,23,nearest-neighbour cosine,0.08,0.297363
+J-lens,23,nearest-neighbour cosine,0.1,0.318359
+J-lens,23,nearest-neighbour cosine,0.12,0.337891
+J-lens,23,nearest-neighbour cosine,0.14,0.356445
+J-lens,23,nearest-neighbour cosine,0.16,0.374023
+J-lens,23,nearest-neighbour cosine,0.18,0.390869
+J-lens,23,nearest-neighbour cosine,0.2,0.406982
+J-lens,23,nearest-neighbour cosine,0.22,0.421875
+J-lens,23,nearest-neighbour cosine,0.24,0.436035
+J-lens,23,nearest-neighbour cosine,0.26,0.449951
+J-lens,23,nearest-neighbour cosine,0.28,0.463867
+J-lens,23,nearest-neighbour cosine,0.3,0.477539
+J-lens,23,nearest-neighbour cosine,0.32,0.491211
+J-lens,23,nearest-neighbour cosine,0.34,0.504883
+J-lens,23,nearest-neighbour cosine,0.36,0.518555
+J-lens,23,nearest-neighbour cosine,0.38,0.530762
+J-lens,23,nearest-neighbour cosine,0.4,0.543457
+J-lens,23,nearest-neighbour cosine,0.42,0.555664
+J-lens,23,nearest-neighbour cosine,0.44,0.568359
+J-lens,23,nearest-neighbour cosine,0.46,0.580078
+J-lens,23,nearest-neighbour cosine,0.48,0.591797
+J-lens,23,nearest-neighbour cosine,0.5,0.604004
+J-lens,23,nearest-neighbour cosine,0.52,0.616211
+J-lens,23,nearest-neighbour cosine,0.54,0.627441
+J-lens,23,nearest-neighbour cosine,0.56,0.63916
+J-lens,23,nearest-neighbour cosine,0.58,0.650391
+J-lens,23,nearest-neighbour cosine,0.6,0.661621
+J-lens,23,nearest-neighbour cosine,0.62,0.672852
+J-lens,23,nearest-neighbour cosine,0.64,0.684082
+J-lens,23,nearest-neighbour cosine,0.66,0.695312
+J-lens,23,nearest-neighbour cosine,0.68,0.706055
+J-lens,23,nearest-neighbour cosine,0.7,0.716797
+J-lens,23,nearest-neighbour cosine,0.72,0.727539
+J-lens,23,nearest-neighbour cosine,0.74,0.737305
+J-lens,23,nearest-neighbour cosine,0.76,0.74707
+J-lens,23,nearest-neighbour cosine,0.78,0.756348
+J-lens,23,nearest-neighbour cosine,0.8,0.765625
+J-lens,23,nearest-neighbour cosine,0.82,0.774902
+J-lens,23,nearest-neighbour cosine,0.84,0.783691
+J-lens,23,nearest-neighbour cosine,0.86,0.79248
+J-lens,23,nearest-neighbour cosine,0.88,0.800781
+J-lens,23,nearest-neighbour cosine,0.9,0.809082
+J-lens,23,nearest-neighbour cosine,0.92,0.817871
+J-lens,23,nearest-neighbour cosine,0.94,0.82666
+J-lens,23,nearest-neighbour cosine,0.96,0.837891
+J-lens,23,nearest-neighbour cosine,0.98,0.852051
+J-lens,23,nearest-neighbour cosine,0.99,0.866699
+J-lens,23,nearest-neighbour cosine,0.995,0.888672
+J-lens,23,nearest-neighbour cosine,0.999,1
+J-lens,23,nearest-neighbour cosine,0.9995,1
+J-lens,23,nearest-neighbour cosine,0.9999,1
+J-lens,23,nearest-neighbour cosine,1,1
+J-lens,23,eigenvalue,0,2.1734e-06
+J-lens,23,eigenvalue,0.02,0.0153531
+J-lens,23,eigenvalue,0.04,0.0408489
+J-lens,23,eigenvalue,0.06,0.0661573
+J-lens,23,eigenvalue,0.08,0.0898409
+J-lens,23,eigenvalue,0.1,0.11325
+J-lens,23,eigenvalue,0.12,0.134237
+J-lens,23,eigenvalue,0.14,0.154414
+J-lens,23,eigenvalue,0.16,0.174002
+J-lens,23,eigenvalue,0.18,0.192296
+J-lens,23,eigenvalue,0.2,0.211211
+J-lens,23,eigenvalue,0.22,0.229606
+J-lens,23,eigenvalue,0.24,0.248549
+J-lens,23,eigenvalue,0.26,0.268041
+J-lens,23,eigenvalue,0.28,0.288348
+J-lens,23,eigenvalue,0.3,0.308413
+J-lens,23,eigenvalue,0.32,0.330018
+J-lens,23,eigenvalue,0.34,0.351858
+J-lens,23,eigenvalue,0.36,0.375042
+J-lens,23,eigenvalue,0.38,0.399204
+J-lens,23,eigenvalue,0.4,0.425117
+J-lens,23,eigenvalue,0.42,0.452149
+J-lens,23,eigenvalue,0.44,0.480425
+J-lens,23,eigenvalue,0.46,0.510758
+J-lens,23,eigenvalue,0.48,0.542444
+J-lens,23,eigenvalue,0.5,0.577265
+J-lens,23,eigenvalue,0.52,0.613107
+J-lens,23,eigenvalue,0.54,0.651906
+J-lens,23,eigenvalue,0.56,0.692927
+J-lens,23,eigenvalue,0.58,0.737364
+J-lens,23,eigenvalue,0.6,0.784282
+J-lens,23,eigenvalue,0.62,0.835244
+J-lens,23,eigenvalue,0.64,0.890251
+J-lens,23,eigenvalue,0.66,0.948207
+J-lens,23,eigenvalue,0.68,1.01041
+J-lens,23,eigenvalue,0.7,1.07848
+J-lens,23,eigenvalue,0.72,1.15091
+J-lens,23,eigenvalue,0.74,1.22924
+J-lens,23,eigenvalue,0.76,1.31355
+J-lens,23,eigenvalue,0.78,1.40797
+J-lens,23,eigenvalue,0.8,1.50963
+J-lens,23,eigenvalue,0.82,1.62027
+J-lens,23,eigenvalue,0.84,1.74904
+J-lens,23,eigenvalue,0.86,1.8891
+J-lens,23,eigenvalue,0.88,2.05088
+J-lens,23,eigenvalue,0.9,2.24144
+J-lens,23,eigenvalue,0.92,2.48202
+J-lens,23,eigenvalue,0.94,2.80067
+J-lens,23,eigenvalue,0.96,3.29728
+J-lens,23,eigenvalue,0.98,4.22739
+J-lens,23,eigenvalue,0.99,5.35237
+J-lens,23,eigenvalue,0.995,6.8503
+J-lens,23,eigenvalue,0.999,19.2541
+J-lens,23,eigenvalue,0.9995,33.2354
+J-lens,23,eigenvalue,0.9999,56.1324
+J-lens,23,eigenvalue,1,63.6009
+J-lens,24,nearest-neighbour cosine,0,0.101135
+J-lens,24,nearest-neighbour cosine,0.02,0.213135
+J-lens,24,nearest-neighbour cosine,0.04,0.247559
+J-lens,24,nearest-neighbour cosine,0.06,0.274414
+J-lens,24,nearest-neighbour cosine,0.08,0.296631
+J-lens,24,nearest-neighbour cosine,0.1,0.317383
+J-lens,24,nearest-neighbour cosine,0.12,0.33667
+J-lens,24,nearest-neighbour cosine,0.14,0.355225
+J-lens,24,nearest-neighbour cosine,0.16,0.372559
+J-lens,24,nearest-neighbour cosine,0.18,0.389893
+J-lens,24,nearest-neighbour cosine,0.2,0.405518
+J-lens,24,nearest-neighbour cosine,0.22,0.420654
+J-lens,24,nearest-neighbour cosine,0.24,0.434814
+J-lens,24,nearest-neighbour cosine,0.26,0.447998
+J-lens,24,nearest-neighbour cosine,0.28,0.461914
+J-lens,24,nearest-neighbour cosine,0.3,0.47583
+J-lens,24,nearest-neighbour cosine,0.32,0.489502
+J-lens,24,nearest-neighbour cosine,0.34,0.503418
+J-lens,24,nearest-neighbour cosine,0.36,0.516602
+J-lens,24,nearest-neighbour cosine,0.38,0.529785
+J-lens,24,nearest-neighbour cosine,0.4,0.54248
+J-lens,24,nearest-neighbour cosine,0.42,0.554688
+J-lens,24,nearest-neighbour cosine,0.44,0.567383
+J-lens,24,nearest-neighbour cosine,0.46,0.57959
+J-lens,24,nearest-neighbour cosine,0.48,0.591309
+J-lens,24,nearest-neighbour cosine,0.5,0.603516
+J-lens,24,nearest-neighbour cosine,0.52,0.615723
+J-lens,24,nearest-neighbour cosine,0.54,0.62793
+J-lens,24,nearest-neighbour cosine,0.56,0.63916
+J-lens,24,nearest-neighbour cosine,0.58,0.650391
+J-lens,24,nearest-neighbour cosine,0.6,0.661621
+J-lens,24,nearest-neighbour cosine,0.62,0.672852
+J-lens,24,nearest-neighbour cosine,0.64,0.684082
+J-lens,24,nearest-neighbour cosine,0.66,0.695801
+J-lens,24,nearest-neighbour cosine,0.68,0.706543
+J-lens,24,nearest-neighbour cosine,0.7,0.716797
+J-lens,24,nearest-neighbour cosine,0.72,0.727539
+J-lens,24,nearest-neighbour cosine,0.74,0.738281
+J-lens,24,nearest-neighbour cosine,0.76,0.747559
+J-lens,24,nearest-neighbour cosine,0.78,0.756836
+J-lens,24,nearest-neighbour cosine,0.8,0.766113
+J-lens,24,nearest-neighbour cosine,0.82,0.775391
+J-lens,24,nearest-neighbour cosine,0.84,0.78418
+J-lens,24,nearest-neighbour cosine,0.86,0.792969
+J-lens,24,nearest-neighbour cosine,0.88,0.801758
+J-lens,24,nearest-neighbour cosine,0.9,0.80957
+J-lens,24,nearest-neighbour cosine,0.92,0.818848
+J-lens,24,nearest-neighbour cosine,0.94,0.828125
+J-lens,24,nearest-neighbour cosine,0.96,0.838867
+J-lens,24,nearest-neighbour cosine,0.98,0.853516
+J-lens,24,nearest-neighbour cosine,0.99,0.867188
+J-lens,24,nearest-neighbour cosine,0.995,0.89209
+J-lens,24,nearest-neighbour cosine,0.999,1
+J-lens,24,nearest-neighbour cosine,0.9995,1
+J-lens,24,nearest-neighbour cosine,0.9999,1
+J-lens,24,nearest-neighbour cosine,1,1
+J-lens,24,eigenvalue,0,1.89564e-06
+J-lens,24,eigenvalue,0.02,0.016421
+J-lens,24,eigenvalue,0.04,0.0437656
+J-lens,24,eigenvalue,0.06,0.0707932
+J-lens,24,eigenvalue,0.08,0.0961331
+J-lens,24,eigenvalue,0.1,0.120656
+J-lens,24,eigenvalue,0.12,0.143536
+J-lens,24,eigenvalue,0.14,0.164782
+J-lens,24,eigenvalue,0.16,0.185336
+J-lens,24,eigenvalue,0.18,0.205143
+J-lens,24,eigenvalue,0.2,0.224464
+J-lens,24,eigenvalue,0.22,0.243863
+J-lens,24,eigenvalue,0.24,0.262752
+J-lens,24,eigenvalue,0.26,0.283016
+J-lens,24,eigenvalue,0.28,0.303705
+J-lens,24,eigenvalue,0.3,0.324057
+J-lens,24,eigenvalue,0.32,0.345792
+J-lens,24,eigenvalue,0.34,0.368011
+J-lens,24,eigenvalue,0.36,0.39146
+J-lens,24,eigenvalue,0.38,0.415961
+J-lens,24,eigenvalue,0.4,0.440918
+J-lens,24,eigenvalue,0.42,0.468124
+J-lens,24,eigenvalue,0.44,0.49653
+J-lens,24,eigenvalue,0.46,0.526354
+J-lens,24,eigenvalue,0.48,0.557776
+J-lens,24,eigenvalue,0.5,0.59132
+J-lens,24,eigenvalue,0.52,0.627315
+J-lens,24,eigenvalue,0.54,0.66628
+J-lens,24,eigenvalue,0.56,0.706682
+J-lens,24,eigenvalue,0.58,0.75037
+J-lens,24,eigenvalue,0.6,0.796555
+J-lens,24,eigenvalue,0.62,0.847373
+J-lens,24,eigenvalue,0.64,0.901318
+J-lens,24,eigenvalue,0.66,0.959357
+J-lens,24,eigenvalue,0.68,1.02105
+J-lens,24,eigenvalue,0.7,1.08825
+J-lens,24,eigenvalue,0.72,1.15983
+J-lens,24,eigenvalue,0.74,1.2384
+J-lens,24,eigenvalue,0.76,1.32247
+J-lens,24,eigenvalue,0.78,1.41412
+J-lens,24,eigenvalue,0.8,1.51343
+J-lens,24,eigenvalue,0.82,1.62284
+J-lens,24,eigenvalue,0.84,1.74204
+J-lens,24,eigenvalue,0.86,1.8822
+J-lens,24,eigenvalue,0.88,2.03534
+J-lens,24,eigenvalue,0.9,2.22187
+J-lens,24,eigenvalue,0.92,2.44727
+J-lens,24,eigenvalue,0.94,2.75237
+J-lens,24,eigenvalue,0.96,3.22614
+J-lens,24,eigenvalue,0.98,4.12594
+J-lens,24,eigenvalue,0.99,5.1649
+J-lens,24,eigenvalue,0.995,6.75962
+J-lens,24,eigenvalue,0.999,18.115
+J-lens,24,eigenvalue,0.9995,30.3301
+J-lens,24,eigenvalue,0.9999,54.8265
+J-lens,24,eigenvalue,1,61.1321
+J-lens,25,nearest-neighbour cosine,0,0.0952759
+J-lens,25,nearest-neighbour cosine,0.02,0.212769
+J-lens,25,nearest-neighbour cosine,0.04,0.247192
+J-lens,25,nearest-neighbour cosine,0.06,0.273926
+J-lens,25,nearest-neighbour cosine,0.08,0.296143
+J-lens,25,nearest-neighbour cosine,0.1,0.31665
+J-lens,25,nearest-neighbour cosine,0.12,0.335938
+J-lens,25,nearest-neighbour cosine,0.14,0.354004
+J-lens,25,nearest-neighbour cosine,0.16,0.371338
+J-lens,25,nearest-neighbour cosine,0.18,0.388184
+J-lens,25,nearest-neighbour cosine,0.2,0.404053
+J-lens,25,nearest-neighbour cosine,0.22,0.418701
+J-lens,25,nearest-neighbour cosine,0.24,0.433105
+J-lens,25,nearest-neighbour cosine,0.26,0.446777
+J-lens,25,nearest-neighbour cosine,0.28,0.460205
+J-lens,25,nearest-neighbour cosine,0.3,0.473633
+J-lens,25,nearest-neighbour cosine,0.32,0.487305
+J-lens,25,nearest-neighbour cosine,0.34,0.500977
+J-lens,25,nearest-neighbour cosine,0.36,0.51416
+J-lens,25,nearest-neighbour cosine,0.38,0.526855
+J-lens,25,nearest-neighbour cosine,0.4,0.540039
+J-lens,25,nearest-neighbour cosine,0.42,0.552246
+J-lens,25,nearest-neighbour cosine,0.44,0.564453
+J-lens,25,nearest-neighbour cosine,0.46,0.57666
+J-lens,25,nearest-neighbour cosine,0.48,0.588867
+J-lens,25,nearest-neighbour cosine,0.5,0.600586
+J-lens,25,nearest-neighbour cosine,0.52,0.612305
+J-lens,25,nearest-neighbour cosine,0.54,0.624512
+J-lens,25,nearest-neighbour cosine,0.56,0.635742
+J-lens,25,nearest-neighbour cosine,0.58,0.646484
+J-lens,25,nearest-neighbour cosine,0.6,0.657227
+J-lens,25,nearest-neighbour cosine,0.62,0.668945
+J-lens,25,nearest-neighbour cosine,0.64,0.679688
+J-lens,25,nearest-neighbour cosine,0.66,0.690918
+J-lens,25,nearest-neighbour cosine,0.68,0.702148
+J-lens,25,nearest-neighbour cosine,0.7,0.712402
+J-lens,25,nearest-neighbour cosine,0.72,0.723145
+J-lens,25,nearest-neighbour cosine,0.74,0.733398
+J-lens,25,nearest-neighbour cosine,0.76,0.743652
+J-lens,25,nearest-neighbour cosine,0.78,0.75293
+J-lens,25,nearest-neighbour cosine,0.8,0.762695
+J-lens,25,nearest-neighbour cosine,0.82,0.771484
+J-lens,25,nearest-neighbour cosine,0.84,0.780762
+J-lens,25,nearest-neighbour cosine,0.86,0.790039
+J-lens,25,nearest-neighbour cosine,0.88,0.798828
+J-lens,25,nearest-neighbour cosine,0.9,0.807129
+J-lens,25,nearest-neighbour cosine,0.92,0.815918
+J-lens,25,nearest-neighbour cosine,0.94,0.825684
+J-lens,25,nearest-neighbour cosine,0.96,0.837402
+J-lens,25,nearest-neighbour cosine,0.98,0.853027
+J-lens,25,nearest-neighbour cosine,0.99,0.866699
+J-lens,25,nearest-neighbour cosine,0.995,0.88916
+J-lens,25,nearest-neighbour cosine,0.999,1
+J-lens,25,nearest-neighbour cosine,0.9995,1
+J-lens,25,nearest-neighbour cosine,0.9999,1
+J-lens,25,nearest-neighbour cosine,1,1
+J-lens,25,eigenvalue,0,1.59229e-06
+J-lens,25,eigenvalue,0.02,0.0177451
+J-lens,25,eigenvalue,0.04,0.0478117
+J-lens,25,eigenvalue,0.06,0.0772532
+J-lens,25,eigenvalue,0.08,0.104231
+J-lens,25,eigenvalue,0.1,0.131003
+J-lens,25,eigenvalue,0.12,0.155155
+J-lens,25,eigenvalue,0.14,0.17825
+J-lens,25,eigenvalue,0.16,0.199618
+J-lens,25,eigenvalue,0.18,0.220826
+J-lens,25,eigenvalue,0.2,0.240683
+J-lens,25,eigenvalue,0.22,0.260373
+J-lens,25,eigenvalue,0.24,0.281121
+J-lens,25,eigenvalue,0.26,0.301473
+J-lens,25,eigenvalue,0.28,0.322252
+J-lens,25,eigenvalue,0.3,0.342907
+J-lens,25,eigenvalue,0.32,0.364794
+J-lens,25,eigenvalue,0.34,0.387158
+J-lens,25,eigenvalue,0.36,0.410303
+J-lens,25,eigenvalue,0.38,0.434858
+J-lens,25,eigenvalue,0.4,0.459775
+J-lens,25,eigenvalue,0.42,0.486352
+J-lens,25,eigenvalue,0.44,0.513914
+J-lens,25,eigenvalue,0.46,0.543135
+J-lens,25,eigenvalue,0.48,0.574711
+J-lens,25,eigenvalue,0.5,0.606518
+J-lens,25,eigenvalue,0.52,0.641889
+J-lens,25,eigenvalue,0.54,0.678538
+J-lens,25,eigenvalue,0.56,0.71766
+J-lens,25,eigenvalue,0.58,0.760963
+J-lens,25,eigenvalue,0.6,0.805721
+J-lens,25,eigenvalue,0.62,0.854789
+J-lens,25,eigenvalue,0.64,0.907605
+J-lens,25,eigenvalue,0.66,0.96353
+J-lens,25,eigenvalue,0.68,1.02334
+J-lens,25,eigenvalue,0.7,1.08822
+J-lens,25,eigenvalue,0.72,1.15889
+J-lens,25,eigenvalue,0.74,1.23385
+J-lens,25,eigenvalue,0.76,1.3153
+J-lens,25,eigenvalue,0.78,1.40353
+J-lens,25,eigenvalue,0.8,1.49862
+J-lens,25,eigenvalue,0.82,1.60552
+J-lens,25,eigenvalue,0.84,1.72272
+J-lens,25,eigenvalue,0.86,1.85429
+J-lens,25,eigenvalue,0.88,2.00192
+J-lens,25,eigenvalue,0.9,2.17797
+J-lens,25,eigenvalue,0.92,2.397
+J-lens,25,eigenvalue,0.94,2.69804
+J-lens,25,eigenvalue,0.96,3.15761
+J-lens,25,eigenvalue,0.98,4.07466
+J-lens,25,eigenvalue,0.99,5.06078
+J-lens,25,eigenvalue,0.995,6.88079
+J-lens,25,eigenvalue,0.999,18.31
+J-lens,25,eigenvalue,0.9995,30.0017
+J-lens,25,eigenvalue,0.9999,53.0183
+J-lens,25,eigenvalue,1,59.2883
+J-lens,26,nearest-neighbour cosine,0,0.100769
+J-lens,26,nearest-neighbour cosine,0.02,0.213623
+J-lens,26,nearest-neighbour cosine,0.04,0.248291
+J-lens,26,nearest-neighbour cosine,0.06,0.275146
+J-lens,26,nearest-neighbour cosine,0.08,0.297217
+J-lens,26,nearest-neighbour cosine,0.1,0.317627
+J-lens,26,nearest-neighbour cosine,0.12,0.336426
+J-lens,26,nearest-neighbour cosine,0.14,0.354004
+J-lens,26,nearest-neighbour cosine,0.16,0.371582
+J-lens,26,nearest-neighbour cosine,0.18,0.388184
+J-lens,26,nearest-neighbour cosine,0.2,0.403809
+J-lens,26,nearest-neighbour cosine,0.22,0.418213
+J-lens,26,nearest-neighbour cosine,0.24,0.432373
+J-lens,26,nearest-neighbour cosine,0.26,0.446045
+J-lens,26,nearest-neighbour cosine,0.28,0.458984
+J-lens,26,nearest-neighbour cosine,0.3,0.472656
+J-lens,26,nearest-neighbour cosine,0.32,0.485596
+J-lens,26,nearest-neighbour cosine,0.34,0.499268
+J-lens,26,nearest-neighbour cosine,0.36,0.512207
+J-lens,26,nearest-neighbour cosine,0.38,0.525391
+J-lens,26,nearest-neighbour cosine,0.4,0.537598
+J-lens,26,nearest-neighbour cosine,0.42,0.549805
+J-lens,26,nearest-neighbour cosine,0.44,0.562012
+J-lens,26,nearest-neighbour cosine,0.46,0.574219
+J-lens,26,nearest-neighbour cosine,0.48,0.585938
+J-lens,26,nearest-neighbour cosine,0.5,0.598145
+J-lens,26,nearest-neighbour cosine,0.52,0.609863
+J-lens,26,nearest-neighbour cosine,0.54,0.621094
+J-lens,26,nearest-neighbour cosine,0.56,0.632324
+J-lens,26,nearest-neighbour cosine,0.58,0.643066
+J-lens,26,nearest-neighbour cosine,0.6,0.653809
+J-lens,26,nearest-neighbour cosine,0.62,0.664551
+J-lens,26,nearest-neighbour cosine,0.64,0.675293
+J-lens,26,nearest-neighbour cosine,0.66,0.686035
+J-lens,26,nearest-neighbour cosine,0.68,0.696289
+J-lens,26,nearest-neighbour cosine,0.7,0.707031
+J-lens,26,nearest-neighbour cosine,0.72,0.717285
+J-lens,26,nearest-neighbour cosine,0.74,0.727051
+J-lens,26,nearest-neighbour cosine,0.76,0.736328
+J-lens,26,nearest-neighbour cosine,0.78,0.746094
+J-lens,26,nearest-neighbour cosine,0.8,0.755371
+J-lens,26,nearest-neighbour cosine,0.82,0.76416
+J-lens,26,nearest-neighbour cosine,0.84,0.773438
+J-lens,26,nearest-neighbour cosine,0.86,0.781738
+J-lens,26,nearest-neighbour cosine,0.88,0.790039
+J-lens,26,nearest-neighbour cosine,0.9,0.798828
+J-lens,26,nearest-neighbour cosine,0.92,0.807617
+J-lens,26,nearest-neighbour cosine,0.94,0.817383
+J-lens,26,nearest-neighbour cosine,0.96,0.828613
+J-lens,26,nearest-neighbour cosine,0.98,0.844727
+J-lens,26,nearest-neighbour cosine,0.99,0.859375
+J-lens,26,nearest-neighbour cosine,0.995,0.882812
+J-lens,26,nearest-neighbour cosine,0.999,1
+J-lens,26,nearest-neighbour cosine,0.9995,1
+J-lens,26,nearest-neighbour cosine,0.9999,1
+J-lens,26,nearest-neighbour cosine,1,1
+J-lens,26,eigenvalue,0,1.83313e-06
+J-lens,26,eigenvalue,0.02,0.0216458
+J-lens,26,eigenvalue,0.04,0.0573737
+J-lens,26,eigenvalue,0.06,0.0909113
+J-lens,26,eigenvalue,0.08,0.121191
+J-lens,26,eigenvalue,0.1,0.149544
+J-lens,26,eigenvalue,0.12,0.176443
+J-lens,26,eigenvalue,0.14,0.20078
+J-lens,26,eigenvalue,0.16,0.2237
+J-lens,26,eigenvalue,0.18,0.245121
+J-lens,26,eigenvalue,0.2,0.267068
+J-lens,26,eigenvalue,0.22,0.287331
+J-lens,26,eigenvalue,0.24,0.307963
+J-lens,26,eigenvalue,0.26,0.32886
+J-lens,26,eigenvalue,0.28,0.349309
+J-lens,26,eigenvalue,0.3,0.370838
+J-lens,26,eigenvalue,0.32,0.391845
+J-lens,26,eigenvalue,0.34,0.413716
+J-lens,26,eigenvalue,0.36,0.436586
+J-lens,26,eigenvalue,0.38,0.459345
+J-lens,26,eigenvalue,0.4,0.483451
+J-lens,26,eigenvalue,0.42,0.508401
+J-lens,26,eigenvalue,0.44,0.534884
+J-lens,26,eigenvalue,0.46,0.561342
+J-lens,26,eigenvalue,0.48,0.591045
+J-lens,26,eigenvalue,0.5,0.620377
+J-lens,26,eigenvalue,0.52,0.652098
+J-lens,26,eigenvalue,0.54,0.686335
+J-lens,26,eigenvalue,0.56,0.721288
+J-lens,26,eigenvalue,0.58,0.759585
+J-lens,26,eigenvalue,0.6,0.801095
+J-lens,26,eigenvalue,0.62,0.846503
+J-lens,26,eigenvalue,0.64,0.89415
+J-lens,26,eigenvalue,0.66,0.944426
+J-lens,26,eigenvalue,0.68,1.00063
+J-lens,26,eigenvalue,0.7,1.0614
+J-lens,26,eigenvalue,0.72,1.12838
+J-lens,26,eigenvalue,0.74,1.20124
+J-lens,26,eigenvalue,0.76,1.28009
+J-lens,26,eigenvalue,0.78,1.36616
+J-lens,26,eigenvalue,0.8,1.4631
+J-lens,26,eigenvalue,0.82,1.56848
+J-lens,26,eigenvalue,0.84,1.68389
+J-lens,26,eigenvalue,0.86,1.81443
+J-lens,26,eigenvalue,0.88,1.96492
+J-lens,26,eigenvalue,0.9,2.14406
+J-lens,26,eigenvalue,0.92,2.36396
+J-lens,26,eigenvalue,0.94,2.66247
+J-lens,26,eigenvalue,0.96,3.15281
+J-lens,26,eigenvalue,0.98,4.0747
+J-lens,26,eigenvalue,0.99,5.03419
+J-lens,26,eigenvalue,0.995,6.58808
+J-lens,26,eigenvalue,0.999,18.6393
+J-lens,26,eigenvalue,0.9995,29.6074
+J-lens,26,eigenvalue,0.9999,54.4762
+J-lens,26,eigenvalue,1,60.1543
+J-lens,27,nearest-neighbour cosine,0,0.106445
+J-lens,27,nearest-neighbour cosine,0.02,0.212891
+J-lens,27,nearest-neighbour cosine,0.04,0.247681
+J-lens,27,nearest-neighbour cosine,0.06,0.274902
+J-lens,27,nearest-neighbour cosine,0.08,0.296875
+J-lens,27,nearest-neighbour cosine,0.1,0.317139
+J-lens,27,nearest-neighbour cosine,0.12,0.335449
+J-lens,27,nearest-neighbour cosine,0.14,0.353516
+J-lens,27,nearest-neighbour cosine,0.16,0.370605
+J-lens,27,nearest-neighbour cosine,0.18,0.386719
+J-lens,27,nearest-neighbour cosine,0.2,0.402588
+J-lens,27,nearest-neighbour cosine,0.22,0.416992
+J-lens,27,nearest-neighbour cosine,0.24,0.430664
+J-lens,27,nearest-neighbour cosine,0.26,0.444336
+J-lens,27,nearest-neighbour cosine,0.28,0.45752
+J-lens,27,nearest-neighbour cosine,0.3,0.471191
+J-lens,27,nearest-neighbour cosine,0.32,0.484131
+J-lens,27,nearest-neighbour cosine,0.34,0.497314
+J-lens,27,nearest-neighbour cosine,0.36,0.510742
+J-lens,27,nearest-neighbour cosine,0.38,0.523438
+J-lens,27,nearest-neighbour cosine,0.4,0.536621
+J-lens,27,nearest-neighbour cosine,0.42,0.548828
+J-lens,27,nearest-neighbour cosine,0.44,0.561035
+J-lens,27,nearest-neighbour cosine,0.46,0.572754
+J-lens,27,nearest-neighbour cosine,0.48,0.584961
+J-lens,27,nearest-neighbour cosine,0.5,0.597168
+J-lens,27,nearest-neighbour cosine,0.52,0.608887
+J-lens,27,nearest-neighbour cosine,0.54,0.620117
+J-lens,27,nearest-neighbour cosine,0.56,0.631836
+J-lens,27,nearest-neighbour cosine,0.58,0.642578
+J-lens,27,nearest-neighbour cosine,0.6,0.653809
+J-lens,27,nearest-neighbour cosine,0.62,0.664062
+J-lens,27,nearest-neighbour cosine,0.64,0.674805
+J-lens,27,nearest-neighbour cosine,0.66,0.685547
+J-lens,27,nearest-neighbour cosine,0.68,0.696777
+J-lens,27,nearest-neighbour cosine,0.7,0.707031
+J-lens,27,nearest-neighbour cosine,0.72,0.717773
+J-lens,27,nearest-neighbour cosine,0.74,0.728027
+J-lens,27,nearest-neighbour cosine,0.76,0.738281
+J-lens,27,nearest-neighbour cosine,0.78,0.748535
+J-lens,27,nearest-neighbour cosine,0.8,0.758301
+J-lens,27,nearest-neighbour cosine,0.82,0.767578
+J-lens,27,nearest-neighbour cosine,0.84,0.777344
+J-lens,27,nearest-neighbour cosine,0.86,0.786133
+J-lens,27,nearest-neighbour cosine,0.88,0.795898
+J-lens,27,nearest-neighbour cosine,0.9,0.805664
+J-lens,27,nearest-neighbour cosine,0.92,0.815918
+J-lens,27,nearest-neighbour cosine,0.94,0.827148
+J-lens,27,nearest-neighbour cosine,0.96,0.84082
+J-lens,27,nearest-neighbour cosine,0.98,0.85791
+J-lens,27,nearest-neighbour cosine,0.99,0.874023
+J-lens,27,nearest-neighbour cosine,0.995,0.888672
+J-lens,27,nearest-neighbour cosine,0.999,1
+J-lens,27,nearest-neighbour cosine,0.9995,1
+J-lens,27,nearest-neighbour cosine,0.9999,1
+J-lens,27,nearest-neighbour cosine,1,1
+J-lens,27,eigenvalue,0,1.75527e-06
+J-lens,27,eigenvalue,0.02,0.0259731
+J-lens,27,eigenvalue,0.04,0.0681076
+J-lens,27,eigenvalue,0.06,0.104928
+J-lens,27,eigenvalue,0.08,0.139266
+J-lens,27,eigenvalue,0.1,0.170761
+J-lens,27,eigenvalue,0.12,0.199422
+J-lens,27,eigenvalue,0.14,0.225207
+J-lens,27,eigenvalue,0.16,0.249806
+J-lens,27,eigenvalue,0.18,0.273281
+J-lens,27,eigenvalue,0.2,0.295158
+J-lens,27,eigenvalue,0.22,0.316971
+J-lens,27,eigenvalue,0.24,0.337881
+J-lens,27,eigenvalue,0.26,0.359091
+J-lens,27,eigenvalue,0.28,0.380068
+J-lens,27,eigenvalue,0.3,0.401321
+J-lens,27,eigenvalue,0.32,0.421883
+J-lens,27,eigenvalue,0.34,0.443681
+J-lens,27,eigenvalue,0.36,0.465678
+J-lens,27,eigenvalue,0.38,0.488072
+J-lens,27,eigenvalue,0.4,0.511093
+J-lens,27,eigenvalue,0.42,0.535264
+J-lens,27,eigenvalue,0.44,0.55985
+J-lens,27,eigenvalue,0.46,0.585309
+J-lens,27,eigenvalue,0.48,0.611723
+J-lens,27,eigenvalue,0.5,0.639579
+J-lens,27,eigenvalue,0.52,0.669527
+J-lens,27,eigenvalue,0.54,0.701074
+J-lens,27,eigenvalue,0.56,0.734341
+J-lens,27,eigenvalue,0.58,0.768809
+J-lens,27,eigenvalue,0.6,0.807579
+J-lens,27,eigenvalue,0.62,0.849081
+J-lens,27,eigenvalue,0.64,0.893109
+J-lens,27,eigenvalue,0.66,0.940979
+J-lens,27,eigenvalue,0.68,0.993437
+J-lens,27,eigenvalue,0.7,1.05211
+J-lens,27,eigenvalue,0.72,1.11761
+J-lens,27,eigenvalue,0.74,1.18783
+J-lens,27,eigenvalue,0.76,1.26581
+J-lens,27,eigenvalue,0.78,1.35176
+J-lens,27,eigenvalue,0.8,1.44692
+J-lens,27,eigenvalue,0.82,1.55314
+J-lens,27,eigenvalue,0.84,1.67029
+J-lens,27,eigenvalue,0.86,1.80295
+J-lens,27,eigenvalue,0.88,1.96
+J-lens,27,eigenvalue,0.9,2.13139
+J-lens,27,eigenvalue,0.92,2.36223
+J-lens,27,eigenvalue,0.94,2.67213
+J-lens,27,eigenvalue,0.96,3.16867
+J-lens,27,eigenvalue,0.98,4.13155
+J-lens,27,eigenvalue,0.99,5.04916
+J-lens,27,eigenvalue,0.995,6.42593
+J-lens,27,eigenvalue,0.999,14.3719
+J-lens,27,eigenvalue,0.9995,26.6651
+J-lens,27,eigenvalue,0.9999,43.6333
+J-lens,27,eigenvalue,1,52.8685
+J-lens,28,nearest-neighbour cosine,0,0.100342
+J-lens,28,nearest-neighbour cosine,0.02,0.212646
+J-lens,28,nearest-neighbour cosine,0.04,0.247803
+J-lens,28,nearest-neighbour cosine,0.06,0.273682
+J-lens,28,nearest-neighbour cosine,0.08,0.296143
+J-lens,28,nearest-neighbour cosine,0.1,0.31543
+J-lens,28,nearest-neighbour cosine,0.12,0.333984
+J-lens,28,nearest-neighbour cosine,0.14,0.351562
+J-lens,28,nearest-neighbour cosine,0.16,0.368164
+J-lens,28,nearest-neighbour cosine,0.18,0.384033
+J-lens,28,nearest-neighbour cosine,0.2,0.39917
+J-lens,28,nearest-neighbour cosine,0.22,0.41333
+J-lens,28,nearest-neighbour cosine,0.24,0.426758
+J-lens,28,nearest-neighbour cosine,0.26,0.44043
+J-lens,28,nearest-neighbour cosine,0.28,0.453125
+J-lens,28,nearest-neighbour cosine,0.3,0.46582
+J-lens,28,nearest-neighbour cosine,0.32,0.47876
+J-lens,28,nearest-neighbour cosine,0.34,0.491455
+J-lens,28,nearest-neighbour cosine,0.36,0.503906
+J-lens,28,nearest-neighbour cosine,0.38,0.516602
+J-lens,28,nearest-neighbour cosine,0.4,0.529297
+J-lens,28,nearest-neighbour cosine,0.42,0.541504
+J-lens,28,nearest-neighbour cosine,0.44,0.553223
+J-lens,28,nearest-neighbour cosine,0.46,0.564453
+J-lens,28,nearest-neighbour cosine,0.48,0.57666
+J-lens,28,nearest-neighbour cosine,0.5,0.587891
+J-lens,28,nearest-neighbour cosine,0.52,0.599609
+J-lens,28,nearest-neighbour cosine,0.54,0.61084
+J-lens,28,nearest-neighbour cosine,0.56,0.621582
+J-lens,28,nearest-neighbour cosine,0.58,0.632324
+J-lens,28,nearest-neighbour cosine,0.6,0.643555
+J-lens,28,nearest-neighbour cosine,0.62,0.653809
+J-lens,28,nearest-neighbour cosine,0.64,0.664551
+J-lens,28,nearest-neighbour cosine,0.66,0.674805
+J-lens,28,nearest-neighbour cosine,0.68,0.685547
+J-lens,28,nearest-neighbour cosine,0.7,0.696289
+J-lens,28,nearest-neighbour cosine,0.72,0.706543
+J-lens,28,nearest-neighbour cosine,0.74,0.716797
+J-lens,28,nearest-neighbour cosine,0.76,0.726562
+J-lens,28,nearest-neighbour cosine,0.78,0.736328
+J-lens,28,nearest-neighbour cosine,0.8,0.745605
+J-lens,28,nearest-neighbour cosine,0.82,0.754883
+J-lens,28,nearest-neighbour cosine,0.84,0.76416
+J-lens,28,nearest-neighbour cosine,0.86,0.773438
+J-lens,28,nearest-neighbour cosine,0.88,0.782227
+J-lens,28,nearest-neighbour cosine,0.9,0.791504
+J-lens,28,nearest-neighbour cosine,0.92,0.801758
+J-lens,28,nearest-neighbour cosine,0.94,0.8125
+J-lens,28,nearest-neighbour cosine,0.96,0.825195
+J-lens,28,nearest-neighbour cosine,0.98,0.843262
+J-lens,28,nearest-neighbour cosine,0.99,0.860352
+J-lens,28,nearest-neighbour cosine,0.995,0.880371
+J-lens,28,nearest-neighbour cosine,0.999,1
+J-lens,28,nearest-neighbour cosine,0.9995,1
+J-lens,28,nearest-neighbour cosine,0.9999,1
+J-lens,28,nearest-neighbour cosine,1,1
+J-lens,28,eigenvalue,0,1.77149e-06
+J-lens,28,eigenvalue,0.02,0.0323718
+J-lens,28,eigenvalue,0.04,0.0829859
+J-lens,28,eigenvalue,0.06,0.127529
+J-lens,28,eigenvalue,0.08,0.166076
+J-lens,28,eigenvalue,0.1,0.200841
+J-lens,28,eigenvalue,0.12,0.231927
+J-lens,28,eigenvalue,0.14,0.259873
+J-lens,28,eigenvalue,0.16,0.28605
+J-lens,28,eigenvalue,0.18,0.310532
+J-lens,28,eigenvalue,0.2,0.333635
+J-lens,28,eigenvalue,0.22,0.355488
+J-lens,28,eigenvalue,0.24,0.37653
+J-lens,28,eigenvalue,0.26,0.397393
+J-lens,28,eigenvalue,0.28,0.418043
+J-lens,28,eigenvalue,0.3,0.437955
+J-lens,28,eigenvalue,0.32,0.458454
+J-lens,28,eigenvalue,0.34,0.478602
+J-lens,28,eigenvalue,0.36,0.499293
+J-lens,28,eigenvalue,0.38,0.51994
+J-lens,28,eigenvalue,0.4,0.541532
+J-lens,28,eigenvalue,0.42,0.563316
+J-lens,28,eigenvalue,0.44,0.585311
+J-lens,28,eigenvalue,0.46,0.608525
+J-lens,28,eigenvalue,0.48,0.632212
+J-lens,28,eigenvalue,0.5,0.65716
+J-lens,28,eigenvalue,0.52,0.683005
+J-lens,28,eigenvalue,0.54,0.71034
+J-lens,28,eigenvalue,0.56,0.739493
+J-lens,28,eigenvalue,0.58,0.76944
+J-lens,28,eigenvalue,0.6,0.80196
+J-lens,28,eigenvalue,0.62,0.836108
+J-lens,28,eigenvalue,0.64,0.873375
+J-lens,28,eigenvalue,0.66,0.91269
+J-lens,28,eigenvalue,0.68,0.957045
+J-lens,28,eigenvalue,0.7,1.00465
+J-lens,28,eigenvalue,0.72,1.05913
+J-lens,28,eigenvalue,0.74,1.11948
+J-lens,28,eigenvalue,0.76,1.18803
+J-lens,28,eigenvalue,0.78,1.26567
+J-lens,28,eigenvalue,0.8,1.35493
+J-lens,28,eigenvalue,0.82,1.45833
+J-lens,28,eigenvalue,0.84,1.57668
+J-lens,28,eigenvalue,0.86,1.71463
+J-lens,28,eigenvalue,0.88,1.87251
+J-lens,28,eigenvalue,0.9,2.06022
+J-lens,28,eigenvalue,0.92,2.29634
+J-lens,28,eigenvalue,0.94,2.62287
+J-lens,28,eigenvalue,0.96,3.137
+J-lens,28,eigenvalue,0.98,4.17478
+J-lens,28,eigenvalue,0.99,5.21121
+J-lens,28,eigenvalue,0.995,6.59213
+J-lens,28,eigenvalue,0.999,15.1459
+J-lens,28,eigenvalue,0.9995,28.5937
+J-lens,28,eigenvalue,0.9999,46.3544
+J-lens,28,eigenvalue,1,54.4418
+J-lens,29,nearest-neighbour cosine,0,0.102905
+J-lens,29,nearest-neighbour cosine,0.02,0.20874
+J-lens,29,nearest-neighbour cosine,0.04,0.241577
+J-lens,29,nearest-neighbour cosine,0.06,0.267163
+J-lens,29,nearest-neighbour cosine,0.08,0.287842
+J-lens,29,nearest-neighbour cosine,0.1,0.307129
+J-lens,29,nearest-neighbour cosine,0.12,0.324951
+J-lens,29,nearest-neighbour cosine,0.14,0.341309
+J-lens,29,nearest-neighbour cosine,0.16,0.357373
+J-lens,29,nearest-neighbour cosine,0.18,0.372559
+J-lens,29,nearest-neighbour cosine,0.2,0.387695
+J-lens,29,nearest-neighbour cosine,0.22,0.4021
+J-lens,29,nearest-neighbour cosine,0.24,0.415527
+J-lens,29,nearest-neighbour cosine,0.26,0.428467
+J-lens,29,nearest-neighbour cosine,0.28,0.440918
+J-lens,29,nearest-neighbour cosine,0.3,0.453369
+J-lens,29,nearest-neighbour cosine,0.32,0.465332
+J-lens,29,nearest-neighbour cosine,0.34,0.477783
+J-lens,29,nearest-neighbour cosine,0.36,0.490234
+J-lens,29,nearest-neighbour cosine,0.38,0.501953
+J-lens,29,nearest-neighbour cosine,0.4,0.513672
+J-lens,29,nearest-neighbour cosine,0.42,0.525391
+J-lens,29,nearest-neighbour cosine,0.44,0.536621
+J-lens,29,nearest-neighbour cosine,0.46,0.547852
+J-lens,29,nearest-neighbour cosine,0.48,0.559082
+J-lens,29,nearest-neighbour cosine,0.5,0.570312
+J-lens,29,nearest-neighbour cosine,0.52,0.581543
+J-lens,29,nearest-neighbour cosine,0.54,0.591797
+J-lens,29,nearest-neighbour cosine,0.56,0.602539
+J-lens,29,nearest-neighbour cosine,0.58,0.612793
+J-lens,29,nearest-neighbour cosine,0.6,0.623535
+J-lens,29,nearest-neighbour cosine,0.62,0.634277
+J-lens,29,nearest-neighbour cosine,0.64,0.645508
+J-lens,29,nearest-neighbour cosine,0.66,0.65625
+J-lens,29,nearest-neighbour cosine,0.68,0.666992
+J-lens,29,nearest-neighbour cosine,0.7,0.677246
+J-lens,29,nearest-neighbour cosine,0.72,0.687988
+J-lens,29,nearest-neighbour cosine,0.74,0.697754
+J-lens,29,nearest-neighbour cosine,0.76,0.708008
+J-lens,29,nearest-neighbour cosine,0.78,0.717285
+J-lens,29,nearest-neighbour cosine,0.8,0.727051
+J-lens,29,nearest-neighbour cosine,0.82,0.73584
+J-lens,29,nearest-neighbour cosine,0.84,0.744629
+J-lens,29,nearest-neighbour cosine,0.86,0.754395
+J-lens,29,nearest-neighbour cosine,0.88,0.763672
+J-lens,29,nearest-neighbour cosine,0.9,0.773438
+J-lens,29,nearest-neighbour cosine,0.92,0.78418
+J-lens,29,nearest-neighbour cosine,0.94,0.796387
+J-lens,29,nearest-neighbour cosine,0.96,0.811523
+J-lens,29,nearest-neighbour cosine,0.98,0.831543
+J-lens,29,nearest-neighbour cosine,0.99,0.848633
+J-lens,29,nearest-neighbour cosine,0.995,0.874023
+J-lens,29,nearest-neighbour cosine,0.999,1
+J-lens,29,nearest-neighbour cosine,0.9995,1
+J-lens,29,nearest-neighbour cosine,0.9999,1
+J-lens,29,nearest-neighbour cosine,1,1
+J-lens,29,eigenvalue,0,1.8647e-06
+J-lens,29,eigenvalue,0.02,0.0426031
+J-lens,29,eigenvalue,0.04,0.107399
+J-lens,29,eigenvalue,0.06,0.159818
+J-lens,29,eigenvalue,0.08,0.204752
+J-lens,29,eigenvalue,0.1,0.244844
+J-lens,29,eigenvalue,0.12,0.280279
+J-lens,29,eigenvalue,0.14,0.311681
+J-lens,29,eigenvalue,0.16,0.340754
+J-lens,29,eigenvalue,0.18,0.366692
+J-lens,29,eigenvalue,0.2,0.390449
+J-lens,29,eigenvalue,0.22,0.412887
+J-lens,29,eigenvalue,0.24,0.434018
+J-lens,29,eigenvalue,0.26,0.454766
+J-lens,29,eigenvalue,0.28,0.474345
+J-lens,29,eigenvalue,0.3,0.49399
+J-lens,29,eigenvalue,0.32,0.514075
+J-lens,29,eigenvalue,0.34,0.53335
+J-lens,29,eigenvalue,0.36,0.553465
+J-lens,29,eigenvalue,0.38,0.573215
+J-lens,29,eigenvalue,0.4,0.593362
+J-lens,29,eigenvalue,0.42,0.613996
+J-lens,29,eigenvalue,0.44,0.634998
+J-lens,29,eigenvalue,0.46,0.656775
+J-lens,29,eigenvalue,0.48,0.678879
+J-lens,29,eigenvalue,0.5,0.702348
+J-lens,29,eigenvalue,0.52,0.726357
+J-lens,29,eigenvalue,0.54,0.752006
+J-lens,29,eigenvalue,0.56,0.778462
+J-lens,29,eigenvalue,0.58,0.806309
+J-lens,29,eigenvalue,0.6,0.836151
+J-lens,29,eigenvalue,0.62,0.86693
+J-lens,29,eigenvalue,0.64,0.901526
+J-lens,29,eigenvalue,0.66,0.936615
+J-lens,29,eigenvalue,0.68,0.976565
+J-lens,29,eigenvalue,0.7,1.01863
+J-lens,29,eigenvalue,0.72,1.06592
+J-lens,29,eigenvalue,0.74,1.11756
+J-lens,29,eigenvalue,0.76,1.17565
+J-lens,29,eigenvalue,0.78,1.24276
+J-lens,29,eigenvalue,0.8,1.31829
+J-lens,29,eigenvalue,0.82,1.40653
+J-lens,29,eigenvalue,0.84,1.50731
+J-lens,29,eigenvalue,0.86,1.62782
+J-lens,29,eigenvalue,0.88,1.76724
+J-lens,29,eigenvalue,0.9,1.93196
+J-lens,29,eigenvalue,0.92,2.13498
+J-lens,29,eigenvalue,0.94,2.40128
+J-lens,29,eigenvalue,0.96,2.82966
+J-lens,29,eigenvalue,0.98,3.77423
+J-lens,29,eigenvalue,0.99,4.74585
+J-lens,29,eigenvalue,0.995,6.54149
+J-lens,29,eigenvalue,0.999,17.6717
+J-lens,29,eigenvalue,0.9995,28.7558
+J-lens,29,eigenvalue,0.9999,52.4562
+J-lens,29,eigenvalue,1,65.5341
+J-lens,30,nearest-neighbour cosine,0,0.0969849
+J-lens,30,nearest-neighbour cosine,0.02,0.20105
+J-lens,30,nearest-neighbour cosine,0.04,0.232056
+J-lens,30,nearest-neighbour cosine,0.06,0.256348
+J-lens,30,nearest-neighbour cosine,0.08,0.276123
+J-lens,30,nearest-neighbour cosine,0.1,0.293579
+J-lens,30,nearest-neighbour cosine,0.12,0.310303
+J-lens,30,nearest-neighbour cosine,0.14,0.326172
+J-lens,30,nearest-neighbour cosine,0.16,0.341504
+J-lens,30,nearest-neighbour cosine,0.18,0.355713
+J-lens,30,nearest-neighbour cosine,0.2,0.370117
+J-lens,30,nearest-neighbour cosine,0.22,0.384277
+J-lens,30,nearest-neighbour cosine,0.24,0.397461
+J-lens,30,nearest-neighbour cosine,0.26,0.410156
+J-lens,30,nearest-neighbour cosine,0.28,0.423682
+J-lens,30,nearest-neighbour cosine,0.3,0.436035
+J-lens,30,nearest-neighbour cosine,0.32,0.447754
+J-lens,30,nearest-neighbour cosine,0.34,0.459961
+J-lens,30,nearest-neighbour cosine,0.36,0.471191
+J-lens,30,nearest-neighbour cosine,0.38,0.482422
+J-lens,30,nearest-neighbour cosine,0.4,0.493652
+J-lens,30,nearest-neighbour cosine,0.42,0.505371
+J-lens,30,nearest-neighbour cosine,0.44,0.516113
+J-lens,30,nearest-neighbour cosine,0.46,0.526855
+J-lens,30,nearest-neighbour cosine,0.48,0.538086
+J-lens,30,nearest-neighbour cosine,0.5,0.549316
+J-lens,30,nearest-neighbour cosine,0.52,0.560547
+J-lens,30,nearest-neighbour cosine,0.54,0.571777
+J-lens,30,nearest-neighbour cosine,0.56,0.583008
+J-lens,30,nearest-neighbour cosine,0.58,0.594238
+J-lens,30,nearest-neighbour cosine,0.6,0.60498
+J-lens,30,nearest-neighbour cosine,0.62,0.615723
+J-lens,30,nearest-neighbour cosine,0.64,0.627441
+J-lens,30,nearest-neighbour cosine,0.66,0.638672
+J-lens,30,nearest-neighbour cosine,0.68,0.650391
+J-lens,30,nearest-neighbour cosine,0.7,0.661621
+J-lens,30,nearest-neighbour cosine,0.72,0.672852
+J-lens,30,nearest-neighbour cosine,0.74,0.683594
+J-lens,30,nearest-neighbour cosine,0.76,0.694336
+J-lens,30,nearest-neighbour cosine,0.78,0.706055
+J-lens,30,nearest-neighbour cosine,0.8,0.716309
+J-lens,30,nearest-neighbour cosine,0.82,0.727051
+J-lens,30,nearest-neighbour cosine,0.84,0.738281
+J-lens,30,nearest-neighbour cosine,0.86,0.748535
+J-lens,30,nearest-neighbour cosine,0.88,0.758789
+J-lens,30,nearest-neighbour cosine,0.9,0.769531
+J-lens,30,nearest-neighbour cosine,0.92,0.781738
+J-lens,30,nearest-neighbour cosine,0.94,0.794434
+J-lens,30,nearest-neighbour cosine,0.96,0.809082
+J-lens,30,nearest-neighbour cosine,0.98,0.82959
+J-lens,30,nearest-neighbour cosine,0.99,0.846191
+J-lens,30,nearest-neighbour cosine,0.995,0.866565
+J-lens,30,nearest-neighbour cosine,0.999,1
+J-lens,30,nearest-neighbour cosine,0.9995,1
+J-lens,30,nearest-neighbour cosine,0.9999,1
+J-lens,30,nearest-neighbour cosine,1,1
+J-lens,30,eigenvalue,0,1.44057e-06
+J-lens,30,eigenvalue,0.02,0.079495
+J-lens,30,eigenvalue,0.04,0.172446
+J-lens,30,eigenvalue,0.06,0.240158
+J-lens,30,eigenvalue,0.08,0.294298
+J-lens,30,eigenvalue,0.1,0.339203
+J-lens,30,eigenvalue,0.12,0.378271
+J-lens,30,eigenvalue,0.14,0.41347
+J-lens,30,eigenvalue,0.16,0.444578
+J-lens,30,eigenvalue,0.18,0.472156
+J-lens,30,eigenvalue,0.2,0.496432
+J-lens,30,eigenvalue,0.22,0.519962
+J-lens,30,eigenvalue,0.24,0.540929
+J-lens,30,eigenvalue,0.26,0.561282
+J-lens,30,eigenvalue,0.28,0.581367
+J-lens,30,eigenvalue,0.3,0.600269
+J-lens,30,eigenvalue,0.32,0.619197
+J-lens,30,eigenvalue,0.34,0.637893
+J-lens,30,eigenvalue,0.36,0.656237
+J-lens,30,eigenvalue,0.38,0.675082
+J-lens,30,eigenvalue,0.4,0.693607
+J-lens,30,eigenvalue,0.42,0.712542
+J-lens,30,eigenvalue,0.44,0.732083
+J-lens,30,eigenvalue,0.46,0.751744
+J-lens,30,eigenvalue,0.48,0.771792
+J-lens,30,eigenvalue,0.5,0.792297
+J-lens,30,eigenvalue,0.52,0.813797
+J-lens,30,eigenvalue,0.54,0.835564
+J-lens,30,eigenvalue,0.56,0.857754
+J-lens,30,eigenvalue,0.58,0.881818
+J-lens,30,eigenvalue,0.6,0.906056
+J-lens,30,eigenvalue,0.62,0.931566
+J-lens,30,eigenvalue,0.64,0.959185
+J-lens,30,eigenvalue,0.66,0.987918
+J-lens,30,eigenvalue,0.68,1.01858
+J-lens,30,eigenvalue,0.7,1.05161
+J-lens,30,eigenvalue,0.72,1.08706
+J-lens,30,eigenvalue,0.74,1.12513
+J-lens,30,eigenvalue,0.76,1.16644
+J-lens,30,eigenvalue,0.78,1.21191
+J-lens,30,eigenvalue,0.8,1.26237
+J-lens,30,eigenvalue,0.82,1.31994
+J-lens,30,eigenvalue,0.84,1.38634
+J-lens,30,eigenvalue,0.86,1.46729
+J-lens,30,eigenvalue,0.88,1.56444
+J-lens,30,eigenvalue,0.9,1.68936
+J-lens,30,eigenvalue,0.92,1.87904
+J-lens,30,eigenvalue,0.94,2.15305
+J-lens,30,eigenvalue,0.96,2.56659
+J-lens,30,eigenvalue,0.98,3.31358
+J-lens,30,eigenvalue,0.99,4.03393
+J-lens,30,eigenvalue,0.995,5.19306
+J-lens,30,eigenvalue,0.999,14.1335
+J-lens,30,eigenvalue,0.9995,20.5724
+J-lens,30,eigenvalue,0.9999,53.6955
+J-lens,30,eigenvalue,1,73.9644
