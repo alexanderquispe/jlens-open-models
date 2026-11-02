@@ -14,6 +14,16 @@ python experiments/07_jspace_recovery/recovery.py --model llama3.1-8b --skip-geo
 python experiments/07_jspace_recovery/recovery.py --model llama3.1-8b --skip-geometry \
     --noise "activation covariance,activations" --native-only                       # the noises alone, nothing planted
 python experiments/07_jspace_recovery/recovery.py --model llama3.1-8b --plot-only   # redraw the figure
+
+# Width at a fixed vocabulary. Qwen3 and OLMo-3 need the transformers 5 environment (.venv-tf5, top-level
+# README); the 32B models one H200 with --mem=192G (hpc/README.md)
+for m in qwen3-4b qwen3-8b qwen3-32b olmo-3-7b olmo-3-32b; do
+  python experiments/07_jspace_recovery/recovery.py --model $m --skip-geometry \
+      --noise "activation covariance,activations" --native-only
+  python experiments/07_jspace_recovery/recovery.py --model $m --skip-geometry \
+      --noise isotropic --ks 25,50,100,200,400 --shares 0.05,0.1,0.2
+done
+python experiments/07_jspace_recovery/width.py                                      # all models: d, occupancy
 ```
 
 With the default isotropic noise only the unembedding, the final norm's gain and the lens are used: the model is
@@ -22,9 +32,10 @@ sample. Outputs: `results/<model>_geometry.csv` (one row per dictionary and laye
 `results/<model>_distributions.csv` (quantiles of the nearest-neighbour cosines and of the spectrum),
 `results/<model>_duplicates.csv` (the largest clusters of near-duplicate atoms and the closest pairs, with their
 tokens), `results/<model>_recovery.csv` (noise × dictionary × weights × s × k; a run adds or replaces only the rows
-of its own noises, and `--native-only` only their k = 0 rows), `figures/<model>.{pdf,png}`. The activations'
-covariances (64 MB per layer) go to the group's storage, `$JLENS_SHARED/experiments/07_jspace_recovery/`, not to
-the repository.
+of its own noises, and `--native-only` only their k = 0 rows), `figures/<model>.{pdf,png}` (only for models with
+part A). The activations' covariances (64–100 MB per layer) go to the group's storage,
+`$JLENS_SHARED/experiments/07_jspace_recovery/`, not to the repository. `width.py` collects the models into
+`results/width.csv` (one row per model and layer) and `figures/width.{pdf,png}`.
 
 ## Method
 
@@ -194,6 +205,50 @@ Equal weights, *s* = 0.1, recall among the first k picks, isotropic / activation
   Gaussian without sparse words shares, and is not evidence of how many sparse words are present. The baseline
   that separates words from second-order structure is this Gaussian, not the random isotropic dictionary.
 
+## Width (Qwen3, OLMo-3, Llama-3.1)
+
+Does the occupancy grow with the width d? Within a family the vocabulary is fixed (Qwen3: N = 151,936 at
+d = 2560, 4096, 5120; OLMo-3: N = 100,278 at d = 4096, 5120), so d changes, and with it the number of blocks
+(36 or 64). For each model: the noises alone at 1/4, 1/2, 5/8 and 3/4 of the depth, and the isotropic grid
+(*s* ≤ 0.2, k from 25 to 400). One H100 per model up to 8B, one H200 for the 32B models; 10–12 minutes each.
+
+J-lens occupancy of the noises alone (median over 1,024 samples), activations / Gaussian with their covariance
+(`results/width.csv`, `figures/width.png`):
+
+| Model | d | 1/4 | 1/2 | 5/8 | 3/4 |
+|---|---|---|---|---|---|
+| Qwen3-4B | 2560 | 15 / 16 | 13 / 1\* | 10 / 1\* | 11 / 1\* |
+| Qwen3-8B | 4096 | 23 / 24 | 17 / 1\* | 17 / 2\* | 20 / 7\* |
+| Qwen3-32B | 5120 | 25 / 27 | 24 / 26 | 27 / 30 | 16 / 2\* |
+| OLMo-3-7B | 4096 | 12 / 14 | 18 / 17 | 20 / 12 | 21 / 9 |
+| OLMo-3-32B | 5120 | 15 / 15 | 20 / 7 | 21 / 7 | 24 / 6 |
+| Llama-3.1-8B | 4096 | 12 / 13 | 17 / 15 | 16 / 10 | 16 / 7 |
+
+\* One dimension carries 24–93% of the activations' variance; the Gaussian is no baseline there (below).
+
+- **The occupancy stays in a narrow band and grows with d about as a detection limit would.** Over six models
+  and d from 2560 to 5120 the activations give 10–27. Within a family it grows with d: from Qwen3-4B to Qwen3-32B
+  (d × 2) by a factor of 1.5–2.7 at the four depths, from OLMo-3-7B to OLMo-3-32B (d × 1.25) by 1.05–1.25;
+  Qwen3-8B to 32B is not monotone at 3/4 depth (20 → 16). The share *s* for which the isotropic back-of-envelope
+  gives each measured occupancy is 6–12% in all 24 model-layers: the spread across models is about what the change
+  of d alone gives at a constant J-space share, with no change in the number of active words. That reading
+  assumes the isotropic picture, which the Gaussian results show is only partly right.
+- **The detection limit itself grows with d where the dictionary allows it.** Planted at *s* = 0.1 in isotropic
+  noise (k from 50 to 400), the median occupancy at 3/4 depth is 9–11, 14–20 and 16–20 for Qwen3-4B, 8B and 32B
+  (predicted 12, 19, 24), 16–24 and 21–37 for OLMo-3-7B and 32B (predicted 20, 25), and 14–24 for Llama-3.1-8B
+  (predicted 19). At 1/4 depth it is 7–12 whatever d, and so is Qwen3-32B at 1/2 and 5/8: there the formula
+  fails, presumably because the J-lens dictionary is degenerate, as Llama's at layer 8 (part A; the geometry of
+  the other models was not computed).
+- **At 1/4 depth the Gaussian reproduces the occupancy in all six models** (within 2: 13–27 against 12–25).
+  Deeper, where it is a baseline, the activations exceed it by 6–18 in Llama-3.1-8B and OLMo-3 from 5/8 depth on
+  (OLMo-3-32B from 1/2), but not in Qwen3-32B up to 5/8 depth (26–30 against 24–27).
+- **Massive activations break the Gaussian baseline.** In Qwen3-4B and 8B beyond 1/4 depth and in Qwen3-32B at
+  3/4, one dimension carries 24–93% of the activations' variance (elsewhere at most 6%). A Gaussian with this
+  covariance puts that dimension in every sample; the J-lens then explains less of it than the random dictionary
+  does (0.05–0.09 of *|y|²* against 0.07–0.14) and the rule stops at 1–7. Real
+  activations presumably carry the dimension on a few tokens only (not checked token by token), so a baseline
+  there needs their heavy tails, not only their covariance.
+
 ## Caveats
 
 - Real activations change the picture for the J-lens (above), so the isotropic results are a best case. In real
@@ -202,6 +257,10 @@ Equal weights, *s* = 0.1, recall among the first k picks, isotropic / activation
 - The activations are 7,168 tokens from 64 wikitext paragraphs (positions ≥ 16); other kinds of text are not
   covered.
 - The back-of-envelope prediction assumes isotropic noise; it does not apply to the two other noises.
+- Width: Qwen3 and OLMo-3 run under transformers 5.11 and Llama-3.1-8B under 4.43; the families differ in
+  training, and the number of blocks changes with d. Qwen3-4B ties its embedding and unembedding, and Qwen3's
+  151,936 unembedding rows include 267 padding rows that no token uses, which are atoms too. Each family has two or
+  three widths.
 - Planted atoms are drawn uniformly over the vocabulary, including rare and never-trained tokens; real readouts
   are dominated by common tokens.
 - The recall measures our pursuit (nonnegative orthogonal matching pursuit with 150 projected-gradient steps per
