@@ -9,14 +9,18 @@ property of the model or of the measurement?
 
 ```bash
 python experiments/07_jspace_recovery/recovery.py --model llama3.1-8b
+python experiments/07_jspace_recovery/recovery.py --model llama3.1-8b --skip-geometry \
+    --noise "activation covariance,activations"                                     # plant into real activations
 python experiments/07_jspace_recovery/recovery.py --model llama3.1-8b --plot-only   # redraw the figure
 ```
 
-Only the unembedding, the final norm's gain and the lens are used: the model is loaded for its weights but never
-run. Outputs: `results/<model>_geometry.csv` (one row per dictionary and layer), `results/<model>_distributions.csv`
-(quantiles of the nearest-neighbour cosines and of the spectrum), `results/<model>_duplicates.csv` (the largest
-clusters of near-duplicate atoms and the closest pairs, with their tokens), `results/<model>_recovery.csv`
-(dictionary × weights × s × k), `figures/<model>.{pdf,png}`.
+With the default isotropic noise only the unembedding, the final norm's gain and the lens are used: the model is
+loaded for its weights but never run. The two other noises run it on 64 paragraphs of experiment 03's wikitext
+sample. Outputs: `results/<model>_geometry.csv` (one row per dictionary and layer),
+`results/<model>_distributions.csv` (quantiles of the nearest-neighbour cosines and of the spectrum),
+`results/<model>_duplicates.csv` (the largest clusters of near-duplicate atoms and the closest pairs, with their
+tokens), `results/<model>_recovery.csv` (noise × dictionary × weights × s × k; a run adds or replaces only the rows
+of its own noises), `figures/<model>.{pdf,png}`.
 
 ## Method
 
@@ -43,6 +47,17 @@ random isotropic.
   - **occupancy**: the paper's stopping rule (§4.2) as we read it: the first step at which the dictionary's gain
     in explained *|y|²*, averaged over trials, falls below the gain of a random isotropic dictionary (another
     seed) on the same *y*. Also the median over trials of the same rule applied trial by trial.
+- **B′. Real activations** (`--noise`). The isotropic noise is replaced, with the same trials and the same rescaling
+  to a share *s*, by:
+  - **activations**: centered block outputs of the same layer, drawn from 7,168 wikitext tokens (64 paragraphs of
+    128 tokens, positions ≥ 16). They carry their own J-space words, so *s* is only the planted share;
+  - **activation covariance**: Gaussian noise with the covariance of those activations. It has their anisotropy
+    but no words, which separates the two effects.
+
+  Every dictionary is run on the activations of each of the four layers (*s* = 1 is skipped: there is no noise).
+  The rule is also run on 128 activations with nothing planted, for up to 100 steps (experiment 03 stopped at 25).
+  **recall within all steps** counts a planted atom found anywhere in the k + max(10, k/4) picks (these two noises
+  only).
 - **A prediction to test.** With equal weights and isotropic noise, each planted atom carries about *s/k* of
   *|y|²*, while the best of N random directions picks up about *(1 − s) · 2 ln N / d* of the noise. The rule
   therefore stops near *k ≈ s d / ((1 − s) 2 ln N)*, about 19 for Llama-3.1-8B at *s* = 0.1 (the J-lens explains
@@ -50,7 +65,7 @@ random isotropic.
   occupancy of ≈ 25 measures the share of the activation that is J-space, not the number of active words.
 
 Grid: k ∈ {5, 10, 25, 50, 100, 200, 400}, *s* ∈ {1, 0.5, 0.2, 0.1, 0.05}, two weight profiles, six dictionaries
-(J-lens at four layers, logit lens, random).
+(J-lens at four layers, logit lens, random), three noises.
 
 ## Results (Llama-3.1-8B)
 
@@ -80,7 +95,8 @@ coherence 0.102 (expected about √(2 ln(N²/2) / d) = 0.106) and eigenvalues 0.
 - Real near-duplicates are semantic families, not only case variants: number words (" twenty", " thirty", …) and
   digits at layer 16; in the logit lens, pairs such as " Prince"/"Prince".
 
-**Plant and recover** (`results/llama3.1-8b_recovery.csv`), equal weights, recall among the first k picks:
+**Plant and recover, isotropic noise** (`results/llama3.1-8b_recovery.csv`), equal weights, recall among the first
+k picks:
 
 | Dictionary | s = 1: k = 25 / 100 / 400 | s = 0.1: k = 5 / 10 / 25 / 50 / 100 |
 |---|---|---|
@@ -107,11 +123,60 @@ coherence 0.102 (expected about √(2 ln(N²/2) / d) = 0.106) and eigenvalues 0.
   noise. (With the random dictionary as the truth, the rule compares two random dictionaries and its output is
   noise; those curves are shown only for completeness.)
 
+**Planted into real activations** (same CSV, `noise` = `activations` or `activation covariance`; one H100,
+61 minutes). On the activations alone, with nothing planted:
+
+| Dictionary | Layer 8 | Layer 16 | Layer 20 | Layer 24 |
+|---|---|---|---|---|
+| J-lens: occupancy (median over tokens) | 17 (12) | 22 (17) | 18 (15) | 20 (16) |
+| J-lens: share of *\|y\|²* explained in 25 steps | 0.120 | 0.123 | 0.131 | 0.142 |
+| logit lens: occupancy | 2 | 5 | 12 | 24 |
+| random: share explained in 25 steps | 0.087 | 0.087 | 0.087 | 0.087 |
+
+Equal weights, *s* = 0.1, recall among the first k picks, isotropic / activation covariance / activations:
+
+| Dictionary | k = 5 | k = 10 | k = 25 | All 5 right (k = 5) |
+|---|---|---|---|---|
+| J-lens, layer 8 | 0.57 / 0.29 / 0.23 | 0.22 / 0.08 / 0.07 | 0.04 / 0.02 / 0.01 | 0.12 / 0.00 / 0.01 |
+| J-lens, layer 16 | 0.99 / 0.94 / 0.81 | 0.90 / 0.68 / 0.62 | 0.30 / 0.21 / 0.24 | 0.96 / 0.77 / 0.28 |
+| J-lens, layer 20 | 0.99 / 0.98 / 0.80 | 0.96 / 0.86 / 0.69 | 0.45 / 0.41 / 0.40 | 0.97 / 0.91 / 0.25 |
+| J-lens, layer 24 | 1.00 / 0.98 / 0.79 | 0.96 / 0.90 / 0.70 | 0.50 / 0.48 / 0.45 | 0.99 / 0.91 / 0.20 |
+| logit lens (activations of layer 16) | 1.00 / 1.00 / 0.99 | 0.98 / 0.98 / 0.96 | 0.57 / 0.62 / 0.61 | 0.99 / 0.98 / 0.96 |
+| logit lens (activations of layer 24) | 1.00 / 1.00 / 0.94 | 0.98 / 0.98 / 0.85 | 0.57 / 0.61 / 0.54 | 0.99 / 0.99 / 0.71 |
+| random (activations of layer 16) | 1.00 / 1.00 / 1.00 | 0.99 / 0.98 / 0.98 | 0.63 / 0.63 / 0.62 | 1.00 / 1.00 / 1.00 |
+
+- **The activations alone give an occupancy near the paper's.** The rule reports 17–22 for the J-lens at layers
+  8–24, close to the paper's ≈ 25, well below the 100-step cap. But in 25 steps the J-lens explains only 12–14% of
+  *|y|²*, against 8.7% for the random dictionary. The logit lens has few words of its own in the middle layers
+  (occupancy 2–5 at layers 8–16) and more near the output (24 at layer 24).
+- **Planted words compete with the activation's own.** In layers 16–24 the J-lens finds 79–81% of 5 planted words
+  among its first 5 picks and all 5 in 20–28% of trials (isotropic: 99–100% and 96–99%). Most of the others come
+  a few steps later (94–98% within 15 picks). Noise with the activations' covariance costs less at k = 5
+  (94–98%), but in layer 16 it accounts for most of the loss at k = 10 (0.90 → 0.68; activations 0.62). That fits
+  J-lens atoms crowded into a few directions (effective rank 0.03–0.25 of d) in which the activations also have
+  most of their variance; we have not measured that overlap. The logit lens and the random dictionary barely
+  change, except the logit lens in the activations of layers 20–24, where it has words of its own. At k = 25 the three noises give similar recall. With lognormal weights the J-lens
+  finds 48% of 5 at layers 16–24 (covariance 52–58%, isotropic 61–64%). Layer 8 stays poor (23% of 5).
+- **The occupancy still does not count the planted words.** With equal weights and any planted k from 50 to 400,
+  the rule reports at layer 16: 28–29 at *s* = 0.05, 33 at *s* = 0.1 and 41–45 at *s* = 0.2 (isotropic: 11–13,
+  20–22, 33–38). Layers 20 and 24 give 21–25 at *s* = 0.05 and 27–32 at *s* = 0.1. At low shares the
+  output stays at or above the occupancy of the activations alone (17–22) instead of falling with *s* as in
+  isotropic noise. At layer 8 it is 18–23 for every such k and *s* ≤ 0.2.
+- **A Gaussian with the activations' covariance gives nearly the same occupancy.** At layer 16: 28–30, 32–36 and
+  43–44 at *s* = 0.05, 0.1 and 0.2 (activations: 28–29, 33, 41–45); at layer 8, 18–23. That noise has no words in
+  it. In this setting the rule's output is set mostly by the activations' covariance (how much of their variance
+  lies along J-lens directions), which a Gaussian without sparse words shares; it is not evidence of how many
+  sparse words are present. The direct test, the rule on the covariance noise with nothing planted, has not been
+  run yet.
+
 ## Caveats
 
-- The noise is isotropic. The real non-J-space part of an activation is not: it is concentrated in the
-  activations' high-variance directions (experiment 03: a random dictionary shaped like the activations explains
-  35–46%). A follow-up should plant words into real activations or use their covariance for the noise.
+- Real activations change the picture for the J-lens (above), so the isotropic results are a best case. In real
+  activations, a planted word missed among the first k picks may have lost to a word that is truly in the
+  activation, so recall there understates what the pursuit gets right.
+- The activations are 7,168 tokens from 64 wikitext paragraphs (positions ≥ 16); other kinds of text are not
+  covered.
+- The back-of-envelope prediction assumes isotropic noise; it does not apply to the two other noises.
 - Planted atoms are drawn uniformly over the vocabulary, including rare and never-trained tokens; real readouts
   are dominated by common tokens.
 - The recall measures our pursuit (nonnegative orthogonal matching pursuit with 150 projected-gradient steps per
