@@ -59,6 +59,7 @@ source hpc/env.sh && HF_HUB_OFFLINE=0 HF_HUB_ENABLE_HF_TRANSFER=1 .venv/bin/pyth
 ```bash
 sbatch hpc/gpu.sbatch bash run_all.sh llama3.1-8b
 sbatch hpc/gpu.sbatch python experiments/02_weekday_circle/weekday_circle.py --model llama3.1-8b --task engels --position day
+sbatch hpc/cpu.sbatch python experiments/07_jspace_recovery/occupancy_theory.py --part curves  # 32 cores, no GPU
 squeue -u $USER
 tail -f logs/jlens-<jobid>.out
 ```
@@ -105,7 +106,8 @@ The blocks run one after another, so two GPUs are not faster than one; they only
 
 Each CPU core adds 1 unit per hour; memory is free. A unit costs $0.012 up to $6,400 of group spending per
 fiscal year, less above that ([rates](https://www.hpc.caltech.edu/docs/rates.html)), so `gpu.sbatch` (one H100,
-8 cores) costs about $1.54 per hour of actual run time. Group usage so far:
+8 cores) costs about $1.54 per hour of actual run time, and `cpu.sbatch` (32 cores on `expansion`, no GPU) about
+$0.38. Group usage so far:
 
 ```bash
 sreport -t hours -T billing cluster AccountUtilizationByUser accounts=safety_first start=2026-10-01 end=now

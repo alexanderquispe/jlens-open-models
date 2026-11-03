@@ -84,6 +84,8 @@ random isotropic.
   therefore stops near *k ≈ s d / ((1 − s) 2 ln N)*, about 19 for Llama-3.1-8B at *s* = 0.1 (the J-lens explains
   7–11% of the centered variance in experiment 03), whatever the number of planted atoms. If that holds, an
   occupancy of ≈ 25 measures the share of the activation that is J-space, not the number of active words.
+  (The section *The rule on a random dictionary, exactly* below derives the exact limit, 22 at *s* = 0.1, and
+  what the occupancy does around it.)
 
 Grid: k ∈ {5, 10, 25, 50, 100, 200, 400}, *s* ∈ {1, 0.5, 0.2, 0.1, 0.05}, two weight profiles, six dictionaries
 (J-lens at four layers, logit lens, random), three noises.
@@ -248,6 +250,54 @@ J-lens occupancy of the noises alone (median over 1,024 samples), activations / 
   does (0.05–0.09 of *|y|²* against 0.07–0.14) and the rule stops at 1–7. Real
   activations presumably carry the dimension on a few tokens only (not checked token by token), so a baseline
   there needs their heavy tails, not only their covariance.
+
+## The rule on a random dictionary, exactly
+
+Can the occupancy be predicted, not only measured, in the simplest case (random dictionary, isotropic noise, equal
+weights)? `occupancy_theory.py` reduces the pursuit to a process on N scalars and derives closed forms from it.
+CPU only, no model: about 22 core-hours on 32 cores (`hpc/cpu.sbatch`).
+
+```bash
+sbatch hpc/cpu.sbatch python experiments/07_jspace_recovery/occupancy_theory.py --part reduced  # Llama, GPT-2 sizes
+sbatch hpc/cpu.sbatch python experiments/07_jspace_recovery/occupancy_theory.py --part check    # 3 new sizes, + full OMP
+sbatch hpc/cpu.sbatch python experiments/07_jspace_recovery/occupancy_theory.py --part curves   # Llama size, finer k
+python experiments/07_jspace_recovery/occupancy_theory.py --part compare                         # tables and figure
+```
+
+Outputs: `results/occupancy_theory_{reduced,check,curves}.csv` (one row per size, *s* and k),
+`figures/occupancy_theory.{pdf,png}`.
+
+- **The reduced model.** With *ζ_c = √d ⟨c, r⟩ / |r|* the score of an unpicked atom against the residual, a pick
+  that explains a fraction *ρ* of *|r|²* sends every score to *√(1 − ρ) ζ_c − √ρ η_c*, *η_c* fresh N(0, 1). A
+  planted atom scores *α (1 − K/d)* plus such a part, and a noise pick eats its amplitude, *α → (1 − ρ) α*; a
+  planted pick does not. Checked directly in the full pursuit (d = 2048, N = 20,000, k = 100, *s* = 0.1, 1,920
+  steps): slope over *√(1 − ρ)* 1.0000, residual variance over *ρ* 1.000, amplitude after a noise pick 0.99443
+  against *1 − ρ* = 0.99448, after a planted pick 0.9986. Without the eating the model finds 4.1 planted words
+  where the pursuit finds 2.3 (d = 512, k = 20).
+- **It reproduces the pursuit.** Against the GPU runs at *s* ≤ 0.2: median occupancy off by 0.95 on average for
+  Llama-3.1-8B (largest 6) and 0.55 for GPT-2 (largest 1); words found off by 0.39 and 0.14. Against the full
+  pursuit at three sizes never run before (d = 1024, 2048, 4096; N = 16,384 or 131,072; 99 cells): off by 0.87
+  and 0.26. Freezing the scores instead of refreshing them fails (63, the step cap, against 21). It breaks at
+  *s* = 0.5 with k ≥ 200 (148 against 113).
+- **The limit.** The noise floor is *B_N = b_N²* with *P(Z > b_N) = 1/N*, about *2 ln N − ln(4π ln N)*: 18.7 for
+  Llama-3.1-8B (2 ln N = 23.5), 16.9 for GPT-2. The limit is *k\* = s d / B_N*, without *1 − s*: 11, 22, 44 for
+  Llama-3.1-8B at *s* = 0.05, 0.1, 0.2. The back-of-envelope's 19 used 2 ln N and kept *1 − s*; the two errors
+  partly cancel.
+- **Below the limit (k ≤ k\*/2) the occupancy is k plus an overshoot.** The control leads by a margin
+  *Δ ≈ (B_N s / 2)(1 − k/k\*)* in Gumbel units, which closes at k = 21.85 for *s* = 0.1. With the scores frozen the
+  mean occupancy is *(k + 1)/(1 − e^{−Δ})* (a random walk's exit time); with holes refilling (memory about 21 steps at
+  Llama's size, 5 at GPT-2's) a short recursion gives the full pursuit within 0–3 steps in 15 of 17 cells
+  (Llama-3.1-8B, *s* = 0.1, k = 10: 18 against 17), usually a little low; at d = 4096, N = 16,384, *s* = 0.2 it
+  is 4 low at k = 20 and at least 5 at k = 25 (most trials there hit the step cap).
+- **Near the limit the occupancy overshoots it.** Uncensored, at Llama-3.1-8B's size the median peaks at 20
+  (*s* = 0.05, k = 10), 34 (0.1, k = 25) and 56 (0.2, k = 50–75), 1.3–1.8 k\*, while the words found peak at 7.0,
+  15.8 and 37 (0.64–0.84 k\*). The overshoot is the dictionary's unused noise atoms against a control that has
+  used up its best ones.
+- **Far above the limit the rule stops at the first step half the time.** *P(occupancy = 1) = ∫ Φ(x)^{N−k}
+  Φ(x − μ)^k d[Φ(x)^N]*, *μ = √(s d / k)*, tends to 1/2; against the reduced model: 0.45 / 0.41 (*s* = 0.05,
+  k = 100), 0.48 / 0.48 (0.05, 300), 0.41 / 0.45 (0.1, 200), 0.28 / 0.25 (0.2, 300).
+- **The step cap binds.** recovery.py stops at k + max(10, k/4) steps; where the memory is long (d = 4096,
+  N = 16,384: 33 steps) the capped occupancy near the limit is the cap. The curves part runs 3k + 60 steps.
 
 ## Caveats
 
