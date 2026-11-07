@@ -5,3 +5,5 @@ __pycache__/
 # Job and run logs (the folder itself is kept)
 logs/*
 !logs/.gitkeep
+# Raw model outputs when $JLENS_SHARED is not set
+experiments/08_surprise/raw/
