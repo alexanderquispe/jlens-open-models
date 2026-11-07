@@ -79,8 +79,20 @@ print(f"{args.model}: {L} blocks, d = {d}; lexicon words kept {info['lexicon_kep
 
 
 @torch.no_grad()
+def padded(X, chunk):
+    """X (n, d) with copies of its first row appended up to a multiple of `chunk` rows, and n. On a GPU the
+    matrix-multiply kernel depends on the number of rows, so a short last chunk can give a row slightly different
+    numbers than a full chunk would; twins whose rows fell in different chunks then differed before the edit (by up
+    to 0.008 z-units in the J-lens readout of the first Llama run). With every call the same shape, identical rows
+    give identical outputs wherever they sit."""
+    pad = (-len(X)) % chunk
+    return (torch.cat([X, X[:1].expand(pad, -1)]) if pad else X), len(X)
+
+
+@torch.no_grad()
 def readout(H, layer, top=0, chunk=512):
     """J-lens readout of H (n, d) at `layer`: lexicon group scores (n, G) and the top-`top` tokens (n, top)."""
+    H, n = padded(H, chunk)
     lex, tops = [], []
     for s in range(0, len(H), chunk):
         logits = lm.unembed(lm.transport(H[s : s + chunk], layer))
@@ -88,7 +100,7 @@ def readout(H, layer, top=0, chunk=512):
         lex.append(torch.stack([z[:, ids].mean(1) for ids in lex_ids.values()], 1))
         if top:
             tops.append(logits.topk(top, 1).indices)
-    return torch.cat(lex), (torch.cat(tops) if top else None)
+    return torch.cat(lex)[:n], (torch.cat(tops)[:n] if top else None)
 
 
 @torch.no_grad()
@@ -105,8 +117,9 @@ def mean_activation(id_lists):
 @torch.no_grad()
 def jspace(X, layer, mu):
     """Nonnegative matching pursuit of X - mu on the J-lens atoms: indices, coefficients, residual fractions."""
-    Xc = X - mu
-    idx, coef, res = decompose(Xc, ATOMS[layer], args.k)
+    Xc, n = padded(X - mu, 1024)  # decompose works in chunks of 1024 rows
+    idx, coef, res = (v[:n] for v in decompose(Xc, ATOMS[layer], args.k))
+    Xc = Xc[:n]
     return idx.int(), coef.half(), (res / (Xc**2).sum(1, keepdim=True).clamp(min=1e-12)).half()
 
 
