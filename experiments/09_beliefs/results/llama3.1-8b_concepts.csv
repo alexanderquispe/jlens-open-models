@@ -1,0 +1,1505 @@
+lens,dataset,cond,time,layers,concept,n,median_rank,frac_of_readouts
+jlens,stationary,m300_s100,127,late,and it is,1,1.0,0.011111111111111112
+jlens,stationary,m300_s100,127,late,and the concept is,1,2.0,0.011111111111111112
+jlens,stationary,m300_s100,127,late,kurdan,1,2.0,0.011111111111111112
+jlens,stationary,m300_s100,127,late,kurdus,1,1.0,0.011111111111111112
+jlens,stationary,m300_s100,127,middle,loopy,7,1.0,0.058333333333333334
+jlens,stationary,m300_s100,127,middle,i think it is,3,1.0,0.025
+jlens,stationary,m300_s100,127,middle,pitifully,2,1.0,0.016666666666666666
+jlens,stationary,m300_s100,127,middle,coca cola,1,3.0,0.008333333333333333
+jlens,stationary,m300_s100,127,middle,etc is,1,1.0,0.008333333333333333
+jlens,stationary,m300_s100,127,middle,giacomo,1,1.0,0.008333333333333333
+jlens,stationary,m300_s100,127,middle,gianna,1,2.0,0.008333333333333333
+jlens,stationary,m300_s100,127,middle,giorgio,1,3.0,0.008333333333333333
+jlens,stationary,m300_s100,127,middle,giorgos,1,8.0,0.008333333333333333
+jlens,stationary,m300_s100,127,middle,giu,1,10.0,0.008333333333333333
+jlens,stationary,m300_s100,127,middle,giuliana,1,5.0,0.008333333333333333
+jlens,stationary,m300_s100,127,middle,giuliano,1,4.0,0.008333333333333333
+jlens,stationary,m300_s100,127,middle,giulio,1,7.0,0.008333333333333333
+jlens,stationary,m300_s100,127,middle,giuseppe,1,6.0,0.008333333333333333
+jlens,stationary,m300_s100,127,middle,kurdus,1,1.0,0.008333333333333333
+jlens,stationary,m300_s100,127,middle,the concept is,1,1.0,0.008333333333333333
+jlens,stationary,m300_s100,999,middle,coca cola,5,2.0,0.041666666666666664
+jlens,stationary,m300_s100,999,middle,pitifully,3,1.0,0.025
+jlens,stationary,m300_s100,999,middle,lol,2,2.0,0.016666666666666666
+jlens,stationary,m300_s100,999,middle,korea,1,4.0,0.008333333333333333
+jlens,stationary,m300_s100,999,middle,london,1,10.0,0.008333333333333333
+jlens,stationary,m300_s100,999,middle,nguyen,1,1.0,0.008333333333333333
+jlens,stationary,m350_s100,127,late,pitifully,2,3.0,0.022222222222222223
+jlens,stationary,m350_s100,127,late,pitfalls,1,6.0,0.011111111111111112
+jlens,stationary,m350_s100,127,middle,loopy,5,1.0,0.041666666666666664
+jlens,stationary,m350_s100,127,middle,giacomo,2,1.0,0.016666666666666666
+jlens,stationary,m350_s100,127,middle,giang,2,6.0,0.016666666666666666
+jlens,stationary,m350_s100,127,middle,gianna,2,2.5,0.016666666666666666
+jlens,stationary,m350_s100,127,middle,giorgio,2,2.5,0.016666666666666666
+jlens,stationary,m350_s100,127,middle,giu,2,5.0,0.016666666666666666
+jlens,stationary,m350_s100,127,middle,giude,2,7.0,0.016666666666666666
+jlens,stationary,m350_s100,127,middle,giuseppe,2,4.0,0.016666666666666666
+jlens,stationary,m350_s100,127,middle,i think it is,2,1.0,0.016666666666666666
+jlens,stationary,m350_s100,127,middle,pitifully,2,5.0,0.016666666666666666
+jlens,stationary,m350_s100,127,middle,coca cola,1,1.0,0.008333333333333333
+jlens,stationary,m350_s100,127,middle,etc as,1,1.0,0.008333333333333333
+jlens,stationary,m350_s100,127,middle,etc is,1,2.0,0.008333333333333333
+jlens,stationary,m350_s100,127,middle,lot number,1,1.0,0.008333333333333333
+jlens,stationary,m350_s100,999,late,pitifully,1,1.0,0.011111111111111112
+jlens,stationary,m350_s100,999,middle,pitifully,11,1.0,0.09166666666666666
+jlens,stationary,m350_s100,999,middle,coca cola,2,1.5,0.016666666666666666
+jlens,stationary,m350_s100,999,middle,alberto,1,3.0,0.008333333333333333
+jlens,stationary,m350_s100,999,middle,apollo,1,1.0,0.008333333333333333
+jlens,stationary,m350_s100,999,middle,danish,1,5.0,0.008333333333333333
+jlens,stationary,m350_s100,999,middle,korean,1,4.0,0.008333333333333333
+jlens,stationary,m350_s100,999,middle,new york,1,1.0,0.008333333333333333
+jlens,stationary,m350_s100,999,middle,nguyen,1,2.0,0.008333333333333333
+jlens,stationary,m350_s100,999,middle,niu,1,1.0,0.008333333333333333
+jlens,stationary,m350_s100,999,middle,siamese,1,4.0,0.008333333333333333
+jlens,stationary,m350_s100,999,middle,tv show,1,4.0,0.008333333333333333
+jlens,stationary,m400_s100,127,late,forty five,3,4.0,0.03333333333333333
+jlens,stationary,m400_s100,127,late,forty four,3,2.0,0.03333333333333333
+jlens,stationary,m400_s100,127,late,forty three,3,5.0,0.03333333333333333
+jlens,stationary,m400_s100,127,late,forty two,3,1.0,0.03333333333333333
+jlens,stationary,m400_s100,127,late,forty eight,2,3.0,0.022222222222222223
+jlens,stationary,m400_s100,127,late,forty six,2,5.0,0.022222222222222223
+jlens,stationary,m400_s100,127,late,pitifully,2,3.5,0.022222222222222223
+jlens,stationary,m400_s100,127,late,gregory galambos,1,1.0,0.011111111111111112
+jlens,stationary,m400_s100,127,middle,loopy,5,1.0,0.041666666666666664
+jlens,stationary,m400_s100,127,middle,giu,2,3.0,0.016666666666666666
+jlens,stationary,m400_s100,127,middle,the concept is,2,1.0,0.016666666666666666
+jlens,stationary,m400_s100,127,middle,brady bunch family,1,1.0,0.008333333333333333
+jlens,stationary,m400_s100,127,middle,etc and so on,1,1.0,0.008333333333333333
+jlens,stationary,m400_s100,127,middle,etc as,1,2.0,0.008333333333333333
+jlens,stationary,m400_s100,127,middle,etc is,1,3.0,0.008333333333333333
+jlens,stationary,m400_s100,127,middle,giacomo,1,1.0,0.008333333333333333
+jlens,stationary,m400_s100,127,middle,giang,1,6.0,0.008333333333333333
+jlens,stationary,m400_s100,127,middle,gianna,1,2.0,0.008333333333333333
+jlens,stationary,m400_s100,127,middle,giorgos,1,4.0,0.008333333333333333
+jlens,stationary,m400_s100,127,middle,giuseppe,1,3.0,0.008333333333333333
+jlens,stationary,m400_s100,127,middle,i think it is,1,1.0,0.008333333333333333
+jlens,stationary,m400_s100,127,middle,pitifully,1,5.0,0.008333333333333333
+jlens,stationary,m400_s100,999,late,pitifully,3,1.0,0.03333333333333333
+jlens,stationary,m400_s100,999,middle,pitifully,9,4.0,0.075
+jlens,stationary,m400_s100,999,middle,danish,3,2.0,0.025
+jlens,stationary,m400_s100,999,middle,coca cola,2,7.0,0.016666666666666666
+jlens,stationary,m400_s100,999,middle,jordan,1,5.0,0.008333333333333333
+jlens,stationary,m400_s100,999,middle,julian,1,4.0,0.008333333333333333
+jlens,stationary,m400_s100,999,middle,julie,1,2.0,0.008333333333333333
+jlens,stationary,m400_s100,999,middle,juliet,1,5.0,0.008333333333333333
+jlens,stationary,m400_s100,999,middle,korean,1,1.0,0.008333333333333333
+jlens,stationary,m400_s100,999,middle,london,1,2.0,0.008333333333333333
+jlens,stationary,m400_s100,999,middle,nglish,1,3.0,0.008333333333333333
+jlens,stationary,m400_s100,999,middle,nguyen,1,1.0,0.008333333333333333
+jlens,stationary,m400_s100,999,middle,siamese,1,3.0,0.008333333333333333
+jlens,stationary,m400_s100,999,middle,the concept is,1,2.0,0.008333333333333333
+jlens,stationary,m400_s100,999,middle,the concept of,1,1.0,0.008333333333333333
+jlens,stationary,m400_s100,999,middle,the word,1,5.0,0.008333333333333333
+jlens,stationary,m450_s100,127,late,forty five,6,3.0,0.06666666666666667
+jlens,stationary,m450_s100,127,late,forty three,6,5.0,0.06666666666666667
+jlens,stationary,m450_s100,127,late,forty two,6,1.0,0.06666666666666667
+jlens,stationary,m450_s100,127,late,forty seven,5,3.0,0.05555555555555555
+jlens,stationary,m450_s100,127,late,forty six,5,6.0,0.05555555555555555
+jlens,stationary,m450_s100,127,late,pitifully,5,3.0,0.05555555555555555
+jlens,stationary,m450_s100,127,late,forty four,4,2.0,0.044444444444444446
+jlens,stationary,m450_s100,127,late,sit in,2,4.0,0.022222222222222223
+jlens,stationary,m450_s100,127,late,sixty five,2,4.0,0.022222222222222223
+jlens,stationary,m450_s100,127,late,sixty four,2,5.0,0.022222222222222223
+jlens,stationary,m450_s100,127,late,sixty nine,2,1.0,0.022222222222222223
+jlens,stationary,m450_s100,127,late,sixty six,2,3.0,0.022222222222222223
+jlens,stationary,m450_s100,127,late,sixty three,2,2.0,0.022222222222222223
+jlens,stationary,m450_s100,127,late,patten,1,1.0,0.011111111111111112
+jlens,stationary,m450_s100,127,late,pillager,1,1.0,0.011111111111111112
+jlens,stationary,m450_s100,127,late,pillars,1,8.0,0.011111111111111112
+jlens,stationary,m450_s100,127,late,pillbox,1,2.0,0.011111111111111112
+jlens,stationary,m450_s100,127,late,pitfall,1,1.0,0.011111111111111112
+jlens,stationary,m450_s100,127,late,sit on,1,1.0,0.011111111111111112
+jlens,stationary,m450_s100,127,middle,etc as,3,2.0,0.025
+jlens,stationary,m450_s100,127,middle,etc is,3,3.0,0.025
+jlens,stationary,m450_s100,127,middle,i think it is,3,1.0,0.025
+jlens,stationary,m450_s100,127,middle,loopy,3,1.0,0.025
+jlens,stationary,m450_s100,127,middle,etc and so on,2,1.0,0.016666666666666666
+jlens,stationary,m450_s100,127,middle,giacomo,2,1.0,0.016666666666666666
+jlens,stationary,m450_s100,127,middle,giang,2,7.5,0.016666666666666666
+jlens,stationary,m450_s100,127,middle,giorgi,2,6.5,0.016666666666666666
+jlens,stationary,m450_s100,127,middle,giorgio,2,2.0,0.016666666666666666
+jlens,stationary,m450_s100,127,middle,giorgos,2,4.5,0.016666666666666666
+jlens,stationary,m450_s100,127,middle,giu,2,5.5,0.016666666666666666
+jlens,stationary,m450_s100,127,middle,giuliani,2,8.5,0.016666666666666666
+jlens,stationary,m450_s100,127,middle,billion dollar,1,1.0,0.008333333333333333
+jlens,stationary,m450_s100,127,middle,gianna,1,3.0,0.008333333333333333
+jlens,stationary,m450_s100,127,middle,giude,1,8.0,0.008333333333333333
+jlens,stationary,m450_s100,127,middle,giuliana,1,4.0,0.008333333333333333
+jlens,stationary,m450_s100,127,middle,giulio,1,5.0,0.008333333333333333
+jlens,stationary,m450_s100,127,middle,pitifully,1,1.0,0.008333333333333333
+jlens,stationary,m450_s100,999,late,pitifully,5,1.0,0.05555555555555555
+jlens,stationary,m450_s100,999,middle,pitifully,14,3.0,0.11666666666666667
+jlens,stationary,m450_s100,999,middle,coca cola,5,2.0,0.041666666666666664
+jlens,stationary,m450_s100,999,middle,london,5,4.0,0.041666666666666664
+jlens,stationary,m450_s100,999,middle,korean,2,4.0,0.016666666666666666
+jlens,stationary,m450_s100,999,middle,pitfall,2,1.0,0.016666666666666666
+jlens,stationary,m450_s100,999,middle,it will think that,1,1.0,0.008333333333333333
+jlens,stationary,m450_s100,999,middle,mdash,1,1.0,0.008333333333333333
+jlens,stationary,m450_s100,999,middle,niu,1,1.0,0.008333333333333333
+jlens,stationary,m450_s100,999,middle,siamese,1,2.0,0.008333333333333333
+jlens,stationary,m450_s100,999,middle,the concept is,1,1.0,0.008333333333333333
+jlens,stationary,m500_s010,127,late,unknownconcept,6,1.0,0.06666666666666667
+jlens,stationary,m500_s010,127,late,low number,4,3.5,0.044444444444444446
+jlens,stationary,m500_s010,127,late,low score,2,1.0,0.022222222222222223
+jlens,stationary,m500_s010,127,late,the model,2,1.0,0.022222222222222223
+jlens,stationary,m500_s010,127,late,thurman,2,1.0,0.022222222222222223
+jlens,stationary,m500_s010,127,late,criterion is,1,1.0,0.011111111111111112
+jlens,stationary,m500_s010,127,late,davidson et al,1,1.0,0.011111111111111112
+jlens,stationary,m500_s010,127,late,fifty five,1,1.0,0.011111111111111112
+jlens,stationary,m500_s010,127,late,francais,1,5.0,0.011111111111111112
+jlens,stationary,m500_s010,127,late,franck,1,2.0,0.011111111111111112
+jlens,stationary,m500_s010,127,late,scotland as,1,3.0,0.011111111111111112
+jlens,stationary,m500_s010,127,late,tamper,1,1.0,0.011111111111111112
+jlens,stationary,m500_s010,127,late,thurber,1,3.0,0.011111111111111112
+jlens,stationary,m500_s010,127,late,thurday,1,2.0,0.011111111111111112
+jlens,stationary,m500_s010,127,middle,five hundred,1,3.0,0.008333333333333333
+jlens,stationary,m500_s010,127,middle,palliser,1,1.0,0.008333333333333333
+jlens,stationary,m500_s010,127,middle,so it will think,1,1.0,0.008333333333333333
+jlens,stationary,m500_s010,127,middle,the concept is,1,1.0,0.008333333333333333
+jlens,stationary,m500_s010,127,middle,the model,1,4.0,0.008333333333333333
+jlens,stationary,m500_s010,127,middle,unknownconcept,1,6.0,0.008333333333333333
+jlens,stationary,m500_s010,999,late,miller is,39,1.0,0.43333333333333335
+jlens,stationary,m500_s010,999,late,the concept is,10,3.0,0.1111111111111111
+jlens,stationary,m500_s010,999,late,the concept of,10,1.0,0.1111111111111111
+jlens,stationary,m500_s010,999,late,the word,8,2.0,0.08888888888888889
+jlens,stationary,m500_s010,999,late,thurston,2,1.0,0.022222222222222223
+jlens,stationary,m500_s010,999,late,the cloze above,1,2.0,0.011111111111111112
+jlens,stationary,m500_s010,999,middle,so it will think,8,1.0,0.06666666666666667
+jlens,stationary,m500_s010,999,middle,roast,2,5.5,0.016666666666666666
+jlens,stationary,m500_s010,999,middle,africa as,1,1.0,0.008333333333333333
+jlens,stationary,m500_s010,999,middle,aldous,1,1.0,0.008333333333333333
+jlens,stationary,m500_s010,999,middle,coca cola,1,1.0,0.008333333333333333
+jlens,stationary,m500_s010,999,middle,droit,1,6.0,0.008333333333333333
+jlens,stationary,m500_s010,999,middle,drooping,1,5.0,0.008333333333333333
+jlens,stationary,m500_s010,999,middle,droopy,1,1.0,0.008333333333333333
+jlens,stationary,m500_s010,999,middle,five hundred,1,1.0,0.008333333333333333
+jlens,stationary,m500_s010,999,middle,low level,1,1.0,0.008333333333333333
+jlens,stationary,m500_s010,999,middle,spot on,1,7.0,0.008333333333333333
+jlens,stationary,m500_s010,999,middle,the concept is,1,10.0,0.008333333333333333
+jlens,stationary,m500_s010,999,middle,the concept of,1,1.0,0.008333333333333333
+jlens,stationary,m500_s010,999,middle,vincent,1,1.0,0.008333333333333333
+jlens,stationary,m500_s020,127,late,davidson number,10,1.0,0.1111111111111111
+jlens,stationary,m500_s020,127,late,and it is,7,1.0,0.07777777777777778
+jlens,stationary,m500_s020,127,late,and the concept is,7,3.0,0.07777777777777778
+jlens,stationary,m500_s020,127,late,fifty five,6,1.0,0.06666666666666667
+jlens,stationary,m500_s020,127,late,and it will be,4,2.0,0.044444444444444446
+jlens,stationary,m500_s020,127,late,davidson et al,4,1.5,0.044444444444444446
+jlens,stationary,m500_s020,127,late,fifty four,3,3.0,0.03333333333333333
+jlens,stationary,m500_s020,127,late,fifty two,3,3.0,0.03333333333333333
+jlens,stationary,m500_s020,127,late,low number,3,1.0,0.03333333333333333
+jlens,stationary,m500_s020,127,late,davidson concept,2,1.0,0.022222222222222223
+jlens,stationary,m500_s020,127,late,fifty percent,2,2.0,0.022222222222222223
+jlens,stationary,m500_s020,127,late,unknownconcept,2,5.0,0.022222222222222223
+jlens,stationary,m500_s020,127,late,and it will think,1,1.0,0.011111111111111112
+jlens,stationary,m500_s020,127,late,and then,1,3.0,0.011111111111111112
+jlens,stationary,m500_s020,127,late,criterion as,1,1.0,0.011111111111111112
+jlens,stationary,m500_s020,127,late,criterion is,1,2.0,0.011111111111111112
+jlens,stationary,m500_s020,127,late,fifty six,1,1.0,0.011111111111111112
+jlens,stationary,m500_s020,127,late,music as,1,1.0,0.011111111111111112
+jlens,stationary,m500_s020,127,late,the model,1,1.0,0.011111111111111112
+jlens,stationary,m500_s020,127,middle,etc is,1,1.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,giacomo,1,1.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,giang,1,7.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,giorgi,1,5.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,giorgio,1,2.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,giorgos,1,3.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,giu,1,4.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,giude,1,9.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,giudice,1,6.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,i think it is,1,1.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,korean,1,1.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,lyx,1,1.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,mdiagnose,1,1.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,palliser,1,1.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,pillager,1,1.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,pillbox,1,2.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,q and then,1,1.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,so it will think,1,1.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,the concept is,1,1.0,0.008333333333333333
+jlens,stationary,m500_s020,127,middle,the model,1,6.0,0.008333333333333333
+jlens,stationary,m500_s020,999,late,miller is,18,1.0,0.2
+jlens,stationary,m500_s020,999,late,davidson is,2,1.0,0.022222222222222223
+jlens,stationary,m500_s020,999,late,poland,2,7.0,0.022222222222222223
+jlens,stationary,m500_s020,999,late,tammy,2,1.0,0.022222222222222223
+jlens,stationary,m500_s020,999,late,fifty five,1,1.0,0.011111111111111112
+jlens,stationary,m500_s020,999,late,fifty four,1,3.0,0.011111111111111112
+jlens,stationary,m500_s020,999,late,fifty percent,1,4.0,0.011111111111111112
+jlens,stationary,m500_s020,999,late,fifty two,1,2.0,0.011111111111111112
+jlens,stationary,m500_s020,999,late,tamagotchi,1,1.0,0.011111111111111112
+jlens,stationary,m500_s020,999,middle,so it will think,4,1.0,0.03333333333333333
+jlens,stationary,m500_s020,999,middle,coca cola,2,3.0,0.016666666666666666
+jlens,stationary,m500_s020,999,middle,dundee,2,1.0,0.016666666666666666
+jlens,stationary,m500_s020,999,middle,kenny,2,6.0,0.016666666666666666
+jlens,stationary,m500_s020,999,middle,london,2,5.5,0.016666666666666666
+jlens,stationary,m500_s020,999,middle,poland,2,2.0,0.016666666666666666
+jlens,stationary,m500_s020,999,middle,christmas is coming,1,3.0,0.008333333333333333
+jlens,stationary,m500_s020,999,middle,dont,1,1.0,0.008333333333333333
+jlens,stationary,m500_s020,999,middle,julia,1,4.0,0.008333333333333333
+jlens,stationary,m500_s020,999,middle,julian,1,2.0,0.008333333333333333
+jlens,stationary,m500_s020,999,middle,julie,1,1.0,0.008333333333333333
+jlens,stationary,m500_s020,999,middle,the concept is,1,1.0,0.008333333333333333
+jlens,stationary,m500_s020,999,middle,the word,1,6.0,0.008333333333333333
+jlens,stationary,m500_s020,999,middle,zhang san,1,2.0,0.008333333333333333
+jlens,stationary,m500_s030,127,late,fifty five,6,3.0,0.06666666666666667
+jlens,stationary,m500_s030,127,late,fifty four,6,3.0,0.06666666666666667
+jlens,stationary,m500_s030,127,late,fifty two,5,4.0,0.05555555555555555
+jlens,stationary,m500_s030,127,late,and it is,4,1.0,0.044444444444444446
+jlens,stationary,m500_s030,127,late,and the concept is,4,2.5,0.044444444444444446
+jlens,stationary,m500_s030,127,late,fifty three,4,1.0,0.044444444444444446
+jlens,stationary,m500_s030,127,late,and it will be,2,2.5,0.022222222222222223
+jlens,stationary,m500_s030,127,late,davidson number,2,1.0,0.022222222222222223
+jlens,stationary,m500_s030,127,late,fifty six,2,2.0,0.022222222222222223
+jlens,stationary,m500_s030,127,late,and it will think,1,1.0,0.011111111111111112
+jlens,stationary,m500_s030,127,late,and then,1,4.0,0.011111111111111112
+jlens,stationary,m500_s030,127,late,criteria is,1,1.0,0.011111111111111112
+jlens,stationary,m500_s030,127,late,davidson et al,1,1.0,0.011111111111111112
+jlens,stationary,m500_s030,127,late,music as,1,1.0,0.011111111111111112
+jlens,stationary,m500_s030,127,late,the concept is,1,1.0,0.011111111111111112
+jlens,stationary,m500_s030,127,late,the model,1,2.0,0.011111111111111112
+jlens,stationary,m500_s030,127,late,the sequence,1,3.0,0.011111111111111112
+jlens,stationary,m500_s030,127,middle,i think it is,5,1.0,0.041666666666666664
+jlens,stationary,m500_s030,127,middle,giu,2,4.0,0.016666666666666666
+jlens,stationary,m500_s030,127,middle,giacomo,1,1.0,0.008333333333333333
+jlens,stationary,m500_s030,127,middle,giang,1,10.0,0.008333333333333333
+jlens,stationary,m500_s030,127,middle,gianna,1,4.0,0.008333333333333333
+jlens,stationary,m500_s030,127,middle,giorgi,1,9.0,0.008333333333333333
+jlens,stationary,m500_s030,127,middle,giorgio,1,2.0,0.008333333333333333
+jlens,stationary,m500_s030,127,middle,giorgos,1,6.0,0.008333333333333333
+jlens,stationary,m500_s030,127,middle,giudice,1,8.0,0.008333333333333333
+jlens,stationary,m500_s030,127,middle,giuliana,1,3.0,0.008333333333333333
+jlens,stationary,m500_s030,127,middle,giulio,1,5.0,0.008333333333333333
+jlens,stationary,m500_s030,127,middle,korean,1,6.0,0.008333333333333333
+jlens,stationary,m500_s030,127,middle,miura,1,2.0,0.008333333333333333
+jlens,stationary,m500_s030,127,middle,q and then,1,1.0,0.008333333333333333
+jlens,stationary,m500_s030,127,middle,so it will think,1,1.0,0.008333333333333333
+jlens,stationary,m500_s030,999,late,miller is,4,4.5,0.044444444444444446
+jlens,stationary,m500_s030,999,late,criteria for the model,1,1.0,0.011111111111111112
+jlens,stationary,m500_s030,999,late,criteria of the,1,1.0,0.011111111111111112
+jlens,stationary,m500_s030,999,middle,coca cola,5,1.0,0.041666666666666664
+jlens,stationary,m500_s030,999,middle,london,5,1.0,0.041666666666666664
+jlens,stationary,m500_s030,999,middle,roast,4,3.5,0.03333333333333333
+jlens,stationary,m500_s030,999,middle,so it will think,2,1.0,0.016666666666666666
+jlens,stationary,m500_s030,999,middle,danish,1,4.0,0.008333333333333333
+jlens,stationary,m500_s030,999,middle,it will think that,1,1.0,0.008333333333333333
+jlens,stationary,m500_s030,999,middle,louis vuitton,1,6.0,0.008333333333333333
+jlens,stationary,m500_s030,999,middle,mdash,1,2.0,0.008333333333333333
+jlens,stationary,m500_s030,999,middle,mdm,1,1.0,0.008333333333333333
+jlens,stationary,m500_s030,999,middle,musical,1,1.0,0.008333333333333333
+jlens,stationary,m500_s030,999,middle,pitifully,1,5.0,0.008333333333333333
+jlens,stationary,m500_s030,999,middle,poland,1,2.0,0.008333333333333333
+jlens,stationary,m500_s030,999,middle,siamese,1,3.0,0.008333333333333333
+jlens,stationary,m500_s030,999,middle,the concept is,1,2.0,0.008333333333333333
+jlens,stationary,m500_s030,999,middle,the concept of,1,1.0,0.008333333333333333
+jlens,stationary,m500_s050,127,late,fifty five,3,4.0,0.03333333333333333
+jlens,stationary,m500_s050,127,late,fifty four,3,3.0,0.03333333333333333
+jlens,stationary,m500_s050,127,late,fifty six,3,2.0,0.03333333333333333
+jlens,stationary,m500_s050,127,late,fifty one,2,5.5,0.022222222222222223
+jlens,stationary,m500_s050,127,late,fifty three,2,1.0,0.022222222222222223
+jlens,stationary,m500_s050,127,late,fifty two,2,4.5,0.022222222222222223
+jlens,stationary,m500_s050,127,late,criteria is,1,1.0,0.011111111111111112
+jlens,stationary,m500_s050,127,late,kurdan,1,2.0,0.011111111111111112
+jlens,stationary,m500_s050,127,late,memory as,1,3.0,0.011111111111111112
+jlens,stationary,m500_s050,127,late,memory is like,1,1.0,0.011111111111111112
+jlens,stationary,m500_s050,127,middle,etc is,2,3.0,0.016666666666666666
+jlens,stationary,m500_s050,127,middle,i think it is,2,1.5,0.016666666666666666
+jlens,stationary,m500_s050,127,middle,etc and so on,1,1.0,0.008333333333333333
+jlens,stationary,m500_s050,127,middle,etc as,1,2.0,0.008333333333333333
+jlens,stationary,m500_s050,127,middle,giu,1,1.0,0.008333333333333333
+jlens,stationary,m500_s050,127,middle,miu,1,1.0,0.008333333333333333
+jlens,stationary,m500_s050,127,middle,pullover,1,1.0,0.008333333333333333
+jlens,stationary,m500_s050,127,middle,puny,1,5.0,0.008333333333333333
+jlens,stationary,m500_s050,127,middle,the concept is,1,1.0,0.008333333333333333
+jlens,stationary,m500_s050,999,middle,london,9,1.0,0.075
+jlens,stationary,m500_s050,999,middle,coca cola,3,2.0,0.025
+jlens,stationary,m500_s050,999,middle,pitifully,3,9.0,0.025
+jlens,stationary,m500_s050,999,middle,https form,2,1.0,0.016666666666666666
+jlens,stationary,m500_s050,999,middle,dundee,1,1.0,0.008333333333333333
+jlens,stationary,m500_s050,999,middle,giacomo,1,1.0,0.008333333333333333
+jlens,stationary,m500_s050,999,middle,giorgio,1,2.0,0.008333333333333333
+jlens,stationary,m500_s050,999,middle,giuseppe,1,3.0,0.008333333333333333
+jlens,stationary,m500_s050,999,middle,httpsd,1,8.0,0.008333333333333333
+jlens,stationary,m500_s050,999,middle,rs is,1,5.0,0.008333333333333333
+jlens,stationary,m500_s050,999,middle,the concept is,1,3.0,0.008333333333333333
+jlens,stationary,m500_s050,999,middle,the concept of,1,1.0,0.008333333333333333
+jlens,stationary,m500_s080,127,late,pitifully,3,1.0,0.03333333333333333
+jlens,stationary,m500_s080,127,late,sit on,2,1.5,0.022222222222222223
+jlens,stationary,m500_s080,127,late,sixty five,2,5.0,0.022222222222222223
+jlens,stationary,m500_s080,127,late,sixty four,2,6.0,0.022222222222222223
+jlens,stationary,m500_s080,127,late,sixty seven,2,1.0,0.022222222222222223
+jlens,stationary,m500_s080,127,late,sixty six,2,4.0,0.022222222222222223
+jlens,stationary,m500_s080,127,late,sixty three,2,3.0,0.022222222222222223
+jlens,stationary,m500_s080,127,late,sixty two,2,2.0,0.022222222222222223
+jlens,stationary,m500_s080,127,late,core is,1,1.0,0.011111111111111112
+jlens,stationary,m500_s080,127,late,criteria is,1,1.0,0.011111111111111112
+jlens,stationary,m500_s080,127,late,degenerated,1,2.0,0.011111111111111112
+jlens,stationary,m500_s080,127,late,degenerates,1,1.0,0.011111111111111112
+jlens,stationary,m500_s080,127,late,fifty five,1,4.0,0.011111111111111112
+jlens,stationary,m500_s080,127,late,fifty four,1,3.0,0.011111111111111112
+jlens,stationary,m500_s080,127,late,fifty seven,1,5.0,0.011111111111111112
+jlens,stationary,m500_s080,127,late,fifty six,1,2.0,0.011111111111111112
+jlens,stationary,m500_s080,127,late,fifty three,1,1.0,0.011111111111111112
+jlens,stationary,m500_s080,127,late,guess what,1,1.0,0.011111111111111112
+jlens,stationary,m500_s080,127,late,sit in,1,2.0,0.011111111111111112
+jlens,stationary,m500_s080,127,middle,i think it is,7,1.0,0.058333333333333334
+jlens,stationary,m500_s080,127,middle,giu,4,4.5,0.03333333333333333
+jlens,stationary,m500_s080,127,middle,giacomo,3,1.0,0.025
+jlens,stationary,m500_s080,127,middle,giang,3,8.0,0.025
+jlens,stationary,m500_s080,127,middle,giorgi,3,7.0,0.025
+jlens,stationary,m500_s080,127,middle,giorgio,3,2.0,0.025
+jlens,stationary,m500_s080,127,middle,giorgos,3,4.0,0.025
+jlens,stationary,m500_s080,127,middle,gorski,3,1.0,0.025
+jlens,stationary,m500_s080,127,middle,loopy,3,1.0,0.025
+jlens,stationary,m500_s080,127,middle,pitifully,3,1.0,0.025
+jlens,stationary,m500_s080,127,middle,gianna,2,2.5,0.016666666666666666
+jlens,stationary,m500_s080,127,middle,pitfall,2,1.0,0.016666666666666666
+jlens,stationary,m500_s080,127,middle,etc as,1,1.0,0.008333333333333333
+jlens,stationary,m500_s080,127,middle,etc is,1,3.0,0.008333333333333333
+jlens,stationary,m500_s080,127,middle,giulio,1,4.0,0.008333333333333333
+jlens,stationary,m500_s080,127,middle,gorsel,1,3.0,0.008333333333333333
+jlens,stationary,m500_s080,127,middle,gorsky,1,2.0,0.008333333333333333
+jlens,stationary,m500_s080,127,middle,safes,1,1.0,0.008333333333333333
+jlens,stationary,m500_s080,127,middle,safetynet,1,2.0,0.008333333333333333
+jlens,stationary,m500_s080,999,late,pitifully,1,1.0,0.011111111111111112
+jlens,stationary,m500_s080,999,middle,london,12,1.5,0.1
+jlens,stationary,m500_s080,999,middle,pitifully,10,2.5,0.08333333333333333
+jlens,stationary,m500_s080,999,middle,coca cola,4,2.0,0.03333333333333333
+jlens,stationary,m500_s080,999,middle,danish,1,4.0,0.008333333333333333
+jlens,stationary,m500_s080,999,middle,dundee,1,2.0,0.008333333333333333
+jlens,stationary,m500_s080,999,middle,it will think that,1,1.0,0.008333333333333333
+jlens,stationary,m500_s080,999,middle,korean,1,10.0,0.008333333333333333
+jlens,stationary,m500_s080,999,middle,pitfall,1,2.0,0.008333333333333333
+jlens,stationary,m500_s080,999,middle,pitiful,1,1.0,0.008333333333333333
+jlens,stationary,m500_s080,999,middle,pullover,1,1.0,0.008333333333333333
+jlens,stationary,m500_s080,999,middle,pulpit,1,10.0,0.008333333333333333
+jlens,stationary,m500_s080,999,middle,pulsed,1,4.0,0.008333333333333333
+jlens,stationary,m500_s080,999,middle,safes,1,2.0,0.008333333333333333
+jlens,stationary,m500_s080,999,middle,safetly,1,1.0,0.008333333333333333
+jlens,stationary,m500_s100,127,late,pitifully,5,2.0,0.05555555555555555
+jlens,stationary,m500_s100,127,late,patten,2,1.0,0.022222222222222223
+jlens,stationary,m500_s100,127,late,sit in,2,2.0,0.022222222222222223
+jlens,stationary,m500_s100,127,late,sit on,2,1.0,0.022222222222222223
+jlens,stationary,m500_s100,127,late,일관된,2,1.5,0.022222222222222223
+jlens,stationary,m500_s100,127,late,and it is,1,2.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,and it will be,1,3.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,and it will think,1,1.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,and the concept is,1,6.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,guilbert,1,1.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,guilfoyle,1,3.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,guilherme,1,8.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,imkân ve güç,1,3.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,imkânlar,1,10.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,imkânı,1,4.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,inceasing,1,2.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,it should be,1,4.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,kendal tau,1,4.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,pellian,1,7.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,pitfall,1,1.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,softly,1,5.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,the sequence,1,5.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,ödenek,1,1.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,ödenen,1,2.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,일관성,1,2.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,일련번호,1,5.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,일일이,1,5.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,일자리,1,6.0,0.011111111111111112
+jlens,stationary,m500_s100,127,late,일차원적,1,1.0,0.011111111111111112
+jlens,stationary,m500_s100,127,middle,i think it is,6,1.0,0.05
+jlens,stationary,m500_s100,127,middle,loopy,3,1.0,0.025
+jlens,stationary,m500_s100,127,middle,etc and so on,2,1.5,0.016666666666666666
+jlens,stationary,m500_s100,127,middle,etc as,2,2.5,0.016666666666666666
+jlens,stationary,m500_s100,127,middle,etc is,2,3.5,0.016666666666666666
+jlens,stationary,m500_s100,127,middle,gorski,2,1.0,0.016666666666666666
+jlens,stationary,m500_s100,127,middle,etc of,1,1.0,0.008333333333333333
+jlens,stationary,m500_s100,127,middle,eulerian,1,1.0,0.008333333333333333
+jlens,stationary,m500_s100,127,middle,giacomo,1,2.0,0.008333333333333333
+jlens,stationary,m500_s100,127,middle,giang,1,8.0,0.008333333333333333
+jlens,stationary,m500_s100,127,middle,giorgi,1,7.0,0.008333333333333333
+jlens,stationary,m500_s100,127,middle,giorgio,1,3.0,0.008333333333333333
+jlens,stationary,m500_s100,127,middle,giorgos,1,4.0,0.008333333333333333
+jlens,stationary,m500_s100,127,middle,giu,1,6.0,0.008333333333333333
+jlens,stationary,m500_s100,127,middle,giw,1,1.0,0.008333333333333333
+jlens,stationary,m500_s100,127,middle,gorsel,1,3.0,0.008333333333333333
+jlens,stationary,m500_s100,127,middle,gorsky,1,2.0,0.008333333333333333
+jlens,stationary,m500_s100,127,middle,miu,1,2.0,0.008333333333333333
+jlens,stationary,m500_s100,127,middle,miyamoto,1,3.0,0.008333333333333333
+jlens,stationary,m500_s100,127,middle,miyazaki,1,4.0,0.008333333333333333
+jlens,stationary,m500_s100,127,middle,miyazawa,1,1.0,0.008333333333333333
+jlens,stationary,m500_s100,127,middle,pitfall,1,1.0,0.008333333333333333
+jlens,stationary,m500_s100,127,middle,pitifully,1,2.0,0.008333333333333333
+jlens,stationary,m500_s100,999,late,pitifully,6,1.0,0.06666666666666667
+jlens,stationary,m500_s100,999,middle,london,11,4.0,0.09166666666666666
+jlens,stationary,m500_s100,999,middle,pitifully,9,3.0,0.075
+jlens,stationary,m500_s100,999,middle,coca cola,3,1.0,0.025
+jlens,stationary,m500_s100,999,middle,pitiful,3,1.0,0.025
+jlens,stationary,m500_s100,999,middle,pitfall,2,1.5,0.016666666666666666
+jlens,stationary,m500_s100,999,middle,dont,1,1.0,0.008333333333333333
+jlens,stationary,m500_s100,999,middle,dundee,1,1.0,0.008333333333333333
+jlens,stationary,m500_s100,999,middle,it will think that,1,1.0,0.008333333333333333
+jlens,stationary,m500_s100,999,middle,korean,1,4.0,0.008333333333333333
+jlens,stationary,m500_s100,999,middle,lol,1,1.0,0.008333333333333333
+jlens,stationary,m500_s100,999,middle,safes,1,1.0,0.008333333333333333
+jlens,stationary,m500_s120,127,late,pitifully,6,1.0,0.06666666666666667
+jlens,stationary,m500_s120,127,late,seventy five,1,8.0,0.011111111111111112
+jlens,stationary,m500_s120,127,late,seventy six,1,5.0,0.011111111111111112
+jlens,stationary,m500_s120,127,late,sixty five,1,3.0,0.011111111111111112
+jlens,stationary,m500_s120,127,late,sixty four,1,4.0,0.011111111111111112
+jlens,stationary,m500_s120,127,late,sixty six,1,2.0,0.011111111111111112
+jlens,stationary,m500_s120,127,late,sixty three,1,1.0,0.011111111111111112
+jlens,stationary,m500_s120,127,middle,pitifully,7,2.0,0.058333333333333334
+jlens,stationary,m500_s120,127,middle,i think it is,5,1.0,0.041666666666666664
+jlens,stationary,m500_s120,127,middle,giacomo,3,1.0,0.025
+jlens,stationary,m500_s120,127,middle,giang,3,7.0,0.025
+jlens,stationary,m500_s120,127,middle,giorgio,3,2.0,0.025
+jlens,stationary,m500_s120,127,middle,giorgos,3,4.0,0.025
+jlens,stationary,m500_s120,127,middle,giu,3,5.0,0.025
+jlens,stationary,m500_s120,127,middle,giorgi,2,5.5,0.016666666666666666
+jlens,stationary,m500_s120,127,middle,giuseppe,2,3.5,0.016666666666666666
+jlens,stationary,m500_s120,127,middle,oooohh,2,2.0,0.016666666666666666
+jlens,stationary,m500_s120,127,middle,oooooooo,2,3.5,0.016666666666666666
+jlens,stationary,m500_s120,127,middle,pitfall,2,1.0,0.016666666666666666
+jlens,stationary,m500_s120,127,middle,clump,1,1.0,0.008333333333333333
+jlens,stationary,m500_s120,127,middle,garbled,1,1.0,0.008333333333333333
+jlens,stationary,m500_s120,127,middle,gianna,1,3.0,0.008333333333333333
+jlens,stationary,m500_s120,127,middle,giude,1,8.0,0.008333333333333333
+jlens,stationary,m500_s120,127,middle,giuliani,1,9.0,0.008333333333333333
+jlens,stationary,m500_s120,127,middle,gorsel,1,2.0,0.008333333333333333
+jlens,stationary,m500_s120,127,middle,gorski,1,1.0,0.008333333333333333
+jlens,stationary,m500_s120,127,middle,gorsky,1,4.0,0.008333333333333333
+jlens,stationary,m500_s120,127,middle,oooo,1,10.0,0.008333333333333333
+jlens,stationary,m500_s120,127,middle,oooooooooooooooo,1,5.0,0.008333333333333333
+jlens,stationary,m500_s120,127,middle,palladin,1,1.0,0.008333333333333333
+jlens,stationary,m500_s120,999,late,pitifully,6,1.0,0.06666666666666667
+jlens,stationary,m500_s120,999,middle,pitifully,14,1.0,0.11666666666666667
+jlens,stationary,m500_s120,999,middle,london,10,4.0,0.08333333333333333
+jlens,stationary,m500_s120,999,middle,coca cola,3,2.0,0.025
+jlens,stationary,m500_s120,999,middle,pitfall,3,1.0,0.025
+jlens,stationary,m500_s120,999,middle,danish,1,3.0,0.008333333333333333
+jlens,stationary,m500_s120,999,middle,giacomo,1,1.0,0.008333333333333333
+jlens,stationary,m500_s120,999,middle,gianni,1,3.0,0.008333333333333333
+jlens,stationary,m500_s120,999,middle,giorgi,1,5.0,0.008333333333333333
+jlens,stationary,m500_s120,999,middle,giorgio,1,2.0,0.008333333333333333
+jlens,stationary,m500_s120,999,middle,giuseppe,1,4.0,0.008333333333333333
+jlens,stationary,m500_s120,999,middle,korean,1,1.0,0.008333333333333333
+jlens,stationary,m500_s120,999,middle,miu,1,2.0,0.008333333333333333
+jlens,stationary,m500_s120,999,middle,miya,1,1.0,0.008333333333333333
+jlens,stationary,m500_s120,999,middle,ocr,1,1.0,0.008333333333333333
+jlens,stationary,m500_s120,999,middle,oscar,1,3.0,0.008333333333333333
+jlens,stationary,m500_s120,999,middle,saturday,1,4.0,0.008333333333333333
+jlens,stationary,m500_s150,127,late,sixty five,5,4.0,0.05555555555555555
+jlens,stationary,m500_s150,127,late,sixty four,5,5.0,0.05555555555555555
+jlens,stationary,m500_s150,127,late,million dollar,3,1.0,0.03333333333333333
+jlens,stationary,m500_s150,127,late,millions of people,3,4.0,0.03333333333333333
+jlens,stationary,m500_s150,127,late,sixty six,3,4.0,0.03333333333333333
+jlens,stationary,m500_s150,127,late,sixty three,3,3.0,0.03333333333333333
+jlens,stationary,m500_s150,127,late,sixty two,3,1.0,0.03333333333333333
+jlens,stationary,m500_s150,127,late,gas station,2,3.0,0.022222222222222223
+jlens,stationary,m500_s150,127,late,million billion,2,3.0,0.022222222222222223
+jlens,stationary,m500_s150,127,late,million times,2,2.0,0.022222222222222223
+jlens,stationary,m500_s150,127,late,seventy six,2,1.5,0.022222222222222223
+jlens,stationary,m500_s150,127,late,sixty seven,2,2.0,0.022222222222222223
+jlens,stationary,m500_s150,127,late,billy goat hill,1,7.0,0.011111111111111112
+jlens,stationary,m500_s150,127,late,forty two,1,1.0,0.011111111111111112
+jlens,stationary,m500_s150,127,late,million or billion,1,6.0,0.011111111111111112
+jlens,stationary,m500_s150,127,late,ran out of space,1,2.0,0.011111111111111112
+jlens,stationary,m500_s150,127,late,ran out of time,1,1.0,0.011111111111111112
+jlens,stationary,m500_s150,127,late,seventy five,1,6.0,0.011111111111111112
+jlens,stationary,m500_s150,127,late,seventy four,1,3.0,0.011111111111111112
+jlens,stationary,m500_s150,127,late,seventy one,1,5.0,0.011111111111111112
+jlens,stationary,m500_s150,127,late,seventy three,1,1.0,0.011111111111111112
+jlens,stationary,m500_s150,127,late,seventy two,1,4.0,0.011111111111111112
+jlens,stationary,m500_s150,127,middle,oooooooo,5,2.0,0.041666666666666664
+jlens,stationary,m500_s150,127,middle,garbled,4,2.0,0.03333333333333333
+jlens,stationary,m500_s150,127,middle,hundred millions,4,1.0,0.03333333333333333
+jlens,stationary,m500_s150,127,middle,oooo,4,4.0,0.03333333333333333
+jlens,stationary,m500_s150,127,middle,ooooooo,4,8.0,0.03333333333333333
+jlens,stationary,m500_s150,127,middle,ooooooooooooooo,4,5.0,0.03333333333333333
+jlens,stationary,m500_s150,127,middle,oooooooooooooooo,4,3.0,0.03333333333333333
+jlens,stationary,m500_s150,127,middle,garth,3,1.0,0.025
+jlens,stationary,m500_s150,127,middle,i think it is,3,1.0,0.025
+jlens,stationary,m500_s150,127,middle,liu,3,2.0,0.025
+jlens,stationary,m500_s150,127,middle,oooohh,3,1.0,0.025
+jlens,stationary,m500_s150,127,middle,oooooooooooooo,3,7.0,0.025
+jlens,stationary,m500_s150,127,middle,clump,2,1.0,0.016666666666666666
+jlens,stationary,m500_s150,127,middle,etc as,2,1.5,0.016666666666666666
+jlens,stationary,m500_s150,127,middle,etc is,2,4.0,0.016666666666666666
+jlens,stationary,m500_s150,127,middle,liam,2,1.0,0.016666666666666666
+jlens,stationary,m500_s150,127,middle,loopy,2,1.0,0.016666666666666666
+jlens,stationary,m500_s150,127,middle,trillion times,2,1.0,0.016666666666666666
+jlens,stationary,m500_s150,127,middle,dollars and cents,1,9.0,0.008333333333333333
+jlens,stationary,m500_s150,127,middle,eleventh,1,1.0,0.008333333333333333
+jlens,stationary,m500_s150,127,middle,gorsel,1,3.0,0.008333333333333333
+jlens,stationary,m500_s150,127,middle,gorski,1,1.0,0.008333333333333333
+jlens,stationary,m500_s150,127,middle,gorsky,1,2.0,0.008333333333333333
+jlens,stationary,m500_s150,127,middle,hi there,1,1.0,0.008333333333333333
+jlens,stationary,m500_s150,127,middle,liang shi,1,2.0,0.008333333333333333
+jlens,stationary,m500_s150,127,middle,lol,1,1.0,0.008333333333333333
+jlens,stationary,m500_s150,127,middle,nine times,1,3.0,0.008333333333333333
+jlens,stationary,m500_s150,127,middle,ocr,1,2.0,0.008333333333333333
+jlens,stationary,m500_s150,127,middle,ooo,1,2.0,0.008333333333333333
+jlens,stationary,m500_s150,127,middle,pitifully,1,1.0,0.008333333333333333
+jlens,stationary,m500_s150,999,late,pitifully,4,1.0,0.044444444444444446
+jlens,stationary,m500_s150,999,late,windsor hotel,1,1.0,0.011111111111111112
+jlens,stationary,m500_s150,999,middle,pitifully,16,1.0,0.13333333333333333
+jlens,stationary,m500_s150,999,middle,london,5,7.0,0.041666666666666664
+jlens,stationary,m500_s150,999,middle,pitfall,4,1.5,0.03333333333333333
+jlens,stationary,m500_s150,999,middle,pitiful,2,1.0,0.016666666666666666
+jlens,stationary,m500_s150,999,middle,coca cola,1,1.0,0.008333333333333333
+jlens,stationary,m500_s150,999,middle,danish,1,1.0,0.008333333333333333
+jlens,stationary,m500_s150,999,middle,gorsel,1,3.0,0.008333333333333333
+jlens,stationary,m500_s150,999,middle,gorski,1,1.0,0.008333333333333333
+jlens,stationary,m500_s150,999,middle,gorsky,1,2.0,0.008333333333333333
+jlens,stationary,m500_s150,999,middle,miu,1,2.0,0.008333333333333333
+jlens,stationary,m500_s150,999,middle,miya,1,1.0,0.008333333333333333
+jlens,stationary,m500_s150,999,middle,prince charles,1,2.0,0.008333333333333333
+jlens,stationary,m500_s150,999,middle,prince of persia,1,4.0,0.008333333333333333
+jlens,stationary,m500_s200,127,late,pitfall,3,1.0,0.03333333333333333
+jlens,stationary,m500_s200,127,late,pitifully,3,3.0,0.03333333333333333
+jlens,stationary,m500_s200,127,late,and the concept is,2,4.0,0.022222222222222223
+jlens,stationary,m500_s200,127,late,paddles,2,4.5,0.022222222222222223
+jlens,stationary,m500_s200,127,late,paddling,2,6.0,0.022222222222222223
+jlens,stationary,m500_s200,127,late,responsibility is a concept,2,1.0,0.022222222222222223
+jlens,stationary,m500_s200,127,late,seventy eight,2,4.0,0.022222222222222223
+jlens,stationary,m500_s200,127,late,seventy nine,2,6.5,0.022222222222222223
+jlens,stationary,m500_s200,127,late,seventy three,2,2.5,0.022222222222222223
+jlens,stationary,m500_s200,127,late,and it is,1,1.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,and it will think,1,2.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,and return,1,2.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,becker et al,1,1.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,coutable,1,5.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,coutness,1,6.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,coutout,1,1.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,coutting,1,2.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,dietrich,1,1.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,eighty eight,1,6.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,eighty five,1,10.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,eighty four,1,1.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,eighty seven,1,7.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,eighty six,1,9.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,eighty three,1,3.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,gregory galambos,1,1.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,million times,1,2.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,paddel,1,2.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,paddi,1,3.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,paddies,1,7.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,paddings,1,9.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,paddled,1,5.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,paddler,1,6.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,paddocks,1,1.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,patricia,1,1.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,patrick,1,2.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,pay attention,1,1.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,primed,1,1.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,seven numbers,1,1.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,seventy four,1,9.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,seventy seven,1,8.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,seventy six,1,10.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,sixty five,1,6.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,sixty four,1,7.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,sixty six,1,5.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,sixty three,1,2.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,sixty two,1,1.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,sustainability is,1,4.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,syndicate,1,7.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,the cloze,1,7.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,the concept is,1,1.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,the number,1,6.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,the numbers,1,4.0,0.011111111111111112
+jlens,stationary,m500_s200,127,late,the sequence,1,3.0,0.011111111111111112
+jlens,stationary,m500_s200,127,middle,hundred millions,5,1.0,0.041666666666666664
+jlens,stationary,m500_s200,127,middle,liu,4,3.5,0.03333333333333333
+jlens,stationary,m500_s200,127,middle,loopy,4,1.5,0.03333333333333333
+jlens,stationary,m500_s200,127,middle,oooohh,3,1.0,0.025
+jlens,stationary,m500_s200,127,middle,oooooooo,3,2.0,0.025
+jlens,stationary,m500_s200,127,middle,clump,2,1.5,0.016666666666666666
+jlens,stationary,m500_s200,127,middle,etc and so on,2,6.0,0.016666666666666666
+jlens,stationary,m500_s200,127,middle,etc as,2,2.5,0.016666666666666666
+jlens,stationary,m500_s200,127,middle,etc is,2,4.5,0.016666666666666666
+jlens,stationary,m500_s200,127,middle,etc of,2,1.0,0.016666666666666666
+jlens,stationary,m500_s200,127,middle,fiendish,2,3.0,0.016666666666666666
+jlens,stationary,m500_s200,127,middle,fiery,2,4.0,0.016666666666666666
+jlens,stationary,m500_s200,127,middle,nguyen,2,1.0,0.016666666666666666
+jlens,stationary,m500_s200,127,middle,oooo,2,3.5,0.016666666666666666
+jlens,stationary,m500_s200,127,middle,ooooooo,2,5.5,0.016666666666666666
+jlens,stationary,m500_s200,127,middle,eleventh,1,1.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,fibonacci,1,3.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,garbled,1,1.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,hi there,1,1.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,hole in the wall,1,10.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,holey,1,1.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,huahua,1,1.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,huizhong,1,2.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,huo,1,4.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,huynh,1,5.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,hydra,1,3.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,liam,1,2.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,liang shi,1,6.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,liang zhi,1,4.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,liangge,1,3.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,lianxi,1,1.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,lix,1,1.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,lol,1,2.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,lotto,1,1.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,mathematic number,1,1.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,nerds,1,1.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,nerdy,1,8.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,nerf,1,2.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,ocr,1,2.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,oooooo,1,9.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,oooooooooooooo,1,7.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,ooooooooooooooo,1,5.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,oooooooooooooooo,1,3.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,royal family,1,7.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,twenty five,1,7.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,twenty six,1,1.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,twenty three,1,9.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,viola,1,2.0,0.008333333333333333
+jlens,stationary,m500_s200,127,middle,zipcode,1,1.0,0.008333333333333333
+jlens,stationary,m500_s200,999,late,ten million,4,3.0,0.044444444444444446
+jlens,stationary,m500_s200,999,late,ten thousand,4,1.0,0.044444444444444446
+jlens,stationary,m500_s200,999,late,ten times,4,2.0,0.044444444444444446
+jlens,stationary,m500_s200,999,late,seven hundred,2,1.0,0.022222222222222223
+jlens,stationary,m500_s200,999,late,windsor hotel,2,1.5,0.022222222222222223
+jlens,stationary,m500_s200,999,late,pitifully,1,1.0,0.011111111111111112
+jlens,stationary,m500_s200,999,late,ten years,1,1.0,0.011111111111111112
+jlens,stationary,m500_s200,999,middle,pitifully,10,1.0,0.08333333333333333
+jlens,stationary,m500_s200,999,middle,coca cola,3,7.0,0.025
+jlens,stationary,m500_s200,999,middle,london,3,3.0,0.025
+jlens,stationary,m500_s200,999,middle,giacomo,2,1.0,0.016666666666666666
+jlens,stationary,m500_s200,999,middle,gianni,2,3.0,0.016666666666666666
+jlens,stationary,m500_s200,999,middle,giorgio,2,2.0,0.016666666666666666
+jlens,stationary,m500_s200,999,middle,giuseppe,2,4.5,0.016666666666666666
+jlens,stationary,m500_s200,999,middle,roast,2,3.5,0.016666666666666666
+jlens,stationary,m500_s200,999,middle,fireman,1,1.0,0.008333333333333333
+jlens,stationary,m500_s200,999,middle,garth,1,1.0,0.008333333333333333
+jlens,stationary,m500_s200,999,middle,giang,1,8.0,0.008333333333333333
+jlens,stationary,m500_s200,999,middle,gianna,1,4.0,0.008333333333333333
+jlens,stationary,m500_s200,999,middle,giorgi,1,6.0,0.008333333333333333
+jlens,stationary,m500_s200,999,middle,giorgos,1,6.0,0.008333333333333333
+jlens,stationary,m500_s200,999,middle,giu,1,7.0,0.008333333333333333
+jlens,stationary,m500_s200,999,middle,giulio,1,5.0,0.008333333333333333
+jlens,stationary,m500_s200,999,middle,lol,1,1.0,0.008333333333333333
+jlens,stationary,m500_s200,999,middle,nine hundred and five,1,6.0,0.008333333333333333
+jlens,stationary,m500_s200,999,middle,pitfall,1,1.0,0.008333333333333333
+jlens,stationary,m500_s200,999,middle,seven hundred,1,1.0,0.008333333333333333
+jlens,stationary,m550_s100,127,late,sixty five,6,5.0,0.06666666666666667
+jlens,stationary,m550_s100,127,late,sixty four,6,6.0,0.06666666666666667
+jlens,stationary,m550_s100,127,late,sixty six,6,4.0,0.06666666666666667
+jlens,stationary,m550_s100,127,late,sixty three,6,3.0,0.06666666666666667
+jlens,stationary,m550_s100,127,late,sixty two,6,2.0,0.06666666666666667
+jlens,stationary,m550_s100,127,late,sixty seven,4,1.0,0.044444444444444446
+jlens,stationary,m550_s100,127,late,sit in,3,2.0,0.03333333333333333
+jlens,stationary,m550_s100,127,late,sit on,3,1.0,0.03333333333333333
+jlens,stationary,m550_s100,127,late,pitifully,2,2.0,0.022222222222222223
+jlens,stationary,m550_s100,127,late,sixty one,2,6.0,0.022222222222222223
+jlens,stationary,m550_s100,127,late,china as,1,1.0,0.011111111111111112
+jlens,stationary,m550_s100,127,late,cortez,1,7.0,0.011111111111111112
+jlens,stationary,m550_s100,127,late,cortlandt,1,1.0,0.011111111111111112
+jlens,stationary,m550_s100,127,late,five hundred,1,1.0,0.011111111111111112
+jlens,stationary,m550_s100,127,late,five thousand,1,2.0,0.011111111111111112
+jlens,stationary,m550_s100,127,late,seventy five,1,6.0,0.011111111111111112
+jlens,stationary,m550_s100,127,late,seventy four,1,4.0,0.011111111111111112
+jlens,stationary,m550_s100,127,late,seventy seven,1,3.0,0.011111111111111112
+jlens,stationary,m550_s100,127,late,seventy six,1,2.0,0.011111111111111112
+jlens,stationary,m550_s100,127,late,seventy three,1,1.0,0.011111111111111112
+jlens,stationary,m550_s100,127,late,seventy two,1,5.0,0.011111111111111112
+jlens,stationary,m550_s100,127,late,went to,1,2.0,0.011111111111111112
+jlens,stationary,m550_s100,127,late,wentworth,1,3.0,0.011111111111111112
+jlens,stationary,m550_s100,127,middle,i think it is,6,1.0,0.05
+jlens,stationary,m550_s100,127,middle,etc as,4,2.5,0.03333333333333333
+jlens,stationary,m550_s100,127,middle,etc is,4,3.5,0.03333333333333333
+jlens,stationary,m550_s100,127,middle,etc and so on,3,2.0,0.025
+jlens,stationary,m550_s100,127,middle,gorski,3,1.0,0.025
+jlens,stationary,m550_s100,127,middle,garbled,2,1.5,0.016666666666666666
+jlens,stationary,m550_s100,127,middle,gorsky,2,2.5,0.016666666666666666
+jlens,stationary,m550_s100,127,middle,loopy,2,1.0,0.016666666666666666
+jlens,stationary,m550_s100,127,middle,safes,2,2.0,0.016666666666666666
+jlens,stationary,m550_s100,127,middle,etc of,1,1.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,garth,1,1.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,giacomo,1,1.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,giang,1,7.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,giorgi,1,6.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,giorgio,1,2.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,giorgos,1,4.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,giu,1,5.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,giude,1,9.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,giulio,1,3.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,gorsel,1,2.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,guess what,1,1.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,oooo,1,5.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,oooohh,1,1.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,oooooooo,1,2.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,ooooooooooooooo,1,9.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,oooooooooooooooo,1,3.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,pitifully,1,1.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,safetly,1,1.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,safetynet,1,4.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,saftey,1,2.0,0.008333333333333333
+jlens,stationary,m550_s100,127,middle,shields up,1,1.0,0.008333333333333333
+jlens,stationary,m550_s100,999,late,pitifully,3,1.0,0.03333333333333333
+jlens,stationary,m550_s100,999,middle,london,10,3.0,0.08333333333333333
+jlens,stationary,m550_s100,999,middle,pitifully,5,1.0,0.041666666666666664
+jlens,stationary,m550_s100,999,middle,pitfall,3,2.0,0.025
+jlens,stationary,m550_s100,999,middle,pitiful,3,1.0,0.025
+jlens,stationary,m550_s100,999,middle,coca cola,2,2.0,0.016666666666666666
+jlens,stationary,m550_s100,999,middle,danish,1,4.0,0.008333333333333333
+jlens,stationary,m550_s100,999,middle,https form,1,1.0,0.008333333333333333
+jlens,stationary,m550_s100,999,middle,it will think that,1,1.0,0.008333333333333333
+jlens,stationary,m550_s100,999,middle,korean,1,1.0,0.008333333333333333
+jlens,stationary,m550_s100,999,middle,nguyen,1,1.0,0.008333333333333333
+jlens,stationary,m550_s100,999,middle,sale in,1,2.0,0.008333333333333333
+jlens,stationary,m550_s100,999,middle,schoenfelder,1,1.0,0.008333333333333333
+jlens,stationary,m550_s100,999,middle,the concept is,1,1.0,0.008333333333333333
+jlens,stationary,m550_s100,999,middle,the word,1,3.0,0.008333333333333333
+jlens,stationary,m600_s100,127,late,sixty five,15,5.0,0.16666666666666666
+jlens,stationary,m600_s100,127,late,sixty four,15,6.0,0.16666666666666666
+jlens,stationary,m600_s100,127,late,sixty six,15,4.0,0.16666666666666666
+jlens,stationary,m600_s100,127,late,sixty three,15,3.0,0.16666666666666666
+jlens,stationary,m600_s100,127,late,sixty seven,14,1.0,0.15555555555555556
+jlens,stationary,m600_s100,127,late,sixty two,9,2.0,0.1
+jlens,stationary,m600_s100,127,late,seventy six,4,5.5,0.044444444444444446
+jlens,stationary,m600_s100,127,late,seventy four,3,4.0,0.03333333333333333
+jlens,stationary,m600_s100,127,late,seventy seven,3,9.0,0.03333333333333333
+jlens,stationary,m600_s100,127,late,seventy three,3,1.0,0.03333333333333333
+jlens,stationary,m600_s100,127,late,seventy two,3,5.0,0.03333333333333333
+jlens,stationary,m600_s100,127,late,sixty eight,3,3.0,0.03333333333333333
+jlens,stationary,m600_s100,127,late,seventy five,2,6.0,0.022222222222222223
+jlens,stationary,m600_s100,127,late,seventy nine,2,4.5,0.022222222222222223
+jlens,stationary,m600_s100,127,late,sit in,2,1.5,0.022222222222222223
+jlens,stationary,m600_s100,127,late,sit on,2,3.0,0.022222222222222223
+jlens,stationary,m600_s100,127,late,china as,1,10.0,0.011111111111111112
+jlens,stationary,m600_s100,127,late,gorsel,1,3.0,0.011111111111111112
+jlens,stationary,m600_s100,127,late,gorska,1,1.0,0.011111111111111112
+jlens,stationary,m600_s100,127,late,gorski,1,2.0,0.011111111111111112
+jlens,stationary,m600_s100,127,late,gorsky,1,4.0,0.011111111111111112
+jlens,stationary,m600_s100,127,late,gregory galambos,1,1.0,0.011111111111111112
+jlens,stationary,m600_s100,127,late,sadie,1,2.0,0.011111111111111112
+jlens,stationary,m600_s100,127,late,safes,1,7.0,0.011111111111111112
+jlens,stationary,m600_s100,127,late,safetynet,1,8.0,0.011111111111111112
+jlens,stationary,m600_s100,127,late,sit down,1,3.0,0.011111111111111112
+jlens,stationary,m600_s100,127,late,sixty nine,1,2.0,0.011111111111111112
+jlens,stationary,m600_s100,127,middle,garbled,4,1.0,0.03333333333333333
+jlens,stationary,m600_s100,127,middle,gorsel,3,3.0,0.025
+jlens,stationary,m600_s100,127,middle,gorski,3,2.0,0.025
+jlens,stationary,m600_s100,127,middle,gorsky,3,4.0,0.025
+jlens,stationary,m600_s100,127,middle,oooohh,3,1.0,0.025
+jlens,stationary,m600_s100,127,middle,oooooooo,3,2.0,0.025
+jlens,stationary,m600_s100,127,middle,safes,3,2.0,0.025
+jlens,stationary,m600_s100,127,middle,safetynet,3,3.0,0.025
+jlens,stationary,m600_s100,127,middle,giacomo,2,1.0,0.016666666666666666
+jlens,stationary,m600_s100,127,middle,giang,2,5.5,0.016666666666666666
+jlens,stationary,m600_s100,127,middle,giorgio,2,2.0,0.016666666666666666
+jlens,stationary,m600_s100,127,middle,giu,2,4.0,0.016666666666666666
+jlens,stationary,m600_s100,127,middle,gorska,2,1.5,0.016666666666666666
+jlens,stationary,m600_s100,127,middle,i think it is,2,1.0,0.016666666666666666
+jlens,stationary,m600_s100,127,middle,loopy,2,1.0,0.016666666666666666
+jlens,stationary,m600_s100,127,middle,oooo,2,4.0,0.016666666666666666
+jlens,stationary,m600_s100,127,middle,ooooooo,2,8.0,0.016666666666666666
+jlens,stationary,m600_s100,127,middle,oooooooooooooooo,2,5.5,0.016666666666666666
+jlens,stationary,m600_s100,127,middle,safetly,2,1.0,0.016666666666666666
+jlens,stationary,m600_s100,127,middle,saftey,2,1.5,0.016666666666666666
+jlens,stationary,m600_s100,127,middle,smiths,2,1.0,0.016666666666666666
+jlens,stationary,m600_s100,127,middle,etc as,1,1.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,etc is,1,2.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,fifty five,1,2.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,fifty six,1,1.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,gianna,1,3.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,giorgi,1,5.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,giorgos,1,3.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,giude,1,7.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,giuliani,1,6.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,gorsa,1,5.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,gorsedown beast,1,8.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,gorsia,1,1.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,gorsy,1,3.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,hundred millions,1,1.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,huo,1,1.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,ooooooooooooooo,1,8.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,saa,1,1.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,safeway,1,4.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,sixty five,1,3.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,sixty four,1,4.0,0.008333333333333333
+jlens,stationary,m600_s100,127,middle,smithy,1,2.0,0.008333333333333333
+jlens,stationary,m600_s100,999,late,pitifully,2,1.0,0.022222222222222223
+jlens,stationary,m600_s100,999,late,sixty five,1,4.0,0.011111111111111112
+jlens,stationary,m600_s100,999,late,sixty four,1,6.0,0.011111111111111112
+jlens,stationary,m600_s100,999,late,sixty nine,1,2.0,0.011111111111111112
+jlens,stationary,m600_s100,999,late,sixty seven,1,1.0,0.011111111111111112
+jlens,stationary,m600_s100,999,late,sixty six,1,5.0,0.011111111111111112
+jlens,stationary,m600_s100,999,late,sixty three,1,3.0,0.011111111111111112
+jlens,stationary,m600_s100,999,middle,london,6,2.5,0.05
+jlens,stationary,m600_s100,999,middle,coca cola,3,3.0,0.025
+jlens,stationary,m600_s100,999,middle,pitifully,3,1.0,0.025
+jlens,stationary,m600_s100,999,middle,https form,2,1.0,0.016666666666666666
+jlens,stationary,m600_s100,999,middle,pitfall,2,1.5,0.016666666666666666
+jlens,stationary,m600_s100,999,middle,danish,1,2.0,0.008333333333333333
+jlens,stationary,m600_s100,999,middle,it will think that,1,1.0,0.008333333333333333
+jlens,stationary,m600_s100,999,middle,korean,1,2.0,0.008333333333333333
+jlens,stationary,m600_s100,999,middle,lol,1,1.0,0.008333333333333333
+jlens,stationary,m600_s100,999,middle,louis vuitton,1,1.0,0.008333333333333333
+jlens,stationary,m600_s100,999,middle,pitiful,1,1.0,0.008333333333333333
+jlens,stationary,m600_s100,999,middle,roast,1,1.0,0.008333333333333333
+jlens,stationary,m600_s100,999,middle,rs is,1,1.0,0.008333333333333333
+jlens,stationary,m600_s100,999,middle,sale in,1,1.0,0.008333333333333333
+jlens,stationary,m600_s100,999,middle,so it will think,1,1.0,0.008333333333333333
+jlens,stationary,m650_s100,127,late,sixty five,10,5.0,0.1111111111111111
+jlens,stationary,m650_s100,127,late,sixty seven,10,1.0,0.1111111111111111
+jlens,stationary,m650_s100,127,late,sixty four,9,6.0,0.1
+jlens,stationary,m650_s100,127,late,sixty six,9,4.0,0.1
+jlens,stationary,m650_s100,127,late,seventy six,8,5.0,0.08888888888888889
+jlens,stationary,m650_s100,127,late,sixty three,8,3.0,0.08888888888888889
+jlens,stationary,m650_s100,127,late,seventy three,7,1.0,0.07777777777777778
+jlens,stationary,m650_s100,127,late,seventy five,6,6.0,0.06666666666666667
+jlens,stationary,m650_s100,127,late,seventy two,6,5.0,0.06666666666666667
+jlens,stationary,m650_s100,127,late,seventy seven,4,3.5,0.044444444444444446
+jlens,stationary,m650_s100,127,late,sit on,4,1.0,0.044444444444444446
+jlens,stationary,m650_s100,127,late,sixty eight,4,3.0,0.044444444444444446
+jlens,stationary,m650_s100,127,late,sixty two,4,2.0,0.044444444444444446
+jlens,stationary,m650_s100,127,late,seventy eight,3,5.0,0.03333333333333333
+jlens,stationary,m650_s100,127,late,seventy nine,3,7.0,0.03333333333333333
+jlens,stationary,m650_s100,127,late,sit in,3,2.0,0.03333333333333333
+jlens,stationary,m650_s100,127,late,seventy four,2,4.0,0.022222222222222223
+jlens,stationary,m650_s100,127,late,sixty nine,2,2.0,0.022222222222222223
+jlens,stationary,m650_s100,127,late,went to,2,3.5,0.022222222222222223
+jlens,stationary,m650_s100,127,late,wentworth,2,2.5,0.022222222222222223
+jlens,stationary,m650_s100,127,late,bags of money,1,1.0,0.011111111111111112
+jlens,stationary,m650_s100,127,late,eighty five,1,9.0,0.011111111111111112
+jlens,stationary,m650_s100,127,late,eighty three,1,1.0,0.011111111111111112
+jlens,stationary,m650_s100,127,late,gorski,1,1.0,0.011111111111111112
+jlens,stationary,m650_s100,127,late,gorsky,1,2.0,0.011111111111111112
+jlens,stationary,m650_s100,127,late,gray hair,1,10.0,0.011111111111111112
+jlens,stationary,m650_s100,127,late,gray is the color,1,6.0,0.011111111111111112
+jlens,stationary,m650_s100,127,late,sit down,1,3.0,0.011111111111111112
+jlens,stationary,m650_s100,127,late,sixtyseven,1,8.0,0.011111111111111112
+jlens,stationary,m650_s100,127,late,went up,1,5.0,0.011111111111111112
+jlens,stationary,m650_s100,127,middle,liu,5,2.0,0.041666666666666664
+jlens,stationary,m650_s100,127,middle,etc as,4,2.0,0.03333333333333333
+jlens,stationary,m650_s100,127,middle,etc is,4,3.0,0.03333333333333333
+jlens,stationary,m650_s100,127,middle,i think it is,4,1.0,0.03333333333333333
+jlens,stationary,m650_s100,127,middle,etc and so on,2,1.5,0.016666666666666666
+jlens,stationary,m650_s100,127,middle,garbled,2,1.5,0.016666666666666666
+jlens,stationary,m650_s100,127,middle,gorsel,2,5.0,0.016666666666666666
+jlens,stationary,m650_s100,127,middle,gorski,2,2.5,0.016666666666666666
+jlens,stationary,m650_s100,127,middle,gorsky,2,4.5,0.016666666666666666
+jlens,stationary,m650_s100,127,middle,huo,2,2.0,0.016666666666666666
+jlens,stationary,m650_s100,127,middle,liang shi,2,2.0,0.016666666666666666
+jlens,stationary,m650_s100,127,middle,etc of,1,1.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,garth,1,1.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,gas station,1,10.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,giacomo,1,1.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,giang,1,6.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,giorgi,1,5.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,giorgio,1,2.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,giorgos,1,3.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,giu,1,4.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,gorsa,1,5.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,gorsedown beast,1,9.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,gorsia,1,1.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,gorska,1,2.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,gorsy,1,3.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,hole in the head,1,1.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,hole in the wall,1,2.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,holey,1,3.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,huahua,1,1.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,huaihai,1,5.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,huizhong,1,2.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,hundred millions,1,1.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,huynh,1,4.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,loopy,1,1.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,pillbox,1,1.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,safe is,1,1.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,safes,1,3.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,safetly,1,1.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,safetynet,1,4.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,saftey,1,2.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,shields up,1,1.0,0.008333333333333333
+jlens,stationary,m650_s100,127,middle,sit in,1,4.0,0.008333333333333333
+jlens,stationary,m650_s100,999,late,pitifully,4,1.0,0.044444444444444446
+jlens,stationary,m650_s100,999,late,sixty five,2,3.5,0.022222222222222223
+jlens,stationary,m650_s100,999,late,sixty six,2,3.5,0.022222222222222223
+jlens,stationary,m650_s100,999,late,sixty three,2,2.0,0.022222222222222223
+jlens,stationary,m650_s100,999,late,seventy five,1,6.0,0.011111111111111112
+jlens,stationary,m650_s100,999,late,seventy four,1,3.0,0.011111111111111112
+jlens,stationary,m650_s100,999,late,seventy one,1,5.0,0.011111111111111112
+jlens,stationary,m650_s100,999,late,seventy six,1,2.0,0.011111111111111112
+jlens,stationary,m650_s100,999,late,seventy three,1,1.0,0.011111111111111112
+jlens,stationary,m650_s100,999,late,seventy two,1,4.0,0.011111111111111112
+jlens,stationary,m650_s100,999,late,sixty four,1,6.0,0.011111111111111112
+jlens,stationary,m650_s100,999,late,sixty seven,1,1.0,0.011111111111111112
+jlens,stationary,m650_s100,999,late,sixty two,1,2.0,0.011111111111111112
+jlens,stationary,m650_s100,999,late,windsor hotel,1,1.0,0.011111111111111112
+jlens,stationary,m650_s100,999,middle,coca cola,3,1.0,0.025
+jlens,stationary,m650_s100,999,middle,pitifully,3,5.0,0.025
+jlens,stationary,m650_s100,999,middle,korean,2,3.5,0.016666666666666666
+jlens,stationary,m650_s100,999,middle,london,2,5.0,0.016666666666666666
+jlens,stationary,m650_s100,999,middle,https form,1,1.0,0.008333333333333333
+jlens,stationary,m650_s100,999,middle,httpsd,1,9.0,0.008333333333333333
+jlens,stationary,m650_s100,999,middle,lol,1,2.0,0.008333333333333333
+jlens,stationary,m650_s100,999,middle,sale in,1,1.0,0.008333333333333333
+jlens,stationary,m650_s100,999,middle,saudi,1,1.0,0.008333333333333333
+jlens,stationary,m650_s100,999,middle,so it will think,1,1.0,0.008333333333333333
+jlens,stationary,m700_s100,127,late,seventy six,14,4.0,0.15555555555555556
+jlens,stationary,m700_s100,127,late,seventy seven,13,4.0,0.14444444444444443
+jlens,stationary,m700_s100,127,late,seventy eight,12,2.0,0.13333333333333333
+jlens,stationary,m700_s100,127,late,seventy five,12,6.5,0.13333333333333333
+jlens,stationary,m700_s100,127,late,seventy nine,12,2.5,0.13333333333333333
+jlens,stationary,m700_s100,127,late,seventy three,12,1.0,0.13333333333333333
+jlens,stationary,m700_s100,127,late,seventy two,7,5.0,0.07777777777777778
+jlens,stationary,m700_s100,127,late,seventy four,4,7.0,0.044444444444444446
+jlens,stationary,m700_s100,127,late,gray is the color,3,5.0,0.03333333333333333
+jlens,stationary,m700_s100,127,late,seventy one,3,5.0,0.03333333333333333
+jlens,stationary,m700_s100,127,late,sixty seven,3,1.0,0.03333333333333333
+jlens,stationary,m700_s100,127,late,eighty eight,2,3.5,0.022222222222222223
+jlens,stationary,m700_s100,127,late,eighty seven,2,5.5,0.022222222222222223
+jlens,stationary,m700_s100,127,late,eighty six,2,5.0,0.022222222222222223
+jlens,stationary,m700_s100,127,late,eighty three,2,1.5,0.022222222222222223
+jlens,stationary,m700_s100,127,late,hendon,2,3.0,0.022222222222222223
+jlens,stationary,m700_s100,127,late,sheridan square,2,1.0,0.022222222222222223
+jlens,stationary,m700_s100,127,late,sixty eight,2,3.5,0.022222222222222223
+jlens,stationary,m700_s100,127,late,sixty five,2,6.5,0.022222222222222223
+jlens,stationary,m700_s100,127,late,sixty four,2,9.0,0.022222222222222223
+jlens,stationary,m700_s100,127,late,sixty nine,2,2.0,0.022222222222222223
+jlens,stationary,m700_s100,127,late,sixty six,2,5.0,0.022222222222222223
+jlens,stationary,m700_s100,127,late,sixty three,2,3.0,0.022222222222222223
+jlens,stationary,m700_s100,127,late,yaşar,2,2.5,0.022222222222222223
+jlens,stationary,m700_s100,127,late,değerler,1,2.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,eight hundred,1,1.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,eighty five,1,6.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,eighty four,1,1.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,euripides,1,1.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,gray and white,1,3.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,gray area,1,4.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,grayish,1,1.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,gregory galambos,1,1.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,grey and black,1,5.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,grey and white,1,1.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,grey is the color,1,7.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,hoşgeldin,1,4.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,seven hundred,1,2.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,soru ve cevabi,1,1.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,soru ve cevabı,1,8.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,soru ve cevap,1,5.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,stoi as,1,4.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,stoi for each number,1,2.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,stoi string,1,3.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,stoiu,1,1.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,uzavřený systém,1,8.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,windsor hotel,1,9.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,windsor tower,1,3.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,yaşıl,1,1.0,0.011111111111111112
+jlens,stationary,m700_s100,127,late,счёт,1,5.0,0.011111111111111112
+jlens,stationary,m700_s100,127,middle,etc is,4,3.0,0.03333333333333333
+jlens,stationary,m700_s100,127,middle,garbled,4,1.5,0.03333333333333333
+jlens,stationary,m700_s100,127,middle,gorski,4,4.0,0.03333333333333333
+jlens,stationary,m700_s100,127,middle,gorsky,4,5.5,0.03333333333333333
+jlens,stationary,m700_s100,127,middle,seventy seven,4,3.0,0.03333333333333333
+jlens,stationary,m700_s100,127,middle,etc as,3,1.0,0.025
+jlens,stationary,m700_s100,127,middle,gorsel,3,6.0,0.025
+jlens,stationary,m700_s100,127,middle,gorska,3,3.0,0.025
+jlens,stationary,m700_s100,127,middle,i think it is,3,1.0,0.025
+jlens,stationary,m700_s100,127,middle,oooohh,3,1.0,0.025
+jlens,stationary,m700_s100,127,middle,seventy five,3,9.0,0.025
+jlens,stationary,m700_s100,127,middle,seventy nine,3,2.0,0.025
+jlens,stationary,m700_s100,127,middle,seventy six,3,4.0,0.025
+jlens,stationary,m700_s100,127,middle,garth,2,1.0,0.016666666666666666
+jlens,stationary,m700_s100,127,middle,giang,2,5.0,0.016666666666666666
+jlens,stationary,m700_s100,127,middle,giu,2,3.0,0.016666666666666666
+jlens,stationary,m700_s100,127,middle,gorsia,2,2.0,0.016666666666666666
+jlens,stationary,m700_s100,127,middle,hi my name is,2,1.0,0.016666666666666666
+jlens,stationary,m700_s100,127,middle,hi there,2,2.0,0.016666666666666666
+jlens,stationary,m700_s100,127,middle,lian,2,1.0,0.016666666666666666
+jlens,stationary,m700_s100,127,middle,liu,2,4.5,0.016666666666666666
+jlens,stationary,m700_s100,127,middle,oooo,2,3.5,0.016666666666666666
+jlens,stationary,m700_s100,127,middle,oooooooo,2,2.0,0.016666666666666666
+jlens,stationary,m700_s100,127,middle,oooooooooooooooo,2,3.5,0.016666666666666666
+jlens,stationary,m700_s100,127,middle,seventy eight,2,2.5,0.016666666666666666
+jlens,stationary,m700_s100,127,middle,seventy three,2,1.0,0.016666666666666666
+jlens,stationary,m700_s100,127,middle,eight hundred,1,5.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,etc and so on,1,2.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,giacomo,1,1.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,giorgi,1,6.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,giorgio,1,2.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,giorgos,1,4.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,giuseppe,1,3.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,gorsa,1,5.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,gorsage,1,1.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,gorsal,1,1.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,gorsy,1,4.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,hundred millions,1,1.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,liam,1,3.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,liang shi,1,6.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,liangge,1,2.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,loopy,1,3.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,oooooo,1,10.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,oooooooooooooo,1,9.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,ooooooooooooooo,1,5.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,rwq,1,3.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,seventy four,1,2.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,seventy one,1,6.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,seventy two,1,5.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,sixty eight,1,2.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,sixty five,1,3.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,sixty four,1,4.0,0.008333333333333333
+jlens,stationary,m700_s100,127,middle,sixty seven,1,1.0,0.008333333333333333
+jlens,stationary,m700_s100,999,late,seventy five,10,6.0,0.1111111111111111
+jlens,stationary,m700_s100,999,late,seventy six,10,2.0,0.1111111111111111
+jlens,stationary,m700_s100,999,late,seventy three,10,1.0,0.1111111111111111
+jlens,stationary,m700_s100,999,late,seventy two,10,4.5,0.1111111111111111
+jlens,stationary,m700_s100,999,late,seventy seven,9,3.0,0.1
+jlens,stationary,m700_s100,999,late,pitifully,7,1.0,0.07777777777777778
+jlens,stationary,m700_s100,999,late,seventy four,5,4.0,0.05555555555555555
+jlens,stationary,m700_s100,999,late,seventy one,2,5.0,0.022222222222222223
+jlens,stationary,m700_s100,999,late,sadie,1,4.0,0.011111111111111112
+jlens,stationary,m700_s100,999,late,seventy nine,1,2.0,0.011111111111111112
+jlens,stationary,m700_s100,999,late,sixty five,1,1.0,0.011111111111111112
+jlens,stationary,m700_s100,999,late,staffordshire,1,9.0,0.011111111111111112
+jlens,stationary,m700_s100,999,late,went to,1,2.0,0.011111111111111112
+jlens,stationary,m700_s100,999,late,wentworth,1,1.0,0.011111111111111112
+jlens,stationary,m700_s100,999,middle,coca cola,5,1.0,0.041666666666666664
+jlens,stationary,m700_s100,999,middle,hole in the head,3,2.0,0.025
+jlens,stationary,m700_s100,999,middle,hole in the wall,3,4.0,0.025
+jlens,stationary,m700_s100,999,middle,holey,3,5.0,0.025
+jlens,stationary,m700_s100,999,middle,london,3,8.0,0.025
+jlens,stationary,m700_s100,999,middle,hole in one,2,1.5,0.016666666666666666
+jlens,stationary,m700_s100,999,middle,kenny,2,8.5,0.016666666666666666
+jlens,stationary,m700_s100,999,middle,oscar,2,1.5,0.016666666666666666
+jlens,stationary,m700_s100,999,middle,pitifully,2,1.5,0.016666666666666666
+jlens,stationary,m700_s100,999,middle,pullover,2,1.0,0.016666666666666666
+jlens,stationary,m700_s100,999,middle,saudi,2,2.0,0.016666666666666666
+jlens,stationary,m700_s100,999,middle,seventy five,2,3.0,0.016666666666666666
+jlens,stationary,m700_s100,999,middle,efu,1,7.0,0.008333333333333333
+jlens,stationary,m700_s100,999,middle,giuseppe,1,1.0,0.008333333333333333
+jlens,stationary,m700_s100,999,middle,hole of,1,1.0,0.008333333333333333
+jlens,stationary,m700_s100,999,middle,king of the hill,1,1.0,0.008333333333333333
+jlens,stationary,m700_s100,999,middle,korean,1,3.0,0.008333333333333333
+jlens,stationary,m700_s100,999,middle,lyx,1,2.0,0.008333333333333333
+jlens,stationary,m700_s100,999,middle,ocr,1,1.0,0.008333333333333333
+jlens,stationary,m700_s100,999,middle,roast,1,1.0,0.008333333333333333
+jlens,stationary,m700_s100,999,middle,seventy six,1,1.0,0.008333333333333333
+jlens,stationary,m700_s100,999,middle,so it will think,1,1.0,0.008333333333333333
+jlens,stationary,m700_s100,999,middle,tuesday,1,1.0,0.008333333333333333
+jlens,switch,switch,-1,middle,coca cola,5,2.0,0.041666666666666664
+jlens,switch,switch,-1,middle,pitifully,3,1.0,0.025
+jlens,switch,switch,-1,middle,lol,2,2.0,0.016666666666666666
+jlens,switch,switch,-1,middle,korea,1,4.0,0.008333333333333333
+jlens,switch,switch,-1,middle,london,1,10.0,0.008333333333333333
+jlens,switch,switch,-1,middle,nguyen,1,1.0,0.008333333333333333
+jlens,switch,switch,0,middle,the concept is,12,3.0,0.1
+jlens,switch,switch,0,middle,the word,11,2.0,0.09166666666666666
+jlens,switch,switch,0,middle,the concept of,10,1.0,0.08333333333333333
+jlens,switch,switch,0,middle,pitifully,5,1.0,0.041666666666666664
+jlens,switch,switch,0,middle,london,3,2.0,0.025
+jlens,switch,switch,0,middle,three hundred,3,5.0,0.025
+jlens,switch,switch,0,middle,korean,2,5.5,0.016666666666666666
+jlens,switch,switch,0,middle,dolores,1,1.0,0.008333333333333333
+jlens,switch,switch,0,middle,in this case,1,2.0,0.008333333333333333
+jlens,switch,switch,0,middle,loopy,1,1.0,0.008333333333333333
+jlens,switch,switch,0,middle,one of the following,1,3.0,0.008333333333333333
+jlens,switch,switch,0,middle,the cloze above,1,1.0,0.008333333333333333
+jlens,switch,switch,1,late,and it will be,1,2.0,0.011111111111111112
+jlens,switch,switch,1,late,and it will think,1,1.0,0.011111111111111112
+jlens,switch,switch,1,late,and the concept is,1,3.0,0.011111111111111112
+jlens,switch,switch,1,middle,london,9,1.0,0.075
+jlens,switch,switch,1,middle,the concept is,8,3.0,0.06666666666666667
+jlens,switch,switch,1,middle,the concept of,8,1.0,0.06666666666666667
+jlens,switch,switch,1,middle,the word,8,2.5,0.06666666666666667
+jlens,switch,switch,1,middle,pitifully,3,1.0,0.025
+jlens,switch,switch,1,middle,in this case,2,3.0,0.016666666666666666
+jlens,switch,switch,1,middle,the cloze above,2,1.5,0.016666666666666666
+jlens,switch,switch,1,middle,and it is,1,1.0,0.008333333333333333
+jlens,switch,switch,1,middle,and it will think,1,2.0,0.008333333333333333
+jlens,switch,switch,1,middle,christmas is coming,1,1.0,0.008333333333333333
+jlens,switch,switch,1,middle,coca cola,1,2.0,0.008333333333333333
+jlens,switch,switch,1,middle,korean,1,1.0,0.008333333333333333
+jlens,switch,switch,1,middle,washington,1,3.0,0.008333333333333333
+jlens,switch,switch,2,late,and it will be,3,2.0,0.03333333333333333
+jlens,switch,switch,2,late,and the concept is,3,3.0,0.03333333333333333
+jlens,switch,switch,2,late,and it is,2,1.0,0.022222222222222223
+jlens,switch,switch,2,late,and this concept is,1,4.0,0.011111111111111112
+jlens,switch,switch,2,late,seventy five,1,8.0,0.011111111111111112
+jlens,switch,switch,2,late,seventy four,1,4.0,0.011111111111111112
+jlens,switch,switch,2,late,seventy seven,1,2.0,0.011111111111111112
+jlens,switch,switch,2,late,seventy six,1,3.0,0.011111111111111112
+jlens,switch,switch,2,late,seventy three,1,1.0,0.011111111111111112
+jlens,switch,switch,2,late,seventy two,1,5.0,0.011111111111111112
+jlens,switch,switch,2,late,sixty five,1,3.0,0.011111111111111112
+jlens,switch,switch,2,late,sixty four,1,4.0,0.011111111111111112
+jlens,switch,switch,2,late,sixty six,1,2.0,0.011111111111111112
+jlens,switch,switch,2,late,sixty three,1,1.0,0.011111111111111112
+jlens,switch,switch,2,middle,london,12,1.0,0.1
+jlens,switch,switch,2,middle,the concept is,10,3.0,0.08333333333333333
+jlens,switch,switch,2,middle,the concept of,9,1.0,0.075
+jlens,switch,switch,2,middle,the word,9,2.0,0.075
+jlens,switch,switch,2,middle,historical,2,4.0,0.016666666666666666
+jlens,switch,switch,2,middle,huasheng,2,1.5,0.016666666666666666
+jlens,switch,switch,2,middle,huatuo,2,4.0,0.016666666666666666
+jlens,switch,switch,2,middle,huo,2,3.0,0.016666666666666666
+jlens,switch,switch,2,middle,pitifully,2,1.0,0.016666666666666666
+jlens,switch,switch,2,middle,and it will be,1,1.0,0.008333333333333333
+jlens,switch,switch,2,middle,britain,1,2.0,0.008333333333333333
+jlens,switch,switch,2,middle,hayashi,1,1.0,0.008333333333333333
+jlens,switch,switch,2,middle,huahua,1,2.0,0.008333333333333333
+jlens,switch,switch,2,middle,huynh,1,5.0,0.008333333333333333
+jlens,switch,switch,2,middle,korean,1,1.0,0.008333333333333333
+jlens,switch,switch,2,middle,seven days,1,2.0,0.008333333333333333
+jlens,switch,switch,2,middle,seven days a week,1,10.0,0.008333333333333333
+jlens,switch,switch,2,middle,seven hundred,1,8.0,0.008333333333333333
+jlens,switch,switch,2,middle,seven times,1,6.0,0.008333333333333333
+jlens,switch,switch,2,middle,seventy five,1,9.0,0.008333333333333333
+jlens,switch,switch,2,middle,seventy four,1,5.0,0.008333333333333333
+jlens,switch,switch,2,middle,seventy seven,1,3.0,0.008333333333333333
+jlens,switch,switch,2,middle,seventy six,1,4.0,0.008333333333333333
+jlens,switch,switch,2,middle,seventy three,1,1.0,0.008333333333333333
+jlens,switch,switch,2,middle,seventy two,1,7.0,0.008333333333333333
+jlens,switch,switch,2,middle,sixty five,1,2.0,0.008333333333333333
+jlens,switch,switch,2,middle,sixty three,1,1.0,0.008333333333333333
+jlens,switch,switch,2,middle,the cloze above,1,2.0,0.008333333333333333
+jlens,switch,switch,2,middle,three hundred,1,1.0,0.008333333333333333
+jlens,switch,switch,2,middle,wang xuan,1,1.0,0.008333333333333333
+jlens,switch,switch,4,late,and it is,3,1.0,0.03333333333333333
+jlens,switch,switch,4,late,and it will be,3,3.0,0.03333333333333333
+jlens,switch,switch,4,late,and the concept is,3,4.0,0.03333333333333333
+jlens,switch,switch,4,late,seven days,3,1.0,0.03333333333333333
+jlens,switch,switch,4,late,seven hundred,3,4.0,0.03333333333333333
+jlens,switch,switch,4,late,seven times,3,2.0,0.03333333333333333
+jlens,switch,switch,4,late,and it will think,2,2.0,0.022222222222222223
+jlens,switch,switch,4,late,seven days a week,2,3.0,0.022222222222222223
+jlens,switch,switch,4,late,seventy four,2,5.0,0.022222222222222223
+jlens,switch,switch,4,late,seventy seven,2,2.5,0.022222222222222223
+jlens,switch,switch,4,late,seventy six,2,3.5,0.022222222222222223
+jlens,switch,switch,4,late,seventy three,2,1.5,0.022222222222222223
+jlens,switch,switch,4,late,seventy two,2,7.5,0.022222222222222223
+jlens,switch,switch,4,late,a person,1,6.0,0.011111111111111112
+jlens,switch,switch,4,late,at least,1,4.0,0.011111111111111112
+jlens,switch,switch,4,late,rafal,1,1.0,0.011111111111111112
+jlens,switch,switch,4,late,shi,1,1.0,0.011111111111111112
+jlens,switch,switch,4,late,sixty five,1,5.0,0.011111111111111112
+jlens,switch,switch,4,late,sixty four,1,6.0,0.011111111111111112
+jlens,switch,switch,4,late,sixty seven,1,1.0,0.011111111111111112
+jlens,switch,switch,4,late,sixty six,1,4.0,0.011111111111111112
+jlens,switch,switch,4,late,sixty three,1,3.0,0.011111111111111112
+jlens,switch,switch,4,late,sixty two,1,2.0,0.011111111111111112
+jlens,switch,switch,4,late,the concept is,1,3.0,0.011111111111111112
+jlens,switch,switch,4,late,the concept of,1,1.0,0.011111111111111112
+jlens,switch,switch,4,late,the number,1,5.0,0.011111111111111112
+jlens,switch,switch,4,late,the word,1,2.0,0.011111111111111112
+jlens,switch,switch,4,late,thousand of people,1,1.0,0.011111111111111112
+jlens,switch,switch,4,middle,london,15,1.0,0.125
+jlens,switch,switch,4,middle,huo,12,1.0,0.1
+jlens,switch,switch,4,middle,huynh,5,3.0,0.041666666666666664
+jlens,switch,switch,4,middle,lol,5,2.0,0.041666666666666664
+jlens,switch,switch,4,middle,the concept of,5,1.0,0.041666666666666664
+jlens,switch,switch,4,middle,huatuo,4,2.0,0.03333333333333333
+jlens,switch,switch,4,middle,seventy four,4,3.5,0.03333333333333333
+jlens,switch,switch,4,middle,seventy six,4,2.5,0.03333333333333333
+jlens,switch,switch,4,middle,seventy three,4,1.0,0.03333333333333333
+jlens,switch,switch,4,middle,seventy two,4,4.5,0.03333333333333333
+jlens,switch,switch,4,middle,the concept is,4,3.0,0.03333333333333333
+jlens,switch,switch,4,middle,huaihai,3,5.0,0.025
+jlens,switch,switch,4,middle,korean,3,2.0,0.025
+jlens,switch,switch,4,middle,seventy five,3,6.0,0.025
+jlens,switch,switch,4,middle,the word,3,2.0,0.025
+jlens,switch,switch,4,middle,pitifully,2,1.0,0.016666666666666666
+jlens,switch,switch,4,middle,seventy one,2,5.0,0.016666666666666666
+jlens,switch,switch,4,middle,seventy seven,2,3.5,0.016666666666666666
+jlens,switch,switch,4,middle,trillion dollar,2,3.0,0.016666666666666666
+jlens,switch,switch,4,middle,and it will think,1,1.0,0.008333333333333333
+jlens,switch,switch,4,middle,and the concept is,1,6.0,0.008333333333333333
+jlens,switch,switch,4,middle,britain,1,2.0,0.008333333333333333
+jlens,switch,switch,4,middle,british,1,4.0,0.008333333333333333
+jlens,switch,switch,4,middle,coca cola,1,1.0,0.008333333333333333
+jlens,switch,switch,4,middle,five hundred,1,2.0,0.008333333333333333
+jlens,switch,switch,4,middle,hayashi,1,1.0,0.008333333333333333
+jlens,switch,switch,4,middle,https form,1,7.0,0.008333333333333333
+jlens,switch,switch,4,middle,huahua,1,1.0,0.008333333333333333
+jlens,switch,switch,4,middle,kenny,1,6.0,0.008333333333333333
+jlens,switch,switch,4,middle,korea,1,1.0,0.008333333333333333
+jlens,switch,switch,4,middle,loopy,1,1.0,0.008333333333333333
+jlens,switch,switch,4,middle,nlp,1,7.0,0.008333333333333333
+jlens,switch,switch,4,middle,rothman,1,1.0,0.008333333333333333
+jlens,switch,switch,4,middle,seven days,1,4.0,0.008333333333333333
+jlens,switch,switch,4,middle,seven hundred,1,2.0,0.008333333333333333
+jlens,switch,switch,4,middle,seven hundred and fifty,1,2.0,0.008333333333333333
+jlens,switch,switch,4,middle,seven times,1,9.0,0.008333333333333333
+jlens,switch,switch,4,middle,seventy eight,1,2.0,0.008333333333333333
+jlens,switch,switch,4,middle,seventy nine,1,3.0,0.008333333333333333
+jlens,switch,switch,4,middle,the answer is,1,6.0,0.008333333333333333
+jlens,switch,switch,4,middle,washington,1,6.0,0.008333333333333333
+jlens,switch,switch,4,middle,yao,1,1.0,0.008333333333333333
+jlens,switch,switch,8,late,and the concept is,7,4.0,0.07777777777777778
+jlens,switch,switch,8,late,and it will be,6,1.5,0.06666666666666667
+jlens,switch,switch,8,late,the concept of,4,3.0,0.044444444444444446
+jlens,switch,switch,8,late,and it is,3,1.0,0.03333333333333333
+jlens,switch,switch,8,late,and this concept is,3,9.0,0.03333333333333333
+jlens,switch,switch,8,late,sixty five,3,4.0,0.03333333333333333
+jlens,switch,switch,8,late,the concept is,3,5.0,0.03333333333333333
+jlens,switch,switch,8,late,the number,3,7.0,0.03333333333333333
+jlens,switch,switch,8,late,the word,3,4.0,0.03333333333333333
+jlens,switch,switch,8,late,a person,2,8.5,0.022222222222222223
+jlens,switch,switch,8,late,eighth month,2,2.5,0.022222222222222223
+jlens,switch,switch,8,late,seventy five,2,6.0,0.022222222222222223
+jlens,switch,switch,8,late,seventy four,2,3.5,0.022222222222222223
+jlens,switch,switch,8,late,seventy six,2,2.5,0.022222222222222223
+jlens,switch,switch,8,late,seventy three,2,1.0,0.022222222222222223
+jlens,switch,switch,8,late,seventy two,2,4.5,0.022222222222222223
+jlens,switch,switch,8,late,sixty four,2,6.0,0.022222222222222223
+jlens,switch,switch,8,late,sixty six,2,3.5,0.022222222222222223
+jlens,switch,switch,8,late,sixty three,2,2.5,0.022222222222222223
+jlens,switch,switch,8,late,sixty two,2,1.5,0.022222222222222223
+jlens,switch,switch,8,late,and it will think,1,2.0,0.011111111111111112
+jlens,switch,switch,8,late,gradation,1,1.0,0.011111111111111112
+jlens,switch,switch,8,late,ninth floor,1,1.0,0.011111111111111112
+jlens,switch,switch,8,late,ninth word,1,4.0,0.011111111111111112
+jlens,switch,switch,8,late,seventy nine,1,2.0,0.011111111111111112
+jlens,switch,switch,8,late,seventy one,1,7.0,0.011111111111111112
+jlens,switch,switch,8,late,sixty one,1,5.0,0.011111111111111112
+jlens,switch,switch,8,late,sixty seven,1,1.0,0.011111111111111112
+jlens,switch,switch,8,late,the numbers,1,5.0,0.011111111111111112
+jlens,switch,switch,8,middle,huo,11,1.0,0.09166666666666666
+jlens,switch,switch,8,middle,huynh,6,3.0,0.05
+jlens,switch,switch,8,middle,the concept is,5,3.0,0.041666666666666664
+jlens,switch,switch,8,middle,the concept of,5,1.0,0.041666666666666664
+jlens,switch,switch,8,middle,the word,5,3.0,0.041666666666666664
+jlens,switch,switch,8,middle,huatuo,4,2.0,0.03333333333333333
+jlens,switch,switch,8,middle,pitifully,4,1.0,0.03333333333333333
+jlens,switch,switch,8,middle,seventy five,4,4.5,0.03333333333333333
+jlens,switch,switch,8,middle,seventy three,4,1.0,0.03333333333333333
+jlens,switch,switch,8,middle,trillion dollar,4,5.0,0.03333333333333333
+jlens,switch,switch,8,middle,huaihai,3,4.0,0.025
+jlens,switch,switch,8,middle,korean,3,1.0,0.025
+jlens,switch,switch,8,middle,seventy four,3,3.0,0.025
+jlens,switch,switch,8,middle,eighty five,2,4.0,0.016666666666666666
+jlens,switch,switch,8,middle,hu xing,2,4.5,0.016666666666666666
+jlens,switch,switch,8,middle,london,2,1.0,0.016666666666666666
+jlens,switch,switch,8,middle,seventy two,2,4.0,0.016666666666666666
+jlens,switch,switch,8,middle,and it will be,1,1.0,0.008333333333333333
+jlens,switch,switch,8,middle,and it will think,1,1.0,0.008333333333333333
+jlens,switch,switch,8,middle,britain,1,1.0,0.008333333333333333
+jlens,switch,switch,8,middle,british,1,2.0,0.008333333333333333
+jlens,switch,switch,8,middle,eighty four,1,1.0,0.008333333333333333
+jlens,switch,switch,8,middle,eighty one,1,3.0,0.008333333333333333
+jlens,switch,switch,8,middle,eighty three,1,2.0,0.008333333333333333
+jlens,switch,switch,8,middle,four hundred,1,1.0,0.008333333333333333
+jlens,switch,switch,8,middle,hi there,1,2.0,0.008333333333333333
+jlens,switch,switch,8,middle,hu xiang,1,3.0,0.008333333333333333
+jlens,switch,switch,8,middle,huahua,1,2.0,0.008333333333333333
+jlens,switch,switch,8,middle,huasheng,1,1.0,0.008333333333333333
+jlens,switch,switch,8,middle,my name is,1,1.0,0.008333333333333333
+jlens,switch,switch,8,middle,none of the above,1,2.0,0.008333333333333333
+jlens,switch,switch,8,middle,octopus,1,4.0,0.008333333333333333
+jlens,switch,switch,8,middle,pitfall,1,7.0,0.008333333333333333
+jlens,switch,switch,8,middle,saucer,1,5.0,0.008333333333333333
+jlens,switch,switch,8,middle,saucers,1,3.0,0.008333333333333333
+jlens,switch,switch,8,middle,saucy,1,9.0,0.008333333333333333
+jlens,switch,switch,8,middle,saudi,1,2.0,0.008333333333333333
+jlens,switch,switch,8,middle,saudi arabia,1,7.0,0.008333333333333333
+jlens,switch,switch,8,middle,seventy nine,1,2.0,0.008333333333333333
+jlens,switch,switch,8,middle,seventy six,1,2.0,0.008333333333333333
+jlens,switch,switch,8,middle,sixty five,1,3.0,0.008333333333333333
+jlens,switch,switch,8,middle,sixty four,1,4.0,0.008333333333333333
+jlens,switch,switch,8,middle,sixty three,1,2.0,0.008333333333333333
+jlens,switch,switch,8,middle,three hundred,1,1.0,0.008333333333333333
+jlens,switch,switch,8,middle,ugh,1,1.0,0.008333333333333333
+jlens,switch,switch,8,middle,ukrainian,1,6.0,0.008333333333333333
+jlens,switch,switch,8,middle,zhu yilong,1,1.0,0.008333333333333333
+jlens,switch,switch,16,late,the concept of,5,2.0,0.05555555555555555
+jlens,switch,switch,16,late,and the concept is,4,4.5,0.044444444444444446
+jlens,switch,switch,16,late,the concept is,4,4.0,0.044444444444444446
+jlens,switch,switch,16,late,the number,4,8.5,0.044444444444444446
+jlens,switch,switch,16,late,the word,4,3.0,0.044444444444444446
+jlens,switch,switch,16,late,a person,3,7.0,0.03333333333333333
+jlens,switch,switch,16,late,and it is,3,1.0,0.03333333333333333
+jlens,switch,switch,16,late,sixty five,3,3.0,0.03333333333333333
+jlens,switch,switch,16,late,and it will be,2,3.0,0.022222222222222223
+jlens,switch,switch,16,late,and it will think,2,2.0,0.022222222222222223
+jlens,switch,switch,16,late,eighty five,2,6.0,0.022222222222222223
+jlens,switch,switch,16,late,eighty four,2,2.0,0.022222222222222223
+jlens,switch,switch,16,late,eighty one,2,4.5,0.022222222222222223
+jlens,switch,switch,16,late,eighty six,2,4.5,0.022222222222222223
+jlens,switch,switch,16,late,eighty three,2,3.0,0.022222222222222223
+jlens,switch,switch,16,late,eighty two,2,1.0,0.022222222222222223
+jlens,switch,switch,16,late,lambert house,2,1.0,0.022222222222222223
+jlens,switch,switch,16,late,seventy five,2,6.0,0.022222222222222223
+jlens,switch,switch,16,late,seventy four,2,3.5,0.022222222222222223
+jlens,switch,switch,16,late,seventy six,2,2.5,0.022222222222222223
+jlens,switch,switch,16,late,seventy three,2,1.0,0.022222222222222223
+jlens,switch,switch,16,late,seventy two,2,4.5,0.022222222222222223
+jlens,switch,switch,16,late,sixty four,2,5.0,0.022222222222222223
+jlens,switch,switch,16,late,sixty six,2,2.5,0.022222222222222223
+jlens,switch,switch,16,late,sixty three,2,1.5,0.022222222222222223
+jlens,switch,switch,16,late,and this concept is,1,9.0,0.011111111111111112
+jlens,switch,switch,16,late,for example,1,5.0,0.011111111111111112
+jlens,switch,switch,16,late,seventy one,1,5.0,0.011111111111111112
+jlens,switch,switch,16,late,seventy seven,1,2.0,0.011111111111111112
+jlens,switch,switch,16,late,sixty one,1,5.0,0.011111111111111112
+jlens,switch,switch,16,late,sixty two,1,1.0,0.011111111111111112
+jlens,switch,switch,16,late,that is,1,1.0,0.011111111111111112
+jlens,switch,switch,16,late,the answer is,1,5.0,0.011111111111111112
+jlens,switch,switch,16,late,the model,1,4.0,0.011111111111111112
+jlens,switch,switch,16,late,the numbers,1,6.0,0.011111111111111112
+jlens,switch,switch,16,middle,huo,12,1.0,0.1
+jlens,switch,switch,16,middle,london,9,1.0,0.075
+jlens,switch,switch,16,middle,the concept is,5,3.0,0.041666666666666664
+jlens,switch,switch,16,middle,the word,5,2.0,0.041666666666666664
+jlens,switch,switch,16,middle,hi there,4,1.0,0.03333333333333333
+jlens,switch,switch,16,middle,the concept of,4,1.0,0.03333333333333333
+jlens,switch,switch,16,middle,korean,3,3.0,0.025
+jlens,switch,switch,16,middle,trillion dollar,3,2.0,0.025
+jlens,switch,switch,16,middle,hi my name is,2,2.0,0.016666666666666666
+jlens,switch,switch,16,middle,huatuo,2,2.5,0.016666666666666666
+jlens,switch,switch,16,middle,huynh,2,3.5,0.016666666666666666
+jlens,switch,switch,16,middle,and it will think,1,1.0,0.008333333333333333
+jlens,switch,switch,16,middle,britain,1,1.0,0.008333333333333333
+jlens,switch,switch,16,middle,chinese name,1,1.0,0.008333333333333333
+jlens,switch,switch,16,middle,garth,1,1.0,0.008333333333333333
+jlens,switch,switch,16,middle,hayashi,1,1.0,0.008333333333333333
+jlens,switch,switch,16,middle,huaihai,1,4.0,0.008333333333333333
+jlens,switch,switch,16,middle,kenya,1,10.0,0.008333333333333333
+jlens,switch,switch,16,middle,korea,1,1.0,0.008333333333333333
+jlens,switch,switch,16,middle,lol,1,1.0,0.008333333333333333
+jlens,switch,switch,16,middle,seventy five,1,1.0,0.008333333333333333
+jlens,switch,switch,16,middle,ssb,1,4.0,0.008333333333333333
+jlens,switch,switch,16,middle,ssd,1,2.0,0.008333333333333333
+jlens,switch,switch,16,middle,ssr,1,1.0,0.008333333333333333
+jlens,switch,switch,16,middle,the model,1,4.0,0.008333333333333333
+jlens,switch,switch,16,middle,zhao liang,1,2.0,0.008333333333333333
+jlens,switch,switch,16,middle,zhao wei,1,3.0,0.008333333333333333
+jlens,switch,switch,16,middle,zhao yi,1,1.0,0.008333333333333333
+jlens,switch,switch,16,middle,zhu yilong,1,1.0,0.008333333333333333
+jlens,switch,switch,64,late,and it will be,6,1.0,0.06666666666666667
+jlens,switch,switch,64,late,and the concept is,6,4.0,0.06666666666666667
+jlens,switch,switch,64,late,the concept of,3,2.0,0.03333333333333333
+jlens,switch,switch,64,late,in this case,2,2.5,0.022222222222222223
+jlens,switch,switch,64,late,lambert house,2,1.0,0.022222222222222223
+jlens,switch,switch,64,late,sixty five,2,3.5,0.022222222222222223
+jlens,switch,switch,64,late,sixty four,2,5.0,0.022222222222222223
+jlens,switch,switch,64,late,sixty six,2,2.5,0.022222222222222223
+jlens,switch,switch,64,late,sixty three,2,1.5,0.022222222222222223
+jlens,switch,switch,64,late,the concept is,2,4.5,0.022222222222222223
+jlens,switch,switch,64,late,the word,2,3.5,0.022222222222222223
+jlens,switch,switch,64,late,and it is,1,2.0,0.011111111111111112
+jlens,switch,switch,64,late,and it will think,1,1.0,0.011111111111111112
+jlens,switch,switch,64,late,for example,1,7.0,0.011111111111111112
+jlens,switch,switch,64,late,for the first time,1,6.0,0.011111111111111112
+jlens,switch,switch,64,late,hibari,1,2.0,0.011111111111111112
+jlens,switch,switch,64,late,hibberts,1,1.0,0.011111111111111112
+jlens,switch,switch,64,late,seventy five,1,8.0,0.011111111111111112
+jlens,switch,switch,64,late,seventy four,1,3.0,0.011111111111111112
+jlens,switch,switch,64,late,seventy one,1,5.0,0.011111111111111112
+jlens,switch,switch,64,late,seventy six,1,2.0,0.011111111111111112
+jlens,switch,switch,64,late,seventy three,1,1.0,0.011111111111111112
+jlens,switch,switch,64,late,seventy two,1,4.0,0.011111111111111112
+jlens,switch,switch,64,late,sixty one,1,5.0,0.011111111111111112
+jlens,switch,switch,64,late,sixty two,1,1.0,0.011111111111111112
+jlens,switch,switch,64,late,windsor hotel,1,7.0,0.011111111111111112
+jlens,switch,switch,64,late,zhao liang,1,3.0,0.011111111111111112
+jlens,switch,switch,64,late,zhao wei,1,4.0,0.011111111111111112
+jlens,switch,switch,64,late,zhao yi,1,2.0,0.011111111111111112
+jlens,switch,switch,64,late,zhaoyan,1,1.0,0.011111111111111112
+jlens,switch,switch,64,middle,london,15,1.0,0.125
+jlens,switch,switch,64,middle,hi there,10,1.5,0.08333333333333333
+jlens,switch,switch,64,middle,huo,7,1.0,0.058333333333333334
+jlens,switch,switch,64,middle,lol,7,1.0,0.058333333333333334
+jlens,switch,switch,64,middle,ugh,7,1.0,0.058333333333333334
+jlens,switch,switch,64,middle,hi my name is,6,2.0,0.05
+jlens,switch,switch,64,middle,hayashi,3,1.0,0.025
+jlens,switch,switch,64,middle,huynh,3,3.0,0.025
+jlens,switch,switch,64,middle,wiener,3,2.0,0.025
+jlens,switch,switch,64,middle,coca cola,2,3.0,0.016666666666666666
+jlens,switch,switch,64,middle,kenya,2,3.0,0.016666666666666666
+jlens,switch,switch,64,middle,saucer,2,6.0,0.016666666666666666
+jlens,switch,switch,64,middle,ssd,2,2.5,0.016666666666666666
+jlens,switch,switch,64,middle,zhao liang,2,2.5,0.016666666666666666
+jlens,switch,switch,64,middle,zhao wei,2,3.5,0.016666666666666666
+jlens,switch,switch,64,middle,efeciently,1,4.0,0.008333333333333333
+jlens,switch,switch,64,middle,efu,1,3.0,0.008333333333333333
+jlens,switch,switch,64,middle,huatuo,1,2.0,0.008333333333333333
+jlens,switch,switch,64,middle,jordan,1,8.0,0.008333333333333333
+jlens,switch,switch,64,middle,loopy,1,2.0,0.008333333333333333
+jlens,switch,switch,64,middle,nba,1,4.0,0.008333333333333333
+jlens,switch,switch,64,middle,prince charles,1,7.0,0.008333333333333333
+jlens,switch,switch,64,middle,sae,1,1.0,0.008333333333333333
+jlens,switch,switch,64,middle,saleh,1,3.0,0.008333333333333333
+jlens,switch,switch,64,middle,saucers,1,5.0,0.008333333333333333
+jlens,switch,switch,64,middle,saudara,1,10.0,0.008333333333333333
+jlens,switch,switch,64,middle,saudia,1,6.0,0.008333333333333333
+jlens,switch,switch,64,middle,ssb,1,9.0,0.008333333333333333
+jlens,switch,switch,64,middle,ssr,1,3.0,0.008333333333333333
+jlens,switch,switch,64,middle,three hundred,1,1.0,0.008333333333333333
+jlens,switch,switch,64,middle,wiw,1,2.0,0.008333333333333333
+jlens,switch,switch,64,middle,zhao xiangyu,1,2.0,0.008333333333333333
+jlens,switch,switch,64,middle,zhao yi,1,3.0,0.008333333333333333
+jlens,switch,switch,64,middle,zhaoyan,1,1.0,0.008333333333333333
+jlens,switch,switch,256,late,pitifully,3,1.0,0.03333333333333333
+jlens,switch,switch,256,late,seventy five,2,7.0,0.022222222222222223
+jlens,switch,switch,256,late,seventy one,2,5.0,0.022222222222222223
+jlens,switch,switch,256,late,seventy six,2,2.0,0.022222222222222223
+jlens,switch,switch,256,late,seventy three,2,1.0,0.022222222222222223
+jlens,switch,switch,256,late,seventy two,2,4.0,0.022222222222222223
+jlens,switch,switch,256,late,and it is,1,2.0,0.011111111111111112
+jlens,switch,switch,256,late,and it will be,1,3.0,0.011111111111111112
+jlens,switch,switch,256,late,and it will think,1,1.0,0.011111111111111112
+jlens,switch,switch,256,late,in the first sentence,1,9.0,0.011111111111111112
+jlens,switch,switch,256,late,in this case,1,4.0,0.011111111111111112
+jlens,switch,switch,256,late,seventy four,1,3.0,0.011111111111111112
+jlens,switch,switch,256,late,seventy seven,1,3.0,0.011111111111111112
+jlens,switch,switch,256,middle,hi there,11,1.0,0.09166666666666666
+jlens,switch,switch,256,middle,london,9,4.0,0.075
+jlens,switch,switch,256,middle,ugh,8,1.0,0.06666666666666667
+jlens,switch,switch,256,middle,hi my name is,7,2.0,0.058333333333333334
+jlens,switch,switch,256,middle,lol,5,1.0,0.041666666666666664
+jlens,switch,switch,256,middle,saudi,4,2.0,0.03333333333333333
+jlens,switch,switch,256,middle,coca cola,2,5.0,0.016666666666666666
+jlens,switch,switch,256,middle,hayashi,2,1.5,0.016666666666666666
+jlens,switch,switch,256,middle,oscar,2,2.0,0.016666666666666666
+jlens,switch,switch,256,middle,roast,2,1.5,0.016666666666666666
+jlens,switch,switch,256,middle,aidan,1,2.0,0.008333333333333333
+jlens,switch,switch,256,middle,danish,1,1.0,0.008333333333333333
+jlens,switch,switch,256,middle,elephent,1,3.0,0.008333333333333333
+jlens,switch,switch,256,middle,eleventh,1,1.0,0.008333333333333333
+jlens,switch,switch,256,middle,four hundred and three,1,1.0,0.008333333333333333
+jlens,switch,switch,256,middle,hayley,1,1.0,0.008333333333333333
+jlens,switch,switch,256,middle,johnny,1,1.0,0.008333333333333333
+jlens,switch,switch,256,middle,korean,1,3.0,0.008333333333333333
+jlens,switch,switch,256,middle,liang shi,1,3.0,0.008333333333333333
+jlens,switch,switch,256,middle,liu,1,4.0,0.008333333333333333
+jlens,switch,switch,256,middle,pitifully,1,3.0,0.008333333333333333
+jlens,switch,switch,256,middle,prince of persia,1,2.0,0.008333333333333333
+jlens,switch,switch,256,middle,saudi arabia,1,7.0,0.008333333333333333
+jlens,switch,switch,256,middle,saudia,1,4.0,0.008333333333333333
+jlens,switch,switch,256,middle,siamese,1,5.0,0.008333333333333333
+jlens,switch,switch,256,middle,tv show,1,9.0,0.008333333333333333
+jlens,switch,switch,256,middle,wiener,1,3.0,0.008333333333333333
+jlens,switch,switch,256,middle,zhang san,1,1.0,0.008333333333333333
+jlens,switch,switch,999,late,pitifully,4,1.0,0.044444444444444446
+jlens,switch,switch,999,late,and it is,2,2.0,0.022222222222222223
+jlens,switch,switch,999,late,and it will be,2,3.0,0.022222222222222223
+jlens,switch,switch,999,late,and it will think,2,1.0,0.022222222222222223
+jlens,switch,switch,999,late,and the concept is,2,5.5,0.022222222222222223
+jlens,switch,switch,999,middle,london,9,1.0,0.075
+jlens,switch,switch,999,middle,hi there,4,1.0,0.03333333333333333
+jlens,switch,switch,999,middle,https form,4,1.0,0.03333333333333333
+jlens,switch,switch,999,middle,lol,4,1.0,0.03333333333333333
+jlens,switch,switch,999,middle,httpsd,3,6.0,0.025
+jlens,switch,switch,999,middle,saudi,3,1.0,0.025
+jlens,switch,switch,999,middle,hi my name is,2,2.0,0.016666666666666666
+jlens,switch,switch,999,middle,saudi arabia,2,7.5,0.016666666666666666
+jlens,switch,switch,999,middle,giacomo,1,1.0,0.008333333333333333
+jlens,switch,switch,999,middle,giang,1,7.0,0.008333333333333333
+jlens,switch,switch,999,middle,gianna,1,4.0,0.008333333333333333
+jlens,switch,switch,999,middle,gianni,1,3.0,0.008333333333333333
+jlens,switch,switch,999,middle,giorgio,1,2.0,0.008333333333333333
+jlens,switch,switch,999,middle,giorgos,1,6.0,0.008333333333333333
+jlens,switch,switch,999,middle,giuseppe,1,5.0,0.008333333333333333
+jlens,switch,switch,999,middle,hole in the head,1,1.0,0.008333333333333333
+jlens,switch,switch,999,middle,hole in the wall,1,2.0,0.008333333333333333
+jlens,switch,switch,999,middle,holey,1,3.0,0.008333333333333333
+jlens,switch,switch,999,middle,https image,1,2.0,0.008333333333333333
+jlens,switch,switch,999,middle,louis vuitton,1,3.0,0.008333333333333333
+jlens,switch,switch,999,middle,monty python,1,1.0,0.008333333333333333
+jlens,switch,switch,999,middle,oscar,1,1.0,0.008333333333333333
+jlens,switch,switch,999,middle,pitifully,1,2.0,0.008333333333333333
+jlens,switch,switch,999,middle,prince charles,1,5.0,0.008333333333333333
+jlens,switch,switch,999,middle,prince of persia,1,2.0,0.008333333333333333
+jlens,switch,switch,999,middle,siamese,1,10.0,0.008333333333333333
+jlens,switch,switch,999,middle,wiener,1,3.0,0.008333333333333333

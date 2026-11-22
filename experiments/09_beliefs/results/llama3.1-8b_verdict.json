@@ -1,0 +1,13 @@
+{
+ "window": "t >= 512",
+ "mean_vs_mu_r": 0.9998358375079043,
+ "mean_vs_mu_slope": 0.9611265157063801,
+ "logsd_vs_logsigma_r": 0.9975789716106542,
+ "logsd_vs_logsigma_slope": 0.9482059760205301,
+ "go": true,
+ "model": "llama3.1-8b",
+ "lenses": [
+  "logit",
+  "jlens"
+ ]
+}

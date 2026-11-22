@@ -1,0 +1,1130 @@
+lens,layers,contrast,class,direction,rank,token,token_id,delta,base_logp
+logit,early,mu 700 vs 300 (late),word,up,1,andaş,112996,1.6027080535888674,-8.962239265441895
+logit,early,mu 700 vs 300 (late),word,up,2,SSERT,7523,1.4614585876464845,-8.861414909362793
+logit,early,mu 700 vs 300 (late),word,up,3,HTTPHeader,99852,1.339374796549479,-9.30907154083252
+logit,early,mu 700 vs 300 (late),word,up,4,άλι,120719,1.2717188517252604,-9.373567581176758
+logit,early,mu 700 vs 300 (late),word,up,5,Appending,53882,1.2434895833333333,-9.397787094116211
+logit,early,mu 700 vs 300 (late),word,up,6,iд,124432,1.231145731608073,-9.989235877990723
+logit,early,mu 700 vs 300 (late),word,up,7,HTTPRequestOperation,94887,1.1763019561767578,-9.938541412353516
+logit,early,mu 700 vs 300 (late),word,up,8,namoro,74589,1.1672391255696615,-9.662976264953613
+logit,early,mu 700 vs 300 (late),word,up,9,endforeach,22871,1.158229192097982,-9.916971206665039
+logit,early,mu 700 vs 300 (late),word,up,10,webtoken,65936,1.1112501780192057,-9.143054962158203
+logit,early,mu 700 vs 300 (late),word,up,11,kân,118241,1.0613541920979817,-9.577256202697754
+logit,early,mu 700 vs 300 (late),word,up,12,ТО,123923,1.006979497273763,-9.37912368774414
+logit,early,mu 700 vs 300 (late),word,up,13,Charsets,75397,1.0013805389404298,-8.987911224365234
+logit,early,mu 700 vs 300 (late),word,up,14,ти,23311,1.001041793823242,-9.749913215637207
+logit,early,mu 700 vs 300 (late),word,up,15,SenderId,91373,0.9830729166666666,-9.847092628479004
+logit,early,mu 700 vs 300 (late),word,down,1,imuth,56307,-1.3533330281575522,-9.668750762939453
+logit,early,mu 700 vs 300 (late),word,down,2,Rotary,75956,-0.9947397867838542,-9.962543487548828
+logit,early,mu 700 vs 300 (late),word,down,3,astreet,62498,-0.9796877543131511,-10.115147590637207
+logit,early,mu 700 vs 300 (late),word,down,4,ايل,118946,-0.9694791158040365,-9.510980606079102
+logit,early,mu 700 vs 300 (late),word,down,5,RYPT,41855,-0.9562503814697266,-9.176215171813965
+logit,early,mu 700 vs 300 (late),word,down,6,uali,52266,-0.8536977132161458,-9.717490196228027
+logit,early,mu 700 vs 300 (late),word,down,7,assorted,84542,-0.8304161071777344,-8.987500190734863
+logit,early,mu 700 vs 300 (late),word,down,8,ast,12025,-0.8178647359212239,-9.433377265930176
+logit,early,mu 700 vs 300 (late),word,down,9,ينه,118669,-0.8104688008626302,-9.484938621520996
+logit,early,mu 700 vs 300 (late),word,down,10,unde,59995,-0.8031773885091145,-9.410459518432617
+logit,early,mu 700 vs 300 (late),word,down,11,Mikhail,92551,-0.786562983194987,-9.634418487548828
+logit,early,mu 700 vs 300 (late),word,down,12,TES,29584,-0.7825005849202473,-9.818315505981445
+logit,early,mu 700 vs 300 (late),word,down,13,Friendly,97605,-0.7351037343343099,-9.46592903137207
+logit,early,mu 700 vs 300 (late),word,down,14,UTTON,15125,-0.7219790140787761,-9.073784828186035
+logit,early,mu 700 vs 300 (late),word,down,15,هـ,121800,-0.6311974843343099,-9.30642318725586
+logit,early,mu 700 vs 300 (late),integer,down,1,614,22638,-0.39989573160807296,-9.559678077697754
+logit,early,mu 700 vs 300 (late),integer,down,2,627,23103,-0.17208391825358071,-8.685025215148926
+logit,early,sigma 200 vs 10 (late),word,up,1,unft,61830,1.2795997731584794,-10.10399341583252
+logit,early,sigma 200 vs 10 (late),word,up,2,クト,110548,1.0400272499570093,-9.896658897399902
+logit,early,sigma 200 vs 10 (late),word,up,3,ozí,117750,1.0377860804963928,-9.569531440734863
+logit,early,sigma 200 vs 10 (late),word,up,4,ụn,117235,0.9709568974644678,-9.74474811553955
+logit,early,sigma 200 vs 10 (late),word,up,5,쳤다,127505,0.9365065010430842,-9.188021659851074
+logit,early,sigma 200 vs 10 (late),word,up,6,ParticleSystem,99554,0.9161907397933837,-9.403125762939453
+logit,early,sigma 200 vs 10 (late),word,up,7,Mist,35198,0.8905682394403189,-8.89865493774414
+logit,early,sigma 200 vs 10 (late),word,up,8,assort,51034,0.8695374193441616,-9.566883087158203
+logit,early,sigma 200 vs 10 (late),word,up,9,UAGE,24506,0.8354864713998338,-9.77334976196289
+logit,early,sigma 200 vs 10 (late),word,up,10,Muon,99010,0.8143188938416317,-8.936502456665039
+logit,early,sigma 200 vs 10 (late),word,up,11,éru,122368,0.8075821635867547,-9.470659255981445
+logit,early,sigma 200 vs 10 (late),word,up,12,anzeigen,84897,0.8043290678716889,-9.336284637451172
+logit,early,sigma 200 vs 10 (late),word,up,13,webtoken,65936,0.8006471343854087,-9.333942413330078
+logit,early,sigma 200 vs 10 (late),word,up,14,Crush,12317,0.7773932418653391,-8.605034828186035
+logit,early,sigma 200 vs 10 (late),word,up,15,OMPI,72350,0.7642442515666228,-9.55716323852539
+logit,early,sigma 200 vs 10 (late),word,down,1,mi,123744,-1.4788183765615954,-9.973090171813965
+logit,early,sigma 200 vs 10 (late),word,down,2,macen,65701,-1.3257192609642645,-9.619834899902344
+logit,early,sigma 200 vs 10 (late),word,down,3,imuth,56307,-1.244676632471595,-9.364279747009277
+logit,early,sigma 200 vs 10 (late),word,down,4,备份,112890,-1.0486888587051015,-10.179818153381348
+logit,early,sigma 200 vs 10 (late),word,down,5,μί,120898,-0.9196394152267824,-10.025737762451172
+logit,early,sigma 200 vs 10 (late),word,down,6,SHARES,91894,-0.8818451806448321,-7.762846946716309
+logit,early,sigma 200 vs 10 (late),word,down,7,typeid,89442,-0.8550628240170625,-10.081684112548828
+logit,early,sigma 200 vs 10 (late),word,down,8,Semaphore,89020,-0.7922472953308587,-9.667404174804688
+logit,early,sigma 200 vs 10 (late),word,down,9,hài,121813,-0.768414532323254,-9.227084159851074
+logit,early,sigma 200 vs 10 (late),word,down,10,CommandEvent,86592,-0.7638737964345581,-9.38302993774414
+logit,early,sigma 200 vs 10 (late),word,down,11,Ally,82570,-0.7269828801727469,-9.581856727600098
+logit,early,sigma 200 vs 10 (late),word,down,12,AutoSize,64700,-0.6349062770088362,-7.291232585906982
+logit,early,sigma 200 vs 10 (late),word,down,13,неск,103957,-0.6278706384589635,-9.943490982055664
+logit,early,sigma 200 vs 10 (late),word,down,14,ινό,124598,-0.6108532369774899,-9.459115028381348
+logit,early,sigma 200 vs 10 (late),word,down,15,otionEvent,64520,-0.60854273203878,-9.85876750946045
+logit,early,sigma 200 vs 10 (late),integer,up,1,614,22638,0.14035675116973456,-9.487326622009277
+logit,early,sigma 200 vs 10 (late),integer,down,1,627,23103,-0.020592145415386415,-8.677257537841797
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,up,1,сф,112485,3.1212997436523438,-12.433133125305176
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,up,2,hài,121813,2.7786998748779297,-12.086856842041016
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,up,3,assort,51034,2.7261266708374023,-12.215188026428223
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,up,4,emek,105820,2.674679756164551,-12.122702598571777
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,up,5,fiz,79311,2.6718969345092773,-12.131156921386719
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,up,6,itored,37301,2.3050546646118164,-11.710799217224121
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,up,7,Friendly,97605,2.2815027236938477,-11.725321769714355
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,up,8,imuth,56307,2.260891914367676,-11.772564888000488
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,up,9,Question,14924,2.253446578979492,-11.129043579101562
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,up,10,ينه,118669,2.1697378158569336,-11.674999237060547
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,up,11,assorted,84542,1.9473581314086914,-10.89770221710205
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,up,12,ozí,117750,1.9032621383666992,-11.315119743347168
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,up,13,AutoSize,64700,1.9018373489379883,-9.283110618591309
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,up,14,ParticleSystem,99554,1.836329460144043,-11.138511657714844
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,up,15,Scalars,55105,1.7475643157958984,-10.57401180267334
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,down,1,inand,76831,-3.352964401245117,-9.078883171081543
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,down,2,enze,85191,-3.027642250061035,-8.521828651428223
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,down,3,ispens,54720,-2.943338394165039,-8.706295013427734
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,down,4,adele,116579,-2.9298019409179688,-8.616843223571777
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,down,5,amet,112342,-2.6868324279785156,-8.949954986572266
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,down,6,Woodward,87218,-2.5345373153686523,-8.978974342346191
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,down,7,роничес,123814,-2.4711856842041016,-8.756157875061035
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,down,8,ΕΣ,105801,-2.435685157775879,-9.361512184143066
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,down,9,noxious,95832,-2.4095821380615234,-8.775459289550781
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,down,10,Marketable,23927,-2.323667526245117,-9.048345565795898
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,down,11,apus,68174,-2.3123626708984375,-9.476700782775879
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,down,12,athe,70036,-2.2009410858154297,-9.366866111755371
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,down,13,untime,4566,-2.1903038024902344,-8.856731414794922
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,down,14,ctest,68980,-2.0828351974487305,-9.267210006713867
+logit,early,late (t >= 512) vs early (8 <= t < 32),word,down,15,afone,80394,-2.06072998046875,-9.104848861694336
+logit,early,late (t >= 512) vs early (8 <= t < 32),integer,up,1,627,23103,2.2691879272460938,-10.957353591918945
+logit,early,late (t >= 512) vs early (8 <= t < 32),integer,up,2,614,22638,1.3853874206542969,-10.911650657653809
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,up,1,Важ,126115,1.5328130722045898,-10.328906059265137
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,up,2,シー,120404,1.4513683319091797,-10.803125381469727
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,up,3,Crushing,41494,1.4209957122802734,-10.7578125
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,up,4,PointerException,40718,1.4122076034545898,-10.619531631469727
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,up,5,گانی,118071,1.3104496002197266,-10.835156440734863
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,up,6,ActivityIndicatorView,90393,1.2448253631591797,-9.578516006469727
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,up,7,FML,92560,1.2026376724243164,-9.690625190734863
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,up,8,галі,126991,1.1593751907348633,-8.917187690734863
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,up,9,FileAccess,93943,1.1344738006591797,-9.435937881469727
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,up,10,ecko,115151,1.0673828125,-10.462890625
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,up,11,کل,104044,1.0597648620605469,-10.564062118530273
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,up,12,uParam,92687,1.0553722381591797,-10.29296875
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,up,13,Canceled,64363,1.0284175872802734,-9.625
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,up,14,завд,113518,1.0150384902954102,-9.663281440734863
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,up,15,ライン,118372,0.9891595840454102,-10.344531059265137
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,down,1,imuth,56307,-1.3811521530151367,-9.069531440734863
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,down,2,كييف,115453,-1.0325202941894531,-8.380468368530273
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,down,3,Friendly,97605,-1.0070314407348633,-9.166796684265137
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,down,4,neutral,60668,-0.9349603652954102,-9.401562690734863
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,down,5,Question,14924,-0.9029293060302734,-8.768750190734863
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,down,6,HttpClientModule,54749,-0.8999996185302734,-9.571874618530273
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,down,7,Neutral,88007,-0.8985347747802734,-8.829297065734863
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,down,8,TMPro,89026,-0.8443355560302734,-8.193750381469727
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,down,9,TES,29584,-0.8187494277954102,-9.494531631469727
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,down,10,UAGE,24506,-0.8181638717651367,-9.475781440734863
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,down,11,uyệt,105824,-0.7444343566894531,-9.552343368530273
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,down,12,UTES,54885,-0.7352542877197266,-8.48046875
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,down,13,Enlight,75150,-0.72412109375,-9.319921493530273
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,down,14,ينه,118669,-0.69970703125,-9.2265625
+logit,early,"switch: e in [1, 8) vs [-100, -10)",word,down,15,sek,57367,-0.6945314407348633,-9.559374809265137
+logit,early,"switch: e in [1, 8) vs [-100, -10)",integer,up,1,627,23103,0.0927734375,-8.848828315734863
+logit,early,"switch: e in [1, 8) vs [-100, -10)",integer,down,1,614,22638,-0.6605472564697266,-9.595312118530273
+logit,early,"switch: e = 0 vs [-100, -10)",word,up,1,uParam,92687,1.552734375,-10.29296875
+logit,early,"switch: e = 0 vs [-100, -10)",word,up,2,UILayout,24000,1.3277339935302734,-10.392187118530273
+logit,early,"switch: e = 0 vs [-100, -10)",word,up,3,PointerException,40718,1.1839847564697266,-10.619531631469727
+logit,early,"switch: e = 0 vs [-100, -10)",word,up,4,metatable,94689,1.1417970657348633,-10.260156631469727
+logit,early,"switch: e = 0 vs [-100, -10)",word,up,5,actionDate,90207,1.1160154342651367,-9.725781440734863
+logit,early,"switch: e = 0 vs [-100, -10)",word,up,6,کل,104044,1.0234375,-10.564062118530273
+logit,early,"switch: e = 0 vs [-100, -10)",word,up,7,ActivityIndicatorView,90393,1.0210943222045898,-9.578516006469727
+logit,early,"switch: e = 0 vs [-100, -10)",word,up,8,ProgressHUD,47246,1.0050773620605469,-10.552343368530273
+logit,early,"switch: e = 0 vs [-100, -10)",word,up,9,зрения,126749,0.9988288879394531,-10.299219131469727
+logit,early,"switch: e = 0 vs [-100, -10)",word,up,10,etik,112791,0.9566402435302734,-10.133593559265137
+logit,early,"switch: e = 0 vs [-100, -10)",word,up,11,Sharper,49516,0.9425783157348633,-10.197656631469727
+logit,early,"switch: e = 0 vs [-100, -10)",word,up,12,AutoSize,64700,0.8957028388977051,-7.713671684265137
+logit,early,"switch: e = 0 vs [-100, -10)",word,up,13,صة,108877,0.8917970657348633,-10.448437690734863
+logit,early,"switch: e = 0 vs [-100, -10)",word,up,14,цес,127459,0.8859376907348633,-8.594922065734863
+logit,early,"switch: e = 0 vs [-100, -10)",word,up,15,uten,13462,0.7855472564697266,-9.589062690734863
+logit,early,"switch: e = 0 vs [-100, -10)",word,down,1,Neutral,88007,-1.5281248092651367,-8.829297065734863
+logit,early,"switch: e = 0 vs [-100, -10)",word,down,2,neutral,60668,-1.3648433685302734,-9.401562690734863
+logit,early,"switch: e = 0 vs [-100, -10)",word,down,3,كييف,115453,-1.2273445129394531,-8.380468368530273
+logit,early,"switch: e = 0 vs [-100, -10)",word,down,4,ast,12025,-1.1628904342651367,-9.010546684265137
+logit,early,"switch: e = 0 vs [-100, -10)",word,down,5,uyệt,105824,-1.0031251907348633,-9.552343368530273
+logit,early,"switch: e = 0 vs [-100, -10)",word,down,6,unfinished,15442,-0.998046875,-9.210546493530273
+logit,early,"switch: e = 0 vs [-100, -10)",word,down,7,Mikhail,92551,-0.9906244277954102,-9.330469131469727
+logit,early,"switch: e = 0 vs [-100, -10)",word,down,8,HttpClientModule,54749,-0.9359378814697266,-9.571874618530273
+logit,early,"switch: e = 0 vs [-100, -10)",word,down,9,emek,105820,-0.9019527435302734,-9.509765625
+logit,early,"switch: e = 0 vs [-100, -10)",word,down,10,краї,100765,-0.8968744277954102,-9.436718940734863
+logit,early,"switch: e = 0 vs [-100, -10)",word,down,11,UAGE,24506,-0.8015623092651367,-9.475781440734863
+logit,early,"switch: e = 0 vs [-100, -10)",word,down,12,Frameworks,90715,-0.7292966842651367,-9.113672256469727
+logit,early,"switch: e = 0 vs [-100, -10)",word,down,13,deaux,63015,-0.7265625,-9.54296875
+logit,early,"switch: e = 0 vs [-100, -10)",word,down,14,uali,52266,-0.7156248092651367,-9.30078125
+logit,early,"switch: e = 0 vs [-100, -10)",word,down,15,Topics,46103,-0.7152347564697266,-9.344531059265137
+logit,early,"switch: e = 0 vs [-100, -10)",integer,down,1,614,22638,-0.8460941314697266,-9.595312118530273
+logit,early,"switch: e = 0 vs [-100, -10)",integer,down,2,627,23103,-0.28515625,-8.848828315734863
+logit,middle,mu 700 vs 300 (late),word,up,1,корист,103642,1.3895401636759441,-8.238787651062012
+logit,middle,mu 700 vs 300 (late),word,up,2,webtoken,65936,1.3090274810791014,-9.481880187988281
+logit,middle,mu 700 vs 300 (late),word,up,3,oldur,119245,1.2920356750488282,-6.9443359375
+logit,middle,mu 700 vs 300 (late),word,up,4,TMPro,89026,1.2895397186279296,-9.451244354248047
+logit,middle,mu 700 vs 300 (late),word,up,5,uada,86200,1.2832902272542317,-9.276982307434082
+logit,middle,mu 700 vs 300 (late),word,up,6,ADDE,120949,1.195312245686849,-9.466869354248047
+logit,middle,mu 700 vs 300 (late),word,up,7,RouteServiceProvider,86802,1.1374996185302735,-8.759041786193848
+logit,middle,mu 700 vs 300 (late),word,up,8,ActionCode,90041,1.0884114583333333,-8.27734375
+logit,middle,mu 700 vs 300 (late),word,up,9,vů,108589,1.0876301447550456,-8.169451713562012
+logit,middle,mu 700 vs 300 (late),word,up,10,kW,117427,1.040798568725586,-9.573314666748047
+logit,middle,mu 700 vs 300 (late),word,up,11,uyệt,105824,1.024392064412435,-8.514249801635742
+logit,middle,mu 700 vs 300 (late),word,up,12,ーテ,111073,1.0166666666666666,-9.471644401550293
+logit,middle,mu 700 vs 300 (late),word,up,13,ParticleSystem,99554,0.9815104166666666,-9.46267318725586
+logit,middle,mu 700 vs 300 (late),word,up,14,ナー,118567,0.9742624918619791,-9.169632911682129
+logit,middle,mu 700 vs 300 (late),word,up,15,isí,107196,0.9557726542154948,-9.470703125
+logit,middle,mu 700 vs 300 (late),word,down,1,assistir,89615,-1.3732203165690104,-9.4373197555542
+logit,middle,mu 700 vs 300 (late),word,down,2,estli,122774,-1.0840278625488282,-9.675997734069824
+logit,middle,mu 700 vs 300 (late),word,down,3,Handles,67028,-0.9767791748046876,-9.689996719360352
+logit,middle,mu 700 vs 300 (late),word,down,4,Sdk,58275,-0.8967880249023439,-9.769024848937988
+logit,middle,mu 700 vs 300 (late),word,down,5,Coin,27328,-0.8581161499023438,-9.450992584228516
+logit,middle,mu 700 vs 300 (late),word,down,6,ANJI,81882,-0.8164492925008139,-8.157805442810059
+logit,middle,mu 700 vs 300 (late),word,down,7,ONENT,27161,-0.7283852895100912,-8.921875953674316
+logit,middle,mu 700 vs 300 (late),word,down,8,RIORITY,35986,-0.7258682250976562,-9.522858619689941
+logit,middle,mu 700 vs 300 (late),word,down,9,adorned,84273,-0.6723959604899088,-9.516999244689941
+logit,middle,mu 700 vs 300 (late),word,down,10,Question,14924,-0.6584640502929687,-9.262983322143555
+logit,middle,mu 700 vs 300 (late),word,down,11,htm,88472,-0.633203125,-9.294198989868164
+logit,middle,mu 700 vs 300 (late),word,down,12,Alv,70046,-0.6299477895100911,-8.65125846862793
+logit,middle,mu 700 vs 300 (late),word,down,13,enthusiastically,99325,-0.6080727895100911,-9.242586135864258
+logit,middle,mu 700 vs 300 (late),word,down,14,entrusted,86382,-0.5500001271565755,-9.481879234313965
+logit,middle,mu 700 vs 300 (late),word,down,15,Scalars,55105,-0.5423179626464844,-9.45431900024414
+logit,middle,sigma 200 vs 10 (late),word,up,1,éru,122368,2.421902868831069,-10.300093650817871
+logit,middle,sigma 200 vs 10 (late),word,up,2,UpInside,43556,2.0715265728358783,-10.055809020996094
+logit,middle,sigma 200 vs 10 (late),word,up,3,گانی,118071,2.0132985859033017,-9.207538604736328
+logit,middle,sigma 200 vs 10 (late),word,up,4,PixelFormat,99909,1.83616851195433,-9.087239265441895
+logit,middle,sigma 200 vs 10 (late),word,up,5,unuz,105428,1.777967591441917,-9.780924797058105
+logit,middle,sigma 200 vs 10 (late),word,up,6,Marie,33116,1.7720925603777404,-9.964553833007812
+logit,middle,sigma 200 vs 10 (late),word,up,7,циональ,107770,1.6109283946751864,-9.859230995178223
+logit,middle,sigma 200 vs 10 (late),word,up,8,specialchars,26601,1.4725490489809459,-9.1320161819458
+logit,middle,sigma 200 vs 10 (late),word,up,9,ekce,119667,1.4339184045524704,-8.21755599975586
+logit,middle,sigma 200 vs 10 (late),word,up,10,редит,109355,1.4234125554055468,-9.757160186767578
+logit,middle,sigma 200 vs 10 (late),word,up,11,мала,126415,1.4104665118157764,-10.095268249511719
+logit,middle,sigma 200 vs 10 (late),word,up,12,webtoken,65936,1.3373921169061167,-9.7547025680542
+logit,middle,sigma 200 vs 10 (late),word,up,13,TypeInfo,46688,1.3371105408830972,-9.400680541992188
+logit,middle,sigma 200 vs 10 (late),word,up,14,άλι,120719,1.2647871797411752,-9.062464714050293
+logit,middle,sigma 200 vs 10 (late),word,up,15,qué,64591,1.230817559388035,-9.728262901306152
+logit,middle,sigma 200 vs 10 (late),word,down,1,Wikispecies,107258,-2.5973263253152608,-9.504268646240234
+logit,middle,sigma 200 vs 10 (late),word,down,2,Andrea,41184,-2.3461206825817196,-9.854961395263672
+logit,middle,sigma 200 vs 10 (late),word,down,3,ryfall,74498,-2.04341381534167,-10.105396270751953
+logit,middle,sigma 200 vs 10 (late),word,down,4,fono,22565,-1.9641031399859892,-10.059968948364258
+logit,middle,sigma 200 vs 10 (late),word,down,5,Clarkson,94294,-1.8390126981563195,-9.799118041992188
+logit,middle,sigma 200 vs 10 (late),word,down,6,CommandEvent,86592,-1.8029521559295787,-10.121708869934082
+logit,middle,sigma 200 vs 10 (late),word,down,7,EIF,12370,-1.798676118296592,-9.434932708740234
+logit,middle,sigma 200 vs 10 (late),word,down,8,İli,123382,-1.6081561489775378,-10.070781707763672
+logit,middle,sigma 200 vs 10 (late),word,down,9,onica,65045,-1.5515322746128775,-9.717628479003906
+logit,middle,sigma 200 vs 10 (late),word,down,10,bids,44599,-1.5315666231039897,-9.581344604492188
+logit,middle,sigma 200 vs 10 (late),word,down,11,etections,90283,-1.5192841284011962,-10.085865020751953
+logit,middle,sigma 200 vs 10 (late),word,down,12,Wunused,52848,-1.5060150118484352,-8.80653190612793
+logit,middle,sigma 200 vs 10 (late),word,down,13,AMENT,65368,-1.4933240518308508,-9.612956047058105
+logit,middle,sigma 200 vs 10 (late),word,down,14,рукт,122425,-1.463179367873919,-9.706668853759766
+logit,middle,sigma 200 vs 10 (late),word,down,15,AutoSize,64700,-1.4546331655474938,-8.013526916503906
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,up,1,UGIN,27546,4.963178634643555,-13.772173881530762
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,up,2,κης,125213,4.478458404541016,-13.584903717041016
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,up,3,oldur,119245,3.9636173248291016,-11.029335021972656
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,up,4,Wunused,52848,3.750324249267578,-12.634880065917969
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,up,5,Sanayi,124836,3.6971702575683594,-12.680224418640137
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,up,6,Yine,126704,3.5481576919555664,-12.744370460510254
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,up,7,yonel,116008,3.4247283935546875,-12.576555252075195
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,up,8,ンド,102860,3.3187618255615234,-11.741076469421387
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,up,9,ANJI,81882,3.2773990631103516,-11.395564079284668
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,up,10,Question,14924,3.2761945724487305,-12.44416332244873
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,up,11,vů,108589,3.2159547805786133,-11.43208122253418
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,up,12,AutoSize,64700,3.186676025390625,-11.338617324829102
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,up,13,SSERT,7523,3.1228561401367188,-11.85564136505127
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,up,14,Shutterstock,85142,3.101466178894043,-12.357038497924805
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,up,15,Cunningham,74928,2.9591379165649414,-12.185547828674316
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,down,1,essay,81077,-4.06889533996582,-10.006549835205078
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,down,2,lek,76876,-3.543562889099121,-9.871342658996582
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,down,3,ンタ,114483,-3.394855499267578,-9.626973152160645
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,down,4,createAction,77736,-3.084691047668457,-9.320178985595703
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,down,5,processable,58340,-2.9191932678222656,-9.481311798095703
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,down,6,bốn,125780,-2.8770885467529297,-9.496916770935059
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,down,7,Bearings,65416,-2.780886650085449,-9.950386047363281
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,down,8,الرمزية,126417,-2.7205705642700195,-9.126167297363281
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,down,9,mu,12097,-2.643268585205078,-9.854127883911133
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,down,10,kaç,108262,-2.6277379989624023,-9.827646255493164
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,down,11,GLfloat,71288,-2.510491371154785,-9.978747367858887
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,down,12,UserRole,92158,-2.488032341003418,-9.991326332092285
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,down,13,utt,21493,-2.462527275085449,-9.58193588256836
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,down,14,ToOne,29290,-2.4440298080444336,-9.523188591003418
+logit,middle,late (t >= 512) vs early (8 <= t < 32),word,down,15,perms,88872,-2.4402198791503906,-9.687270164489746
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,1,exels,95827,3.303466796875,-11.90234375
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,2,uintptr,39290,2.4496259689331055,-11.467448234558105
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,3,zoekt,44802,2.4457197189331055,-11.220703125
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,4,ستگی,119291,2.37646484375,-11.619140625
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,5,ôt,35657,2.2555341720581055,-11.26171875
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,6,گان,102298,2.247396469116211,-10.73046875
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,7,vant,77282,2.136556625366211,-11.115885734558105
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,8,gezocht,91374,1.950033187866211,-10.289713859558105
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,9,FileAccess,93943,1.943603515625,-9.789713859558105
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,10,intptr,45066,1.9021806716918945,-10.335286140441895
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,11,yscale,84009,1.8927412033081055,-10.942057609558105
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,12,endcode,90791,1.8680009841918945,-10.470051765441895
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,13,GetInstance,43861,1.8379716873168945,-11.108723640441895
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,14,bí,101955,1.7779951095581055,-11.0390625
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,15,dikke,76138,1.7327470779418945,-10.930338859558105
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,1,Question,14924,-2.4773759841918945,-9.0078125
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,2,жов,111255,-2.1616220474243164,-9.111653327941895
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,3,Coin,27328,-2.08349609375,-9.1904296875
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,4,нею,123465,-2.0668935775756836,-9.15234375
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,5,Assertion,69739,-2.0206708908081055,-8.9140625
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,6,Hizmetleri,127112,-2.007486343383789,-7.1455078125
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,7,unuz,105428,-1.9557294845581055,-9.140299797058105
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,8,GOODS,30766,-1.94970703125,-8.7646484375
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,9,Raster,69812,-1.8946943283081055,-9.114909172058105
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,10,Curt,31523,-1.8505859375,-9.131184577941895
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,11,McInt,85581,-1.792154312133789,-9.222331047058105
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,12,throws,38706,-1.78759765625,-8.799153327941895
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,13,ENARIO,95374,-1.7137041091918945,-8.183268547058105
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,14,Marie,33116,-1.71337890625,-9.266926765441895
+logit,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,15,λια,117443,-1.6806640625,-9.227864265441895
+logit,middle,"switch: e = 0 vs [-100, -10)",word,up,1,گان,102298,2.1630859375,-10.73046875
+logit,middle,"switch: e = 0 vs [-100, -10)",word,up,2,Canter,75993,1.5673828125,-9.759440422058105
+logit,middle,"switch: e = 0 vs [-100, -10)",word,up,3,elden,58688,1.5289716720581055,-10.6875
+logit,middle,"switch: e = 0 vs [-100, -10)",word,up,4,انیا,119396,1.468099594116211,-10.333659172058105
+logit,middle,"switch: e = 0 vs [-100, -10)",word,up,5,ContentPane,31582,1.369466781616211,-9.787760734558105
+logit,middle,"switch: e = 0 vs [-100, -10)",word,up,6,intptr,45066,1.3362627029418945,-10.335286140441895
+logit,middle,"switch: e = 0 vs [-100, -10)",word,up,7,FITNESS,7877,1.200845718383789,-10.421223640441895
+logit,middle,"switch: e = 0 vs [-100, -10)",word,up,8,Forgery,50824,1.1691083908081055,-7.062825679779053
+logit,middle,"switch: e = 0 vs [-100, -10)",word,up,9,actionDate,90207,1.1682939529418945,-9.275390625
+logit,middle,"switch: e = 0 vs [-100, -10)",word,up,10,tolua,95781,1.1438798904418945,-10.3515625
+logit,middle,"switch: e = 0 vs [-100, -10)",word,up,11,UnityEngine,18687,1.1184892654418945,-10.37890625
+logit,middle,"switch: e = 0 vs [-100, -10)",word,up,12,улуч,117742,1.034830093383789,-10.263020515441895
+logit,middle,"switch: e = 0 vs [-100, -10)",word,up,13,PictureBox,73284,1.0296220779418945,-8.998372077941895
+logit,middle,"switch: e = 0 vs [-100, -10)",word,up,14,Hüs,127664,0.9742841720581055,-10.20703125
+logit,middle,"switch: e = 0 vs [-100, -10)",word,up,15,وند,102779,0.9544267654418945,-10.200520515441895
+logit,middle,"switch: e = 0 vs [-100, -10)",word,down,1,Zot,89924,-1.4440107345581055,-9.2783203125
+logit,middle,"switch: e = 0 vs [-100, -10)",word,down,2,Wunused,52848,-1.4098310470581055,-8.7529296875
+logit,middle,"switch: e = 0 vs [-100, -10)",word,down,3,Assertion,69739,-1.3743486404418945,-8.9140625
+logit,middle,"switch: e = 0 vs [-100, -10)",word,down,4,Raster,69812,-1.3694658279418945,-9.114909172058105
+logit,middle,"switch: e = 0 vs [-100, -10)",word,down,5,unuz,105428,-1.3447265625,-9.140299797058105
+logit,middle,"switch: e = 0 vs [-100, -10)",word,down,6,Coin,27328,-1.3134765625,-9.1904296875
+logit,middle,"switch: e = 0 vs [-100, -10)",word,down,7,Question,14924,-1.2682294845581055,-9.0078125
+logit,middle,"switch: e = 0 vs [-100, -10)",word,down,8,Hav,56208,-1.1614580154418945,-9.158854484558105
+logit,middle,"switch: e = 0 vs [-100, -10)",word,down,9,нею,123465,-1.14453125,-9.15234375
+logit,middle,"switch: e = 0 vs [-100, -10)",word,down,10,Imports,32350,-1.141275405883789,-9.164713859558105
+logit,middle,"switch: e = 0 vs [-100, -10)",word,down,11,Aero,89523,-1.0520830154418945,-9.123046875
+logit,middle,"switch: e = 0 vs [-100, -10)",word,down,12,McInt,85581,-1.023111343383789,-9.222331047058105
+logit,middle,"switch: e = 0 vs [-100, -10)",word,down,13,كييف,115453,-1.0048828125,-9.165690422058105
+logit,middle,"switch: e = 0 vs [-100, -10)",word,down,14,UICollectionView,56671,-0.9837245941162109,-8.821614265441895
+logit,middle,"switch: e = 0 vs [-100, -10)",word,down,15,Marie,33116,-0.98046875,-9.266926765441895
+logit,late,mu 700 vs 300 (late),word,up,1,HTTPHeader,99852,3.065312703450521,-12.709896087646484
+logit,late,mu 700 vs 300 (late),word,up,2,OperationException,25969,2.776614507039388,-13.052778244018555
+logit,late,mu 700 vs 300 (late),word,up,3,Wnd,24081,2.606614685058594,-12.323437690734863
+logit,late,mu 700 vs 300 (late),word,up,4,oldur,119245,2.243072764078776,-10.961371421813965
+logit,late,mu 700 vs 300 (late),word,up,5,Forge,59537,1.7120833079020181,-11.877516746520996
+logit,late,mu 700 vs 300 (late),word,up,6,Dut,44636,1.6582813262939453,-11.622916221618652
+logit,late,mu 700 vs 300 (late),word,up,7,Weston,91119,1.465885798136393,-12.251649856567383
+logit,late,mu 700 vs 300 (late),word,up,8,tem,880,1.4112499237060547,-12.39392375946045
+logit,late,mu 700 vs 300 (late),word,up,9,edImage,58572,1.3589580535888672,-11.669748306274414
+logit,late,mu 700 vs 300 (late),word,up,10,olding,15345,1.1154684702555338,-12.08485221862793
+logit,late,mu 700 vs 300 (late),word,up,11,enia,59386,1.04380251566569,-11.894054412841797
+logit,late,mu 700 vs 300 (late),word,up,12,defaultManager,100020,0.5690624237060546,-11.65164852142334
+logit,late,mu 700 vs 300 (late),word,down,1,وند,102779,-0.9688018798828125,-10.36805534362793
+logit,late,mu 700 vs 300 (late),word,down,2,ンド,102860,-0.4326562245686849,-11.60920238494873
+logit,late,mu 700 vs 300 (late),word,down,3,duly,77903,-0.3579683939615885,-11.329383850097656
+logit,late,mu 700 vs 300 (late),integer,up,1,700,7007,7.194999821980794,-12.260242462158203
+logit,late,mu 700 vs 300 (late),integer,up,2,720,13104,7.0943753560384115,-13.015365600585938
+logit,late,mu 700 vs 300 (late),integer,up,3,741,25021,7.014895629882813,-12.973827362060547
+logit,late,mu 700 vs 300 (late),integer,up,4,718,21982,6.709531275431316,-13.646005630493164
+logit,late,mu 700 vs 300 (late),integer,up,5,707,18770,6.544323603312174,-13.239106178283691
+logit,late,mu 700 vs 300 (late),integer,up,6,750,11711,6.514739354451497,-13.56874942779541
+logit,late,mu 700 vs 300 (late),integer,up,7,800,4728,6.388176345825196,-14.309895515441895
+logit,late,mu 700 vs 300 (late),integer,up,8,705,21469,6.319374720255534,-11.96875
+logit,late,mu 700 vs 300 (late),integer,up,9,709,22874,6.308020909627278,-12.510807037353516
+logit,late,mu 700 vs 300 (late),integer,up,10,721,20873,6.0701043446858725,-13.203081130981445
+logit,late,mu 700 vs 300 (late),integer,up,11,770,20772,6.059114456176758,-12.542014122009277
+logit,late,mu 700 vs 300 (late),integer,up,12,650,13655,6.0570315043131515,-11.186502456665039
+logit,late,mu 700 vs 300 (late),integer,up,13,719,24758,6.017395528157552,-13.427387237548828
+logit,late,mu 700 vs 300 (late),integer,up,14,740,21112,5.993125025431315,-12.784852981567383
+logit,late,mu 700 vs 300 (late),integer,up,15,642,22266,5.98400993347168,-11.992491722106934
+logit,late,mu 700 vs 300 (late),integer,down,1,275,14417,-9.649218622843424,-12.15829086303711
+logit,late,mu 700 vs 300 (late),integer,down,2,290,13754,-9.232917149861654,-12.243403434753418
+logit,late,mu 700 vs 300 (late),integer,down,3,296,17408,-9.02286465962728,-12.068401336669922
+logit,late,mu 700 vs 300 (late),integer,down,4,330,10568,-8.843593851725261,-12.489669799804688
+logit,late,mu 700 vs 300 (late),integer,down,5,252,12326,-8.670312754313152,-12.474782943725586
+logit,late,mu 700 vs 300 (late),integer,down,6,285,15935,-8.668854713439941,-11.267383575439453
+logit,late,mu 700 vs 300 (late),integer,down,7,297,18163,-8.642916615804037,-11.752649307250977
+logit,late,mu 700 vs 300 (late),integer,down,8,260,11387,-8.556874847412109,-12.100391387939453
+logit,late,mu 700 vs 300 (late),integer,down,9,284,17058,-8.507135264078777,-12.149869918823242
+logit,late,mu 700 vs 300 (late),integer,down,10,251,13860,-8.499219258626303,-11.625260353088379
+logit,late,mu 700 vs 300 (late),integer,down,11,302,13121,-8.42437515258789,-11.847829818725586
+logit,late,mu 700 vs 300 (late),integer,down,12,255,3192,-8.37984364827474,-11.03183650970459
+logit,late,mu 700 vs 300 (late),integer,down,13,261,15602,-8.255989710489908,-10.953906059265137
+logit,late,mu 700 vs 300 (late),integer,down,14,279,17267,-8.231770960489909,-12.325347900390625
+logit,late,mu 700 vs 300 (late),integer,down,15,351,18113,-8.202864329020182,-10.912370681762695
+logit,late,sigma 200 vs 10 (late),word,down,1,Miller,17472,-9.221141945101577,-12.971570014953613
+logit,late,sigma 200 vs 10 (late),word,down,2,Miller,89437,-7.838654334919574,-14.256251335144043
+logit,late,sigma 200 vs 10 (late),word,down,3,ISO,25141,-7.135185419793097,-12.124738693237305
+logit,late,sigma 200 vs 10 (late),word,down,4,iso,15782,-7.084399156279628,-14.35030460357666
+logit,late,sigma 200 vs 10 (late),word,down,5,ISO,22705,-6.895153003017623,-14.368837356567383
+logit,late,sigma 200 vs 10 (late),word,down,6,Simon,22021,-5.889139451609999,-13.551258087158203
+logit,late,sigma 200 vs 10 (late),word,down,7,eam,14922,-5.72672068436942,-13.34717845916748
+logit,late,sigma 200 vs 10 (late),word,down,8,Cannon,51823,-5.622513929364614,-13.74587631225586
+logit,late,sigma 200 vs 10 (late),word,down,9,Andrea,41184,-5.353218691565428,-12.996049880981445
+logit,late,sigma 200 vs 10 (late),word,down,10,pc,4080,-5.263351821119426,-13.452213287353516
+logit,late,sigma 200 vs 10 (late),word,down,11,Steven,24565,-5.244645733321737,-12.631032943725586
+logit,late,sigma 200 vs 10 (late),word,down,12,Witness,49999,-5.191984163035632,-12.829601287841797
+logit,late,sigma 200 vs 10 (late),word,down,13,Dawn,35607,-5.1748537388471885,-13.57803726196289
+logit,late,sigma 200 vs 10 (late),word,down,14,noreferrer,72704,-5.123872977715937,-13.104253768920898
+logit,late,sigma 200 vs 10 (late),word,down,15,Stacy,98425,-5.066776601778522,-12.659157752990723
+logit,late,sigma 200 vs 10 (late),integer,up,1,357,18520,8.332938445351424,-12.01905345916748
+logit,late,sigma 200 vs 10 (late),integer,up,2,638,24495,8.220472961451833,-12.978862762451172
+logit,late,sigma 200 vs 10 (late),integer,up,3,639,23079,8.039717974418936,-13.3401460647583
+logit,late,sigma 200 vs 10 (late),integer,up,4,647,22644,7.902060717031892,-12.512761116027832
+logit,late,sigma 200 vs 10 (late),integer,up,5,635,22276,7.599495467685394,-11.956900596618652
+logit,late,sigma 200 vs 10 (late),integer,up,6,637,21788,7.564841312788577,-12.500866889953613
+logit,late,sigma 200 vs 10 (late),integer,up,7,623,22801,7.516888039648661,-12.022047996520996
+logit,late,sigma 200 vs 10 (late),integer,up,8,643,22956,7.475037053622087,-12.586849212646484
+logit,late,sigma 200 vs 10 (late),integer,up,9,631,21729,7.434449405934741,-11.843010902404785
+logit,late,sigma 200 vs 10 (late),integer,up,10,641,23525,7.408004713011612,-12.027647018432617
+logit,late,sigma 200 vs 10 (late),integer,up,11,632,20775,7.314520222946398,-12.207379341125488
+logit,late,sigma 200 vs 10 (late),integer,up,12,343,16522,6.93594285946545,-11.130122184753418
+logit,late,sigma 200 vs 10 (late),integer,up,13,621,22488,6.89175969196106,-12.457247734069824
+logit,late,sigma 200 vs 10 (late),integer,up,14,665,23467,6.833624099232314,-11.966233253479004
+logit,late,sigma 200 vs 10 (late),integer,up,15,629,24239,6.718110337442025,-12.611458778381348
+logit,late,sigma 200 vs 10 (late),integer,down,1,501,14408,-7.637671069777866,-6.67735481262207
+logit,late,sigma 200 vs 10 (late),integer,down,2,500,2636,-7.568091303127318,-6.794389724731445
+logit,late,sigma 200 vs 10 (late),integer,down,3,503,17735,-6.5922005190579,-7.585807800292969
+logit,late,sigma 200 vs 10 (late),integer,down,4,502,17824,-6.512571591755115,-7.893359661102295
+logit,late,sigma 200 vs 10 (late),integer,down,5,498,21962,-6.46276932219644,-8.544271469116211
+logit,late,sigma 200 vs 10 (late),integer,down,6,491,21824,-6.193748183196839,-9.345312118530273
+logit,late,sigma 200 vs 10 (late),integer,down,7,508,19869,-6.120068330398191,-7.68077278137207
+logit,late,sigma 200 vs 10 (late),integer,down,8,507,20068,-5.9884505631251725,-7.203798294067383
+logit,late,sigma 200 vs 10 (late),integer,down,9,506,19673,-5.731758071072103,-8.895030975341797
+logit,late,sigma 200 vs 10 (late),integer,down,10,488,21310,-5.729190322002128,-10.216102600097656
+logit,late,sigma 200 vs 10 (late),integer,down,11,494,22054,-5.688146594098839,-8.190386772155762
+logit,late,sigma 200 vs 10 (late),integer,down,12,504,18048,-5.498895722656986,-8.010090827941895
+logit,late,sigma 200 vs 10 (late),integer,down,13,509,12448,-5.4760823074418,-7.61924934387207
+logit,late,sigma 200 vs 10 (late),integer,down,14,505,17786,-5.449309309631082,-8.150867462158203
+logit,late,sigma 200 vs 10 (late),integer,down,15,495,21038,-5.438148043014129,-7.785068988800049
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,up,1,oldur,119245,3.3324670791625977,-14.511672019958496
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,up,2,وند,102779,2.603975296020508,-13.02637767791748
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,up,3,throws,38706,2.5868120193481445,-13.915855407714844
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,up,4,Clement,53227,1.8774118423461914,-12.902572631835938
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,up,5,Gregory,44069,0.7562723159790039,-12.64379596710205
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,up,6,enia,59386,0.6897497177124023,-12.754984855651855
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,up,7,Geoffrey,89239,0.621734619140625,-12.769415855407715
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,up,8,Alv,70046,0.5481147766113281,-12.371230125427246
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,up,9,PMENT,55759,0.47385215759277344,-12.71794605255127
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,up,10,actionDate,90207,0.41798973083496094,-12.599976539611816
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,up,11,windowHeight,89647,0.2628660202026367,-12.719805717468262
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,up,12,Salir,77734,0.26174354553222656,-12.720451354980469
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,up,13,iver,1553,0.23017120361328125,-12.664706230163574
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,up,14,Lore,54333,0.19352054595947266,-12.64338207244873
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,up,15,WAYS,37641,0.1208181381225586,-12.693886756896973
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,down,1,illion,15068,-3.40997314453125,-12.623298645019531
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,down,2,IMATE,90652,-2.811396598815918,-12.71640682220459
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,down,3,BST,44641,-2.4625425338745117,-12.567970275878906
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,down,4,Millionen,99535,-2.412731170654297,-12.294668197631836
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,down,5,uden,61227,-2.350252151489258,-12.30232048034668
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,down,6,Gim,86771,-2.338625907897949,-12.356135368347168
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,down,7,Notify,36070,-2.329458236694336,-12.455836296081543
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,down,8,billion,7239,-2.296417236328125,-12.66125774383545
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,down,9,Dillon,83666,-2.2218284606933594,-12.272472381591797
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,down,10,Foam,77556,-2.177069664001465,-12.751516342163086
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,down,11,PM,5975,-1.8096961975097656,-12.728262901306152
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,down,12,terior,41644,-1.6053533554077148,-12.493727684020996
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,down,13,millions,11990,-1.5623149871826172,-12.721003532409668
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,down,14,TMPro,89026,-1.519761085510254,-11.944117546081543
+logit,late,late (t >= 512) vs early (8 <= t < 32),word,down,15,Chrom,35318,-1.3890619277954102,-12.598023414611816
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,up,1,425,17837,4.036559104919434,-12.941383361816406
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,up,2,565,20943,3.9596290588378906,-14.334122657775879
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,up,3,501,14408,3.9457883834838867,-11.94845962524414
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,up,4,500,2636,3.893329620361328,-12.090797424316406
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,up,5,490,18518,3.876641273498535,-13.111579895019531
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,up,6,550,13506,3.8612804412841797,-13.367186546325684
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,up,7,480,11738,3.8129587173461914,-12.607237815856934
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,up,8,450,10617,3.800067901611328,-13.41344165802002
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,up,9,415,18136,3.6874780654907227,-13.216728210449219
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,up,10,485,19773,3.664257049560547,-12.157306671142578
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,up,11,534,22467,3.636119842529297,-13.999676704406738
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,up,12,478,22086,3.62052059173584,-13.356021881103516
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,up,13,355,17306,3.6118106842041016,-14.685155868530273
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,up,14,570,18712,3.5853872299194336,-14.180583953857422
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,up,15,518,21312,3.5231857299804688,-13.226700782775879
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,down,1,019,18089,-4.517483711242676,-12.443636894226074
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,down,2,044,20078,-3.7762880325317383,-12.73791217803955
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,down,3,023,20063,-3.7579965591430664,-12.679549217224121
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,down,4,009,13858,-3.6958189010620117,-12.638510704040527
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,down,5,996,23031,-3.6204280853271484,-12.672403335571289
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,down,6,093,25202,-3.01033878326416,-12.73336410522461
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,down,7,046,24222,-3.0057449340820312,-12.598299980163574
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,down,8,079,27407,-3.0042295455932617,-12.22674560546875
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,down,9,000,931,-2.768336296081543,-11.113740921020508
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,down,10,029,23273,-2.6507339477539062,-12.461030006408691
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,down,11,987,22207,-2.3694839477539062,-12.629643440246582
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,down,12,909,21278,-2.365025520324707,-12.731709480285645
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,down,13,937,21936,-2.248002052307129,-12.254526138305664
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,down,14,073,25779,-2.1836166381835938,-12.253377914428711
+logit,late,late (t >= 512) vs early (8 <= t < 32),integer,down,15,041,20945,-1.8643617630004883,-12.425115585327148
+logit,late,"switch: e in [1, 8) vs [-100, -10)",word,up,1,defaultManager,100020,0.5426759719848633,-11.114453315734863
+logit,late,"switch: e in [1, 8) vs [-100, -10)",word,down,1,actionDate,90207,-0.3933591842651367,-10.561327934265137
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,1,632,20775,4.57666015625,-13.973437309265137
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,2,640,14033,4.075682640075684,-13.074999809265137
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,3,631,21729,3.9831056594848633,-13.849218368530273
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,4,641,23525,3.9584951400756836,-13.774999618530273
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,5,638,24495,3.86865234375,-14.45703125
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,6,686,22347,3.8602523803710938,-14.810155868530273
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,7,677,24375,3.72607421875,-13.060937881469727
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,8,630,18660,3.6809568405151367,-14.185155868530273
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,9,629,24239,3.663867950439453,-14.249218940734863
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,10,680,17814,3.6137685775756836,-14.384374618530273
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,11,729,22194,3.585155487060547,-13.911718368530273
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,12,600,5067,3.5436534881591797,-14.335156440734863
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,13,730,20785,3.5286130905151367,-13.497655868530273
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,14,608,19944,3.5082035064697266,-14.1328125
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,15,684,24313,3.3779296875,-13.137499809265137
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,1,255,3192,-4.08095645904541,-6.128125190734863
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,2,275,14417,-4.052440643310547,-7.029296875
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,3,285,15935,-3.955371379852295,-6.701562404632568
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,4,261,15602,-3.9091787338256836,-6.591015815734863
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,5,250,5154,-3.9087886810302734,-8.22265625
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,6,291,17335,-3.783398151397705,-7.377343654632568
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,7,290,13754,-3.7344727516174316,-7.497656345367432
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,8,281,15282,-3.6707024574279785,-7.625390529632568
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,9,260,11387,-3.6393556594848633,-7.514452934265137
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,10,254,12375,-3.602344036102295,-6.780859470367432
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,11,297,18163,-3.595508098602295,-7.414453029632568
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,12,259,15537,-3.5882811546325684,-6.357812404632568
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,13,270,10914,-3.5347652435302734,-8.213281631469727
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,14,191,7529,-3.5235347747802734,-8.095703125
+logit,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,15,245,13078,-3.5231447219848633,-8.091796875
+logit,late,"switch: e = 0 vs [-100, -10)",integer,up,1,335,16596,0.44570302963256836,-7.662109375
+logit,late,"switch: e = 0 vs [-100, -10)",integer,up,2,304,12166,0.357421875,-7.125
+logit,late,"switch: e = 0 vs [-100, -10)",integer,up,3,317,16718,0.294921875,-9.511327743530273
+logit,late,"switch: e = 0 vs [-100, -10)",integer,up,4,268,16332,0.29257774353027344,-8.782031059265137
+logit,late,"switch: e = 0 vs [-100, -10)",integer,up,5,323,15726,0.28945350646972656,-9.002344131469727
+logit,late,"switch: e = 0 vs [-100, -10)",integer,up,6,316,15340,0.2734375,-7.807421684265137
+logit,late,"switch: e = 0 vs [-100, -10)",integer,up,7,313,15231,0.26015663146972656,-8.614453315734863
+logit,late,"switch: e = 0 vs [-100, -10)",integer,up,8,377,10898,0.259765625,-9.123827934265137
+logit,late,"switch: e = 0 vs [-100, -10)",integer,up,9,355,17306,0.2585940361022949,-7.184765815734863
+logit,late,"switch: e = 0 vs [-100, -10)",integer,up,10,341,16546,0.25820302963256836,-7.486718654632568
+logit,late,"switch: e = 0 vs [-100, -10)",integer,up,11,337,17609,0.25625038146972656,-9.192578315734863
+logit,late,"switch: e = 0 vs [-100, -10)",integer,up,12,349,18634,0.2507815361022949,-8.066797256469727
+logit,late,"switch: e = 0 vs [-100, -10)",integer,up,13,267,16567,0.24492216110229492,-8.155468940734863
+logit,late,"switch: e = 0 vs [-100, -10)",integer,up,14,359,19192,0.2421875,-8.858983993530273
+logit,late,"switch: e = 0 vs [-100, -10)",integer,up,15,318,17592,0.240234375,-8.600781440734863
+logit,late,"switch: e = 0 vs [-100, -10)",integer,down,1,242,12754,-0.7457027435302734,-8.737500190734863
+logit,late,"switch: e = 0 vs [-100, -10)",integer,down,2,191,7529,-0.6394529342651367,-8.095703125
+logit,late,"switch: e = 0 vs [-100, -10)",integer,down,3,192,5926,-0.6253910064697266,-8.93359375
+logit,late,"switch: e = 0 vs [-100, -10)",integer,down,4,412,17574,-0.6203126907348633,-8.337109565734863
+logit,late,"switch: e = 0 vs [-100, -10)",integer,down,5,204,7854,-0.5984373092651367,-8.917187690734863
+logit,late,"switch: e = 0 vs [-100, -10)",integer,down,6,195,6280,-0.5843753814697266,-9.102343559265137
+logit,late,"switch: e = 0 vs [-100, -10)",integer,down,7,250,5154,-0.5558595657348633,-8.22265625
+logit,late,"switch: e = 0 vs [-100, -10)",integer,down,8,291,17335,-0.5140624046325684,-7.377343654632568
+logit,late,"switch: e = 0 vs [-100, -10)",integer,down,9,244,13719,-0.501953125,-8.916796684265137
+logit,late,"switch: e = 0 vs [-100, -10)",integer,down,10,220,8610,-0.4929685592651367,-8.702343940734863
+logit,late,"switch: e = 0 vs [-100, -10)",integer,down,11,415,18136,-0.49062538146972656,-7.949999809265137
+logit,late,"switch: e = 0 vs [-100, -10)",integer,down,12,193,7285,-0.48671913146972656,-9.044530868530273
+logit,late,"switch: e = 0 vs [-100, -10)",integer,down,13,393,18252,-0.462890625,-8.580469131469727
+logit,late,"switch: e = 0 vs [-100, -10)",integer,down,14,240,8273,-0.4597654342651367,-8.031641006469727
+logit,late,"switch: e = 0 vs [-100, -10)",integer,down,15,383,19230,-0.458984375,-9.023828506469727
+jlens,early,mu 700 vs 300 (late),word,up,1,ild,699,1.1131251017252604,-15.979948043823242
+jlens,early,mu 700 vs 300 (late),word,up,2,wa,10196,1.0972923278808593,-15.840800285339355
+jlens,early,mu 700 vs 300 (late),word,up,3,kW,117427,0.903958257039388,-15.476301193237305
+jlens,early,mu 700 vs 300 (late),word,up,4,in,115235,0.8917711893717447,-13.738541603088379
+jlens,early,mu 700 vs 300 (late),word,up,5,clud,1513,0.8779167175292969,-15.852169036865234
+jlens,early,mu 700 vs 300 (late),word,up,6,St,800,0.8742188771565755,-15.38228988647461
+jlens,early,mu 700 vs 300 (late),word,up,7,Ma,11583,0.8530212402343749,-15.834505081176758
+jlens,early,mu 700 vs 300 (late),word,up,8,jan,23685,0.8478126525878905,-15.001301765441895
+jlens,early,mu 700 vs 300 (late),word,up,9,Norfolk,59792,0.8463545481363932,-15.36545181274414
+jlens,early,mu 700 vs 300 (late),word,up,10,ro,127634,0.8156253814697265,-14.006596565246582
+jlens,early,mu 700 vs 300 (late),word,up,11,Af,13203,0.8140626271565756,-15.522829055786133
+jlens,early,mu 700 vs 300 (late),word,up,12,Ed,3279,0.8015104929606119,-15.408637046813965
+jlens,early,mu 700 vs 300 (late),word,up,13,mph,121088,0.7613539377848307,-15.643574714660645
+jlens,early,mu 700 vs 300 (late),word,up,14,ob,124531,0.7381248474121094,-14.808334350585938
+jlens,early,mu 700 vs 300 (late),word,up,15,Powell,44109,0.716458511352539,-15.787846565246582
+jlens,early,mu 700 vs 300 (late),word,down,1,rio,95804,-0.010989634195963542,-15.639626502990723
+jlens,early,mu 700 vs 300 (late),integer,up,1,48,2166,1.1744792938232422,-15.272700309753418
+jlens,early,mu 700 vs 300 (late),integer,up,2,6,21,1.1291146596272787,-14.168620109558105
+jlens,early,mu 700 vs 300 (late),integer,up,3,18,972,1.1289581298828126,-15.25390625
+jlens,early,mu 700 vs 300 (late),integer,up,4,90,1954,1.128280766805013,-15.112499237060547
+jlens,early,mu 700 vs 300 (late),integer,up,5,500,2636,1.124583943684896,-15.991838455200195
+jlens,early,mu 700 vs 300 (late),integer,up,6,000,931,1.1208854675292967,-15.49236011505127
+jlens,early,mu 700 vs 300 (late),integer,up,7,200,1049,1.1173436482747396,-14.87165641784668
+jlens,early,mu 700 vs 300 (late),integer,up,8,9,24,1.1169790903727213,-14.198264122009277
+jlens,early,mu 700 vs 300 (late),integer,up,9,32,843,1.114687983194987,-15.824565887451172
+jlens,early,mu 700 vs 300 (late),integer,up,10,7,22,1.111562220255534,-14.142143249511719
+jlens,early,mu 700 vs 300 (late),integer,up,11,64,1227,1.1104685465494792,-15.841449737548828
+jlens,early,mu 700 vs 300 (late),integer,up,12,8,23,1.1101041158040363,-14.102429389953613
+jlens,early,mu 700 vs 300 (late),integer,up,13,100,1041,1.1047400156656901,-15.61007022857666
+jlens,early,mu 700 vs 300 (late),integer,up,14,80,1490,1.1036978403727213,-15.394271850585938
+jlens,early,mu 700 vs 300 (late),integer,up,15,60,1399,1.1017187754313151,-15.694791793823242
+jlens,early,sigma 200 vs 10 (late),word,up,1,in,115235,0.41727437937267,-13.829947471618652
+jlens,early,sigma 200 vs 10 (late),word,up,2,ob,124531,0.07621842150283449,-14.84053897857666
+jlens,early,sigma 200 vs 10 (late),word,up,3,ro,127634,0.03478734180326146,-13.990711212158203
+jlens,early,sigma 200 vs 10 (late),word,down,1,ano,39124,-1.161370366655602,-15.92929744720459
+jlens,early,sigma 200 vs 10 (late),word,down,2,africa,45381,-1.1076759047493816,-15.842361450195312
+jlens,early,sigma 200 vs 10 (late),word,down,3,nz,44042,-1.082459077306529,-15.828038215637207
+jlens,early,sigma 200 vs 10 (late),word,down,4,Tv,50653,-1.073217617179978,-15.612977981567383
+jlens,early,sigma 200 vs 10 (late),word,down,5,tas,52314,-1.0651792818871073,-15.772830963134766
+jlens,early,sigma 200 vs 10 (late),word,down,6,apa,61693,-1.0596264645386724,-15.79071044921875
+jlens,early,sigma 200 vs 10 (late),word,down,7,tv,11333,-1.0495438535729924,-15.620356559753418
+jlens,early,sigma 200 vs 10 (late),word,down,8,thai,18420,-1.0450535480641512,-15.239887237548828
+jlens,early,sigma 200 vs 10 (late),word,down,9,pří,126247,-1.0335225373568782,-15.610851287841797
+jlens,early,sigma 200 vs 10 (late),word,down,10,suf,56868,-1.0125356287625167,-15.19748306274414
+jlens,early,sigma 200 vs 10 (late),word,down,11,james,86046,-0.9995508033958372,-15.705208778381348
+jlens,early,sigma 200 vs 10 (late),word,down,12,afr,86064,-0.9971295952731026,-15.22304630279541
+jlens,early,sigma 200 vs 10 (late),word,down,13,york,50672,-0.9959964201063607,-15.599653244018555
+jlens,early,sigma 200 vs 10 (late),word,down,14,Gan,50181,-0.989787588522194,-15.78567886352539
+jlens,early,sigma 200 vs 10 (late),word,down,15,Jon,12565,-0.9850540194996327,-15.791449546813965
+jlens,early,sigma 200 vs 10 (late),integer,down,1,106,7461,-0.5496517832182346,-15.323610305786133
+jlens,early,sigma 200 vs 10 (late),integer,down,2,71,6028,-0.5040131191420579,-15.514105796813965
+jlens,early,sigma 200 vs 10 (late),integer,down,3,29,1682,-0.48183034392242136,-15.565841674804688
+jlens,early,sigma 200 vs 10 (late),integer,down,4,52,4103,-0.44190496909868615,-15.533985137939453
+jlens,early,sigma 200 vs 10 (late),integer,down,5,53,4331,-0.43600617137271525,-15.443490028381348
+jlens,early,sigma 200 vs 10 (late),integer,down,6,92,6083,-0.43270101274257416,-15.597222328186035
+jlens,early,sigma 200 vs 10 (late),integer,down,7,0,15,-0.4313995728455256,-15.519965171813965
+jlens,early,sigma 200 vs 10 (late),integer,down,8,48,2166,-0.4170297891065315,-15.162933349609375
+jlens,early,sigma 200 vs 10 (late),integer,down,9,45,1774,-0.4044238395291734,-15.63602352142334
+jlens,early,sigma 200 vs 10 (late),integer,down,10,27,1544,-0.4037326250371661,-15.410503387451172
+jlens,early,sigma 200 vs 10 (late),integer,down,11,47,2618,-0.40176501268685494,-15.51406192779541
+jlens,early,sigma 200 vs 10 (late),integer,down,12,28,1591,-0.3960846109198626,-15.688583374023438
+jlens,early,sigma 200 vs 10 (late),integer,down,13,80,1490,-0.39038383385509257,-15.31032943725586
+jlens,early,sigma 200 vs 10 (late),integer,down,14,8,23,-0.3864043747404642,-14.015277862548828
+jlens,early,sigma 200 vs 10 (late),integer,down,15,25,914,-0.3862363483673148,-14.935026168823242
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,up,1,VOL,69326,0.692601203918457,-16.209835052490234
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,up,2,tion,73352,0.682098388671875,-15.549400329589844
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,up,3,ern,93029,0.6759881973266602,-15.87224292755127
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,up,4,ani,53088,0.6076984405517578,-16.206388473510742
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,up,5,ada,35334,0.5377540588378906,-16.084651947021484
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,up,6,thu,78474,0.53179931640625,-16.17141342163086
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,up,7,ci,12088,0.462799072265625,-15.857721328735352
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,up,8,mary,85730,0.4326753616333008,-15.73747730255127
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,up,9,ef,31469,0.41659069061279297,-15.471990585327148
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,up,10,afr,86064,0.4116058349609375,-15.720405578613281
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,up,11,kep,65284,0.3904867172241211,-15.913924217224121
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,up,12,ils,46152,0.3676033020019531,-16.070083618164062
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,up,13,li,908,0.35684967041015625,-15.950323104858398
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,up,14,gi,13845,0.31206512451171875,-15.512201309204102
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,up,15,Powell,44109,0.2740354537963867,-15.95956039428711
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,down,1,Defence,40007,-2.027576446533203,-15.331110000610352
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,down,2,ised,4147,-2.02187442779541,-15.441912651062012
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,down,3,centre,75217,-1.913741111755371,-14.926287651062012
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,down,4,centre,12541,-1.875300407409668,-15.318680763244629
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,down,5,world,14957,-1.6202201843261719,-15.498161315917969
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,down,6,je,123931,-1.5182228088378906,-15.040279388427734
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,down,7,quot,13800,-1.484787940979004,-15.14960765838623
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,down,8,They,2435,-1.2317113876342773,-15.165301322937012
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,down,9,avar,37332,-1.228468894958496,-14.876814842224121
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,down,10,ade,1037,-1.1862621307373047,-15.451929092407227
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,down,11,http,1795,-1.1633501052856445,-15.260546684265137
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,down,12,Seal,53625,-1.1607999801635742,-15.270771980285645
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,down,13,ob,124531,-1.0681991577148438,-13.755147933959961
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,down,14,miles,126500,-1.0638790130615234,-14.38354778289795
+jlens,early,late (t >= 512) vs early (8 <= t < 32),word,down,15,mph,121088,-1.0602693557739258,-14.482605934143066
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,up,1,11,806,0.6009855270385742,-15.73749828338623
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,up,2,8,23,0.5787210464477539,-14.636098861694336
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,up,3,7,22,0.5160408020019531,-14.619786262512207
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,up,4,14,975,0.5156927108764648,-15.538924217224121
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,up,5,6,21,0.5041112899780273,-14.632535934448242
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,up,6,13,1032,0.5039539337158203,-15.389062881469727
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,up,7,4,19,0.4991950988769531,-14.997126579284668
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,up,8,9,24,0.4981374740600586,-14.655491828918457
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,up,9,16,845,0.48890209197998047,-15.900873184204102
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,up,10,15,868,0.48789405822753906,-15.66093921661377
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,up,11,10,605,0.4816627502441406,-15.351263046264648
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,up,12,29,1682,0.46541690826416016,-16.082534790039062
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,up,13,3,18,0.41068267822265625,-15.275665283203125
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,up,14,52,4103,0.40245914459228516,-15.984560012817383
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,up,15,12,717,0.38619041442871094,-15.250917434692383
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,down,1,000,931,-0.6537008285522461,-14.784673690795898
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,down,2,500,2636,-0.6028509140014648,-15.349263191223145
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,down,3,200,1049,-0.5331344604492188,-14.29977035522461
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,down,4,199,2550,-0.39064693450927734,-15.431687355041504
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,down,5,100,1041,-0.014476776123046875,-15.568933486938477
+jlens,early,late (t >= 512) vs early (8 <= t < 32),integer,down,6,1,16,-0.00624847412109375,-15.386099815368652
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,up,1,THE,3247,0.77099609375,-16.012109756469727
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,up,2,The,578,0.6667003631591797,-16.135547637939453
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,up,3,PS,117582,0.6255874633789062,-16.274219512939453
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,up,4,Howe,86631,0.5928707122802734,-16.286718368530273
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,up,5,in,115235,0.5173826217651367,-14.303906440734863
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,up,6,kW,117427,0.5140619277954102,-15.932812690734863
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,up,7,DE,3467,0.5129871368408203,-16.30859375
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,up,8,ST,4015,0.5066404342651367,-16.265625
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,up,9,miles,126500,0.5035161972045898,-15.893750190734863
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,up,10,CO,7432,0.4944343566894531,-16.223438262939453
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,up,11,Henry,18063,0.48886775970458984,-16.207813262939453
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,up,12,JOHN,76275,0.4884767532348633,-15.8984375
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,up,13,VOL,69326,0.4768552780151367,-15.960156440734863
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,up,14,By,3296,0.46044921875,-16.142969131469727
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,up,15,She,3005,0.4425773620605469,-16.236328125
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,down,1,ef,31469,-0.21171951293945312,-15.446093559265137
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,down,2,ani,53088,-0.20527267456054688,-15.814844131469727
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,down,3,ler,76120,-0.19843673706054688,-16.0859375
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,down,4,sai,72732,-0.19667816162109375,-16.072656631469727
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,down,5,tion,73352,-0.19316387176513672,-15.250781059265137
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,down,6,ly,14869,-0.1510753631591797,-15.905858993530273
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,down,7,inte,29387,-0.1396484375,-16.079687118530273
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,down,8,ada,35334,-0.13691425323486328,-15.796875
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,down,9,thu,78474,-0.13369178771972656,-15.845703125
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,down,10,thai,18420,-0.12197303771972656,-15.601171493530273
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,down,11,suf,56868,-0.09941291809082031,-15.736719131469727
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,down,12,gi,13845,-0.09921836853027344,-15.513671875
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,down,13,ci,12088,-0.09619140625,-15.687891006469727
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,down,14,si,4502,-0.07666015625,-16.047266006469727
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",word,down,15,ern,93029,-0.07412147521972656,-15.483202934265137
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",integer,up,1,000,931,0.4694337844848633,-16.080078125
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",integer,up,2,71,6028,0.3943367004394531,-16.189844131469727
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",integer,up,3,9,24,0.3872060775756836,-14.776562690734863
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",integer,up,4,13,1032,0.3688478469848633,-15.455859184265137
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",integer,up,5,7,22,0.35488319396972656,-14.723047256469727
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",integer,up,6,6,21,0.3546876907348633,-14.759765625
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",integer,up,7,10,605,0.3533210754394531,-15.476953506469727
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",integer,up,8,3,18,0.3532238006591797,-15.414453506469727
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",integer,up,9,1,16,0.35293006896972656,-15.933984756469727
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",integer,up,10,18,972,0.34511756896972656,-15.850781440734863
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",integer,up,11,5,20,0.3381834030151367,-14.808202743530273
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",integer,up,12,8,23,0.33164119720458984,-14.694531440734863
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",integer,up,13,20,508,0.32949256896972656,-15.669921875
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",integer,up,14,14,975,0.32509708404541016,-15.630859375
+jlens,early,"switch: e in [1, 8) vs [-100, -10)",integer,up,15,12,717,0.3249025344848633,-15.487500190734863
+jlens,early,"switch: e = 0 vs [-100, -10)",word,up,1,THE,3247,0.8269538879394531,-16.012109756469727
+jlens,early,"switch: e = 0 vs [-100, -10)",word,up,2,PS,117582,0.7562503814697266,-16.274219512939453
+jlens,early,"switch: e = 0 vs [-100, -10)",word,up,3,http,1795,0.6667957305908203,-16.466014862060547
+jlens,early,"switch: e = 0 vs [-100, -10)",word,up,4,TO,5257,0.6523427963256836,-16.467967987060547
+jlens,early,"switch: e = 0 vs [-100, -10)",word,up,5,www,8604,0.6097660064697266,-15.739453315734863
+jlens,early,"switch: e = 0 vs [-100, -10)",word,up,6,in,115235,0.5390625,-14.303906440734863
+jlens,early,"switch: e = 0 vs [-100, -10)",word,up,7,The,578,0.5027351379394531,-16.135547637939453
+jlens,early,"switch: e = 0 vs [-100, -10)",word,up,8,JOHN,76275,0.4578123092651367,-15.8984375
+jlens,early,"switch: e = 0 vs [-100, -10)",word,up,9,miles,126500,0.43515682220458984,-15.893750190734863
+jlens,early,"switch: e = 0 vs [-100, -10)",word,up,10,ST,4015,0.423828125,-16.265625
+jlens,early,"switch: e = 0 vs [-100, -10)",word,up,11,VOL,69326,0.4191408157348633,-15.960156440734863
+jlens,early,"switch: e = 0 vs [-100, -10)",word,up,12,tom,120453,0.39999961853027344,-15.603124618530273
+jlens,early,"switch: e = 0 vs [-100, -10)",word,up,13,ob,124531,0.3976564407348633,-15.254687309265137
+jlens,early,"switch: e = 0 vs [-100, -10)",word,up,14,CO,7432,0.3816413879394531,-16.223438262939453
+jlens,early,"switch: e = 0 vs [-100, -10)",word,up,15,Download,8745,0.3699216842651367,-15.946874618530273
+jlens,early,"switch: e = 0 vs [-100, -10)",word,down,1,sai,72732,-0.36093711853027344,-16.072656631469727
+jlens,early,"switch: e = 0 vs [-100, -10)",word,down,2,ef,31469,-0.32187557220458984,-15.446093559265137
+jlens,early,"switch: e = 0 vs [-100, -10)",word,down,3,ci,12088,-0.29335880279541016,-15.687891006469727
+jlens,early,"switch: e = 0 vs [-100, -10)",word,down,4,suf,56868,-0.24687480926513672,-15.736719131469727
+jlens,early,"switch: e = 0 vs [-100, -10)",word,down,5,ly,14869,-0.22695350646972656,-15.905858993530273
+jlens,early,"switch: e = 0 vs [-100, -10)",word,down,6,ler,76120,-0.22031211853027344,-16.0859375
+jlens,early,"switch: e = 0 vs [-100, -10)",word,down,7,ri,25160,-0.2109375,-15.927343368530273
+jlens,early,"switch: e = 0 vs [-100, -10)",word,down,8,Norfolk,59792,-0.20468711853027344,-15.784375190734863
+jlens,early,"switch: e = 0 vs [-100, -10)",word,down,9,ada,35334,-0.20468711853027344,-15.796875
+jlens,early,"switch: e = 0 vs [-100, -10)",word,down,10,gi,13845,-0.18828105926513672,-15.513671875
+jlens,early,"switch: e = 0 vs [-100, -10)",word,down,11,inte,29387,-0.18437576293945312,-16.079687118530273
+jlens,early,"switch: e = 0 vs [-100, -10)",word,down,12,si,4502,-0.181640625,-16.047266006469727
+jlens,early,"switch: e = 0 vs [-100, -10)",word,down,13,tion,73352,-0.17578125,-15.250781059265137
+jlens,early,"switch: e = 0 vs [-100, -10)",word,down,14,ba,13081,-0.1414051055908203,-16.084375381469727
+jlens,early,"switch: e = 0 vs [-100, -10)",word,down,15,ani,53088,-0.13046836853027344,-15.814844131469727
+jlens,early,"switch: e = 0 vs [-100, -10)",integer,up,1,000,931,0.0859375,-16.080078125
+jlens,early,"switch: e = 0 vs [-100, -10)",integer,up,2,1,16,0.03164100646972656,-15.933984756469727
+jlens,early,"switch: e = 0 vs [-100, -10)",integer,up,3,200,1049,0.016015052795410156,-15.427343368530273
+jlens,early,"switch: e = 0 vs [-100, -10)",integer,down,1,16,845,-0.19804668426513672,-15.991015434265137
+jlens,early,"switch: e = 0 vs [-100, -10)",integer,down,2,12,717,-0.171875,-15.487500190734863
+jlens,early,"switch: e = 0 vs [-100, -10)",integer,down,3,30,966,-0.17109298706054688,-16.076562881469727
+jlens,early,"switch: e = 0 vs [-100, -10)",integer,down,4,19,777,-0.16171836853027344,-16.017969131469727
+jlens,early,"switch: e = 0 vs [-100, -10)",integer,down,5,17,1114,-0.15312480926513672,-15.703125
+jlens,early,"switch: e = 0 vs [-100, -10)",integer,down,6,25,914,-0.14921855926513672,-15.551562309265137
+jlens,early,"switch: e = 0 vs [-100, -10)",integer,down,7,106,7461,-0.13671875,-15.916406631469727
+jlens,early,"switch: e = 0 vs [-100, -10)",integer,down,8,27,1544,-0.13242149353027344,-16.013671875
+jlens,early,"switch: e = 0 vs [-100, -10)",integer,down,9,15,868,-0.11562538146972656,-15.7578125
+jlens,early,"switch: e = 0 vs [-100, -10)",integer,down,10,14,975,-0.11367225646972656,-15.630859375
+jlens,early,"switch: e = 0 vs [-100, -10)",integer,down,11,11,806,-0.11328125,-15.714452743530273
+jlens,early,"switch: e = 0 vs [-100, -10)",integer,down,12,13,1032,-0.11328125,-15.455859184265137
+jlens,early,"switch: e = 0 vs [-100, -10)",integer,down,13,4,19,-0.1015625,-15.084765434265137
+jlens,early,"switch: e = 0 vs [-100, -10)",integer,down,14,8,23,-0.09257793426513672,-14.694531440734863
+jlens,early,"switch: e = 0 vs [-100, -10)",integer,down,15,80,1490,-0.09140682220458984,-15.961718559265137
+jlens,middle,mu 700 vs 300 (late),word,up,1,si,4502,0.8009983062744139,-8.984122276306152
+jlens,middle,mu 700 vs 300 (late),word,up,2,So,2100,0.6728298187255859,-8.691008567810059
+jlens,middle,mu 700 vs 300 (late),word,up,3,SC,7683,0.6356341044108073,-8.891674041748047
+jlens,middle,mu 700 vs 300 (late),word,up,4,She,3005,0.6307289759318033,-7.542426109313965
+jlens,middle,mu 700 vs 300 (late),word,up,5,Her,6385,0.46510403951009116,-8.385453224182129
+jlens,middle,mu 700 vs 300 (late),word,up,6,Si,12095,0.4438371022542318,-8.237196922302246
+jlens,middle,mu 700 vs 300 (late),word,up,7,Sol,11730,0.41853294372558597,-8.295970916748047
+jlens,middle,mu 700 vs 300 (late),word,up,8,Sho,64040,0.41740430196126305,-8.448966026306152
+jlens,middle,mu 700 vs 300 (late),word,up,9,Hi,21694,0.4024309794108073,-8.545825958251953
+jlens,middle,mu 700 vs 300 (late),word,up,10,San,5960,0.3583765665690104,-8.822916984558105
+jlens,middle,mu 700 vs 300 (late),word,up,11,Sh,1443,0.34934895833333335,-7.959527015686035
+jlens,middle,mu 700 vs 300 (late),word,up,12,Hall,11166,0.33446184794108075,-8.576461791992188
+jlens,middle,mu 700 vs 300 (late),word,up,13,Sa,16233,0.3287761688232422,-8.214301109313965
+jlens,middle,mu 700 vs 300 (late),word,up,14,Sw,4593,0.32690938313802087,-8.632740020751953
+jlens,middle,mu 700 vs 300 (late),word,up,15,Fi,40971,0.32109400431315105,-8.699073791503906
+jlens,middle,mu 700 vs 300 (late),word,down,1,Kra,62167,-0.6272570292154948,-8.864727020263672
+jlens,middle,mu 700 vs 300 (late),word,down,2,Bor,23768,-0.5542532602945963,-8.749457359313965
+jlens,middle,mu 700 vs 300 (late),word,down,3,Van,13000,-0.5447915395100912,-8.326316833496094
+jlens,middle,mu 700 vs 300 (late),word,down,4,Ben,7505,-0.5149304072062174,-8.16579818725586
+jlens,middle,mu 700 vs 300 (late),word,down,5,Tom,8529,-0.492187754313151,-8.504484176635742
+jlens,middle,mu 700 vs 300 (late),word,down,6,Den,9973,-0.476736323038737,-8.598596572875977
+jlens,middle,mu 700 vs 300 (late),word,down,7,Prince,19912,-0.473611323038737,-8.701497077941895
+jlens,middle,mu 700 vs 300 (late),word,down,8,Bal,19984,-0.45920193990071617,-8.702510833740234
+jlens,middle,mu 700 vs 300 (late),word,down,9,Pe,5250,-0.4586369832356771,-8.618996620178223
+jlens,middle,mu 700 vs 300 (late),word,down,10,Mel,11220,-0.45290813446044925,-8.066043853759766
+jlens,middle,mu 700 vs 300 (late),word,down,11,Jordan,17527,-0.44756927490234377,-8.86111068725586
+jlens,middle,mu 700 vs 300 (late),word,down,12,Pal,11165,-0.44118932088216145,-7.942635536193848
+jlens,middle,mu 700 vs 300 (late),word,down,13,Pic,26987,-0.4407121022542318,-8.562173843383789
+jlens,middle,mu 700 vs 300 (late),word,down,14,Cha,28821,-0.4348528544108073,-8.849573135375977
+jlens,middle,mu 700 vs 300 (late),word,down,15,Mor,8613,-0.43146718343098955,-8.384403228759766
+jlens,middle,mu 700 vs 300 (late),integer,up,1,6,21,0.5200953165690104,-8.367730140686035
+jlens,middle,mu 700 vs 300 (late),integer,up,2,7,22,0.4756076176961263,-8.158818244934082
+jlens,middle,mu 700 vs 300 (late),integer,up,3,8,23,0.4453123728434245,-8.045174598693848
+jlens,middle,mu 700 vs 300 (late),integer,up,4,9,24,0.4256944020589193,-8.089156150817871
+jlens,middle,mu 700 vs 300 (late),integer,up,5,68,2614,0.41163177490234376,-8.734663963317871
+jlens,middle,mu 700 vs 300 (late),integer,up,6,65,2397,0.3906248728434245,-8.800853729248047
+jlens,middle,mu 700 vs 300 (late),integer,up,7,5,20,0.38719622294108075,-8.676432609558105
+jlens,middle,mu 700 vs 300 (late),integer,up,8,81,5932,0.3318579355875651,-8.736329078674316
+jlens,middle,mu 700 vs 300 (late),integer,up,9,64,1227,0.32981796264648433,-8.781033515930176
+jlens,middle,mu 700 vs 300 (late),integer,up,10,71,6028,0.29110272725423175,-8.456524848937988
+jlens,middle,mu 700 vs 300 (late),integer,up,11,67,3080,0.2875436147054036,-8.701498031616211
+jlens,middle,mu 700 vs 300 (late),integer,up,12,74,5728,0.26692771911621094,-8.804289817810059
+jlens,middle,mu 700 vs 300 (late),integer,up,13,66,2287,0.2520402272542318,-8.767180442810059
+jlens,middle,mu 700 vs 300 (late),integer,up,14,73,5958,0.23602409362792967,-8.7306489944458
+jlens,middle,mu 700 vs 300 (late),integer,up,15,50,1135,0.2221783955891927,-8.664460182189941
+jlens,middle,mu 700 vs 300 (late),integer,down,1,39,2137,-0.5002168019612631,-8.251880645751953
+jlens,middle,mu 700 vs 300 (late),integer,down,2,41,3174,-0.47938359578450523,-8.868706703186035
+jlens,middle,mu 700 vs 300 (late),integer,down,3,45,1774,-0.40060755411783855,-8.554144859313965
+jlens,middle,mu 700 vs 300 (late),integer,down,4,44,2096,-0.34392356872558594,-8.343388557434082
+jlens,middle,mu 700 vs 300 (late),integer,down,5,43,3391,-0.3009552001953125,-8.740199089050293
+jlens,middle,mu 700 vs 300 (late),integer,down,6,46,2790,-0.29105911254882816,-8.740633010864258
+jlens,middle,mu 700 vs 300 (late),integer,down,7,48,2166,-0.2822914123535156,-8.065719604492188
+jlens,middle,mu 700 vs 300 (late),integer,down,8,16,845,-0.2515623728434245,-8.817564010620117
+jlens,middle,mu 700 vs 300 (late),integer,down,9,47,2618,-0.20421002705891927,-8.399341583251953
+jlens,middle,mu 700 vs 300 (late),integer,down,10,49,2491,-0.15447057088216146,-8.327799797058105
+jlens,middle,mu 700 vs 300 (late),integer,down,11,51,3971,-0.14461873372395834,-8.667823791503906
+jlens,middle,mu 700 vs 300 (late),integer,down,12,53,4331,-0.09492162068684896,-8.554651260375977
+jlens,middle,mu 700 vs 300 (late),integer,down,13,52,4103,-0.08463554382324219,-8.649269104003906
+jlens,middle,mu 700 vs 300 (late),integer,down,14,57,3226,-0.05008697509765626,-8.304254531860352
+jlens,middle,mu 700 vs 300 (late),integer,down,15,54,4370,-0.01588592529296875,-8.238678932189941
+jlens,middle,sigma 200 vs 10 (late),word,up,1,Hu,22546,0.8302879813337878,-8.726490020751953
+jlens,middle,sigma 200 vs 10 (late),word,up,2,Li,14851,0.75773761248727,-8.818721771240234
+jlens,middle,sigma 200 vs 10 (late),word,up,3,Hall,11166,0.7331476527734919,-8.875507354736328
+jlens,middle,sigma 200 vs 10 (late),word,up,4,March,5587,0.6080707555997314,-9.025860786437988
+jlens,middle,sigma 200 vs 10 (late),word,up,5,Cal,3400,0.6045037398440691,-8.618742942810059
+jlens,middle,sigma 200 vs 10 (late),word,up,6,Ha,14433,0.567902524519364,-8.748879432678223
+jlens,middle,sigma 200 vs 10 (late),word,up,7,Prince,19912,0.5670980908121609,-8.776982307434082
+jlens,middle,sigma 200 vs 10 (late),word,up,8,Hal,20442,0.5625961798517368,-8.729889869689941
+jlens,middle,sigma 200 vs 10 (late),word,up,9,Lu,18866,0.56009311786601,-8.743127822875977
+jlens,middle,sigma 200 vs 10 (late),word,up,10,Park,5657,0.5526778929099248,-8.76833724975586
+jlens,middle,sigma 200 vs 10 (late),word,up,11,River,11188,0.541722428831963,-8.876663208007812
+jlens,middle,sigma 200 vs 10 (late),word,up,12,Water,10164,0.5190725696576248,-8.917064666748047
+jlens,middle,sigma 200 vs 10 (late),word,up,13,Kil,38988,0.48048976871362487,-8.803312301635742
+jlens,middle,sigma 200 vs 10 (late),word,up,14,Ly,16333,0.4691400507263863,-8.512370109558105
+jlens,middle,sigma 200 vs 10 (late),word,up,15,Pit,40079,0.4428980087339656,-8.246636390686035
+jlens,middle,sigma 200 vs 10 (late),word,down,1,Scot,15835,-0.7353760600223757,-9.060076713562012
+jlens,middle,sigma 200 vs 10 (late),word,down,2,Drum,46506,-0.6155583831848596,-9.031792640686035
+jlens,middle,sigma 200 vs 10 (late),word,down,3,Dund,75015,-0.5875095514205992,-8.54513931274414
+jlens,middle,sigma 200 vs 10 (late),word,down,4,Kra,62167,-0.5563156437646923,-8.786277770996094
+jlens,middle,sigma 200 vs 10 (late),word,down,5,Rs,19766,-0.44300586926641167,-8.94835090637207
+jlens,middle,sigma 200 vs 10 (late),word,down,6,Aqu,23815,-0.4415018992910518,-8.907588958740234
+jlens,middle,sigma 200 vs 10 (late),word,down,7,SC,7683,-0.44079538347506597,-8.7263822555542
+jlens,middle,sigma 200 vs 10 (late),word,down,8,Cas,11301,-0.43234081547555125,-8.864330291748047
+jlens,middle,sigma 200 vs 10 (late),word,down,9,Dun,29838,-0.42623074413022877,-8.440863609313965
+jlens,middle,sigma 200 vs 10 (late),word,down,10,So,2100,-0.39356033977931704,-8.609772682189941
+jlens,middle,sigma 200 vs 10 (late),word,down,11,Thor,29550,-0.39278332407810856,-9.025825500488281
+jlens,middle,sigma 200 vs 10 (late),word,down,12,Coll,13201,-0.384839420172244,-9.020073890686035
+jlens,middle,sigma 200 vs 10 (late),word,down,13,Rem,5031,-0.3635709982080367,-8.719799041748047
+jlens,middle,sigma 200 vs 10 (late),word,down,14,Saw,38107,-0.3488838574208351,-8.955620765686035
+jlens,middle,sigma 200 vs 10 (late),word,down,15,Dro,57967,-0.3407187642020568,-8.85134506225586
+jlens,middle,sigma 200 vs 10 (late),integer,up,1,7,22,1.026707362496338,-8.349211692810059
+jlens,middle,sigma 200 vs 10 (late),integer,up,2,6,21,0.9855587866685389,-8.526548385620117
+jlens,middle,sigma 200 vs 10 (late),integer,up,3,4,19,0.9521875493426049,-9.089553833007812
+jlens,middle,sigma 200 vs 10 (late),integer,up,4,8,23,0.9407969674937237,-8.209200859069824
+jlens,middle,sigma 200 vs 10 (late),integer,up,5,9,24,0.8472208605404583,-8.21506118774414
+jlens,middle,sigma 200 vs 10 (late),integer,up,6,16,845,0.7486359630562461,-8.950231552124023
+jlens,middle,sigma 200 vs 10 (late),integer,up,7,5,20,0.7283704072906122,-8.710358619689941
+jlens,middle,sigma 200 vs 10 (late),integer,up,8,14,975,0.7253881914231344,-8.94607162475586
+jlens,middle,sigma 200 vs 10 (late),integer,up,9,71,6028,0.5247851712766557,-8.6004056930542
+jlens,middle,sigma 200 vs 10 (late),integer,up,10,41,3174,0.490100650125632,-8.88096809387207
+jlens,middle,sigma 200 vs 10 (late),integer,up,11,68,2614,0.42795322313703366,-8.815827369689941
+jlens,middle,sigma 200 vs 10 (late),integer,up,12,72,5332,0.42199309050267364,-8.709346771240234
+jlens,middle,sigma 200 vs 10 (late),integer,up,13,43,3391,0.4135644749211429,-8.707610130310059
+jlens,middle,sigma 200 vs 10 (late),integer,up,14,67,3080,0.40810303794192926,-8.770145416259766
+jlens,middle,sigma 200 vs 10 (late),integer,up,15,73,5958,0.3963927506970479,-8.852503776550293
+jlens,middle,sigma 200 vs 10 (late),integer,down,1,82,6086,-0.1442789018567096,-8.695927619934082
+jlens,middle,sigma 200 vs 10 (late),integer,down,2,48,2166,-0.022434941141341754,-7.907986164093018
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,up,1,St,800,2.4685378074645996,-10.079387664794922
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,up,2,Pen,13597,2.316120147705078,-10.36443042755127
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,up,3,Har,5340,2.2705278396606445,-10.502087593078613
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,up,4,Co,3623,2.2688817977905273,-10.527441024780273
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,up,5,Horn,27206,2.210630416870117,-10.868910789489746
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,up,6,Ho,17723,2.0765161514282227,-10.599609375
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,up,7,Char,4969,2.0734338760375977,-10.143402099609375
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,up,8,May,3297,2.067267417907715,-10.466164588928223
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,up,9,Ro,12093,2.0175018310546875,-9.776501655578613
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,up,10,Port,5896,2.0030832290649414,-10.461339950561523
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,up,11,Sand,8847,1.9595203399658203,-10.415019989013672
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,up,12,Tom,8529,1.941807746887207,-10.444833755493164
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,up,13,Mar,2947,1.9183130264282227,-9.956092834472656
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,up,14,Bar,4821,1.916609764099121,-10.20823860168457
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,up,15,La,5034,1.9129705429077148,-9.714594841003418
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,down,1,trillion,32610,-3.380094051361084,-7.796530246734619
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,down,2,billions,33151,-3.190485954284668,-8.962316513061523
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,down,3,millennia,96731,-2.8917922973632812,-9.581284523010254
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,down,4,millions,11990,-2.3920812606811523,-9.242493629455566
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,down,5,billion,7239,-2.368776798248291,-7.910788059234619
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,down,6,infinite,24746,-2.2666969299316406,-9.150390625
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,down,7,thousand,16579,-2.096621513366699,-8.411688804626465
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,down,8,mathematic,21651,-2.068915367126465,-9.448511123657227
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,down,9,mathematical,37072,-2.0356922149658203,-9.228821754455566
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,down,10,Mathematical,92102,-1.8944768905639648,-9.02223014831543
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,down,11,Millions,74418,-1.8694639205932617,-9.414542198181152
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,down,12,calcul,5935,-1.8044977188110352,-9.572915077209473
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,down,13,million,3610,-1.7399663925170898,-8.087316513061523
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,down,14,ninety,78976,-1.7315044403076172,-8.891313552856445
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),word,down,15,eighty,80679,-1.7104778289794922,-8.303539276123047
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),integer,up,1,45,1774,1.4688091278076172,-10.005592346191406
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),integer,up,2,82,6086,1.309016227722168,-10.025717735290527
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),integer,up,3,49,2491,1.2608566284179688,-9.543907165527344
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),integer,up,4,39,2137,1.2516260147094727,-9.510741233825684
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),integer,up,5,48,2166,1.168351650238037,-9.162454605102539
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),integer,up,6,46,2790,1.0829877853393555,-9.78687858581543
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),integer,up,7,50,1135,1.0681705474853516,-9.67894172668457
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),integer,up,8,71,6028,1.0387945175170898,-9.568551063537598
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),integer,up,9,47,2618,1.0356340408325195,-9.387445449829102
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),integer,up,10,79,4643,1.0087127685546875,-9.537933349609375
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),integer,up,11,51,3971,0.9601716995239258,-9.571595191955566
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),integer,up,12,44,2096,0.8589725494384766,-9.18217658996582
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),integer,up,13,57,3226,0.8499917984008789,-9.160137176513672
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),integer,up,14,43,3391,0.791743278503418,-9.52370548248291
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),integer,up,15,67,3080,0.7521629333496094,-9.491230010986328
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),integer,down,1,000,931,-1.0587663650512695,-8.783796310424805
+jlens,middle,late (t >= 512) vs early (8 <= t < 32),integer,down,2,0,15,-0.4482231140136719,-9.265548706054688
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,1,sixth,26084,0.9085292816162109,-9.169921875
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,2,VIII,58333,0.8877763748168945,-9.374348640441895
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,3,seventh,31487,0.8621425628662109,-9.422526359558105
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,4,VII,46069,0.8522138595581055,-9.43359375
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,5,seven,8254,0.783935546875,-9.242838859558105
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,6,eight,8223,0.7208662033081055,-9.302734375
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,7,nine,11888,0.6870107650756836,-9.202473640441895
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,8,ninth,43641,0.6526699066162109,-9.258463859558105
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,9,Hell,24830,0.64990234375,-9.149088859558105
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,10,King,6342,0.49967384338378906,-8.953450202941895
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,11,Gold,7573,0.4892587661743164,-9.028971672058105
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,12,Math,4242,0.48478221893310547,-8.7451171875
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,13,Mon,3206,0.458740234375,-8.3046875
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,14,Seven,31048,0.45695018768310547,-8.80078125
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,up,15,Ty,14221,0.36458301544189453,-8.695637702941895
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,1,Lan,35882,-0.7057294845581055,-8.337239265441895
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,2,Sand,8847,-0.6986484527587891,-8.510090827941895
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,3,Val,4196,-0.62060546875,-8.298176765441895
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,4,Os,15796,-0.6045732498168945,-8.252278327941895
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,5,Pa,16056,-0.5877285003662109,-8.623046875
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,6,Ros,16870,-0.5819501876831055,-8.588215827941895
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,7,Ben,7505,-0.5491533279418945,-7.8984375
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,8,Pas,24971,-0.54248046875,-8.59765625
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,9,Park,5657,-0.5402011871337891,-8.610026359558105
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,10,Ald,31447,-0.5367021560668945,-8.417643547058105
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,11,Por,20388,-0.5308437347412109,-8.370442390441895
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,12,Van,13000,-0.5300297737121582,-7.979817867279053
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,13,Ly,16333,-0.5135898590087891,-8.135416984558105
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,14,Ka,23109,-0.5096836090087891,-8.560546875
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",word,down,15,Dund,75015,-0.5076503753662109,-8.594401359558105
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",integer,up,1,6,21,0.9416499137878418,-8.597981452941895
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",integer,up,2,7,22,0.8970546722412109,-8.319987297058105
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",integer,up,3,8,23,0.8937172889709473,-8.203450202941895
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",integer,up,4,64,1227,0.8684892654418945,-8.888671875
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",integer,up,5,9,24,0.8579106330871582,-8.2529296875
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",integer,up,6,65,2397,0.8241376876831055,-8.961262702941895
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",integer,up,7,5,20,0.8180341720581055,-8.9296875
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",integer,up,8,68,2614,0.7772617340087891,-8.924153327941895
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",integer,up,9,69,3076,0.771240234375,-9.114583015441895
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",integer,up,10,72,5332,0.7122392654418945,-8.678385734558105
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",integer,up,11,61,5547,0.6947431564331055,-8.912760734558105
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",integer,up,12,73,5958,0.6923828125,-8.813801765441895
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",integer,up,13,63,5495,0.6812343597412109,-8.917317390441895
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",integer,up,14,66,2287,0.6671543121337891,-8.852864265441895
+jlens,middle,"switch: e in [1, 8) vs [-100, -10)",integer,up,15,4,19,0.6621913909912109,-9.076823234558105
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,up,1,eight,8223,0.693359375,-9.302734375
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,up,2,seven,8254,0.6822919845581055,-9.242838859558105
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,up,3,nine,11888,0.6598300933837891,-9.202473640441895
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,up,4,sixth,26084,0.6227216720581055,-9.169921875
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,up,5,west,9909,0.39778709411621094,-8.967448234558105
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,up,6,King,6342,0.3525390625,-8.953450202941895
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,up,7,August,6287,0.337890625,-8.84375
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,up,8,June,5651,0.29231834411621094,-8.893229484558105
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,up,9,Prince,19912,0.2822265625,-8.508137702941895
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,up,10,Her,6385,0.27897167205810547,-8.492838859558105
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,up,11,May,3297,0.26497459411621094,-8.344401359558105
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,up,12,March,5587,0.25520801544189453,-8.688801765441895
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,up,13,West,4410,0.17643260955810547,-8.569987297058105
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,up,14,Mag,7023,0.146484375,-8.290364265441895
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,up,15,Bol,25007,0.1298828125,-8.341145515441895
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,down,1,Sand,8847,-0.5322265625,-8.510090827941895
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,down,2,Water,10164,-0.46224021911621094,-8.595051765441895
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,down,3,Van,13000,-0.42708349227905273,-7.979817867279053
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,down,4,Die,8574,-0.42545509338378906,-8.476237297058105
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,down,5,Den,9973,-0.4248046875,-8.3564453125
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,down,6,Cam,8215,-0.412109375,-8.535807609558105
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,down,7,Val,4196,-0.40592479705810547,-8.298176765441895
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,down,8,Sil,8211,-0.40494823455810547,-8.47265625
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,down,9,Cook,12797,-0.39029979705810547,-8.6142578125
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,down,10,Tu,29749,-0.37337303161621094,-8.376301765441895
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,down,11,Gar,12471,-0.369140625,-8.0205078125
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,down,12,Por,20388,-0.36393260955810547,-8.370442390441895
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,down,13,Pic,26987,-0.353515625,-8.341796875
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,down,14,Ver,6383,-0.34537696838378906,-8.387370109558105
+jlens,middle,"switch: e = 0 vs [-100, -10)",word,down,15,Sal,8375,-0.33919239044189453,-8.027995109558105
+jlens,middle,"switch: e = 0 vs [-100, -10)",integer,up,1,17,1114,0.41927146911621094,-8.809245109558105
+jlens,middle,"switch: e = 0 vs [-100, -10)",integer,up,2,7,22,0.40885448455810547,-8.319987297058105
+jlens,middle,"switch: e = 0 vs [-100, -10)",integer,up,3,8,23,0.39029932022094727,-8.203450202941895
+jlens,middle,"switch: e = 0 vs [-100, -10)",integer,up,4,18,972,0.38606834411621094,-8.896159172058105
+jlens,middle,"switch: e = 0 vs [-100, -10)",integer,up,5,6,21,0.37565040588378906,-8.597981452941895
+jlens,middle,"switch: e = 0 vs [-100, -10)",integer,up,6,13,1032,0.3740234375,-8.9150390625
+jlens,middle,"switch: e = 0 vs [-100, -10)",integer,up,7,57,3226,0.37272119522094727,-8.334309577941895
+jlens,middle,"switch: e = 0 vs [-100, -10)",integer,up,8,14,975,0.3720703125,-8.701497077941895
+jlens,middle,"switch: e = 0 vs [-100, -10)",integer,up,9,9,24,0.36946630477905273,-8.2529296875
+jlens,middle,"switch: e = 0 vs [-100, -10)",integer,up,10,73,5958,0.34765625,-8.813801765441895
+jlens,middle,"switch: e = 0 vs [-100, -10)",integer,up,11,32,843,0.34602928161621094,-8.850260734558105
+jlens,middle,"switch: e = 0 vs [-100, -10)",integer,up,12,64,1227,0.34244823455810547,-8.888671875
+jlens,middle,"switch: e = 0 vs [-100, -10)",integer,up,13,65,2397,0.3359375,-8.961262702941895
+jlens,middle,"switch: e = 0 vs [-100, -10)",integer,up,14,5,20,0.33430957794189453,-8.9296875
+jlens,middle,"switch: e = 0 vs [-100, -10)",integer,up,15,24,1187,0.32259178161621094,-8.912760734558105
+jlens,late,mu 700 vs 300 (late),integer,up,1,741,25021,5.212864557902018,-8.281293869018555
+jlens,late,mu 700 vs 300 (late),integer,up,2,718,21982,5.176979064941406,-8.435590744018555
+jlens,late,mu 700 vs 300 (late),integer,up,3,714,23193,5.174583180745443,-8.981163024902344
+jlens,late,mu 700 vs 300 (late),integer,up,4,692,25073,4.990416399637858,-8.29431438446045
+jlens,late,mu 700 vs 300 (late),integer,up,5,750,11711,4.969739659627279,-9.052735328674316
+jlens,late,mu 700 vs 300 (late),integer,up,6,688,23292,4.915520795186361,-8.120746612548828
+jlens,late,mu 700 vs 300 (late),integer,up,7,690,21741,4.9095312754313145,-8.03845500946045
+jlens,late,mu 700 vs 300 (late),integer,up,8,760,19104,4.891458638509114,-9.295920372009277
+jlens,late,mu 700 vs 300 (late),integer,up,9,715,22744,4.827916463216146,-9.22912311553955
+jlens,late,mu 700 vs 300 (late),integer,up,10,724,24735,4.823385365804037,-8.845269203186035
+jlens,late,mu 700 vs 300 (late),integer,up,11,769,24619,4.81015625,-8.590365409851074
+jlens,late,mu 700 vs 300 (late),integer,up,12,649,24734,4.807031313578287,-7.76523494720459
+jlens,late,mu 700 vs 300 (late),integer,up,13,629,24239,4.797916603088379,-8.295833587646484
+jlens,late,mu 700 vs 300 (late),integer,up,14,701,19597,4.787291463216146,-9.44861125946045
+jlens,late,mu 700 vs 300 (late),integer,up,15,703,20436,4.777500089009603,-8.857725143432617
+jlens,late,mu 700 vs 300 (late),integer,down,1,251,13860,-5.436770820617676,-8.29162311553955
+jlens,late,mu 700 vs 300 (late),integer,down,2,304,12166,-5.362812678019205,-8.309245109558105
+jlens,late,mu 700 vs 300 (late),integer,down,3,252,12326,-5.346145757039388,-8.894009590148926
+jlens,late,mu 700 vs 300 (late),integer,down,4,255,3192,-5.277812957763672,-8.828254699707031
+jlens,late,mu 700 vs 300 (late),integer,down,5,290,13754,-5.228177261352538,-8.35915756225586
+jlens,late,mu 700 vs 300 (late),integer,down,6,270,10914,-5.167447471618653,-8.18563461303711
+jlens,late,mu 700 vs 300 (late),integer,down,7,260,11387,-5.143281046549479,-9.092577934265137
+jlens,late,mu 700 vs 300 (late),integer,down,8,275,14417,-5.137031745910645,-8.646440505981445
+jlens,late,mu 700 vs 300 (late),integer,down,9,285,15935,-5.123229535420736,-7.388389587402344
+jlens,late,mu 700 vs 300 (late),integer,down,10,248,14185,-5.022291692097982,-8.106293678283691
+jlens,late,mu 700 vs 300 (late),integer,down,11,257,15574,-5.0209898630778,-8.660547256469727
+jlens,late,mu 700 vs 300 (late),integer,down,12,294,17168,-5.020885531107585,-7.867361068725586
+jlens,late,mu 700 vs 300 (late),integer,down,13,302,13121,-5.006458282470703,-8.022872924804688
+jlens,late,mu 700 vs 300 (late),integer,down,14,299,15531,-4.993125216166178,-8.277820587158203
+jlens,late,mu 700 vs 300 (late),integer,down,15,315,15189,-4.987812805175781,-8.524566650390625
+jlens,late,sigma 200 vs 10 (late),word,down,1,Miller,17472,-7.187825114031785,-12.279036521911621
+jlens,late,sigma 200 vs 10 (late),word,down,2,software,3241,-6.319924508249945,-13.034549713134766
+jlens,late,sigma 200 vs 10 (late),word,down,3,Duncan,42409,-5.923639012372067,-12.904644012451172
+jlens,late,sigma 200 vs 10 (late),word,down,4,Davidson,54345,-5.668597915309876,-12.50368881225586
+jlens,late,sigma 200 vs 10 (late),word,down,5,Scotland,19627,-5.2062919774360905,-12.33181381225586
+jlens,late,sigma 200 vs 10 (late),integer,up,1,637,21788,7.191931882076917,-8.746310234069824
+jlens,late,sigma 200 vs 10 (late),integer,up,2,357,18520,6.770364262838357,-8.594879150390625
+jlens,late,sigma 200 vs 10 (late),integer,up,3,638,24495,6.706790995197536,-8.439149856567383
+jlens,late,sigma 200 vs 10 (late),integer,up,4,639,23079,6.688099046584217,-9.131162643432617
+jlens,late,sigma 200 vs 10 (late),integer,up,5,643,22956,6.654586955828344,-8.767707824707031
+jlens,late,sigma 200 vs 10 (late),integer,up,6,631,21729,6.4990292106738785,-8.859766006469727
+jlens,late,sigma 200 vs 10 (late),integer,up,7,367,18775,6.450883945290426,-8.951042175292969
+jlens,late,sigma 200 vs 10 (late),integer,up,8,635,22276,6.431915891608423,-8.822742462158203
+jlens,late,sigma 200 vs 10 (late),integer,up,9,644,21975,6.28984201715178,-8.96180534362793
+jlens,late,sigma 200 vs 10 (late),integer,up,10,369,19929,6.287290228387232,-8.951953887939453
+jlens,late,sigma 200 vs 10 (late),integer,up,11,339,17887,6.229364875471651,-8.979339599609375
+jlens,late,sigma 200 vs 10 (late),integer,up,12,636,22422,6.204452066189724,-8.820703506469727
+jlens,late,sigma 200 vs 10 (late),integer,up,13,63,5495,6.140987592678214,-9.57664966583252
+jlens,late,sigma 200 vs 10 (late),integer,up,14,647,22644,6.114178969364868,-8.301822662353516
+jlens,late,sigma 200 vs 10 (late),integer,up,15,669,25289,6.060377001897918,-8.592057228088379
+jlens,late,sigma 200 vs 10 (late),integer,down,1,501,14408,-3.813374041478107,-6.157639026641846
+jlens,late,sigma 200 vs 10 (late),integer,down,2,491,21824,-3.5703844622825613,-5.452755928039551
+jlens,late,sigma 200 vs 10 (late),integer,down,3,494,22054,-3.4649186955514426,-5.6952691078186035
+jlens,late,sigma 200 vs 10 (late),integer,down,4,496,19447,-3.456138850231593,-5.599761009216309
+jlens,late,sigma 200 vs 10 (late),integer,down,5,502,17824,-3.440900868372962,-6.315646171569824
+jlens,late,sigma 200 vs 10 (late),integer,down,6,495,21038,-3.3566051917730992,-5.641927242279053
+jlens,late,sigma 200 vs 10 (late),integer,down,7,497,22640,-3.3361140673428027,-6.295290470123291
+jlens,late,sigma 200 vs 10 (late),integer,down,8,488,21310,-3.3219478576099686,-5.632345676422119
+jlens,late,sigma 200 vs 10 (late),integer,down,9,503,17735,-3.3005005963330847,-6.058767318725586
+jlens,late,sigma 200 vs 10 (late),integer,down,10,506,19673,-3.066200956392683,-6.093837261199951
+jlens,late,sigma 200 vs 10 (late),integer,down,11,498,21962,-3.053663016841652,-5.394867897033691
+jlens,late,sigma 200 vs 10 (late),integer,down,12,505,17786,-2.8837094128434124,-5.7349395751953125
+jlens,late,sigma 200 vs 10 (late),integer,down,13,481,21235,-2.7165839460388552,-6.577690601348877
+jlens,late,sigma 200 vs 10 (late),integer,down,14,508,19869,-2.6813532142697456,-6.218641757965088
+jlens,late,sigma 200 vs 10 (late),integer,down,15,500,2636,-2.6738874426648804,-5.411067962646484
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,up,1,490,18518,2.8158535957336426,-9.38299560546875
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,up,2,590,20615,2.6255741119384766,-9.89551830291748
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,up,3,477,21144,2.5569849014282227,-9.02794075012207
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,up,4,485,19773,2.5479321479797363,-8.30880069732666
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,up,5,450,10617,2.5384411811828613,-9.7904634475708
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,up,6,488,21310,2.504268169403076,-8.924861907958984
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,up,7,470,17711,2.450277328491211,-9.859973907470703
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,up,8,355,17306,2.384697914123535,-10.109214782714844
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,up,9,518,21312,2.380605697631836,-8.99609375
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,up,10,482,21984,2.374850273132324,-8.837040901184082
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,up,11,478,22086,2.3601794242858887,-9.099333763122559
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,up,12,438,20596,2.354410171508789,-9.567530632019043
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,up,13,499,18162,2.3438315391540527,-8.741533279418945
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,up,14,463,21290,2.336970806121826,-9.02260971069336
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,up,15,480,11738,2.3241491317749023,-8.759374618530273
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,down,1,000,931,-2.7567567825317383,-8.031203269958496
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,down,2,049,25307,-2.018360137939453,-8.97573471069336
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,down,3,087,27311,-1.7783317565917969,-8.967693328857422
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,down,4,929,25344,-1.5634641647338867,-8.781778335571289
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,down,5,987,22207,-1.5630054473876953,-8.98591423034668
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,down,6,857,20907,-1.4778060913085938,-8.852457046508789
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,down,7,789,16474,-1.45829439163208,-7.890188694000244
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,down,8,914,24579,-1.395543098449707,-8.972333908081055
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,down,9,949,24680,-1.3886260986328125,-8.850229263305664
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,down,10,937,21936,-1.3247690200805664,-8.64529037475586
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,down,11,999,5500,-1.279989242553711,-8.547723770141602
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,down,12,046,24222,-1.2664995193481445,-8.627573013305664
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,down,13,816,23713,-1.2437496185302734,-8.94294548034668
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,down,14,900,7467,-1.1344671249389648,-8.84979248046875
+jlens,late,late (t >= 512) vs early (8 <= t < 32),integer,down,15,993,24242,-1.1207256317138672,-8.84301471710205
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,1,656,20744,3.323047161102295,-10.6875
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,2,681,25091,3.2809572219848633,-10.5078125
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,3,632,20775,3.21669864654541,-10.146093368530273
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,4,741,25021,3.1695308685302734,-10.5234375
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,5,684,24313,3.1150388717651367,-10.372655868530273
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,6,682,25178,3.1104488372802734,-10.487500190734863
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,7,677,24375,3.1094727516174316,-10.038281440734863
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,8,772,23624,3.050487518310547,-10.462499618530273
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,9,728,24054,3.050097942352295,-9.948437690734863
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,10,664,23888,3.0423831939697266,-10.428906440734863
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,11,671,23403,3.00986385345459,-10.467187881469727
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,12,631,21729,2.9959964752197266,-10.307812690734863
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,13,729,22194,2.9638671875,-9.977343559265137
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,14,650,13655,2.9434571266174316,-10.410937309265137
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,up,15,647,22644,2.9030275344848633,-9.784375190734863
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,1,285,15935,-2.0193357467651367,-4.873046875
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,2,270,10914,-2.013866901397705,-5.548437595367432
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,3,255,3192,-1.9955081939697266,-5.963671684265137
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,4,245,13078,-1.9924802780151367,-6.182421684265137
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,5,249,14735,-1.962695598602295,-5.894921779632568
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,6,251,13860,-1.8333988189697266,-5.539843559265137
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,7,259,15537,-1.8314456939697266,-5.754687309265137
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,8,280,11209,-1.8033208847045898,-6.322265625
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,9,265,14374,-1.7837891578674316,-5.883593559265137
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,10,248,14185,-1.771484375,-5.698046684265137
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,11,275,14417,-1.7630858421325684,-6.080859184265137
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,12,244,13719,-1.7551755905151367,-6.208593845367432
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,13,250,5154,-1.739551067352295,-6.260156154632568
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,14,261,15602,-1.7317380905151367,-5.738671779632568
+jlens,late,"switch: e in [1, 8) vs [-100, -10)",integer,down,15,277,16367,-1.7277345657348633,-5.479296684265137
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,up,1,73,5958,0.39882850646972656,-7.399609565734863
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,up,2,32,843,0.3269534111022949,-7.217968940734863
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,up,3,344,17451,0.27187490463256836,-6.421875
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,up,4,366,18044,0.25429677963256836,-6.985937595367432
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,up,5,34,1958,0.23789072036743164,-6.896093845367432
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,up,6,267,16567,0.23476552963256836,-5.4765625
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,up,7,312,13384,0.23124980926513672,-6.387109279632568
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,up,8,287,17897,0.20078134536743164,-5.761328220367432
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,up,9,299,15531,0.19804668426513672,-5.834765434265137
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,up,10,329,18196,0.19570302963256836,-6.461718559265137
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,up,11,341,16546,0.1953125,-6.537890434265137
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,up,12,29,1682,0.18593788146972656,-7.028515815734863
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,up,13,314,16104,0.18125009536743164,-6.072656154632568
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,up,14,316,15340,0.17890644073486328,-6.966796875
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,up,15,359,19192,0.177734375,-6.3125
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,down,1,190,7028,-0.27734375,-6.660546779632568
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,down,2,231,12245,-0.27695322036743164,-6.225390434265137
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,down,3,242,12754,-0.259765625,-6.440234184265137
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,down,4,202,2366,-0.22695302963256836,-6.958984375
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,down,5,194,6393,-0.22499990463256836,-6.259765625
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,down,6,189,9378,-0.21875,-6.514062404632568
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,down,7,192,5926,-0.21796894073486328,-6.630859375
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,down,8,191,7529,-0.20468759536743164,-6.685156345367432
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,down,9,255,3192,-0.20429706573486328,-5.963671684265137
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,down,10,244,13719,-0.20195293426513672,-6.208593845367432
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,down,11,188,9367,-0.18906259536743164,-6.714453220367432
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,down,12,195,6280,-0.18476533889770508,-5.985937595367432
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,down,13,186,9714,-0.18359375,-6.500390529632568
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,down,14,208,12171,-0.17109394073486328,-6.944140434265137
+jlens,late,"switch: e = 0 vs [-100, -10)",integer,down,15,235,12422,-0.169921875,-6.843359470367432

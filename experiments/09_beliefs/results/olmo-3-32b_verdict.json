@@ -1,0 +1,14 @@
+{
+ "window": "t >= 512",
+ "mean_vs_mu_r": 0.9997106055825555,
+ "mean_vs_mu_slope": 0.9664070841471355,
+ "logsd_vs_logsigma_r": 0.9873141455813703,
+ "logsd_vs_logsigma_slope": 0.7434028865063116,
+ "go": true,
+ "model": "olmo-3-32b",
+ "lenses": [
+  "logit",
+  "jlens",
+  "jpp"
+ ]
+}

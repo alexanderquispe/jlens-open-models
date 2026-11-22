@@ -1,0 +1,259 @@
+"""Experiment 09, analysis of cue_lens.py (CPU). Writes results/<model>_cues.md and figures/<model>_cues.png.
+
+Contrasts (paired; the members of a pair share everything but the numbers after the cut):
+  switch, just after   e in {0, 1, 2, 4}: switch minus control (10 sequences; the e are averaged per sequence)
+  switch, later        e in {32, 128}
+  outlier              extreme minus typical, moderate minus typical (30 pairs)
+  sanity               e = -1: the two arms are the same prompt (difference exactly 0)
+
+Measures, at the last cue token (where the model answers) and at the first one (",\\n\\n": the stream has ended):
+  the model's output   P(Yes) / (P(Yes) + P(No)) for the two questions; for every cue, the log-probability of each
+                       word set of cue_lens.TARGETS (log-sum-exp over the set)
+  each lens and layer  the same word-set log-probabilities
+Inference: sign-flip permutation of the paired differences (all 2^10 for the switch, 4096 random for the outlier),
+with the maximum |t| over layers (and lenses) as the statistic, so the p-values are corrected for picking a layer.
+Top movers: the word tokens whose mean log-probability moves most (cells), among the top 200 of either arm.
+
+    python experiments/09_beliefs/analyze_cues.py --model llama3.1-8b
+"""
+import argparse
+import itertools
+import json
+import os
+import sys
+
+import matplotlib
+
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt  # noqa: E402
+import numpy as np  # noqa: E402
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from analyze import token_table  # noqa: E402
+from common import RAW, thirds  # noqa: E402
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+LENS_NAME = {"logit": "logit lens", "jlens": "J-lens", "jpp": "J++ lens"}
+SETS = ("surprise", "change", "normal", "magnitude", "numberword")
+JUST, LATER = (0, 1, 2, 4), (32, 128)
+
+
+def lse(x, axis):
+    m = np.nanmax(x, axis=axis, keepdims=True)
+    return (m + np.log(np.nansum(np.exp(x - m), axis=axis, keepdims=True))).squeeze(axis)
+
+
+def tstat(d):
+    """t over axis 0 of paired differences."""
+    return d.mean(0) / (d.std(0, ddof=1) / np.sqrt(len(d)) + 1e-12)
+
+
+def signflip_maxt(d, n_rand=4096, seed=0):
+    """d (n, ...): p-value of the max |t| over the trailing axes under sign flips of whole pairs."""
+    n = len(d)
+    obs = np.nanmax(np.abs(tstat(d)))
+    flips = (np.array(list(itertools.product([1, -1], repeat=n))) if n <= 12
+             else np.random.default_rng(seed).choice([1, -1], size=(n_rand, n)))
+    null = np.array([np.nanmax(np.abs(tstat(d * f.reshape((n,) + (1,) * (d.ndim - 1))))) for f in flips])
+    return obs, float((null >= obs - 1e-12).mean())
+
+
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("--model", required=True)
+    p.add_argument("--raw", default=RAW)
+    p.add_argument("--out", default=HERE)
+    args = p.parse_args()
+    R = os.path.join(args.raw, args.model)
+    m = json.load(open(os.path.join(R, "cues_meta.json")))
+    lenses, L, cues = m["lenses"], m["n_blocks"], m["cue_names"]
+    ctx = m["contexts"]
+    nt = np.array(m["n_tail"])
+    names = [w for _, w, _ in m["targets"]]
+    groups = np.array([g for g, _, _ in m["targets"]])
+    yes, no = names.index("Yes"), names.index("No")
+
+    # pairs ------------------------------------------------------------------------------------------
+    idx = {}
+    for i, c in enumerate(ctx):
+        key = (c["block"], c["seq"], c.get("e"), c.get("arm"), c.get("t"), c.get("level"))
+        idx[key] = i
+    seqs = sorted({c["seq"] for c in ctx})
+    sw = {e: [(idx[("switch", k, e, "switch", None, None)], idx[("switch", k, e, "control", None, None)]) for k in seqs]
+          for e in m["cuts"]}
+    ol = {}
+    for c in ctx:
+        if c["block"] == "outlier" and c["level"] == "typical":
+            for lev in ("moderate", "extreme"):
+                ol.setdefault(lev, []).append((idx[("outlier", c["seq"], None, None, c["t"], lev)],
+                                               idx[("outlier", c["seq"], None, None, c["t"], "typical")]))
+
+    def contrast_rows(arr, which):
+        """Paired differences (n, ...) of a per-context array arr (P, ...)."""
+        if which == "sanity":
+            return np.array([arr[a] - arr[b] for a, b in sw[-1]])
+        if which in ("just", "later"):
+            es = JUST if which == "just" else LATER
+            return np.array([np.mean([arr[sw[e][j][0]] - arr[sw[e][j][1]] for e in es], 0) for j in range(len(seqs))])
+        return np.array([arr[a] - arr[b] for a, b in ol[which]])
+
+    CONTRASTS = [("just", "switch, e in {0,1,2,4}: switch - control"), ("later", "switch, e in {32,128}"),
+                 ("extreme", "outlier: extreme - typical"), ("moderate", "outlier: moderate - typical"),
+                 ("sanity", "sanity: e = -1 (identical prompts)")]
+
+    out = [f"# Experiment 09 · cue readouts: {args.model}", "",
+           f"Generated by analyze_cues.py from cue_lens.py ({m.get('gpu', '?')}, {m.get('seconds', '?')} s). "
+           f"{len(ctx)} contexts x {len(cues)} cues. Cue tokens: "
+           + "; ".join(f"{c}: {'|'.join(repr(t)[1:-1] for t in m['tail_tokens'][c])}" for c in cues) + ".", ""]
+
+    # model output ------------------------------------------------------------------------------------
+    W = {k: np.load(os.path.join(R, f"cues_{k}_words.npy"), mmap_mode="r") for k in lenses}
+    k0 = lenses[0]
+
+    def at(arr, j, pos):
+        """(P, L, W) values of cue j at its first (pos=0) or last (pos=-1) token."""
+        rows = np.arange(len(ctx))
+        ti = np.zeros(len(ctx), int) if pos == 0 else nt[:, j] - 1
+        return np.asarray(arr[rows, j, ti], dtype=np.float64)
+
+    out += ["## The model's own answer (last cue token)", "",
+            "P(Yes) / (P(Yes) + P(No)) after the question, mean over contexts, and the paired difference (sign-flip p).", "",
+            "| question | switch arm e=0..4 | control e=0..4 | diff | p | extreme | typical | diff | p |",
+            "|---|---|---|---|---|---|---|---|---|"]
+    for q in ("q_surprise", "q_change"):
+        j = cues.index(q)
+        v = at(W[k0], j, -1)[:, L - 1]  # last block = the output
+        py = np.exp(v[:, yes]) / (np.exp(v[:, yes]) + np.exp(v[:, no]))
+        d1 = contrast_rows(py, "just")
+        d2 = contrast_rows(py, "extreme")
+        a1 = np.mean([py[a] for e in JUST for a, _ in sw[e]]); b1 = np.mean([py[b] for e in JUST for _, b in sw[e]])
+        a2 = np.mean([py[a] for a, _ in ol["extreme"]]); b2 = np.mean([py[b] for _, b in ol["extreme"]])
+        out.append(f"| {q} | {a1:.3f} | {b1:.3f} | {d1.mean():+.3f} | {signflip_maxt(d1[:, None])[1]:.3f} | {a2:.3f} | "
+                   f"{b2:.3f} | {d2.mean():+.3f} | {signflip_maxt(d2[:, None])[1]:.3f} |")
+    out += ["", "Word sets in the model's output at the last cue token (log-sum-exp of the set's log-probs; paired "
+            "difference in nats, sign-flip p):", "",
+            "| cue | contrast | " + " | ".join(SETS) + " |", "|---|---|" + "---|" * len(SETS)]
+    for c in cues:
+        j = cues.index(c)
+        v = at(W[k0], j, -1)[:, L - 1]
+        for name, lab in CONTRASTS[:3]:
+            cells = []
+            for s in SETS:
+                x = lse(v[:, groups == s], 1)
+                dd = contrast_rows(x, name)
+                cells.append(f"{dd.mean():+.2f} (p {signflip_maxt(dd[:, None])[1]:.2f})")
+            out.append(f"| {c} | {lab} | " + " | ".join(cells) + " |")
+    out.append("")
+
+    # specificity ------------------------------------------------------------------------------------
+    out += ["## Specific: surprise words minus normal words (and change minus normal)", "",
+            "Paired difference of [log-prob(surprise set) - log-prob(normal set)] at the last cue token: the output, "
+            "and each lens at its best layer (max-|t| sign-flip p over layers). Positive = surprise words gain on "
+            "normal ones.", "",
+            "| cue | contrast | measure | output | " + " | ".join(LENS_NAME.get(k, k) for k in lenses) + " |",
+            "|---|---|---|---|" + "---|" * len(lenses)]
+    for c in cues:
+        j = cues.index(c)
+        for name, lab in CONTRASTS[:4]:
+            for a_set in ("surprise", "change"):
+                cells = []
+                v = at(W[k0], j, -1)[:, L - 1]
+                x = lse(v[:, groups == a_set], 1) - lse(v[:, groups == "normal"], 1)
+                dd = contrast_rows(x, name)
+                cells.append(f"{dd.mean():+.2f} (p {signflip_maxt(dd[:, None])[1]:.3f})")
+                for k in lenses:
+                    v = at(W[k], j, -1)
+                    x = lse(v[:, :, groups == a_set], 2) - lse(v[:, :, groups == "normal"], 2)
+                    dd = contrast_rows(x, name)
+                    tt = tstat(dd)
+                    l = int(np.nanargmax(np.abs(tt)))
+                    cells.append(f"{dd.mean(0)[l]:+.2f} L{l} (p {signflip_maxt(dd)[1]:.3f})")
+                out.append(f"| {c} | {lab} | {a_set} - normal | " + " | ".join(cells) + " |")
+    out.append("")
+
+    # lenses -----------------------------------------------------------------------------------------
+    out += ["## The lenses: word sets, best layer (corrected over layers by the max-|t| sign-flip test)", "",
+            "Paired difference of the set's log-probability (nats) at the best layer by |t|; p over all layers of "
+            "that lens. Last cue token, and first cue token in brackets.", ""]
+    fig, axs = plt.subplots(len(lenses), 3, figsize=(12, 2.8 * len(lenses)), squeeze=False)
+    for li, k in enumerate(lenses):
+        out += [f"### {LENS_NAME.get(k, k)}", "", "| cue | contrast | " + " | ".join(SETS) + " |",
+                "|---|---|" + "---|" * len(SETS)]
+        for c in cues:
+            j = cues.index(c)
+            v_last, v_first = at(W[k], j, -1), at(W[k], j, 0)  # (P, L, W)
+            for name, lab in CONTRASTS[:4]:
+                cells = []
+                for s in SETS:
+                    res = []
+                    for v in (v_last, v_first):
+                        x = lse(v[:, :, groups == s], 2)  # (P, L)
+                        dd = contrast_rows(x, name)  # (n, L)
+                        tt = tstat(dd)
+                        l = int(np.nanargmax(np.abs(tt)))
+                        obs, pv = signflip_maxt(dd)
+                        res.append((dd.mean(0)[l], l, pv))
+                    (a, la, pa), (b, lb, pb) = res
+                    star = "**" if min(pa, pb) < 0.01 else ""
+                    cells.append(f"{star}{a:+.2f} L{la} p{pa:.2f}{star} [{b:+.2f} L{lb} p{pb:.2f}]")
+                out.append(f"| {c} | {lab} | " + " | ".join(cells) + " |")
+        out.append("")
+        # figure: t over layers for surprise and change sets at the last token of three cues
+        for ax, c in zip(axs[li], ("wait", "last", "these")):
+            j = cues.index(c)
+            v = at(W[k], j, -1)
+            for s, col in (("surprise", "C3"), ("change", "C0"), ("normal", "grey")):
+                x = lse(v[:, :, groups == s], 2)
+                ax.plot(tstat(contrast_rows(x, "just")), color=col, label=f"{s}: switch e<=4")
+                ax.plot(tstat(contrast_rows(x, "extreme")), color=col, ls="--", label=f"{s}: extreme outlier")
+            ax.axhline(0, color="k", lw=0.5)
+            ax.set_title(f"{LENS_NAME.get(k, k)}, cue '{c}', last token", fontsize=9)
+            ax.set_xlabel("layer")
+            ax.set_ylabel("paired t")
+        axs[li][0].legend(fontsize=6)
+    os.makedirs(os.path.join(args.out, "figures"), exist_ok=True)
+    fig.tight_layout()
+    fig.savefig(os.path.join(args.out, "figures", f"{args.model}_cues.png"), dpi=120)
+    plt.close(fig)
+
+    # sanity -------------------------------------------------------------------------------------------
+    v = at(W[k0], cues.index("wait"), -1)
+    out += [f"Sanity (e = -1, identical prompts): max |difference| = {np.abs(contrast_rows(v, 'sanity')).max():.2e}.", ""]
+
+    # top movers ----------------------------------------------------------------------------------------
+    Cm = {k: np.load(os.path.join(R, f"cues_{k}_cells.npy"), mmap_mode="r") for k in lenses}  # (C, 2, cells, L, V)
+    V = Cm[k0].shape[-1]
+    disp, cls = token_table(m["hf"], V)
+    cuts = m["cuts"]
+    sw_cells = lambda arm: [2 * cuts.index(e) + (0 if arm == "switch" else 1) for e in JUST]  # noqa: E731
+    lev_cell = lambda lev: 2 * len(cuts) + m["levels"].index(lev)  # noqa: E731
+    out += ["## Top movers (word tokens, mean log-prob difference, among the top 200 of either arm)", ""]
+    for c in ("wait", "last", "these", "q_surprise"):
+        j = cues.index(c)
+        out += [f"### cue '{c}', last token", ""]
+        for k in lenses:
+            for third, layers in thirds(L).items():
+                M = np.asarray(Cm[k][j, 1][:, layers], dtype=np.float32).mean(1)  # (cells, V)
+                lines = []
+                for lab, a, b in (("switch e<=4", M[sw_cells("switch")].mean(0), M[sw_cells("control")].mean(0)),
+                                  ("extreme outlier", M[lev_cell("extreme")], M[lev_cell("typical")])):
+                    pool = np.zeros(V, bool)
+                    pool[np.argsort(-a)[:200]] = True
+                    pool[np.argsort(-b)[:200]] = True
+                    idw = np.where(pool & (cls == "word"))[0]
+                    dlt = a[idw] - b[idw]
+                    o = idw[np.argsort(-dlt)]
+                    up = ", ".join(f"{disp[i]} ({a[i] - b[i]:+.1f})" for i in o[:8] if a[i] - b[i] > 0)
+                    dn = ", ".join(f"{disp[i]} ({a[i] - b[i]:+.1f})" for i in o[::-1][:6] if a[i] - b[i] < 0)
+                    top = ", ".join(disp[i] for i in np.argsort(-np.where(cls == "word", a, -np.inf))[:8])
+                    lines.append(f"{lab}: top words {top}; up {up}; down {dn}")
+                out.append(f"- {LENS_NAME.get(k, k)}, {third} ({layers[0]}-{layers[-1]}): " + " || ".join(lines))
+        out.append("")
+    path = os.path.join(args.out, "results", f"{args.model}_cues.md")
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    open(path, "w").write("\n".join(out))
+    print(f"wrote {path}")
+
+
+if __name__ == "__main__":
+    main()
