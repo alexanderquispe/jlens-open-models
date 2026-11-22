@@ -1,0 +1,14 @@
+score,n change,n other,third,auc,low,high
+"J-lens, C, calls with a text",30,115,early,0.784,0.684,0.875
+"J-lens, C, calls with a text",30,115,middle,0.814,0.719,0.9
+"J-lens, C, calls with a text",30,115,late,0.872,0.777,0.949
+"logit lens, C, calls with a text",30,115,early,0.797,0.715,0.874
+"logit lens, C, calls with a text",30,115,middle,0.829,0.752,0.897
+"logit lens, C, calls with a text",30,115,late,0.814,0.714,0.906
+the call wrote a text (no activations),32,144,,0.569,0.512,0.62
+"difference of means on activations, A, block 10",32,144,early,0.648,0.547,0.746
+"difference of means on activations, A, block 31",32,144,middle,0.679,0.558,0.78
+"difference of means on activations, A, block 53",32,144,late,0.622,0.509,0.731
+"difference of means on activations, B, block 10",32,144,early,0.681,0.569,0.786
+"difference of means on activations, B, block 31",32,144,middle,0.763,0.643,0.87
+"difference of means on activations, B, block 53",32,144,late,0.701,0.567,0.808

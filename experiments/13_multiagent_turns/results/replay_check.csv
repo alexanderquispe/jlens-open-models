@@ -1,0 +1,4 @@
+position,mean probability of the written token,written token is the model's top token
+A,0.4,0.506
+B,0.535,0.665
+C,0.932,0.955

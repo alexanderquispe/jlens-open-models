@@ -1,0 +1,55 @@
+calls,n change,n other,lens,position,third,auc,low,high
+all,32,144,J-lens,A,early,0.446,0.337,0.553
+all,32,144,J-lens,A,middle,0.44,0.327,0.553
+all,32,144,J-lens,A,late,0.517,0.42,0.615
+all,32,144,J-lens,B,early,0.648,0.551,0.742
+all,32,144,J-lens,B,middle,0.707,0.608,0.797
+all,32,144,J-lens,B,late,0.598,0.489,0.701
+all,32,144,J-lens,C,early,0.798,0.701,0.883
+all,32,144,J-lens,C,middle,0.796,0.702,0.881
+all,32,144,J-lens,C,late,0.853,0.768,0.927
+all,32,144,logit lens,A,early,0.536,0.419,0.659
+all,32,144,logit lens,A,middle,0.483,0.377,0.589
+all,32,144,logit lens,A,late,0.504,0.404,0.6
+all,32,144,logit lens,B,early,0.633,0.54,0.723
+all,32,144,logit lens,B,middle,0.645,0.544,0.745
+all,32,144,logit lens,B,late,0.644,0.54,0.747
+all,32,144,logit lens,C,early,0.798,0.718,0.872
+all,32,144,logit lens,C,middle,0.727,0.645,0.805
+all,32,144,logit lens,C,late,0.803,0.705,0.889
+team,23,118,J-lens,A,early,0.405,0.287,0.534
+team,23,118,J-lens,A,middle,0.405,0.265,0.553
+team,23,118,J-lens,A,late,0.497,0.374,0.612
+team,23,118,J-lens,B,early,0.699,0.587,0.806
+team,23,118,J-lens,B,middle,0.706,0.578,0.811
+team,23,118,J-lens,B,late,0.588,0.446,0.723
+team,23,118,J-lens,C,early,0.745,0.626,0.859
+team,23,118,J-lens,C,middle,0.737,0.616,0.844
+team,23,118,J-lens,C,late,0.847,0.728,0.942
+team,23,118,logit lens,A,early,0.532,0.383,0.67
+team,23,118,logit lens,A,middle,0.487,0.36,0.623
+team,23,118,logit lens,A,late,0.473,0.36,0.588
+team,23,118,logit lens,B,early,0.661,0.547,0.772
+team,23,118,logit lens,B,middle,0.639,0.514,0.753
+team,23,118,logit lens,B,late,0.652,0.524,0.773
+team,23,118,logit lens,C,early,0.718,0.612,0.817
+team,23,118,logit lens,C,middle,0.702,0.607,0.792
+team,23,118,logit lens,C,late,0.83,0.709,0.929
+coordinator,9,26,J-lens,A,early,0.457,0.208,0.718
+coordinator,9,26,J-lens,A,middle,0.5,0.291,0.708
+coordinator,9,26,J-lens,A,late,0.547,0.337,0.75
+coordinator,9,26,J-lens,B,early,0.41,0.206,0.617
+coordinator,9,26,J-lens,B,middle,0.671,0.49,0.844
+coordinator,9,26,J-lens,B,late,0.611,0.402,0.816
+coordinator,9,26,J-lens,C,early,1.0,1.0,1.0
+coordinator,9,26,J-lens,C,middle,0.953,0.866,1.0
+coordinator,9,26,J-lens,C,late,0.842,0.684,0.969
+coordinator,9,26,logit lens,A,early,0.581,0.361,0.793
+coordinator,9,26,logit lens,A,middle,0.415,0.207,0.628
+coordinator,9,26,logit lens,A,late,0.534,0.327,0.741
+coordinator,9,26,logit lens,B,early,0.547,0.347,0.736
+coordinator,9,26,logit lens,B,middle,0.718,0.521,0.896
+coordinator,9,26,logit lens,B,late,0.585,0.376,0.787
+coordinator,9,26,logit lens,C,early,0.996,0.976,1.0
+coordinator,9,26,logit lens,C,middle,0.774,0.597,0.923
+coordinator,9,26,logit lens,C,late,0.697,0.483,0.872

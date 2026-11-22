@@ -1,0 +1,19 @@
+score,third,auc,low,high
+"J-lens, ask words, A",early,0.576,0.462,0.692
+"J-lens, ask words, A",middle,0.591,0.479,0.706
+"J-lens, ask words, A",late,0.671,0.556,0.775
+"J-lens, ask words, B",early,0.555,0.437,0.671
+"J-lens, ask words, B",middle,0.619,0.504,0.732
+"J-lens, ask words, B",late,0.716,0.6,0.818
+"logit lens, ask words, A",early,0.578,0.463,0.687
+"logit lens, ask words, A",middle,0.672,0.562,0.776
+"logit lens, ask words, A",late,0.683,0.574,0.786
+"logit lens, ask words, B",early,0.77,0.683,0.853
+"logit lens, ask words, B",middle,0.722,0.622,0.811
+"logit lens, ask words, B",late,0.713,0.602,0.812
+"difference of means on activations, A, block 10",early,0.584,0.468,0.689
+"difference of means on activations, A, block 31",middle,0.583,0.477,0.689
+"difference of means on activations, A, block 53",late,0.645,0.536,0.755
+"difference of means on activations, B, block 10",early,0.8,0.701,0.883
+"difference of means on activations, B, block 31",middle,0.906,0.852,0.953
+"difference of means on activations, B, block 53",late,0.801,0.716,0.876

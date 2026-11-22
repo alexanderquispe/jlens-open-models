@@ -1,0 +1,13 @@
+lens,position,third,median rank,in top 10,right tool of 14
+J-lens,B,early,79814.0,0.0,0.103
+J-lens,B,middle,37975.5,0.0,0.161
+J-lens,B,late,18231.5,0.0,0.144
+J-lens,C,early,100458.0,0.0,0.13
+J-lens,C,middle,15152.0,0.0,0.291
+J-lens,C,late,4063.25,0.005,0.316
+logit lens,B,early,6840.5,0.0,0.004
+logit lens,B,middle,9093.0,0.0,0.042
+logit lens,B,late,18241.5,0.001,0.098
+logit lens,C,early,5700.5,0.0,0.006
+logit lens,C,middle,4983.5,0.001,0.093
+logit lens,C,late,8223.75,0.006,0.178
