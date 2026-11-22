@@ -32,7 +32,7 @@ from .models import MODELS, LensModel, lens_path
 SKIP_FIRST = 16  # early positions are attention sinks; the reference code leaves them out
 
 parser = argparse.ArgumentParser(description="Fit a Jacobian lens.")
-parser.add_argument("model", choices=[m for m in MODELS if MODELS[m]["lens"].startswith("$")])
+parser.add_argument("model", choices=[m for m in MODELS if (MODELS[m]["lens"] or "").startswith("$")])
 parser.add_argument("--dim-batch", type=int, default=64, help="output dimensions per backward pass (memory, not speed)")
 parser.add_argument("--max-seq-len", type=int, default=128)
 parser.add_argument("--max-prompts", type=int, default=1000)

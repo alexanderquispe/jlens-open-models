@@ -49,6 +49,18 @@ MODELS = {
         "lens": "olmo-3-1025-7b/jlens/Salesforce-wikitext/Olmo-3-1025-7B_jacobian_lens.pt",
         "dtype": torch.bfloat16,
     },
+    # Instruct versions of the OLMo-3 bases, for behaviour (experiment 11). No lens of their own: load them with
+    # LensModel(name, lens=False)
+    "olmo-3-7b-it": {
+        "hf": "allenai/Olmo-3-7B-Instruct",
+        "lens": None,
+        "dtype": torch.bfloat16,
+    },
+    "olmo-3.1-32b-it": {
+        "hf": "allenai/Olmo-3.1-32B-Instruct",
+        "lens": None,
+        "dtype": torch.bfloat16,
+    },
     # 65 GB of weights in bf16: one H200 (141 GB); an 80 GB H100 is too tight with the lens and activations
     "qwen3-32b": {
         "hf": "Qwen/Qwen3-32B",
@@ -105,6 +117,14 @@ MODELS = {
     "qwen3.6-27b-jpp": {
         "hf": "Qwen/Qwen3.6-27B",
         "lens": "qwen3.6-27b/jpp/Salesforce-wikitext/Qwen3.6-27B_jpp_lens.pt",
+        "dtype": torch.bfloat16,
+    },
+    # Qwen3.8-27B (same qwen3_5 architecture as Qwen3.6-27B). Neuronpedia has no lens for it; this one is from
+    # huggingface.co/eyes-ml/Qwen3.8-27B_jacobian-lens (commit f8608c1, Apache-2.0): Neuronpedia's fitter, WikiText-103,
+    # 1000 prompts, target the last block. Downloaded to $JLENS_SHARED/lenses/qwen3.8-27b
+    "qwen3.8-27b": {
+        "hf": "Qwen/Qwen3.8-27B",
+        "lens": "$JLENS_SHARED/lenses/qwen3.8-27b/Qwen3.8-27B_jacobian_lens.pt",
         "dtype": torch.bfloat16,
     },
     # Gemma 2 (final logit softcap) and Gemma 3 (multimodal, like Gemma 4); both have the 1 + weight norm gain.

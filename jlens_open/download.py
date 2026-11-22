@@ -17,4 +17,5 @@ for name in args.models:
     # Weights, config and tokenizer only: Meta's original checkpoint (original/*.pth) would add another 16 GB
     path = snapshot_download(spec["hf"], allow_patterns=["*.json", "*.safetensors", "*.txt", "*.model"])
     print(f"{name}: model in {path}")
-    print(f"{name}: lens in {lens_path(spec)}")  # a lens we fitted is not downloaded
+    if spec["lens"]:
+        print(f"{name}: lens in {lens_path(spec)}")  # a lens we fitted is not downloaded

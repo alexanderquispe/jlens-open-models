@@ -7,3 +7,7 @@ logs/*
 !logs/.gitkeep
 # Raw model outputs when $JLENS_SHARED is not set
 experiments/08_surprise/raw/
+experiments/09_beliefs/raw/
+experiments/10_unlikely_vs_update/raw/
+experiments/11_notice_report/raw/
+experiments/12_belief_survival/raw/
