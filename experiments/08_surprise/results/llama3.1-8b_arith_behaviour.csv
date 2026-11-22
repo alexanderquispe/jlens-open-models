@@ -1,0 +1,12 @@
+quantity,value
+items,602.0
+model knows r (top-1 at r is r),0.9883720930232558
+"surprisal of r, clean (knows)",0.023718319833278656
+surprisal of the near error (knows),9.178654670715332
+surprisal of the far error (knows),11.22981071472168
+surprisal of the swapped operands minus clean (knows),1.3564618825912476
+reuse of r: log p in near minus clean (knows),-3.373525857925415
+reuse of r: log p in far minus clean (knows),-2.660305976867676
+reuse of r: log p in swap minus clean (knows),-0.021777307614684105
+items with a reuse of r (knows),595.0
+"GO (knows >= 0.5, near-error surprisal gap >= 2 nats)",1.0

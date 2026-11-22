@@ -1,0 +1,8 @@
+quantity,value,se,n
+update slope (model on observer),0.6236660617082008,0.01928606314519954,60480.0
+update R^2,0.1429032778355501,,60480.0
+"surprisal corr (model, observer)",0.8682847104891266,,62640.0
+surprisal slope (model on observer),0.852184709751889,0.004057902121617744,62640.0
+mass on one-token integers,0.9996362924575806,,
+jump: fraction of the way to the new level after 3 numbers,0.780027615196175,,
+"GO (slope >= 0.5, corr >= 0.5, fraction >= 0.5)",1.0,,

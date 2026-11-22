@@ -154,8 +154,9 @@ lexicon words kept, and the layers.
 
 ## Caveats
 
-- **The observer is the ground truth by assumption.** It has no outlier process: it reads a one-off wild value as
-  a change followed by a second change to a new level that happens to sit near the old one. A model with a notion
+- **The observer is the ground truth by assumption.** It has no outlier process. It must explain a one-off wild
+  value either as noise larger than it thought or as a change followed by a second change back; on the example
+  worked through in EXPLAINER.md (item 160) it mostly chooses the first, and its noise estimate goes from 5 to 9. A model with a notion
   of outliers may be surprised differently at τ + 1 in the outlier arm. Its hazard (1/30, one change per sequence
   of 30) and level prior are fixed; `analyze.py --hazard` reruns it with another hazard.
 - **Buffering.** The model's own change of prediction is a consequence of the surprise (a mediator). The buffer

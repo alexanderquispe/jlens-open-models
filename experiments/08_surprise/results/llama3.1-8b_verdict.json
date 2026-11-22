@@ -1,0 +1,14 @@
+{
+ "model": "llama3.1-8b",
+ "hazard": 0.03333333333333333,
+ "A_go": true,
+ "A_update_slope": 0.6236660617082008,
+ "A_surprisal_corr": 0.8682847104891266,
+ "A_fraction_after_3": 0.780027615196175,
+ "A_identification_corr": 0.9171487978730961,
+ "B_go": true,
+ "B_knows": 0.9883720930232558,
+ "B_error_surprisal_gap": 9.154936790466309,
+ "B_sample": "items the model knows",
+ "B_items": 602
+}
