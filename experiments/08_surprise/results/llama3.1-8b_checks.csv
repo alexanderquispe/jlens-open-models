@@ -1,0 +1,28 @@
+check,n,max_abs,ok
+A jump: jump - control before tau,1033056,0.0,True
+A jump: outlier - control before tau,1033056,0.0,True
+A jump: jump - outlier through tau,1102176,0.0,True
+A lex_surprise: jump - control before tau,1102176,0.0,True
+A lex_surprise: outlier - control before tau,1102176,0.0,True
+A lex_surprise: jump - outlier through tau,1171296,0.0,True
+A lex_dir: jump - control before tau,1102176,0.0,True
+A lex_dir: outlier - control before tau,1102176,0.0,True
+A lex_dir: jump - outlier through tau,1171296,0.0,True
+A div: jump - control before tau,1102176,0.0,True
+A div: outlier - control before tau,1102176,0.0,True
+A div: jump - outlier through tau,1171296,0.0,True
+A turnover10: jump - control before tau,172176,0.0,True
+A turnover10: outlier - control before tau,172176,0.0,True
+A turnover10: jump - outlier through tau,183696,0.0,True
+B jump: near - clean before the edit,6692,0.0,True
+B jump: far - clean before the edit,6692,0.0,True
+B jump: swap - clean before the edit,3612,0.0,True
+B lex_error: near - clean before the edit,6692,0.0,True
+B lex_error: far - clean before the edit,6692,0.0,True
+B lex_error: swap - clean before the edit,3612,0.0,True
+B div: near - clean before the edit,6692,0.0,True
+B div: far - clean before the edit,6692,0.0,True
+B div: swap - clean before the edit,3612,0.0,True
+B turnover10: near - clean before the edit,6090,0.0,True
+B turnover10: far - clean before the edit,6090,0.0,True
+B turnover10: swap - clean before the edit,3010,0.0,True

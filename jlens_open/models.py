@@ -228,12 +228,13 @@ class LensModel:
         return {self.tok.encode(w, add_special_tokens=False)[0] for w in (word, " " + word)}
 
     @torch.no_grad()
-    def run(self, input_ids, deltas=None, positions=None, store=True):
+    def run(self, input_ids, deltas=None, positions=None, store=True, all_logits=False):
         """Block outputs [n_blocks] of (batch, seq, d) in float32, and the last-position logits.
 
         deltas: optional {layer: (batch, d) tensor} added after that block at `positions`
         (one index per row; default the last position). store=False skips the block outputs
-        (returns None for them), which makes patched runs faster.
+        (returns None for them), which makes patched runs faster. all_logits=True returns the logits at
+        every position, (batch, seq, vocab), instead of the last one.
         """
         outputs = {}
         rows = torch.arange(len(input_ids))
@@ -255,7 +256,8 @@ class LensModel:
 
         handles = [b.register_forward_hook(hook(i)) for i, b in enumerate(self.blocks)]
         try:
-            logits = self.model(input_ids.to(self.device), use_cache=False).logits[:, -1].float()
+            logits = self.model(input_ids.to(self.device), use_cache=False).logits
+            logits = logits.float() if all_logits else logits[:, -1].float()
         finally:
             for h in handles:
                 h.remove()
